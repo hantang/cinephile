@@ -76,13 +76,14 @@ def process(filename):
         logging.info(f"{num}/{len(top250_list)}, next url={url}")
         out = crawler(url, headers, interval)
         top250_list.extend(out)
-
+    
+    dt = datetime.datetime.now()
     if len(top250_list) == total:
         data = {
-            "datetime": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "datetime": dt.strftime("%Y-%m-%d %H:%M:%S"),
             "movies": top250_list,
         }
-
+        filename = "{}-v{}.json".format(filename.split(".")[0], dt.strftime("%Y%m%d"))
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
