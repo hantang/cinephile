@@ -26,10 +26,7 @@ def crawler(url, headers, nums):
     grid_view_list = soup.body.find(id="content").find_all("ol", class_="grid_view")
     for grid_view in grid_view_list:
         for item in grid_view.find_all("li"):
-            # logging.info("list", len(li_list))
-            # for item in li_list:
             rank = item.select_one(".pic em").text
-
             img = item.select_one(".pic img")["src"]
             link = item.select_one(".info .hd a")["href"]
             titles = [strip(title.text) for title in item.select(".info .hd .title")]
@@ -92,4 +89,4 @@ if __name__ == "__main__":
         level=logging.INFO,
         format="%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s %(message)s",
     )
-    process(filename="douban-movie-top250.json")
+    process(filename="data/douban-movie-top250.json")
