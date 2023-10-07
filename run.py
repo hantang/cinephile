@@ -61,12 +61,13 @@ def crawler(url, headers, nums):
 
 def process(filename):
     ua = UserAgent()
-    headers = {"User-agent": ua.random}
+    headers = {"User-agent": ua.chrome}
     logging.info(f"start, headers={headers}")
     
     top250_list = []
     interval = 25
-    for num in range(0, 250, interval):
+    total = 250
+    for num in range(0, total, interval):
         url = url_pattern.format(num)
         if num == 0:
             url = url.split("?")[0]
@@ -74,15 +75,17 @@ def process(filename):
         out = crawler(url, headers, interval)
         top250_list.extend(out)
 
-    data = {
-        "datetime": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "movies": top250_list,
-    }
-
-    logging.info(f"save to {filename}")
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
+    if len(top250_list) == total:
+        data = {
+            "datetime": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "movies": top250_list,
+        }
+        
+        logging.info(f"save to {filename}")
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    else:
+        logging.warning(f"error of top250_list: {len(top250_list)}/{total}")
 
 if __name__ == "__main__":
     logging.basicConfig(
