@@ -1,10 +1,11 @@
 import datetime
 import json
 import logging
-import requests
+# import requests
 
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
+from curl_cffi import requests
 
 
 url_pattern = "https://movie.douban.com/top250?start={}&filter="
@@ -17,7 +18,8 @@ def strip(text):
 
 def crawler(url, headers, nums):
     entries = []
-    response = requests.get(url, headers=headers)
+    # response = requests.get(url, headers=headers)
+    response = requests.get(url, impersonate="chrome110")
     if response.status_code != 200:
         logging.warning(f"error requests: status={response.status_code}, url={url}")
         return entries
@@ -80,7 +82,7 @@ def process(filename):
             "datetime": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "movies": top250_list,
         }
-        
+
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
