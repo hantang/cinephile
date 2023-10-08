@@ -77,7 +77,7 @@ def process(filename):
         out = crawler(url, headers, interval)
         top250_list.extend(out)
     
-    dt = datetime.datetime.now()
+    dt = datetime.datetime.utcnow()
     if len(top250_list) == total:
         data = {
             "datetime": dt.strftime("%Y-%m-%d %H:%M:%S"),
