@@ -1,12 +1,12 @@
 import datetime
 import json
 import logging
-# import requests
+import requests
 
 from pathlib import Path
 from bs4 import BeautifulSoup
+from curl_cffi import requests as requests_cffi
 from fake_useragent import UserAgent
-from curl_cffi import requests
 
 
 url_pattern = "https://movie.douban.com/top250?start={}&filter="
@@ -17,15 +17,26 @@ def strip(text):
     return text.strip().lstrip("/").strip()
 
 
-def crawler(url, headers, nums):
+def get_page(url, headers, request_option):
+    if request_option == "curl_cffi":
+        response = requests_cffi.get(url, impersonate="chrome110")
+    else:
+        response = requests.get(url, headers=headers)
+    page_source = None
+    if response.status_code == 202:
+        page_source = response.text
+    return page_source, response.status_code
+
+
+def crawler(url, headers, nums, request_option):
     entries = []
-    # response = requests.get(url, headers=headers)
-    response = requests.get(url, impersonate="chrome110")
-    if response.status_code != 200:
-        logging.warning(f"error requests: status={response.status_code}, url={url}")
+
+    page, status_code = get_page(url, headers, request_option)
+    if not page:
+        logging.warning(f"error requests: status={status_code}, url={url}")
         return entries
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(page, "html.parser")
     grid_view_list = soup.body.find(id="content").find_all("ol", class_="grid_view")
     for grid_view in grid_view_list:
         for item in grid_view.find_all("li"):
@@ -62,17 +73,20 @@ def crawler(url, headers, nums):
     return entries
 
 
-def process(filename, overwrite=False):
+def process(filename, overwrite=False, request_option="curl_cffi"):
     ua = UserAgent()
-    headers = {"User-agent": ua.chrome}
+    headers = {"User-agent": ua.random}
     dt = datetime.datetime.utcnow()
     filename = Path("{}-v{}.json".format(filename.split(".")[0], dt.strftime("%Y%m%d")))
-    logging.info(f"start:" + "\n\t".join(["", f"time={dt}", f"file={filename}", f"headers={headers}"]))
-    
+    info = "\n\t".join(["", f"time={dt}", f"file={filename}", f"headers={headers}"])
+    logging.info(f"start:{info}")
+
     if filename.exists() and not overwrite:
         logging.warning(f"file={filename} exists")
         return
-    
+    if not filename.parent.exists():
+        filename.parent.mkdir(parents=True)
+
     top250_list = []
     interval = 25
     total = 250
@@ -81,20 +95,21 @@ def process(filename, overwrite=False):
         if num == 0:
             url = url.split("?")[0]
         logging.info(f"{num}/{len(top250_list)}, next url={url}")
-        out = crawler(url, headers, interval)
+        out = crawler(url, headers, interval, request_option)
         top250_list.extend(out)
-    
+
     if len(top250_list) == total:
         data = {
             "datetime": dt.strftime("%Y-%m-%d %H:%M:%S"),
             "movies": top250_list,
         }
-        
+
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
     else:
         logging.warning(f"error of top250_list: {len(top250_list)}/{total}")
+
 
 if __name__ == "__main__":
     logging.basicConfig(
