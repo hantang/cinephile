@@ -3,6 +3,7 @@ import json
 import logging
 # import requests
 
+from pathlib import Path
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from curl_cffi import requests
@@ -61,10 +62,16 @@ def crawler(url, headers, nums):
     return entries
 
 
-def process(filename):
+def process(filename, overwrite=False):
     ua = UserAgent()
     headers = {"User-agent": ua.chrome}
-    logging.info(f"start, headers={headers}")
+    dt = datetime.datetime.utcnow()
+    filename = Path("{}-v{}.json".format(filename.split(".")[0], dt.strftime("%Y%m%d")))
+    logging.info(f"start:" + "\n\t".join(["", f"time={dt}", f"file={filename}", f"headers={headers}"]))
+    
+    if filename.exists() and not overwrite:
+        logging.warning(f"file={filename} exists")
+        return
     
     top250_list = []
     interval = 25
@@ -77,13 +84,12 @@ def process(filename):
         out = crawler(url, headers, interval)
         top250_list.extend(out)
     
-    dt = datetime.datetime.utcnow()
     if len(top250_list) == total:
         data = {
             "datetime": dt.strftime("%Y-%m-%d %H:%M:%S"),
             "movies": top250_list,
         }
-        filename = "{}-v{}.json".format(filename.split(".")[0], dt.strftime("%Y%m%d"))
+        
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
