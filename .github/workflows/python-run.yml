@@ -29,7 +29,8 @@ jobs:
     - name: Run Scripts
       run: |
         python run-imdb.py
-        python run.py
+        python run-douban.py
+        python run-mtime.py
     
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
