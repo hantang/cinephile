@@ -1,8 +1,8 @@
 import datetime
 import json
 import logging
-import requests
 import re
+import requests
 
 from pathlib import Path
 from curl_cffi import requests as requests_cffi
@@ -57,7 +57,6 @@ def get_page(request_option="requests", headers=None):
     return page_source
 
 
-
 def parse_imdb_v4(file, source="file", total=250):
     tag1 = '<script id="__NEXT_DATA__" type="application/json">'
     tag2 = "</script>"
@@ -78,15 +77,15 @@ def parse_imdb_v4(file, source="file", total=250):
     if len(items) != total:
         logging.warning(f"error items count = {len(items)}/{total}")
         return data
-    
+
     for item in items:
         node = item["node"]
-        
+
         rank = str(int(item["currentRank"]))
         movie_id = node["id"]
         img_id = node["primaryImage"]["id"]
         video_id = node["latestTrailer"]["id"] if node["latestTrailer"] else ""
-        
+
         link = f"https://www.imdb.com/title/{movie_id}/"
         title = node["titleText"]["text"]
         img = node["primaryImage"]["url"]
@@ -94,11 +93,10 @@ def parse_imdb_v4(file, source="file", total=250):
         runtime = node["runtime"]["seconds"]
         rating = node["certificate"]["rating"] if node["certificate"] else ""
         genre = ",".join([v["genre"]["text"] for v in node["titleGenres"]["genres"]])
-        
+
         score = str(node["ratingsSummary"]["aggregateRating"])
         count = str(node["ratingsSummary"]["voteCount"])
         outline = node["plot"]["plotText"]["plainText"]
-
 
         entry = {
             "rank": rank,

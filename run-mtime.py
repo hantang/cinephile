@@ -2,17 +2,17 @@ import datetime
 import json
 import logging
 import requests
-import re
 import time
-from pathlib import Path
+
 from curl_cffi import requests as requests_cffi
 from fake_useragent import UserAgent
+from pathlib import Path
 
 
 def get_page(request_option="requests", headers=None):
     # url = "http://www.mtime.com/top/movie/top100/indx-{}.html"
     # url = 'http://list.mtime.com/listIndex'
-    url = 'http://front-gateway.mtime.com/library/index/app/topList.api?tt={}&'
+    url = "http://front-gateway.mtime.com/library/index/app/topList.api?tt={}&"
     json_data = None
 
     timestamp = int(round(time.time() * 1000))
@@ -26,7 +26,6 @@ def get_page(request_option="requests", headers=None):
         json_data = response.json()
 
     return json_data
-
 
 
 def process(filename, overwrite=False, request_option="requests"):
@@ -45,15 +44,12 @@ def process(filename, overwrite=False, request_option="requests"):
 
     json_data = get_page(request_option, headers=headers)
     if json_data:
-        movieList = json_data['data']['movieTopList']['topListInfos']
-        movieCnt = len(movieList[0]['items'])
+        movieList = json_data["data"]["movieTopList"]["topListInfos"]
+        movieCnt = len(movieList[0]["items"])
         logging.info(f"Top movies = {movieCnt}")
-        assert  movieCnt > 0
-        
-        data = {
-            "datetime": dt.strftime("%Y-%m-%d %H:%M:%S"),
-            "movieList": movieList
-        }
+        assert movieCnt > 0
+
+        data = {"datetime": dt.strftime("%Y-%m-%d %H:%M:%S"), "movieList": movieList}
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
