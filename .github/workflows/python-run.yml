@@ -31,6 +31,7 @@ jobs:
         python run-imdb.py
         python run-douban.py
         python run-mtime.py
+        python run-maoyan.py
     
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
