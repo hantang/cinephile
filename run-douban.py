@@ -3,10 +3,10 @@ import json
 import logging
 import requests
 
-from pathlib import Path
 from bs4 import BeautifulSoup
 from curl_cffi import requests as requests_cffi
 from fake_useragent import UserAgent
+from pathlib import Path
 
 
 url_pattern = "https://movie.douban.com/top250?start={}&filter="
