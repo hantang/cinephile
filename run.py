@@ -23,7 +23,7 @@ def get_page(url, headers, request_option):
     else:
         response = requests.get(url, headers=headers)
     page_source = None
-    if response.status_code == 202:
+    if response.status_code == 200:
         page_source = response.text
     return page_source, response.status_code
 
