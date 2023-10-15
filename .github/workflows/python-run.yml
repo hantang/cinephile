@@ -29,7 +29,7 @@ jobs:
     - name: Run Scripts
       run: |
         cd src
-        python run.py --sites douban imdb mtime maoyan --savedir ../data
+        python run.py --sites douban imdb mtime maoyan tmdb --savedir ../data
 
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
