@@ -1,7 +1,13 @@
 import argparse
 import logging
 
-from crawlers import DoubanCrawler, ImdbCrawler, MaoyanCrawler, MtimeCrawler
+from crawlers import (
+    DoubanCrawler,
+    ImdbCrawler,
+    MaoyanCrawler,
+    MtimeCrawler,
+    TmdbCrawler,
+)
 
 
 def download(savedir, sites):
@@ -18,6 +24,8 @@ def download(savedir, sites):
             crawler = MtimeCrawler(savedir, request_option="requests")
         elif site == "maoyan":
             crawler = MaoyanCrawler(savedir, request_option="requests")
+        elif site == "tmdb":
+            crawler = TmdbCrawler(savedir, request_option="curl_cffi")
 
         if crawler:
             result = crawler.process()

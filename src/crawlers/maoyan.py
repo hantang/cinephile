@@ -88,8 +88,7 @@ class MaoyanCrawler(BaseCrawler):
     """
     - desktop: https://www.maoyan.com/board/4
     - mobile: https://i.maoyan.com/asgard/board/aggregation
-    https://i.maoyan.com/asgard/asgardapi/mmdb/movieboard/moviedetail/fixedboard/39.json?ci=1&year=0&term=0&limit=100&offset=0
-
+    - api: https://i.maoyan.com/asgard/asgardapi/mmdb/movieboard/moviedetail/fixedboard/39.json?ci=1&year=0&term=0&limit=100&offset=0
     """
 
     def __init__(self, savedir, overwrite=False, request_option="requests"):

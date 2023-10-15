@@ -95,7 +95,7 @@ class DoubanCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -1
+            return -2
 
         top_list = []
         for num in range(self.page_start, self.page_end):
