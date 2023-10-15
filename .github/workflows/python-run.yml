@@ -28,11 +28,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Scripts
       run: |
-        python run-imdb.py
-        python run-douban.py
-        python run-mtime.py
-        python run-maoyan.py
-    
+        cd src
+        python run.py --sites douban imdb mtime maoyan --savedir ../data
+
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Automated Change
