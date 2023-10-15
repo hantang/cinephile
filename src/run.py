@@ -7,6 +7,7 @@ from crawlers import (
     MaoyanCrawler,
     MtimeCrawler,
     TmdbCrawler,
+    DoubanWeeklyCrawler,
 )
 
 
@@ -26,6 +27,8 @@ def download(savedir, sites):
             crawler = MaoyanCrawler(savedir, request_option="requests")
         elif site == "tmdb":
             crawler = TmdbCrawler(savedir, request_option="curl_cffi")
+        elif site == "douban-weekly":
+            crawler = DoubanWeeklyCrawler(savedir)
 
         if crawler:
             result = crawler.process()

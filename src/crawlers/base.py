@@ -94,7 +94,7 @@ class BaseCrawler:
     def save(self, top_list, **kwargs):
         key_more = "more"
         data = {
-            "datetime": self.dt.strftime("%Y-%m-%d %H:%M:%S"),
+            "datetime": self.dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "source": self.baseurl.split("?")[0],
         }
         for k, v in kwargs.items():
