@@ -2,6 +2,7 @@ import argparse
 import datetime
 import logging
 from pathlib import Path
+import traceback
 
 from crawlers import (
     DoubanCrawler,
@@ -37,11 +38,14 @@ def download(savedir, sites):
         elif site == "douban-weekly":
             crawler = DoubanWeeklyCrawler(savedir + "douban-weekly")
 
-        if crawler:
-            count, result = crawler.process()
-        logging.info(f"result = {count}\n\n")
-        if result:
-            stats[site] = result
+        try:
+            if crawler:
+                count, result = crawler.process()
+                logging.info(f"result = {count}\n\n")
+                if result:
+                    stats[site] = result
+        except:
+            traceback.print_exc()
     return stats
 
 
@@ -133,7 +137,7 @@ def readme(dt, stats):
 
     logging.info(f"save to {readfile}")
     with open(readfile, "w") as fw:
-        fw.write("\n\n".join(md_out))
+        fw.write("\n\n".join(md_out) + "\n")
     logging.info("done")
 
 
@@ -152,5 +156,6 @@ if __name__ == "__main__":
 
     dt = datetime.datetime.utcnow()
     stats = download(args.savedir, args.sites)
-    readme(dt, stats)
+    if len(stats) > 0:
+        readme(dt, stats)
     logging.info(f"done\n")
