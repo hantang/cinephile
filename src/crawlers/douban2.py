@@ -33,7 +33,7 @@ class DoubanWeeklyCrawler(BaseCrawler):
         self.page_interval = 20
         self.total_items = self.page_interval * self.page_end
         self.request_option = request_option
-        self.path_info = [
+        self.desc_info = [
             {"desc": "实时热门电影（20部）", "key": "movie_real_time_hotest"},
             {"desc": "实时热门书影音（20个）", "key": "subject_real_time_hotest"},
             {"desc": "一周口碑电影榜（10部）", "key": "movie_weekly_best"},
@@ -45,7 +45,7 @@ class DoubanWeeklyCrawler(BaseCrawler):
             "Referer": "https://m.douban.com/",
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
         }
-
+        self.description = "豆瓣实时和近期热门"
         self.init_save()
 
     def get_url(self, key):
@@ -64,11 +64,11 @@ class DoubanWeeklyCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
 
         top_list = []
-        n = len(self.path_info)
-        for i, info in enumerate(self.path_info):
+        n = len(self.desc_info)
+        for i, info in enumerate(self.desc_info):
             desc, key = info["desc"], info["key"]
             url = self.get_url(key)
             logging.info(f"crawl {i+1}/{n} info={info}, url = {url}")
@@ -90,7 +90,10 @@ class DoubanWeeklyCrawler(BaseCrawler):
 
         logging.info(f"save to data, top_list = {len(top_list)}")
         self.save(top_list)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output
 
     def save(self, top_list, **kwargs):
         data = {
@@ -103,3 +106,36 @@ class DoubanWeeklyCrawler(BaseCrawler):
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         logging.info("save done")
+
+    def get_output(self, top_list, limit):
+        output = []
+        for entry in top_list:
+            desc = entry["description"]
+            items = entry["items"]
+            i = 0
+            parts = []
+            for item in items:
+                i += 1
+                rank = item.get("rank")
+                if not rank:
+                    rank = item.get("rank_value", i)
+                rank = int(rank)
+
+                while rank > i:
+                    parts.append("")
+                    i += 1
+                if i > limit:
+                    break
+
+                title = item["title"]
+                year = item.get("year")
+                if not year:
+                    year = item.get("card_subtitle", "").split("/")[0].strip()
+                score = item["rating"]["value"]
+                type_name = item.get("type_name", "电影")
+                img = item["pic"]["normal"]
+                text = f"{title} ({year}) ⭐{score}"
+                text_more = "" if type_name == "电影" else f" [{type_name}]"
+                parts.append([img, text + text_more])
+            output.append({"desc": desc, "items": parts})
+        return output
