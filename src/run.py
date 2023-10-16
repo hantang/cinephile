@@ -10,25 +10,28 @@ from crawlers import (
     DoubanWeeklyCrawler,
 )
 
+BASEDIR = ".."
+
 
 def download(savedir, sites):
     stats = {}
+    savedir = "{}/{}/".format(BASEDIR, savedir.split("./")[-1].strip("/"))
     for site in sites:
         logging.info("process:\n" + "\n".join(["=" * 50, " " * 20 + site, "=" * 50]))
 
         crawler, result = None, ""
         if site == "douban":
-            crawler = DoubanCrawler(savedir, request_option="curl_cffi")
+            crawler = DoubanCrawler(savedir + "douban", request_option="curl_cffi")
         elif site == "imdb":
-            crawler = ImdbCrawler(savedir, request_option="requests")
+            crawler = ImdbCrawler(savedir + "imdb", request_option="requests")
         elif site == "mtime":
-            crawler = MtimeCrawler(savedir, request_option="requests")
+            crawler = MtimeCrawler(savedir + "misc", request_option="requests")
         elif site == "maoyan":
-            crawler = MaoyanCrawler(savedir, request_option="requests")
+            crawler = MaoyanCrawler(savedir + "misc", request_option="requests")
         elif site == "tmdb":
-            crawler = TmdbCrawler(savedir, request_option="curl_cffi")
+            crawler = TmdbCrawler(savedir + "misc", request_option="curl_cffi")
         elif site == "douban-weekly":
-            crawler = DoubanWeeklyCrawler(savedir)
+            crawler = DoubanWeeklyCrawler(savedir + "douban-weekly")
 
         if crawler:
             result = crawler.process()
