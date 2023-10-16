@@ -131,3 +131,25 @@ class BaseCrawler:
     @NotImplementedError
     def get_page_by_selenium(self, url):
         return None
+
+    def get_output(self, top_list, limit):
+        output = []
+        i = 0
+        for entry in top_list:
+            i += 1
+            rank = int(entry["rank"])
+            while rank > i:
+                output.append("")
+                i += 1
+            if i > limit:
+                break
+
+            title = entry["title"]
+            if isinstance(title, list):
+                title = title[0]
+            year = str(entry["info"].get("year", ""))[:4]
+            score = entry["star"].get("score", "")
+            output.append(f"{title} ({year}) ⭐{score}")
+        if limit - len(output) > 0:
+            output += [""] * (limit - len(output))
+        return output

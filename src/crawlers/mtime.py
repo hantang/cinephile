@@ -22,6 +22,7 @@ class MtimeCrawler(BaseCrawler):
         self.page_interval = 100
         self.total_items = self.page_interval * self.page_end
         self.request_option = request_option
+        self.description = "时光电影榜单Top100"
         self.init_save()
 
     def get_url(self, param):
@@ -52,19 +53,44 @@ class MtimeCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
         timestamp = int(round(time.time() * 1000))
         url = self.get_url(timestamp)
         logging.info(f"crawl num={self.page_end}, url = {url}")
 
         page = self.get_page(url)
         if not page:
-            return -1
+            return -1, None
         logging.info(f"parse page, page={len(page)}")
+
         all_list = page["data"]["movieTopList"]["topListInfos"]
         top_list = all_list[0]["items"]
-
         logging.info(f"save to data, top_list = {len(top_list)}")
+
         extra = {"more": all_list}
         self.save(top_list, **extra)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output
+
+    def get_output(self, top_list, limit):
+        output = []
+        i = 0
+        for entry in top_list:
+            i += 1
+            rank = int(entry["rank"])
+            while rank > i:
+                output.append("")
+                i += 1
+            if i > limit:
+                break
+            entry = entry["movieInfo"]
+            title = entry["movieName"]
+            year = entry["releaseDate"][:4]
+            score = entry["score"]
+            output.append(f"{title} ({year}) ⭐{score}")
+
+        if limit - len(output) > 0:
+            output += [""] * (limit - len(output))
+        return output

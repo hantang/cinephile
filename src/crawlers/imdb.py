@@ -83,6 +83,7 @@ class ImdbCrawler(BaseCrawler):
         self.page_interval = 250
         self.total_items = self.page_interval * self.page_end
         self.request_option = request_option
+        self.description = "IMDb电影Top250"
         self.init_save()
 
     def get_url(self, param):
@@ -106,16 +107,19 @@ class ImdbCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
         url = self.get_url(None)
         logging.info(f"crawl num={self.page_end}, url = {url}")
 
         page = self.get_page(url)
         if not page:
-            return -1
+            return -1, None
         logging.info(f"parse page, page={len(page)}")
 
         top_list = self.parse_page(page)
         logging.info(f"save to data, top_list = {len(top_list)}")
         self.save(top_list)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output

@@ -28,7 +28,7 @@ class DoubanCrawler(BaseCrawler):
         self.page_interval = 25
         self.total_items = self.page_interval * self.page_end
         self.request_option = request_option
-
+        self.description = "豆瓣电影Top250"
         self.init_save()
 
     def get_url(self, param):
@@ -95,7 +95,7 @@ class DoubanCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
 
         top_list = []
         for num in range(self.page_start, self.page_end):
@@ -119,4 +119,7 @@ class DoubanCrawler(BaseCrawler):
 
         logging.info(f"save to data, top_list = {len(top_list)}")
         self.save(top_list)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output

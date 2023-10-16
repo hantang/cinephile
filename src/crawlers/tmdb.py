@@ -20,7 +20,9 @@ class TmdbCrawler(BaseCrawler):
         self.page_end = 15
         self.page_interval = 20
         self.total_items = self.page_interval * self.page_end
+        self.total_items2 = 250
         self.request_option = request_option
+        self.description = "TMDB高分电影"
         self.init_save()
 
     def get_url(self, param, lang=False):
@@ -72,7 +74,7 @@ class TmdbCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
 
         top_list = []
         rank = 1
@@ -109,4 +111,31 @@ class TmdbCrawler(BaseCrawler):
 
         logging.info(f"save to data, top_list = {len(top_list)}")
         self.save(top_list)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items2)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output
+
+    def get_output(self, top_list, limit):
+        output = []
+        key_lang = self.params_lang.split("=")[-1]
+        i = 0
+        for entry in top_list:
+            i += 1
+            rank = int(entry["rank"])
+            while rank > i:
+                output.append("")
+                i += 1
+            if i > limit:
+                break
+            title = (
+                "{} / {}".format(entry["title"], entry["titles"].get(key_lang, ""))
+                .strip()
+                .strip("/")
+            )
+            year = entry["date"].split(",")[-1].strip()[:4]
+            score = "{:.2f}".format(float(entry["star"]["score"]))
+            output.append(f"{title} ({year}) ⭐{score}")
+        if limit - len(output) > 0:
+            output += [""] * (limit - len(output))
+        return output

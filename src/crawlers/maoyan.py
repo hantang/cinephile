@@ -102,6 +102,7 @@ class MaoyanCrawler(BaseCrawler):
         self.page_interval = 100
         self.total_items = self.page_interval * self.page_end
         self.request_option = request_option
+        self.description = "猫眼电影Top100"
         self.init_save()
 
     def get_url(self, param):
@@ -132,18 +133,42 @@ class MaoyanCrawler(BaseCrawler):
 
     def process(self):
         if self.check() and not self.overwrite:
-            return -2
+            return -2, None
         url = self.get_url(self.total_items)
         logging.info(f"crawl num={self.page_end}, url = {url}")
 
         page = self.get_page(url)
         if not page:
-            return -1
+            return -1, None
         logging.info(f"parse page, page={len(page)}")
 
         top_list, updateTime = self.parse_page(page)
-
         logging.info(f"save to data, top_list = {len(top_list)}")
+
         extra = {"update": updateTime}
         self.save(top_list, **extra)
-        return len(top_list)
+
+        output = self.get_output(top_list, self.total_items)
+        output = {"desc": self.description, "items": output}
+        return len(top_list), output
+
+    def get_output(self, top_list, limit):
+        output = []
+        i = 0
+        for entry in top_list:
+            i += 1
+            rank = int(entry["rank"])
+            while rank > i:
+                output.append("")
+                i += 1
+            if i > limit:
+                break
+
+            title = entry["nm"]
+            year = entry["pubDesc"][:4]
+            score = entry["sc"]
+            output.append(f"{title} ({year}) ⭐{score}")
+
+        if limit - len(output) > 0:
+            output += [""] * (limit - len(output))
+        return output
