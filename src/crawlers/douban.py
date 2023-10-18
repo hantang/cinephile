@@ -65,9 +65,11 @@ class DoubanCrawler(BaseCrawler):
         info_keys = ["director", "actor", "year", "region", "genre"]
         for item in items:
             rank = item.select_one(".pic em").text
-            img = item.select_one(".pic img")["src"]
+            t1 = item.select_one(".pic img")
+            img = t1["src"]
+            title = t1["alt"]
             link = item.select_one(".info .hd a")["href"]
-            titles = [strip(title.text) for title in item.select(".info .hd .title")]
+            title2 = [strip(ti.text) for ti in item.select(".info .hd .title")]
             info = strip(item.select_one(".info .bd p").text)
             info_values = [
                 strip(v)
@@ -85,7 +87,8 @@ class DoubanCrawler(BaseCrawler):
                 "rank": rank,
                 "cover": img,
                 "link": link,
-                "title": titles,
+                "title": title,
+                "title2": title2,
                 "info": dict(zip(info_keys, info_values)),
                 "star": {"score": star_score, "count": star_count.split("人")[0]},
                 "quote": quote,
