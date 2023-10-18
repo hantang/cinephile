@@ -2,3 +2,4 @@ beautifulsoup4
 fake_useragent
 requests
 curl_cffi
+pytz
