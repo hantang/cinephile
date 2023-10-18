@@ -69,7 +69,10 @@ class DoubanCrawler(BaseCrawler):
             img = t1["src"]
             title = t1["alt"]
             link = item.select_one(".info .hd a")["href"]
-            title2 = [strip(ti.text) for ti in item.select(".info .hd .title")]
+            # title2 = [strip(ti.text) for ti in item.select(".info .hd .title")]
+            title2 = [
+                strip(ti.text) for ti in item.select_one(".info .hd a").find_all("span")
+            ]
             info = strip(item.select_one(".info .bd p").text)
             info_values = [
                 strip(v)
