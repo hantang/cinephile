@@ -1,0 +1,59 @@
+site_name: cinéphile
+site_url: https://hantang.github.io/cinephile
+repo_url: https://github.com/hantang/cinephile
+# edit_uri: tree/main
+site_description: 电影榜单集合
+# docs_dir: docs/
+copyright: Copyright &copy; 2023 Hantang
+
+theme:
+  name: material
+  # custom_dir: theme
+  # icon:
+  #   logo: material/book-open-page-variant
+  language: "zh"
+  palette:
+    # scheme: dracula
+    primary: deep purple
+    accent: deep purple
+  font:
+    text: Helvetica Neue # Roboto
+    code: Roboto Mono
+  features:
+    - announce.dismiss
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.indexes
+    - navigation.path
+    - toc.follow
+    - content.tabs.link
+    - search.share
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotations
+
+nav:
+  - Home:
+      - Films: index.md
+  # - FAQ:
+  # - About:
+  #   - Changelog: about/changelog.md
+  #   - License: about/license.md
+
+markdown_extensions:
+  - footnotes
+  - abbr
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hantang
+
+# extra_css:
+# extra_javascript:
+
+plugins:
+  - search:
