@@ -73,13 +73,17 @@ class DoubanCrawler(BaseCrawler):
             title2 = [
                 strip(ti.text) for ti in item.select_one(".info .hd a").find_all("span")
             ]
-            info = strip(item.select_one(".info .bd p").text)
-            info_values = [
-                strip(v)
-                for val in info.split("\n")
-                for v in val.strip().split("\xa0")
-                if len(strip(v)) > 0
+            info = [v.strip() for v in strip(item.select_one("p").text).split("\n")]
+            info_values0 = [
+                strip(v) for v in info[0].split("\xa0") if len(strip(v)) > 0
             ]
+            info_values1 = [
+                strip(v) for v in info[1].split("\xa0") if len(strip(v)) > 0
+            ]
+            info_values0 += [""] * max(0, 2 - len(info_values0))
+            info_values1 += [""] * max(0, 3 - len(info_values1))
+            info_values = info_values0 + info_values1
+
             star = item.select_one(".info .bd .star")
             star_score = star.select_one(".rating_num").text
             star_count = star.find_all("span")[-1].text
