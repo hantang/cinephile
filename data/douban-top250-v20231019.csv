@@ -1,0 +1,251 @@
+Title 电影,Director 导演,Rank 排名,Score 打分,Alias 别名,Year 年份,Region 地区,Genre 类型
+[肖申克的救赎](https://movie.douban.com/subject/1292052/),弗兰克·德拉邦特 Frank Darabont,🎉001,🌟9.7,The Shawshank Redemption / 月黑高飞(港)  /  刺激1995(台),1994,美国,犯罪 剧情
+[霸王别姬](https://movie.douban.com/subject/1291546/),陈凯歌 Kaige Chen,🎉002,🌟9.6,再见，我的妾  /  Farewell My Concubine,1993,中国大陆 中国香港,剧情 爱情 同性
+[阿甘正传](https://movie.douban.com/subject/1292720/),罗伯特·泽米吉斯 Robert Zemeckis,🎉003,🌟9.5,Forrest Gump / 福雷斯特·冈普,1994,美国,剧情 爱情
+[泰坦尼克号](https://movie.douban.com/subject/1292722/),詹姆斯·卡梅隆 James Cameron,🎉004,🌟9.5,Titanic / 铁达尼号(港 / 台),1997,美国 墨西哥,剧情 爱情 灾难
+[这个杀手不太冷](https://movie.douban.com/subject/1295644/),吕克·贝松 Luc Besson,🎉005,🌟9.4,Léon / 终极追杀令(台)  /  杀手莱昂,1994,法国 美国,剧情 动作 犯罪
+[千与千寻](https://movie.douban.com/subject/1291561/),宫崎骏 Hayao Miyazaki,🎉006,🌟9.4,千と千尋の神隠し / 神隐少女(台)  /  千与千寻的神隐,2001,日本,剧情 动画 奇幻
+[美丽人生](https://movie.douban.com/subject/1292063/),罗伯托·贝尼尼 Roberto Benigni,🎉007,🌟9.6,La vita è bella / 一个快乐的传说(港)  /  Life Is Beautiful,1997,意大利,剧情 喜剧 爱情 战争
+[星际穿越](https://movie.douban.com/subject/1889243/),克里斯托弗·诺兰 Christopher Nolan,🎉008,🌟9.4,Interstellar / 星际启示录(港)  /  星际效应(台),2014,美国 英国 加拿大,剧情 科幻 冒险
+[辛德勒的名单](https://movie.douban.com/subject/1295124/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉009,🌟9.6,Schindler's List / 舒特拉的名单(港)  /  辛德勒名单,1993,美国,剧情 历史 战争
+[盗梦空间](https://movie.douban.com/subject/3541415/),克里斯托弗·诺兰 Christopher Nolan,🎉010,🌟9.4,Inception / 潜行凶间(港)  /  全面启动(台),2010,美国 英国,剧情 科幻 悬疑 冒险
+[楚门的世界](https://movie.douban.com/subject/1292064/),彼得·威尔 Peter Weir,🎉011,🌟9.4,The Truman Show / 真人Show(港)  /  真人戏,1998,美国,剧情 科幻
+[忠犬八公的故事](https://movie.douban.com/subject/3011091/),莱塞·霍尔斯道姆 Lasse Hallström,🎉012,🌟9.4,Hachi: A Dog's Tale / 秋田犬八千(港)  /  忠犬小八(台),2009,美国 英国,剧情
+[海上钢琴师](https://movie.douban.com/subject/1292001/),朱塞佩·托纳多雷 Giuseppe Tornatore,🎉013,🌟9.3,La leggenda del pianista sull'oceano / 声光伴我飞(港)  /  一九零零的传奇,1998,意大利,剧情 音乐
+[三傻大闹宝莱坞](https://movie.douban.com/subject/3793023/),拉库马·希拉尼 Rajkumar Hirani,🎉014,🌟9.2,3 Idiots / 三个傻瓜(台)  /  作死不离3兄弟(港),2009,印度,剧情 喜剧 爱情 歌舞
+[放牛班的春天](https://movie.douban.com/subject/1291549/),克里斯托夫·巴拉蒂 Christophe Barratier,🎉015,🌟9.3,Les choristes / 歌声伴我心(港)  /  唱诗班男孩,2004,法国 瑞士 德国,剧情 音乐
+[机器人总动员](https://movie.douban.com/subject/2131459/),安德鲁·斯坦顿 Andrew Stanton,🎉016,🌟9.3,WALL·E / 太空奇兵·威E(港)  /  瓦力(台),2008,美国,科幻 动画 冒险
+[疯狂动物城](https://movie.douban.com/subject/25662329/),拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore,🎉017,🌟9.2,Zootopia / 优兽大都会(港)  /  动物方城市(台),2016,美国,喜剧 动画 冒险
+[无间道](https://movie.douban.com/subject/1307914/),刘伟强 / 麦兆辉,🎉018,🌟9.3,無間道 / Infernal Affairs  /  Mou gaan dou,2002,中国香港,剧情 犯罪 惊悚
+[控方证人](https://movie.douban.com/subject/1296141/),比利·怀尔德 Billy Wilder,🎉019,🌟9.6,Witness for the Prosecution / 雄才伟略  /  情妇,1957,美国,剧情 犯罪 悬疑
+[大话西游之大圣娶亲](https://movie.douban.com/subject/1292213/),刘镇伟 Jeffrey Lau,🎉020,🌟9.2,西遊記大結局之仙履奇緣 / 西游记完结篇仙履奇缘  /  齐天大圣西游记,1995,中国香港 中国大陆,喜剧 爱情 奇幻 古装
+[熔炉](https://movie.douban.com/subject/5912992/),黄东赫 Dong-hyuk Hwang,🎉021,🌟9.4,도가니 / 无声呐喊(港)  /  漩涡,2011,韩国,剧情
+[教父](https://movie.douban.com/subject/1291841/),弗朗西斯·福特·科波拉 Francis Ford Coppola,🎉022,🌟9.3,The Godfather / Mario Puzo's The Godfather,1972,美国,剧情 犯罪
+[触不可及](https://movie.douban.com/subject/6786002/),奥利维·那卡什 Olivier Nakache / 艾力克·托兰达 Eric Toledano,🎉023,🌟9.3,Intouchables / 闪亮人生(港)  /  逆转人生(台),2011,法国,剧情 喜剧
+[当幸福来敲门](https://movie.douban.com/subject/1849031/),加布里尔·穆奇诺 Gabriele Muccino,🎉024,🌟9.2,The Pursuit of Happyness / 寻找快乐的故事(港)  /  追求快乐,2006,美国,剧情 传记 家庭
+[末代皇帝](https://movie.douban.com/subject/1293172/),贝纳尔多·贝托鲁奇 Bernardo Bertolucci,🎉025,🌟9.3,The Last Emperor / 末代皇帝溥仪(港)  /  L'ultimo imperatore,1987,英国 意大利 中国大陆 法国,剧情 传记 历史
+[寻梦环游记](https://movie.douban.com/subject/20495023/),李·昂克里奇 Lee Unkrich / 阿德里安·莫利纳 Adrian Molina,🎉026,🌟9.1,Coco / 玩转极乐园(港)  /  可可夜总会(台),2017,美国,喜剧 动画 奇幻 音乐
+[龙猫](https://movie.douban.com/subject/1291560/),宫崎骏 Hayao Miyazaki,🎉027,🌟9.2,となりのトトロ / 邻居托托罗  /  邻家的豆豆龙,1988,日本,动画 奇幻 冒险
+[怦然心动](https://movie.douban.com/subject/3319755/),罗伯·莱纳 Rob Reiner,🎉028,🌟9.1,Flipped / 萌动青春  /  青春萌动,2010,美国,剧情 喜剧 爱情
+[活着](https://movie.douban.com/subject/1292365/),张艺谋 Yimou Zhang,🎉029,🌟9.3,人生  /  Lifetimes,1994,中国大陆 中国香港,剧情 历史 家庭
+[蝙蝠侠：黑暗骑士](https://movie.douban.com/subject/1851857/),克里斯托弗·诺兰 Christopher Nolan,🎉030,🌟9.2,The Dark Knight / 蝙蝠侠前传2：黑暗骑士  /  黑暗骑士(台),2008,美国 英国,剧情 动作 科幻 犯罪 惊悚
+[哈利·波特与魔法石](https://movie.douban.com/subject/1295038/),Chris Columbus,🎉031,🌟9.2,Harry Potter and the Sorcerer's Stone / 哈利波特1：神秘的魔法石(港 / 台),2001,美国 英国,奇幻 冒险
+[指环王3：王者无敌](https://movie.douban.com/subject/1291552/),彼得·杰克逊 Peter Jackson,🎉032,🌟9.3,The Lord of the Rings: The Return of the King / 魔戒三部曲：王者再临(台 / 港),2003,美国 新西兰,剧情 动作 奇幻 冒险
+[我不是药神](https://movie.douban.com/subject/26752088/),文牧野 Muye Wen,🎉033,🌟9.0,中国药神  /  印度药神,2018,中国大陆,剧情 喜剧
+[乱世佳人](https://movie.douban.com/subject/1300267/),维克多·弗莱明 Victor Fleming / 乔治·库克 George Cukor,🎉034,🌟9.3,Gone with the Wind / 飘,1939,美国,剧情 历史 爱情 战争
+[飞屋环游记](https://movie.douban.com/subject/2129039/),彼特·道格特 Pete Docter / 鲍勃·彼德森 Bob Peterson,🎉035,🌟9.1,Up / 冲天救兵(港)  /  天外奇迹(台),2009,美国,剧情 喜剧 动画 冒险
+[素媛](https://movie.douban.com/subject/21937452/),李濬益 Jun-ik Lee,🎉036,🌟9.3,소원 / 许愿  /  希望：为爱重生(台),2013,韩国,剧情
+[哈尔的移动城堡](https://movie.douban.com/subject/1308807/),宫崎骏 Hayao Miyazaki,🎉037,🌟9.1,ハウルの動く城 / 哈尔移动城堡(港)  /  霍尔的移动城堡(台),2004,日本,动画 奇幻 冒险
+[十二怒汉](https://movie.douban.com/subject/1293182/),Sidney Lumet,🎉038,🌟9.4,12 Angry Men / 12怒汉  /  十二怒汉,1957,美国,剧情
+[何以为家](https://movie.douban.com/subject/30170448/),娜丁·拉巴基 Nadine Labaki,🎉039,🌟9.1,كفرناحوم / 迦百农  /  星仔打官司(港),2018,黎巴嫩 美国 法国 塞浦路斯 卡塔尔 英国,剧情
+[摔跤吧！爸爸](https://movie.douban.com/subject/26387939/),涅提·蒂瓦里 Nitesh Tiwari,🎉040,🌟9.0,Dangal / 我和我的冠军女儿(台)  /  打死不离3父女(港),2016,印度,剧情 传记 运动 家庭
+[让子弹飞](https://movie.douban.com/subject/3742360/),姜文 Wen Jiang,🎉041,🌟9.0,让子弹飞一会儿  /  火烧云,2010,中国大陆 中国香港,剧情 喜剧 动作 西部
+[猫鼠游戏](https://movie.douban.com/subject/1305487/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉042,🌟9.1,Catch Me If You Can / 逍遥法外  /  捉智双雄(港),2002,美国 加拿大,传记 犯罪 剧情
+[天空之城](https://movie.douban.com/subject/1291583/),宫崎骏 Hayao Miyazaki,🎉043,🌟9.2,天空の城ラピュタ / 天空之城拉普他  /  空中城堡拉普他,1986,日本,动画 奇幻 冒险
+[鬼子来了](https://movie.douban.com/subject/1291858/),姜文 Wen Jiang,🎉044,🌟9.3,Devils on the Doorstep,2000,中国大陆,剧情 喜剧
+[少年派的奇幻漂流](https://movie.douban.com/subject/1929463/),李安 Ang Lee,🎉045,🌟9.1,Life of Pi / 少年Pi的奇幻漂流  /  漂流少年Pi,2012,美国 中国台湾 英国 加拿大,剧情 奇幻 冒险
+[海蒂和爷爷](https://movie.douban.com/subject/25958717/),阿兰·葛斯彭纳 Alain Gsponer,🎉046,🌟9.3,Heidi / 飘零燕(港)  /  海蒂,2015,德国 瑞士,剧情 冒险 家庭
+[钢琴家](https://movie.douban.com/subject/1296736/),罗曼·波兰斯基 Roman Polanski,🎉047,🌟9.3,The Pianist / 钢琴战曲(港)  /  战地琴人(台),2002,英国 法国 波兰 德国,剧情 传记 战争 音乐
+[大话西游之月光宝盒](https://movie.douban.com/subject/1299398/),刘镇伟 Jeffrey Lau,🎉048,🌟9.0,西遊記第壹佰零壹回之月光寶盒 / 西游记101回月光宝盒  /  齐天大圣东游记,1995,中国香港 中国大陆,喜剧 爱情 奇幻 古装
+[指环王2：双塔奇兵](https://movie.douban.com/subject/1291572/),彼得·杰克逊 Peter Jackson,🎉049,🌟9.2,The Lord of the Rings: The Two Towers / 魔戒二部曲：双城奇谋  /  指环王II：双塔,2002,美国 新西兰,剧情 动作 奇幻 冒险
+[闻香识女人](https://movie.douban.com/subject/1298624/),马丁·布莱斯 Martin Brest,🎉050,🌟9.1,Scent of a Woman / 女人香  /  女人的芳香,1992,美国,剧情
+[死亡诗社](https://movie.douban.com/subject/1291548/),彼得·威尔 Peter Weir,🎉051,🌟9.2,Dead Poets Society / 暴雨骄阳(港)  /  春风化雨(台),1989,美国,剧情
+[罗马假日](https://movie.douban.com/subject/1293839/),威廉·惠勒 William Wyler,🎉052,🌟9.1,Roman Holiday / 金枝玉叶(港)  /  罗马假期(台),1953,美国,喜剧 剧情 爱情
+[绿皮书](https://movie.douban.com/subject/27060077/),彼得·法雷里 Peter Farrelly,🎉053,🌟8.9,Green Book / 绿簿旅友(港)  /  幸福绿皮书(台),2018,美国 中国大陆,剧情 喜剧 传记 音乐
+[大闹天宫](https://movie.douban.com/subject/1418019/),万籁鸣 Laiming Wan,🎉054,🌟9.4,大闹天宫 上下集  /  The Monkey King,1961,中国大陆,剧情 动画 奇幻 古装
+[天堂电影院](https://movie.douban.com/subject/1291828/),朱塞佩·托纳多雷 Giuseppe Tornatore,🎉055,🌟9.2,Nuovo Cinema Paradiso / 星光伴我心(港)  /  新天堂乐园(台),1988,意大利 法国,剧情 爱情
+[指环王1：护戒使者](https://movie.douban.com/subject/1291571/),彼得·杰克逊 Peter Jackson,🎉056,🌟9.1,The Lord of the Rings: The Fellowship of the Ring / 指环王1：魔戒再现  /  指环王I：护戒使者,2001,新西兰 美国,剧情 动作 奇幻 冒险
+[黑客帝国](https://movie.douban.com/subject/1291843/),安迪·沃卓斯基 Andy Wachowski / 拉娜·沃卓斯基 Lana Wachowski,🎉057,🌟9.1,The Matrix / 22世纪杀人网络(港)  /  廿二世纪杀人网络(港),1999,美国,动作 科幻
+[教父2](https://movie.douban.com/subject/1299131/),弗朗西斯·福特·科波拉 Francis Ford Coppola,🎉058,🌟9.3,The Godfather: Part II / 教父续集(港)  /  教父II,1974,美国,剧情 犯罪
+[狮子王](https://movie.douban.com/subject/1301753/),Roger Allers / 罗伯·明可夫 Rob Minkoff,🎉059,🌟9.1,The Lion King / 狮子王3D,1994,美国,动画 冒险 歌舞
+[辩护人](https://movie.douban.com/subject/21937445/),杨宇硕 Woo-seok Yang,🎉060,🌟9.2,변호인 / 逆权大状(港)  /  正义辩护人(台),2013,韩国,剧情
+[饮食男女](https://movie.douban.com/subject/1291818/),李安 Ang Lee,🎉061,🌟9.2,飲食男女 / Eat Drink Man Woman,1994,中国台湾 美国,剧情 家庭
+[搏击俱乐部](https://movie.douban.com/subject/1292000/),大卫·芬奇 David Fincher,🎉062,🌟9.0,Fight Club / 搏击会(港)  /  斗阵俱乐部(台),1999,美国,剧情 动作 悬疑 惊悚
+[本杰明·巴顿奇事](https://movie.douban.com/subject/1485260/),大卫·芬奇 David Fincher,🎉063,🌟9.0,The Curious Case of Benjamin Button / 奇幻逆缘(港)  /  班杰明的奇幻旅程(台),2008,美国,剧情 爱情 奇幻
+[美丽心灵](https://movie.douban.com/subject/1306029/),朗·霍华德 Ron Howard,🎉064,🌟9.1,A Beautiful Mind / 有你终生美丽(港)  /  美丽境界(台),2001,美国,传记 剧情
+[穿条纹睡衣的男孩](https://movie.douban.com/subject/3008247/),马克·赫尔曼 Mark Herman,🎉065,🌟9.2,The Boy in the Striped Pajamas / 穿条纹衣服的男孩  /  穿条纹衣的男孩,2008,英国 美国,剧情 战争
+[窃听风暴](https://movie.douban.com/subject/1900841/),弗洛里安·亨克尔·冯·多纳斯马尔克 Florian Henckel von Donnersmarck,🎉066,🌟9.2,Das Leben der Anderen / 窃听者(港)  /  他人的生活,2006,德国,剧情 悬疑
+[情书](https://movie.douban.com/subject/1292220/),岩井俊二 Shunji Iwai,🎉067,🌟8.9,Love Letter / When I Close My Eyes  /  Letters of Love,1995,日本,剧情 爱情
+[两杆大烟枪](https://movie.douban.com/subject/1293350/),盖·里奇 Guy Ritchie,🎉068,🌟9.1,"Lock, Stock and Two Smoking Barrels / 够姜四小强(港)  /  两根枪管(台)",1998,英国,剧情 喜剧 犯罪
+[西西里的美丽传说](https://movie.douban.com/subject/1292402/),朱塞佩·托纳多雷 Giuseppe Tornatore,🎉069,🌟8.9,Malèna / 真爱伴我行(台)  /  玛莲娜,2000,意大利 美国,剧情 战争 情色
+[看不见的客人](https://movie.douban.com/subject/26580232/),奥里奥尔·保罗 Oriol Paulo,🎉070,🌟8.8,Contratiempo / 死无对证(港)  /  布局(台),2016,西班牙,剧情 犯罪 悬疑 惊悚
+[音乐之声](https://movie.douban.com/subject/1294408/),罗伯特·怀斯 Robert Wise,🎉071,🌟9.1,The Sound of Music / 仙乐飘飘处处闻(港)  /  真善美(台),1965,美国,剧情 传记 爱情 歌舞
+[阿凡达](https://movie.douban.com/subject/1652587/),詹姆斯·卡梅隆 James Cameron,🎉072,🌟8.8,Avatar / ,2009,美国,动作 科幻 冒险
+[拯救大兵瑞恩](https://movie.douban.com/subject/1292849/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉073,🌟9.1,Saving Private Ryan / 雷霆救兵(港)  /  抢救雷恩大兵(台),1998,美国,剧情 战争
+[哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235/),大卫·叶茨 David Yates,🎉074,🌟9.0,Harry Potter and the Deathly Hallows: Part 2 / 哈利波特7：死神的圣物2(港 / 台),2011,美国 英国,奇幻 冒险
+[飞越疯人院](https://movie.douban.com/subject/1292224/),米洛斯·福尔曼 Miloš Forman,🎉075,🌟9.1,One Flew Over the Cuckoo's Nest / 飞越杜鹃窝(台)  /  飞越喜鹊巢,1975,美国,剧情
+[小鞋子](https://movie.douban.com/subject/1303021/),马基德·马基迪 Majid Majidi,🎉076,🌟9.2,بچه های آسمان / 天堂的孩子  /  小童鞋,1997,伊朗,剧情 儿童 家庭
+[沉默的羔羊](https://movie.douban.com/subject/1293544/),乔纳森·戴米 Jonathan Demme,🎉077,🌟8.9,The Silence of the Lambs / 沉默的羔羊,1991,美国,剧情 犯罪 惊悚
+[布达佩斯大饭店](https://movie.douban.com/subject/11525673/),韦斯·安德森 Wes Anderson,🎉078,🌟8.9,The Grand Budapest Hotel / 布达佩斯大酒店(港)  /  欢迎来到布达佩斯大饭店(台),2014,美国 德国 英国,剧情 喜剧 冒险
+[禁闭岛](https://movie.douban.com/subject/2334904/),Martin Scorsese,🎉079,🌟8.9,Shutter Island / 不赦岛(港)  /  隔离岛(台),2010,美国,剧情 悬疑 惊悚
+[功夫](https://movie.douban.com/subject/1291543/),周星驰 Stephen Chow,🎉080,🌟8.8,功夫3D  /  Kung Fu Hustle,2004,中国大陆 中国香港,动作 喜剧 犯罪 奇幻
+[蝴蝶效应](https://movie.douban.com/subject/1292343/),埃里克·布雷斯 Eric Bress / J·麦基·格鲁伯 J. Mackye Gruber,🎉081,🌟8.9,The Butterfly Effect / 蝴蝶效应,2004,美国 加拿大,剧情 悬疑 科幻 惊悚
+[致命魔术](https://movie.douban.com/subject/1780330/),克里斯托弗·诺兰 Christopher Nolan,🎉082,🌟8.9,The Prestige / 死亡魔法(港)  /  顶尖对决(台),2006,英国 美国,剧情 悬疑 惊悚
+[哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544/),Alfonso Cuarón,🎉083,🌟8.9,Harry Potter and the Prisoner of Azkaban / 哈利波特3：阿兹卡班的逃犯(港 / 台),2004,英国 美国,奇幻 冒险
+[心灵捕手](https://movie.douban.com/subject/1292656/),格斯·范·桑特 Gus Van Sant,🎉084,🌟8.9,Good Will Hunting / 骄阳似我(港)  /  心灵捕手,1997,美国,剧情
+[超脱](https://movie.douban.com/subject/5322596/),托尼·凯耶 Tony Kaye,🎉085,🌟9.0,Detachment / 人间师格(台),2011,美国,剧情
+[海豚湾](https://movie.douban.com/subject/3442220/),路易·西霍尤斯 Louie Psihoyos,🎉086,🌟9.3,The Cove / 血色海湾(台)  /  海湾,2009,美国,纪录片
+[低俗小说](https://movie.douban.com/subject/1291832/),昆汀·塔伦蒂诺 Quentin Tarantino,🎉087,🌟8.9,Pulp Fiction / 危险人物(港)  /  黑色追缉令(台),1994,美国,剧情 喜剧 犯罪
+[春光乍泄](https://movie.douban.com/subject/1292679/),王家卫 Kar Wai Wong,🎉088,🌟9.0,春光乍洩 / 一起快乐  /  Happy Together,1997,中国香港 日本 韩国,剧情 爱情 同性
+[摩登时代](https://movie.douban.com/subject/1294371/),查理·卓别林 Charles Chaplin,🎉089,🌟9.3,Modern Times / The Masses  /  Les Temps modernes,1936,美国,剧情 喜剧 爱情
+[美国往事](https://movie.douban.com/subject/1292262/),赛尔乔·莱翁内 Sergio Leone,🎉090,🌟9.2,Once Upon a Time in America / 四海兄弟(台)  /  义薄云天(港),1984,美国 意大利,犯罪 剧情
+[喜剧之王](https://movie.douban.com/subject/1302425/),周星驰 Stephen Chow / 李力持 Lik-Chi Lee,🎉091,🌟8.8,喜劇之王 / King of Comedy,1999,中国香港,喜剧 剧情 爱情
+[致命ID](https://movie.douban.com/subject/1297192/),詹姆斯·曼高德 James Mangold,🎉092,🌟8.9,Identity / 杀人游戏  /  致命身份,2003,美国,剧情 悬疑 惊悚
+[杀人回忆](https://movie.douban.com/subject/1300299/),奉俊昊 Joon-ho Bong,🎉093,🌟8.9,살인의 추억 / 谋杀回忆  /  杀手回忆录,2003,韩国,剧情 动作 犯罪 悬疑 惊悚
+[七宗罪](https://movie.douban.com/subject/1292223/),大卫·芬奇 David Fincher,🎉094,🌟8.8,Se7en / 火线追缉令(台)  /  7宗罪,1995,美国,剧情 犯罪 悬疑 惊悚
+[红辣椒](https://movie.douban.com/subject/1865703/),今敏 Satoshi Kon,🎉095,🌟9.1,パプリカ / 盗梦侦探(港 / 台),2006,日本,动画 悬疑 科幻 惊悚
+[加勒比海盗](https://movie.douban.com/subject/1298070/),戈尔·维宾斯基 Gore Verbinski,🎉096,🌟8.8,Pirates of the Caribbean: The Curse of the Black Pearl / 加勒比海盗1：黑珍珠号的诅咒  /  神鬼奇航：鬼盗船魔咒(台),2003,美国,动作 冒险 奇幻
+[哈利·波特与密室](https://movie.douban.com/subject/1296996/),Chris Columbus,🎉097,🌟8.9,Harry Potter and the Chamber of Secrets / 哈利波特2：消失的密室(港 / 台),2002,英国 美国,奇幻 冒险
+[一一](https://movie.douban.com/subject/1292434/),杨德昌 Edward Yang,🎉098,🌟9.1,Yi yi  /  Yi yi: A One and a Two,2000,中国台湾 日本,剧情 爱情 家庭
+[狩猎](https://movie.douban.com/subject/6985810/),托马斯·温特伯格 Thomas Vinterberg,🎉099,🌟9.1,Jagten / 诬网(港)  /  谎言的烙印(台),2012,丹麦 瑞典,剧情
+[唐伯虎点秋香](https://movie.douban.com/subject/1306249/),李力持 Lik-Chi Lee,🎉100,🌟8.7,唐伯虎點秋香 / Flirting Scholar,1993,中国香港,喜剧 爱情 古装
+[7号房的礼物](https://movie.douban.com/subject/10777687/),李焕庆 Hwan-kyeong Lee,🎉101,🌟8.9,7번방의 선물 / 戆爸的礼物(港)  /  7号囚房的礼物,2013,韩国,剧情 喜剧 家庭
+[被嫌弃的松子的一生](https://movie.douban.com/subject/1787291/),中岛哲也 Tetsuya Nakashima,🎉102,🌟8.9,嫌われ松子の一生 / 花样奇缘(港)  /  令人讨厌的松子的一生(台),2006,日本,剧情 歌舞
+[请以你的名字呼唤我](https://movie.douban.com/subject/26799731/),卢卡·瓜达尼诺 Luca Guadagnino,🎉103,🌟8.8,Call Me by Your Name / 以你的名字呼唤我(港 / 台),2017,意大利 法国 巴西 美国,剧情 爱情 同性
+[蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373/),克里斯托弗·诺兰 Christopher Nolan,🎉104,🌟8.8,The Dark Knight Rises / 蝙蝠侠前传3：黑暗骑士崛起  /  黑暗骑士：黎明升起(台),2012,美国 英国,剧情 动作 科幻 犯罪 惊悚
+[断背山](https://movie.douban.com/subject/1418834/),李安 Ang Lee,🎉105,🌟8.8,Brokeback Mountain / 断臂山  /  BBM,2005,美国 加拿大,剧情 爱情 同性 家庭
+[剪刀手爱德华](https://movie.douban.com/subject/1292370/),蒂姆·波顿 Tim Burton,🎉106,🌟8.7,Edward Scissorhands / 幻海奇缘(港)  /  剪刀手爱德华,1990,美国,剧情 奇幻 爱情
+[爱在黎明破晓前](https://movie.douban.com/subject/1296339/),理查德·林克莱特 Richard Linklater,🎉107,🌟8.8,Before Sunrise / 情留半天(港)  /  爱在黎明破晓时(台),1995,美国 奥地利 瑞士,剧情 爱情
+[入殓师](https://movie.douban.com/subject/2149806/),泷田洋二郎 Yôjirô Takita,🎉108,🌟8.9,おくりびと / 礼仪师之奏鸣曲(港)  /  礼仪师(台),2008,日本,剧情
+[第六感](https://movie.douban.com/subject/1297630/),M·奈特·沙马兰 M. Night Shyamalan,🎉109,🌟8.9,The Sixth Sense / 鬼眼(港)  /  灵异第六感(台),1999,美国,剧情 悬疑 惊悚
+[重庆森林](https://movie.douban.com/subject/1291999/),王家卫 Kar Wai Wong,🎉110,🌟8.8,重慶森林 / Chungking Express,1994,中国香港,剧情 爱情
+[勇敢的心](https://movie.douban.com/subject/1294639/),梅尔·吉布森 Mel Gibson,🎉111,🌟8.9,Braveheart / 惊世未了缘(港)  /  梅尔吉勃逊之英雄本色(台),1995,美国,动作 传记 剧情 历史 战争
+[超能陆战队](https://movie.douban.com/subject/11026735/),唐·霍尔 Don Hall / 克里斯·威廉姆斯 Chris Williams,🎉112,🌟8.7,Big Hero 6 / 大英雄联盟(港)  /  大英雄天团(台),2014,美国,喜剧 动作 科幻 动画 冒险
+[甜蜜蜜](https://movie.douban.com/subject/1305164/),陈可辛 Peter Chan,🎉113,🌟8.9,Comrades: Almost a Love Story,1996,中国香港,剧情 爱情
+[幽灵公主](https://movie.douban.com/subject/1297359/),宫崎骏 Hayao Miyazaki,🎉114,🌟8.9,もののけ姫 / 魔法公主(港)  /  魔法公主(台),1997,日本,动画 奇幻 冒险
+[爱在日落黄昏时](https://movie.douban.com/subject/1291990/),理查德·林克莱特 Richard Linklater,🎉115,🌟8.9,Before Sunset / 日落巴黎(港)  /  爱在日落巴黎时(台),2004,美国 法国,剧情 爱情
+[菊次郎的夏天](https://movie.douban.com/subject/1293359/),北野武 Takeshi Kitano,🎉116,🌟8.9,菊次郎の夏 / 菊次郎之夏  /  Kikujirô no natsu,1999,日本,剧情 喜剧
+[借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302/),米林宏昌 Hiromasa Yonebayashi,🎉117,🌟8.9,借りぐらしのアリエッティ / 借物少女艾莉缇(台)  /  借东西的小矮人亚莉亚蒂(港),2010,日本,动画 奇幻 冒险
+[消失的爱人](https://movie.douban.com/subject/21318488/),大卫·芬奇 David Fincher,🎉118,🌟8.7,Gone Girl / 失踪的女孩  /  失踪女孩,2014,美国,剧情 犯罪 悬疑 惊悚
+[阳光灿烂的日子](https://movie.douban.com/subject/1291875/),姜文 Wen Jiang,🎉119,🌟8.8,In the Heat of the Sun,1994,中国大陆 中国香港,剧情 爱情
+[天使爱美丽](https://movie.douban.com/subject/1292215/),让-皮埃尔·热内 Jean-Pierre Jeunet,🎉120,🌟8.7,Le fabuleux destin d'Amélie Poulain / 艾蜜莉的异想世界(台)  /  天使艾米莉,2001,法国 德国,剧情 喜剧 爱情
+[完美的世界](https://movie.douban.com/subject/1300992/),克林特·伊斯特伍德 Clint Eastwood,🎉121,🌟9.1,A Perfect World / 强盗保镳,1993,美国,剧情 犯罪
+[寄生虫](https://movie.douban.com/subject/27010768/),奉俊昊 Joon-ho Bong,🎉122,🌟8.8,기생충 / 寄生上流(台)  /  上流寄生族(港),2019,韩国,剧情
+[小森林 夏秋篇](https://movie.douban.com/subject/25814705/),森淳一 Junichi Mori,🎉123,🌟9.0,リトル・フォレスト 夏・秋 / 小森食光 / 夏秋篇(台),2014,日本,剧情
+[无人知晓](https://movie.douban.com/subject/1292337/),是枝裕和 Hirokazu Koreeda,🎉124,🌟9.1,誰も知らない / 谁知赤子心(港)  /  无人知晓的夏日清晨(台),2004,日本,剧情
+[倩女幽魂](https://movie.douban.com/subject/1297447/),程小东 Siu-Tung Ching,🎉125,🌟8.8,倩女幽魂(87版)  /  倩女幽魂：妖魔道,1987,中国香港,爱情 奇幻 武侠 古装
+[时空恋旅人](https://movie.douban.com/subject/10577869/),理查德·柯蒂斯 Richard Curtis,🎉126,🌟8.8,About Time / 回到最爱的一天(港)  /  真爱每一天(台),2013,英国,喜剧 爱情 奇幻
+[侧耳倾听](https://movie.douban.com/subject/1297052/),近藤喜文 Yoshifumi Kondo,🎉127,🌟8.9,耳をすませば / 心之谷(台)  /  梦幻街少女(港),1995,日本,剧情 爱情 动画
+[幸福终点站](https://movie.douban.com/subject/1292274/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉128,🌟8.8,The Terminal / 机场客运站(港)  /  航站情缘(台),2004,美国,喜剧 剧情 爱情
+[未麻的部屋](https://movie.douban.com/subject/1395091/),今敏 Satoshi Kon,🎉129,🌟9.1,Perfect Blue / 蓝色恐惧(港 / 台),1997,日本,动画 奇幻 惊悚
+[小森林 冬春篇](https://movie.douban.com/subject/25814707/),森淳一 Junichi Mori,🎉130,🌟9.0,リトル・フォレスト 冬・春 / 小森食光 / 冬春篇(台),2015,日本,剧情
+[驯龙高手](https://movie.douban.com/subject/2353023/),迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders,🎉131,🌟8.8,How to Train Your Dragon / 驯龙记(港),2010,美国,动画 奇幻 冒险
+[哈利·波特与火焰杯](https://movie.douban.com/subject/1309055/),迈克·内威尔 Mike Newell,🎉132,🌟8.8,Harry Potter and the Goblet of Fire / 哈利波特4：火杯的考验(港 / 台),2005,英国 美国,悬疑 奇幻 冒险
+[一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357/),汉内斯·赫尔姆 Hannes Holm,🎉133,🌟8.9,En man som heter Ove / 明天别再来敲门(台)  /  想死冇咁易(港),2015,瑞典,剧情
+[教父3](https://movie.douban.com/subject/1294240/),弗朗西斯·福特·科波拉 Francis Ford Coppola,🎉134,🌟9.0,The Godfather: Part III / 教父第三集  /  教父 III,1990,美国,剧情 犯罪
+[怪兽电力公司](https://movie.douban.com/subject/1291579/),彼特·道格特 Pete Docter / 大卫·斯沃曼 David Silverman,🎉135,🌟8.8,"Monsters, Inc. / 怪兽公司(港)  /  怪物公司",2001,美国,儿童 喜剧 动画 奇幻 冒险
+[萤火之森](https://movie.douban.com/subject/5989818/),大森贵弘 Takahiro Omori,🎉136,🌟8.9,蛍火の杜へ / 萤火之社  /  Hotarubi no mori e,2011,日本,剧情 爱情 动画 奇幻
+[傲慢与偏见](https://movie.douban.com/subject/1418200/),乔·怀特 Joe Wright,🎉137,🌟8.7,Pride & Prejudice / 傲慢与偏见2005  /  Pride And Prejudice,2005,法国 英国 美国,剧情 爱情
+[玩具总动员3](https://movie.douban.com/subject/1858711/),李·昂克里奇 Lee Unkrich,🎉138,🌟8.9,Toy Story 3 / 反斗奇兵3(港)  /  玩具的故事3,2010,美国,喜剧 动画 奇幻 冒险
+[新世界](https://movie.douban.com/subject/10437779/),朴勋政 Hoon-jung Park,🎉139,🌟8.9,신세계 / 暗黑新世界(台)  /  New World,2013,韩国,剧情 犯罪
+[釜山行](https://movie.douban.com/subject/25986180/),延尚昊 Sang-ho Yeon,🎉140,🌟8.6,부산행 / 尸杀列车(港)  /  尸速列车(台),2016,韩国,动作 惊悚 灾难
+[被解救的姜戈](https://movie.douban.com/subject/6307447/),昆汀·塔伦蒂诺 Quentin Tarantino,🎉141,🌟8.8,Django Unchained / 被解放的姜戈  /  决杀令(台),2012,美国,剧情 动作 西部 冒险
+[神偷奶爸](https://movie.douban.com/subject/3287562/),皮艾尔·柯芬 Pierre Coffin / 克里斯·雷纳德 Chris Renaud,🎉142,🌟8.7,Despicable Me / 卑鄙的我  /  坏蛋奖门人(港),2010,美国 法国,喜剧 动画 冒险
+[玛丽和马克思](https://movie.douban.com/subject/3072124/),亚当·艾略特 Adam Elliot,🎉143,🌟9.0,Mary and Max / 巧克力情缘(台)  /  同是天涯寂寞客,2009,澳大利亚 美国,剧情 喜剧 动画
+[告白](https://movie.douban.com/subject/4268598/),中岛哲也 Tetsuya Nakashima,🎉144,🌟8.8,自白  /  母亲,2010,日本,剧情 悬疑
+[茶馆](https://movie.douban.com/subject/1461403/),谢添 Tian Xie,🎉145,🌟9.6,The Teahouse,1982,中国大陆,剧情 历史
+[哪吒闹海](https://movie.douban.com/subject/1307315/),王树忱 Shuchen Wang / 严定宪 Dingxian Yan,🎉146,🌟9.2,Prince Nezha's Triumph Against Dragon King  /  Nezha Conquers the Dragon King,1979,中国大陆,冒险 动画 奇幻
+[大鱼](https://movie.douban.com/subject/1291545/),蒂姆·波顿 Tim Burton,🎉147,🌟8.8,Big Fish / 大鱼奇缘(港)  /  大智若鱼(台),2003,美国,剧情 家庭 奇幻 冒险
+[九品芝麻官](https://movie.douban.com/subject/1297518/),王晶 Jing Wong,🎉148,🌟8.7,九品芝麻官之白面包青天  /  Hail the Judge,1994,中国香港 中国大陆,剧情 喜剧 古装
+[喜宴](https://movie.douban.com/subject/1303037/),李安 Ang Lee,🎉149,🌟9.0,囍宴 / The Wedding Banquet,1993,中国台湾 美国,剧情 喜剧 爱情 同性 家庭
+[色，戒](https://movie.douban.com/subject/1828115/),李安 Ang Lee,🎉150,🌟8.7,色|戒  /  色·戒,2007,中国台湾 中国大陆 美国 中国香港,剧情 爱情 情色
+[模仿游戏](https://movie.douban.com/subject/10463953/),莫滕·泰杜姆 Morten Tyldum,🎉151,🌟8.8,The Imitation Game / 解码游戏(港)  /  模拟游戏,2014,英国 美国,剧情 传记 战争 同性
+[头号玩家](https://movie.douban.com/subject/4920389/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉152,🌟8.7,Ready Player One / 玩家一号  /  挑战者1号(港),2018,美国,动作 科幻 冒险
+[射雕英雄传之东成西就](https://movie.douban.com/subject/1316510/),刘镇伟 Jeffrey Lau,🎉153,🌟8.7,射鵰英雄傳之東成西就 / 东成西就  /  大英雄 (日本),1993,中国香港,喜剧 奇幻 武侠 古装
+[花样年华](https://movie.douban.com/subject/1291557/),王家卫 Kar Wai Wong,🎉154,🌟8.7,花樣年華 / In the Mood for Love,2000,中国香港,剧情 爱情
+[我是山姆](https://movie.douban.com/subject/1306861/),杰茜·尼尔森 Jessie Nelson,🎉155,🌟9.0,I Am Sam / 不一样的爸爸(港)  /  他不笨，他是我爸爸(台),2001,美国,剧情 家庭
+[阳光姐妹淘](https://movie.douban.com/subject/4917726/),姜炯哲 Hyeong-Cheol Kang,🎉156,🌟8.8,써니 / 阳光姊妹淘(港)  /  桑尼,2011,韩国,剧情 喜剧
+[头脑特工队](https://movie.douban.com/subject/10533913/),彼特·道格特 Pete Docter / 罗纳尔多·德尔·卡门 Ronaldo Del Carmen,🎉157,🌟8.8,Inside Out / 玩转脑朋友(港)  /  脑筋急转弯(台),2015,美国,喜剧 动画 冒险
+[血战钢锯岭](https://movie.douban.com/subject/26325320/),梅尔·吉布森 Mel Gibson,🎉158,🌟8.7,Hacksaw Ridge / 钢锯岭  /  钢铁英雄(台),2016,澳大利亚 美国,剧情 传记 历史 战争
+[七武士](https://movie.douban.com/subject/1295399/),黑泽明 Akira Kurosawa,🎉159,🌟9.3,七人の侍 / 七侠四义(港)  /  七剑客(港),1954,日本,动作 冒险 剧情
+[恐怖直播](https://movie.douban.com/subject/21360417/),金秉祐 Byeong-woo Kim,🎉160,🌟8.7,더 테러 라이브 / 死亡“动”新闻(港)  /  恐怖攻击直播(台),2013,韩国,剧情 犯罪 悬疑
+[惊魂记](https://movie.douban.com/subject/1293181/),阿尔弗雷德·希区柯克 Alfred Hitchcock,🎉161,🌟9.0,Psycho / 精神病患者  /  触目惊心(港),1960,美国,悬疑 惊悚 恐怖
+[黑客帝国3：矩阵革命](https://movie.douban.com/subject/1302467/),拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski,🎉162,🌟8.8,The Matrix Revolutions / 22世纪杀人网络3：惊变世纪(港)  /  骇客任务完结篇：最后战役(台),2003,美国,动作 科幻
+[你的名字。](https://movie.douban.com/subject/26683290/),新海诚 Makoto Shinkai,🎉163,🌟8.5,君の名は。 / 你的名字  /  君之名,2016,日本,剧情 爱情 动画
+[电锯惊魂](https://movie.douban.com/subject/1417598/),詹姆斯·温 James Wan,🎉164,🌟8.8,Saw / 恐惧斗室(港)  /  夺魂锯(台),2004,美国,悬疑 惊悚 恐怖
+[三块广告牌](https://movie.douban.com/subject/26611804/),马丁·麦克唐纳 Martin McDonagh,🎉165,🌟8.7,"Three Billboards Outside Ebbing, Missouri / 广告牌杀人事件(港)  /  意外(台)",2017,英国 美国,剧情 犯罪
+[达拉斯买家俱乐部](https://movie.douban.com/subject/1793929/),让-马克·瓦雷 Jean-Marc Vallée,🎉166,🌟8.8,Dallas Buyers Club / 续命枭雄(港)  /  药命俱乐部(台),2013,美国,剧情 传记 同性
+[疯狂原始人](https://movie.douban.com/subject/1907966/),科克·德·米科 Kirk De Micco / 克里斯·桑德斯 Chris Sanders,🎉167,🌟8.7,The Croods / 古鲁家族(港 / 台),2013,美国,喜剧 动画 冒险
+[心迷宫](https://movie.douban.com/subject/25917973/),忻钰坤 Yukun Xin,🎉168,🌟8.7,殡棺  /  The Coffin in the Mountain,2014,中国大陆,剧情 犯罪 悬疑
+[谍影重重3](https://movie.douban.com/subject/1578507/),保罗·格林格拉斯 Paul Greengrass,🎉169,🌟8.8,The Bourne Ultimatum / 叛谍追击3：最后通牒(港)  /  神鬼认证：最后通牒 (台),2007,美国 德国 法国 英国,动作 悬疑 惊悚
+[上帝之城](https://movie.douban.com/subject/1292208/),费尔南多·梅里尔斯 Fernando Meirelles / 卡迪亚·兰德 Kátia Lund,🎉170,🌟9.0,Cidade de Deus / 无主之城(港)  /  无法无天(台),2002,巴西 法国,犯罪 剧情
+[英雄本色](https://movie.douban.com/subject/1297574/),吴宇森 John Woo,🎉171,🌟8.6,A Better Tomorrow  /  Gangland Boss,1986,中国香港,剧情 动作 犯罪
+[风之谷](https://movie.douban.com/subject/1291585/),宫崎骏 Hayao Miyazaki,🎉172,🌟8.9,風の谷のナウシカ / 风谷少女  /  Kaze no tani no Naushika,1984,日本,动画 奇幻 冒险
+[纵横四海](https://movie.douban.com/subject/1295409/),吴宇森 John Woo,🎉173,🌟8.8,緃横四海 / Once a Thief,1991,中国香港,剧情 喜剧 动作 犯罪
+[卢旺达饭店](https://movie.douban.com/subject/1291822/),特瑞·乔治 Terry George,🎉174,🌟8.9,Hotel Rwanda / 卢安达饭店(台),2004,英国 南非 意大利 美国,剧情 传记 历史 战争
+[爱在午夜降临前](https://movie.douban.com/subject/10808442/),理查德·林克莱特 Richard Linklater,🎉175,🌟8.9,Before Midnight / 情约半生(港)  /  爱在午夜希腊时(台),2013,美国 希腊,剧情 爱情
+[海街日记](https://movie.douban.com/subject/25895901/),是枝裕和 Hirokazu Koreeda,🎉176,🌟8.8,海街diary / 海街女孩日记(港)  /  Kamakura Diary,2015,日本,剧情 家庭
+[绿里奇迹](https://movie.douban.com/subject/1300374/),弗兰克·德拉邦特 Frank Darabont,🎉177,🌟8.9,The Green Mile / 绿色奇迹(台)  /  绿色英里,1999,美国,犯罪 剧情 奇幻 悬疑
+[记忆碎片](https://movie.douban.com/subject/1304447/),克里斯托弗·诺兰 Christopher Nolan,🎉178,🌟8.7,Memento / 凶心人(港)  /  记忆拼图(台),2000,美国,犯罪 剧情 悬疑 惊悚
+[小丑](https://movie.douban.com/subject/27119724/),托德·菲利普斯 Todd Phillips,🎉179,🌟8.7,Joker / 小丑起源电影：罗密欧  /  Romeo,2019,美国 加拿大,剧情 犯罪 惊悚
+[疯狂的石头](https://movie.douban.com/subject/1862151/),宁浩 Hao Ning,🎉180,🌟8.6,Crazy Stone,2006,中国大陆 中国香港,喜剧 犯罪
+[背靠背，脸对脸](https://movie.douban.com/subject/1307856/),黄建新 Jianxin Huang / 杨亚洲 Yazhou Yang,🎉181,🌟9.5,"背对背，脸对脸  /  Back to Back, Face to Face",1994,中国大陆 中国香港,剧情
+[雨中曲](https://movie.douban.com/subject/1293460/),斯坦利·多南 Stanley Donen / 吉恩·凯利 Gene Kelly,🎉182,🌟9.1,Singin' in the Rain / 万花嬉春(港 / 台),1952,美国,喜剧 歌舞 爱情
+[岁月神偷](https://movie.douban.com/subject/3792799/),罗启锐 Alex Law,🎉183,🌟8.7,歲月神偷 / 1969太空漫游  /  Echoes Of The Rainbow,2010,中国香港 中国大陆,剧情 家庭
+[2001太空漫游](https://movie.douban.com/subject/1292226/),斯坦利·库布里克 Stanley Kubrick,🎉184,🌟8.9,2001: A Space Odyssey / 2001：星际漫游  /  2001：太空奥德赛,1968,英国 美国,科幻 惊悚 冒险
+[忠犬八公物语](https://movie.douban.com/subject/1959195/),神山征二郎 Seijirô Kôyama,🎉185,🌟9.2,ハチ公物語 / 八千公物语  /  阿八的故事,1987,日本,剧情
+[心灵奇旅](https://movie.douban.com/subject/24733428/),彼特·道格特 Pete Docter / 凯普·鲍尔斯 Kemp Powers,🎉186,🌟8.7,Soul / 灵魂奇遇记(港)  /  灵魂急转弯(台),2020,美国,动画 奇幻 音乐
+[荒蛮故事](https://movie.douban.com/subject/24750126/),达米安·斯兹弗隆 Damián Szifron,🎉187,🌟8.8,Relatos salvajes / 蛮荒故事  /  生命中最抓狂的小事(台),2014,阿根廷 西班牙,剧情 喜剧 犯罪
+[无间道2](https://movie.douban.com/subject/1307106/),刘伟强 / 麦兆辉,🎉188,🌟8.7,無間道II / 无间道前传  /  Infernal Affairs II,2003,中国香港,剧情 犯罪 惊悚
+[小偷家族](https://movie.douban.com/subject/27622447/),是枝裕和 Hirokazu Koreeda,🎉189,🌟8.7,万引き家族 / Shoplifters  /  Une Affaire de Famille,2018,日本,剧情 犯罪 家庭
+[无敌破坏王](https://movie.douban.com/subject/6534248/),瑞奇·莫尔 Rich Moore,🎉190,🌟8.7,Wreck-It Ralph / 破坏王拉尔夫  /  破坏王大冒险,2012,美国,喜剧 动画 奇幻 冒险
+[爆裂鼓手](https://movie.douban.com/subject/25773932/),达米恩·查泽雷 Damien Chazelle,🎉191,🌟8.7,Whiplash / 鼓动真我(港)  /  进击的鼓手(台),2014,美国,剧情 音乐
+[冰川时代](https://movie.douban.com/subject/1291578/),卡洛斯·沙尔丹哈 Carlos Saldanha / 克里斯·韦奇 Chris Wedge,🎉192,🌟8.6,Ice Age / 冰河世纪  /  冰原历险记,2002,美国,喜剧 动画 冒险
+[恐怖游轮](https://movie.douban.com/subject/3011051/),克里斯托弗·史密斯 Christopher Smith,🎉193,🌟8.5,Triangle / 汪洋血迷宮(台)  /  轮回三角,2009,英国 澳大利亚,剧情 悬疑 惊悚
+[贫民窟的百万富翁](https://movie.douban.com/subject/2209573/),丹尼·鲍尔 Danny Boyle / 洛芙琳·坦丹 Loveleen Tandan,🎉194,🌟8.6,Slumdog Millionaire / 一百万零一夜(港)  /  贫民百万富翁(台),2008,英国,剧情 爱情
+[东邪西毒](https://movie.douban.com/subject/1292328/),王家卫 Kar Wai Wong,🎉195,🌟8.6,東邪西毒 / Ashes of Time,1994,中国香港 中国台湾,剧情 动作 爱情 武侠 古装
+[牯岭街少年杀人事件](https://movie.douban.com/subject/1292329/),杨德昌 Edward Yang,🎉196,🌟8.9,牯嶺街少年殺人事件 / A Brighter Summer Day,1991,中国台湾,剧情 犯罪
+[魔女宅急便](https://movie.douban.com/subject/1307811/),宫崎骏 Hayao Miyazaki,🎉197,🌟8.7,魔女の宅急便 / 魔女琪琪(台)  /  小魔女限时专送,1989,日本,动画 奇幻 冒险
+[遗愿清单](https://movie.douban.com/subject/1867345/),罗伯·莱纳 Rob Reiner,🎉198,🌟8.7,The Bucket List / 玩转身前事(港)  /  一路玩到挂(台),2007,美国,冒险 喜剧 剧情
+[东京教父](https://movie.douban.com/subject/1310177/),今敏 Satoshi Kon,🎉199,🌟9.0,東京ゴッドファーザーズ / Tokyo Godfathers,2003,日本,剧情 喜剧 动画
+[大佛普拉斯](https://movie.douban.com/subject/27059130/),黄信尧 Hsin-yao Huang,🎉200,🌟8.7,The Great Buddha+,2017,中国台湾,剧情 喜剧
+[你看起来好像很好吃](https://movie.douban.com/subject/4848115/),藤森雅也 Masaya Fujimori,🎉201,🌟8.9,おまえうまそうだな / 你看起来很好吃(台)  /  你看上去好像很好吃,2010,日本,剧情 动画 儿童
+[真爱至上](https://movie.douban.com/subject/1292401/),理查德·柯蒂斯 Richard Curtis,🎉202,🌟8.6,Love Actually / 真的恋爱了(港)  /  爱是您，爱是我(台),2003,英国 美国 法国,喜剧 剧情 爱情
+[黑天鹅](https://movie.douban.com/subject/1978709/),达伦·阿罗诺夫斯基 Darren Aronofsky,🎉203,🌟8.6,Black Swan / 夺命黑天鹅  /  霸王别鹅(豆友译名),2010,美国,剧情 惊悚
+[可可西里](https://movie.douban.com/subject/1308857/),陆川 Chuan Lu,🎉204,🌟8.9,Kekexili: Mountain Patrol,2004,中国大陆 中国香港,剧情 犯罪
+[城市之光](https://movie.douban.com/subject/1293908/),Charles Chaplin,🎉205,🌟9.3,City Lights / City Lights: A Comedy Romance in Pantomime  /  Lichter der Großstadt,1931,美国,喜剧 剧情 爱情
+[源代码](https://movie.douban.com/subject/3075287/),邓肯·琼斯 Duncan Jones,🎉206,🌟8.5,Source Code / 启动原始码(台)  /  危机解密(港),2011,美国 加拿大,科幻 悬疑 惊悚
+[海边的曼彻斯特](https://movie.douban.com/subject/25980443/),肯尼斯·罗纳根 Kenneth Lonergan,🎉207,🌟8.6,Manchester by the Sea / 情系海边之城(港),2016,美国,剧情 家庭
+[雨人](https://movie.douban.com/subject/1291870/),巴瑞·莱文森 Barry Levinson,🎉208,🌟8.7,Rain Man / 手足情未了(港)  /  手足情深,1988,美国,剧情
+[波西米亚狂想曲](https://movie.douban.com/subject/5300054/),布莱恩·辛格 Bryan Singer,🎉209,🌟8.6,Bohemian Rhapsody / 波希米亚狂想曲：摇滚传说(港)  /  波希米亚狂想曲(台),2018,英国 美国,剧情 传记 同性 音乐
+[初恋这件小事](https://movie.douban.com/subject/4739952/),普特鹏·普罗萨卡·那·萨克那卡林 Puttipong Promsaka Na Sakolnakorn / 华森·波克彭...,🎉210,🌟8.5,สิ่งเล็กเล็กที่เรียกว่า...รัก / 初恋那件小事(港)  /  暗恋那点小事,2010,泰国,剧情 喜剧 爱情
+[恋恋笔记本](https://movie.douban.com/subject/1309163/),尼克·卡索维茨 Nick Cassavetes,🎉211,🌟8.5,The Notebook / 忘了·忘不了(港)  /  手札情缘(台),2004,美国,剧情 爱情
+[人工智能](https://movie.douban.com/subject/1302827/),史蒂文·斯皮尔伯格 Steven Spielberg,🎉212,🌟8.7,A.I. Artificial Intelligence / AI人工智慧,2001,美国 英国,剧情 科幻
+[青蛇](https://movie.douban.com/subject/1303394/),徐克 Hark Tsui,🎉213,🌟8.6,Green Snake,1993,中国香港 中国大陆,剧情 爱情 奇幻 古装
+[虎口脱险](https://movie.douban.com/subject/1296909/),杰拉尔·乌里 Gérard Oury,🎉214,🌟8.9,La grande vadrouille / 横冲直撞出重围(港)  /  大進擊(台),1966,法国 英国,喜剧 战争
+[终结者2：审判日](https://movie.douban.com/subject/1291844/),詹姆斯·卡梅隆 James Cameron,🎉215,🌟8.8,Terminator 2: Judgment Day / 未来战士2(港)  /  魔鬼终结者2(台),1991,美国 法国,动作 科幻
+[疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854/),乔治·米勒 George Miller,🎉216,🌟8.7,Mad Max: Fury Road / 末日先锋：战甲飞车(港)  /  疯狂麦斯：愤怒道(台),2015,澳大利亚 美国,动作 科幻 冒险
+[末路狂花](https://movie.douban.com/subject/1291992/),雷德利·斯科特 Ridley Scott,🎉217,🌟8.9,Thelma & Louise / 塞尔玛与路易丝  /  末路狂花,1991,美国 英国 法国,犯罪 剧情 惊悚
+[罗生门](https://movie.douban.com/subject/1291879/),黑泽明 Akira Kurosawa,🎉218,🌟8.8,羅生門 / Rashomon,1950,日本,剧情 犯罪 悬疑
+[新龙门客栈](https://movie.douban.com/subject/1292287/),李惠民 Raymond Lee,🎉219,🌟8.7,新龍門客棧 / New Dragon Gate Inn,1992,中国香港 中国大陆,动作 爱情 武侠 古装
+[千钧一发](https://movie.douban.com/subject/1300117/),安德鲁·尼科尔 Andrew Niccol,🎉220,🌟8.8,Gattaca / 变种异煞(港)  /  自然人,1997,美国,剧情 科幻 惊悚
+[萤火虫之墓](https://movie.douban.com/subject/1293318/),高畑勋 Isao Takahata,🎉221,🌟8.7,火垂るの墓 / 再见萤火虫(港)  /  萤火挽歌,1988,日本,动画 剧情 战争
+[无耻混蛋](https://movie.douban.com/subject/1438652/),昆汀·塔伦蒂诺 Quentin Tarantino,🎉222,🌟8.7,Inglourious Basterds / 希魔撞正杀人狂(港)  /  恶棍特工(台),2009,德国 美国,剧情 犯罪
+[崖上的波妞](https://movie.douban.com/subject/1959877/),宫崎骏 Hayao Miyazaki,🎉223,🌟8.6,崖の上のポニョ / 悬崖上的金鱼姬  /  悬崖上的金鱼公主,2008,日本,动画 奇幻 冒险
+[花束般的恋爱](https://movie.douban.com/subject/34874432/),土井裕泰 Nobuhiro Doi,🎉224,🌟8.6,花束みたいな恋をした / 她和他的恋爱花期(港)  /  Hanataba mitaina koi o shita,2021,日本,剧情 爱情
+[彗星来的那一夜](https://movie.douban.com/subject/25807345/),詹姆斯·沃德·布柯特 James Ward Byrkit,🎉225,🌟8.6,Coherence / 相干性  /  相干效应,2013,美国 英国,科幻 悬疑 惊悚
+[芙蓉镇](https://movie.douban.com/subject/1297880/),谢晋 Jin Xie,🎉226,🌟9.3,Hibiscus Town,1987,中国大陆,剧情 爱情
+[奇迹男孩](https://movie.douban.com/subject/26787574/),斯蒂芬·卓博斯基 Stephen Chbosky,🎉227,🌟8.6,Wonder / 奇迹,2017,美国 中国香港,剧情 儿童 家庭
+[爱乐之城](https://movie.douban.com/subject/25934014/),达米恩·查泽雷 Damien Chazelle,🎉228,🌟8.4,La La Land / 星声梦里人(港)  /  乐来越爱你(台),2016,美国,剧情 爱情 歌舞
+[二十二](https://movie.douban.com/subject/26430107/),郭柯 Ke Guo,🎉229,🌟8.7,Twenty Two  /  22,2015,中国大陆,纪录片
+[黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141/),拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski,🎉230,🌟8.7,The Matrix Reloaded / 22世纪杀人网络2：决战未来(港)  /  骇客任务：重装上阵(台),2003,美国,动作 科幻
+[哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007/),大卫·叶茨 David Yates,🎉231,🌟8.5,Harry Potter and the Deathly Hallows: Part 1 / 哈利波特7：死神的圣物1(港 / 台),2010,英国 美国,奇幻 冒险
+[血钻](https://movie.douban.com/subject/1428175/),爱德华·兹威克 Edward Zwick,🎉232,🌟8.7,Blood Diamond / 血钻石(台)  /  血腥钻石,2006,美国 德国 英国,剧情 惊悚 冒险
+[战争之王](https://movie.douban.com/subject/1419936/),安德鲁·尼科尔 Andrew Niccol,🎉233,🌟8.7,Lord of War / 军火之王(台 / 港),2005,美国 德国,剧情 犯罪
+[步履不停](https://movie.douban.com/subject/2222996/),是枝裕和 Hirokazu Koreeda,🎉234,🌟8.8,歩いても 歩いても / 横山家之味(港 / 台),2008,日本,剧情 家庭
+[房间](https://movie.douban.com/subject/25724855/),伦尼·阿伯拉罕森 Lenny Abrahamson,🎉235,🌟8.8,Room / 不存在的房间(台)  /  抖室(港),2015,爱尔兰 加拿大 英国 美国,剧情 家庭
+[火星救援](https://movie.douban.com/subject/25864085/),雷德利·斯科特 Ridley Scott,🎉236,🌟8.5,The Martian / 火星任务(港)  /  绝地救援(台),2015,英国 美国 匈牙利 约旦,剧情 科幻 冒险
+[魂断蓝桥](https://movie.douban.com/subject/1293964/),茂文·勒鲁瓦 Mervyn LeRoy,🎉237,🌟8.8,Waterloo Bridge / 滑铁卢桥  /  断桥残梦,1940,美国,剧情 爱情 战争
+[千年女优](https://movie.douban.com/subject/1307394/),今敏 Satoshi Kon,🎉238,🌟8.8,千年女優 / Millennium Actress,2001,日本,动画 剧情 爱情
+[谍影重重2](https://movie.douban.com/subject/1308767/),保罗·格林格拉斯 Paul Greengrass,🎉239,🌟8.7,The Bourne Supremacy / 叛谍追击2：机密圈套(港)  /  神鬼认证：神鬼疑云(台),2004,美国 德国,动作 悬疑 惊悚
+[白日梦想家](https://movie.douban.com/subject/2133323/),本·斯蒂勒 Ben Stiller,🎉240,🌟8.6,The Secret Life of Walter Mitty / 发梦王大历险(港)  /  白日梦冒险王(台),2013,美国 英国,剧情 喜剧 冒险
+[哈利·波特与凤凰社](https://movie.douban.com/subject/1457217/),大卫·叶茨 David Yates,🎉241,🌟8.5,Harry Potter and the Order of the Phoenix / 哈利波特5：凤凰会的密令(港 / 台),2007,英国 美国,奇幻 冒险
+[弱点](https://movie.douban.com/subject/3552028/),约翰·李·汉考克 John Lee Hancock,🎉242,🌟8.7,The Blind Side / 守护有心人(港)  /  攻其不备(台),2009,美国,剧情 家庭 传记 运动
+[阿飞正传](https://movie.douban.com/subject/1305690/),王家卫 Kar Wai Wong,🎉243,🌟8.5,阿飛正傳 / Days of Being Wild,1990,中国香港,犯罪 剧情 爱情
+[蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197/),鲍勃·佩尔西凯蒂 Bob Persichetti / 彼得·拉姆齐 Peter Ramsey,🎉244,🌟8.6,Spider-Man: Into the Spider-Verse / 蜘蛛侠：新纪元  /  蜘蛛人：新宇宙(台),2018,美国,动作 科幻 动画 冒险
+[谍影重重](https://movie.douban.com/subject/1304102/),道格·里曼 Doug Liman,🎉245,🌟8.6,The Bourne Identity / 叛谍追击(港)  /  神鬼认证(台),2002,美国 德国 捷克,动作 悬疑 惊悚
+[朗读者](https://movie.douban.com/subject/2213597/),史蒂芬·戴德利 Stephen Daldry,🎉246,🌟8.6,The Reader / 为爱朗读(台)  /  读爱(港),2008,美国 德国,剧情 爱情
+[燃情岁月](https://movie.douban.com/subject/1295865/),爱德华·兹威克 Edward Zwick,🎉247,🌟8.7,Legends of the Fall / 秋日传奇  /  真爱一世情(台),1994,美国,剧情 爱情 战争 西部
+[再次出发之纽约遇见你](https://movie.douban.com/subject/6874403/),约翰·卡尼 John Carney,🎉248,🌟8.6,Begin Again / 再次出发  /  歌曲改变人生,2013,美国,喜剧 爱情 音乐
+[香水](https://movie.douban.com/subject/1760622/),汤姆·提克威 Tom Tykwer,🎉249,🌟8.5,Perfume: The Story of a Murderer / 香水：一个杀人犯的故事  /  香水：一个谋杀犯的故事,2006,德国 法国 西班牙 美国 比利时,剧情 犯罪 奇幻
+[发条橙](https://movie.douban.com/subject/1292233/),斯坦利·库布里克 Stanley Kubrick,🎉250,🌟8.6,A Clockwork Orange / 发条橘子(台)  /  发条桔子,1971,英国 美国,犯罪 剧情 科幻
