@@ -5,7 +5,6 @@ hide:
 
 # 豆瓣电影 Top250
 
-[链接](https://movie.douban.com/top250/)；
 
 ## 2023/10 更新
 

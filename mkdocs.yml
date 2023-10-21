@@ -78,7 +78,10 @@ plugins:
 nav:
   - Home:
       - Films: index.md
-  - Douban 豆瓣: douban/douban.md
+  - Douban 豆瓣: 
+    - 豆瓣电影: douban/index.md
+    - 豆瓣电影历史榜单: douban/douban-hist.md
+    - 豆瓣电影2023榜单: douban/douban-2023.md
   - IMDb: imdb/imdb.md
   - TSPDT: tspdt/tspdt.md
   - Film Orgs:
