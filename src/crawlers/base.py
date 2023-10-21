@@ -147,6 +147,9 @@ class BaseCrawler:
             title = entry["title"]
             if isinstance(title, list):
                 title = title[0]
+            link = entry["link"]
+            if link:
+                title = f"[{title}]({link})"
             year = str(entry["info"].get("year", ""))[:4]
             score = entry["star"].get("score", "")
             output.append(f"{title} ({year}) ⭐{score}")

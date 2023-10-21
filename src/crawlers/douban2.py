@@ -1,5 +1,6 @@
 import json
 import logging
+import random
 import time
 
 from .base import BaseCrawler
@@ -72,7 +73,7 @@ class DoubanWeeklyCrawler(BaseCrawler):
             desc, key = info["desc"], info["key"]
             url = self.get_url(key)
             logging.info(f"crawl {i+1}/{n} info={info}, url = {url}")
-            time.sleep(1)
+            time.sleep(random.randint(1, 5))
 
             page = self.get_page(url)
             if not page:
@@ -128,14 +129,21 @@ class DoubanWeeklyCrawler(BaseCrawler):
                     break
 
                 title = item["title"]
+                link = item.get("uri")
+                if link:
+                    title = f"[{title}]({link})"
                 year = item.get("year")
                 if not year:
                     year = item.get("card_subtitle", "").split("/")[0].strip()
-                score = item["rating"]["value"]
+                score = str(item["rating"]["value"]).strip()
+                if score in ["0", ""]:
+                    score = "🌟--"
+                else:
+                    score = "⭐{:.2f}".format(float(score))
                 type_name = item.get("type_name", "电影")
                 img = item["pic"]["normal"]
-                text = f"{title} ({year}) ⭐{score}"
-                text_more = "" if type_name == "电影" else f" [{type_name}]"
+                text = f"{title}<br/>({year}) {score}"
+                text_more = "" if type_name == "电影" else f"<br/>【{type_name}】"
                 parts.append([img, text + text_more])
             output.append({"desc": desc, "items": parts})
         return output

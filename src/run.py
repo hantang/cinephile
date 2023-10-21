@@ -1,5 +1,6 @@
 import argparse
 import logging
+import time
 import traceback
 from pathlib import Path
 
@@ -18,7 +19,7 @@ SITES = ["douban", "imdb", "mtime", "maoyan", "tmdb"]
 EXTRAS = ["douban-weekly"]
 
 
-def download_stats(savedir, sites):
+def download_stats(savedir, sites, retry=2):
     stats = {}
     savedir = "{}/{}/".format(BASEDIR, savedir.split("./")[-1].strip("/"))
     for site in sites:
@@ -38,14 +39,20 @@ def download_stats(savedir, sites):
         elif site == "douban-weekly":
             crawler = DoubanWeeklyCrawler(savedir + "douban-weekly")
 
-        try:
-            if crawler:
-                count, result = crawler.process()
-                logging.info(f"result = {count}\n\n")
-                if result:
-                    stats[site] = result
-        except:
-            traceback.print_exc()
+        for i in range(retry):
+            try:
+                if crawler:
+                    count, result = crawler.process()
+                    logging.info(f"result = {count}\n\n")
+                    if result:
+                        stats[site] = result
+                        break
+                    elif count != -2:
+                        time.sleep(30)
+            except:
+                traceback.print_exc()
+                if i + 1 < retry:
+                    time.sleep(30)
     return stats
 
 
@@ -86,8 +93,11 @@ def update_readme(stats):
         desc, items = data["desc"], data["items"]
         table2.append([desc] + items)
         logging.info(f"table {site}, desc={desc}")
-    md_table2 = get_table(table2)
-    part2 = ["## 电影Top榜单", md_table2]
+    if table2:
+        md_table2 = get_table(table2)
+        part2 = ["## 电影Top榜单", md_table2]
+    else:
+        part2 = []
 
     md_out = ["".join(raw_readmes).strip(), "最近更新：{}".format(get_dt())]
     if part1:
