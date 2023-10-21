@@ -1,0 +1,251 @@
+Title 电影,Rank 排名,Score 打分,Votes 人数,Year 年份,Genre 类型,Length 片长,Rate 分级
+[The Shawshank Redemption](https://www.imdb.com/title/tt0111161/),🎉001,🌟9.3,2809451,1994,Drama,142,R
+[The Godfather](https://www.imdb.com/title/tt0068646/),🎉002,🌟9.2,1957805,1972,"Crime,Drama",175,R
+[The Dark Knight](https://www.imdb.com/title/tt0468569/),🎉003,🌟9,2791092,2008,"Action,Crime,Drama",152,PG-13
+[The Godfather Part II](https://www.imdb.com/title/tt0071562/),🎉004,🌟9,1329418,1974,"Crime,Drama",202,R
+[12 Angry Men](https://www.imdb.com/title/tt0050083/),🎉005,🌟9,836361,1957,"Crime,Drama",96,Approved
+[Schindler's List](https://www.imdb.com/title/tt0108052/),🎉006,🌟9,1412275,1993,"Biography,Drama,History",195,R
+[The Lord of the Rings: The Return of the King](https://www.imdb.com/title/tt0167260/),🎉007,🌟9,1923264,2003,"Action,Adventure,Drama",201,PG-13
+[Pulp Fiction](https://www.imdb.com/title/tt0110912/),🎉008,🌟8.9,2154559,1994,"Crime,Drama",154,R
+[The Lord of the Rings: The Fellowship of the Ring](https://www.imdb.com/title/tt0120737/),🎉009,🌟8.8,1951334,2001,"Action,Adventure,Drama",178,PG-13
+"[The Good, the Bad and the Ugly](https://www.imdb.com/title/tt0060196/)",🎉010,🌟8.8,791923,1966,"Adventure,Western",178,Approved
+[Forrest Gump](https://www.imdb.com/title/tt0109830/),🎉011,🌟8.8,2187043,1994,"Drama,Romance",142,PG-13
+[Fight Club](https://www.imdb.com/title/tt0137523/),🎉012,🌟8.8,2243820,1999,Drama,139,R
+[The Lord of the Rings: The Two Towers](https://www.imdb.com/title/tt0167261/),🎉013,🌟8.8,1735229,2002,"Action,Adventure,Drama",179,PG-13
+[Inception](https://www.imdb.com/title/tt1375666/),🎉014,🌟8.8,2477261,2010,"Action,Adventure,Sci-Fi",148,PG-13
+[Star Wars: Episode V - The Empire Strikes Back](https://www.imdb.com/title/tt0080684/),🎉015,🌟8.7,1346386,1980,"Action,Adventure,Fantasy",124,PG
+[The Matrix](https://www.imdb.com/title/tt0133093/),🎉016,🌟8.7,1997407,1999,"Action,Sci-Fi",136,R
+[Goodfellas](https://www.imdb.com/title/tt0099685/),🎉017,🌟8.7,1219568,1990,"Biography,Crime,Drama",145,R
+[One Flew Over the Cuckoo's Nest](https://www.imdb.com/title/tt0073486/),🎉018,🌟8.7,1046714,1975,Drama,133,R
+[Se7en](https://www.imdb.com/title/tt0114369/),🎉019,🌟8.6,1741030,1995,"Crime,Drama,Mystery",127,R
+[It's a Wonderful Life](https://www.imdb.com/title/tt0038650/),🎉020,🌟8.6,480473,1946,"Drama,Family,Fantasy",130,PG
+[Seven Samurai](https://www.imdb.com/title/tt0047478/),🎉021,🌟8.6,359056,1954,"Action,Drama",207,Not Rated
+[Spider-Man: Across the Spider-Verse](https://www.imdb.com/title/tt9362722/),🎉022,🌟8.7,277551,2023,"Animation,Action,Adventure",140,PG
+[Interstellar](https://www.imdb.com/title/tt0816692/),🎉023,🌟8.7,2000661,2014,"Adventure,Drama,Sci-Fi",169,PG-13
+[The Silence of the Lambs](https://www.imdb.com/title/tt0102926/),🎉024,🌟8.6,1500386,1991,"Crime,Drama,Thriller",118,R
+[Saving Private Ryan](https://www.imdb.com/title/tt0120815/),🎉025,🌟8.6,1455198,1998,"Drama,War",169,R
+[City of God](https://www.imdb.com/title/tt0317248/),🎉026,🌟8.6,783819,2002,"Crime,Drama",130,R
+[Life Is Beautiful](https://www.imdb.com/title/tt0118799/),🎉027,🌟8.6,724977,1997,"Comedy,Drama,Romance",116,PG-13
+[The Green Mile](https://www.imdb.com/title/tt0120689/),🎉028,🌟8.6,1365988,1999,"Crime,Drama,Fantasy",189,R
+[Star Wars: Episode IV - A New Hope](https://www.imdb.com/title/tt0076759/),🎉029,🌟8.6,1417767,1977,"Action,Adventure,Fantasy",121,PG
+[Terminator 2: Judgment Day](https://www.imdb.com/title/tt0103064/),🎉030,🌟8.6,1145382,1991,"Action,Sci-Fi",137,R
+[Back to the Future](https://www.imdb.com/title/tt0088763/),🎉031,🌟8.5,1268282,1985,"Adventure,Comedy,Sci-Fi",116,PG
+[Spirited Away](https://www.imdb.com/title/tt0245429/),🎉032,🌟8.6,813807,2001,"Animation,Adventure,Family",125,PG
+[The Pianist](https://www.imdb.com/title/tt0253474/),🎉033,🌟8.5,881875,2002,"Biography,Drama,Music",150,R
+[Psycho](https://www.imdb.com/title/tt0054215/),🎉034,🌟8.5,701461,1960,"Horror,Mystery,Thriller",109,R
+[Parasite](https://www.imdb.com/title/tt6751668/),🎉035,🌟8.5,894889,2019,"Drama,Thriller",132,R
+[Gladiator](https://www.imdb.com/title/tt0172495/),🎉036,🌟8.5,1568998,2000,"Action,Adventure,Drama",155,R
+[The Lion King](https://www.imdb.com/title/tt0110357/),🎉037,🌟8.5,1109885,1994,"Animation,Adventure,Drama",88,G
+[Léon: The Professional](https://www.imdb.com/title/tt0110413/),🎉038,🌟8.5,1213106,1994,"Action,Crime,Drama",110,R
+[American History X](https://www.imdb.com/title/tt0120586/),🎉039,🌟8.5,1161701,1998,"Crime,Drama",119,R
+[The Departed](https://www.imdb.com/title/tt0407887/),🎉040,🌟8.5,1384831,2006,"Crime,Drama,Thriller",151,R
+[Whiplash](https://www.imdb.com/title/tt2582802/),🎉041,🌟8.5,937625,2014,"Drama,Music",106,R
+[The Prestige](https://www.imdb.com/title/tt0482571/),🎉042,🌟8.5,1401622,2006,"Drama,Mystery,Sci-Fi",130,PG-13
+[The Usual Suspects](https://www.imdb.com/title/tt0114814/),🎉043,🌟8.5,1122018,1995,"Crime,Drama,Mystery",106,R
+[Grave of the Fireflies](https://www.imdb.com/title/tt0095327/),🎉044,🌟8.5,297270,1988,"Animation,Drama,War",89,Not Rated
+[Harakiri](https://www.imdb.com/title/tt0056058/),🎉045,🌟8.6,64366,1962,"Action,Drama,Mystery",133,Not Rated
+[Casablanca](https://www.imdb.com/title/tt0034583/),🎉046,🌟8.5,593492,1942,"Drama,Romance,War",102,PG
+[Oppenheimer](https://www.imdb.com/title/tt15398776/),🎉047,🌟8.5,462238,2023,"Biography,Drama,History",180,R
+[The Intouchables](https://www.imdb.com/title/tt1675434/),🎉048,🌟8.5,901642,2011,"Biography,Comedy,Drama",112,R
+[Modern Times](https://www.imdb.com/title/tt0027977/),🎉049,🌟8.5,253386,1936,"Comedy,Drama,Romance",87,G
+[Cinema Paradiso](https://www.imdb.com/title/tt0095765/),🎉050,🌟8.5,274898,1988,"Drama,Romance",155,PG
+[Once Upon a Time in the West](https://www.imdb.com/title/tt0064116/),🎉051,🌟8.5,342515,1968,Western,165,PG-13
+[Rear Window](https://www.imdb.com/title/tt0047396/),🎉052,🌟8.5,510571,1954,"Mystery,Thriller",112,PG
+[Alien](https://www.imdb.com/title/tt0078748/),🎉053,🌟8.5,923011,1979,"Horror,Sci-Fi",117,R
+[City Lights](https://www.imdb.com/title/tt0021749/),🎉054,🌟8.5,191944,1931,"Comedy,Drama,Romance",87,G
+[Apocalypse Now](https://www.imdb.com/title/tt0078788/),🎉055,🌟8.4,694035,1979,"Drama,Mystery,War",147,R
+[Memento](https://www.imdb.com/title/tt0209144/),🎉056,🌟8.4,1291254,2000,"Mystery,Thriller",113,R
+[Django Unchained](https://www.imdb.com/title/tt1853728/),🎉057,🌟8.5,1641473,2012,"Drama,Western",165,R
+[Raiders of the Lost Ark](https://www.imdb.com/title/tt0082971/),🎉058,🌟8.4,1015792,1981,"Action,Adventure",115,PG
+[WALL·E](https://www.imdb.com/title/tt0910970/),🎉059,🌟8.4,1168098,2008,"Animation,Adventure,Family",98,G
+[The Lives of Others](https://www.imdb.com/title/tt0405094/),🎉060,🌟8.4,402379,2006,"Drama,Mystery,Thriller",137,R
+[Sunset Blvd.](https://www.imdb.com/title/tt0043014/),🎉061,🌟8.4,231138,1950,"Drama,Film-Noir",110,Passed
+[Paths of Glory](https://www.imdb.com/title/tt0050825/),🎉062,🌟8.4,206913,1957,"Drama,War",88,Approved
+[Avengers: Infinity War](https://www.imdb.com/title/tt4154756/),🎉063,🌟8.4,1160452,2018,"Action,Adventure,Sci-Fi",149,PG-13
+[The Shining](https://www.imdb.com/title/tt0081505/),🎉064,🌟8.4,1074678,1980,"Drama,Horror",146,R
+[The Great Dictator](https://www.imdb.com/title/tt0032553/),🎉065,🌟8.4,232656,1940,"Comedy,Drama,War",125,G
+[Witness for the Prosecution](https://www.imdb.com/title/tt0051201/),🎉066,🌟8.4,133036,1957,"Crime,Drama,Mystery",116,Approved
+[Spider-Man: Into the Spider-Verse](https://www.imdb.com/title/tt4633694/),🎉067,🌟8.4,634243,2018,"Animation,Action,Adventure",117,PG
+[Aliens](https://www.imdb.com/title/tt0090605/),🎉068,🌟8.4,745373,1986,"Action,Adventure,Sci-Fi",137,R
+[Inglourious Basterds](https://www.imdb.com/title/tt0361748/),🎉069,🌟8.4,1531293,2009,"Adventure,Drama,War",153,R
+[The Dark Knight Rises](https://www.imdb.com/title/tt1345836/),🎉070,🌟8.4,1781832,2012,"Action,Drama,Thriller",164,PG-13
+[American Beauty](https://www.imdb.com/title/tt0169547/),🎉071,🌟8.3,1188826,1999,Drama,122,R
+[Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb](https://www.imdb.com/title/tt0057012/),🎉072,🌟8.4,507948,1964,"Comedy,War",95,PG
+[Oldboy](https://www.imdb.com/title/tt0364569/),🎉073,🌟8.4,613759,2003,"Action,Drama,Mystery",120,R
+[Coco](https://www.imdb.com/title/tt2380307/),🎉074,🌟8.4,558743,2017,"Animation,Adventure,Drama",105,PG
+[Amadeus](https://www.imdb.com/title/tt0086879/),🎉075,🌟8.4,418387,1984,"Biography,Drama,Music",160,PG
+[Toy Story](https://www.imdb.com/title/tt0114709/),🎉076,🌟8.3,1040903,1995,"Animation,Adventure,Comedy",81,G
+[Das Boot](https://www.imdb.com/title/tt0082096/),🎉077,🌟8.4,259462,1981,"Drama,War",149,
+[Braveheart](https://www.imdb.com/title/tt0112573/),🎉078,🌟8.3,1070938,1995,"Biography,Drama,History",178,R
+[Avengers: Endgame](https://www.imdb.com/title/tt4154796/),🎉079,🌟8.4,1219798,2019,"Action,Adventure,Drama",181,PG-13
+[Joker](https://www.imdb.com/title/tt7286456/),🎉080,🌟8.4,1410619,2019,"Crime,Drama,Thriller",122,R
+[Princess Mononoke](https://www.imdb.com/title/tt0119698/),🎉081,🌟8.3,417522,1997,"Animation,Action,Adventure",134,PG-13
+[Good Will Hunting](https://www.imdb.com/title/tt0119217/),🎉082,🌟8.3,1026554,1997,"Drama,Romance",126,R
+[Your Name.](https://www.imdb.com/title/tt5311514/),🎉083,🌟8.4,301182,2016,"Animation,Drama,Fantasy",106,TV-PG
+[Once Upon a Time in America](https://www.imdb.com/title/tt0087843/),🎉084,🌟8.3,368042,1984,"Crime,Drama",229,R
+[3 Idiots](https://www.imdb.com/title/tt1187043/),🎉085,🌟8.4,419830,2009,"Comedy,Drama",170,PG-13
+[High and Low](https://www.imdb.com/title/tt0057565/),🎉086,🌟8.4,50143,1963,"Crime,Drama,Mystery",143,Not Rated
+[Singin' in the Rain](https://www.imdb.com/title/tt0045152/),🎉087,🌟8.3,254037,1952,"Comedy,Musical,Romance",103,G
+[Capernaum](https://www.imdb.com/title/tt8267604/),🎉088,🌟8.4,99818,2018,Drama,126,R
+[Requiem for a Dream](https://www.imdb.com/title/tt0180093/),🎉089,🌟8.3,877702,2000,Drama,102,Unrated
+[Toy Story 3](https://www.imdb.com/title/tt0435761/),🎉090,🌟8.3,872179,2010,"Animation,Adventure,Comedy",103,G
+[Come and See](https://www.imdb.com/title/tt0091251/),🎉091,🌟8.4,90758,1985,"Drama,Thriller,War",142,Not Rated
+[Star Wars: Episode VI - Return of the Jedi](https://www.imdb.com/title/tt0086190/),🎉092,🌟8.3,1096519,1983,"Action,Adventure,Fantasy",131,PG
+[Eternal Sunshine of the Spotless Mind](https://www.imdb.com/title/tt0338013/),🎉093,🌟8.3,1049551,2004,"Drama,Romance,Sci-Fi",108,R
+[2001: A Space Odyssey](https://www.imdb.com/title/tt0062622/),🎉094,🌟8.3,700825,1968,"Adventure,Sci-Fi",149,G
+[The Hunt](https://www.imdb.com/title/tt2106476/),🎉095,🌟8.3,351534,2012,Drama,115,R
+[Reservoir Dogs](https://www.imdb.com/title/tt0105236/),🎉096,🌟8.3,1062579,1992,"Crime,Thriller",99,R
+[Ikiru](https://www.imdb.com/title/tt0044741/),🎉097,🌟8.3,84392,1952,Drama,143,Not Rated
+[Lawrence of Arabia](https://www.imdb.com/title/tt0056172/),🎉098,🌟8.3,306585,1962,"Adventure,Biography,Drama",218,Approved
+[Citizen Kane](https://www.imdb.com/title/tt0033467/),🎉099,🌟8.3,457384,1941,"Drama,Mystery",119,PG
+[M](https://www.imdb.com/title/tt0022100/),🎉100,🌟8.3,164760,1931,"Crime,Mystery,Thriller",99,Passed
+[The Apartment](https://www.imdb.com/title/tt0053604/),🎉101,🌟8.3,190879,1960,"Comedy,Drama,Romance",125,Approved
+[North by Northwest](https://www.imdb.com/title/tt0053125/),🎉102,🌟8.3,339511,1959,"Action,Adventure,Mystery",136,Approved
+[Vertigo](https://www.imdb.com/title/tt0052357/),🎉103,🌟8.3,417836,1958,"Mystery,Romance,Thriller",128,PG
+[Double Indemnity](https://www.imdb.com/title/tt0036775/),🎉104,🌟8.3,163752,1944,"Crime,Drama,Film-Noir",107,Passed
+[Amélie](https://www.imdb.com/title/tt0211915/),🎉105,🌟8.3,780089,2001,"Comedy,Romance",122,R
+[Scarface](https://www.imdb.com/title/tt0086250/),🎉106,🌟8.3,888332,1983,"Crime,Drama",170,18+
+[Full Metal Jacket](https://www.imdb.com/title/tt0093058/),🎉107,🌟8.3,772427,1987,"Drama,War",116,R
+[A Clockwork Orange](https://www.imdb.com/title/tt0066921/),🎉108,🌟8.3,862394,1971,"Crime,Sci-Fi",136,X
+[Incendies](https://www.imdb.com/title/tt1255953/),🎉109,🌟8.3,190245,2010,"Drama,Mystery,War",131,R
+[Heat](https://www.imdb.com/title/tt0113277/),🎉110,🌟8.3,695949,1995,"Action,Crime,Drama",170,R
+[Up](https://www.imdb.com/title/tt1049413/),🎉111,🌟8.3,1094137,2009,"Animation,Adventure,Comedy",96,PG
+[Hamilton](https://www.imdb.com/title/tt8503618/),🎉112,🌟8.3,106877,2020,"Biography,Drama,History",160,PG-13
+[To Kill a Mockingbird](https://www.imdb.com/title/tt0056592/),🎉113,🌟8.3,326965,1962,"Crime,Drama",129,Approved
+[The Sting](https://www.imdb.com/title/tt0070735/),🎉114,🌟8.3,273544,1973,"Comedy,Crime,Drama",129,PG
+[A Separation](https://www.imdb.com/title/tt1832382/),🎉115,🌟8.3,253517,2011,Drama,123,PG-13
+[Indiana Jones and the Last Crusade](https://www.imdb.com/title/tt0097576/),🎉116,🌟8.2,793851,1989,"Action,Adventure",127,PG-13
+[Metropolis](https://www.imdb.com/title/tt0017136/),🎉117,🌟8.3,181369,1927,"Drama,Sci-Fi",153,Not Rated
+[Die Hard](https://www.imdb.com/title/tt0095016/),🎉118,🌟8.2,914895,1988,"Action,Thriller",132,R
+[Like Stars on Earth](https://www.imdb.com/title/tt0986264/),🎉119,🌟8.3,202114,2007,"Drama,Family",162,PG
+[Snatch](https://www.imdb.com/title/tt0208092/),🎉120,🌟8.2,888879,2000,"Comedy,Crime",102,R
+[Bicycle Thieves](https://www.imdb.com/title/tt0040522/),🎉121,🌟8.3,170906,1948,Drama,89,Not Rated
+[L.A. Confidential](https://www.imdb.com/title/tt0119488/),🎉122,🌟8.2,602918,1997,"Crime,Drama,Mystery",138,R
+[Taxi Driver](https://www.imdb.com/title/tt0075314/),🎉123,🌟8.2,889402,1976,"Crime,Drama",114,R
+[1917](https://www.imdb.com/title/tt8579674/),🎉124,🌟8.2,645337,2019,"Action,Drama,War",119,R
+[Downfall](https://www.imdb.com/title/tt0363163/),🎉125,🌟8.2,367906,2004,"Biography,Drama,History",156,R
+[Dangal](https://www.imdb.com/title/tt5074352/),🎉126,🌟8.3,202631,2016,"Action,Biography,Drama",161,Not Rated
+[For a Few Dollars More](https://www.imdb.com/title/tt0059578/),🎉127,🌟8.2,267920,1965,"Drama,Western",132,R
+[Batman Begins](https://www.imdb.com/title/tt0372784/),🎉128,🌟8.2,1539338,2005,"Action,Crime,Drama",140,PG-13
+[Top Gun: Maverick](https://www.imdb.com/title/tt1745960/),🎉129,🌟8.3,635318,2022,"Action,Drama",130,PG-13
+[Some Like It Hot](https://www.imdb.com/title/tt0053291/),🎉130,🌟8.2,277678,1959,"Comedy,Music,Romance",121,Passed
+[The Kid](https://www.imdb.com/title/tt0012349/),🎉131,🌟8.2,131863,1921,"Comedy,Drama,Family",68,Passed
+[The Wolf of Wall Street](https://www.imdb.com/title/tt0993846/),🎉132,🌟8.2,1517312,2013,"Biography,Comedy,Crime",180,R
+[The Father](https://www.imdb.com/title/tt10272386/),🎉133,🌟8.2,178937,2020,"Drama,Mystery",97,PG-13
+[Green Book](https://www.imdb.com/title/tt6966692/),🎉134,🌟8.2,538425,2018,"Biography,Comedy,Drama",130,PG-13
+[All About Eve](https://www.imdb.com/title/tt0042192/),🎉135,🌟8.2,136118,1950,Drama,138,Passed
+[Judgment at Nuremberg](https://www.imdb.com/title/tt0055031/),🎉136,🌟8.3,82252,1961,"Drama,War",179,Approved
+[The Truman Show](https://www.imdb.com/title/tt0120382/),🎉137,🌟8.2,1151477,1998,"Comedy,Drama",103,PG
+[There Will Be Blood](https://www.imdb.com/title/tt0469494/),🎉138,🌟8.2,621578,2007,Drama,158,R
+[Casino](https://www.imdb.com/title/tt0112641/),🎉139,🌟8.2,547390,1995,"Crime,Drama",178,R
+[Ran](https://www.imdb.com/title/tt0089881/),🎉140,🌟8.2,132422,1985,"Action,Drama,War",160,R
+[Shutter Island](https://www.imdb.com/title/tt1130884/),🎉141,🌟8.2,1401948,2010,"Mystery,Thriller",138,R
+[Pan's Labyrinth](https://www.imdb.com/title/tt0457430/),🎉142,🌟8.2,690426,2006,"Drama,Fantasy,War",118,R
+[The Sixth Sense](https://www.imdb.com/title/tt0167404/),🎉143,🌟8.2,1027361,1999,"Drama,Mystery,Thriller",107,PG-13
+[Jurassic Park](https://www.imdb.com/title/tt0107290/),🎉144,🌟8.2,1038117,1993,"Action,Adventure,Sci-Fi",127,PG-13
+[Unforgiven](https://www.imdb.com/title/tt0105695/),🎉145,🌟8.2,427374,1992,"Drama,Western",130,R
+[A Beautiful Mind](https://www.imdb.com/title/tt0268978/),🎉146,🌟8.2,965510,2001,"Biography,Drama",135,PG-13
+[The Treasure of the Sierra Madre](https://www.imdb.com/title/tt0040897/),🎉147,🌟8.2,130035,1948,"Adventure,Drama,Western",126,Passed
+[Yojimbo](https://www.imdb.com/title/tt0055630/),🎉148,🌟8.2,128309,1961,"Action,Drama,Thriller",110,Not Rated
+[No Country for Old Men](https://www.imdb.com/title/tt0477348/),🎉149,🌟8.2,1027113,2007,"Crime,Drama,Thriller",122,R
+[Kill Bill: Vol. 1](https://www.imdb.com/title/tt0266697/),🎉150,🌟8.2,1162384,2003,"Action,Crime,Thriller",111,R
+[Monty Python and the Holy Grail](https://www.imdb.com/title/tt0071853/),🎉151,🌟8.2,559770,1975,"Adventure,Comedy,Fantasy",91,PG
+[The Thing](https://www.imdb.com/title/tt0084787/),🎉152,🌟8.2,450004,1982,"Horror,Mystery,Sci-Fi",109,16+
+[The Great Escape](https://www.imdb.com/title/tt0057115/),🎉153,🌟8.2,253683,1963,"Adventure,Drama,History",172,Approved
+[Rashomon](https://www.imdb.com/title/tt0042876/),🎉154,🌟8.2,176106,1950,"Crime,Drama,Mystery",88,Not Rated
+[Finding Nemo](https://www.imdb.com/title/tt0266543/),🎉155,🌟8.2,1086746,2003,"Animation,Adventure,Comedy",100,G
+[The Elephant Man](https://www.imdb.com/title/tt0080678/),🎉156,🌟8.2,252616,1980,"Biography,Drama",124,PG
+[Chinatown](https://www.imdb.com/title/tt0071315/),🎉157,🌟8.2,341050,1974,"Drama,Mystery,Thriller",130,R
+[Howl's Moving Castle](https://www.imdb.com/title/tt0347149/),🎉158,🌟8.2,426754,2004,"Animation,Adventure,Family",119,PG
+[Dial M for Murder](https://www.imdb.com/title/tt0046912/),🎉159,🌟8.2,184289,1954,"Crime,Thriller",105,PG
+[Gone with the Wind](https://www.imdb.com/title/tt0031381/),🎉160,🌟8.2,327411,1939,"Drama,Romance,War",238,Passed
+[V for Vendetta](https://www.imdb.com/title/tt0434409/),🎉161,🌟8.2,1157062,2005,"Action,Drama,Sci-Fi",132,R
+[Raging Bull](https://www.imdb.com/title/tt0081398/),🎉162,🌟8.1,370400,1980,"Biography,Drama,Sport",129,R
+"[Lock, Stock and Two Smoking Barrels](https://www.imdb.com/title/tt0120735/)",🎉163,🌟8.1,604150,1998,"Action,Comedy,Crime",107,R
+[Prisoners](https://www.imdb.com/title/tt1392214/),🎉164,🌟8.1,774894,2013,"Crime,Drama,Mystery",153,R
+[The Secret in Their Eyes](https://www.imdb.com/title/tt1305806/),🎉165,🌟8.2,217747,2009,"Drama,Mystery,Romance",129,R
+[Spider-Man: No Way Home](https://www.imdb.com/title/tt10872600/),🎉166,🌟8.2,836424,2021,"Action,Adventure,Fantasy",148,PG-13
+[Inside Out](https://www.imdb.com/title/tt2096673/),🎉167,🌟8.1,757118,2015,"Animation,Adventure,Comedy",95,PG
+"[Three Billboards Outside Ebbing, Missouri](https://www.imdb.com/title/tt5027774/)",🎉168,🌟8.1,538110,2017,"Comedy,Crime,Drama",115,R
+[The Bridge on the River Kwai](https://www.imdb.com/title/tt0050212/),🎉169,🌟8.1,229074,1957,"Adventure,Drama,War",161,PG
+[Trainspotting](https://www.imdb.com/title/tt0117951/),🎉170,🌟8.1,711377,1996,Drama,93,R
+[Fargo](https://www.imdb.com/title/tt0116282/),🎉171,🌟8.1,705028,1996,"Crime,Thriller",98,R
+[Warrior](https://www.imdb.com/title/tt1291584/),🎉172,🌟8.1,488694,2011,"Action,Drama,Sport",140,PG-13
+[Gran Torino](https://www.imdb.com/title/tt1205489/),🎉173,🌟8.1,800138,2008,Drama,116,R
+[Catch Me If You Can](https://www.imdb.com/title/tt0264464/),🎉174,🌟8.1,1053103,2002,"Biography,Crime,Drama",141,PG-13
+[My Neighbor Totoro](https://www.imdb.com/title/tt0096283/),🎉175,🌟8.1,363434,1988,"Animation,Comedy,Family",86,G
+[Million Dollar Baby](https://www.imdb.com/title/tt0405159/),🎉176,🌟8.1,708947,2004,"Drama,Sport",132,PG-13
+[Klaus](https://www.imdb.com/title/tt4729430/),🎉177,🌟8.2,172609,2019,"Animation,Adventure,Comedy",96,PG
+[Harry Potter and the Deathly Hallows: Part 2](https://www.imdb.com/title/tt1201607/),🎉178,🌟8.1,920597,2011,"Adventure,Family,Fantasy",130,PG-13
+[Children of Heaven](https://www.imdb.com/title/tt0118849/),🎉179,🌟8.2,78524,1997,"Drama,Family,Sport",89,PG
+[Blade Runner](https://www.imdb.com/title/tt0083658/),🎉180,🌟8.1,802863,1982,"Action,Drama,Sci-Fi",117,R
+[12 Years a Slave](https://www.imdb.com/title/tt2024544/),🎉181,🌟8.1,726825,2013,"Biography,Drama,History",134,R
+[Before Sunrise](https://www.imdb.com/title/tt0112471/),🎉182,🌟8.1,328944,1995,"Drama,Romance",101,R
+[The Grand Budapest Hotel](https://www.imdb.com/title/tt2278388/),🎉183,🌟8.1,861474,2014,"Adventure,Comedy,Crime",99,R
+[The Gold Rush](https://www.imdb.com/title/tt0015864/),🎉184,🌟8.1,116075,1925,"Adventure,Comedy,Drama",95,Passed
+[Ben-Hur](https://www.imdb.com/title/tt0052618/),🎉185,🌟8.1,248609,1959,"Adventure,Drama",212,G
+[Gone Girl](https://www.imdb.com/title/tt2267998/),🎉186,🌟8.1,1033950,2014,"Drama,Mystery,Thriller",149,R
+[Barry Lyndon](https://www.imdb.com/title/tt0072684/),🎉187,🌟8.1,177717,1975,"Adventure,Drama,War",185,PG
+[On the Waterfront](https://www.imdb.com/title/tt0047296/),🎉188,🌟8.1,161121,1954,"Crime,Drama,Thriller",108,Approved
+[Hacksaw Ridge](https://www.imdb.com/title/tt2119532/),🎉189,🌟8.1,570493,2016,"Biography,Drama,History",139,R
+[In the Name of the Father](https://www.imdb.com/title/tt0107207/),🎉190,🌟8.1,183082,1993,"Biography,Crime,Drama",133,R
+[Memories of Murder](https://www.imdb.com/title/tt0353969/),🎉191,🌟8.1,204694,2003,"Crime,Drama,Mystery",132,Not Rated
+[The General](https://www.imdb.com/title/tt0017925/),🎉192,🌟8.1,95885,1926,"Action,Adventure,Comedy",78,Passed
+[The Deer Hunter](https://www.imdb.com/title/tt0077416/),🎉193,🌟8.1,353545,1978,"Drama,War",183,R
+[Wild Strawberries](https://www.imdb.com/title/tt0050986/),🎉194,🌟8.1,112260,1957,"Drama,Romance",91,Not Rated
+[The Third Man](https://www.imdb.com/title/tt0041959/),🎉195,🌟8.1,178158,1949,"Film-Noir,Mystery,Thriller",93,Approved
+[Wild Tales](https://www.imdb.com/title/tt3011894/),🎉196,🌟8.1,210251,2014,"Comedy,Drama,Thriller",122,R
+[The Wages of Fear](https://www.imdb.com/title/tt0046268/),🎉197,🌟8.2,64658,1953,"Adventure,Drama,Thriller",131,Not Rated
+[Sherlock Jr.](https://www.imdb.com/title/tt0015324/),🎉198,🌟8.2,54436,1924,"Action,Comedy,Romance",45,Passed
+[Dead Poets Society](https://www.imdb.com/title/tt0097165/),🎉199,🌟8.1,524541,1989,"Comedy,Drama",128,PG
+[Mad Max: Fury Road](https://www.imdb.com/title/tt1392190/),🎉200,🌟8.1,1052161,2015,"Action,Adventure,Sci-Fi",120,R
+[Mr. Smith Goes to Washington](https://www.imdb.com/title/tt0031679/),🎉201,🌟8.1,119295,1939,"Comedy,Drama",129,Passed
+"[Monsters, Inc.](https://www.imdb.com/title/tt0198781/)",🎉202,🌟8.1,952670,2001,"Animation,Adventure,Comedy",92,G
+[Jaws](https://www.imdb.com/title/tt0073195/),🎉203,🌟8.1,642451,1975,"Adventure,Mystery,Thriller",124,PG
+[How to Train Your Dragon](https://www.imdb.com/title/tt0892769/),🎉204,🌟8.1,778122,2010,"Animation,Action,Adventure",98,PG
+[Mary and Max](https://www.imdb.com/title/tt0978762/),🎉205,🌟8.1,183502,2009,"Animation,Comedy,Drama",92,Not Rated
+[The Seventh Seal](https://www.imdb.com/title/tt0050976/),🎉206,🌟8.1,193735,1957,"Drama,Fantasy",96,Not Rated
+[Room](https://www.imdb.com/title/tt3170832/),🎉207,🌟8.1,439664,2015,"Drama,Thriller",118,R
+[Ford v Ferrari](https://www.imdb.com/title/tt1950186/),🎉208,🌟8.1,440096,2019,"Action,Biography,Drama",152,PG-13
+[The Big Lebowski](https://www.imdb.com/title/tt0118715/),🎉209,🌟8.1,840690,1998,"Comedy,Crime",117,R
+[Tokyo Story](https://www.imdb.com/title/tt0046438/),🎉210,🌟8.1,66079,1953,Drama,136,Not Rated
+[Ratatouille](https://www.imdb.com/title/tt0382932/),🎉211,🌟8.1,791854,2007,"Animation,Adventure,Comedy",111,G
+[Rocky](https://www.imdb.com/title/tt0075148/),🎉212,🌟8.1,611735,1976,"Drama,Sport",120,PG
+[Hotel Rwanda](https://www.imdb.com/title/tt0395169/),🎉213,🌟8.1,366425,2004,"Biography,Drama,History",121,PG-13
+[Logan](https://www.imdb.com/title/tt3315342/),🎉214,🌟8.1,806553,2017,"Action,Drama,Sci-Fi",137,R
+[The Passion of Joan of Arc](https://www.imdb.com/title/tt0019254/),🎉215,🌟8.1,58790,1928,"Biography,Drama,History",114,Passed
+[Spotlight](https://www.imdb.com/title/tt1895587/),🎉216,🌟8.1,490829,2015,"Biography,Crime,Drama",129,R
+[Platoon](https://www.imdb.com/title/tt0091763/),🎉217,🌟8.1,429629,1986,"Drama,War",120,R
+[The Terminator](https://www.imdb.com/title/tt0088247/),🎉218,🌟8.1,902736,1984,"Action,Sci-Fi",107,R
+[Jai Bhim](https://www.imdb.com/title/tt15097216/),🎉219,🌟8.8,211157,2021,"Crime,Drama,Mystery",164,TV-MA
+[Before Sunset](https://www.imdb.com/title/tt0381681/),🎉220,🌟8.1,280224,2004,"Drama,Romance",80,R
+[Rush](https://www.imdb.com/title/tt1979320/),🎉221,🌟8.1,501117,2013,"Action,Biography,Drama",123,R
+[Network](https://www.imdb.com/title/tt0074958/),🎉222,🌟8.1,166251,1976,Drama,121,R
+[Stand by Me](https://www.imdb.com/title/tt0092005/),🎉223,🌟8.1,428546,1986,"Adventure,Comedy,Drama",89,R
+[The Best Years of Our Lives](https://www.imdb.com/title/tt0036868/),🎉224,🌟8.1,68574,1946,"Drama,Romance,War",170,Approved
+[The Exorcist](https://www.imdb.com/title/tt0070047/),🎉225,🌟8.1,438495,1973,Horror,122,R
+[La haine](https://www.imdb.com/title/tt0113247/),🎉226,🌟8.1,188359,1995,"Crime,Drama",98,Not Rated
+[The Wizard of Oz](https://www.imdb.com/title/tt0032138/),🎉227,🌟8.1,417886,1939,"Adventure,Family,Fantasy",102,G
+[Pirates of the Caribbean: The Curse of the Black Pearl](https://www.imdb.com/title/tt0325980/),🎉228,🌟8.1,1178234,2003,"Action,Adventure,Fantasy",143,PG-13
+[Into the Wild](https://www.imdb.com/title/tt0758758/),🎉229,🌟8.1,644778,2007,"Adventure,Biography,Drama",148,R
+[The Incredibles](https://www.imdb.com/title/tt0317705/),🎉230,🌟8,782108,2004,"Animation,Action,Adventure",115,PG
+[To Be or Not to Be](https://www.imdb.com/title/tt0035446/),🎉231,🌟8.2,41124,1942,"Comedy,Romance,War",99,Passed
+[My Father and My Son](https://www.imdb.com/title/tt0476735/),🎉232,🌟8.2,90146,2005,"Drama,Family",112,Not Rated
+[Hachi: A Dog's Tale](https://www.imdb.com/title/tt1028532/),🎉233,🌟8.1,301926,2009,"Biography,Drama,Family",93,G
+[The Handmaiden](https://www.imdb.com/title/tt4016934/),🎉234,🌟8.1,163935,2016,"Drama,Romance,Thriller",145,Not Rated
+[The Grapes of Wrath](https://www.imdb.com/title/tt0032551/),🎉235,🌟8.1,97917,1940,Drama,129,Passed
+[Groundhog Day](https://www.imdb.com/title/tt0107048/),🎉236,🌟8,664555,1993,"Comedy,Drama,Fantasy",101,PG
+[The Battle of Algiers](https://www.imdb.com/title/tt0058946/),🎉237,🌟8.1,63876,1966,"Drama,War",121,Not Rated
+[Amores Perros](https://www.imdb.com/title/tt0245712/),🎉238,🌟8.1,248962,2000,"Drama,Thriller",154,R
+[Rebecca](https://www.imdb.com/title/tt0032976/),🎉239,🌟8.1,143415,1940,"Drama,Film-Noir,Mystery",130,Approved
+[The Sound of Music](https://www.imdb.com/title/tt0059742/),🎉240,🌟8.1,250335,1965,"Biography,Drama,Family",172,G
+[Cool Hand Luke](https://www.imdb.com/title/tt0061512/),🎉241,🌟8.1,185059,1967,"Crime,Drama",127,GP
+[Pather Panchali](https://www.imdb.com/title/tt0048473/),🎉242,🌟8.2,36509,1955,Drama,125,Not Rated
+[The Iron Giant](https://www.imdb.com/title/tt0129167/),🎉243,🌟8.1,217284,1999,"Animation,Action,Adventure",86,PG
+[It Happened One Night](https://www.imdb.com/title/tt0025316/),🎉244,🌟8.1,109339,1934,"Comedy,Romance",105,Passed
+[The Help](https://www.imdb.com/title/tt1454029/),🎉245,🌟8.1,481027,2011,Drama,146,PG-13
+[The 400 Blows](https://www.imdb.com/title/tt0053198/),🎉246,🌟8.1,124793,1959,"Crime,Drama",99,Not Rated
+[Persona](https://www.imdb.com/title/tt0060827/),🎉247,🌟8.1,127216,1966,"Drama,Thriller",83,Not Rated
+[Life of Brian](https://www.imdb.com/title/tt0079470/),🎉248,🌟8,415550,1979,Comedy,94,R
+[Aladdin](https://www.imdb.com/title/tt0103639/),🎉249,🌟8,450574,1992,"Animation,Adventure,Comedy",90,G
+[Dances with Wolves](https://www.imdb.com/title/tt0099348/),🎉250,🌟8,282433,1990,"Adventure,Drama,Western",181,PG-13

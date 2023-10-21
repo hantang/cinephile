@@ -56,7 +56,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
 
 extra:
   social:
@@ -78,16 +77,31 @@ plugins:
 nav:
   - Home:
       - Films: index.md
-  - Douban 豆瓣: 
-    - 豆瓣电影: douban/index.md
-    - 豆瓣电影历史榜单: douban/douban-hist.md
-    - 豆瓣电影2023榜单: douban/douban-2023.md
-  - IMDb: imdb/imdb.md
-  - TSPDT: tspdt/tspdt.md
-  - Film Orgs:
-      - BFI - Sight & Sound: fiff/bfi-sightsound.md
-  - More: more/index.md
+      - 豆瓣电影: douban/index.md
+      - IMDb电影: imdb/index.md
+      - TSPDT电影: tspdt/index.md
+      - 电影协会和电影节: fiff/index.md
+      - 补充: more/index.md
+  - Douban豆瓣:
+      - 豆瓣电影: douban/index.md
+      - 豆瓣电影历史榜单: douban/douban-hist.md
+      - 豆瓣电影2023榜单: douban/douban-2023.md
+  - IMDb:
+      - IMDb电影: imdb/index.md
+      - IMDb电影2023年榜单: imdb/imdb-2023.md
+  - TSPDT:
+      - TSPDT电影: tspdt/index.md
+      - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
+  - Film ORG:
+      - 电影协会和电影节: fiff/index.md
+      - BFI(Sight & Sound)视与听: fiff/bfi.md
+      - AFI美国电影协会: fiff/afi.md
+      - BIFF釜山电影节: fiff/biff.md
+  - More:
+      - 补充: more/index.md
+      - Mtime时光网: more/mtime.md
+      - MaoYan猫眼: more/maoyan.md
+      - TMDb: more/tmdb.md
+      - Kinopoisk: more/kinopoisk.md
   # - FAQ:
   # - About:
-  #   - Changelog: about/changelog.md
-  #   - License: about/license.md
