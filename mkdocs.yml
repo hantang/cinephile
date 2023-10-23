@@ -76,13 +76,13 @@ plugins:
 
 nav:
   - Home:
-      - Films: index.md
+      - 电影万岁: index.md
       - 豆瓣电影: douban/index.md
       - IMDb电影: imdb/index.md
       - TSPDT电影: tspdt/index.md
       - 电影协会和电影节: fiff/index.md
       - 补充: more/index.md
-  - Douban豆瓣:
+  - Douban:
       - 豆瓣电影: douban/index.md
       - 豆瓣电影历史榜单: douban/douban-hist.md
       - 豆瓣电影2023榜单: douban/douban-2023.md
@@ -92,6 +92,7 @@ nav:
   - TSPDT:
       - TSPDT电影: tspdt/index.md
       - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
+      - TSPDT电影历年统计: tspdt/tspdt-years.md
   - Film ORG:
       - 电影协会和电影节: fiff/index.md
       - BFI(Sight & Sound)视与听: fiff/bfi.md
