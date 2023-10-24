@@ -4,7 +4,7 @@ from typing import List, Union
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.crawlers.douban_parser import extract_page_info
-from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list 
+from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list
 from cinephile.crawlers.douban_parser import parse_page_detail, parse_page_hot
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
@@ -208,7 +208,7 @@ class DoubanCrawler(BaseCrawler):
             page = self.get_page(url, headers, round_i=ri, round_n=page_end)
             if not page:
                 continue
-            logging.info(f"round={1+num}/{rn} parse page, page={len(page)}")
+            logging.info(f"round={1 + num}/{rn} parse page, page={len(page)}")
             out = self.parse_page(key, page, total=page_step)
             if out:
                 movies.extend(out)
@@ -265,7 +265,7 @@ class DoubanCrawler(BaseCrawler):
         release_time = dou_desc["author"].split()[3]
         movie_cluster = MovieCluster(release_time, dt, desc, source, movies=movies)
         self.save(savefile, movie_cluster)
-        movie_cluster.total, savefile
+        return movie_cluster.total, savefile
 
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
@@ -314,9 +314,7 @@ class DoubanCrawler(BaseCrawler):
                 url, headers=headers, page_format="json", round_i=i + 1, round_n=count
             )
             if not page:
-                logging.warning(
-                    "{} page error \n{}\n".format(url_config["desc"]), "-" * 50
-                )
+                logging.warning("{} page error \n{}\n".format(url_config["desc"], "-" * 50))
                 continue
             desc = url_config["collections"][i]["desc"]  # todo get_desc
             items, entries = self.parse_page(key, page, desc=desc)
