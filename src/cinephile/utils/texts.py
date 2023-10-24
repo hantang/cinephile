@@ -19,6 +19,10 @@ def strip(s, keep=False, slash=False):
     return s
 
 
+def extract_year(text):
+    return re.findall(r"((1[89]|20)\d{2})", text)
+
+
 def purify_webarchive(html_page):
     # 清除webarchive中添加的信息
     tag1 = "<!-- End Wayback Rewrite JS Include -->"

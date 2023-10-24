@@ -90,7 +90,7 @@ class BaseCrawler:
             round_i = kwargs["round_i"]
             round_n = kwargs["round_n"]
             page, status = download_page(url, headers, params, page_format, **kwargs)
-            if round_i < round_n:
+            if round_i < round_n or round_n == -1:
                 download_sleep(round_i, sleep_opt)
             if page:
                 return page
