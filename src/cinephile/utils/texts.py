@@ -20,6 +20,7 @@ def strip(s, keep=False, slash=False):
 
 
 def extract_year(text):
+    # movie year from 1895 to present (20xx)
     return re.findall(r"((1[89]|20)\d{2})", text)
 
 
