@@ -84,7 +84,7 @@ def parse_page_top250(page, **kwargs):
             "douban-vote": star_count,
         }
         more = {
-            "titles": titles,
+            "title-more": titles,
             "douban-info": info,
             "douban-quote": quote,
         }
@@ -123,7 +123,7 @@ def parse_page_hot(page, **kwargs):
             "douban-vote": item["rating"]["count"],
         }
         more = {
-            "douban_id": item["id"],
+            "douban-id": item["id"],
             "douban-info": [item["card_subtitle"]] + info2,
             "reward": [v["title"] for v in item["honor_infos"]],
             "comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
@@ -331,13 +331,13 @@ def parse_page_detail(page, **kwargs):
         watch = [strip(v.text) for v in watch]
     year = int(year.strip("()"))
     score = {
-        "douban_score": score,
-        "douban_vote": count,
-        "douban_weight": weight,
+        "douban-score": score,
+        "douban-vote": count,
+        "douban-weight": weight,
     }
     more = {
-        "douban_id": movie_id,
-        "title_more": alt,
+        "douban-id": movie_id,
+        "title-more": alt,
         "info": info_result,
         "rewards": rewards,
         "summary": summary,
