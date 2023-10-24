@@ -167,16 +167,17 @@ class DoubanCrawler(BaseCrawler):
         elif key == self.urls.key_list:
             self.process_list(kwargs["movie_list_id"], savedir, limit=kwargs["limit"])
         elif key == self.urls.key_detail:
-            self.process_list(kwargs["movie_id"], savedir)
+            self.process_detail(kwargs["movie_id"], savedir)
         elif key == self.urls.key_hot:
-            self.process_list(savedir)
+            self.process_hot(savedir)
 
     def process_top250(self, savedir=None):
         key = self.urls.key_top250
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        savename = self.getname(dt, total=url_config["total"])
+        total = url_config["total"]
+        savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, None
@@ -225,7 +226,7 @@ class DoubanCrawler(BaseCrawler):
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        savename = self.getname(dt, name=f"mlist{movie_list_id}")
+        savename = self.getname(dt, name=f"{self.save_prefix_list}{movie_list_id}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, None
@@ -272,7 +273,7 @@ class DoubanCrawler(BaseCrawler):
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        savename = self.getname(dt, name=f"mid{movie_id}")
+        savename = self.getname(dt, name=f"{self.save_prefix_movie}{movie_id}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, None
