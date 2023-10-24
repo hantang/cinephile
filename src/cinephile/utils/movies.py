@@ -2,24 +2,24 @@ from __future__ import annotations
 
 from typing import List, Any, Union, Optional
 
-import pendulum
+from pendulum import DateTime
 
-from cinephile.utils import datetimes
+from cinephile.utils.datetimes import time2str
 
 
 class Movie:
     def __init__(
-        self,
-        title: Optional[str],
-        link: Optional[str],
-        img: Optional[str],
-        year: Optional[int],
-        rank: Union[str, int] = None,
-        mtype: Optional[str] = None,
-        score: Optional[dict] = None,
-        douban: Optional[Movie] = None,
-        imdb: Optional[Movie] = None,
-        **kwargs,
+            self,
+            title: Optional[str],
+            link: Optional[str],
+            img: Optional[str],
+            year: Optional[int],
+            rank: Union[str, int] = None,
+            mtype: Optional[str] = None,
+            score: Optional[dict] = None,
+            douban: Optional[Movie] = None,
+            imdb: Optional[Movie] = None,
+            **kwargs,
     ):
         self.title = title
         self.type = "movie"  # 电影/电视剧
@@ -65,19 +65,19 @@ class Movie:
 
 class MovieCluster:
     def __init__(
-        self,
-        release_time: Union[str, pendulum.DateTime],
-        update_time: Union[str, pendulum.DateTime],
-        description: str,
-        source: Union[str, List[str]],
-        movie: Optional[Movie] = None,
-        movies: Optional[List[Movie]] = None,
-        cluster: Optional[List[MovieCluster]] = None,
-        draft: Any = None,
-        **kwargs,
+            self,
+            release_time: Union[str, DateTime],
+            update_time: Union[str, DateTime],
+            description: str,
+            source: Union[str, List[str]],
+            movie: Optional[Movie] = None,
+            movies: Optional[List[Movie]] = None,
+            cluster: Optional[List[MovieCluster]] = None,
+            draft: Any = None,
+            **kwargs,
     ):
-        self.release_time = str(release_time)
-        self.update_time = datetimes.time2str(update_time, 1)
+        self.release_time = time2str(update_time, 0) if isinstance(release_time, DateTime) else str(release_time)
+        self.update_time = time2str(update_time, 1)
         self.source = source
         self.description = description
         self.movie = movie
@@ -117,9 +117,9 @@ class MovieCluster:
             if isinstance(v, Movie) or isinstance(v, MovieCluster):
                 out[k] = v.to_dict()
             elif (
-                v
-                and isinstance(v, list)
-                and (isinstance(v[0], Movie) or isinstance(v[0], MovieCluster))
+                    v
+                    and isinstance(v, list)
+                    and (isinstance(v[0], Movie) or isinstance(v[0], MovieCluster))
             ):
                 out[k] = [v0.to_dict() for v0 in v]
             else:
