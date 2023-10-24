@@ -42,7 +42,7 @@ class CrawlerUrl:
 # todo ABCMeta
 class BaseCrawler:
     def __init__(
-        self, savedir: Union[str, Path] = None, overwrite: bool = False, **kwargs
+            self, savedir: Union[str, Path] = None, overwrite: bool = False, **kwargs
     ):
         self.sitename = ""
         self.baseurl = ""
@@ -51,6 +51,11 @@ class BaseCrawler:
         self.overwrite = overwrite
         self.savedir = savedir if savedir else Path(".")
         self.urls = None
+
+        self.save_prefix_base = "movie"
+        self.save_prefix_top = "top"
+        self.save_prefix_movie = "mid"
+        self.save_prefix_list = "mlist"
 
         self.error_http = -1
         self.error_file_exist = -2
@@ -68,14 +73,14 @@ class BaseCrawler:
         pass
 
     def get_page(
-        self,
-        url,
-        headers,
-        params=None,
-        page_format="text",
-        retry=1,
-        sleep_opt="random",
-        **kwargs,
+            self,
+            url,
+            headers,
+            params=None,
+            page_format="text",
+            retry=1,
+            sleep_opt="random",
+            **kwargs,
     ):
         for i in range(retry):
             if "round_i" not in kwargs:
@@ -100,22 +105,15 @@ class BaseCrawler:
         return page
 
     @abstractmethod
-    def process(self):
+    def process(self, key=None, savedir=None, **kwargs):
         pass
 
-    def getname(self, dt=None, total=None, name=None, post=None, suffix="json"):
+    def getname(self, dt=None, name=None, post=None, suffix="json"):
         # douban-movie-top250-v20230101.json, douban-movie-dl1234-v2023.json
         dt2 = datetimes.time2str(dt if dt else self.dt, 3)
-        category = []
-        if name:
-            category.append(name)
-        if total is not None:
-            if total == "" or int(total) < 10:
-                category.append("top")
-            else:
-                category.append(f"top{total}")
+        category = name if name else ""
         post = "" if not post else post
-        parts = [self.sitename, "movie"] + category + [post, "v" + dt2]
+        parts = [self.sitename, self.save_prefix_base, category, post, "v" + dt2]
         parts = "-".join([v for v in parts if len(v) > 0])
         savename = f"{parts}.{suffix}"
         return savename
