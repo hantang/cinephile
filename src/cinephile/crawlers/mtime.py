@@ -70,12 +70,6 @@ class MtimeCrawler(BaseCrawler):
         self.description = "时光电影榜单Top100"
         self.urls = MtimeUrl(self.sitename, self.description)
 
-    def get_url(self, key, is_source=False, **kwargs):
-        if is_source:
-            return self.urls.source(key, **kwargs)
-        else:
-            return self.urls.url(key, **kwargs)
-
     def parse_page(self, key, page, char_detect=False, **kwargs):
         # updateTime = datetime.datetime.fromtimestamp(int(page["data"]["created"]) // 1000)
         if key == self.urls.key_top100:

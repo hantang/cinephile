@@ -143,12 +143,6 @@ class DoubanCrawler(BaseCrawler):
         self.description = "豆瓣电影"
         self.urls = DoubanUrl(self.sitename, self.description)
 
-    def get_url(self, key, is_source=False, **kwargs):
-        if is_source:
-            return self.urls.source(key, **kwargs)
-        else:
-            return self.urls.url(key, **kwargs)
-
     def parse_page(self, key, page, char_detect=False, **kwargs):
         page = super().parse_page(key, page, char_detect)
         if key == self.urls.key_top250:

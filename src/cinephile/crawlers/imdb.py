@@ -109,12 +109,6 @@ class ImdbCrawler(BaseCrawler):
         self.description = "IMDb电影"
         self.urls = IMDbUrl(self.sitename, self.description, self.baseurl)
 
-    def get_url(self, key, is_source=False, **kwargs):
-        if is_source:
-            return self.urls.source(key, **kwargs)
-        else:
-            return self.urls.url(key, **kwargs)
-
     def parse_page(self, key, page, char_detect=False, **kwargs):
         page = super().parse_page(key, page, char_detect)
         if key == self.urls.key_top250:
@@ -128,7 +122,12 @@ class ImdbCrawler(BaseCrawler):
         return None
 
     def process(self, key=None, savedir=None, **kwargs):
-        pass
+        if key == self.urls.key_top250:
+            self.process_top250(savedir)
+        elif key == self.urls.key_list:
+            self.process_list(kwargs['movie_list_id'], savedir, page_limit=kwargs.get("page_limit", -1))
+        elif key == self.urls.key_detail:
+            self.process_detail(kwargs['movie_id'], savedir)
 
     def process_top250(self, savedir=None):
         key = self.urls.key_top250
@@ -161,6 +160,7 @@ class ImdbCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_detail(self, movie_id, savedir=None):
+        # todo parse page
         key = self.urls.key_detail
         dt = datetimes.utcnow()
 
@@ -190,7 +190,7 @@ class ImdbCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_list(self, movie_list_id, savedir=None, page_limit=-1):
-        """# todo
+        """
         self.baseurl = "https://www.imdb.com/list/ls027841309/"
         self.params = "sort=list_order,asc&st_dt=&mode=detail&page={}"
         """

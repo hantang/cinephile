@@ -50,7 +50,7 @@ class BaseCrawler:
         self.dt = datetimes.utcnow()
         self.overwrite = overwrite
         self.savedir = savedir if savedir else Path(".")
-        self.urls = None
+        self.urls = CrawlerUrl(self.sitename, self.description)
 
         self.save_prefix_base = "movie"
         self.save_prefix_top = "top"
@@ -68,9 +68,11 @@ class BaseCrawler:
         headers = {"User-agent": val}
         return headers
 
-    @abstractmethod
     def get_url(self, key, is_source=False, **kwargs):
-        pass
+        if is_source:
+            return self.urls.source(key, **kwargs)
+        else:
+            return self.urls.url(key, **kwargs)
 
     def get_page(
             self,
