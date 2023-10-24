@@ -1,18 +1,14 @@
-import os
-import sys
-
-sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
-
 import unittest
 import pendulum
-from cinephile.utils import datetime
+
+from cinephile.utils import datetimes
 
 
 class TestDatetime(unittest.TestCase):
     def test_now(self):
-        dt1 = datetime.utcnow()
-        dt2 = datetime.now()
-        dt3 = datetime.bjnow()
+        dt1 = datetimes.utcnow()
+        dt2 = datetimes.now()
+        dt3 = datetimes.bjnow()
 
         self.assertEqual(0, dt2.diff(dt1).in_hours())
         self.assertEqual(0, dt3.diff(dt1).in_hours())
@@ -26,13 +22,13 @@ class TestDatetime(unittest.TestCase):
         }
         dt = pendulum.parse(result[1])
         for i in range(4):
-            self.assertEqual(datetime.time2str(dt, i), result[i])
+            self.assertEqual(datetimes.time2str(dt, i), result[i])
 
     def test_time2zh(self):
         date = "2023-07-26T12:23:44+0800"
         dt = pendulum.parse(date)
         result = "二〇二三年七月二十六日（星期三）12:23:44 +0800"
-        self.assertEqual(datetime.time2zh(dt), result)
+        self.assertEqual(datetimes.time2zh(dt), result)
 
 
 if __name__ == "__main__":
