@@ -10,12 +10,12 @@ def strip_url(text):
 
 
 def strip(s, keep=False, slash=False):
-    pattern1 = r'[^\S\r\n]+' if keep else r'\s+'
-    s = re.sub(pattern1, ' ', s)  # 去除连续空白
-    s = re.sub(r'\n\s+', '\n', s)  # 仅保留一个换行
+    pattern1 = r"[^\S\r\n]+" if keep else r"\s+"
+    s = re.sub(pattern1, " ", s)  # 去除连续空白
+    s = re.sub(r"\n\s+", "\n", s)  # 仅保留一个换行
     s = s.strip()
     if slash:
-        return s.strip('/').strip()
+        return s.strip("/").strip()
     return s
 
 

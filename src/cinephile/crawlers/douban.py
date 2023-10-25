@@ -159,7 +159,7 @@ class DoubanCrawler(BaseCrawler):
         if key == self.urls.key_top250:
             self.process_top250(savedir)
         elif key == self.urls.key_list:
-            self.process_list(kwargs["movie_list_id"], savedir, limit=kwargs["limit"])
+            self.process_list(kwargs["movie_list_id"], savedir, page_limit=kwargs.get("page_limit", -1))
         elif key == self.urls.key_detail:
             self.process_detail(kwargs["movie_id"], savedir)
         elif key == self.urls.key_hot:
@@ -215,7 +215,7 @@ class DoubanCrawler(BaseCrawler):
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
-    def process_list(self, movie_list_id, savedir=None, limit=-1):
+    def process_list(self, movie_list_id, savedir=None, page_limit=-1):
         key = self.urls.key_list
         dt = datetimes.utcnow()
 
@@ -237,9 +237,9 @@ class DoubanCrawler(BaseCrawler):
         movies = self.parse_page(key, page, total=page_step)
         if not movies:
             return self.error_parse, None
-        logging.info(f"total more_hrefs = {len(more_hrefs)} / {limit}")
-        if limit >= 0:
-            more_hrefs = more_hrefs[:limit]
+        logging.info(f"total more_hrefs = {len(more_hrefs)} / {page_limit}")
+        if page_limit >= 0:
+            more_hrefs = more_hrefs[:page_limit]
         rn = len(more_hrefs)
         log = "more_hrefs (total={}): {} ...".format(rn, more_hrefs[:2])
         logging.info(log)
@@ -294,7 +294,7 @@ class DoubanCrawler(BaseCrawler):
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        savename = self.getname(dt, total=None, name="weekly-hot")
+        savename = self.getname(dt, name="weekly-hot")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, None

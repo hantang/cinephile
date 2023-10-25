@@ -31,7 +31,7 @@ class MaoyanUrl(CrawlerUrl):
     def source(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
         if key == self._key_detail:
-            return config['url'].format(kwargs["movie_id"])
+            return config["url"].format(kwargs["movie_id"])
         return config["raw_url"]
 
     def _init_urls(self) -> dict:
@@ -62,7 +62,7 @@ class MaoyanCrawler(BaseCrawler):
     """ 猫眼电影榜单
     """
 
-    def __init__(self, savedir, overwrite=False, request_option="requests"):
+    def __init__(self, savedir=None, overwrite=False, **kwargs):
         super(MaoyanCrawler, self).__init__(savedir, overwrite)
         self.sitename = "maoyan"
         self.baseurl = "https://www.maoyan.com"
@@ -104,8 +104,8 @@ class MaoyanCrawler(BaseCrawler):
             return self.error_parse, None
 
         logging.info(f"save to data, top movies = {len(movies)}")
-        desc = ", ".join([page['data']['title'], page['data']['content']])
-        release = pendulum.from_timestamp(int(page['data']['created']) / 1000, tz='Asia/Shanghai')
+        desc = ", ".join([page["data"]["title"], page["data"]["content"]])
+        release = pendulum.from_timestamp(int(page["data"]["created"]) / 1000, tz="Asia/Shanghai")
         source = self.get_url(key, is_source=True)
         movie_cluster = MovieCluster(release, dt, desc, source, movies=movies, draft=draft)
         self.save(savefile, movie_cluster)
@@ -116,31 +116,31 @@ class MaoyanCrawler(BaseCrawler):
 
 
 def parse_maoyan_json_top(page, **kwargs):
-    base_url = kwargs['base_url'].rstrip("/")
+    base_url = kwargs["base_url"].rstrip("/")
     items = page["data"]["movies"]
     entries = []
     for item in items:
-        title = item['nm']
-        rank = item['rank']
-        img = item['img']
-        maoyan_id = item['id']
+        title = item["nm"]
+        rank = item["rank"]
+        img = item["img"]
+        maoyan_id = item["id"]
         link = f"{base_url}/films/{maoyan_id}"
-        year = item['pubDesc'][:4]
+        year = item["pubDesc"][:4]
         if year.isdigit():
             year = int(year)
         else:
             logging.warning(f"Error year {title}: {year}")
             year = 0
         score = {
-            "maoyan-score": item['sc'],
+            "maoyan-score": item["sc"],
         }
         more = {
             "maoyan-id": maoyan_id,
-            'actor': item['star'],
-            "date": item['pubDesc'],
-            "genre": item['cat'],
-            "watch-wish": item['wish'],
-            "summary": item['shortDec'],
+            "actor": item["star"],
+            "date": item["pubDesc"],
+            "genre": item["cat"],
+            "watch-wish": item["wish"],
+            "summary": item["shortDec"],
         }
 
         movie = Movie(
