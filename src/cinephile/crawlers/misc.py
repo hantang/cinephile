@@ -197,3 +197,10 @@ def parse_imdb_hist_page_date(page, **kwargs):
         )
         entries.append(movie)
     return desc, entries
+
+
+if __name__ == "__main__":
+    save_dir = "./temp-data"
+    crawler = ImdbHistCrawler(save_dir)
+    crawler.query_hist(year_month="202301")
+    crawler.process_hist_top250(date="20230107")
