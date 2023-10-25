@@ -19,12 +19,11 @@ class MaoyanUrl(CrawlerUrl):
 
     def url(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
+        url = config["url"]
         if key == self._key_top100:
-            url = config["url"]
             params = config["params"]
             return f"{url}?{params}"
         elif key == self._key_detail:
-            url = kwargs['url']
             movie_id = kwargs["movie_id"]
             return url.format(movie_id)
         return ""
@@ -32,9 +31,7 @@ class MaoyanUrl(CrawlerUrl):
     def source(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
         if key == self._key_detail:
-            url = kwargs['url']
-            movie_id = kwargs["movie_id"]
-            return url.format(movie_id)
+            return config['url'].format(kwargs["movie_id"])
         return config["raw_url"]
 
     def _init_urls(self) -> dict:
@@ -81,7 +78,7 @@ class MaoyanCrawler(BaseCrawler):
         if key == self.urls.key_top100:
             self.process_top100(savedir)
         elif key == self.urls.key_detail:
-            self.process_detail(kwargs['movie_id'], savedir)
+            self.process_detail(kwargs["movie_id"], savedir)
 
     def process_top100(self, savedir=None):
         key = self.urls.key_top100
@@ -115,7 +112,7 @@ class MaoyanCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_detail(self, movie_id, savedir=None):
-        pass
+        key = self.urls.key_detail
 
 
 def parse_maoyan_json_top(page, **kwargs):
