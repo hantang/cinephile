@@ -27,7 +27,7 @@ def time2str(ti, fmt=0) -> str:
         3: "YYYYMMDD",
     }
     if not ti:
-        ti = now()
+        ti = pendulum.now()
     return ti.format(formats[fmt])
 
 
