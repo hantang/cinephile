@@ -79,6 +79,17 @@ class Movie:
     def flatten2dict(self, score="all"):
         keys = ['title', 'type', 'link', 'img', 'year', 'rank']
         out = {k: self.entry[k] for k in keys}
+        out['title2'] = out['title']
+        if 'title-more' in self.entry['extra']:
+            titles = self.entry['extra']['title-more']
+            if isinstance(titles, str):
+                title2 = titles
+            elif len(titles) > 2 and '/' not in titles[1]:
+                title2 = titles[1]
+            else:
+                title2 = ""
+            title2 = title2.split("(")[0]
+            out['title2'] = " / ".join([v.strip() for v in [out['title'], title2] if len(v.strip()) > 0]).strip()
         out_score_raw = self._get_score()
         out_score = {}
         if score == "all":
@@ -104,9 +115,9 @@ class Movie:
             out.append("![pic-{}]({})".format(item['title'], item['img']))
 
         if link and item["link"]:
-            out.append("[{}]({})".format(item['title'], item['link']))
+            out.append("[{}]({})".format(item['title2'], item['link']))
         else:
-            out.append(item['title'])
+            out.append(item['title2'])
 
         year_val, score_val, rank_val = "", "", ""
         if item['year']:
