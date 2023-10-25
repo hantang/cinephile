@@ -181,12 +181,15 @@ def parse_page_list(page, **kwargs):
         url = post.a["href"]
         img = post.img["src"]
         title = item.find("div", class_="title").text.strip()
-        star = item.find("div", class_="rating").text.strip().split()
-        assert 1 <= len(star) <= 2
-        if len(star) == 2:
-            score, count = star
-        else:
-            score, count = "", star[-1]
+        star = item.find("div", class_="rating")
+        score, count = "", ""
+        if star:
+            star = star.text.strip().split()
+            # assert 1 <= len(star) <= 2
+            if len(star) == 2:
+                score, count = star[0], star[1]
+            elif len(star) == 1:
+                count = star[0]
         abstract = item.find("div", class_="abstract")
         if abstract:
             abstract = strip(abstract.text, keep=True)
