@@ -68,7 +68,6 @@ def download_sleep(round_i, sleep_opt, sleep_range=None):
         s = int(sleep_opt)
     else:
         s = 1
-    s = 1  # todo ignore
     logging.info(f"==> sleep = {s}")
     time.sleep(s)
 
@@ -79,7 +78,7 @@ def download_page(url, headers, params, page_format="text", **kwargs):
     round_i, round_n = kwargs.get("round_i", 1), kwargs.get("round_n", 1)
     out, status = None, -1
     info = f"url = {url}" + (f", params = {params}" if params else "")
-    logging.info(f"==> round {round_i}/{round_n}, {info}")
+    logging.info(f"==> round {round_i}/{round_n}, page_format = {page_format}, {info}")
     try:
         res = requests.get(url, headers=headers)
         # res = requests.post(url, headers=headers)

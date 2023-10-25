@@ -62,8 +62,8 @@ class MtimeUrl(CrawlerUrl):
 
 
 class MtimeCrawler(BaseCrawler):
-    def __init__(self, savedir=None, overwrite=False):
-        super(MtimeCrawler, self).__init__(savedir, overwrite)
+    def __init__(self, savedir=None, overwrite=False, **kwargs):
+        super(MtimeCrawler, self).__init__(savedir, overwrite, **kwargs)
         self.sitename = "mtime"
         self.baseurl = "http://www.mtime.com/"
         self.description = "时光电影榜单Top100"

@@ -133,7 +133,7 @@ class BaseCrawler:
 
         filename = Path(savefile)
         if not filename.parent.exists():
-            logging.info("create dir = {filename.parent}")
+            logging.info(f"create dir = {filename.parent}")
             filename.parent.mkdir(parents=True)
         logging.info(f"save to {filename}")
         with open(filename, "w", encoding="utf-8") as f:
