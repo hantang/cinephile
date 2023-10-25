@@ -30,7 +30,7 @@ def extract_imdb_page_info(page, desc=None):
 
 def parse_imdb_page_top_v4(page, **kwargs):
     total = kwargs["total"]
-    base_url = kwargs["base_url"]
+    base_url = kwargs["base_url"].rstrip("/")
 
     tag1 = '<script id="__NEXT_DATA__" type="application/json">'
     tag2 = "</script>"
@@ -88,7 +88,7 @@ def parse_imdb_page_top_v4(page, **kwargs):
 
 def parse_imdb_page_list(page, **kwargs):
     # IMDb电影单解析
-    base_url = kwargs["base_url"]
+    base_url = kwargs["base_url"].rstrip("/")
     soup = BeautifulSoup(page, "html5lib")
     div_main = soup.body.find(id="main")
     if not div_main:
@@ -106,7 +106,7 @@ def parse_imdb_page_list(page, **kwargs):
     entries = []
     for item in items:
         t = item.find(class_="lister-item-image ribbonize")
-        link = base_url + t.a["href"].split("?")[0]
+        link = "{}/{}".format(base_url, t.a["href"].split("?")[0].lstrip("/"))
         img = t.img["src"]
 
         t2 = item.find(class_="lister-item-content")
