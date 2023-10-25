@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from typing import List, Any, Union, Optional
 
 import pandas as pd
@@ -261,7 +262,7 @@ class MovieCluster:
         cluster = self.get_cluster()
         if not cluster:
             return None
-        table = {}
+
         n = len(cluster)
         if isinstance(link, list):
             links = [True if i in link else False for i in range(n)]
@@ -271,14 +272,21 @@ class MovieCluster:
             imgs = [True if i in img else False for i in range(n)]
         else:
             imgs = [img] * n
-
+        logging.info(f"movies to df, cluster = {n}")
+        table = {}
         for i, element in enumerate(cluster):
             desc = element.description
             movies = element.get_movies()
-            if not movies:
-                movie = element.get_movie()
-                if movie:
-                    movies = [movie]
+            logging.info(f"{desc}, movies = {len(movies)}")
+            if movies is None or len(movies) == 0:
+                logging.debug("try to get_cluster")
+                clus = element.get_cluster()
+                if clus:
+                    # desc = clus[0].description
+                    movies = clus[0].get_movies()
+                elif element.get_movie():
+                    logging.debug("try to get_movie")
+                    movies = [element.get_movie()]
             cols = [m.flatten2mdstr(link=links[i], img=imgs[i], rank=True) for m in movies]
 
             table[desc] = cols

@@ -69,14 +69,17 @@ def update_readme(stats):
         file = Path(stats[key][1])
         if not file.exists():
             continue
+        logging.info(f"read file {file}")
         with open(file) as f:
             data = json.load(f)
         movie_cluster = MovieCluster.from_json(data)
+        desc = movie_cluster.description
         df = movie_cluster.to_df(link=True, img=True)
         if df is not None:
             if is_first:
                 texts.append(hr_line)
-            texts.extend(["## {}".format(movie_cluster.description), df.to_markdown()])
+            logging.info(f"add {desc}, shape={df.shape}")
+            texts.extend(["## {}".format(desc), df.to_markdown()])
             is_first = False
 
     cluster = []
@@ -89,14 +92,18 @@ def update_readme(stats):
             continue
         if key in SITES[:2]:
             link_tag.append(len(cluster))
+        logging.info(f"read file {file}")
         with open(file) as f:
             data = json.load(f)
         mc = MovieCluster.from_json(data)
+        logging.info(f"movie cluster = {mc.description}, movies = {len(mc.get_movies())}")
         cluster.append(mc)
-    movie_cluster = MovieCluster("", "", "电影Top榜单", "", cluster=cluster)
+    desc = "电影Top榜单"
+    movie_cluster = MovieCluster("", "", desc, "", cluster=cluster)
     df = movie_cluster.to_df(link=link_tag, img=False)
     if df is not None:
-        texts.extend([hr_line, "## {}".format(movie_cluster.description), df.to_markdown()])
+        logging.info(f"add {desc}, shape={df.shape}")
+        texts.extend([hr_line, "## {}".format(desc), df.to_markdown()])
 
     logging.info(f"save to {readfile}")
     with open(readfile, "w") as fw:
