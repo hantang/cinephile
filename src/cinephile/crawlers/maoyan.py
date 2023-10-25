@@ -104,7 +104,8 @@ class MaoyanCrawler(BaseCrawler):
             return self.error_parse, savefile
 
         logging.info(f"save to data, top movies = {len(movies)}")
-        desc = ", ".join([page["data"]["title"], page["data"]["content"]])
+        # desc = ", ".join([page["data"]["title"], page["data"]["content"]])
+        desc = self.description
         release = pendulum.from_timestamp(int(page["data"]["created"]) / 1000, tz="Asia/Shanghai")
         source = self.get_url(key, is_source=True)
         movie_cluster = MovieCluster(release, dt, desc, source, movies=movies, draft=draft)
