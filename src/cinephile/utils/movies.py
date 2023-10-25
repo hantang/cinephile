@@ -62,6 +62,24 @@ class Movie:
     def query(self, key):
         pass
 
+    @classmethod
+    def from_json(cls, json_data):
+        title = json_data["title"]
+        link = json_data['link']
+        img = json_data['img']
+        year = json_data['year']
+        rank = json_data['rank']
+        mtype = json_data["type"]
+        score = json_data['score']
+        douban, imdb = None, None
+        more = json_data['extra']
+        if 'douban' in json_data:
+            douban = Movie.from_json(json_data['douban'])
+        if "imdb" in json_data:
+            imdb = Movie.from_json(json_data['imdb'])
+        movie = cls(title, link, img, year, rank, mtype=mtype, score=score, douban=douban, imdb=imdb, **more)
+        return movie
+
 
 class MovieCluster:
     def __init__(
@@ -129,7 +147,27 @@ class MovieCluster:
     @classmethod
     def from_json(cls, json_data):
         # todo json data covert into Movie
-        return cls(**json_data)
+        keys = ['release_time', 'update_time', 'description', 'source', 'movie_total', 'cluster_total',
+                'movie', 'movies', 'cluster', 'draft']
+        movie, movies, cluster = None, None, None
+
+        release_time = json_data['release_time']
+        update_time = json_data['update_time']
+        description = json_data['description']
+        source = json_data['source']
+        draft = json_data.get("draft")
+        more = {k: v for k, v in json_data.items() if k not in keys}
+
+        if 'movie' in json_data:
+            movie = Movie.from_json(json_data['movie'])
+        if 'movies' in json_data:
+            movies = [Movie.from_json(movie_data) for movie_data in json_data['movies']]
+        if "cluster" in json_data:
+            cluster = [MovieCluster.from_json(cluster_data) for cluster_data in json_data['cluster']]
+
+        movie_cluster = MovieCluster(release_time, update_time, description, source, movie=movie, movies=movies,
+                                     cluster=cluster, draft=draft, **more)
+        return movie_cluster
 
     def to_csv(self):
         pass
