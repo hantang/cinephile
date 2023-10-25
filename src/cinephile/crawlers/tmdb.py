@@ -116,10 +116,8 @@ class TmdbCrawler(BaseCrawler):
                     titles, next_url = self.parse_page(key, page, lang=lang)
                     if not titles or len(titles) != page_step:
                         logging.warning("Error titles")
-                        break
-                    logging.info(f"round={page_num}/{page_cnt} Titles = {titles}")
+                    logging.info(f"round={page_num}/{page_cnt}")
                 else:
-                    if not titles: continue
                     out, next_url = self.parse_page(key, page, lang=lang, base_url=base_url, titles=titles, start=start)
                     titles = []
                     if out:
