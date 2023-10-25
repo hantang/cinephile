@@ -91,13 +91,13 @@ class MtimeCrawler(BaseCrawler):
         savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, None
+            return self.error_file_exist, savefile
 
         headers = self.get_headers()
         url = self.get_url(key)
         page = self.get_page(url, headers=headers, page_format="json")
         if not page:
-            return self.error_parse, None
+            return self.error_parse, savefile
 
         logging.info(f"parse page, page={len(page)}")
         top_limit = url_config["top_limit"]

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import List, Any, Union, Optional
 
+import pandas as pd
 from pendulum import DateTime
 
 from cinephile.utils.datetimes import time2str
@@ -58,6 +59,84 @@ class Movie:
             k: v.to_dict() if isinstance(v, Movie) else v for k, v in self.entry.items()
         }
         return out
+
+    def _get_score(self):
+        out = {}
+        score_dict = self.entry['score']
+        for key in score_dict.keys():
+            if 'score' in key:
+                out[key] = score_dict[key]
+        for key in ['douban', 'imdb']:
+            if key in self.entry:
+                sub_entry = self.entry[key]
+                sub_score_dict = sub_entry['score']
+                for key in sub_score_dict.keys():
+                    if 'score' in key and key not in out:
+                        out[key] = score_dict[key]
+        return out
+
+    def flatten2dict(self, score="all"):
+        keys = ['title', 'type', 'link', 'img', 'year', 'rank']
+        out = {k: self.entry[k] for k in keys}
+        out_score_raw = self._get_score()
+        out_score = {}
+        if score == "all":
+            out_score = out_score_raw
+        elif score == "douban":
+            out_score['douban-score'] = out_score_raw.get('douban-score')
+        elif score == "imdb":
+            out_score['imdb-score'] = out_score_raw.get('imdb-score')
+        out.update(out_score)
+        return out
+
+    def flatten2mdstr(self, link=True, img=False, rank=False, emoji=True):
+        # convert to markdown string
+        emoji_dict = {
+            "year": "🎬🗓️📅",
+            "score": "🌟⭐✨❗",
+            "rank": "🥇🥈🥉🏅",
+        }
+
+        item = self.flatten2dict()
+        out = []  # img, title, (year, score, rank)
+        if img and item['img']:
+            out.append("![pic-{}]({})".format(item['title'], item['img']))
+
+        if link and item["link"]:
+            out.append("[{}]({})".format(item['title'], item['link']))
+        else:
+            out.append(item['title'])
+
+        year_val, score_val, rank_val = "", "", ""
+        if item['year']:
+            year = str(item['year'])
+            if emoji:
+                year_val = emoji_dict['year'][0] + " " + year
+        score = None
+        if item.get('douban-score'):
+            score = float(item['douban-score'])
+            score = "{:.2f}".format(score) if score > 0 else ""
+            score_val = "{} {}".format(emoji_dict['score'][0] if emoji else "", score).strip()
+        elif item.get('imdb-score'):
+            score = float(item['imdb-score'])
+            score = "{:.2f}".format(score) if score > 0 else ""
+            score_val = "{}{}".format(emoji_dict['score'][1] if emoji else "", score).strip()
+        else:
+            keys = [key for key in sorted(item.keys()) if '-score' in key]
+            if keys:
+                score = float(item[keys[0]])
+                score = "{:.2f}".format(score) if score > 0 else ""
+                score_val = "{}{}".format(emoji_dict['score'][2] if emoji else "", score).strip()
+        if emoji and score_val == "":
+            score_val = emoji_dict['score'][-1]
+
+        if rank and item.get("rank"):
+            rank_val = int(item.get("rank"))
+            rank_emoji = emoji_dict['rank'][rank_val - 1] if rank_val <= 3 else emoji_dict['rank'][-1]
+            rank_val = "{}{:03d}".format(rank_emoji if emoji else "", rank_val).strip()
+
+        out.append("({})".format(" / ".join([year_val, score_val, rank_val])).strip("/").strip())
+        return "<br>".join([v.strip() for v in out])
 
     def query(self, key):
         pass
@@ -169,8 +248,39 @@ class MovieCluster:
                                      cluster=cluster, draft=draft, **more)
         return movie_cluster
 
-    def to_csv(self):
-        pass
+    def get_movie(self) -> Optional[Movie]:
+        return self.collection.get("movie")
 
-    def to_markdown(self):
-        pass
+    def get_movies(self) -> Optional[List[Movie]]:
+        return self.collection.get("movies", [])
+
+    def get_cluster(self) -> Optional[List[MovieCluster]]:
+        return self.collection.get("cluster", [])
+
+    def to_df(self, link=False, img=False):
+        cluster = self.get_cluster()
+        if not cluster:
+            return None
+        table = {}
+        n = len(cluster)
+        if isinstance(link, list):
+            links = [True if i in link else False for i in range(n)]
+        else:
+            links = [link] * n
+        if isinstance(img, list):
+            imgs = [True if i in img else False for i in range(n)]
+        else:
+            imgs = [img] * n
+
+        for i, element in enumerate(cluster):
+            desc = element.description
+            movies = element.get_movies()
+            if not movies:
+                movie = element.get_movie()
+                if movie:
+                    movies = [movie]
+            cols = [m.flatten2mdstr(link=links[i], img=imgs[i], rank=True) for m in movies]
+
+            table[desc] = cols
+        df = pd.DataFrame.from_dict(table, orient='index').T
+        return df
