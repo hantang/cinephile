@@ -16,20 +16,23 @@ def extract_page_info(page, desc=None):
         return None, None
 
     douname = strip(content.h1.text)
-    logging.info(f"name = {douname}")
     dou_desc = {"name": douname}
     dinfo = content.find(id="doulist-info")
     if dinfo:
         author = strip(dinfo.find(class_="meta").text)
         about = "\n".join([v.text for v in dinfo.find(class_="doulist-about").contents])
         about = strip(about, keep=True)
-        more = {"author": author, "about": about}
+        count = content.find('div', class_='doulist-filter').span  # 片单电影数量
+        if count:
+            count = int(count.text.strip().strip("()"))
+        more = {"author": author, "about": about, "count": count}
         dou_desc.update(more)
 
     # 分页链接
     paginator = content.find(class_="paginator")
     more_hrefs = [a["href"] for a in paginator.find_all("a", recursive=False)]
     logging.info("FIN extract paginator ...")
+    logging.info(f"more_hrefs = {len(more_hrefs)}, dou_desc = {dou_desc}")
     return more_hrefs, dou_desc
 
 
@@ -53,6 +56,12 @@ def parse_page_top250(page, **kwargs):
     if not grid_view:
         logging.warning("grid_view is null")
         return None
+
+    paginator = content.find(class_="paginator")
+    next_url = paginator.find("span", class_="next").a
+    if next_url:
+        next_url = next_url['href']
+
     items = grid_view.find_all("li")
     logging.info(f"items = {len(items)}/{total}")
 
@@ -91,7 +100,7 @@ def parse_page_top250(page, **kwargs):
         entry = Movie(title, link, img, year, rank, mtype=None, score=score, **more)
         entries.append(entry)
     logging.info(f"output entries = {len(entries)} / {total}")
-    return entries
+    return entries, next_url
 
 
 def parse_page_hot(page, **kwargs):
@@ -154,6 +163,11 @@ def parse_page_list(page, **kwargs):
         logging.warning(f"Error movie list id = {doulist}")
         return None
 
+    paginator = content.find(class_="paginator")
+    next_url = paginator.find("span", class_="next").a
+    if next_url:
+        next_url = next_url['href']
+
     items = content.find_all("div", class_="doulist-item")
     logging.info(f"items = {len(items)}/{total}")
     entries = []
@@ -185,7 +199,7 @@ def parse_page_list(page, **kwargs):
         movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
         entries.append(movie)
     logging.info(f"entries = {len(entries)}/ {total}")
-    return entries
+    return entries, next_url
 
 
 def parse_page_detail(page, **kwargs):

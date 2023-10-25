@@ -1,4 +1,5 @@
 import logging
+import math
 from pathlib import Path
 from typing import List, Union
 
@@ -32,17 +33,21 @@ class DoubanUrl(CrawlerUrl):
 
         if key in [self._key_top250, self._key_list]:
             url = config["url"]
+            params = kwargs.get("params")
+            start = kwargs.get("start")
+
+            if params and params.startswith("http"):
+                return params
+
             if key == self._key_list:
                 movie_list_id = kwargs["movie_list_id"]
                 url = url.format(movie_list_id)
 
-            if "params" in kwargs:
-                params = kwargs["params"]
+            if params:
                 params = params.lstrip("?")
                 return f"{url}?{params}"
 
-            start = kwargs.get("start")
-            if start is None or start == 0:
+            if start is None or start in [0, 1]:
                 return url
             else:
                 params = config["params"].format(start)
@@ -165,7 +170,7 @@ class DoubanCrawler(BaseCrawler):
         elif key == self.urls.key_hot:
             self.process_hot(savedir)
 
-    def process_top250(self, savedir=None):
+    def process_top250_v1(self, savedir=None):
         key = self.urls.key_top250
         dt = datetimes.utcnow()
 
@@ -215,6 +220,56 @@ class DoubanCrawler(BaseCrawler):
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
+    def process_top250(self, savedir=None):
+        key = self.urls.key_top250
+        dt = datetimes.utcnow()
+
+        url_config = self.urls.query(key)
+        total = url_config["total"]
+        savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
+        savefile = Path(savedir if savedir else self.savedir, savename)
+        if self.check(savefile) and not self.overwrite:
+            return self.error_file_exist, None
+
+        headers = self.get_headers()
+        page_num = url_config["page_start"]
+        page_cnt = url_config["page_end"]
+        page_step = url_config["page_step"]
+        dou_desc = None
+        movies = []
+        next_url = self.get_url(key, start=page_num)
+        while True:
+            url = next_url
+            page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt)
+            if not page:
+                if page_num > 1:
+                    break
+                logging.warning("page error, exit\n\n")
+                return self.error_http, None
+
+            if page_num == 1:
+                more_hrefs, dou_desc = extract_page_info(page)
+                total_num = dou_desc.get("count", total)
+                page_cnt = int(math.ceil(total_num / page_step))
+                logging.info(f"total items = {total_num} page = {page_cnt}")
+
+            logging.info(f"round={page_num}/{page_cnt} parse page, page={len(page)}")
+            out, next_url = self.parse_page(key, page, total=page_step)
+            logging.info("out = {}, next_url = {}".format(len(out) if out else None, next_url))
+            if out:
+                movies.extend(out)
+            if not (out and next_url) or next_url == "#":
+                break
+            page_num += 1
+            next_url = self.get_url(key, params=next_url, start=page_num)
+
+        logging.info(f"save to data, top movies = {len(movies)}")
+        desc = dou_desc["name"]
+        source = self.get_url(key, is_source=True)
+        movie_cluster = MovieCluster(dt, dt, desc, source, movies=movies)
+        self.save(savefile, movie_cluster)
+        return movie_cluster.total, savefile
+
     def process_list(self, movie_list_id, savedir=None, page_limit=-1):
         key = self.urls.key_list
         dt = datetimes.utcnow()
@@ -227,35 +282,39 @@ class DoubanCrawler(BaseCrawler):
 
         headers = self.get_headers()
         page_step = url_config["page_step"]
-        url = self.get_url(key, movie_list_id=movie_list_id, start=None)
-        page = self.get_page(url, headers, round_i=1, round_n=1)
-        if not page:
-            logging.warning("page error, exit\n\n")
-            return self.error_http, None
 
-        more_hrefs, dou_desc = extract_page_info(page, desc="douban movie list")
-        movies = self.parse_page(key, page, total=page_step)
-        if not movies:
-            return self.error_parse, None
-        logging.info(f"total more_hrefs = {len(more_hrefs)} / {page_limit}")
-        if page_limit >= 0:
-            more_hrefs = more_hrefs[:page_limit]
-        rn = len(more_hrefs)
-        log = "more_hrefs (total={}): {} ...".format(rn, more_hrefs[:2])
-        logging.info(log)
-
-        for num, href in enumerate(more_hrefs):
-            url = href if href.startswith("http") else self.urls.url(key, params=href)
-            page = self.get_page(url, headers, round_i=1 + num, round_n=rn)
+        page_num = 1
+        page_cnt = -1
+        dou_desc = None
+        movies = []
+        next_url = self.get_url(key, movie_list_id=movie_list_id, start=page_num)
+        while page_limit <= 0 or page_num < page_limit:
+            url = next_url
+            page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt)
             if not page:
-                continue
-            logging.info(f"round={1 + num}/{rn}parse page, page={len(page)}")
-            out = self.parse_page(key, page, total=page_step)
+                if page_num > 1:
+                    break
+                logging.warning("page error, exit\n\n")
+                return self.error_http, None
+
+            if page_num == 1:
+                more_hrefs, dou_desc = extract_page_info(page)
+                total_num = dou_desc.get("count", 200)
+                page_cnt = int(math.ceil(total_num / page_step))
+                logging.info(f"total items = {total_num} page = {page_cnt}")
+
+            logging.info(f"round={page_num}/{page_cnt} parse page, page={len(page)}")
+            out, next_url = self.parse_page(key, page, total=page_step)
+            logging.info("out = {}, next_url = {}".format(len(out) if out else None, next_url))
             if out:
                 movies.extend(out)
+            if not (out and next_url) or next_url == "#":
+                break
+            page_num += 1
+            next_url = self.get_url(key, params=next_url, start=page_num)
 
         logging.info(f"save to data, movie list = {len(movies)}")
-        desc = "\n".join([dou_desc[v] for v in ["name", "author", "about"]]).strip()
+        desc = "\n".join([dou_desc[v] for v in ["name", "author", "about"]]).strip() if dou_desc else url_config['desc']
         source = self.get_url(key, is_source=True, movie_list_id=movie_list_id)
         release_time = dou_desc["author"].split()[3]
         movie_cluster = MovieCluster(release_time, dt, desc, source, movies=movies)
