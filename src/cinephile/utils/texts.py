@@ -26,6 +26,12 @@ def extract_year(text):
 
 def purify_webarchive(html_page):
     # 清除webarchive中添加的信息
+    meta = '<meta name="webarchive" content=""/>'
+    out = re.findall(r'(__wm\.wombat\((("\S+",?(\n\s+)?)+)\);)', html_page)
+    if out:
+        text = re.sub(r'[\s"]+', "", out[0][1])
+        meta = '<meta name="webarchive" content="{}"/>'.format(text)
+
     tag1 = "<!-- End Wayback Rewrite JS Include -->"
     tag2 = "</html>"
     b, e = "BEGIN", "END"
@@ -55,7 +61,7 @@ def purify_webarchive(html_page):
     data = html_page
     i1 = data.find(tag1)
     i2 = data.rfind(tag2)
-    data2 = "<html>\n<head>\n" + data[i1 + len(tag1): i2 + len(tag2)].strip()
+    data2 = data[i1 + len(tag1): i2 + len(tag2)].strip()
     for t1, t2 in zip(pairs, pairs2):
         i3a = data2.find(t1)
         i3b = data2.find(t2)
@@ -66,4 +72,5 @@ def purify_webarchive(html_page):
 
     pattern = r"(https?://web.archive.org)?/web/(20|19)\d+\w+/http"
     data3 = re.sub(pattern, "http", data2)
-    return data3
+    out = f"<html>\n<head>\n    {meta}\n    " + data3
+    return out
