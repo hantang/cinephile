@@ -87,7 +87,7 @@ class MtimeCrawler(BaseCrawler):
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        total = url_config['total']
+        total = url_config["total"]
         savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
@@ -100,7 +100,7 @@ class MtimeCrawler(BaseCrawler):
             return self.error_parse, None
 
         logging.info(f"parse page, page={len(page)}")
-        top_limit = url_config['top_limit']
+        top_limit = url_config["top_limit"]
         cluster = []
         tops = page["data"]["movieTopList"]["topListInfos"]
         for i in range(top_limit):

@@ -14,15 +14,15 @@ def extract_imdb_page_info(page, desc=None):
     soup = BeautifulSoup(page, "html5lib")
     logging.info("Title = {}".format(strip(soup.title.text)))
 
-    div_main = soup.body.find(id='main')
+    div_main = soup.body.find(id="main")
     name = div_main.h1.text.strip()
-    author = strip(div_main.find(id='list-overview-summary').text)
+    author = strip(div_main.find(id="list-overview-summary").text)
     list_desc = {"name": name, "author": author, }
     # 总数
-    # pagi = div_main.find(class_='list-pagination')
-    # pagi.find(class_='next-page')['href']
-    # total = int(pagi.find(class_='pagination-range').text.strip().split("of")[-1])
-    total_num = div_main.find(class_='desc lister-total-num-results').text.strip()
+    # pagi = div_main.find(class_="list-pagination")
+    # pagi.find(class_="next-page")["href"]
+    # total = int(pagi.find(class_="pagination-range").text.strip().split("of")[-1])
+    total_num = div_main.find(class_="desc lister-total-num-results").text.strip()
     total_num = int(total_num.split()[0].replace(",", ""))
 
     return total_num, list_desc
@@ -30,7 +30,7 @@ def extract_imdb_page_info(page, desc=None):
 
 def parse_imdb_page_top_v4(page, **kwargs):
     total = kwargs["total"]
-    base_url = kwargs['base_url']
+    base_url = kwargs["base_url"]
 
     tag1 = '<script id="__NEXT_DATA__" type="application/json">'
     tag2 = "</script>"
@@ -88,16 +88,16 @@ def parse_imdb_page_top_v4(page, **kwargs):
 
 def parse_imdb_page_list(page, **kwargs):
     # IMDb电影单解析
-    base_url = kwargs['base_url']
+    base_url = kwargs["base_url"]
     soup = BeautifulSoup(page, "html5lib")
-    div_main = soup.body.find(id='main')
+    div_main = soup.body.find(id="main")
     if not div_main:
         return None, None
 
-    div_pagi = div_main.find("div", class_='list-pagination')
-    next_url = div_pagi.find(class_='next-page')
+    div_pagi = div_main.find("div", class_="list-pagination")
+    next_url = div_pagi.find(class_="next-page")
     if next_url:
-        next_url = next_url['href']
+        next_url = next_url["href"]
     logging.info(f"next url = {next_url}")
 
     div_lister = div_main.find("div", class_="lister-list")

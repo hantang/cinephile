@@ -10,7 +10,7 @@ from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
 
 
-class IMDbUrl(CrawlerUrl):
+class ImdbUrl(CrawlerUrl):
     def __init__(self, sitename, description=None, baseurl=None):
         self.baseurl = baseurl
         super().__init__(sitename, description)
@@ -33,11 +33,11 @@ class IMDbUrl(CrawlerUrl):
 
     def source(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
-        url = config['url']
+        url = config["url"]
         if key == self._key_top250:
             return url
         elif key == self._key_detail:
-            movie_id = kwargs['movie_id']
+            movie_id = kwargs["movie_id"]
             return url.format(movie_id)
         elif key == self._key_list:
             movie_list_id = kwargs["movie_list_id"]
@@ -46,16 +46,16 @@ class IMDbUrl(CrawlerUrl):
 
     def url(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
-        url = config['url']
+        url = config["url"]
         if key == self._key_top250:
             return url
         elif key == self._key_detail:
-            movie_id = kwargs['movie_id']
+            movie_id = kwargs["movie_id"]
             return url.format(movie_id)
         elif key == self._key_list:
             movie_list_id = kwargs.get("movie_list_id")
             params = kwargs.get("params")
-            page = kwargs.get('page')
+            page = kwargs.get("page")
             if params:
                 if params.startswith("http"):
                     return params
@@ -70,7 +70,7 @@ class IMDbUrl(CrawlerUrl):
 
                 url = url.format(movie_list_id)
                 if page and page > 1:
-                    params = config['params'].format(page)
+                    params = config["params"].format(page)
                     return f"{url}?{params}"
                 return url
         return ""
@@ -107,7 +107,7 @@ class ImdbCrawler(BaseCrawler):
         self.sitename = "imdb"
         self.baseurl = "https://www.imdb.com/"
         self.description = "IMDb电影"
-        self.urls = IMDbUrl(self.sitename, self.description, self.baseurl)
+        self.urls = ImdbUrl(self.sitename, self.description, self.baseurl)
 
     def parse_page(self, key, page, char_detect=False, **kwargs):
         page = super().parse_page(key, page, char_detect)
@@ -125,9 +125,9 @@ class ImdbCrawler(BaseCrawler):
         if key == self.urls.key_top250:
             self.process_top250(savedir)
         elif key == self.urls.key_list:
-            self.process_list(kwargs['movie_list_id'], savedir, page_limit=kwargs.get("page_limit", -1))
+            self.process_list(kwargs["movie_list_id"], savedir, page_limit=kwargs.get("page_limit", -1))
         elif key == self.urls.key_detail:
-            self.process_detail(kwargs['movie_id'], savedir)
+            self.process_detail(kwargs["movie_id"], savedir)
 
     def process_top250(self, savedir=None):
         key = self.urls.key_top250
@@ -204,7 +204,7 @@ class ImdbCrawler(BaseCrawler):
             return self.error_file_exist, None
 
         headers = self.get_headers()
-        page_step = url_config['page_step']
+        page_step = url_config["page_step"]
 
         page_num = 1
         page_cnt = -1
@@ -235,7 +235,7 @@ class ImdbCrawler(BaseCrawler):
             next_url = self.get_url(key, params=next_url, page=page_num)
 
         logging.info(f"save to data, top movies = {len(movies)}")
-        desc = "\n".join([list_desc[k] for k in ['name', 'author']]) if list_desc else url_config["desc"]
+        desc = "\n".join([list_desc[k] for k in ["name", "author"]]) if list_desc else url_config["desc"]
         source = self.get_url(key, movie_list_id=movie_list_id, is_source=True)
         movie_cluster = MovieCluster(dt, dt, desc, source, movies=movies)
         self.save(savefile, movie_cluster)

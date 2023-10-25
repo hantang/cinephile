@@ -63,7 +63,7 @@ class TmdbUrl(CrawlerUrl):
 
 
 class TmdbCrawler(BaseCrawler):
-    def __init__(self, savedir, overwrite=False, request_option="requests"):
+    def __init__(self, savedir=None, overwrite=False, **kwargs):
         super(TmdbCrawler, self).__init__(savedir, overwrite)
         self.sitename = "tmdb"
         self.baseurl = "https://www.themoviedb.org"
