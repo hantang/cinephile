@@ -4,7 +4,6 @@ from pathlib import Path
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.crawlers.mtime_parser import parse_mtime_json_detail, parse_mtime_json_top
 from cinephile.utils import datetimes
-from cinephile.utils.misc import set_logging
 from cinephile.utils.movies import MovieCluster
 
 
