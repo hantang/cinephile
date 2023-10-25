@@ -110,7 +110,7 @@ class DoubanUrl(CrawlerUrl):
                 "total": 1,
             },
             self._key_hot: {
-                "desc": "豆瓣电影实时和近期热门榜单（手机版）",
+                "desc": "豆瓣电影实时和近期热门榜单",
                 "url": "https://m.douban.com/rexxar/api/v2/subject_collection/{}/items",
                 "params": "start=0&count=50&updated_at=&items_only=1&for_mobile=1",
                 "base_url": "https://m.douban.com/",
@@ -179,7 +179,7 @@ class DoubanCrawler(BaseCrawler):
         savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, None
+            return self.error_file_exist, savefile
 
         headers = self.get_headers()
         page_start = url_config["page_start"]
@@ -197,7 +197,7 @@ class DoubanCrawler(BaseCrawler):
         more_hrefs, dou_desc = extract_page_info(page, desc="Top250")
         movies = self.parse_page(key, page, total=page_step)
         if not (movies and more_hrefs):
-            return self.error_parse, None
+            return self.error_parse, savefile
         rn = len(more_hrefs)
         log = "more_hrefs (total={}): {} ...".format(rn, more_hrefs[:2])
         logging.info(log)
@@ -229,7 +229,7 @@ class DoubanCrawler(BaseCrawler):
         savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, None
+            return self.error_file_exist, savefile
 
         headers = self.get_headers()
         page_num = url_config["page_start"]
@@ -245,7 +245,7 @@ class DoubanCrawler(BaseCrawler):
                 if page_num > 1:
                     break
                 logging.warning("page error, exit\n\n")
-                return self.error_http, None
+                return self.error_http, savefile
 
             if page_num == 1:
                 more_hrefs, dou_desc = extract_page_info(page)
@@ -356,7 +356,7 @@ class DoubanCrawler(BaseCrawler):
         savename = self.getname(dt, name="weekly-hot")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, None
+            return self.error_file_exist, savefile
 
         headers = self.get_headers()
         headers["Referer"] = url_config["base_url"]
@@ -381,7 +381,7 @@ class DoubanCrawler(BaseCrawler):
 
         logging.info(f"save to data, cluster = {len(clusters)}")
         if not clusters:
-            return self.error_parse, None
+            return self.error_parse, savefile
 
         desc = url_config["desc"]
         source = self.get_url(key, is_source=True, order=-1)

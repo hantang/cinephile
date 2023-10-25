@@ -82,7 +82,7 @@ def download_page(url, headers, params, page_format="text", **kwargs):
     try:
         res = requests.get(url, headers=headers)
         # res = requests.post(url, headers=headers)
-    except requests.RequestException:
+    except (requests.RequestException, Exception):
         logging.error(f"{tag}\n!! Failed url = {url}\n{tag}")
         traceback.print_exc()
         exit(-1)

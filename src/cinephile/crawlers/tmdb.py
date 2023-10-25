@@ -93,7 +93,7 @@ class TmdbCrawler(BaseCrawler):
         savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, None
+            return self.error_file_exist, savefile
 
         headers = self.get_headers()
         base_url = self.baseurl
