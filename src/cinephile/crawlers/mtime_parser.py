@@ -58,7 +58,7 @@ def parse_mtime_json_top(page: dict, **kwargs) -> Optional[List[Movie]]:
     for item in items:
         info = item["movieInfo"]
         rank = item["rank"]
-        title = item["title"]
+        # title = item["title"]
         link = "http://movie.mtime.com/{}".format(info["movieId"])
         img = info["img"]
         mtime_id = str(info["movieId"])
@@ -66,14 +66,14 @@ def parse_mtime_json_top(page: dict, **kwargs) -> Optional[List[Movie]]:
             year = int(info["releaseDate"][:4])
         elif mtime_id in mtime_id_year_map:
             year = int(mtime_id_year_map[mtime_id])
-            title = title.replace("(0)", f"({year})")
+            # title = title.replace("(0)", f"({year})")
         else:
             year = 0
-
+        title = info["movieName"]
         score = {"mtime-score": info["score"]}
         more = {
             "mtime_id": info["movieId"],
-            "title-more": [info["movieName"], info["movieNameEn"]],
+            "title-more": [info["movieName"], info["movieNameEn"], item["title"]],
             "director": info["director"],
             "actor": info["actors"],
             "date": info["releaseDate"],
