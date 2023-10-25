@@ -3,4 +3,5 @@ fake_useragent
 requests
 pendulum
 tabulate
+html5lib
 pandas
