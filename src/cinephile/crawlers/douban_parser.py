@@ -20,8 +20,12 @@ def extract_page_info(page, desc=None):
     dinfo = content.find(id="doulist-info")
     if dinfo:
         author = strip(dinfo.find(class_="meta").text)
-        about = "\n".join([v.text for v in dinfo.find(class_="doulist-about").contents])
-        about = strip(about, keep=True)
+        about = dinfo.find(class_="doulist-about")
+        if about:
+            about = "\n".join([v.text for v in about.contents])
+            about = strip(about, keep=True)
+        else:
+            about = ""
         count = content.find('div', class_='doulist-filter').span  # 片单电影数量
         if count:
             count = int(count.text.strip().strip("()"))
@@ -30,7 +34,7 @@ def extract_page_info(page, desc=None):
 
     # 分页链接
     paginator = content.find(class_="paginator")
-    more_hrefs = [a["href"] for a in paginator.find_all("a", recursive=False)]
+    more_hrefs = [a["href"] for a in paginator.find_all("a", recursive=False)] if paginator else []
     logging.info("FIN extract paginator ...")
     logging.info(f"more_hrefs = {len(more_hrefs)}, dou_desc = {dou_desc}")
     return more_hrefs, dou_desc
@@ -163,10 +167,10 @@ def parse_page_list(page, **kwargs):
         logging.warning(f"Error movie list id = {doulist}")
         return None
 
+    next_url = "#"
     paginator = content.find(class_="paginator")
-    next_url = paginator.find("span", class_="next").a
-    if next_url:
-        next_url = next_url['href']
+    if paginator and paginator.find("span", class_="next").a:
+        next_url = paginator.find("span", class_="next").a['href']
 
     items = content.find_all("div", class_="doulist-item")
     logging.info(f"items = {len(items)}/{total}")
@@ -176,6 +180,8 @@ def parse_page_list(page, **kwargs):
         post = item.find("div", class_="post")
         if post is None:
             logging.warning(f"empty -> {idx}")
+            movie = Movie("", None, None, 0, rank=idx, mtype=None, score=None)
+            entries.append(movie)
             continue
 
         url = post.a["href"]
