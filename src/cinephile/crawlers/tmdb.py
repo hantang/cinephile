@@ -104,9 +104,11 @@ class TmdbCrawler(BaseCrawler):
         for page_num in range(page_cnt):
             start = page_step * page_num
             page_num += 1
+            if page_num % 3 == 0:
+                headers = self.get_headers()
             for lang in [True, False]:
                 url = self.get_url(key, lang=lang, page=page_num)
-                page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt)
+                page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt, sleep_range=(3, 10))
                 if not page:
                     logging.warning("page error")
                     continue
@@ -114,8 +116,10 @@ class TmdbCrawler(BaseCrawler):
                     titles, next_url = self.parse_page(key, page, lang=lang)
                     if not titles or len(titles) != page_step:
                         logging.warning("Error titles")
+                        break
                     logging.info(f"round={page_num}/{page_cnt} Titles = {titles}")
                 else:
+                    if not titles: continue
                     out, next_url = self.parse_page(key, page, lang=lang, base_url=base_url, titles=titles, start=start)
                     titles = []
                     if out:

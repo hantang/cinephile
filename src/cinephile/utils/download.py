@@ -85,7 +85,8 @@ def download_page(url, headers, params, page_format="text", **kwargs):
     except (requests.RequestException, Exception):
         logging.error(f"{tag}\n!! Failed url = {url}\n{tag}")
         traceback.print_exc()
-        exit(-1)
+        # exit(-1)
+        return out, status
 
     if res.status_code == http_status_ok:
         out = res.json() if page_format == "json" else res.text

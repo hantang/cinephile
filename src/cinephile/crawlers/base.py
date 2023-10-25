@@ -82,6 +82,7 @@ class BaseCrawler:
             page_format="text",
             retry=1,
             sleep_opt="random",
+            sleep_range=None,
             **kwargs,
     ):
         for i in range(retry):
@@ -93,7 +94,7 @@ class BaseCrawler:
             round_n = kwargs["round_n"]
             page, status = download_page(url, headers, params, page_format, **kwargs)
             if round_i < round_n or round_n == -1:
-                download_sleep(round_i, sleep_opt)
+                download_sleep(round_i, sleep_opt, sleep_range)
             if page:
                 return page
             elif i + 1 < retry:
