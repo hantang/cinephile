@@ -1,5 +1,6 @@
 import logging
 import math
+import time
 from pathlib import Path
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
@@ -212,6 +213,10 @@ class ImdbCrawler(BaseCrawler):
         movies = []
         next_url = self.get_url(key, movie_list_id=movie_list_id, page=page_num)
         while page_limit <= 0 or page_num < page_limit:
+            if page_num % 10 == 0:
+                headers = self.get_headers()
+                time.sleep(3)
+
             url = next_url
             page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt)
             if not page:
