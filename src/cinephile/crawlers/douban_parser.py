@@ -265,21 +265,24 @@ def parse_page_detail(page, **kwargs):
 
     article = content.find(class_="article")
     right = article.find(id="interest_sectl")
-
-    if right.find(class_="rating_sum"):
-        score = strip(right.find(class_="ll rating_num").text)
-        count = strip(right.find(class_="rating_sum").text)
-        weight = right.find(class_="ratings-on-weight")
-        weight = [strip(v.text) for v in weight.find_all("div", class_="item")]
+    if right:
+        if right.find(class_="rating_sum"):
+            score = strip(right.find(class_="ll rating_num").text)
+            count = strip(right.find(class_="rating_sum").text)
+            weight = right.find(class_="ratings-on-weight")
+            weight = [strip(v.text) for v in weight.find_all("div", class_="item")]
+        else:
+            star_path = right.find(class_="rating_wrap clearbox")
+            t = list(star_path.children)
+            t2 = [v for v in t if v.name in ["p", "span"] or "%" in v.text]
+            score = t2[0].find(class_="ll rating_num").text
+            count = t2[1].text.strip()
+            weight_cnt = 5  # 五星评级
+            weight = [[t2[i]["title"], t2[i + 1].text.strip()] for i in range(2, weight_cnt * 2, 2)]
     else:
-        star_path = right.find(class_="rating_wrap clearbox")
-        t = list(star_path.children)
-        t2 = [v for v in t if v.name in ["p", "span"] or "%" in v.text]
-        score = t2[0].find(class_="ll rating_num").text
-        count = t2[1].text.strip()
-        weight_cnt = 5  # 五星评级
-        weight = [[t2[i]["title"], t2[i + 1].text.strip()] for i in range(2, weight_cnt * 2, 2)]
-
+        # 部分词条没有评分、影评
+        # https://movie.douban.com/subject/1293408/  小活佛 Little Buddha (1993)
+        score, count, weight= "", "", []
     left = article.find(class_="subject clearfix")
     pic = left.find(id="mainpic")
     alt = pic.img["alt"]
@@ -314,18 +317,21 @@ def parse_page_detail(page, **kwargs):
         comments = comments.h2
     else:
         comments = content.find("h2", id="comment_short_tab")
-    comments = strip(comments.a.text)
-    reviews = content.find(id="reviews-wrapper")
+    if comments:
+        comments = strip(comments.a.text)
+    reviews = content.find(id="reviews-wrapper") # todo
     if not reviews:
         reviews = content.find(id="review_section")
     if not reviews:
         reviews = content.find("h2", class_="clearfix")
-        if not reviews:
+        if not reviews and content.find(class_="reviews mod movie-content"):
             reviews = content.find(class_="reviews mod movie-content").h2
-        reviews = reviews.find("span", class_="pl")
+        if reviews:
+            reviews = reviews.find("span", class_="pl")
     else:
         reviews = reviews.h2
-    reviews = strip(reviews.a.text)
+    if reviews:
+        reviews = strip(reviews.a.text)
     discussion = content.find(class_="section-discussion")
     if discussion:
         if discussion.find("p", class_="pl"):
@@ -334,7 +340,7 @@ def parse_page_detail(page, **kwargs):
             discussion = strip(discussion.find("p", class_="discussion_link").a.text)
     elif content.find("h2", class_="discussion_link"):
         discussion = strip(content.find("h2", class_="discussion_link").text)
-    else:
+    elif content.find(id="db-discussion-section"):
         discussion = strip(
             content.find(id="db-discussion-section").find("p", class_="pl").text
         )
@@ -349,9 +355,11 @@ def parse_page_detail(page, **kwargs):
             "div", class_="subject-others-interests-ft"
         )
         watch = [strip(v.text) for v in watch.find_all("a")]
-    else:
+    elif content.find(id="collector"):
         watch = content.find(id="collector").find_all("p", class_="pl")
         watch = [strip(v.text) for v in watch]
+    else:
+        watch = None
     year = int(year.strip("()"))
     score = {
         "douban-score": score,
