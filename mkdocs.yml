@@ -95,9 +95,10 @@ nav:
       - TSPDT电影历年统计: tspdt/tspdt-years.md
   - Film ORG:
       - 电影协会和电影节: fiff/index.md
-      - BFI(Sight & Sound)视与听: fiff/bfi.md
-      - AFI美国电影协会: fiff/afi.md
-      - BIFF釜山电影节: fiff/biff.md
+      - 法国《电影手册》(Cahiers du cinéma): fiff/cc.md
+      - 英国《视与听》(BFI, Sight & Sound): fiff/bfi.md
+      - 美国电影协会AFI: fiff/afi.md
+      - 韩国釜山电影节（BIFF）: fiff/biff.md
   - More:
       - 补充: more/index.md
       - Mtime时光网: more/mtime.md
