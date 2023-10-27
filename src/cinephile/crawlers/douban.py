@@ -1,5 +1,6 @@
 import logging
 import math
+import time
 from pathlib import Path
 from typing import List, Union
 
@@ -55,6 +56,8 @@ class DoubanUrl(CrawlerUrl):
         elif key == self._key_detail:
             url = config["url"]
             movie_id = kwargs["movie_id"]
+            if movie_id.startswith("http"):
+                return movie_id
             return url.format(movie_id)
         elif key == self._key_hot:
             order = kwargs.get("order", 0)
@@ -74,6 +77,8 @@ class DoubanUrl(CrawlerUrl):
                 url = url.format(movie_list_id)
             if key == self._key_detail:
                 movie_id = kwargs["movie_id"]
+                if movie_id.startswith("http"):
+                    return movie_id
                 url = url.format(movie_id)
             return url
         elif key == self._key_hot:
@@ -347,6 +352,41 @@ class DoubanCrawler(BaseCrawler):
         desc = "{}({})".format(url_config["desc"], movie.title)
         source = self.get_url(key, is_source=True, movie_id=movie_id)
         movie_cluster = MovieCluster(dt, dt, desc, source, movie=movie)
+        self.save(savefile, movie_cluster)
+        return movie_cluster.total, savefile
+
+    def process_detail_list(self, movie_id_list, savedir=None):
+        key = self.urls.key_detail
+        dt = datetimes.utcnow()
+
+        url_config = self.urls.query(key)
+        savename = self.getname(dt, name=f"{self.save_prefix_movie}-cnt{len(movie_id_list)}")
+        savefile = Path(savedir if savedir else self.savedir, savename)
+        if self.check(savefile) and not self.overwrite:
+            return self.error_file_exist, savefile
+        headers = None
+        movies = []
+        for i, movie_id in enumerate(movie_id_list):
+            if i % 10 == 0:
+                headers = self.get_headers()
+                if i > 0:
+                    time.sleep(2)
+            url = self.get_url(key, movie_id=movie_id)
+            page = self.get_page(url, headers, round_i=1, round_n=1, sleep_range=(2, 6))
+            if not page:
+                logging.warning("page error, exit\n\n")
+                # return self.error_http, None
+                continue
+            logging.info(f"parse page, page={len(page)}")
+
+            movie = self.parse_page(key, page)
+            if not movie:
+                continue
+            movies.append(movie)
+
+        desc = url_config["desc"]
+        source = self.baseurl
+        movie_cluster = MovieCluster(dt, dt, desc, source, movies=movies)
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
