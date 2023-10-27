@@ -176,16 +176,18 @@ class ListChallengesCrawler(BaseCrawler):
 
     def process(self, key=None, savedir=None, **kwargs):
         if key == self.key_list:
-            self.process_list(kwargs["movie_list_id"], savedir, page_limit=kwargs.get("page_limit", -1))
+            self.process_list(kwargs["movie_list_id"], savedir,
+                              page_limit=kwargs.get("page_limit", -1), page_start=kwargs.get('page_start', 1))
 
-    def process_list(self, movie_list_id, savedir=None, page_limit=-1):
+    def process_list(self, movie_list_id, savedir=None, page_limit=-1, page_start=1):
         key = self.key_list
         dt = datetimes.utcnow()
 
         movie_list_id_val = movie_list_id.strip("/").split("/")[-1].replace("-", "")
         logging.info(f"movie_list = {movie_list_id_val}")
+        postfix = f"p{page_start}" if page_start > 1 else ""
         url_config = self.url_dict
-        savename = self.getname(dt, name=f"{self.save_prefix_list}{movie_list_id_val}")
+        savename = self.getname(dt, name=f"{self.save_prefix_list}{movie_list_id_val}-{postfix}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, None
@@ -209,8 +211,11 @@ class ListChallengesCrawler(BaseCrawler):
             logging.warning("parse error")
             return self.error_parse, savefile
 
-        page_num = 2
-        movies = out
+        if page_start == 1:
+            movies = out
+        else:
+            movies = []
+        page_num = max(2, page_start)
         while (page_limit <= 0 or page_num < page_limit) and page_num <= page_cnt:
             if page_num % 10 == 0:
                 headers = self.get_headers()

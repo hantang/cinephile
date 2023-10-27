@@ -311,7 +311,10 @@ def parse_page_detail(page, **kwargs):
         summary = content.find(class_="related-info")
     if not summary:
         summary = content.find(id="link-report")
-    summary = strip(summary.span.text, keep=True)
+    if summary.span:
+        summary = strip(summary.span.text, keep=True)
+    else:
+        summary = None
     comments = content.find(id="comments-section")
     if comments:
         comments = comments.h2
