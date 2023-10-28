@@ -80,7 +80,7 @@ nav:
       - 豆瓣电影: douban/index.md
       - IMDb电影: imdb/index.md
       - TSPDT电影: tspdt/index.md
-      - 电影协会和电影节: fiff/index.md
+      - 电影组织: fiff/index.md
       - 补充: more/index.md
   - Douban:
       - 豆瓣电影: douban/index.md
@@ -94,9 +94,10 @@ nav:
       - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
       - TSPDT电影历年统计: tspdt/tspdt-years.md
   - FI&FF:
-      - 电影期刊、协会和电影节: fiff/index.md
+      - 电影组织（期刊、协会和电影节等）: fiff/index.md
       - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers.md
       - 英国《视与听》(BFI, Sight & Sound): fiff/bfi.md
+      - 美国“标准收藏”（The Criterion Collection）: fiff/criterion.md
       - 美国电影协会AFI: fiff/afi.md
       - 韩国釜山电影节（BIFF）: fiff/biff.md
   - More:

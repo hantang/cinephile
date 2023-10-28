@@ -31,10 +31,10 @@ hide:
 
 榜单内容：
 
-{{ read_csv("../../data/cc-top10-annual.csv") }}
+{{ read_csv("../../data/cahiers-du-cinema-top10-annual.csv") }}
 
 ## 十年十佳
 
 已经评选年代：1990 年代、2000 年代、2010 年代。
 
-{{ read_csv("../../data/cc-top10-decade.csv") }}
+{{ read_csv("../../data/cahiers-du-cinema-top10-decade.csv") }}
