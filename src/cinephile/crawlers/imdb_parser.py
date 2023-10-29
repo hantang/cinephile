@@ -108,10 +108,11 @@ def parse_imdb_page_list(page, **kwargs):
         t = item.find(class_="lister-item-image ribbonize")
         link = "{}/{}".format(base_url, t.a["href"].split("?")[0].lstrip("/"))
         img = t.img["src"]
+        title = t.img["alt"]
 
         t2 = item.find(class_="lister-item-content")
         idx = t2.h3.find(class_="lister-item-index").text.strip(".")
-        title = t2.h3.a.text.strip()
+        title2 = t2.h3.a.text.strip()
         year = 0
         year_span = t2.h3.find("span", class_="lister-item-year")
         if year_span:
@@ -129,6 +130,7 @@ def parse_imdb_page_list(page, **kwargs):
             "metascore": metascore
         }
         more = {
+            "title-more": [title2],
             "imdb-info": extra
         }
         movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
