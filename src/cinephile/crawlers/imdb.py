@@ -212,10 +212,13 @@ class ImdbCrawler(BaseCrawler):
         list_desc = None
         movies = []
         next_url = self.get_url(key, movie_list_id=movie_list_id, page=page_num)
-        while page_limit <= 0 or page_num < page_limit:
-            if page_num % 10 == 0:
+        while page_limit <= 0 or page_num <= page_limit:
+            if page_num % 10 == 1:
                 headers = self.get_headers()
-                time.sleep(3)
+                headers['Host'] = 'www.imdb.com'
+                headers['Accept-Language'] = 'en-US,en;q=0.5'
+                if page_limit > 1:
+                    time.sleep(3)
 
             url = next_url
             page = self.get_page(url, headers, round_i=page_num, round_n=page_cnt)

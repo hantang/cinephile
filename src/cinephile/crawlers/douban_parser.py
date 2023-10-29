@@ -177,7 +177,9 @@ def parse_page_list(page, **kwargs):
     entries = []
     for item in items:
         idx = item.find("div", class_="hd").text.strip()
-        post = item.find("div", class_="post")
+        bd = item.find("div", class_="bd")
+        ft = item.find("div", class_="ft")
+        post = bd.find("div", class_="post")
         if post is None:
             logging.warning(f"empty -> {idx}")
             movie = Movie("", None, None, 0, rank=idx, mtype=None, score=None)
@@ -186,8 +188,9 @@ def parse_page_list(page, **kwargs):
 
         url = post.a["href"]
         img = post.img["src"]
-        title = item.find("div", class_="title").text.strip()
-        star = item.find("div", class_="rating")
+
+        title = bd.find("div", class_="title").text.strip()
+        star = bd.find("div", class_="rating")
         score, count = "", ""
         if star:
             star = star.text.strip().split()
@@ -196,15 +199,25 @@ def parse_page_list(page, **kwargs):
                 score, count = star[0], star[1]
             elif len(star) == 1:
                 count = star[0]
-        abstract = item.find("div", class_="abstract")
+        abstract = bd.find("div", class_="abstract")
         if abstract:
             abstract = strip(abstract.text, keep=True)
             abstract = [v.strip() for v in abstract.split("\n")]
 
+        comment, actions = None, None
+        if ft:
+            comment = ft.find(class_='comment-item')
+            if comment:
+                comment = strip(comment.text)
+            actions = ft.find(class_='actions')
+            if actions:
+                actions = strip(actions.text)
+
         link = url
-        year = int("\n".join(abstract).split("年份:")[-1].split("\n")[0].strip())
+        year = "\n".join(abstract).split("年份:")[-1].split("\n")[0].strip()
+        year = int(year) if year.isdigit() else 0
         score = {"douban-score": score, "douban-vote": count}
-        more = {"info": abstract}
+        more = {"info": abstract, "comment": [comment, actions]}
         movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
         entries.append(movie)
     logging.info(f"entries = {len(entries)}/ {total}")

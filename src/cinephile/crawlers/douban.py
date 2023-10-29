@@ -293,7 +293,7 @@ class DoubanCrawler(BaseCrawler):
         dou_desc = None
         movies = []
         next_url = self.get_url(key, movie_list_id=movie_list_id, start=page_num)
-        while page_limit <= 0 or page_num < page_limit:
+        while page_limit <= 0 or page_num <= page_limit:
             url = next_url
             if page_num % 10 == 0:
                 headers = self.get_headers()
