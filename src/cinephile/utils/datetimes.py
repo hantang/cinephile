@@ -55,5 +55,6 @@ def time2zh(ti=None) -> str:
 def timestamp2str(ts, fmt=2) -> str:
     if ts is None:
         ti = pendulum.now()
-    ti = pendulum.from_timestamp(ts)
+    else:
+        ti = pendulum.from_timestamp(ts)
     return time2str(ti, fmt)
