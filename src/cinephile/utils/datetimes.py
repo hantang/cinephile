@@ -46,7 +46,7 @@ def time2zh(ti=None) -> str:
     year = "".join([num[int(i)] for i in str(dt.year)])
     month = _num2str(dt.month)
     day = _num2str(dt.day)
-    week = num[dt.isoweekday()]
+    week = num[dt.isoweekday()] if dt.isoweekday() < 7 else '日'
     extra = dt.strftime("%H:%M:%S %z")
 
     return f"{year}年{month}月{day}日（星期{week}）{extra}"
