@@ -1,0 +1,836 @@
+Index,Tag,Eclipse-Series,Spine #,Title,Director,Country,Year,豆瓣电影,豆瓣年份,豆瓣打分,备注
+0,bs-#66, ,66,[The Orphic Trilogy](https://www.criterion.com/boxsets/155), , , ,**（让·科克托）奥菲斯三部曲**, , , 
+1,bs-#66, ,67,The Blood of a Poet,Jean Cocteau,France,1930,[诗人之血 Le Sang d'un Poète](https://movie.douban.com/subject/1303263/),1932,8.2, 
+2,bs-#66, ,68,Orpheus,Jean Cocteau,France,1950,[奥菲斯 Orphée](https://movie.douban.com/subject/1436764/),1950,8.3, 
+3,bs-#66, ,69,Testament of Orpheus,Jean Cocteau,France,1959,[奥菲斯的遗嘱 Le testament d'Orphée ou ne me demandez pas pourquoi](https://movie.douban.com/subject/1419169/),1960,8.3, 
+4,bs-#86, ,86,[Eisenstein: The Sound Years](https://www.criterion.com/boxsets/204-eisenstein-the-sound-years), , , ,**谢尔盖·爱森斯坦：有声岁月**, , , 
+5,bs-#86, ,87,Alexander Nevsky,Sergei Eisenstein,Soviet Union,1938,[亚历山大·涅夫斯基 Александр Невский](https://movie.douban.com/subject/1299973/),1938,7.1, 
+6,bs-#86, ,88,"Ivan the Terrible, Part I",Sergei Eisenstein,Soviet Union,1944,[伊凡雷帝 Иван Грозный](https://movie.douban.com/subject/1298182/),1944,8.0, 
+7,bs-#86, ,88,"Ivan the Terrible, Part II",Sergei Eisenstein,Soviet Union,1958,[伊凡雷帝2 Иван Грозный 2: Боярский заговор](https://movie.douban.com/subject/1474367/),1958,8.2, 
+8,bs-#124, ,124,[Carl Theodor Dreyer](https://www.criterion.com/boxsets/254-carl-theodor-dreyer), , , ,**卡尔·西奥多·德莱叶【合集】**, , , 
+9,bs-#124, ,125,Day of Wrath,Carl Th. Dreyer,Denmark,1943,[复仇之日 Vredens dag](https://movie.douban.com/subject/1305896/),1943,8.3, 
+10,bs-#124, ,126,Ordet,Carl Th. Dreyer,Denmark,1955,[词语 Ordet](https://movie.douban.com/subject/1303566/),1955,8.3, 
+11,bs-#124, ,127,Gertrud,Carl Th. Dreyer,Denmark,1964,[葛楚 Gertrud](https://movie.douban.com/subject/1420116/),1964,8.1, 
+12,bs-#124, ,128,Carl Th. Dreyer—My Metier,Torben Skjødt Jensen,Denmark,1995,[我的工作 Carl Th. Dreyer: Min metier](https://movie.douban.com/subject/1420117/),1995,7.9, 
+13,bs-#167, ,167,[The Complete Monterey Pop Festival](https://www.criterion.com/boxsets/326-the-complete-monterey-pop-festival), , , ,**蒙特雷流行音乐节全记录**, , , 
+14,bs-#167, ,168,Monterey Pop,D. A. Pennebaker,United States,1968,[蒙特雷流行音乐节 Monterey Pop](https://movie.douban.com/subject/1420268/),1968,9.0, 
+15,bs-#167, ,169,Jimi Plays Monterey & Shake! Otis at Monterey,Chris Hegedus…,United States,1986,[吉米玩转蒙特雷音乐节 Jimi Plays Monterey](https://movie.douban.com/subject/1470499/),1986,8.8,吉米玩转蒙特雷和奥蒂斯震撼蒙特雷 之一
+16,bs-#167, ,169,Jimi Plays Monterey & Shake! Otis at Monterey,Chris Hegedus…,United States,1986,[奥蒂斯震撼蒙特雷音乐节 Shake!: Otis at Monterey](https://movie.douban.com/subject/3720239/),1987,7.6,吉米玩转蒙特雷和奥蒂斯震撼蒙特雷 之二
+17,bs-#176, ,176,[The Killers](https://www.criterion.com/boxsets/334-the-killers), , , ,**杀手【合集】**, , , 
+18,bs-#176, , ,The Killers,Robert Siodmak,United States ,1946,[绣巾蒙面盗 The Killers](https://movie.douban.com/subject/1449340/),1946,7.6,#176 杀手 之一
+19,bs-#176, , ,The Killers,Don Siegel,United States ,1964,[财色惊魂 The Killers](https://movie.douban.com/subject/1294571/),1964,6.7,#176 杀手 之二
+20,bs-#179, ,179,[I Am Curious](https://www.criterion.com/boxsets/338-i-am-curious-box-set), , , ,**（维尔戈特·斯耶曼）我好奇【合集】**, , , 
+21,bs-#179, ,180,I Am Curious—Yellow,Vilgot Sjöman,Sweden,1967,[我好奇之黄 Jag är nyfiken - en film i gult](https://movie.douban.com/subject/1401623/),1967,6.7, 
+22,bs-#179, ,181,I Am Curious—Blue,Vilgot Sjöman,Sweden,1967,[我好奇之蓝 Jag är nyfiken - en film i blått](https://movie.douban.com/subject/1401624/),1968,6.6, 
+23,bs-#185, ,185,[The Adventures of Antoine Doinel](https://www.criterion.com/boxsets/346-the-adventures-of-antoine-doinel), , , ,**（弗朗索瓦·特吕弗）安托万·杜瓦内尔的冒险**, , , 
+24,bs-#185, ,5,The 400 Blows,François Truffaut,France,1959,[四百击 Les quatre cents coups](https://movie.douban.com/subject/1300056/),1959,8.9, 
+25,bs-#185, ,186,Stolen Kisses,François Truffaut,France,1968,[偷吻 Baisers volés](https://movie.douban.com/subject/1298197/),1968,7.9, 
+26,bs-#185, ,187,Bed and Board,François Truffaut,France,1970,[婚姻生活 Domicile conjugal](https://movie.douban.com/subject/1298892/),1970,8.1, 
+27,bs-#185, ,188,Love on the Run,François Truffaut,France,1979,[爱情狂奔 L'amour en fuite](https://movie.douban.com/subject/1300067/),1979,8.0, 
+28,bs-#185, , ,Antoine et Colette,François Truffaut,France, ,[安托万与柯莱特 Antoine et Colette](https://movie.douban.com/subject/3161902/),1962,7.9,special edition five-disc box set.
+29,bs-#203, ,203,[The BRD Trilogy](https://www.criterion.com/boxsets/138-the-brd-trilogy), , , ,**联邦德国三部曲**, , , 
+30,bs-#203, ,204,The Marriage of Maria Braun,Rainer Werner Fassbinder,West Germany,1979,[玛丽娅·布劳恩的婚姻 Die Ehe der Maria Braun](https://movie.douban.com/subject/1298655/),1979,8.3, 
+31,bs-#203, ,205,Veronika Voss,Rainer Werner Fassbinder,West Germany,1982,[维洛妮卡·佛丝 Die Sehnsucht der Veronika Voss](https://movie.douban.com/subject/1302108/),1982,7.7, 
+32,bs-#203, ,206,Lola,Rainer Werner Fassbinder,West Germany,1981,[罗拉 Lola](https://movie.douban.com/subject/1294129/),1981,7.7, 
+33,bs-#208, ,208,[A Film Trilogy by Ingmar Bergman](https://www.criterion.com/boxsets/89-a-film-trilogy-by-ingmar-bergman), , , ,**英格玛·伯格曼的电影三部曲**, , , 
+34,bs-#208, ,209,Through a Glass Darkly,Ingmar Bergman,Sweden,1961,[犹在镜中 Såsom i en spegel](https://movie.douban.com/subject/1302488/),1961,8.4, 
+35,bs-#208, ,210,Winter Light,Ingmar Bergman,Sweden,1963,[冬日之光 Nattvardsgästerna](https://movie.douban.com/subject/1296792/),1963,8.3, 
+36,bs-#208, ,211,The Silence,Ingmar Bergman,Sweden,1963,[沉默 Tystnaden](https://movie.douban.com/subject/1300958/),1963,8.3, 
+37,bs-#232, ,232,[A Story of Floating Weeds/Floating Weeds: Two Films by Yasujiro Ozu](https://www.criterion.com/boxsets/369-a-story-of-floating-weeds-floating-weeds-two-films-by-yasujiro-ozu), , , ,**小津安二郎的两部电影：浅草无语、浅草**, , , 
+38,bs-#232, , ,A Story of Floating Weeds,Yasujiro Ozu,Japan,1934,[浮草物语 浮草物語](https://movie.douban.com/subject/1308278/),1934,8.1, 
+39,bs-#232, , ,Floating Weeds,Yasujiro Ozu,Japan,1959,[浮草](https://movie.douban.com/subject/1297841/),1959,8.6, 
+40,bs-#239, ,239,[The Lower Depths](https://www.criterion.com/boxsets/487-the-lower-depths), , , ,**低下层【合集】**, , , 
+41,bs-#239, , ,The Lower Depths,Jean Renoir,France,1936,[低下层 Les bas-fonds](https://movie.douban.com/subject/1401614/),1936,7.3, 
+42,bs-#239, , ,The Lower Depths,Akira Kurosawa,Japan,1957,[低下层 どん底](https://movie.douban.com/subject/1297331/),1957,7.4, 
+43,bs-#241, ,241,[Stage and Spectacle: Three Films by Jean Renoir](https://www.criterion.com/boxsets/540-stage-and-spectacle-three-films-by-jean-renoir), , , ,**舞台与光景-让·雷诺阿的三部电影**, , , 
+44,bs-#241, ,242,The Golden Coach,Jean Renoir,France,1953,[黄金马车 Le carrosse d'or](https://movie.douban.com/subject/1294642/),1952,6.9, 
+45,bs-#241, ,243,French Cancan,Jean Renoir,France,1955,[法国康康舞 French Cancan](https://movie.douban.com/subject/1293074/),1955,7.5, 
+46,bs-#241, ,244,Elena and Her Men,Jean Renoir,France,1956,[艾琳娜和她的男人们 Elena et les hommes](https://movie.douban.com/subject/1303563/),1956,6.5, 
+47,bs-#250, ,250,[John Cassavetes: Five Films](https://www.criterion.com/boxsets/558-john-cassavetes-five-films), , , ,**约翰·卡萨维蒂：五部电影**, , , 
+48,bs-#250, ,251,Shadows,John Cassavetes,United States,1959,[影子 Shadows](https://movie.douban.com/subject/1295167/),1958,7.7, 
+49,bs-#250, ,252,Faces,John Cassavetes,United States,1968,[面孔 Faces](https://movie.douban.com/subject/1292644/),1968,8.0, 
+50,bs-#250, ,253,A Woman Under the Influence,John Cassavetes,United States,1974,[醉酒的女人 A Woman Under the Influence](https://movie.douban.com/subject/1293525/),1974,8.2, 
+51,bs-#250, ,254,The Killing of a Chinese Bookie,John Cassavetes,United States,1976,[谋杀地下老板 The Killing of a Chinese Bookie](https://movie.douban.com/subject/1438613/),1976,7.8, 
+52,bs-#250, ,255,Opening Night,John Cassavetes,United States,1977,[首演之夜 Opening Night](https://movie.douban.com/subject/1292768/),1977,8.4, 
+53,bs-#250, ,256,A Constant Forge,Charles Kiselyak,United States,2000,[持续稳步的前进 A Constant Forge](https://movie.douban.com/subject/1765508/),2000,8.5, 
+54,bs-#261, ,261,[Fanny and Alexander](https://www.criterion.com/boxsets/206-fanny-and-alexander), , , ,**（英格玛·伯格曼）芬妮与亚历山大【合集】**, , , 
+55,bs-#261, ,262,Fanny and Alexander: Television Version,Ingmar Bergman,Sweden,1983,[芬妮与亚历山大 Fanny och Alexander](https://movie.douban.com/subject/33477260/),1983,9.2, 
+56,bs-#261, ,263,Fanny and Alexander: Theatrical Version,Ingmar Bergman,Sweden,1982,[芬妮与亚历山大 Fanny och Alexander](https://movie.douban.com/subject/1292784/),1982,8.7, 
+57,bs-#261, ,264,The Making of Fanny and Alexander,Ingmar Bergman,Sweden,1982,[芬妮和亚历山大的诞生 Dokument Fanny och Alexander](https://movie.douban.com/subject/1449473/),1984,8.6, 
+58,bs-#282, ,282,[Andrzej Wajda: Three War Films](https://www.criterion.com/boxsets/528-andrzej-wajda-three-war-films), , , ,**安杰伊·瓦伊达：三部战争电影**, , , 
+59,bs-#282, ,283,A Generation,Andrzej Wajda,Poland,1955,[一代人 Pokolenie](https://movie.douban.com/subject/1417454/),1955,7.4, 
+60,bs-#282, ,284,Kanal,Andrzej Wajda,Poland,1957,[下水道 Kanał](https://movie.douban.com/subject/1305647/),1957,8.3, 
+61,bs-#282, ,285,Ashes and Diamonds,Andrzej Wajda,Poland,1958,[灰烬与钻石 Popiół i diament](https://movie.douban.com/subject/1303174/),1958,8.2, 
+62,bs-#327, ,327,"[3 Films by Louis Malle](https://www.criterion.com/boxsets/397-3-films-by-louis-malle#:~:text=3%20Films%20by%20Louis%20Malle%20Few%20directors%20have,tumult%20of%20World%20War%20II%20and%20postwar%20France.)", , , ,**路易·马勒的三部电影**, , , 
+63,bs-#327, ,328,Murmur of the Heart,Louis Malle,France,1971,[好奇心 Le souffle au cœur](https://movie.douban.com/subject/1297201/),1971,7.7, 
+64,bs-#327, ,329,"Lacombe, Lucien",Louis Malle,France,1974,[拉孔布·吕西安 Lacombe Lucien](https://movie.douban.com/subject/1432637/),1974,8.1, 
+65,bs-#327, ,330,Au revoir les enfants,Louis Malle,France,1987,[再见，孩子们 Au revoir les enfants](https://movie.douban.com/subject/1292586/),1987,8.5, 
+66,bs-#342, ,342,[Six Moral Tales](https://www.criterion.com/boxsets/417-six-moral-tales), , , ,**（埃里克·侯麦）六个道德故事**, , , 
+67,bs-#342, ,343,The Bakery Girl of Monceau,Eric Rohmer,France,1963,[面包店的女孩 La boulangère de Monceau](https://movie.douban.com/subject/1394348/),1963,8.2, 
+68,bs-#342, ,344,Suzanne’s Career,Eric Rohmer,France,1963,[苏姗娜的故事 La carrière de Suzanne](https://movie.douban.com/subject/1293030/),1963,7.2, 
+69,bs-#342, ,345,My Night at Maud’s,Eric Rohmer,France,1969,[慕德家一夜 Ma nuit chez Maud](https://movie.douban.com/subject/1296283/),1969,8.3, 
+70,bs-#342, ,346,La collectionneuse,Eric Rohmer,France,1967,[女收藏家 La collectionneuse](https://movie.douban.com/subject/1297344/),1967,7.8, 
+71,bs-#342, ,347,Claire’s Knee,Eric Rohmer,France,1970,[克莱尔的膝盖 Le genou de Claire](https://movie.douban.com/subject/1294915/),1970,7.8, 
+72,bs-#342, ,348,Love in the Afternoon,Eric Rohmer,France,1972,[午后之爱 L'amour l'après-midi](https://movie.douban.com/subject/1293963/),1972,8.4, 
+73,bs-#364, ,364,[Monsters and Madmen](https://www.criterion.com/boxsets/434-monsters-and-madmen), , , ,**（罗伯特·戴等）怪物和疯子【合集】**, , , 
+74,bs-#364, ,365,First Man into Space,Robert Day,United States,1959,[太空第一人 First Man Into Space](https://movie.douban.com/subject/1293814/),1959,5.5, 
+75,bs-#364, ,366,The Atomic Submarine,Spencer G. Bennet,United States,1959,[核潜艇 The Atomic Submarine](https://movie.douban.com/subject/1294329/),1959,5.2, 
+76,bs-#364, ,367,The Haunted Strangler,Robert Day,United States,1958,[鬼杀手 Grip of the Strangler](https://movie.douban.com/subject/1293061/),1958,6.0, 
+77,bs-#364, ,368,Corridors of Blood,Robert Day,United States,1959,[血回廊 Corridors of Blood](https://movie.douban.com/subject/1904183/),1958,6.4, 
+78,bs-#369, ,369,[Paul Robeson: Portraits of the Artist](https://www.criterion.com/boxsets/443-paul-robeson-portraits-of-the-artist), , , ,**保保罗·罗贝森：艺术家的肖像**, , , 
+79,bs-#369, ,371,Body and Soul,Oscar Micheaux,United States,1925,[灵与肉 Body and Soul](https://movie.douban.com/subject/1924243/),1925,7.6, 
+80,bs-#369, , ,Borderline,Kenneth Macpherson,United States,1930,[偷情边缘 Borderline](https://movie.douban.com/subject/1924245/),1930, , 
+81,bs-#369, ,370,The Emperor Jones,Dudley Murphy,United States,1933,[琼斯皇 The Emperor Jones](https://movie.douban.com/subject/1922044/),1933, , 
+82,bs-#369, , ,Paul Robeson: Tribute to an Artist,Saul J. Turell,United States,1979,[保罗·罗贝森：献给一位艺术家 Paul Robeson: Tribute to an Artist](https://movie.douban.com/subject/1924241/),1979, , 
+83,bs-#369, ,372,Sanders of the River,Zoltán Korda,United Kingdom,1935,[河之檀木 Sanders of the River](https://movie.douban.com/subject/1924246/),1935, , 
+84,bs-#369, , ,Jericho,Thornton Freeland,United Kingdom,1937,[杰里科 Jericho](https://movie.douban.com/subject/1924247/),1937, , 
+85,bs-#369, ,373,The Proud Valley,Pen Tennyson,United Kingdom,1940,[骄傲的山谷 The Proud Valley](https://movie.douban.com/subject/1924251/),1940, , 
+86,bs-#369, , ,Native Land,Leo Hurwitz…,United States,1942,[家乡 Native Land](https://movie.douban.com/subject/1924252/),1942, , 
+87,bs-#387, ,387,[La Jetée/Sans Soleil](https://www.criterion.com/boxsets/77-la-jete-sans-soleil), , , ,**（克里斯·马克）堤、日月无光【合集】**, , , 
+88,bs-#387, , ,La Jetée,Chris Marker,France,1963,[堤 La jetée](https://movie.douban.com/subject/1306626/),1962,9.0, 
+89,bs-#387, , ,Sans Soleil,Chris Marker,France,1983,[日月无光 Sans soleil](https://movie.douban.com/subject/1401901/),1983,8.5, 
+90,bs-#392, ,392,"[Three Films by Hiroshi Teshigahara](https://www.criterion.com/boxsets/458-three-films-by-hiroshi-teshigahara#:~:text=FOUR-DISC%20SET%3A%201%20New%2C%20restored%20high-definition%20digital%20transfers,Tokyo%201958%20%281958%29%2C%20and%20Ako%2FWhite%20Morning%20%281963%29%20%E6%9B%B4%E5%A4%9A%E9%A1%B9%E7%9B%AE)", , , ,**敕使河原宏的三部电影**, , , 
+91,bs-#392, ,393,Pitfall,Hiroshi Teshigahara,Japan,1962,[陷阱 おとし穴](https://movie.douban.com/subject/1432780/),1962,8.0, 
+92,bs-#392, ,394,Woman in the Dunes,Hiroshi Teshigahara,Japan,1964,[砂之女 砂の女](https://movie.douban.com/subject/1295812/),1964,8.6, 
+93,bs-#392, ,395,The Face of Another,Hiroshi Teshigahara,Japan,1966,[他人之颜 他人の顔](https://movie.douban.com/subject/1432779/),1966,8.4, 
+94,bs-#418, ,418,[4 by Agnès Varda](https://www.criterion.com/boxsets/8-4-by-agns-varda), , , ,**阿涅斯·瓦尔达的四部电影**, , , 
+95,bs-#418, ,419,La Pointe Courte,Agnès Varda,France,1955,[短岬村 La pointe-courte](https://movie.douban.com/subject/1297682/),1955,7.6, 
+96,bs-#418, ,73,Cléo from 5 to 7,Agnès Varda,France,1962,[五至七时的克莱奥 Cléo de 5 à 7](https://movie.douban.com/subject/1294565/),1962,8.7, 
+97,bs-#418, ,420,Le bonheur,Agnès Varda,France,1965,[幸福 Le bonheur](https://movie.douban.com/subject/1483516/),1965,8.3, 
+98,bs-#418, ,74,Vagabond,Agnès Varda,France,1985,[天涯沦落女 Sans toit ni loi](https://movie.douban.com/subject/1292445/),1985,8.3, 
+99,bs-#471, ,471,"[Pigs, Pimps & Prostitutes: 3 Films by Shohei Imamura](https://www.criterion.com/boxsets/613-pigs-pimps-prostitutes-3-films-by-shohei-imamura)", , , ,**猪、皮条客和娼妓：今村昌平的三部电影**, , , 
+100,bs-#471, ,472,Pigs and Battleships,Shohei Imamura,Japan,1962,[猪与军舰 豚と軍艦](https://movie.douban.com/subject/1420283/),1961,8.1, 
+101,bs-#471, ,473,The Insect Woman,Shohei Imamura,Japan,1963,[日本昆虫记 にっぽん昆虫記](https://movie.douban.com/subject/1302917/),1963,8.3, 
+102,bs-#471, ,474,Intentions of Murder,Shohei Imamura,Japan,1964,[赤色杀机 赤い殺意](https://movie.douban.com/subject/1433503/),1964,8.1, 
+103,bs-#500, ,500,[Roberto Rossellini’s War Trilogy](https://www.criterion.com/boxsets/689-roberto-rossellinis-war-trilogy), , , ,**罗伯托·罗西里尼战争三部曲**, , , 
+104,bs-#500, ,497,Rome Open City,Roberto Rossellini,Italy,1945,"[罗马，不设防的城市 Roma, città aperta](https://movie.douban.com/subject/1296669/)",1945,8.1, 
+105,bs-#500, ,498,Paisan,Roberto Rossellini,Italy,1946,[战火 Paisà](https://movie.douban.com/subject/1299257/),1946,8.2, 
+106,bs-#500, ,499,Germany Year Zero,Roberto Rossellini,Germany,1948,[德意志零年 Germania anno zero](https://movie.douban.com/subject/1293153/),1948,8.4, 
+107,bs-#508, ,508,[Letters from Fontainhas: Three Films by Pedro Costa](https://www.criterion.com/boxsets/704-letters-from-fontainhas-three-films-by-pedro-costa), , , ,**方泰尼亚的来信：佩德罗·科斯塔的三部电影**, , , 
+108,bs-#508, ,509,Ossos,Pedro Costa,Portugal,1997,[骨未成灰 Ossos](https://movie.douban.com/subject/1768144/),1997,7.2, 
+109,bs-#508, ,510,In Vanda’s Room,Pedro Costa,Portugal,2000,[旺妲的房间 No Quarto da Vanda](https://movie.douban.com/subject/1829859/),2000,7.8, 
+110,bs-#508, ,511,Colossal Youth,Pedro Costa,Portugal,2006,[前进青春 Juventude em Marcha](https://movie.douban.com/subject/1937459/),2006,7.4, 
+111,bs-#518, ,518,"[By Brakhage: An Anthology, Volumes One and Two](https://www.criterion.com/boxsets/722-by-brakhage-an-anthology-volumes-one-and-two)", , , ,**斯坦·布拉哈格选集：卷一和卷二**, , , 
+112,bs-#518, ,184,"By Brakhage: An Anthology, Volume One",Stan Brakhage,United States, , , , , 
+113,bs-#518, ,517,"By Brakhage: An Anthology, Volume Two",Stan Brakhage,United States, , , , , 
+114,bs-#524, ,524,[The Only Son/There Was a Father: Two Films by Yasujiro Ozu](https://www.criterion.com/boxsets/730-the-only-son-there-was-a-father-two-films-by-yasujiro-ozu), , , ,**小津安二郎的两部电影：独生子、父亲在世时**, , , 
+115,bs-#524, ,525,The Only Son,Yasujiro Ozu,Japan,1936,[独生子 一人息子](https://movie.douban.com/subject/1308311/),1936,8.2, 
+116,bs-#524, ,526,There Was a Father,Yasujiro Ozu,Japan,1942,[父亲在世时 父ありき](https://movie.douban.com/subject/1304405/),1942,8.2, 
+117,bs-#528, ,528,[3 Silent Classics by Josef von Sternberg](https://www.criterion.com/boxsets/744-3-silent-classics-by-josef-von-sternberg), , , ,**瑟夫·冯·斯登堡的三部默片经典**, , , 
+118,bs-#528, ,529,Underworld,Josef von Sternberg,United States,1927,[地下世界 Underworld](https://movie.douban.com/subject/1303347/),1927,7.8, 
+119,bs-#528, ,530,The Last Command,Josef von Sternberg,United States,1928,[最后命令 The Last Command](https://movie.douban.com/subject/1292539/),1928,8.3, 
+120,bs-#528, ,531,The Docks of New York,Josef von Sternberg,United States,1928,[纽约船坞 The Docks of New York](https://movie.douban.com/subject/1855285/),1928,7.7, 
+121,bs-#578, ,578,[The Complete Jean Vigo](https://www.criterion.com/boxsets/819-the-complete-jean-vigo), , , ,**让·维果全集**, , , 
+122,bs-#578, , ,À propos de Nice,Jean Vigo and Boris Kaufman,France,1930,[尼斯印象 À propos de Nice](https://movie.douban.com/subject/1401909/),1930,8.1, 
+123,bs-#578, , ,Taris,Jean Vigo,France,1931,"[游泳冠军塔里斯 Taris, roi de l'eau](https://movie.douban.com/subject/1401910/)",1931,7.4, 
+124,bs-#578, , ,Zéro de conduite,Jean Vigo,France,1933,[操行零分 Zéro de conduite: Jeunes diables au collège](https://movie.douban.com/subject/1294518/),1933,8.1, 
+125,bs-#578, , ,L’Atalante,Jean Vigo,France,1934,[亚特兰大号 L'Atalante](https://movie.douban.com/subject/1299433/),1934,8.1, 
+126,bs-#587, ,587,[Three Colors](https://www.criterion.com/boxsets/844-three-colors), , , ,**（克日什托夫·基耶斯洛夫斯基）蓝白红三部曲**, , , 
+127,bs-#587, ,588,Three Colors: Blue,Krzysztof Kieślowski,France,1993,[蓝白红三部曲之蓝 Trois couleurs: Bleu](https://movie.douban.com/subject/1292048/),1993,8.5, 
+128,bs-#587, ,589,Three Colors: White,Krzysztof Kieślowski,Poland,1994,[蓝白红三部曲之白 Trois couleurs: Blanc](https://movie.douban.com/subject/1292049/),1994,8.4, 
+129,bs-#587, ,590,Three Colors: Red,Krzysztof Kieślowski,Switzerland,1994,[蓝白红三部曲之红 Trois couleurs: Rouge](https://movie.douban.com/subject/1292047/),1994,8.8, 
+130,bs-#603, ,603,[David Lean Directs Noël Coward](https://www.criterion.com/boxsets/861-david-lean-directs-nol-coward), , , ,**大卫·里恩执导的诺埃尔·考沃德**, , , 
+131,bs-#603, ,76,Brief Encounter,David Lean,United Kingdom,1945,[相见恨晚 Brief Encounter](https://movie.douban.com/subject/1294364/),1945,8.0, 
+132,bs-#603, ,604,In Which We Serve,David Lean…,United Kingdom,1942,[与祖国同在 In Which We Serve](https://movie.douban.com/subject/1292815/),1942,6.9, 
+133,bs-#603, ,605,This Happy Breed,David Lean,United Kingdom,1944,[天伦之乐 This Happy Breed](https://movie.douban.com/subject/1298449/),1944,7.4, 
+134,bs-#603, ,606,Blithe Spirit,David Lean,United Kingdom,1945,[欢乐的精灵 Blithe Spirit](https://movie.douban.com/subject/1293057/),1945,7.3, 
+135,bs-#631, ,631,Trilogy of Life, , , ,**（皮埃尔·保罗·帕索里尼）生命三部曲**, , , 
+136,bs-#631, ,632,The Decameron,Pier Paolo Pasolini,Italy,1971,[十日谈 Il Decameron](https://movie.douban.com/subject/1299990/),1971,7.5, 
+137,bs-#631, ,633,The Canterbury Tales,Pier Paolo Pasolini,Italy,1972,[坎特伯雷故事集 I racconti di Canterbury](https://movie.douban.com/subject/1303731/),1972,7.3, 
+138,bs-#631, ,634,Arabian Nights,Pier Paolo Pasolini,Italy,1974,[一千零一夜 Il fiore delle mille e una notte](https://movie.douban.com/subject/1294654/),1974,7.4, 
+139,bs-#639, ,639,[The Qatsi Trilogy](https://www.criterion.com/boxsets/934-the-qatsi-trilogy), , , ,**（西奥·安哲罗普洛斯）生活三部曲**, , , 
+140,bs-#639, ,640,Koyaanisqatsi,Godfrey Reggio,United States,1983,[失衡生活 Koyaanisqatsi](https://movie.douban.com/subject/1298202/),1982,8.7, 
+141,bs-#639, ,641,Powaqqatsi,Godfrey Reggio,United States,1988,[变形生活 Powaqqatsi](https://movie.douban.com/subject/1307260/),1988,7.8, 
+142,bs-#639, ,642,Naqoyqatsi,Godfrey Reggio,United States,2002,[战争生活 Naqoyqatsi](https://movie.douban.com/subject/1305549/),2002,7.5, 
+143,bs-#655, ,655,[Pierre Etaix](https://www.criterion.com/boxsets/947-pierre-etaix), , , ,**皮埃尔·埃泰【套装】**, , , 
+144,bs-#655, , ,The Suitor,Pierre Etaix,France,1963,[求爱者 Le soupirant](https://movie.douban.com/subject/4096051/),1962,7.6, 
+145,bs-#655, , ,Yoyo,Pierre Etaix,France,1965,[悠悠 Yoyo](https://movie.douban.com/subject/1963110/),1965,8.2, 
+146,bs-#655, , ,As Long as You’ve Got Your Health,Pierre Etaix,France,1966,[最佳状态 Tant qu'on a la santé](https://movie.douban.com/subject/4901928/),1966,7.5, 
+147,bs-#655, , ,Le grand amour,Pierre Etaix,France,1969,[挚爱 Le grand amour](https://movie.douban.com/subject/4230745/),1969,7.7, 
+148,bs-#655, , ,Land of Milk and Honey,Pierre Etaix,France,1971,[牛奶和蜂蜜的土地 Pays de Cocagne](https://movie.douban.com/subject/4901927/),1971,6.2, 
+149,bs-#672, ,672,[3 Films by Roberto Rossellini Starring Ingrid Bergman](https://www.criterion.com/boxsets/982-3-films-by-roberto-rossellini-starring-ingrid-bergman), , , ,**英格丽·褒曼出演的罗伯托·罗西里尼的三部电影**, , , 
+150,bs-#672, ,673,Stromboli,Roberto Rossellini,Italy,1950,[火山边缘之恋 Stromboli](https://movie.douban.com/subject/1294382/),1950,8.0, 
+151,bs-#672, ,674,Europe ’51,Roberto Rossellini,Italy,1952,[一九五一年的欧洲 Europa '51](https://movie.douban.com/subject/1293321/),1952,8.0, 
+152,bs-#672, ,675,Journey to Italy,Roberto Rossellini,Italy,1954,[游览意大利 Viaggio in Italia](https://movie.douban.com/subject/1303576/),1954,7.8, 
+153,bs-#679, ,679,[Zatoichi: The Blind Swordsman](https://www.criterion.com/boxsets/1012-zatoichi-the-blind-swordsman), , , ,**（三隅研次等）座头市：盲剑客系列**, , , 
+154,bs-#679, , ,The Tale of Zatoichi,Kenji Misumi,Japan,1962,[座头市物语 座頭市物語](https://movie.douban.com/subject/1303393/),1962,8.0,盲剑客 之一
+155,bs-#679, , ,The Tale of Zatoichi Continues,Kazuo Mori,Japan,1962,[续座头市物语 続・座頭市物語](https://movie.douban.com/subject/2144151/),1962,6.7,盲剑客 之二
+156,bs-#679, , ,New Tale of Zatoichi,Tokuzo Tanaka,Japan,1963,[新·座头市物语 新・座頭市物語](https://movie.douban.com/subject/3112632/),1963,7.6,盲剑客 之三
+157,bs-#679, , ,Zatoichi the Fugitive,Tokuzo Tanaka,Japan,1963,[座头市凶状旅 座頭市兇狀旅](https://movie.douban.com/subject/2142133/),1963,7.1,盲剑客 之四
+158,bs-#679, , ,Zatoichi on the Road,Kimiyoshi Yasuda,Japan,1963,[座头市喧哗旅 座頭市喧嘩旅](https://movie.douban.com/subject/2142142/),1963,7.0,盲剑客 之五
+159,bs-#679, , ,Zatoichi and the Chest of Gold,Kazuo Ikehiro,Japan,1964,[座头市千两首 座頭市千両首](https://movie.douban.com/subject/2058562/),1964,7.2,盲剑客 之六
+160,bs-#679, , ,Zatoichi’s Flashing Sword,Kazuo Ikehiro,Japan,1964,[座头市恣意的风筝 座頭市あばれ凧](https://movie.douban.com/subject/3112590/),1964,7.3,盲剑客 之七
+161,bs-#679, , ,"Fight, Zatoichi, Fight",Kenji Misumi,Japan,1964,[座头市血笑旅 座頭市血笑旅](https://movie.douban.com/subject/3112571/),1964,7.8,盲剑客 之八
+162,bs-#679, , ,Adventures of Zatoichi,Kimiyoshi Yasuda,Japan,1964,[座头市关所破 座头市関所破り](https://movie.douban.com/subject/3112596/),1964,6.9,盲剑客 之九
+163,bs-#679, , ,Zatoichi’s Revenge,Akira Inoue,Japan,1965,[座头市二段斩 座头市二段斩り](https://movie.douban.com/subject/3112617/),1965,7.0,盲剑客 之十
+164,bs-#679, , ,Zatoichi and the Doomed Man,Kazuo Mori,Japan,1965,[座头市逆手斩 座头市逆手斩り](https://movie.douban.com/subject/3112614/),1965,6.8,盲剑客 之十一
+165,bs-#679, , ,Zatoichi and the Chess Expert,Kenji Misumi,Japan,1965,[座头市地狱旅 座頭市地獄旅](https://movie.douban.com/subject/1303841/),1965,7.0,盲剑客 之十二
+166,bs-#679, , ,Zatoichi’s Vengeance,Tokuzo Tanaka,Japan,1966,[听见座头市的歌声 座頭市の歌が聞える](https://movie.douban.com/subject/3112620/),1966,6.8,盲剑客 之十三
+167,bs-#679, , ,Zatoichi’s Pilgrimage,Kazuo Ikehiro,Japan,1966,[座头市渡海 座頭市海を渡る](https://movie.douban.com/subject/3112622/),1966,7.0,盲剑客 之十四
+168,bs-#679, , ,Zatoichi’s Cane Sword,Kimiyoshi Yasuda,Japan,1967,[座头市铁火旅 座頭市鉄火旅](https://movie.douban.com/subject/3112637/),1967,7.5,盲剑客 之十五
+169,bs-#679, , ,Zatoichi the Outlaw,Satsuo Yamamoto,Japan,1967,[座头市之逃狱 座頭市牢破り](https://movie.douban.com/subject/1299332/),1967,7.3,盲剑客 之十六
+170,bs-#679, , ,Zatoichi Challenged,Kenji Misumi,Japan,1967,[座头市血烟街道 座頭市血煙り街道](https://movie.douban.com/subject/1306898/),1967,7.5,盲剑客 之十七
+171,bs-#679, , ,Zatoichi and the Fugitives,Kimiyoshi Yasuda,Japan,1968,[座头市战帖 座頭市果し状](https://movie.douban.com/subject/3112638/),1968,7.2,盲剑客 之十八
+172,bs-#679, , ,Samaritan Zatoichi,Kenji Misumi,Japan,1968,[座头市喧哗太鼓 座頭市喧嘩太鼓](https://movie.douban.com/subject/3098785/),1968,7.0,盲剑客 之十九
+173,bs-#679, , ,Zatoichi Meets Yojimbo,Kihachi Okamoto,Japan,1970,[座头市与用心棒 座頭市と用心棒](https://movie.douban.com/subject/1308474/),1970,7.2,盲剑客 之二十
+174,bs-#679, , ,Zatoichi Goes to the Fire Festival,Kenji Misumi,Japan,1970,[座头市大战火神庙 座頭市あばれ火祭り](https://movie.douban.com/subject/1307629/),1970,7.7,盲剑客 之二十一
+175,bs-#679, , ,Zatoichi Meets the One-Armed Swordsman,Kimiyoshi Yasuda,Japan,1971,[座头市与独臂刀 新座頭市・破れ！唐人剣](https://movie.douban.com/subject/1308572/),1971,5.9,盲剑客 之二十二
+176,bs-#679, , ,Zatoichi at Large,Kazuo Mori,Japan,1972,[座头市御用旅 座頭市御用旅](https://movie.douban.com/subject/1307670/),1972,7.0,盲剑客 之二十三
+177,bs-#679, , ,Zatoichi in Desperation,Shintaro Katsu,Japan,1972,[新座头市物语：断杖 新座頭市物語・折れた杖](https://movie.douban.com/subject/1307157/),1972,6.7,盲剑客 之二十四
+178,bs-#679, , ,Zatoichi’s Conspiracy,Kimiyoshi Yasuda,Japan,1973,[新座头市物语：笠间的血祭 新座頭市物語・笠間の血祭り](https://movie.douban.com/subject/1308568/),1973,7.1,盲剑客 之二十五
+179,bs-#684, ,684,[Martin Scorsese’s World Cinema Project No. 1](https://www.criterion.com/boxsets/1021-martin-scorseses-world-cinema-project-no-1), , , ,**马丁·斯科塞斯世界电影计划（第一辑）**, , , 
+180,bs-#684, ,685,Touki bouki,Djibril Diop Mambéty,Senegal,1973,[土狼之旅 Touki Bouki](https://movie.douban.com/subject/1424576/),1973,7.6, 
+181,bs-#684, ,686,Redes,Emilio Gómez Muriel…,Mexico,1936,[浪潮 Redes](https://movie.douban.com/subject/3162784/),1936,6.6, 
+182,bs-#684, ,687,A River Called Titas,Ritwik Ghatak,Bangladesh,1973,[一条叫做底塔斯的河 তিতাস একটি নদীর নাম](https://movie.douban.com/subject/1782378/),1973,7.9, 
+183,bs-#684, ,688,Dry Summer,Metin Erksan,Turkey,1964,[干涸的夏天 Susuz yaz](https://movie.douban.com/subject/1299807/),1963,7.3, 
+184,bs-#684, ,689,Trances,Ahmed El Maanouni,Morocco,1981,[出神 Trances](https://movie.douban.com/subject/4005490/),1981,6.1, 
+185,bs-#684, ,690,The Housemaid,Kim Ki-young,South Korea,1960,[下女 하녀](https://movie.douban.com/subject/1401523/),1960,7.2, 
+186,bs-#713, ,713,[The Essential Jacques Demy](https://www.criterion.com/boxsets/1055-the-essential-jacques-demy), , , ,**雅克·德米精华集**, , , 
+187,bs-#713, ,714,Lola,Jacques Demy,France,1961,[萝拉 Lola](https://movie.douban.com/subject/1471815/),1961,7.9, 
+188,bs-#713, ,715,Bay of Angels,Jacques Demy,France,1963,[天使湾 La baie des anges](https://movie.douban.com/subject/1401908/),1963,7.3, 
+189,bs-#713, ,716,The Umbrellas of Cherbourg,Jacques Demy,France,1964,[瑟堡的雨伞 Les parapluies de Cherbourg](https://movie.douban.com/subject/1301646/),1964,7.8, 
+190,bs-#713, ,717,The Young Girls of Rochefort,Jacques Demy,France,1967,[柳媚花娇 Les Demoiselles de Rochefort](https://movie.douban.com/subject/1301648/),1967,8.0, 
+191,bs-#713, ,718,Donkey Skin,Jacques Demy,France,1970,[驴皮公主 Peau d'âne](https://movie.douban.com/subject/1301656/),1970,7.1, 
+192,bs-#713, ,719,Une chambre en ville,Jacques Demy,France,1982,[城里的房间 Une chambre en ville](https://movie.douban.com/subject/2969886/),1982,6.6, 
+193,bs-#729, ,729,[The Complete Jacques Tati](https://www.criterion.com/boxsets/1069-the-complete-jacques-tati), , , ,**雅克·塔蒂全集**, , , 
+194,bs-#729, ,730,Jour de fête,Jacques Tati,France,1949,[节日 Jour de fête](https://movie.douban.com/subject/1424620/),1949,7.6, 
+195,bs-#729, ,110,Monsieur Hulot’s Holiday,Jacques Tati,France,1953,[于洛先生的假期 Les vacances de Monsieur Hulot](https://movie.douban.com/subject/1305790/),1953,8.0, 
+196,bs-#729, ,111,Mon oncle,Jacques Tati,France,1958,[我的舅舅 Mon Oncle](https://movie.douban.com/subject/1400829/),1958,8.6, 
+197,bs-#729, ,112,PlayTime,Jacques Tati,France,1967,[玩乐时间 Play Time](https://movie.douban.com/subject/1303543/),1967,8.8, 
+198,bs-#729, ,439,Trafic,Jacques Tati,France,1971,[交通意外 Trafic](https://movie.douban.com/subject/2007345/),1971,7.9, 
+199,bs-#729, ,731,Parade,Jacques Tati,France,1974,[游行 Parade](https://movie.douban.com/subject/2007353/),1974,7.4, 
+200,bs-#729, , ,On demande une brute ,Jacques Tati,France,1934,[要一个暴力男 On demande une brute](https://movie.douban.com/subject/5073797/),1934,6.2,seven short films
+201,bs-#729, , ,Gai dimanche ,Jacques Tati,France,1935,[快活的周日 Gai dimanche](https://movie.douban.com/subject/2007339/),1935,6.6,seven short films
+202,bs-#729, , ,Soigne ton gauche ,Jacques Tati,France,1936,[小心左边 Soigne ton gauche](https://movie.douban.com/subject/1428134/),1936,7.0,seven short films
+203,bs-#729, , ,L’école des facteurs ,Jacques Tati,France,1946,[邮差学校 L'école des facteurs](https://movie.douban.com/subject/1414805/),1947,8.0,seven short films
+204,bs-#729, , ,Cours du soir ,Jacques Tati,France,1967,[夜校 Cours du soir](https://movie.douban.com/subject/2136992/),1967,7.7,seven short films
+205,bs-#729, , ,Forza Bastia ,Jacques Tati,France,1978,[前进巴斯蒂亚 Forza Bastia](https://movie.douban.com/subject/2221073/),1978,6.6,seven short films
+206,bs-#729, , ,and Dégustation maison ,Jacques Tati,France,1978,[点心屋 Dégustation maison](https://movie.douban.com/subject/25941727/),2014, ,seven short films
+207,bs-#729, , ,Tati story,Jacques Tati,France,2002,[塔蒂的故事 Tati story](https://movie.douban.com/subject/2981905/),2006, ,a short biographical film from 2002
+208,bs-#729, , ,In the Footsteps of Monsieur Hulot,Jacques Tati,France,1989,[于洛先生的足迹 In the Footsteps of Monsieur Hulot](https://movie.douban.com/subject/3992328/),1989, ,a 1989 documentary about Tati’s beloved alter ego
+209,bs-#782, ,782,[The Apu Trilogy](https://www.criterion.com/boxsets/1145-the-apu-trilogy), , , ,**（萨蒂亚吉特·雷伊）阿普三部曲**, , , 
+210,bs-#782, ,783,Pather Panchali,Satyajit Ray,India,1955,[大地之歌 পথের পাঁচালী](https://movie.douban.com/subject/1306019/),1955,8.9, 
+211,bs-#782, ,784,Aparajito,Satyajit Ray,India,1956,[大河之歌 অপরাজিত](https://movie.douban.com/subject/1306559/),1956,8.7, 
+212,bs-#782, ,785,Apur Sansar,Satyajit Ray,India,1959,[大树之歌 অপুর সংসার](https://movie.douban.com/subject/1295720/),1959,8.7, 
+213,bs-#813, ,813,[Wim Wenders: The Road Trilogy](https://www.criterion.com/boxsets/1186-wim-wenders-the-road-trilogy), , , ,**维姆·文德斯：公路三部曲**, , , 
+214,bs-#813, ,814,Alice in the Cities,Wim Wenders,Germany,1974,[爱丽丝城市漫游记 Alice in den Städten](https://movie.douban.com/subject/1293306/),1974,8.7, 
+215,bs-#813, ,815,Wrong Move,Wim Wenders,Germany,1975,[错误的举动 Falsche Bewegung](https://movie.douban.com/subject/1297813/),1975,7.5, 
+216,bs-#813, ,816,Kings of the Road,Wim Wenders,Germany,1976,[公路之王 Im Lauf der Zeit](https://movie.douban.com/subject/1437023/),1976,8.4, 
+217,bs-#841, ,841,[Lone Wolf and Cub](https://www.criterion.com/boxsets/1217-lone-wolf-and-cub), , , ,**（三隅研次等）带子雄狼系列**, , , 
+218,bs-#841, , ,Lone Wolf and Cub: Sword of Vengeance,Kenji Misumi,Japan,1972,[带子雄狼：出租孩子与武艺 子連れ狼 子を貸し腕貸しつかまつる](https://movie.douban.com/subject/1308595/),1972,7.8, 
+219,bs-#841, , ,Lone Wolf and Cub: Baby Cart at the River Styx,Kenji Misumi,Japan,1972,[带子雄狼：三涂河的乳母车 子連れ狼 三途の川の乳母車](https://movie.douban.com/subject/1307278/),1972,7.8, 
+220,bs-#841, , ,Lone Wolf and Cub: Baby Cart to Hades,Kenji Misumi,Japan,1972,[带子雄狼：向乳母车吹去的死亡之风 子連れ狼 死に風に向う乳母車](https://movie.douban.com/subject/1308028/),1972,7.6, 
+221,bs-#841, , ,Lone Wolf and Cub: Baby Cart in Peril,Buichi Saito,Japan,1972,[带子雄狼 父子连心 子連れ狼 親の心子の心](https://movie.douban.com/subject/1905271/),1972,7.3, 
+222,bs-#841, , ,Lone Wolf and Cub: Baby Cart in the Land of Demons,Kenji Misumi,Japan,1973,[带子雄狼 冥府魔道 子連れ狼 冥府魔道](https://movie.douban.com/subject/1308152/),1973,7.4, 
+223,bs-#841, , ,Lone Wolf and Cub: White Heaven in Hell,Yoshiyuki Kuroda,Japan,1974,[带子雄狼：地狱之行！大五郎！ 子連れ狼 地獄へ行くぞ！大五郎](https://movie.douban.com/subject/1905275/),1974,7.1, 
+224,bs-#856, ,856,The Before Trilogy, , , ,**（理查德·林克莱特）“爱在”三部曲**, , , 
+225,bs-#856, ,857,Before Sunrise,Richard Linklater,United States,1995,[爱在黎明破晓前 Before Sunrise](https://movie.douban.com/subject/1296339/),1995,8.8, 
+226,bs-#856, ,858,Before Sunset,Richard Linklater,United States,2004,[爱在日落黄昏时 Before Sunset](https://movie.douban.com/subject/1291990/),2004,8.9, 
+227,bs-#856, ,859,Before Midnight,Richard Linklater,United States,2013,[爱在午夜降临前 Before Midnight](https://movie.douban.com/subject/10808442/),2013,8.9, 
+228,bs-#873, ,873,[Martin Scorsese’s World Cinema Project No. 2](https://www.criterion.com/boxsets/1258-martin-scorseses-world-cinema-project-no-2), , , ,**马丁·斯科塞斯世界电影计划（第二辑）**, , , 
+229,bs-#873, ,874,Insiang,Lino Brocka,Philippines,1976,[英湘 Insiang](https://movie.douban.com/subject/3752627/),1976,7.4, 
+230,bs-#873, ,875,Mysterious Object at Noon,Apichatpong Weerasethakul,Thailand,2000,[正午显影 ดอกฟ้าในมือมาร](https://movie.douban.com/subject/1307886/),2000,7.4, 
+231,bs-#873, ,876,Revenge,Ermek Shinarbaev,Kazakhstan,1989,[复仇 Месть](https://movie.douban.com/subject/5115762/),1989,6.8, 
+232,bs-#873, ,877,Limite,Mário Peixoto,Brazil,1931,[界限 Limite](https://movie.douban.com/subject/1925767/),1931,7.6, 
+233,bs-#873, ,878,Law of the Border,Lütfi Ö. Akad,Turkey,1966,[边境法规 Hudutlarin kanunu](https://movie.douban.com/subject/3875178/),1966,6.5, 
+234,bs-#873, ,879,Taipei Story,Edward Yang,Taiwan,1985,[青梅竹马 青梅竹馬](https://movie.douban.com/subject/1305327/),1985,8.0, 
+235,bs-#881, ,881,[The Marseille Trilogy](https://www.criterion.com/boxsets/1264-the-marseille-trilogy), , , ,**（亚历山大·柯达等）马赛三部曲**, , , 
+236,bs-#881, ,882,Marius,Alexander Korda,France,1931,[马里乌斯 Marius](https://movie.douban.com/subject/1466146/),1931,7.6, 
+237,bs-#881, ,883,Fanny,Marc Allégret,France,1932,[芬妮 Fanny](https://movie.douban.com/subject/1297159/),1932,7.6, 
+238,bs-#881, ,884,César,Marcel Pagnol,France,1936,[塞萨尔 César](https://movie.douban.com/subject/1466149/),1936,7.0, 
+239,bs-#930, ,930,[Dietrich & von Sternberg in Hollywood](https://www.criterion.com/boxsets/1329-dietrich-von-sternberg-in-hollywood), , , ,**好莱坞时期的玛琳·黛德丽和约瑟夫·冯·斯登堡**, , , 
+240,bs-#930, ,931,Morocco,Josef von Sternberg,United States,1930,[摩洛哥 Morocco](https://movie.douban.com/subject/1295600/),1930,7.4, 
+241,bs-#930, ,932,Dishonored,Josef von Sternberg,United States,1931,[羞辱 Dishonored](https://movie.douban.com/subject/1467192/),1931,7.8, 
+242,bs-#930, ,933,Shanghai Express,Josef von Sternberg,United States,1932,[上海快车 Shanghai Express](https://movie.douban.com/subject/1293996/),1932,7.0, 
+243,bs-#930, ,934,Blonde Venus,Josef von Sternberg,United States,1932,[金发维纳斯 Blonde Venus](https://movie.douban.com/subject/1303774/),1932,7.3, 
+244,bs-#930, ,935,The Devil Is a Woman,Josef von Sternberg,United States,1935,[魔鬼是女人 The Devil Is a Woman](https://movie.douban.com/subject/1294983/),1935,6.4, 
+245,bs-#1000, ,1000,"[Godzilla: The Showa-Era Films, 1954–1975](https://www.criterion.com/boxsets/2648-godzilla-the-showa-era-films-1954-1975)", , , ,**（本多猪四郎）哥斯拉：昭和时代的电影，1954年到1975年**, , , 
+246,bs-#1000, ,594,Godzilla,Ishiro Honda,Japan,1954,[哥斯拉 ゴジラ](https://movie.douban.com/subject/2059276/),1954,7.7, 
+247,bs-#1000, , ,Godzilla Raids Again,Motoyoshi Oda,Japan,1955,[哥斯拉的反击 ゴジラの逆襲](https://movie.douban.com/subject/2062611/),1955,6.3, 
+248,bs-#1000, , ,King Kong vs. Godzilla,Ishiro Honda,Japan,1963,[金刚大战哥斯拉 キングコング対ゴジラ](https://movie.douban.com/subject/1463226/),1962,6.3, 
+249,bs-#1000, , ,"Ghidorah, the Three-Headed Monster",Ishiro Honda,Japan,1964,[摩斯拉决战哥斯拉 モスラ対ゴジラ](https://movie.douban.com/subject/2059286/),1964,6.7, 
+250,bs-#1000, , ,Mothra vs. Godzilla,Ishiro Honda,Japan,1964,[三大怪兽 地球最大决战 三大怪獣 地球最大の決戦](https://movie.douban.com/subject/2059285/),1964,6.7, 
+251,bs-#1000, , ,Invasion of Astro-Monster,Ishiro Honda,Japan,1965,[哥斯拉之怪兽大战争 怪獣大戦争](https://movie.douban.com/subject/2059287/),1965,6.5, 
+252,bs-#1000, , ,"Ebirah, Horror of the Deep",Jun Fukuda,Japan,1966,[哥斯拉·伊比拉·摩斯拉：南海大决斗 ゴジラ・エビラ・モスラ 南海の大決闘](https://movie.douban.com/subject/2067462/),1966,5.9, 
+253,bs-#1000, , ,Son of Godzilla,Jun Fukuda,Japan,1967,[怪兽岛决战：哥斯拉之子 怪獣島の決戦 ゴジラの息子](https://movie.douban.com/subject/2067461/),1967,5.7, 
+254,bs-#1000, , ,Destroy All Monsters,Ishiro Honda,Japan,1968,[战龙哥斯拉之怪兽总进击 怪獣総進撃](https://movie.douban.com/subject/2059299/),1968,6.5, 
+255,bs-#1000, , ,All Monsters Attack,Ishiro Honda,Japan,1969,[哥斯拉·迷你拉·加巴拉：全体怪兽大进击 ゴジラ・ミニラ・ガバラ オール怪獣大進撃](https://movie.douban.com/subject/2059296/),1969,4.9, 
+256,bs-#1000, , ,Godzilla vs. Hedorah,Yoshimitsu Banno,Japan,1971,[哥斯拉对黑多拉 ゴジラ対ヘドラ](https://movie.douban.com/subject/2063917/),1971,7.1, 
+257,bs-#1000, , ,Godzilla vs. Gigan,Jun Fukuda,Japan,1972,[战龙哥斯拉之决战宇宙魔龙 地球攻撃命令 ゴジラ対ガイガン](https://movie.douban.com/subject/2062627/),1972,6.1, 
+258,bs-#1000, , ,Godzilla vs. Megalon,Jun Fukuda,Japan,1973,[哥斯拉对美加洛 ゴジラ対メガロ](https://movie.douban.com/subject/2062626/),1973,5.2, 
+259,bs-#1000, , ,Godzilla vs. Mechagodzilla,Jun Fukuda,Japan,1974,[哥斯拉对机械哥斯拉 ゴジラ対メカゴジラ](https://movie.douban.com/subject/1808435/),1974,6.4, 
+260,bs-#1000, , ,Terror of Mechagodzilla,Ishiro Honda,Japan,1975,[哥斯拉之机械哥斯拉的反击 メカゴジラの逆襲](https://movie.douban.com/subject/2059277/),1975,6.6, 
+261,bs-#1036, ,1036,[Bruce Lee: His Greatest Hits](https://www.criterion.com/boxsets/3205-bruce-lee-his-greatest-hits), , , ,**李小龙精选系列**, , , 
+262,bs-#1036, , ,The Big Boss,Lo Wei,Hong Kong,1971,[猛龙过江 猛龍過江](https://movie.douban.com/subject/1306870/),1972,8.4, 
+263,bs-#1036, , ,Fist of Fury,Lo Wei,Hong Kong,1972,[唐山大兄](https://movie.douban.com/subject/1307577/),1971,7.8, 
+264,bs-#1036, , ,The Way of the Dragon,Bruce Lee,Hong Kong,1972,[精武门 精武門](https://movie.douban.com/subject/1294991/),1972,8.5, 
+265,bs-#1036, , ,Enter the Dragon,Robert Clouse,Hong Kong,1973,[龙争虎斗 Enter the Dragon](https://movie.douban.com/subject/1293118/),1973,8.3, 
+266,bs-#1036, , ,Game of Death,Robert Clouse,Hong Kong,1978,[死亡游戏 Game of Death](https://movie.douban.com/subject/1308456/),1978,7.8, 
+267,bs-#1044, ,1044,[Martin Scorsese’s World Cinema Project No. 3](https://www.criterion.com/boxsets/3506-martin-scorseses-world-cinema-project-no-3), , , ,**马丁·斯科塞斯世界电影计划（第三辑）**, , , 
+268,bs-#1044, ,1045,Lucía,Humberto Solás,Cuba,1968,[三个露西亚 Lucía](https://movie.douban.com/subject/1401369/),1968,7.8, 
+269,bs-#1044, ,1046,After the Curfew,Usmar Ismail,Indonesia,1954,[戒严夜 Lewat Djam Malam](https://movie.douban.com/subject/10617189/),1953, , 
+270,bs-#1044, ,1047,Pixote,Héctor Babenco,Brazil,1980,[街童 Pixote: A Lei do Mais Fraco](https://movie.douban.com/subject/1298835/),1981,7.8, 
+271,bs-#1044, ,1048,Dos monjes,Juan Bustillo Oro,Mexico,1934,[两个僧侣 Dos Monjes](https://movie.douban.com/subject/2382810/),1934,7.3, 
+272,bs-#1044, ,1049,Soleil Ô,Med Hondo,France,1970,[噢，太阳 Soleil Ô](https://movie.douban.com/subject/6030619/),1973,7.7, 
+273,bs-#1044, ,1050,Downpour,Bahram Beyzaie,Iran,1972,[暴雨 رگبار](https://movie.douban.com/subject/16899635/),1972, , 
+274,bs-#1082, ,1082,[The Signifyin’ Works of Marlon Riggs](https://www.criterion.com/boxsets/4431-the-signifyin-works-of-marlon-riggs), , , ,**马龙·里格斯的嬉弄录**, , , 
+275,bs-#1082, , ,Ethnic Notions,Marlon Riggs,United States,1986,[民族观念 Ethnic Notions](https://movie.douban.com/subject/3213441/),1986, , 
+276,bs-#1082, , ,Tongues Untied,Marlon Riggs,United States,1989,[舌头不打结 Tongues Untied](https://movie.douban.com/subject/1304347/),1990,8.0, 
+277,bs-#1082, , ,Affirmations,Marlon Riggs,United States,1990,[申明 Affirmations](https://movie.douban.com/subject/26385858/),1990, , 
+278,bs-#1082, , ,Anthem,Marlon Riggs,United States,1991,[国歌 Anthem](https://movie.douban.com/subject/4915083/),1991, , 
+279,bs-#1082, , ,Color Adjustment,Marlon Riggs,United States,1992,[肤色适应 Color Adjustment](https://movie.douban.com/subject/25711833/),1992, , 
+280,bs-#1082, , ,"Non, Je Ne Regrette Rien (No Regret)",Marlon Riggs,United States,1993,[不，我什么都不后悔 No Regret](https://movie.douban.com/subject/26385857/),1993, , 
+281,bs-#1082, , ,Black Is . . . Black Ain’t,Marlon Riggs,United States,1995,[黑人意味着··· Black is...Black Ain't](https://movie.douban.com/subject/5342781/),1994, , 
+282,bs-#1103, ,1103,[Once Upon a Time in China: The Complete Films](https://www.criterion.com/boxsets/5026-once-upon-a-time-in-china-the-complete-films), , , ,**（徐克等）中国往事：黄飞鸿系列全集**, , , 
+283,bs-#1103, , ,Once Upon a Time in China,Tsui Hark,Hong Kong,1991,[黄飞鸿 黃飛鴻](https://movie.douban.com/subject/1298443/),1991,8.3,#1103 黄飞鸿系列 之一
+284,bs-#1103, , ,Once Upon a Time in China II,Tsui Hark,Hong Kong,1992,[黄飞鸿之二：男儿当自强 黃飛鴻之二男兒當自強](https://movie.douban.com/subject/1293475/),1992,8.2,#1103 黄飞鸿系列 之二
+285,bs-#1103, , ,Once Upon a Time in China III,Tsui Hark,Hong Kong,1993,[黄飞鸿之三：狮王争霸 黃飛鴻之三獅王爭霸](https://movie.douban.com/subject/1292704/),1992,8.2,#1103 黄飞鸿系列 之三
+286,bs-#1103, , ,Once Upon a Time in China IV,Yuen Bun,Hong Kong,1993,[黄飞鸿之四：王者之风 黃飛鴻之四王者之風](https://movie.douban.com/subject/1294011/),1993,7.2,#1103 黄飞鸿系列 之四
+287,bs-#1103, , ,Once Upon a Time in China V,Tsui Hark,Hong Kong,1994,[黄飞鸿之五：龙城歼霸 黃飛鴻之五龍城殲霸](https://movie.douban.com/subject/1307507/),1994,6.8,#1103 黄飞鸿系列 之五
+288,bs-#1142, ,1142,[Martin Scorsese’s World Cinema Project No. 4](https://www.criterion.com/current/series/martin-scorsese-s-world-cinema-project-no-4), , , ,**马丁·斯科塞斯世界电影计划（第四辑）**, , , 
+289,bs-#1142, ,1143,Sambizanga,Sarah Maldoror,Angola,1972,[桑比赞加 Sambizanga](https://movie.douban.com/subject/4729942/),1973, , 
+290,bs-#1142, ,1144,Prisioneros de la tierra,Mario Soffici,Argentina,1939,[土地的囚徒 Prisioneros de la tierra](https://movie.douban.com/subject/3144308/),1939, , 
+291,bs-#1142, ,1145,Chess of the Wind,Mohammad Reza Aslani,Iran,1976,[风之棋局 شطرنج باد](https://movie.douban.com/subject/26850972/),1976,7.3, 
+292,bs-#1142, ,1146,Muna moto,Dikongué-Pipa,Cameroon,1975,[别人的孩子 Muna Moto](https://movie.douban.com/subject/3024663/),1975, , 
+293,bs-#1142, ,1147,Two Girls on the Street,André de Toth,Hungary,1939,[街上的两个女孩 Két lány az utcán](https://movie.douban.com/subject/5071242/),1939, , 
+294,bs-#1142, ,1148,Kalpana,Uday Shankar,India,1948,[卡尔帕娜 Kalpana](https://movie.douban.com/subject/5128575/),1948, , 
+295,bs-#1159, ,1159,[The Infernal Affairs Trilogy](https://www.criterion.com/boxsets/6276-the-infernal-affairs-trilogy), , , ,**（刘伟强、麦兆辉）“无间道”三部曲**, , , 
+296,bs-#1159, , ,Infernal Affairs,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2002,[无间道 無間道](https://movie.douban.com/subject/1307914/),2002,9.3,#1159 无间道三部曲 之一
+297,bs-#1159, , ,Infernal Affairs II,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2003,[无间道2 無間道II](https://movie.douban.com/subject/1307106/),2003,8.7,#1159 无间道三部曲 之二
+298,bs-#1159, , ,Infernal Affairs III,Andrew Lau Wai-keung and Alan Mak,Hong Kong,2003,[无间道3：终极无间 無間道III 終極無間](https://movie.douban.com/subject/1307694/),2003,8.2,#1159 无间道三部曲 之三
+299,bs-#1162, ,1162,[Three Films by Mai Zetterling](https://www.criterion.com/boxsets/6324-three-films-by-mai-zetterling), , , ,**梅·扎特林的三部电影**, , , 
+300,bs-#1162, , ,Loving Couples,Mai Zetterling,Sweden,1964,[相敬如宾 Älskande par](https://movie.douban.com/subject/1901993/),1964,8.0,#1162 梅·扎特林的三部电影 之一
+301,bs-#1162, , ,Night Games,Mai Zetterling,Sweden,1966,[夜之游戏 Nattlek](https://movie.douban.com/subject/1826798/),1966,7.6,#1162 梅·扎特林的三部电影 之二
+302,bs-#1162, , ,The Girls,Mai Zetterling,Sweden,1968,[女伶们 Flickorna](https://movie.douban.com/subject/2220739/),1968,8.0,#1162 梅·扎特林的三部电影 之三
+303,bs-#1163, ,1163,[Michael Haneke: Trilogy](https://www.criterion.com/boxsets/6323-michael-haneke-trilogy), , , ,**迈克尔·哈内克：（冰川）三部曲**, , , 
+304,bs-#1163, , ,The Seventh Continent,Michael Haneke,Austria,1989,[第七大陆 Der siebente Kontinent](https://movie.douban.com/subject/1437410/),1989,8.1, 
+305,bs-#1163, , ,Benny’s Video,Michael Haneke,Austria,1992,[班尼的录像带 Benny's Video](https://movie.douban.com/subject/1401584/),1992,7.7, 
+306,bs-#1163, , ,71 Fragments of a Chronology of Chance,Michael Haneke,Germany,1994,[机遇编年史的71块碎片 71 Fragmente einer Chronologie des Zufalls](https://movie.douban.com/subject/1437409/),1994,8.0, 
+307,bs-#1168, ,1168,[Lars von Trier’s Europe Trilogy](https://www.criterion.com/boxsets/6344-lars-von-triers-europe-trilogy), , , ,**拉斯·冯·提尔的欧洲三部曲**, , , 
+308,bs-#1168, ,80,The Element of Crime,Lars von Trier,Denmark,1984,[犯罪元素 Forbrydelsens element](https://movie.douban.com/subject/1298734/),1984,7.2,#80 （#1168 拉斯·冯·提尔欧洲三部曲 之一）
+309,bs-#1168, , ,Epidemic,Lars von Trier,Denmark,1987,[瘟疫 Epidemic](https://movie.douban.com/subject/1466223/),1987,6.8,拉斯·冯·提尔欧洲三部曲 之二
+310,bs-#1168, ,454,Europa,Lars von Trier,Denmark,1991,[欧洲特快车 Europa](https://movie.douban.com/subject/1296116/),1991,8.3,#454（#1168 拉斯·冯·提尔欧洲三部曲 之三）
+311,bs-#1172, ,1172,[Two Films by Marguerite Duras](https://www.criterion.com/boxsets/6412-two-films-by-marguerite-duras), , , ,**玛格丽特·杜拉斯的两部电影**, , , 
+312,bs-#1172, , ,India Song,Marguerite Duras,France,1975,[印度之歌 India Song](https://movie.douban.com/subject/1298347/),1975,7.5, 
+313,bs-#1172, , ,"Baxter, Vera Baxter",Marguerite Duras,France,1977,"[巴克斯泰尔，薇拉·巴克斯泰尔 Baxter, Vera Baxter](https://movie.douban.com/subject/3103285/)",1977,6.9, 
+314,bs-#1177, ,1177,[Small Axe](https://www.criterion.com/boxsets/6517-small-axe), , , ,**（史蒂夫·麦奎因）小斧子【合集】**, , , 
+315,bs-#1177, , ,Mangrove,Steve McQueen,United Kingdom,2020,[红树林 Mangrove](https://movie.douban.com/subject/35207744/),2020,7.7, 
+316,bs-#1177, , ,Lovers Rock,Steve McQueen,United Kingdom,2020,[情人的摇滚 Lovers Rock](https://movie.douban.com/subject/35191268/),2020,7.5, 
+317,bs-#1177, , ,"Red, White and Blue",Steve McQueen,United Kingdom,2020,"[红白蓝 Red, White and Blue](https://movie.douban.com/subject/35207749/)",2020,7.0, 
+318,bs-#1177, , ,Alex Wheatle,Steve McQueen,United Kingdom,2020,[亚历克斯·惠特尔 Alex Wheatle](https://movie.douban.com/subject/35207746/),2020,6.5, 
+319,bs-#1177, , ,Education,Steve McQueen,United Kingdom,2020,[教育 Education](https://movie.douban.com/subject/35207747/),2020,7.4, 
+320,bs-#1186, ,1186,[The Ranown Westerns: Five Films Directed by Budd Boetticher](https://www.criterion.com/boxsets/6702-the-ranown-westerns-five-films-directed-by-budd-boetticher), , , ,**“拉诺恩式”西部片：巴德·伯蒂彻执导的五部电影**, , , 
+321,bs-#1186, , ,The Tall T,Budd Boetticher,United States,1957,[西部警长 The Tall T](https://movie.douban.com/subject/3145443/),1957,6.9, 
+322,bs-#1186, , ,Decision at Sundown,Budd Boetticher,United States,1957,[日落镇的决断 Decision at Sundown](https://movie.douban.com/subject/3240335/),1957,6.7, 
+323,bs-#1186, , ,Buchanan Rides Alone,Budd Boetticher,United States,1958,[单骑血战 Buchanan Rides Alone](https://movie.douban.com/subject/1297901/),1958, , 
+324,bs-#1186, , ,Ride Lonesome,Budd Boetticher,United States,1959,[单格屠龙 Ride Lonesome](https://movie.douban.com/subject/1302046/),1959,6.5, 
+325,bs-#1186, , ,Comanche Station,Budd Boetticher,United States,1960,[蛮山野侠 Comanche Station](https://movie.douban.com/subject/2363796/),1960,6.7, 
+326,bs-#1189, ,1189,[Bo Widerberg’s New Swedish Cinema](https://www.criterion.com/boxsets/6737-bo-widerbergs-new-swedish-cinema), , , ,**波·维德伯格的新瑞典电影**, , , 
+327,bs-#1189, , ,The Baby Carriage,Bo Widerberg,Sweden,1963,[婴儿车 Barnvagnen](https://movie.douban.com/subject/2040961/),1963,7.6,#1189 波·维德伯格的新瑞典电影 之一
+328,bs-#1189, , ,Raven’s End,Bo Widerberg,Sweden,1963,[乌鸦住宅区 Kvarteret Korpen](https://movie.douban.com/subject/2979523/),1963,7.7,#1189 波·维德伯格的新瑞典电影 之二
+329,bs-#1189, , ,Elvira Madigan,Bo Widerberg,Sweden,1967,[今生今世 Elvira Madigan](https://movie.douban.com/subject/1292502/),1967,7.5,#1189 波·维德伯格的新瑞典电影 之三
+330,bs-#1189, , ,Ådalen 31,Bo Widerberg,Sweden,1969,[阿达伦31 Ådalen 31](https://movie.douban.com/subject/2039326/),1969,7.6,#1189 波·维德伯格的新瑞典电影 之四
+331,bs-#1194, ,1194,[Freaks / The Unknown / The Mystic: Tod Browning’s Sideshow Shockers](https://www.criterion.com/boxsets/6911-freaks-the-unknown-the-mystic-tod-brownings-sideshow-shockers), , , ,**畸形人、未知者、不可思议：托德·布朗宁的杂耍式恐怖电影**, , , 
+332,bs-#1194, , ,Freaks,Tod Browning,United States,1932,[畸形人 Freaks](https://movie.douban.com/subject/1295942/),1932,7.9, 
+333,bs-#1194, , ,The Unknown,Tod Browning,United States,1927,[未知者 The Unknown](https://movie.douban.com/subject/1484012/),1927,8.2, 
+334,bs-#1194, , ,The Mystic,Tod Browning,United States,1925,[不可思议 The Mystic](https://movie.douban.com/subject/5293605/),1925, , 
+335,bs-#1197, ,1197,[Jackie Chan: Emergence of a Superstar](https://www.criterion.com/boxsets/6970-jackie-chan-emergence-of-a-superstar), , , ,**成龙：巨星的诞生**, , , 
+336,bs-#1197, , ,Half a Loaf of Kung Fu,Chan Chi-hwa,Hong Kong,1978,[一招半式闯江湖 點只功夫咁簡單](https://movie.douban.com/subject/1292967/),1980,6.4, 
+337,bs-#1197, , ,Spiritual Kung Fu,Lo Wei,Hong Kong,1978,[拳精](https://movie.douban.com/subject/1308308/),1978,6.7, 
+338,bs-#1197, , ,The Fearless Hyena,Jackie Chan,Hong Kong,1979,[笑拳怪招](https://movie.douban.com/subject/1295273/),1979,7.0, 
+339,bs-#1197, , ,Fearless Hyena II,Chan Chuen,Hong Kong,1983,[龙腾虎跃 龍騰虎躍](https://movie.douban.com/subject/1481649/),1983,6.4, 
+340,bs-#1197, , ,The Young Master,Jackie Chan,Hong Kong,1980,[师弟出马 師弟出馬](https://movie.douban.com/subject/1294131/),1980,7.2, 
+341,bs-#1197, , ,My Lucky Stars,Sammo Hung,Hong Kong,1985,[福星高照](https://movie.douban.com/subject/1293732/),1985,7.5, 
+342,bs-#1200, ,1200,[The Red Balloon and Other Stories: Five Films by Albert Lamorisse](https://www.criterion.com/boxsets/6993-the-red-balloon-and-other-stories-five-films-by-albert-lamorisse), , , ,**红气球和其他故事：艾尔伯特·拉摩里斯的五部电影**, , , 
+343,bs-#1200, , ,The Red Balloon,Albert Lamorisse,France,1956,[红气球 Le ballon rouge](https://movie.douban.com/subject/1326038/),1956,8.8, 
+344,bs-#1200, , ,White Mane,Albert Lamorisse,France,1953,[白鬃野马 Crin blanc: Le cheval sauvage](https://movie.douban.com/subject/1959925/),1953,8.4, 
+345,bs-#1200, , ,"Bim, the Little Donkey",Albert Lamorisse,France,1951,[小驴比姆 Bim](https://movie.douban.com/subject/3148762/),1951, , 
+346,bs-#1200, , ,Stowaway in the Sky,Albert Lamorisse,France,1960,[气球漫游记 Le Voyage en ballon](https://movie.douban.com/subject/2256204/),1960,7.8, 
+347,bs-#1200, , ,Circus Angel,Albert Lamorisse,France,1965,"[马戏团天使 Fifi, la plume](https://movie.douban.com/subject/3148766/)",1965, , 
+348,bs-#1203, ,1203,"[Chantal Akerman Masterpieces, 1968–1978](https://www.criterion.com/boxsets/7045-chantal-akerman-masterpieces-19681978)", , , ,**香特尔·阿克曼的代表作（1968年到1978年）**, , , 
+349,bs-#1203, , ,Saute ma ville,Chantal Akerman,Belgium,1968,[我的城市 Saute ma ville](https://movie.douban.com/subject/3565920/),1968,8.1, 
+350,bs-#1203, , ,"L’enfant aimé, ou Je joue à être une femme mariée",Chantal Akerman,Belgium,1971,[可爱的孩子，或我扮演已婚女人 L'enfant aimé ou je joue à être une femme mariée](https://movie.douban.com/subject/26700053/),1971, , 
+351,bs-#1203,Eclipse Series 19, ,La chambre,Chantal Akerman,United States,1972,[房间 La Chambre](https://movie.douban.com/subject/2237988/),1972,6.7, 
+352,bs-#1203,Eclipse Series 19, ,Hotel Monterey,Chantal Akerman,United States,1972,[蒙特利旅馆 Hôtel Monterey](https://movie.douban.com/subject/2237990/),1989,7.2, 
+353,bs-#1203, , ,Le 15/8,Chantal Akerman and Samy Szlingerbaum,Belgium,1973,[8月15日 Le 15/8](https://movie.douban.com/subject/24875145/),1975, , 
+354,bs-#1203,Eclipse Series 19, ,Je tu il elle,Chantal Akerman,Belgium,1975,"[我你他她 Je, tu, il, elle](https://movie.douban.com/subject/1429055/)",1974,7.8, 
+355,bs-#1203, ,484,"Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",Chantal Akerman,France,1975,"[让娜·迪尔曼 Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles](https://movie.douban.com/subject/1868933/)",1975,8.9, 
+356,bs-#1203,Eclipse Series 19, ,News from Home,Chantal Akerman,France,1976,[家乡的消息 News from Home](https://movie.douban.com/subject/1902009/),1976,8.0, 
+357,bs-#1203,Eclipse Series 19, ,Les rendez-vous d’Anna,Chantal Akerman,Belgium,1978,[安娜的旅程 Les Rendez-vous d'Anna](https://movie.douban.com/subject/1768481/),1978,8.1, 
+358,bs-$40-samurai, , ,[The Samurai Trilogy](https://www.criterion.com/boxsets/40-the-samurai-trilogy), , , ,**（稻垣浩）宫本武藏三部曲**, , , 
+359,bs-$40-samurai, ,14,Samurai I: Musashi Miyamoto,Hiroshi Inagaki,Japan,1954,[宫本武藏 宮本武蔵](https://movie.douban.com/subject/1296228/),1954,7.6, 
+360,bs-$40-samurai, ,15,Samurai II: Duel at Ichijoji Temple,Hiroshi Inagaki,Japan,1955,[宫本武藏续 一乘寺之决斗 続宮本武蔵 一乗寺の決闘](https://movie.douban.com/subject/1304858/),1955,7.5, 
+361,bs-$40-samurai, ,16,Samurai III: Duel at Ganryu Island,Hiroshi Inagaki,Japan,1956,[宫本武藏 完结篇 决斗岩流岛 宮本武蔵 完結篇 決闘巌流島](https://movie.douban.com/subject/1304859/),1956,7.6, 
+362,bs-$590-yojimbo, , ,[Yojimbo/Sanjuro](https://www.criterion.com/boxsets/590-yojimbo-sanjuro), , , ,**（黑泽明）用心棒、椿三十郎（合集）**, , , 
+363,bs-$590-yojimbo, ,52,Yojimbo,Akira Kurosawa,Japan,1961,[用心棒](https://movie.douban.com/subject/1292515/),1961,9.0, 
+364,bs-$590-yojimbo, ,53,Sanjuro,Akira Kurosawa,Japan,1962,[椿三十郎](https://movie.douban.com/subject/1293310/),1962,8.8, 
+365,bs-$591-grey-gardens, , ,[Grey Gardens / The Beales of Grey Gardens](https://www.criterion.com/boxsets/591-grey-gardens-the-beales-of-grey-gardens), , , ,**（大卫·梅索斯等）灰色花园 、灰色花园中的比尔母女**, , , 
+366,bs-$591-grey-gardens, ,123,Grey Gardens,"David Maysles, Albert Maysles, Ellen Hovde, and Muffie Meyer",United States,1976,[灰色花园 Grey Gardens](https://movie.douban.com/subject/1419111/),1975,8.2, 
+367,bs-$591-grey-gardens, ,361,The Beales of Grey Gardens,Albert Maysles and David Maysles,United States,2006,[灰色花园中的比尔母女 The Beales of Grey Gardens](https://movie.douban.com/subject/1876329/),2006,7.6, 
+368,bs-$382-samurai, , ,[Rebel Samurai: Sixties Swordplay Classics](https://www.criterion.com/boxsets/382-rebel-samurai-sixties-swordplay-classics), , , ,**（冈本喜八等）叛逆武士：六十年代剑术经典**, , , 
+369,bs-$382-samurai, ,313,Kill!,Kihachi Okamoto,Japan,1968,[斩 斬る](https://movie.douban.com/subject/1547174/),1968,7.8, 
+370,bs-$382-samurai, ,310,Samurai Rebellion,Masaki Kobayashi,Japan,1967,[夺命剑 上意討ち 拝領妻始末](https://movie.douban.com/subject/1300738/),1967,9.0, 
+371,bs-$382-samurai, ,312,Samurai Spy,Masahiro Shinoda,Japan,1965,[猿飞佐助异闻录 異聞猿飛佐助](https://movie.douban.com/subject/1434178/),1965,7.1, 
+372,bs-$382-samurai, ,311,Sword of the Beast,Hideo Gosha,Japan,1965,[野兽之剑 獣の剣](https://movie.douban.com/subject/1434330/),1965,7.9, 
+373,bs-$769-america, , ,[America Lost and Found: The BBS Story](https://www.criterion.com/boxsets/769), , , ,**美国失物招领处：BBS的故事**, , , 
+374,bs-$769-america, ,544,Head,Bob Rafelson,United States,1968,[毛发 Head](https://movie.douban.com/subject/2081630/),1968,6.9, 
+375,bs-$769-america, ,545,Easy Rider,Dennis Hopper,United States,1969,[逍遥骑士 Easy Rider](https://movie.douban.com/subject/1297646/),1969,8.3, 
+376,bs-$769-america, ,546,Five Easy Pieces,Bob Rafelson,United States,1970,[五支歌 Five Easy Pieces](https://movie.douban.com/subject/1298192/),1970,7.8, 
+377,bs-$769-america, ,547,"Drive, He Said",Jack Nicholson,United States,1970,"[开车，他说 Drive, He Said](https://movie.douban.com/subject/2055771/)",1971,6.2, 
+378,bs-$769-america, ,548,A Safe Place,Henry Jaglom,United States,1971,[避风港 A Safe Place](https://movie.douban.com/subject/5044733/),1971,5.4, 
+379,bs-$769-america, ,549,The Last Picture Show,Peter Bogdanovich,United States,1971,[最后一场电影 The Last Picture Show](https://movie.douban.com/subject/1298026/),1971,8.0, 
+380,bs-$769-america, ,550,The King of Marvin Gardens,Bob Rafelson,United States,1972,[美人迟暮 The King of Marvin Gardens](https://movie.douban.com/subject/1294636/),1972,6.7, 
+381,bs-$1073-shooting, , ,[The Shooting/Ride in the Whirlwind](https://www.criterion.com/boxsets/1073-the-shooting-ride-in-the-whirlwind), , , ,**（蒙特·赫尔曼）射击、旋风骑士**, , , 
+382,bs-$1073-shooting, ,734,The Shooting,Monte Hellman,United States,1966,[射击 The Shooting](https://movie.douban.com/subject/1300812/),1966,7.0, 
+383,bs-$1073-shooting, ,735,Ride in the Whirlwind,Monte Hellman,United States,1966,[旋风骑士 Ride In The Whirlwind](https://movie.douban.com/subject/1958466/),1966,7.1, 
+384,bs-$1097-gates, , ,"[Gates of Heaven/Vernon, Florida](https://www.criterion.com/boxsets/1097-gates-of-heaven-vernon-florida)", , , ,**（埃罗尔·莫里斯）天堂之门、弗农，佛罗里达**, , , 
+385,bs-$1097-gates, ,751,Gates of Heaven,Errol Morris,United States,1978,[天堂之门 Gates of Heaven](https://movie.douban.com/subject/1300179/),1978,7.4, 
+386,bs-$1097-gates, ,752,"Vernon, Florida",Errol Morris,United States,1981,"[弗农，佛罗里达 Vernon, Florida](https://movie.douban.com/subject/1434179/)",1982,7.6, 
+387,bs-$1110-gregory-shawn, , ,[André Gregory & Wallace Shawn: 3 Films](https://www.criterion.com/boxsets/1110-andr-gregory-wallace-shawn-3-films), , , ,**安德烈·格雷戈里和华莱士·肖恩：3部电影**, , , 
+388,bs-$1110-gregory-shawn, ,479,My Dinner with André,Louis Malle,United States,1981,[与安德烈晚餐 My Dinner with Andre](https://movie.douban.com/subject/1304953/),1981,8.4, 
+389,bs-$1110-gregory-shawn, ,599,Vanya on 42nd Street,Louis Malle,United States,1994,[万尼亚在42街口 Vanya on 42nd Street](https://movie.douban.com/subject/1306194/),1994,7.6, 
+390,bs-$1110-gregory-shawn, ,762,A Master Builder,Jonathan Demme,United States,2014,[建筑大师 A Master Builder](https://movie.douban.com/subject/10749941/),2013,6.1, 
+391,bs-$1154-lady-snowblood, , ,[The Complete Lady Snowblood](https://www.criterion.com/boxsets/1154-the-complete-lady-snowblood), , , ,**（藤田敏八）修罗雪姬全集**, , , 
+392,bs-$1154-lady-snowblood, ,790,Lady Snowblood,Toshiya Fujita,Japan,1973,[修罗雪姬 修羅雪姫](https://movie.douban.com/subject/1440347/),1973,7.9, 
+393,bs-$1154-lady-snowblood, ,791,Lady Snowblood: Love Song of Vengeance,Toshiya Fujita,Japan,1974,[修罗雪姬2：怨恨的恋歌 修羅雪姫 怨み恋歌](https://movie.douban.com/subject/1751654/),1974,6.3, 
+394,bs-$1165-emigrants, , ,[The Emigrants/The New Land](https://www.criterion.com/boxsets/1165-the-emigrants-the-new-land), , , ,**（扬·特洛尔）大移民、新大陆（合集）**, , , 
+395,bs-$1165-emigrants, ,796,The Emigrants,Jan Troell,Sweden,1971,[大移民 Utvandrarna](https://movie.douban.com/subject/1295184/),1971,8.0, 
+396,bs-$1165-emigrants, ,797,The New Land,Jan Troell,Sweden,1972,[新大陆 Nybyggarna](https://movie.douban.com/subject/1471664/),1972,8.1, 
+397,bs-$1179-whit-stillman, , ,"[A Whit Stillman Trilogy: Metropolitan, Barcelona, The Last Days of Disco](https://www.criterion.com/boxsets/1179-a-whit-stillman-trilogy-i-metropolitan-barcelona-the-last-days-of-disco-i)", , , ,**惠特·斯蒂尔曼三部曲：大市民、巴塞罗那、最后的迪斯科**, , , 
+398,bs-$1179-whit-stillman, ,326,Metropolitan,Whit Stillman,United States,1990,[大市民 Metropolitan](https://movie.douban.com/subject/1303915/),1990,7.7, 
+399,bs-$1179-whit-stillman, ,485,The Last Days of Disco,Whit Stillman,United States,1998,[最后的迪斯科 The Last Days of Disco](https://movie.douban.com/subject/1293453/),1998,7.2, 
+400,bs-$1179-whit-stillman, ,807,Barcelona,Whit Stillman,United States,1994,[巴塞罗那 Barcelona](https://movie.douban.com/subject/1295556/),1994,7.0, 
+401,bs-$1209-guillermo, , ,[Trilogía de Guillermo del Toro](https://www.criterion.com/boxsets/1209-triloga-de-guillermo-del-toro), , , ,**吉尔莫·德尔·托罗三部曲**, , , 
+402,bs-$1209-guillermo, ,551,Cronos,Guillermo del Toro,Mexico,1993,[魔鬼银爪 Cronos](https://movie.douban.com/subject/1306942/),1993,6.5, 
+403,bs-$1209-guillermo, ,666,The Devil’s Backbone,Guillermo del Toro,Mexico,2001,[鬼童院 El espinazo del diablo](https://movie.douban.com/subject/1304044/),2001,7.2, 
+404,bs-$1209-guillermo, ,838,Pan’s Labyrinth,Guillermo del Toro,Spain,2006,[潘神的迷宫 El laberinto del fauno](https://movie.douban.com/subject/1767042/),2006,7.9, 
+405,bs-$1427-bergmans, , ,[Ingmar Bergman’s Cinema](https://www.criterion.com/boxsets/1427-ingmar-bergmans-cinema), , , ,**英格玛·伯格曼的电影**, , , 
+406,bs-$1427-bergmans,Eclipse Series 1, ,Crisis,Ingmar Bergman,Sweden	,1946,[危机 Kris](https://movie.douban.com/subject/1464774/),1946,6.7, 
+407,bs-$1427-bergmans, , ,A Ship to India,Ingmar Bergman,Sweden,1947,[开往印度之船 Skepp till India land](https://movie.douban.com/subject/2213735/),1947,6.5, 
+408,bs-$1427-bergmans,Eclipse Series 1, ,Port of Call,Ingmar Bergman,Sweden	,1948,[爱欲之港 Hamnstad](https://movie.douban.com/subject/1475172/),1948,6.8, 
+409,bs-$1427-bergmans,Eclipse Series 1, ,Thirst,Ingmar Bergman,Sweden	,1949,[三个陌生的情人 Törst](https://movie.douban.com/subject/1772177/),1949,6.8, 
+410,bs-$1427-bergmans,Eclipse Series 1, ,To Joy,Ingmar Bergman,Sweden	,1950,[喜悦 Till glädje](https://movie.douban.com/subject/1468268/),1950,7.3, 
+411,bs-$1427-bergmans, ,613,Summer Interlude,Ingmar Bergman,Sweden,1951,[夏日插曲 Sommarlek](https://movie.douban.com/subject/1295389/),1951,7.7, 
+412,bs-$1427-bergmans, , ,Waiting Women,Ingmar Bergman,Sweden,1952,[女人的期待 Kvinnors väntan](https://movie.douban.com/subject/1297727/),1952,7.6, 
+413,bs-$1427-bergmans, ,614,Summer with Monika,Ingmar Bergman,Sweden,1953,[不良少女莫妮卡 Sommaren med Monika](https://movie.douban.com/subject/1299536/),1953,7.9, 
+414,bs-$1427-bergmans, ,412,Sawdust and Tinsel,Ingmar Bergman,Sweden,1953,[小丑之夜 Gycklarnas afton](https://movie.douban.com/subject/1300957/),1953,8.0, 
+415,bs-$1427-bergmans, , ,A Lesson in Love,Ingmar Bergman,Sweden,1954,[恋爱课程 En lektion i kärlek](https://movie.douban.com/subject/1298141/),1954,7.7, 
+416,bs-$1427-bergmans, , ,Dreams,Ingmar Bergman,Sweden,1955,[花都绮梦 Kvinnodröm](https://movie.douban.com/subject/1302075/),1955,7.6, 
+417,bs-$1427-bergmans, ,237,Smiles of a Summer Night,Ingmar Bergman,Sweden,1955,[夏夜的微笑 Sommarnattens leende](https://movie.douban.com/subject/1298494/),1955,7.7, 
+418,bs-$1427-bergmans, ,11,The Seventh Seal,Ingmar Bergman,Sweden,1957,[第七封印 Det sjunde inseglet](https://movie.douban.com/subject/1293234/),1957,8.5, 
+419,bs-$1427-bergmans, ,139,Wild Strawberries,Ingmar Bergman,Sweden,1957,[野草莓 Smultronstället](https://movie.douban.com/subject/1293071/),1957,8.8, 
+420,bs-$1427-bergmans, , ,Brink of Life,Ingmar Bergman,Sweden,1958,[生命的门槛 Nära livet](https://movie.douban.com/subject/2269933/),1958,7.9, 
+421,bs-$1427-bergmans, ,537,The Magician,Ingmar Bergman,Sweden,1958,[面孔 Ansiktet](https://movie.douban.com/subject/1440725/),1958,7.6, 
+422,bs-$1427-bergmans, ,321,The Virgin Spring,Ingmar Bergman,Sweden,1960,[处女泉 Jungfrukällan](https://movie.douban.com/subject/1293156/),1960,8.6, 
+423,bs-$1427-bergmans, , ,The Devil’s Eye,Ingmar Bergman,Sweden,1960,[魔鬼的眼睛 Djävulens öga](https://movie.douban.com/subject/1297074/),1960,7.5, 
+424,bs-$1427-bergmans, ,209,Through a Glass Darkly,Ingmar Bergman,Sweden,1961,[犹在镜中 Såsom i en spegel](https://movie.douban.com/subject/1302488/),1961,8.4, 
+425,bs-$1427-bergmans, ,210,Winter Light,Ingmar Bergman,Sweden,1963,[冬日之光 Nattvardsgästerna](https://movie.douban.com/subject/1296792/),1963,8.3, 
+426,bs-$1427-bergmans, ,211,The Silence,Ingmar Bergman,Sweden,1963,[沉默 Tystnaden](https://movie.douban.com/subject/1300958/),1963,8.3, 
+427,bs-$1427-bergmans, , ,All These Women,Ingmar Bergman,Sweden,1964,[这些女人 För att inte tala om alla dessa kvinnor](https://movie.douban.com/subject/1303552/),1964,6.7, 
+428,bs-$1427-bergmans, ,701,Persona,Ingmar Bergman,Sweden,1966,[假面 Persona](https://movie.douban.com/subject/1294438/),1966,8.8, 
+429,bs-$1427-bergmans, , ,Hour of the Wolf,Ingmar Bergman,Sweden,1968,[豺狼时刻 Vargtimmen](https://movie.douban.com/subject/1301151/),1968,8.1, 
+430,bs-$1427-bergmans, ,961,Shame,Ingmar Bergman,Sweden,1968,[羞耻 Skammen](https://movie.douban.com/subject/1293677/),1968,8.3, 
+431,bs-$1427-bergmans, , ,The Rite,Ingmar Bergman,Sweden,1969,[祭典 Riten](https://movie.douban.com/subject/1806801/),1969,7.1, 
+432,bs-$1427-bergmans, , ,The Passion of Anna,Ingmar Bergman,Sweden,1969,[安娜的情欲 En passion](https://movie.douban.com/subject/1292853/),1969,8.0, 
+433,bs-$1427-bergmans, , ,Fårö Document,Ingmar Bergman,Sweden,1970,[法罗文献1969 Fårö dokument](https://movie.douban.com/subject/2074111/),1970,7.7, 
+434,bs-$1427-bergmans, , ,The Touch,Ingmar Bergman,Sweden,1971,[接触 Beröringen](https://movie.douban.com/subject/2213746/),1971,7.1, 
+435,bs-$1427-bergmans, ,101,Cries and Whispers,Ingmar Bergman,Sweden,1972,[呼喊与细语 Viskningar och rop](https://movie.douban.com/subject/1296147/),1972,8.6, 
+436,bs-$1427-bergmans, ,229,Scenes from a Marriage,Ingmar Bergman,Sweden,1973,[婚姻生活 Scener ur ett äktenskap](https://movie.douban.com/subject/1292981/),1973,9.0, 
+437,bs-$1427-bergmans, ,71,The Magic Flute,Ingmar Bergman,Sweden,1975,[魔笛 Trollflöjten](https://movie.douban.com/subject/1292928/),1975,7.9, 
+438,bs-$1427-bergmans, , ,The Serpent’s Egg,Ingmar Bergman,United States,1977,[蛇蛋 The Serpent's Egg](https://movie.douban.com/subject/1294472/),1977,7.1, 
+439,bs-$1427-bergmans, ,60,Autumn Sonata,Ingmar Bergman,Sweden,1978,[秋日奏鸣曲 Höstsonaten](https://movie.douban.com/subject/1297268/),1978,9.1, 
+440,bs-$1427-bergmans, , ,Fårö Document 1979,Ingmar Bergman,Sweden,1979,[法罗档案1979 Fårö-dokument 1979](https://movie.douban.com/subject/2181377/),1979,8.2, 
+441,bs-$1427-bergmans, , ,From the Life of the Marionettes,Ingmar Bergman,Sweden,1980,[傀儡生涯 Aus dem Leben der Marionetten](https://movie.douban.com/subject/1295323/),1980,8.1, 
+442,bs-$1427-bergmans, ,263,Fanny and Alexander: Theatrical Version,Ingmar Bergman,Sweden,1982,[芬妮与亚历山大 Fanny och Alexander](https://movie.douban.com/subject/1292784/),1982,8.7, 
+443,bs-$1427-bergmans, ,264,The Making of Fanny and Alexander,Ingmar Bergman,Sweden,1982,[芬妮和亚历山大的诞生 Dokument Fanny och Alexander](https://movie.douban.com/subject/1449473/),1984,8.6, 
+444,bs-$1427-bergmans, ,262,Fanny and Alexander: Television Version,Ingmar Bergman,Sweden,1983,[芬妮与亚历山大 Fanny och Alexander](https://movie.douban.com/subject/33477260/),1983,9.2, 
+445,bs-$1427-bergmans, , ,After the Rehearsal,Ingmar Bergman,Sweden,1984,[排演之后 Efter repetitionen](https://movie.douban.com/subject/1437025/),1984,7.4, 
+446,bs-$1427-bergmans, , ,Saraband,Ingmar Bergman,Sweden,2003,[萨拉邦德 Saraband](https://movie.douban.com/subject/1353734/),2003,8.2, 
+447,bs-$1554-police-story, , ,[Police Story/Police Story 2](https://www.criterion.com/boxsets/1554-police-story-police-story-2), , , ,**（成龙）《警察故事》1和2**, , , 
+448,bs-$1554-police-story, ,971,Police Story,Jackie Chan,Hong Kong,1985,[警察故事](https://movie.douban.com/subject/1400868/),1985,8.2, 
+449,bs-$1554-police-story, ,972,Police Story 2,Jackie Chan,Hong Kong,1988,[警察故事续集 警察故事續集](https://movie.douban.com/subject/1304726/),1988,7.8, 
+450,bs-$2363-koker, , ,[The Koker Trilogy](https://www.criterion.com/boxsets/2363-the-koker-trilogy), , , ,**（阿巴斯·基亚罗斯塔米）“村庄”三部曲**, , , 
+451,bs-$2363-koker, ,990,Where Is the Friend’s House?,Abbas Kiarostami,Iran,1987,[何处是我朋友的家 خانه دوست کجاست؟‎](https://movie.douban.com/subject/1301897/),1987,8.9, 
+452,bs-$2363-koker, ,991,And Life Goes On,Abbas Kiarostami,Iran,1992,[生生长流 زندگی و دیگر هیچ](https://movie.douban.com/subject/1303471/),1992,8.8, 
+453,bs-$2363-koker, ,992,Through the Olive Trees,Abbas Kiarostami,Iran,1994,[橄榄树下的情人 زير درختان زيتون](https://movie.douban.com/subject/1303465/),1994,8.4, 
+454,bs-$2880-zeman, , ,[Three Fantastic Journeys by Karel Zeman](https://www.criterion.com/boxsets/2880-three-fantastic-journeys-by-karel-zeman), , , ,**卡尔·齐曼的三段奇幻之旅**, , , 
+455,bs-$2880-zeman, ,1015,Journey to the Beginning of Time,Karel Zeman,Czechoslovakia,1955,[史前探险记 Cesta do praveku](https://movie.douban.com/subject/2056031/),1955,6.8, 
+456,bs-$2880-zeman, ,1016,Invention for Destruction,Karel Zeman,Czechoslovakia,1958,[毁灭的发明 Vynález zkázy](https://movie.douban.com/subject/1940670/),1958,7.9, 
+457,bs-$2880-zeman, ,1017,The Fabulous Baron Munchausen,Karel Zeman,Czechoslovakia,1962,[吹牛伯爵历险记 Baron Prásil](https://movie.douban.com/subject/1940672/),1962,8.5, 
+458,bs-$3432-varda, , ,[The Complete Films of Agnès Varda](https://www.criterion.com/boxsets/3432-the-complete-films-of-agns-varda), , , ,**阿涅丝·瓦尔达电影全集**, , , 
+459,bs-$3432-varda, , ,Varda by Agnès,Agnès Varda,France,2019,[阿涅斯论瓦尔达 Varda par Agnès](https://movie.douban.com/subject/30423539/),2019,9.2, 
+460,bs-$3432-varda, ,419,La Pointe Courte,Agnès Varda,France,1955,[短岬村 La pointe-courte](https://movie.douban.com/subject/1297682/),1955,7.6, 
+461,bs-$3432-varda, ,73,Cléo from 5 to 7,Agnès Varda,France,1962,[五至七时的克莱奥 Cléo de 5 à 7](https://movie.douban.com/subject/1294565/),1962,8.7, 
+462,bs-$3432-varda, , ,Daguerréotypes,Agnès Varda,France,1975,[达格雷街风情 Daguerréotypes](https://movie.douban.com/subject/2972735/),1976,8.6, 
+463,bs-$3432-varda, ,420,Le bonheur,Agnès Varda,France,1965,[幸福 Le bonheur](https://movie.douban.com/subject/1483516/),1965,8.3, 
+464,bs-$3432-varda, , ,Les créatures,Agnès Varda,France,1966,[创造物 Les Créatures](https://movie.douban.com/subject/2238784/),1966,7.7, 
+465,bs-$3432-varda,Eclipse Series 43, ,Uncle Yanco,Agnès Varda,France	,1968,[扬科叔叔 Oncle Yanco](https://movie.douban.com/subject/1763688/),1967,8.3, 
+466,bs-$3432-varda,Eclipse Series 43, ,Black Panthers,Agnès Varda,France	,1970,[黑豹党 Black Panthers](https://movie.douban.com/subject/1776580/),2001,7.3, 
+467,bs-$3432-varda,Eclipse Series 43, ,Lions Love (. . . and Lies),Agnès Varda,France	,1969,[狮子、爱、谎言 Lions Love](https://movie.douban.com/subject/1297857/),1969,7.7, 
+468,bs-$3432-varda,Eclipse Series 43, ,Mur Murs,Agnès Varda,France	,1981,[墙的呢喃 Mur murs](https://movie.douban.com/subject/2238785/),1981,8.1, 
+469,bs-$3432-varda,Eclipse Series 43, ,Documenteur,Agnès Varda,France	,1981,[纪录说谎家 Documenteur](https://movie.douban.com/subject/3699265/),1981,7.9, 
+470,bs-$3432-varda, ,978,"One Sings, the Other Doesn’t",Agnès Varda,France,1977,"[一个唱，一个不唱 L'une chante, l'autre pas](https://movie.douban.com/subject/1297403/)",1977,8.4, 
+471,bs-$3432-varda, ,74,Vagabond,Agnès Varda,France,1985,[天涯沦落女 Sans toit ni loi](https://movie.douban.com/subject/1292445/),1985,8.3, 
+472,bs-$3432-varda, , ,Jane B. par Agnès V.,Agnès Varda,France,1988,[千面珍宝金 Jane B. par Agnès V.](https://movie.douban.com/subject/1307939/),1988,8.1, 
+473,bs-$3432-varda, , ,Kung-Fu Master!,Agnès Varda,France,1988,[功夫大师 Le petit amour](https://movie.douban.com/subject/1300420/),1988,7.9, 
+474,bs-$3432-varda, , ,Jacquot de Nantes,Agnès Varda,France,1991,[南特的雅克·德米 Jacquôt de Nantes](https://movie.douban.com/subject/1394410/),1991,9.1, 
+475,bs-$3432-varda, , ,One Hundred and One Nights,Agnès Varda,France,1995,[101夜 Les cent et une nuits de Simon Cinéma](https://movie.douban.com/subject/1301432/),1995,7.8, 
+476,bs-$3432-varda, , ,The Gleaners and I,Agnès Varda,France,2000,[拾穗者 Les glaneurs et la glaneuse](https://movie.douban.com/subject/1301279/),2000,9.1, 
+477,bs-$3432-varda, , ,The Gleaners and I: Two Years Later,Agnès Varda,France,2002,[艾格妮捡风景：两年后 Les glaneurs et la glaneuse... deux ans après](https://movie.douban.com/subject/1303865/),2002,8.4, 
+478,bs-$3432-varda, , ,Faces Places,Agnès Varda and JR,France,2017,[脸庞，村庄 Visages villages](https://movie.douban.com/subject/26764928/),2017,9.1, 
+479,bs-$3432-varda, , ,Agnès de ci de là Varda,Agnès Varda,France,2011,[阿涅斯·瓦尔达在这里和那里 Agnès de ci de là Varda](https://movie.douban.com/subject/10441185/),2011,9.2, 
+480,bs-$3432-varda, , ,The Beaches of Agnès,Agnès Varda,France,2008,[阿涅斯的海滩 Les plages d'Agnès](https://movie.douban.com/subject/3162138/),2008,9.0, 
+481,bs-$3626-fellini, , ,[Essential Fellini](https://www.criterion.com/boxsets/3626-essential-fellini), , , ,**费德里科·费里尼精选集**, , , 
+482,bs-$3626-fellini, ,81,Variety Lights,Federico Fellini…,Italy,1950,[卖艺春秋 Luci del varietà](https://movie.douban.com/subject/1294343/),1950,7.3, 
+483,bs-$3626-fellini, ,189,The White Sheik,Federico Fellini,Italy,1952,[白酋长 Lo sceicco bianco](https://movie.douban.com/subject/1433560/),1952,7.3, 
+484,bs-$3626-fellini, ,246,I vitelloni,Federico Fellini,Italy,1953,[浪荡儿 I vitelloni](https://movie.douban.com/subject/1300779/),1953,8.4, 
+485,bs-$3626-fellini, ,219,La strada,Federico Fellini,Italy,1954,[大路 La strada](https://movie.douban.com/subject/1292719/),1954,8.9, 
+486,bs-$3626-fellini, , ,Il bidone,Federico Fellini,Italy,1955,[骗子 Il bidone](https://movie.douban.com/subject/1303571/),1955,8.0, 
+487,bs-$3626-fellini, ,49,Nights of Cabiria,Federico Fellini,Italy,1957,[卡比利亚之夜 Le notti di Cabiria](https://movie.douban.com/subject/1294781/),1957,9.1, 
+488,bs-$3626-fellini, ,733,La dolce vita,Federico Fellini,Italy,1960,[甜蜜的生活 La dolce vita](https://movie.douban.com/subject/1293271/),1960,8.6, 
+489,bs-$3626-fellini, ,140,8½,Federico Fellini,Italy,1963,[八部半 8½](https://movie.douban.com/subject/1361276/),1963,8.6, 
+490,bs-$3626-fellini, ,149,Juliet of the Spirits,Federico Fellini,Italy,1965,[朱丽叶与魔鬼 Giulietta degli spiriti](https://movie.douban.com/subject/1299485/),1965,7.7, 
+491,bs-$3626-fellini, ,747,Fellini Satyricon,Federico Fellini,Italy,1969,[爱情神话 Fellini - Satyricon](https://movie.douban.com/subject/1293358/),1969,7.7, 
+492,bs-$3626-fellini, ,848,Roma,Federico Fellini,Italy,1972,[罗马风情画 Roma](https://movie.douban.com/subject/1302815/),1972,8.3, 
+493,bs-$3626-fellini, ,4,Amarcord,Federico Fellini,Italy,1973,[阿玛柯德 Amarcord](https://movie.douban.com/subject/1298672/),1973,8.7, 
+494,bs-$3626-fellini, ,50,And the Ship Sails On,Federico Fellini,Italy,1983,[船续前行 E la nave va](https://movie.douban.com/subject/1303533/),1983,8.3, 
+495,bs-$3626-fellini, , ,Intervista,Federico Fellini,Italy,1987,[访谈录 Intervista](https://movie.douban.com/subject/1303528/),1987,7.9, 
+496,bs-$3900-bunuel, , ,[Three Films by Luis Buñuel](https://www.criterion.com/boxsets/3900-three-films-by-luis-bu-uel), , , ,**路易斯·布努埃尔的三部电影**, , , 
+497,bs-$3900-bunuel, ,102,The Discreet Charm of the Bourgeoisie,Luis Buñuel,France,1972,[资产阶级的审慎魅力 Le Charme discret de la bourgeoisie](https://movie.douban.com/subject/1303364/),1972,8.2, 
+498,bs-$3900-bunuel, ,290,The Phantom of Liberty,Luis Buñuel,France,1974,[自由的幻影 Le fantôme de la liberté](https://movie.douban.com/subject/1297188/),1974,8.6, 
+499,bs-$3900-bunuel, ,143,That Obscure Object of Desire,Luis Buñuel,France,1977,[朦胧的欲望 Cet obscur objet du désir](https://movie.douban.com/subject/1303071/),1977,8.2, 
+500,bs-$4117-wong, , ,[World of Wong Kar Wai](https://www.criterion.com/boxsets/4117-world-of-wong-kar-wai), , , ,**王家卫的世界**, , , 
+501,bs-$4117-wong, , ,As Tears Go By,Wong Kar Wai,Hong Kong,1988,[旺角卡门 旺角卡門](https://movie.douban.com/subject/1304624/),1988,7.8, 
+502,bs-$4117-wong, , ,Days of Being Wild,Wong Kar Wai,Hong Kong,1990,[阿飞正传 阿飛正傳](https://movie.douban.com/subject/1305690/),1990,8.5, 
+503,bs-$4117-wong, ,453,Chungking Express,Wong Kar Wai,Hong Kong,1994,[重庆森林 重慶森林](https://movie.douban.com/subject/1291999/),1994,8.8, 
+504,bs-$4117-wong, , ,Fallen Angels,Wong Kar Wai,Hong Kong,1995,[堕落天使 墮落天使](https://movie.douban.com/subject/1298112/),1995,8.4, 
+505,bs-$4117-wong, , ,Happy Together,Wong Kar Wai,Hong Kong,1997,[春光乍泄 春光乍洩](https://movie.douban.com/subject/1292679/),1997,9.0, 
+506,bs-$4117-wong, ,147,In the Mood for Love,Wong Kar Wai,Hong Kong,2000,[花样年华 花樣年華](https://movie.douban.com/subject/1291557/),2000,8.7, 
+507,bs-$4117-wong, , ,2046,Wong Kar Wai,Hong Kong,2004,[2046](https://movie.douban.com/subject/1291555/),2004,7.7, 
+508,bs-$4787-peebles, , ,[Melvin Van Peebles: Essential Films](https://www.criterion.com/boxsets/4787-melvin-van-peebles-essential-films), , , ,**马文·范·皮布尔斯：精选电影集**, , , 
+509,bs-$4787-peebles, ,1093,The Story of a Three Day Pass,Melvin Van Peebles,United States,1967,[允许 La Permission](https://movie.douban.com/subject/3587373/),1968, , 
+510,bs-$4787-peebles, ,1094,Watermelon Man,Melvin Van Peebles,United States,1970,[黑皮肤的白人 Watermelon Man](https://movie.douban.com/subject/5055911/),1970, , 
+511,bs-$4787-peebles, ,1095,Sweet Sweetback’s Baadasssss Song,Melvin Van Peebles,United States,1971,[斯维特拜克之歌 Sweet Sweetback's Baadasssss Song](https://movie.douban.com/subject/2144143/),1971,5.6, 
+512,bs-$4787-peebles, ,1096,Don’t Play Us Cheap,Melvin Van Peebles,United States,1972,[不准欺骗我们 Don't Play Us Cheap](https://movie.douban.com/subject/5054903/),1973, , 
+513,bs-$678-ak, , ,[AK 100: 25 Films by Akira Kurosawa](https://www.criterion.com/boxsets/678-ak-100-25-films-by-akira-kurosawa), , , ,**AK 百年：黑泽明的 25 部电影**, , , 
+514,bs-$678-ak, , ,Sanshiro Sugata,Akira Kurosawa,Japan	,1943,[姿三四郎](https://movie.douban.com/subject/1300208/),1943,7.5, 
+515,bs-$678-ak, , ,The Most Beautiful,Akira Kurosawa,Japan	,1944,[最美 一番美しく](https://movie.douban.com/subject/1308301/),1944,5.4, 
+516,bs-$678-ak, , ,"Sanshiro Sugata, Part Two",Akira Kurosawa,Japan	,1945,[姿三四郎续集 続姿三四郎](https://movie.douban.com/subject/1300985/),1945,6.6, 
+517,bs-$678-ak, , ,The Men Who Tread on the Tiger’s Tail,Akira Kurosawa,Japan	,1945,[踩虎尾的男人 虎の尾を踏む男達](https://movie.douban.com/subject/1293176/),1952,7.3, 
+518,bs-$678-ak,Eclipse Series 7, ,No Regrets for Our Youth,Akira Kurosawa,Japan	,1946,[我对青春无悔 わが青春に悔なし](https://movie.douban.com/subject/1301260/),1946,7.3, 
+519,bs-$678-ak,Eclipse Series 7, ,One Wonderful Sunday,Akira Kurosawa,Japan	,1947,[美好的星期天 素晴らしき日曜日](https://movie.douban.com/subject/1295751/),1947,7.6, 
+520,bs-$678-ak, ,413,Drunken Angel,Akira Kurosawa,Japan,1948,[泥醉天使 醉いどれ天使](https://movie.douban.com/subject/1294859/),1948,8.1, 
+521,bs-$678-ak, ,233,Stray Dog,Akira Kurosawa,Japan,1949,[野良犬](https://movie.douban.com/subject/1293107/),1949,8.4, 
+522,bs-$678-ak,Eclipse Series 7, ,Scandal,Akira Kurosawa,Japan	,1950,[丑闻 醜聞](https://movie.douban.com/subject/1293162/),1950,7.3, 
+523,bs-$678-ak, ,138,Rashomon,Akira Kurosawa,Japan,1950,[罗生门 羅生門](https://movie.douban.com/subject/1291879/),1950,8.8, 
+524,bs-$678-ak,Eclipse Series 7, ,The Idiot,Akira Kurosawa,Japan	,1951,[白痴](https://movie.douban.com/subject/1293017/),1951,6.9, 
+525,bs-$678-ak, ,221,Ikiru,Akira Kurosawa,Japan,1952,[生之欲 生きる](https://movie.douban.com/subject/1293847/),1952,9.3, 
+526,bs-$678-ak, ,2,Seven Samurai,Akira Kurosawa,Japan,1954,[七武士 七人の侍](https://movie.douban.com/subject/1295399/),1954,9.3, 
+527,bs-$678-ak,Eclipse Series 7, ,I Live in Fear,Akira Kurosawa,Japan	,1955,[活人的记录 生きものの記録](https://movie.douban.com/subject/1302062/),1955,7.5, 
+528,bs-$678-ak, ,190,Throne of Blood,Akira Kurosawa,Japan,1957,[蜘蛛巢城 蜘蛛巣城](https://movie.douban.com/subject/1294827/),1957,8.5, 
+529,bs-$678-ak, , ,The Lower Depths,Akira Kurosawa,Japan,1957,[低下层 どん底](https://movie.douban.com/subject/1297331/),1957,7.4, 
+530,bs-$678-ak, ,116,The Hidden Fortress,Akira Kurosawa,Japan,1958,[战国英豪 隠し砦の三悪人](https://movie.douban.com/subject/1303110/),1958,8.4, 
+531,bs-$678-ak, ,319,The Bad Sleep Well,Akira Kurosawa,Japan,1960,[恶汉甜梦 悪い奴ほどよく眠る](https://movie.douban.com/subject/1297589/),1960,8.4, 
+532,bs-$678-ak, ,52,Yojimbo,Akira Kurosawa,Japan,1961,[用心棒](https://movie.douban.com/subject/1292515/),1961,9.0, 
+533,bs-$678-ak, ,53,Sanjuro,Akira Kurosawa,Japan,1962,[椿三十郎](https://movie.douban.com/subject/1293310/),1962,8.8, 
+534,bs-$678-ak, ,24,High and Low,Akira Kurosawa,Japan,1963,[天国与地狱 天国と地獄](https://movie.douban.com/subject/1293663/),1963,8.8, 
+535,bs-$678-ak, ,159,Red Beard,Akira Kurosawa,Japan,1965,[红胡子 赤ひげ](https://movie.douban.com/subject/1296679/),1965,8.8, 
+536,bs-$678-ak, ,465,Dodes’ka-den,Akira Kurosawa,Japan,1970,[电车狂 どですかでん](https://movie.douban.com/subject/1303077/),1970,8.0, 
+537,bs-$678-ak, ,267,Kagemusha,Akira Kurosawa,Japan,1980,[影武者](https://movie.douban.com/subject/1303067/),1980,9.1, 
+538,bs-$678-ak, , ,Madadayo,Akira Kurosawa,Japan,1993,[袅袅夕阳情 まあだだよ](https://movie.douban.com/subject/1298754/),1993,8.3, 
+539,bs-$305-janus-films, , ,[Essential Art House: 50 Years of Janus Films](https://www.criterion.com/boxsets/305-essential-art-house-50-years-of-janus-films), , , ,**艺术电影精选：杰纳斯电影五十年**, , , 
+540,bs-$305-janus-films, ,56,The 39 Steps,Alfred Hitchcock,United Kingdom,1935,[三十九级台阶 The 39 Steps](https://movie.douban.com/subject/1298412/),1935,7.8, 
+541,bs-$305-janus-films, ,5,The 400 Blows,François Truffaut,France,1959,[四百击 Les quatre cents coups](https://movie.douban.com/subject/1300056/),1959,8.9, 
+542,bs-$305-janus-films, ,87,Alexander Nevsky,Sergei Eisenstein,Soviet Union,1938,[亚历山大·涅夫斯基 Александр Невский](https://movie.douban.com/subject/1299973/),1938,7.1, 
+543,bs-$305-janus-films, ,285,Ashes and Diamonds,Andrzej Wajda,Poland,1958,[灰烬与钻石 Popiół i diament](https://movie.douban.com/subject/1303174/),1958,8.2, 
+544,bs-$305-janus-films, ,148,Ballad of a Soldier,Grigori Chukhrai,Soviet Union,1959,[士兵之歌 Баллада о солдате](https://movie.douban.com/subject/1295614/),1959,9.1, 
+545,bs-$305-janus-films, ,6,Beauty and the Beast,Jean Cocteau,France,1946,[美女与野兽 La belle et la bête](https://movie.douban.com/subject/1295913/),1946,7.8, 
+546,bs-$305-janus-films, ,48,Black Orpheus,Marcel Camus,France,1959,[黑人奥菲尔 Orfeu Negro](https://movie.douban.com/subject/1295967/),1959,6.4, 
+547,bs-$305-janus-films, ,76,Brief Encounter,David Lean,United Kingdom,1945,[相见恨晚 Brief Encounter](https://movie.douban.com/subject/1294364/),1945,8.0, 
+548,bs-$305-janus-films, ,357,The Fallen Idol,Carol Reed,United Kingdom,1948,[堕落的偶像 The Fallen Idol](https://movie.douban.com/subject/1476698/),1948,7.9, 
+549,bs-$305-janus-films, ,378,Fires on the Plain,Kon Ichikawa,Japan,1959,[野火](https://movie.douban.com/subject/1296872/),1959,8.2, 
+550,bs-$305-janus-films, ,333,Fists in the Pocket,Marco Bellocchio,Italy,1965,[口袋里的拳头 I pugni in tasca](https://movie.douban.com/subject/1401620/),1965,7.7, 
+551,bs-$305-janus-films, , ,Floating Weeds,Yasujiro Ozu,Japan,1959,[浮草](https://movie.douban.com/subject/1297841/),1959,8.6, 
+552,bs-$305-janus-films, ,318,Forbidden Games,René Clément,France,1952,[禁忌的游戏 Jeux interdits](https://movie.douban.com/subject/1421933/),1952,8.4, 
+553,bs-$305-janus-films, ,1,Grand Illusion,Jean Renoir,France,1937,[大幻影 La grande illusion](https://movie.douban.com/subject/1294808/),1937,8.4, 
+554,bs-$305-janus-films, ,134,Häxan,Benjamin Christensen,Denmark,1922,[女巫 Häxan](https://movie.douban.com/subject/1439560/),1922,8.2, 
+555,bs-$305-janus-films, ,221,Ikiru,Akira Kurosawa,Japan,1952,[生之欲 生きる](https://movie.douban.com/subject/1293847/),1952,9.3, 
+556,bs-$305-janus-films, ,194,Il posto,Ermanno Olmi,Italy,1961,[工作 Il Posto](https://movie.douban.com/subject/1302119/),1961,8.3, 
+557,bs-$305-janus-films, ,158,The Importance of Being Earnest,Anthony Asquith,United Kingdom,1952,[贵在真诚 The Importance of Being Earnest](https://movie.douban.com/subject/1424642/),1952,7.9, 
+558,bs-$305-janus-films, ,88,"Ivan the Terrible, Part II",Sergei Eisenstein,Soviet Union,1958,[伊凡雷帝2 Иван Грозный 2: Боярский заговор](https://movie.douban.com/subject/1474367/),1958,8.2, 
+559,bs-$305-janus-films, , ,Le jour se lève,Marcel Carné,France,1939,[天色破晓 Le jour se lève](https://movie.douban.com/subject/1470775/),1939,7.7, 
+560,bs-$305-janus-films, ,281,Jules and Jim,François Truffaut,France,1962,[祖与占 Jules et Jim](https://movie.douban.com/subject/1292338/),1962,8.4, 
+561,bs-$305-janus-films, ,325,Kind Hearts and Coronets,Robert Hamer,United Kingdom,1949,[仁心与冠冕 Kind Hearts and Coronets](https://movie.douban.com/subject/1295995/),1949,8.5, 
+562,bs-$305-janus-films, ,215,Knife in the Water,Roman Polanski,Poland,1962,[水中刀 Nóz w wodzie](https://movie.douban.com/subject/1303086/),1962,8.1, 
+563,bs-$305-janus-films, ,3,The Lady Vanishes,Alfred Hitchcock,United Kingdom,1938,[贵妇失踪记 The Lady Vanishes](https://movie.douban.com/subject/1292760/),1938,8.1, 
+564,bs-$305-janus-films, ,173,The Life and Death of Colonel Blimp,Michael Powell and Emeric Pressburger,United Kingdom,1943,[百战将军 The Life and Death of Colonel Blimp](https://movie.douban.com/subject/1299816/),1943,7.8, 
+565,bs-$305-janus-films, ,142,The Last Wave,Peter Weir,Australia,1977,[最后大浪 The Last Wave](https://movie.douban.com/subject/1304855/),1977,6.8, 
+566,bs-$305-janus-films, ,144,Loves of a Blonde,Miloš Forman,Czechoslovakia,1965,[金发女郎的爱情 Lásky jedné plavovlásky](https://movie.douban.com/subject/1303082/),1965,7.5, 
+567,bs-$305-janus-films, ,98,L’avventura,Michelangelo Antonioni,Italy,1960,[奇遇 L'avventura](https://movie.douban.com/subject/1389923/),1960,8.2, 
+568,bs-$305-janus-films, ,30,M,Fritz Lang,Germany,1931,[M就是凶手 M - Eine Stadt sucht einen Mörder](https://movie.douban.com/subject/1293381/),1931,8.3, 
+569,bs-$305-janus-films, ,110,Monsieur Hulot’s Holiday,Jacques Tati,France,1953,[于洛先生的假期 Les vacances de Monsieur Hulot](https://movie.douban.com/subject/1305790/),1953,8.0, 
+570,bs-$305-janus-films, ,416,Miss Julie,Alf Sjöberg,Sweden,1951,[朱丽小姐 Fröken Julie](https://movie.douban.com/subject/1471839/),1951,7.8, 
+571,bs-$305-janus-films, ,358,Pandora’s Box,G. W. Pabst,Germany,1929,[潘多拉的魔盒 Die Büchse der Pandora](https://movie.douban.com/subject/1401368/),1929,8.2, 
+572,bs-$305-janus-films, ,172,Pépé le moko,Julien Duvivier,France,1937,[逃犯贝贝 Pépé le Moko](https://movie.douban.com/subject/1304571/),1937,7.2, 
+573,bs-$305-janus-films, ,85,Pygmalion,Anthony Asquith and Leslie Howard,United Kingdom,1938,[卖花女 Pygmalion](https://movie.douban.com/subject/1300614/),1938,8.3, 
+574,bs-$305-janus-films, ,138,Rashomon,Akira Kurosawa,Japan,1950,[罗生门 羅生門](https://movie.douban.com/subject/1291879/),1950,8.8, 
+575,bs-$305-janus-films, ,213,Richard III,Laurence Olivier,United Kingdom,1955,[理查三世 Richard III](https://movie.douban.com/subject/1298208/),1955,7.6, 
+576,bs-$305-janus-films, ,216,The Rules of the Game,Jean Renoir,France,1939,[游戏规则 La Règle du jeu](https://movie.douban.com/subject/1401261/),1939,8.4, 
+577,bs-$305-janus-films, ,2,Seven Samurai,Akira Kurosawa,Japan,1954,[七武士 七人の侍](https://movie.douban.com/subject/1295399/),1954,9.3, 
+578,bs-$305-janus-films, ,11,The Seventh Seal,Ingmar Bergman,Sweden,1957,[第七封印 Det sjunde inseglet](https://movie.douban.com/subject/1293234/),1957,8.5, 
+579,bs-$305-janus-films, ,351,The Spirit of the Beehive,Víctor Erice,Spain,1973,[蜂巢幽灵 El espíritu de la colmena](https://movie.douban.com/subject/1401900/),1973,8.5, 
+580,bs-$305-janus-films, ,219,La strada,Federico Fellini,Italy,1954,[大路 La strada](https://movie.douban.com/subject/1292719/),1954,8.9, 
+581,bs-$305-janus-films, ,22,Summertime,David Lean,United States,1955,[夏日时光 Summertime](https://movie.douban.com/subject/1293491/),1955,7.6, 
+582,bs-$305-janus-films, ,64,The Third Man,Carol Reed,United Kingdom,1949,[第三人 The Third Man](https://movie.douban.com/subject/1295451/),1949,8.2, 
+583,bs-$305-janus-films, , ,Three Documentaries,Saul J. Turell,United States,1962, , , , 
+584,bs-$305-janus-films, ,309,Ugetsu,Kenji Mizoguchi,Japan,1953,[雨月物语 雨月物語](https://movie.douban.com/subject/1303577/),1953,8.6, 
+585,bs-$305-janus-films, ,201,Umberto D.,Vittorio De Sica,Italy,1952,[风烛泪 Umberto D.](https://movie.douban.com/subject/1296097/),1952,8.6, 
+586,bs-$305-janus-films, ,321,The Virgin Spring,Ingmar Bergman,Sweden,1960,[处女泉 Jungfrukällan](https://movie.douban.com/subject/1293156/),1960,8.6, 
+587,bs-$305-janus-films, ,332,Viridiana,Luis Buñuel,Spain,1961,[维莉蒂安娜 Viridiana](https://movie.douban.com/subject/1303557/),1961,8.6, 
+588,bs-$305-janus-films, ,36,The Wages of Fear,Henri-Georges Clouzot,France,1953,[恐惧的代价 Le Salaire de la peur](https://movie.douban.com/subject/1299932/),1953,8.6, 
+589,bs-$305-janus-films, ,189,The White Sheik,Federico Fellini,Italy,1952,[白酋长 Lo sceicco bianco](https://movie.douban.com/subject/1433560/),1952,7.3, 
+590,bs-$305-janus-films, ,139,Wild Strawberries,Ingmar Bergman,Sweden,1957,[野草莓 Smultronstället](https://movie.douban.com/subject/1293071/),1957,8.8, 
+591,bs-$577-olivier, , ,[Olivier’s Shakespeare](https://www.criterion.com/boxsets/577-oliviers-shakespeare), , , ,**劳伦斯·奥利弗的莎士比亚剧**, , , 
+592,bs-$577-olivier, ,41,Henry V,Laurence Olivier,United Kingdom,1944,[亨利五世 Henry V](https://movie.douban.com/subject/1297375/),1944,7.4, 
+593,bs-$577-olivier, ,82,Hamlet,Laurence Olivier,United Kingdom,1948,[王子复仇记 Hamlet](https://movie.douban.com/subject/1296390/),1948,8.3, 
+594,bs-$577-olivier, ,213,Richard III,Laurence Olivier,United Kingdom,1955,[理查三世 Richard III](https://movie.douban.com/subject/1298208/),1955,7.6, 
+595,bs-$6588-pasolini, , ,[Pasolini 101](https://www.criterion.com/boxsets/6588-pasolini-101), , , ,**皮埃尔·保罗·帕索里尼入门**, , , 
+596,bs-$6588-pasolini, , ,Accattone,Pier Paolo Pasolini,Italy,1961,[乞丐 Accattone](https://movie.douban.com/subject/1437013/),1961,8.3, 
+597,bs-$6588-pasolini, ,236,Mamma Roma,Pier Paolo Pasolini,Italy,1962,[罗马妈妈 Mamma Roma](https://movie.douban.com/subject/1293305/),1962,8.2, 
+598,bs-$6588-pasolini, , ,Love Meetings,Pier Paolo Pasolini,Italy,1964,[幽会百科 Comizi d'amore](https://movie.douban.com/subject/1401465/),1964,8.1, 
+599,bs-$6588-pasolini, , ,The Gospel According to Matthew,Pier Paolo Pasolini,Italy,1964,[马太福音 Il vangelo secondo Matteo](https://movie.douban.com/subject/1299775/),1964,8.4, 
+600,bs-$6588-pasolini, , ,The Hawks and the Sparrows,Pier Paolo Pasolini,Italy,1966,[大鸟和小鸟 Uccellacci e uccellini](https://movie.douban.com/subject/1294761/),1966,7.9, 
+601,bs-$6588-pasolini, , ,Oedipus Rex,Pier Paolo Pasolini,Italy,1967,[俄狄浦斯王 Edipo re](https://movie.douban.com/subject/1293302/),1967,7.9, 
+602,bs-$6588-pasolini, ,1013,Teorema,Pier Paolo Pasolini,Italy,1968,[定理 Teorema](https://movie.douban.com/subject/1297130/),1968,7.7, 
+603,bs-$6588-pasolini, , ,Porcile,Pier Paolo Pasolini,Italy,1969,[猪圈 Porcile](https://movie.douban.com/subject/1301884/),1969,7.6, 
+604,bs-$6588-pasolini, , ,Medea,Pier Paolo Pasolini,Italy,1969,[美狄亚 Medea](https://movie.douban.com/subject/1299115/),1969,7.8, 
+605,bs-$4430-streetwise, , ,[Streetwise/Tiny: The Life of Erin Blackwell](https://www.criterion.com/boxsets/4430-streetwise-tiny-the-life-of-erin-blackwell), , , ,**（马丁·贝尔）街头浪子、蒂尼：艾琳·布莱克威尔的生活 （合集）**, , , 
+606,bs-$4430-streetwise, ,1079,Streetwise,Martin Bell,United States,1984,[街头浪子 Streetwise](https://movie.douban.com/subject/1303619/),1986,8.5, 
+607,bs-$4430-streetwise, ,1080,Tiny: The Life of Erin Blackwell,Martin Bell,United States,2016,[蒂尼：艾琳·布莱克威尔的生活 TINY: The Life of Erin Blackwell](https://movie.douban.com/subject/34439067/),2016, , 
+608,fl-$1079-turell, ,turell,[Three Documentaries](https://www.criterion.com/films/1079-three-documentaries), , , ,**（索尔·J·图雷利）三部纪录片**, , , 
+609,fl-$1079-turell, , ,The Great Chase,Saul J. Turell,United States,1962,[The Great Chase](https://movie.douban.com/subject/2241970/),1962, , 
+610,fl-$1079-turell, , ,The Love Goddesses,Saul J. Turell,United States,1962,[爱之女神 The Love Goddesses](https://movie.douban.com/subject/1982921/),1965, , 
+611,fl-$1079-turell, , ,Paul Robeson: Tribute to an Artist,Saul J. Turell,United States,1962,[保罗·罗贝森：献给一位艺术家 Paul Robeson: Tribute to an Artist](https://movie.douban.com/subject/1924241/),1979, , 
+612,fl-#79, ,79,[W. C. Fields—Six Short Films](https://www.criterion.com/films/618-w-c-fields-six-short-films),"Monte Brice, Clyde Bruckman, Edwin Middleton, Leslie Pearce, and Arthur Ripley",United States,1933,**W.C.费尔得斯-六短片**, , , 
+613,fl-#79, , , , , , ,[鲨鱼池 Pool Sharks](https://movie.douban.com/subject/1946486/),1915,5.4,#79 W.C.菲尔兹—六部短片 之一
+614,fl-#79, , , , , , ,[高尔夫专家 The Golf Specialist](https://movie.douban.com/subject/1946487/),1930,4.9,#79 W.C.菲尔兹—六部短片 之二
+615,fl-#79, , , , , , ,[牙医 The Dentist](https://movie.douban.com/subject/1946532/),1932,5.9,#79 W.C.菲尔兹—六部短片 之三
+616,fl-#79, , , , , , ,[夺命杯酒 The Fatal Glass of Beer](https://movie.douban.com/subject/1946533/),1933,5.9,#79 W.C.菲尔兹—六部短片 之四
+617,fl-#79, , , , , , ,[药剂师 The Pharmacist](https://movie.douban.com/subject/1946535/),1933,5.0,#79 W.C.菲尔兹—六部短片 之五
+618,fl-#79, , , , , , ,[理发店 The Barber Shop](https://movie.douban.com/subject/1946537/),1933,5.4,#79 W.C.菲尔兹—六部短片 之六
+619,fl-#79, , , , , , ,[W.C.费尔得斯-六短片 W.C. Fields: 6 Short Films](https://movie.douban.com/subject/1752128/),2000,6.5,补充合集
+620,fl-#184, ,184,"[By Brakhage: An Anthology, Volume One](https://www.criterion.com/films/731-by-brakhage-an-anthology-volume-one)",Stan Brakhage,United States, ,**斯坦·布拉哈格选集第一卷**, , , 
+621,fl-#184, , , , , , ,[停止影像 Desistfilm](https://movie.douban.com/subject/1478039/),2004,7.2,#184 斯坦·布拉哈格选集第一卷 之一
+622,fl-#184, , , , , , ,[婚姻之家：一次性交 Wedlock House: An Intercourse](https://movie.douban.com/subject/1466207/),1972,7.6,#184 斯坦·布拉哈格选集第一卷 之二
+623,fl-#184, , , , , , ,[狗·星·人：第一部分 Dog Star Man: Part I](https://movie.douban.com/subject/1465310/),2004,7.3,#184 斯坦·布拉哈格选集第一卷 之三
+624,fl-#184, , , , , , ,[狗·星·人：第二部分 Dog Star Man: Part II](https://movie.douban.com/subject/1464915/),2004,7.8,#184 斯坦·布拉哈格选集第一卷 之三
+625,fl-#184, , , , , , ,[狗·星·人：第三部分 Dog Star Man: Part III](https://movie.douban.com/subject/1466204/),2004,7.6,#184 斯坦·布拉哈格选集第一卷 之三
+626,fl-#184, , , , , , ,[狗·星·人：第四部分 Dog Star Man: Part IV](https://movie.douban.com/subject/1462664/),1964,7.8,#184 斯坦·布拉哈格选集第一卷 之三
+627,fl-#184, , , , , , ,[亲眼目击的行动 The Act of Seeing with One's Own Eyes](https://movie.douban.com/subject/1865030/),1971,8.1,#184 斯坦·布拉哈格选集第一卷 之四
+628,fl-#184, , , , , , ,[翻绳作戏 Cat's Cradle](https://movie.douban.com/subject/1462666/),1959,7.7,#184 斯坦·布拉哈格选集第一卷 之五
+629,fl-#184, , , , , , ,[水窗中的颤动婴儿 Window Water Baby Moving](https://movie.douban.com/subject/1478037/),1959,8.2,#184 斯坦·布拉哈格选集第一卷 之六
+630,fl-#184, , , , , , ,[飞蛾之光 Mothlight](https://movie.douban.com/subject/1463715/),2004,7.0,#184 斯坦·布拉哈格选集第一卷 之七
+631,fl-#184, , , , , , ,[眼之谜 Eye Myth](https://movie.douban.com/subject/1937065/),1967,7.5,#184 斯坦·布拉哈格选集第一卷 之八
+632,fl-#184, , , , , , ,[荒野阴影 The Wold Shadow](https://movie.douban.com/subject/1865020/),2004,6.6,#184 斯坦·布拉哈格选集第一卷 之九
+633,fl-#184, , , , , , ,[现世欢乐的花园 The Garden of Earthly Delights](https://movie.douban.com/subject/1937071/),1981,7.6,#184 斯坦·布拉哈格选集第一卷 之十
+634,fl-#184, , , , , , ,[星辰美丽 The Stars Are Beautiful](https://movie.douban.com/subject/1464919/),1974,6.8,#184 斯坦·布拉哈格选集第一卷 之十一
+635,fl-#184, , , , , , ,[儿童游戏 Kindering](https://movie.douban.com/subject/1937073/),1987,6.2,#184 斯坦·布拉哈格选集第一卷 之十二
+636,fl-#184, , , , , , ,[我……做梦 I...Dreaming](https://movie.douban.com/subject/1917134/),2004,7.4,#184 斯坦·布拉哈格选集第一卷 之十三
+637,fl-#184, , , , , , ,[但丁四重奏 The Dante Quartet](https://movie.douban.com/subject/1477508/),2004,7.9,#184 斯坦·布拉哈格选集第一卷 之十四
+638,fl-#184, , , , , , ,[夜间音乐 Night Music](https://movie.douban.com/subject/1465942/),1986,7.8,#184 斯坦·布拉哈格选集第一卷 之十五
+639,fl-#184, , , , , , ,[愤怒之网 Rage Net](https://movie.douban.com/subject/1865024/),1988,7.7,#184 斯坦·布拉哈格选集第一卷 之十六
+640,fl-#184, , , , , , ,[全神贯注的凝视 Glaze of Cathexis](https://movie.douban.com/subject/1464195/),1990,7.3,#184 斯坦·布拉哈格选集第一卷 之十七
+641,fl-#184, , , , , , ,[Delicacies of Molten Horror Synapse](https://movie.douban.com/subject/1474737/),2004,8.3,#184 斯坦·布拉哈格选集第一卷 之十八
+642,fl-#184, , , , , , ,[为了玛丽莲 For Marilyn](https://movie.douban.com/subject/1865029/),1992,7.6,#184 斯坦·布拉哈格选集第一卷 之十九
+643,fl-#184, , , , , , ,[黑冰 Black Ice](https://movie.douban.com/subject/1464196/),1994,7.4,#184 斯坦·布拉哈格选集第一卷 之二十
+644,fl-#184, , , , , , ,[色彩黑白研究 Study in Color and Black and White](https://movie.douban.com/subject/1465944/),1993,7.3,#184 斯坦·布拉哈格选集第一卷 之二十一
+645,fl-#184, , , , , , ,[恒星 Stellar](https://movie.douban.com/subject/1465949/),1993,7.6,#184 斯坦·布拉哈格选集第一卷 之二十二
+646,fl-#184, , , , , , ,[Crack Glass Eulogy](https://movie.douban.com/subject/1937020/),1992,7.0,#184 斯坦·布拉哈格选集第一卷 之二十三
+647,fl-#184, , , , , , ,[The Dark Tower](https://movie.douban.com/subject/1865018/),1999,7.5,#184 斯坦·布拉哈格选集第一卷 之二十四
+648,fl-#184, , , , , , ,[混合容器 Commingled Containers](https://movie.douban.com/subject/1464918/),2004,8.0,#184 斯坦·布拉哈格选集第一卷 之二十五
+649,fl-#184, , , , , , ,[爱之歌 Lovesong](https://movie.douban.com/subject/1869107/),2001,6.3,#184 斯坦·布拉哈格选集第一卷 之二十六
+650,fl-#360, ,360,[Symbiopsychotaxiplasm: Two Takes by William Greaves](https://www.criterion.com/films/751-symbiopsychotaxiplasm-two-takes-by-william-greaves),William Greaves,United States, ,**共生心理分类学：威廉·格雷夫斯的两部电影**, , , 
+651,fl-#360, , , , , , ,[共生心理分类学：第1幕 Symbiopsychotaxiplasm: Take One](https://movie.douban.com/subject/1876327/),1968,7.3,#360 共生心理分类学 之一
+652,fl-#360, , , , , , ,[共生心理分类学：第二又二分之一章 Symbiopsychotaxiplasm: Take 2 1/2](https://movie.douban.com/subject/2004707/),2006,6.3,#360 共生心理分类学 之二
+653,fl-#406, ,406,[Martha Graham: Dance on Film](https://www.criterion.com/films/835-martha-graham-dance-on-film),Nathan Kroll,United States,1959,**玛莎·葛兰姆：在银幕上舞蹈**, , , 
+654,fl-#406, , , , , , ,[舞蹈家的世界 A Dancer's World](https://movie.douban.com/subject/3031528/),1957, ,在银幕上舞蹈 之一
+655,fl-#406, , , , , , ,[阿巴拉契亚的春天 Appalachian Spring](https://movie.douban.com/subject/2130872/),1958, ,在银幕上舞蹈 之二
+656,fl-#406, , , , , , ,[夜之旅 Night Journey](https://movie.douban.com/subject/2130874/),1960, ,在银幕上舞蹈 之三
+657,fl-#468, ,468,[Science Is Fiction: 23 Films by Jean Painlevé](https://www.criterion.com/films/1286-science-is-fiction-23-films-by-jean-painlev),Jean Painlevé,France, ,**科幻是虚构的：让·潘勒维的二十三部电影集**, , , 
+658,fl-#468, , , , , , ,[互爱蟹属 Hyas et stenorinques](https://movie.douban.com/subject/3431475/),1929, ,让·潘勒维的二十三部电影 之一
+659,fl-#468, , , , , , ,[海胆 Les Oursins](https://movie.douban.com/subject/3431653/),2008, ,让·潘勒维的二十三部电影 之二
+660,fl-#468, , , , , , ,[海蜇是如何诞生的 Comment naissent les méduses](https://movie.douban.com/subject/3431660/),1960, ,让·潘勒维的二十三部电影 之三
+661,fl-#468, , , , , , ,[液晶 Cristaux liquides](https://movie.douban.com/subject/5169146/),1978, ,让·潘勒维的二十三部电影 之四
+662,fl-#468, , , , , , ,"[海马 L'hippocampe, ou 'Cheval marin'](https://movie.douban.com/subject/3127835/)",1934,8.1,让·潘勒维的二十三部电影 之五
+663,fl-#468, , , , , , ,[章鱼的爱情生活 Les amours de la pieuvre](https://movie.douban.com/subject/5169137/),1967, ,让·潘勒维的二十三部电影 之六
+664,fl-#468, , , , , , ,[虾的故事 Histoires de crevettes](https://movie.douban.com/subject/6523968/),2007, ,让·潘勒维的二十三部电影 之七
+665,fl-#468, , , , , , ,[无角螺，女巫之舞 Acéra ou Le bal des sorcières](https://movie.douban.com/subject/4262639/),1972, ,让·潘勒维的二十三部电影 之八
+666,fl-#468, , , , , , ,[吸血鬼 / 吸血蝠 Le vampire](https://movie.douban.com/subject/1874753/),2008,7.6,让·潘勒维的二十三部电影 之九
+667,fl-#468, , , , , , ,[水中杀手 Assassins d'eau douce](https://movie.douban.com/subject/3431648/),2008, ,让·潘勒维的二十三部电影 之十
+668,fl-#468, , , , , , ,"[海洋中的芭蕾舞者 Danseuses de mer, Les](https://movie.douban.com/subject/3431659/)",1960, ,让·潘勒维的二十三部电影 之十一
+669,fl-#468, , , , , , ,[硅藻 Diatomées](https://movie.douban.com/subject/5169145/),1968, ,让·潘勒维的二十三部电影 之十二
+670,fl-#468, , , , , , ,[广场上的鸽子 Les pigeons du square](https://movie.douban.com/subject/5168667/),1982, ,让·潘勒维的二十三部电影 之十三
+671,fl-#468, , , , , , ,[章鱼 La Pieuvre](https://movie.douban.com/subject/2242961/),1928,8.0,让·潘勒维的二十三部电影 之十四
+672,fl-#468, , , , , , ,[海胆 Les oursins](https://movie.douban.com/subject/2221082/),2009, ,让·潘勒维的二十三部电影 之十五
+673,fl-#468, , , , , , ,[水蚤 La daphnie](https://movie.douban.com/subject/3431485/),2009, ,让·潘勒维的二十三部电影 之十六
+674,fl-#468, , , , , , ,[棘鱼的卵 L'Oeufs d'épinoche](https://movie.douban.com/subject/3431468/),2009, ,让·潘勒维的二十三部电影 之十七
+675,fl-#468, , , , , , ,[治疗试验：用诺梅特医生的血清柠檬酸盐为受伤出血的狗治疗 Traitement expérimental d'une hémorragie chez le chien](https://movie.douban.com/subject/6531769/),2009, ,让·潘勒维的二十三部电影 之十八
+676,fl-#468, , , , , , ,[第四维 Images mathématiques de la quatrième dimension](https://movie.douban.com/subject/3431599/),2009, ,让·潘勒维的二十三部电影 之十九
+677,fl-#468, , , , , , ,[生存竞争 Images mathématiques de la lutte pour la vie](https://movie.douban.com/subject/6531783/),2009, ,让·潘勒维的二十三部电影 之二十
+678,fl-#468, , , , , , ,[远航 Voyage dans le ciel](https://movie.douban.com/subject/3431581/),2009, ,让·潘勒维的二十三部电影 之二十一
+679,fl-#468, , , , , , ,[长度和速度的相似性 Similarities Between Length and Speed](https://movie.douban.com/subject/6532820/),2009, ,让·潘勒维的二十三部电影 之二十二
+680,fl-#468, , , , , , ,[蓝胡子 Barbe-Bleue](https://movie.douban.com/subject/1996329/),1936,8.1,让·潘勒维的二十三部电影 之二十三
+681,fl-#480, ,480,[The Human Condition](https://www.criterion.com/films/2106-the-human-condition),Masaki Kobayashi,Japan,1959,**人间的条件（合集）**, , , 
+682,fl-#480, , , , , , ,[人间的条件(第一、二部) 人間の條件](https://movie.douban.com/subject/1298561/),1959,8.8,#480 人间的条件 之一
+683,fl-#480, , , , , , ,[人间的条件(第三、四部) 人間の條件](https://movie.douban.com/subject/1441038/),1959,8.8,#480 人间的条件 之二
+684,fl-#480, , , , , , ,[人间的条件(第五、六部) 人間の條件](https://movie.douban.com/subject/1441039/),1961,9.2,#480 人间的条件 之三
+685,fl-#495, ,495,[The Golden Age of Television](https://www.criterion.com/films/3560-the-golden-age-of-television), ,United States, ,**电视的黄金年代**, , , 
+686,fl-#495, , , , , , ,[马蒂 Marty](https://movie.douban.com/subject/25944662/),1953, ,#495 电视的黄金年代 之一
+687,fl-#495, , , , , , ,[Kraft Television Theatre “Patterns”](https://movie.douban.com/subject/26889674/),1955, ,#495 电视的黄金年代 之二
+688,fl-#495, , , , , , ,[荒唐大兵 No Time for Sergeants](https://movie.douban.com/subject/4002481/),1955, ,#495 电视的黄金年代 之三
+689,fl-#495, , , , , , ,[一阵南风 A Wind from the South](https://movie.douban.com/subject/4002482/),1955, ,#495 电视的黄金年代 之四
+690,fl-#495, , , , , , ,[拳台血泪 Requiem for a Heavyweight](https://movie.douban.com/subject/4002490/),1956, ,#495 电视的黄金年代 之五
+691,fl-#495, , , , , , ,[战鼓轻敲 Bang the Drum Slowly](https://movie.douban.com/subject/4002492/),1956, ,#495 电视的黄金年代 之六
+692,fl-#495, , , , , , ,[喜剧演员 The Comedian](https://movie.douban.com/subject/4002502/),1957, ,#495 电视的黄金年代 之七
+693,fl-#495, , , , , , ,[醉乡情断 The Days of Wine and Roses](https://movie.douban.com/subject/4002509/),1958, ,#495 电视的黄金年代 之八
+694,fl-#496, ,496,[Che](https://www.criterion.com/films/20987-che),Steven Soderbergh,France,2008,**切·格瓦拉传**, , , 
+695,fl-#496, , , , , , ,[切·格瓦拉传：阿根廷人 Che: Part One](https://movie.douban.com/subject/1929402/),2008,7.5,#496 切·格瓦拉传 之一
+696,fl-#496, , , , , , ,[切·格瓦拉传：游击队 Che: Part Two](https://movie.douban.com/subject/1471508/),2008,7.6,#496 切·格瓦拉传 之二
+697,fl-#517, ,517,"[By Brakhage: An Anthology, Volume Two](https://www.criterion.com/films/23953-by-brakhage-an-anthology-volume-two)",Stan Brakhage,United States, ,**斯坦·布拉哈格选集第二卷**, , , 
+698,fl-#517, , , , , , ,[奇迹之环 The Wonder Ring](https://movie.douban.com/subject/2054943/),1955,7.0,#517 斯坦·布拉哈格选集第二卷 之一
+699,fl-#517, , , , , , ,[死者 The Dead](https://movie.douban.com/subject/1478040/),2004,8.0,#517 斯坦·布拉哈格选集第二卷 之二
+700,fl-#517, , , , , , ,[Two: Creeley/McClure](https://movie.douban.com/subject/5135423/),1965, ,#517 斯坦·布拉哈格选集第二卷 之三
+701,fl-#517, , , , , , ,[23rd Psalm Branch: Part I](https://movie.douban.com/subject/5136015/),1967, ,#517 斯坦·布拉哈格选集第二卷 之四
+702,fl-#517, , , , , , ,[23rd Psalm Branch: Part II](https://movie.douban.com/subject/5136013/),1978, ,#517 斯坦·布拉哈格选集第二卷 之四
+703,fl-#517, , , , , , ,[孩童场景：第一部分 Scenes From Under Childhood: Section One](https://movie.douban.com/subject/1855325/),1967,8.1,#517 斯坦·布拉哈格选集第二卷 之五
+704,fl-#517, , , , , , ,[The Machine of Eden](https://movie.douban.com/subject/5085901/),1970, ,#517 斯坦·布拉哈格选集第二卷 之六
+705,fl-#517, , , , , , ,[星球花园 Star Garden](https://movie.douban.com/subject/5136068/),1974, ,#517 斯坦·布拉哈格选集第二卷 之七
+706,fl-#517, , , , , , ,[Desert](https://movie.douban.com/subject/5136161/),1976, ,#517 斯坦·布拉哈格选集第二卷 之八
+707,fl-#517, , , , , , ,[The Process](https://movie.douban.com/subject/4149762/),1972, ,#517 斯坦·布拉哈格选集第二卷 之九
+708,fl-#517, , , , , , ,[Burial Path](https://movie.douban.com/subject/5136171/),1978, ,#517 斯坦·布拉哈格选集第二卷 之十
+709,fl-#517, , , , , , ,[Duplicity III](https://movie.douban.com/subject/5135978/),1980, ,#517 斯坦·布拉哈格选集第二卷 之十一
+710,fl-#517, , , , , , ,[域之时 The Domain of the Moment](https://movie.douban.com/subject/5149306/),1977, ,#517 斯坦·布拉哈格选集第二卷 之十二
+711,fl-#517, , , , , , ,[谋杀诗篇 Murder Psalm](https://movie.douban.com/subject/2054951/),2004, ,#517 斯坦·布拉哈格选集第二卷 之十三
+712,fl-#517, , , , , , ,[阿拉伯数字系列12 Arabic Numeral Series 12](https://movie.douban.com/subject/5136009/),1981, ,#517 斯坦·布拉哈格选集第二卷 之十四
+713,fl-#517, , , , , , ,[冥想中的幻象 #1 Visions in Meditation #1](https://movie.douban.com/subject/5135683/),1989, ,#517 斯坦·布拉哈格选集第二卷 之十五
+714,fl-#517, , , , , , ,[冥想中的幻象 #2：弗德台地 Visions in Meditation #2: Mesa Verde](https://movie.douban.com/subject/5135682/),1989, ,#517 斯坦·布拉哈格选集第二卷 之十六
+715,fl-#517, , , , , , ,[冥想中的幻象 #3：柏拉图的洞穴 Visions in Meditation #3: Plato's Cave](https://movie.douban.com/subject/5135417/),1990, ,#517 斯坦·布拉哈格选集第二卷 之十七
+716,fl-#517, , , , , , ,[冥想中的幻象 #4：D·H·劳伦斯 Visions in Meditation #4: D.H. Lawrence](https://movie.douban.com/subject/5135427/),1990, ,#517 斯坦·布拉哈格选集第二卷 之十八
+717,fl-#517, , , , , , ,[Unconscious London Strata](https://movie.douban.com/subject/5135846/),1981, ,#517 斯坦·布拉哈格选集第二卷 之十九
+718,fl-#517, , , , , , ,[Boulder Blues and Pearls and...](https://movie.douban.com/subject/5135579/),1992, ,#517 斯坦·布拉哈格选集第二卷 之二十
+719,fl-#517, , , , , , ,[The Mammals of Victoria](https://movie.douban.com/subject/5135511/),1994, ,#517 斯坦·布拉哈格选集第二卷 之二十一
+720,fl-#517, , , , , , ,[First Hymn to the Night - Novalis](https://movie.douban.com/subject/5135538/),1994, ,#517 斯坦·布拉哈格选集第二卷 之二十二
+721,fl-#517, , , , , , ,[I Take These Truths](https://movie.douban.com/subject/5110728/),1994, ,#517 斯坦·布拉哈格选集第二卷 之二十三
+722,fl-#517, , , , , , ,[The Cat of the Worm's Green Realm](https://movie.douban.com/subject/5135319/),1997, ,#517 斯坦·布拉哈格选集第二卷 之二十四
+723,fl-#517, , , , , , ,[Yggdrasill: Whose Roots Are Stars in the Human Mind](https://movie.douban.com/subject/5135188/),1997, ,#517 斯坦·布拉哈格选集第二卷 之二十五
+724,fl-#517, , , , , , ,"[“…” 第五卷 ""..."" Reel Five](https://movie.douban.com/subject/5148546/)",1999, ,#517 斯坦·布拉哈格选集第二卷 之二十六
+725,fl-#517, , , , , , ,[Persian Series #1](https://movie.douban.com/subject/1919385/),1999, ,#517 斯坦·布拉哈格选集第二卷 之二十七
+726,fl-#517, , , , , , ,[Persian Series #2](https://movie.douban.com/subject/1919386/),1999, ,#517 斯坦·布拉哈格选集第二卷 之二十八
+727,fl-#517, , , , , , ,[Persian Series #3](https://movie.douban.com/subject/1919387/),1999, ,#517 斯坦·布拉哈格选集第二卷 之二十九
+728,fl-#517, , , , , , ,[中国系列 Chinese Series](https://movie.douban.com/subject/4149735/),2003, ,#517 斯坦·布拉哈格选集第二卷 之三十
+729,fl-#607, ,607,[A Hollis Frampton Odyssey](https://www.criterion.com/films/27945-a-hollis-frampton-odyssey),Hollis Frampton,United States, ,**荷利斯·法朗普顿的奥德赛之旅**, , , 
+730,fl-#607, , , , , , ,[手臂手册 Manual of Arms](https://movie.douban.com/subject/10461810/),1966, ,#607 荷利斯·法朗普顿的奥德赛之旅 之一
+731,fl-#607, , , , , , ,[红色历程 Process Red](https://movie.douban.com/subject/10461811/),1966, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二
+732,fl-#607, , , , , , ,[麦克斯韦妖 Maxwell's Demon](https://movie.douban.com/subject/1972699/),1968, ,#607 荷利斯·法朗普顿的奥德赛之旅 之三
+733,fl-#607, , , , , , ,[表面张力 Surface Tension](https://movie.douban.com/subject/1972647/),1968,7.6,#607 荷利斯·法朗普顿的奥德赛之旅 之四
+734,fl-#607, , , , , , ,[胡萝卜和豌豆 Carrots & Peas](https://movie.douban.com/subject/10448897/),1969, ,#607 荷利斯·法朗普顿的奥德赛之旅 之五
+735,fl-#607, , , , , , ,[柠檬 Lemon](https://movie.douban.com/subject/1722765/),1969,7.0,#607 荷利斯·法朗普顿的奥德赛之旅 之六
+736,fl-#607, , , , , , ,[佐恩引理 Zorn's Lemma](https://movie.douban.com/subject/1722722/),1970,7.7,#607 荷利斯·法朗普顿的奥德赛之旅 之七
+737,fl-#607, , , , , , ,[一次频词1：怀旧 Hapax Legomena I: Nostalgia](https://movie.douban.com/subject/1477510/),1971,8.4,#607 荷利斯·法朗普顿的奥德赛之旅 之八
+738,fl-#607, , , , , , ,[一次频词2：因果循环 Hapax Legomena II: Poetic Justice](https://movie.douban.com/subject/1722577/),1972, ,#607 荷利斯·法朗普顿的奥德赛之旅 之九
+739,fl-#607, , , , , , ,[一次频词3：临界质量 Hapax Legomena III: Critical Mass](https://movie.douban.com/subject/1972677/),1971, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十
+740,fl-#607, , , , , , ,[麦哲伦之诞生：华彩 I The Birth of Magellan: Cadenza I](https://movie.douban.com/subject/10461821/),1977, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十一
+741,fl-#607, , , , , , ,[慢摇镜头0 Pan 0](https://movie.douban.com/subject/10461800/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十二
+742,fl-#607, , , , , , ,[慢摇镜头1 Pan 1](https://movie.douban.com/subject/10461801/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十三
+743,fl-#607, , , , , , ,[慢摇镜头2 Pan 2](https://movie.douban.com/subject/10461802/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十四
+744,fl-#607, , , , , , ,[Pan 3](https://movie.douban.com/subject/10461803/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十五
+745,fl-#607, , , , , , ,[Pan 4](https://movie.douban.com/subject/10461804/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十六
+746,fl-#607, , , , , , ,[Pan 697](https://movie.douban.com/subject/10461806/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十七
+747,fl-#607, , , , , , ,[Pan 698](https://movie.douban.com/subject/10461807/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十八
+748,fl-#607, , , , , , ,[慢摇镜头699 Pan 699](https://movie.douban.com/subject/10461808/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之十九
+749,fl-#607, , , , , , ,[慢摇镜头700 Pan 700](https://movie.douban.com/subject/10461809/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二十
+750,fl-#607, , , , , , ,[Ingenivm Nobis Ipsa Pvella Fecit: Part I](https://movie.douban.com/subject/10461819/),1975, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二十一
+751,fl-#607, , , , , , ,"[麦哲伦在死亡门前 第一部分 红门 I 0 Magellan: At the Gates of Death, Part I: The Red Gate I, 0](https://movie.douban.com/subject/10461820/)",1976, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二十二
+752,fl-#607, , , , , , ,[冬至 Winter Solstice](https://movie.douban.com/subject/10461817/),1974, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二十三
+753,fl-#607, , , , , , ,[Gloria!](https://movie.douban.com/subject/10461822/),1979, ,#607 荷利斯·法朗普顿的奥德赛之旅 之二十四
+754,fl-#737, ,737,[Les Blank: Always for Pleasure](https://www.criterion.com/films/28658-les-blank-always-for-pleasure),Les Blank,United States,1968,**莱斯·布兰克：寻找快乐**, , , 
+755,fl-#737, , , , , , ,[闪电·霍普金斯的布鲁斯 The Blues Accordin To Lightnin' Hopkins](https://movie.douban.com/subject/4822448/),1970, ,寻找快乐 之一
+756,fl-#737, , , , , , ,"[神敬我作，神爱我舞 God Respects Us When We Work, But Loves Us When We Dance](https://movie.douban.com/subject/5155829/)",1968,7.9,寻找快乐 之二
+757,fl-#737, , , , , , ,[耗费一切 Spend It All](https://movie.douban.com/subject/3440067/),1972, ,寻找快乐 之三
+758,fl-#737, , , , , , ,[美好的生活 A Well Spent Life](https://movie.douban.com/subject/3440084/),1972, ,寻找快乐 之四
+759,fl-#737, , , , , , ,[枯木 Dry Wood](https://movie.douban.com/subject/25959651/),1973, ,寻找快乐 之五
+760,fl-#737, , , , , , ,[辣椒 Hot Pepper](https://movie.douban.com/subject/25959652/),1973, ,寻找快乐 之六
+761,fl-#737, , , , , , ,[寻找快乐 Always for Pleasure](https://movie.douban.com/subject/4248264/),1978, ,寻找快乐 之七
+762,fl-#737, , , , , , ,[大蒜胜十妈 Garlic is as Good as Ten Mothers](https://movie.douban.com/subject/4317396/),1980,8.1,寻找快乐 之八
+763,fl-#737, , , , , , ,[展翅飞翔 Sprout Wings and Fly](https://movie.douban.com/subject/25959658/),1983, ,寻找快乐 之九
+764,fl-#737, , , , , , ,[在天堂里没有啤酒吗？ In Heaven There Is No Beer?](https://movie.douban.com/subject/25710942/),1984, ,寻找快乐 之十
+765,fl-#737, , , , , , ,[门牙有缝的女人 Gap-Toothed Women](https://movie.douban.com/subject/2216937/),1987,8.4,寻找快乐 之十一
+766,fl-#737, , , , , , ,"[卡津和克里奥尔人做大餐 Yum, Yum, Yum! A Taste of Cajun and Creole Cooking](https://movie.douban.com/subject/5114163/)",1990, ,寻找快乐 之十二
+767,fl-#737, , , , , , ,[艺术大师：牛仔艺术之王 The Maestro: King of the Cowboy Artists](https://movie.douban.com/subject/5115865/),1995, ,寻找快乐 之十三
+768,fl-#737, , , , , , ,[击鼓宣誓 Sworn to the Drum: A Tribute to Francisco Aguabella](https://movie.douban.com/subject/5110446/),1995, ,寻找快乐 之十四
+769,fl-#808, ,808,[The Kennedy Films of Robert Drew & Associates](https://www.criterion.com/films/28907-the-kennedy-films-of-robert-drew-associates),Robert Drew,United States, ,**罗伯特·德鲁及同伴的肯尼迪电影**, , , 
+770,fl-#808, , , , , , ,[初选 Primary](https://movie.douban.com/subject/1941752/),1960,7.4,#808 罗伯特·德鲁及同伴的肯尼迪电影 之一
+771,fl-#808, , , , , , ,[肯尼迪的一天 Adventures on the New Frontier](https://movie.douban.com/subject/26709364/),1961, ,#808 罗伯特·德鲁及同伴的肯尼迪电影 之二
+772,fl-#808, , , , , , ,[危机：总统之诺 Crisis: Behind a Presidential Commitment](https://movie.douban.com/subject/4110339/),1963,7.6,#808 罗伯特·德鲁及同伴的肯尼迪电影 之三
+773,fl-#808, , , , , , ,[十一月的面孔 Faces of November](https://movie.douban.com/subject/4219887/),1964,7.6,#808 罗伯特·德鲁及同伴的肯尼迪电影 之四
+774,fl-#900, ,900,[100 Years of Olympic Films: 1912–2012](https://www.criterion.com/films/29360-100-years-of-olympic-films-19122012), , , ,**奥林匹克电影100年：1912-2012**, , , 
+775,fl-#900, , , , , , ,"[1912年斯德哥尔摩奥运会 The Games of the V Olympiad Stockholm, 1912](https://movie.douban.com/subject/27113577/)",2017, ,1912-2012 之一
+776,fl-#900, , , , , , ,[1924年在夏蒙尼举行的奥运会 The Olympic Games Held at Chamonix in 1924](https://movie.douban.com/subject/27123695/),1925, ,1912-2012 之二
+777,fl-#900, , , , , , ,[The Olympic Games as They Were Practiced in Ancient Greece](https://movie.douban.com/subject/27170768/),1924, ,1912-2012 之三
+778,fl-#900, , , , , , ,"[巴黎奥运会 Les Jeux Olympiques, Paris 1924](https://movie.douban.com/subject/25747971/)",1925, ,1912-2012 之四
+779,fl-#900, , , , , , ,[白色竞技场——1928年圣莫里茨冬季奥运会 Das weiße Stadion](https://movie.douban.com/subject/24842935/),1928, ,1912-2012 之五
+780,fl-#900, , , , , , ,[阿姆斯特丹第九届奥运会 The IX Olympiad in Amsterdam](https://movie.douban.com/subject/27170769/),1928, ,1912-2012 之六
+781,fl-#900, , , , , , ,[阿姆斯特丹奥运会 De olympische spelen](https://movie.douban.com/subject/5141341/),1928, ,1912-2012 之七
+782,fl-#900, , , , , , ,[世界的年轻人 Jugend der Welt. Der Film von den IV. Olympischen Winterspielen in Garmisch-Partenkirchen](https://movie.douban.com/subject/3532506/),1936, ,1912-2012 之八
+783,fl-#900, , , , , , ,[奥林匹亚1：民族的节日 Olympia 1. Teil - Fest der Völker](https://movie.douban.com/subject/1297424/),1938,8.9,1912-2012 之九
+784,fl-#900, , , , , , ,[奥林匹亚2：美的祭典 Olympia 2. Teil - Fest der Schönheit](https://movie.douban.com/subject/1299633/),1938,8.9,1912-2012 之十
+785,fl-#900, , , , , , ,[无恨之战 Fight Without Hate](https://movie.douban.com/subject/27170770/),1948, ,1912-2012 之十一
+786,fl-#900, , , , , , ,[光荣的奥运会 The Glory of Sport](https://movie.douban.com/subject/5084125/),1948, ,1912-2012 之十二
+787,fl-#900, , , , , , ,[挪威奥斯陆冬奥会 De VI olympiske vinterleker Oslo 1952](https://movie.douban.com/subject/27170771/),1952, ,1912-2012 之十三
+788,fl-#900, , , , , , ,[与世界相遇 Maailmat kohtaavat - XV Olympiakisat Helsingissä 1952](https://movie.douban.com/subject/5108766/),1952, ,1912-2012 之十四
+789,fl-#900, , , , , , ,[金牌与光荣 Kultaa ja kunniaa](https://movie.douban.com/subject/5048753/),1953, ,1912-2012 之十五
+790,fl-#900, , , , , , ,[回忆五二年的奥林匹克之夏 Memories of the Olympic Summer of 1952](https://movie.douban.com/subject/27170772/),1952, ,1912-2012 之十六
+791,fl-#900, , , , , , ,[Vertigine bianca](https://movie.douban.com/subject/27170775/),1957, ,1912-2012 之十七
+792,fl-#900, , , , , , ,"[Olympic Games, 1956](https://movie.douban.com/subject/27170776/)",1956, ,1912-2012 之十八
+793,fl-#900, , , , , , ,[相约墨尔本 Rendez-vous à Melbourne](https://movie.douban.com/subject/5098797/),1957, ,1912-2012 之十九
+794,fl-#900, , , , , , ,[Alain Mimoun](https://movie.douban.com/subject/27170778/),1959, ,1912-2012 之二十
+795,fl-#900, , , , , , ,[The Horse in Focus](https://movie.douban.com/subject/27170780/),1956, ,1912-2012 之二十一
+796,fl-#900, , , , , , ,"[人民，希望，奖牌 Menschen, Hoffnungen, Medaillen](https://movie.douban.com/subject/27170781/)",1960, ,1912-2012 之二十二
+797,fl-#900, , , , , , ,[盛大的奥运会 La grande Olimpiade](https://movie.douban.com/subject/5059519/),1961, ,1912-2012 之二十三
+798,fl-#900, , , , , , ,[因斯布鲁克冬季奥运会 IX. Olympische Winterspiele Innsbruck 1964](https://movie.douban.com/subject/26338427/),1964, ,1912-2012 之二十四
+799,fl-#900, ,155,Tokyo Olympiad,Kon Ichikawa,Japan,1965,[东京奥林匹克 東京オリンピック](https://movie.douban.com/subject/1301138/),1965,8.6,1912-2012 之二十五
+800,fl-#900, , , , , , ,[Sensation of the Century](https://movie.douban.com/subject/27170783/),1964, ,1912-2012 之二十六
+801,fl-#900, , , , , , ,[在法国的13天 13 jours en France](https://movie.douban.com/subject/4263931/),1968, ,1912-2012 之二十七
+802,fl-#900, , , , , , ,[格勒诺布尔的雪 Snows of Grenoble](https://movie.douban.com/subject/27170785/),1968, ,1912-2012 之二十八
+803,fl-#900, , , , , , ,[墨西哥奥运会 Olimpiada en México](https://movie.douban.com/subject/2995423/),1969, ,1912-2012 之二十九
+804,fl-#900, , , , , , ,[札幌冬季奥运会 札幌オリンピック](https://movie.douban.com/subject/5055146/),1972, ,1912-2012 之三十
+805,fl-#900, , , , , , ,[八个视点 Visions of Eight](https://movie.douban.com/subject/1298851/),1973,7.8,1912-2012 之三十一
+806,fl-#900, , , , , , ,[白石 White Rock](https://movie.douban.com/subject/24875147/),1977, ,1912-2012 之三十二
+807,fl-#900, , , , , , ,[蒙特利尔奥运会 Jeux de la XXIème olympiade](https://movie.douban.com/subject/5088825/),1977, ,1912-2012 之三十三
+808,fl-#900, , , , , , ,[奥林匹克精神 Olympic Spirit](https://movie.douban.com/subject/27170784/),1984, ,1912-2012 之三十四
+809,fl-#900, , , , , , ,[和平的盛会 О спорт! Ты - мир!](https://movie.douban.com/subject/24842936/),1981, ,1912-2012 之三十五
+810,fl-#900, , , , , , ,[转折点 A Turning Point](https://movie.douban.com/subject/27170786/),1984, ,1912-2012 之三十六
+811,fl-#900, , , , , , ,[光荣的16天 16 Days of Glory](https://movie.douban.com/subject/5048345/),1986, ,1912-2012 之三十七
+812,fl-#900, , , , , , ,[光荣的16天：卡尔加里冬奥会 Calgary '88: 16 Days of Glory](https://movie.douban.com/subject/5115360/),1989, ,1912-2012 之三十八
+813,fl-#900, , , , , , ,[1988年汉城奥运会 Seoul 1988: Games of the XXIV Olympiad](https://movie.douban.com/subject/1892813/),1988, ,1912-2012 之三十九*
+814,fl-#900, , , , , , ,[手拉手 Hand in Hand](https://movie.douban.com/subject/27170787/),1988, ,1912-2012 之三十九
+815,fl-#900, , , , , , ,[超越一切障碍 Beyond All Barriers](https://movie.douban.com/subject/27170788/),1988, ,1912-2012 之四十
+816,fl-#900, , , , , , ,"[一光一世界 One Light, One World](https://movie.douban.com/subject/27170795/)",1992, ,1912-2012 之四十一
+817,fl-#900, , , , , , ,[马拉松 Marathon](https://movie.douban.com/subject/3071119/),1992, ,1912-2012 之四十二
+818,fl-#900, , , , , , ,[光荣的16天：利勒哈默尔冬奥会 Lillehammer '94: 16 Days of Glory](https://movie.douban.com/subject/5147420/),1994, ,1912-2012 之四十三
+819,fl-#900, , , , , , ,[亚特兰大奥运会 Atlanta's Olympic Glory](https://movie.douban.com/subject/5109763/),1997, ,1912-2012 之四十四
+820,fl-#900, , , , , , ,[荣誉与荣耀的故事 Nagano '98 Olympics: Bud Greenspan's Stories of Honor and Glory](https://movie.douban.com/subject/5147378/),1998, ,1912-2012 之四十五
+821,fl-#900, , , , , , ,[奥林匹亚荣耀 Olympic Glory](https://movie.douban.com/subject/5093156/),1999, ,1912-2012 之四十六
+822,fl-#900, , , , , , ,[悉尼奥运会 Sydney 2000 Olympics: Bud Greenspan's Gold from Down Under](https://movie.douban.com/subject/5205334/),2001, ,1912-2012 之四十七
+823,fl-#900, , , , , , ,[盐湖城冬奥会 Salt Lake 2002: Stories of Olympic Glory](https://movie.douban.com/subject/5227810/),2003, ,1912-2012 之四十八
+824,fl-#900, , , , , , ,[雅典奥运会 Athens 2004: Stories of Olympic Glory](https://movie.douban.com/subject/25747956/),2005, ,1912-2012 之四十九
+825,fl-#900, , , , , , ,[都灵冬奥会 Bud Greenspan Presents: Torino 2006 Olympics](https://movie.douban.com/subject/5179269/),2007, ,1912-2012 之五十
+826,fl-#900, , , , , , ,[永恒之火](https://movie.douban.com/subject/4016665/),2010,6.6,1912-2012 之五十一
+827,fl-#900, , , , , , ,[奥林匹克荣耀的故事 Vancouver 2010: Stories of Olympic Glory](https://movie.douban.com/subject/25748000/),2011, ,1912-2012 之五十二
+828,fl-#900, , , , , , ,[第一次 First](https://movie.douban.com/subject/25747883/),2012, ,1912-2012 之五十三
+829,fl-#1030, ,1030,[Scorsese Shorts](https://www.criterion.com/films/30616-scorsese-shorts),Martin Scorsese,United States, ,**马丁·斯科塞斯短片集**, , , 
+830,fl-#1030, , , , , , ,[意大利裔美国人 Italianamerican](https://movie.douban.com/subject/1466199/),1974,8.2,#1030 马丁·斯科塞斯短片集 之一
+831,fl-#1030, , , , , , ,[美国小子：史蒂文·普林斯简史 American Boy: A Profile of Steven Prince](https://movie.douban.com/subject/1918064/),1978,7.0,#1030 马丁·斯科塞斯短片集 之二
+832,fl-#1030, , , , , , ,[剃须记 The Big Shave](https://movie.douban.com/subject/1466929/),1967,7.5,#1030 马丁·斯科塞斯短片集 之三
+833,fl-#1030, , , , , , ,"[那不仅是你，穆瑞！ It's Not Just You, Murray!](https://movie.douban.com/subject/1918058/)",2000,6.9,#1030 马丁·斯科塞斯短片集 之四
+834,fl-#1030, , , , , , ,[你这么好的女孩在这里干什么 What's a Nice Girl Like You Doing in a Place Like This?](https://movie.douban.com/subject/1918057/),2005,7.4,#1030 马丁·斯科塞斯短片集 之五
