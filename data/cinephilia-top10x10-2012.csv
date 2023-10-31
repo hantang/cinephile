@@ -1,499 +1,499 @@
-Index,排名,电影名,豆瓣电影,豆瓣年份,豆瓣ID,豆瓣打分,导演,主演,类型,地区
-0,1,《公民凯恩》（1941，奥逊·威尔斯 Orson Welles）,公民凯恩 Citizen Kane,1941,[1292288](https://movie.douban.com/subject/1292288/),8.8,奥逊·威尔斯,奥逊·威尔斯 / 约瑟夫·科顿 / 多萝西·康明戈尔,剧情 / 悬疑,美国
-1,2,《教父》（1972，弗朗西斯·福特·科波拉 Francis Ford Coppola）,教父 The Godfather,1972,[1291841](https://movie.douban.com/subject/1291841/),9.3,弗朗西斯·福特·科波拉,马龙·白兰度 / 阿尔·帕西诺 / 詹姆斯·肯恩,剧情 / 犯罪,美国
-2,3,《牯岭街少年杀人事件》（1991，杨德昌 Edward Yang）,牯岭街少年杀人事件 牯嶺街少年殺人事件,1991,[1292329](https://movie.douban.com/subject/1292329/),8.9,杨德昌,张震 / 杨静怡 / 张国柱,剧情 / 犯罪,中国台湾
-3,4,《2001太空漫游》（1968，斯坦利·库布里克 Stanley Kubrick）,2001太空漫游 2001: A Space Odyssey,1968,[1292226](https://movie.douban.com/subject/1292226/),8.9,斯坦利·库布里克,凯尔·杜拉 / 加里·洛克伍德 / 威廉姆·西尔维斯特,科幻 / 惊悚 / 冒险,英国/美国
-4,5,《东京物语》（1953，小津安二郎 Yasujirô Ozu）,东京物语 東京物語,1953,[1291568](https://movie.douban.com/subject/1291568/),9.1,小津安二郎,笠智众 / 原节子 / 杉村春子,剧情 / 家庭,日本
-5,6,《八部半》（1963，费德里科·费里尼 Federico Fellini）,八部半 8½,1963,[1361276](https://movie.douban.com/subject/1361276/),8.6,费德里科·费里尼,马塞洛·马斯楚安尼 / 克劳迪娅·卡汀娜 / 阿努克·艾梅,剧情,意大利/法国
-6,7,《迷魂记》（1958，阿尔弗雷德·希区柯克 Alfred Hitchcock）,迷魂记 Vertigo,1958,[1297294](https://movie.douban.com/subject/1297294/),8.7,阿尔弗雷德·希区柯克,詹姆斯·斯图尔特 / 金·诺瓦克 / 芭芭拉·贝尔·戈迪斯,爱情 / 悬疑 / 惊悚,美国
-7,8,《七武士》（1954，黑泽明 Akira Kurosawa）,七武士 七人の侍,1954,[1295399](https://movie.douban.com/subject/1295399/),9.3,黑泽明,三船敏郎 / 志村乔 / 津岛惠子,动作 / 冒险 / 剧情,日本
-8,9,《大都会》（1927，弗里茨·朗 Fritz Lang）,大都会 Metropolis,1927,[1298107](https://movie.douban.com/subject/1298107/),9.1,弗里茨·朗,阿弗莱德·阿贝尔 / 古斯塔夫·佛力施 / 鲁道夫·克莱恩-鲁格,剧情 / 科幻,德国
-9,10,《小城之春》（1948，费穆 Mu Fei）,小城之春,1948,[1323746](https://movie.douban.com/subject/1323746/),8.7,费穆,李纬 / 韦伟 / 石羽,剧情 / 爱情,中国大陆
-10,11,《去年在马里昂巴德》（1961，阿伦·雷乃 Alain Resnais）,去年在马里昂巴德 L'année dernière à Marienbad,1961,[1400240](https://movie.douban.com/subject/1400240/),8.3,阿伦·雷乃,德菲因·塞里格 / 乔治·阿尔贝塔齐 / 萨夏·皮托埃夫,剧情 / 爱情 / 悬疑,法国/意大利
-11,11,《战舰波将金号》（1925，谢尔盖·爱森斯坦 Sergei M. Eisenstein）,战舰波将金号 Броненосец Потёмкин,1925,[1293492](https://movie.douban.com/subject/1293492/),8.7,谢尔盖·爱森斯坦,亚历山大·安东诺夫 / 弗拉迪米尔·巴斯基 / 格里高利·亚历山德罗夫,剧情 / 历史 / 战争,苏联
-12,11,《玩乐时间》（1967，雅克·塔蒂 Jacques Tati）,玩乐时间 Play Time,1967,[1303543](https://movie.douban.com/subject/1303543/),8.8,雅克·塔蒂,雅克·塔蒂 / Barbara Dennek / France Rumilly,喜剧,法国/意大利
-13,14,《偷自行车的人》（1948，维托里奥·德·西卡 Vittorio De Sica）,偷自行车的人 Ladri di biciclette,1948,[1295873](https://movie.douban.com/subject/1295873/),9.1,维托里奥·德西卡,兰贝托·马乔拉尼 / 恩佐·斯泰奥拉 / 莉安拉·卡雷尔,犯罪 / 剧情,意大利
-14,15,《奇遇》（1960，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,奇遇 L'avventura,1960,[1389923](https://movie.douban.com/subject/1389923/),8.2,米开朗基罗·安东尼奥尼,加布里埃尔·费泽蒂 / 莫妮卡·维蒂 / 蕾雅·马萨利,剧情 / 悬疑,意大利/法国
-15,15,《悲情城市》（1989，侯孝贤 Hsiao-hsien Hou）,悲情城市,1989,[1294194](https://movie.douban.com/subject/1294194/),9.0,侯孝贤,梁朝伟 / 辛树芬 / 陈松勇,剧情 / 历史,中国台湾
-16,15,《日出》（1927，F·W·茂瑙 F.W. Murnau）,日出 Sunrise: A Song of Two Humans,1927,[1295753](https://movie.douban.com/subject/1295753/),8.8,F·W·茂瑙,乔治·奥布莱恩 / 珍妮·盖诺 / 玛格丽特·利文斯顿,剧情 / 爱情,美国
-17,15,《游戏规则》（1939，让·雷诺阿 Jean Renoir）,游戏规则 La Règle du jeu,1939,[1401261](https://movie.douban.com/subject/1401261/),8.4,让·雷诺阿,诺拉·格雷戈尔 / 波莱特·杜博斯特 / 米拉·帕雷利,喜剧 / 剧情,法国
-18,19,《精疲力尽》（1960，让-吕克·戈达尔 Jean-Luc Godard）,精疲力尽 À bout de souffle,1960,[1353745](https://movie.douban.com/subject/1353745/),8.4,让-吕克·戈达尔,珍·茜宝 / 让-保罗·贝尔蒙多 / 达尼埃尔·布朗热,剧情 / 爱情 / 犯罪,法国
-19,20,《甜蜜的生活》（1960，费德里科·费里尼 Federico Fellini）,甜蜜的生活 La dolce vita,1960,[1293271](https://movie.douban.com/subject/1293271/),8.6,费德里科·费里尼,马塞洛·马斯楚安尼 / 安妮塔·艾克伯格 / 阿努克·艾梅,剧情 / 喜剧,意大利/法国
-20,21,《地下》（1995，埃米尔·库斯图里卡 Emir Kusturica）,地下 Подземље,1995,[1292206](https://movie.douban.com/subject/1292206/),9.2,埃米尔·库斯图里卡,米基·马诺伊洛维奇 / 拉扎尔·里斯托夫斯基 / 米里亚娜·约科维奇,剧情 / 战争,南斯拉夫/法国/德国/保加利亚/捷克/匈牙利/英国/美国
-21,21,《城市之光》（1931，查理·卓别林 Charles Chaplin）,城市之光 City Lights,1931,[1293908](https://movie.douban.com/subject/1293908/),9.3,查理·卓别林,查理·卓别林 / 弗吉尼亚·切瑞尔 / 佛罗伦斯·李,喜剧 / 剧情 / 爱情,美国
-22,21,《镜子》（1975，安德烈·塔科夫斯基 Andrei Tarkovsky）,镜子 Зеркало,1975,[1299248](https://movie.douban.com/subject/1299248/),9.0,安德烈·塔可夫斯基,玛格丽特·捷列霍娃 / 因诺肯季·斯莫克图诺夫斯基 / 奥列格·扬科夫斯基,传记 / 剧情 / 历史 / 战争,苏联
-23,24,《圣女贞德蒙难记》（1928，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,圣女贞德蒙难记 La Passion de Jeanne d'Arc,1928,[1293783](https://movie.douban.com/subject/1293783/),8.7,卡尔·西奥多·德莱叶,玛利亚·法奥康涅蒂 / 安德烈·贝利 / 莫里斯·舒茨,传记 / 犯罪 / 剧情 / 历史,法国
-24,24,《秋刀鱼之味》（1962，小津安二郎 Yasujirô Ozu）,秋刀鱼之味 秋刀魚の味,1962,[1294433](https://movie.douban.com/subject/1294433/),8.7,小津安二郎,笠智众 / 岩下志麻 / 冈田茉莉子,剧情 / 家庭,日本
-25,24,《第七封印》（1957，英格玛·伯格曼 Ingmar Bergman）,第七封印 Det sjunde inseglet,1957,[1293234](https://movie.douban.com/subject/1293234/),8.5,英格玛·伯格曼,古纳尔·布约恩施特兰德 / 本特·埃切罗特 / 尼尔斯·波普,剧情 / 奇幻,瑞典
-26,27,《M就是凶手》（1931，弗里茨·朗 Fritz Lang）,M就是凶手 M - Eine Stadt sucht einen Mörder,1931,[1293381](https://movie.douban.com/subject/1293381/),8.3,弗里茨·朗,彼得·洛 / 艾伦·维德曼 / 因格·兰德特,剧情 / 犯罪 / 惊悚 / 黑色电影,德国
-27,27,《一一》（2000，杨德昌 Edward Yang）,一一,2000,[1292434](https://movie.douban.com/subject/1292434/),9.1,杨德昌,吴念真 / 李凯莉 / 金燕玲,剧情 / 爱情 / 家庭,中国台湾/日本
-28,27,《低俗小说》（1994，昆汀·塔伦蒂诺 Quentin Tarantino）,低俗小说 Pulp Fiction,1994,[1291832](https://movie.douban.com/subject/1291832/),8.9,昆汀·塔伦蒂诺,约翰·特拉沃尔塔 / 乌玛·瑟曼 / 阿曼达·普拉莫,剧情 / 喜剧 / 犯罪,美国
-29,27,《出租车司机》（1976，马丁·斯科塞斯 Martin Scorsese）,出租车司机 Taxi Driver,1976,[1292222](https://movie.douban.com/subject/1292222/),8.6,马丁·斯科塞斯,罗伯特·德尼罗 / 朱迪·福斯特 / 斯碧尔·谢波德,剧情 / 犯罪,美国
-30,27,《四百击》（1959，弗朗索瓦·特吕弗 François Truffaut）,四百击 Les quatre cents coups,1959,[1300056](https://movie.douban.com/subject/1300056/),8.9,弗朗索瓦·特吕弗,让-皮埃尔·利奥德 / 克莱尔·莫里耶 / 阿尔贝·雷米,犯罪 / 剧情,法国
-31,27,《浮云》（1955，成濑巳喜男 Mikio Naruse）,浮云 浮雲,1955,[1298870](https://movie.douban.com/subject/1298870/),8.6,成濑巳喜男,高峰秀子 / 森雅之 / 冈田茉莉子,剧情 / 爱情,日本
-32,33,《惊魂记》（1960，阿尔弗雷德·希区柯克 Alfred Hitchcock）,惊魂记 Psycho,1960,[1293181](https://movie.douban.com/subject/1293181/),9.0,阿尔弗雷德·希区柯克,安东尼·博金斯 / 维拉·迈尔斯 / 约翰·加文,悬疑 / 惊悚 / 恐怖,美国
-33,34,《持摄影机的人》（1929，吉加·维尔托夫 Dziga Vertov）,持摄影机的人 Человек с Киноаппаратом,1929,[1293199](https://movie.douban.com/subject/1293199/),9.1,吉加·维尔托夫,Mikhail Kaufman,纪录片,苏联
-34,34,《摩登时代》（1936，查理·卓别林 Charles Chaplin）,摩登时代 Modern Times,1936,[1294371](https://movie.douban.com/subject/1294371/),9.3,查理·卓别林,查理·卓别林 / 宝莲·高黛 / 亨利·伯格曼,剧情 / 喜剧 / 爱情,美国
-35,34,《日落大道》（1950，比利·怀尔德 Billy Wilder）,日落大道 Sunset Blvd.,1950,[1298733](https://movie.douban.com/subject/1298733/),8.8,比利·怀尔德,威廉·霍尔登 / 葛洛丽亚·斯旺森 / 埃里克·冯·施特罗海姆,剧情 / 黑色电影,美国
-36,34,《现代启示录》（1979，弗朗西斯·福特·科波拉 Francis Ford Coppola）,现代启示录 Apocalypse Now,1979,[1292260](https://movie.douban.com/subject/1292260/),8.5,弗朗西斯·福特·科波拉,马丁·辛 / 马龙·白兰度 / 罗伯特·杜瓦尔,剧情 / 战争,美国
-37,34,《罗生门》（1950，黑泽明 Akira Kurosawa）,罗生门 羅生門,1950,[1291879](https://movie.douban.com/subject/1291879/),8.8,黑泽明,三船敏郎 / 京町子 / 森雅之,剧情 / 犯罪 / 悬疑,日本
-38,34,《阿玛柯德》（1973，费德里科·费里尼 Federico Fellini）,阿玛柯德 Amarcord,1973,[1298672](https://movie.douban.com/subject/1298672/),8.7,费德里科·费里尼,普佩拉·玛奇奥 / 阿尔曼多·布兰恰 / 玛加莉·诺埃尔,剧情 / 喜剧,意大利/法国
-39,34,《雨中曲》（1952，斯坦利·杜南 Stanley Donen）,雨中曲 Singin' in the Rain,1952,[1293460](https://movie.douban.com/subject/1293460/),9.1,斯坦利·多南 / 吉恩·凯利,吉恩·凯利 / 唐纳德·奥康纳 / 黛比·雷诺斯,喜剧 / 歌舞 / 爱情,美国
-40,41,《亚特兰大号》（1934，让·维果 Jean Vigo）,亚特兰大号 L'Atalante,1934,[1299433](https://movie.douban.com/subject/1299433/),8.1,让·维果,米歇尔·西蒙 / 迪塔·帕尔洛 / 让·达斯特,剧情 / 爱情,法国
-41,41,《将军号》（1926，巴斯特·基顿 Buster Keaton）,将军号 The General,1926,[1292778](https://movie.douban.com/subject/1292778/),9.1,巴斯特·基顿 / 克莱德·布鲁克曼,巴斯特·基顿 / 玛丽昂·马克 / 格伦·卡文德,剧情 / 喜剧 / 动作 / 战争 / 冒险,美国
-42,41,《广岛之恋》（1959，阿伦·雷乃 Alain Resnais）,广岛之恋 Hiroshima mon amour,1959,[1302050](https://movie.douban.com/subject/1302050/),7.9,阿伦·雷乃,埃玛妞·丽娃 / 冈田英次 / 贝尔纳·弗雷松,剧情 / 爱情 / 战争,法国/日本
-43,41,《晚春》（1949，小津安二郎 Yasujirô Ozu）,晚春 晩春,1949,[1307265](https://movie.douban.com/subject/1307265/),8.7,小津安二郎,笠智众 / 原节子 / 月丘梦路,剧情 / 家庭,日本
-44,41,《狂人皮埃罗》（1965，让-吕克·戈达尔 Jean-Luc Godard）,狂人皮埃罗 Pierrot le fou,1965,[1292533](https://movie.douban.com/subject/1292533/),8.4,让-吕克·戈达尔,让-保罗·贝尔蒙多 / 安娜·卡里娜 / 贾泽拉·加瓦尼,剧情 / 爱情 / 犯罪,法国/意大利
-45,41,《童年往事》（1986，侯孝贤 Hsiao-hsien Hou）,童年往事,1985,[1300572](https://movie.douban.com/subject/1300572/),8.9,侯孝贤,游安顺 / 田丰 / 梅芳,剧情 / 传记 / 家庭,中国台湾
-46,41,《芬妮与亚历山大》（1982，英格玛·伯格曼 Ingmar Bergman）,芬妮与亚历山大 Fanny och Alexander,1982,[1292784](https://movie.douban.com/subject/1292784/),8.7,英格玛·伯格曼,克里斯蒂娜·阿道夫森 / 伯杰·阿斯特 / 佩妮娜·奥威,剧情,法国/瑞典/西德
-47,41,《蚀》（1962，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,蚀 L'eclisse,1962,[1293105](https://movie.douban.com/subject/1293105/),8.4,米开朗基罗·安东尼奥尼,阿兰·德龙 / 莫妮卡·维蒂 / 弗朗西斯科·拉瓦尔,剧情 / 爱情,意大利/法国
-48,41,《阿拉伯的劳伦斯》（1962，大卫·里恩 David Lean）,阿拉伯的劳伦斯 Lawrence of Arabia,1962,[1292349](https://movie.douban.com/subject/1292349/),8.7,大卫·里恩,彼得·奥图尔 / 亚历克·吉尼斯 / 安东尼·奎恩,剧情 / 传记 / 冒险,英国
-49,50,《假面》（1966，英格玛·伯格曼 Ingmar Bergman）,假面 Persona,1966,[1294438](https://movie.douban.com/subject/1294438/),8.8,英格玛·伯格曼,毕比·安德松 / 丽芙·乌曼 / 玛格丽塔·克罗克,剧情 / 惊悚,瑞典
-50,50,《发条橙》（1971，斯坦利·库布里克 Stanley Kubrick）,发条橙 A Clockwork Orange,1971,[1292233](https://movie.douban.com/subject/1292233/),8.6,斯坦利·库布里克,马尔科姆·麦克道威尔 / 帕特里克·马基 / 迈克尔·贝茨,犯罪 / 剧情 / 科幻,英国/美国
-51,50,《堤》（1962，克利斯·马克 Chris Marker）,堤 La jetée,1962,[1306626](https://movie.douban.com/subject/1306626/),9.0,克里斯·马克,让·内格罗尼 / 埃莱娜·夏特兰 / 达沃斯·哈尼奇,短片 / 剧情 / 爱情 / 科幻,法国
-52,50,《大路》（1954，费德里科·费里尼 Federico Fellini）,大路 La strada,1954,[1292719](https://movie.douban.com/subject/1292719/),8.9,费德里科·费里尼,安东尼·奎恩 / 朱丽叶塔·马西纳 / 理查德·贝斯哈特,剧情,意大利
-53,50,《天堂的孩子》（1945，马塞尔·卡尔内 Marcel Carné）,天堂的孩子 Les enfants du paradis,1945,[1300375](https://movie.douban.com/subject/1300375/),8.5,马塞尔·卡尔内,阿莱蒂 / 让-路易斯·巴劳特 / 皮埃尔·布拉瑟,剧情 / 爱情,法国
-54,50,《戏梦人生》（1993，侯孝贤 Hsiao-hsien Hou）,戏梦人生 戲夢人生,1993,[1302941](https://movie.douban.com/subject/1302941/),8.4,侯孝贤,蔡振南 / 洪流 / 黄倩茹,传记 / 剧情 / 战争,中国台湾
-55,50,《教父2》（1974，弗朗西斯·福特·科波拉 Francis Ford Coppola）,教父2 The Godfather: Part II,1974,[1299131](https://movie.douban.com/subject/1299131/),9.3,弗朗西斯·福特·科波拉,阿尔·帕西诺 / 罗伯特·杜瓦尔 / 黛安·基顿,剧情 / 犯罪,美国
-56,50,《牺牲》（1986，安德烈·塔科夫斯基 Andrei Tarkovsky）,牺牲 Offret,1986,[1294531](https://movie.douban.com/subject/1294531/),8.8,安德烈·塔可夫斯基,厄兰·约瑟夫森 / 苏珊·弗利特伍德 / 艾伦·埃德渥,剧情,瑞典/法国/英国
-57,50,《电影史》（1988，让-吕克·戈达尔 Jean-Luc Godard）,电影史-3B 新浪潮 Histoire(s) du cinéma: Une vague nouvelle,2001,[1439720](https://movie.douban.com/subject/1439720/),8.5,Jean-Luc Godard,,短片,法国
-58,50,《祖与占》（1962，弗朗索瓦·特吕弗 François Truffaut）,祖与占 Jules et Jim,1962,[1292338](https://movie.douban.com/subject/1292338/),8.4,弗朗索瓦·特吕弗,让娜·莫罗 / 奥斯卡·威内尔 / 亨利·赛尔,剧情 / 爱情,法国
-59,50,《美国往事》（1984，赛尔乔·莱翁内 Sergio Leone）,美国往事 Once Upon a Time in America,1984,[1292262](https://movie.douban.com/subject/1292262/),9.2,赛尔乔·莱昂内,罗伯特·德尼罗 / 詹姆斯·伍兹 / 伊丽莎白·麦戈文,犯罪 / 剧情,美国/意大利
-60,50,《蔑视》（1963，让-吕克·戈达尔 Jean-Luc Godard）,蔑视 Le mépris,1963,[1303555](https://movie.douban.com/subject/1303555/),7.7,让-吕克·戈达尔,碧姬·芭铎 / 米歇尔·皮科利 / 杰克·帕兰斯,剧情 / 爱情,法国/意大利
-61,50,《野草莓》（1957，英格玛·伯格曼 Ingmar Bergman）,野草莓 Smultronstället,1957,[1293071](https://movie.douban.com/subject/1293071/),8.8,英格玛·伯格曼,维克多·斯约斯特洛姆 / 毕比·安德松 / 英格丽·图林,剧情 / 爱情 / 家庭,瑞典
-62,63,《侠女》（1971，胡金铨 King Hu）,侠女 俠女,1970,[1306490](https://movie.douban.com/subject/1306490/),8.6,胡金铨,徐枫 / 石隽 / 白鹰,剧情 / 动作 / 武侠 / 古装,中国台湾/中国香港
-63,63,《切腹》（1962，小林正树 Masaki Kobayashi）,切腹,1962,[1304920](https://movie.douban.com/subject/1304920/),9.4,小林正树,仲代达矢 / 石浜朗 / 岩下志麻,剧情 / 动作 / 悬疑,日本
-64,63,《卡比利亚之夜》（1957，费德里科·费里尼 Federico Fellini）,卡比利亚之夜 Le notti di Cabiria,1957,[1294781](https://movie.douban.com/subject/1294781/),9.1,费德里科·费里尼,朱丽叶塔·马西纳 / 弗朗索瓦·佩里埃 / 弗兰卡·马尔齐,剧情,意大利/法国
-65,63,《后窗》（1954，阿尔弗雷德·希区柯克 Alfred Hitchcock）,后窗 Rear Window,1954,[1299080](https://movie.douban.com/subject/1299080/),8.7,阿尔弗雷德·希区柯克,詹姆斯·斯图尔特 / 格蕾丝·凯利 / 温戴尔·柯瑞,悬疑 / 惊悚,美国
-66,63,《大地之歌》（1955，萨蒂亚吉特·雷伊 Satyajit Ray）,大地之歌 পথের পাঁচালী,1955,[1306019](https://movie.douban.com/subject/1306019/),8.9,萨蒂亚吉特·雷伊,卡奴·班纳杰 / 卡鲁娜·班纳杰 / 楚尼巴拉·德芙,剧情,印度
-67,63,《大幻影》（1937，让·雷诺阿 Jean Renoir）,大幻影 La grande illusion,1937,[1294808](https://movie.douban.com/subject/1294808/),8.4,让·雷诺阿,让·迦本 / 迪塔·帕尔洛 / 皮埃尔·弗雷奈,剧情 / 战争,法国
-68,63,《安德烈·卢布廖夫》（1966，安德烈·塔科夫斯基 Andrei Tarkovsky）,安德烈·卢布廖夫 Андрей Рублёв,1966,[1298248](https://movie.douban.com/subject/1298248/),9.0,安德烈·塔可夫斯基,安纳托利·索洛尼岑 / 伊万·拉皮科夫 / 尼古拉·格林科,传记 / 剧情 / 历史 / 战争,苏联
-69,63,《尤里西斯的凝视》（1995，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,尤里西斯的凝视 Το βλέμμα του Οδυσσέα,1995,[1294573](https://movie.douban.com/subject/1294573/),9.0,西奥·安哲罗普洛斯,哈威·凯特尔 / 厄兰·约瑟夫森 / 玛雅·摩根斯特恩,剧情 / 历史 / 战争,希腊/法国/意大利/德国/英国/南斯拉夫/罗马尼亚/阿尔巴尼亚/波黑
-70,63,《愤怒的公牛》（1980，马丁·斯科塞斯 Martin Scorsese）,愤怒的公牛 Raging Bull,1980,[1293155](https://movie.douban.com/subject/1293155/),8.4,马丁·斯科塞斯,罗伯特·德尼罗 / 凯西·莫拉蒂 / 乔·佩西,剧情 / 传记 / 运动,美国
-71,63,《攻壳机动队》（1995，押井守 Mamoru Oshii）,攻壳机动队 攻殻機動隊,1995,[1291936](https://movie.douban.com/subject/1291936/),9.1,押井守,田中敦子 / 大塚明夫 / 山寺宏一,动作 / 科幻 / 动画,日本
-72,63,《放大》（1966，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,放大 Blow-Up,1966,[1310176](https://movie.douban.com/subject/1310176/),8.5,米开朗基罗·安东尼奥尼,瓦妮莎·雷德格雷夫 / 莎拉·米尔斯 / 戴维·海明斯,剧情 / 悬疑 / 惊悚,英国/意大利
-73,63,《杀人回忆》（2003，奉俊昊 Joon-ho Bong）,杀人回忆 살인의 추억,2003,[1300299](https://movie.douban.com/subject/1300299/),8.9,奉俊昊,宋康昊 / 金相庆 / 金雷夏,剧情 / 动作 / 犯罪 / 悬疑 / 惊悚,韩国
-74,63,《流浪艺人》（1975，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,流浪艺人 Ο Θίασος,1975,[1295759](https://movie.douban.com/subject/1295759/),8.6,西奥·安哲罗普洛斯,伊娃·科塔曼尼多 / Aliki Georgouli / Stratos Pahis,剧情 / 历史 / 战争,希腊
-75,63,《潜行者》（1979，安德烈·塔科夫斯基 Andrei Tarkovsky）,潜行者 Сталкер,1979,[1295656](https://movie.douban.com/subject/1295656/),8.8,安德烈·塔可夫斯基,亚历山大·凯伊达诺夫斯基 / 阿丽萨·弗雷因德利赫 / 安纳托利·索洛尼岑,剧情 / 科幻 / 悬疑,苏联
-76,63,《热情如火》（1959，比利·怀尔德 Billy Wilder）,热情如火 Some Like It Hot,1959,[1292574](https://movie.douban.com/subject/1292574/),8.9,比利·怀尔德,玛丽莲·梦露 / 托尼·柯蒂斯 / 杰克·莱蒙,喜剧,美国
-77,63,《特写》（1990，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,特写 کلوزآپ,1990,[1303521](https://movie.douban.com/subject/1303521/),8.8,阿巴斯·基亚罗斯塔米,Hossain Sabzian / 莫森·玛克玛尔巴夫 / Abolfazl Ahankhah,犯罪 / 剧情,伊朗
-78,63,《穆赫兰道》（2001，大卫·林奇 David Lynch）,穆赫兰道 Mulholland Dr.,2001,[1292217](https://movie.douban.com/subject/1292217/),8.4,大卫·林奇,娜奥米·沃茨 / 劳拉·哈灵 / 安·米勒,剧情 / 悬疑 / 惊悚,法国/美国
-79,63,《莫里埃尔》（1963，阿伦·雷乃 Alain Resnais）,莫里埃尔 Muriel ou Le temps d'un retour,1963,[1293844](https://movie.douban.com/subject/1293844/),7.7,阿伦·雷乃,德菲因·塞里格 / 让-皮埃尔·凯里安 / 妮特·克莱因,剧情,法国/意大利
-80,63,《葛楚》（1964，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,葛楚 Gertrud,1964,[1420116](https://movie.douban.com/subject/1420116/),8.0,卡尔·西奥多·德莱叶,尼娜·彭斯·罗德 / 本特·罗斯 / 埃贝·罗德,剧情,丹麦
-81,63,《蓝白红三部曲之蓝》（1993，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,蓝白红三部曲之蓝 Trois couleurs: Bleu,1993,[1292048](https://movie.douban.com/subject/1292048/),8.5,克日什托夫·基耶斯洛夫斯基,朱丽叶·比诺什 / 贝努特·里格恩特 / 弗罗伦斯·派梅尔,剧情 / 爱情 / 音乐,法国/波兰/瑞士
-82,63,《蜂巢精灵》（1973，维克多·艾里斯 Víctor Erice）,蜂巢幽灵 El espíritu de la colmena,1973,[1401900](https://movie.douban.com/subject/1401900/),8.5,维克多·艾里斯,费尔南多·费尔南·戈麦斯 / 特雷莎·希梅拉 / 安娜·托伦特,剧情,西班牙
-83,63,《银翼杀手》（1982，雷德利·斯科特 Ridley Scott）,银翼杀手 Blade Runner,1982,[1291839](https://movie.douban.com/subject/1291839/),8.6,雷德利·斯科特,哈里森·福特 / 鲁格·豪尔 / 肖恩·杨,科幻 / 惊悚,美国
-84,63,《雨月物语》（1953，沟口健二 Kenji Mizoguchi）,雨月物语 雨月物語,1953,[1303577](https://movie.douban.com/subject/1303577/),8.6,沟口健二,田中绢代 / 森雅之 / 小泽荣太郎,剧情 / 战争 / 奇幻,日本
-85,86,《一条安达鲁狗》（1929，路易斯·布努埃尔 Luis Buñuel）,一条安达鲁狗 Un chien andalou,1929,[1298962](https://movie.douban.com/subject/1298962/),8.2,路易斯·布努埃尔,西蒙妮·玛勒伊 / Pierre Batcheff / 路易斯·布努埃尔,短片 / 奇幻,法国
-86,86,《两生花》（1991，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,两生花 La Double vie de Véronique,1991,[1291877](https://movie.douban.com/subject/1291877/),8.4,克日什托夫·基耶斯洛夫斯基,伊莲娜·雅各布 / 哈丽娜·格雷格拉谢夫斯卡 / 卡里娜·谢鲁斯克,剧情 / 爱情 / 奇幻,法国/波兰/挪威
-87,86,《乡愁》（1983，安德烈·塔科夫斯基 Andrei Tarkovsky）,乡愁 Ностальгия,1983,[1291556](https://movie.douban.com/subject/1291556/),9.1,安德烈·塔可夫斯基,奥列格·扬科夫斯基 / 厄兰·约瑟夫森 / 多米齐亚娜·焦尔达诺,剧情,苏联/意大利
-88,86,《乱世佳人》（1939，维克多·弗莱明 Victor Fleming）,乱世佳人 Gone with the Wind,1939,[1300267](https://movie.douban.com/subject/1300267/),9.3,维克多·弗莱明 / 乔治·库克 / 山姆·伍德,费雯·丽 / 克拉克·盖博 / 奥利维娅·德哈维兰,剧情 / 历史 / 爱情 / 战争,美国
-89,86,《俄罗斯方舟》（2002，亚历山大·索科诺夫 Aleksandr Sokurov）,俄罗斯方舟 Русский ковчег,2002,[1302279](https://movie.douban.com/subject/1302279/),7.5,亚历山大·索科洛夫,谢尔盖·德雷登 / Mariya Kuznetsova / 瓦莱里·捷杰耶夫,剧情 / 奇幻 / 历史,俄罗斯/德国/日本/加拿大/芬兰/丹麦
-90,86,《党同伐异》（1916，D·W·格里菲斯 D.W. Griffith）,党同伐异 Intolerance: Love's Struggle Throughout the Ages,1916,[1295287](https://movie.douban.com/subject/1295287/),8.7,大卫·格里菲斯,丽莲·吉许 / 梅·马什 / 罗伯特·哈伦,剧情 / 历史 / 爱情,美国
-91,86,《劳拉·蒙特斯》（1955，马克斯·奥菲尔斯 Max Ophüls）,劳拉·蒙特斯 Lola Montès,1955,[1293401](https://movie.douban.com/subject/1293401/),7.8,马克斯·奥菲尔斯,玛蒂妮·卡洛 / 彼得·乌斯蒂诺夫 / 安东·沃尔布鲁克,传记 / 剧情 / 爱情,法国/西德
-92,86,《十诫》（1989，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,十诫 Dekalog,1989,[1301252](https://movie.douban.com/subject/1301252/),9.2,克日什托夫·基耶斯洛夫斯基,阿图尔·巴奇斯 / 昂里克·巴兰诺斯基 / 胡契克·卡勒塔,剧情,波兰/西德
-93,86,《卡萨布兰卡》（1942，迈克尔·柯蒂斯 Michael Curtiz）,卡萨布兰卡 Casablanca,1942,[1296753](https://movie.douban.com/subject/1296753/),8.7,迈克尔·柯蒂兹,亨弗莱·鲍嘉 / 英格丽·褒曼 / 保罗·亨雷德,剧情 / 爱情 / 战争,美国
-94,86,《卧虎藏龙》（2000，李安 Ang Lee）,卧虎藏龙 臥虎藏龍,2000,[1301168](https://movie.douban.com/subject/1301168/),8.4,李安,周润发 / 杨紫琼 / 章子怡,剧情 / 爱情 / 武侠,中国台湾/中国香港/美国/中国大陆
-95,86,《双虎屠龙》（1962，约翰·福特 John Ford）,双虎屠龙 The Man Who Shot Liberty Valance,1962,[1295134](https://movie.douban.com/subject/1295134/),8.2,约翰·福特,约翰·韦恩 / 詹姆斯·斯图尔特 / 维拉·迈尔斯,剧情 / 爱情 / 西部,美国
-96,86,《天堂可以等待》（1943，恩斯特·刘别谦 Ernst Lubitsch）,天堂可以等待 Heaven Can Wait,1943,[1293608](https://movie.douban.com/subject/1293608/),7.9,恩斯特·刘别谦,吉恩·蒂尔尼 / 唐·阿米契 / 查尔斯·科本,喜剧 / 剧情 / 奇幻 / 爱情,美国
-97,86,《妖夜慌踪》（1997，大卫·林奇 David Lynch）,妖夜慌踪 Lost Highway,1997,[1303459](https://movie.douban.com/subject/1303459/),8.1,大卫·林奇,比尔·普尔曼 / 帕特丽夏·阿奎特 / 巴萨扎·盖提,悬疑 / 惊悚,法国/美国
-98,86,《安妮·霍尔》（1977，伍迪·艾伦 Woody Allen）,安妮·霍尔 Annie Hall,1977,[1296987](https://movie.douban.com/subject/1296987/),8.6,伍迪·艾伦,伍迪·艾伦 / 黛安·基顿 / 托尼·罗伯茨,喜剧 / 剧情 / 爱情,美国
-99,86,《小武》（1999，贾樟柯 Zhangke Jia）,小武,1998,[1291851](https://movie.douban.com/subject/1291851/),8.6,贾樟柯,王宏伟 / 郝鸿建 / 左夏初,剧情,中国香港/中国大陆
-100,86,《巴里·林登》（1975，斯坦利·库布里克 Stanley Kubrick）,巴里·林登 Barry Lyndon,1975,[1292472](https://movie.douban.com/subject/1292472/),8.8,斯坦利·库布里克,瑞安·奥尼尔 / 马里莎·贝伦森 / 帕特里克·马基,剧情 / 爱情 / 战争,英国/美国
-101,86,《扒手》（1959，罗伯特·布列松 Robert Bresson）,扒手 Pickpocket,1959,[1303559](https://movie.douban.com/subject/1303559/),8.3,罗伯特·布列松,马丁·拉萨尔 / 玛莉卡·格林 / Jean Pélégri,剧情 / 犯罪,法国
-102,86,《指环王》（2001，彼得·杰克逊 Peter Jackson）,指环王1：护戒使者 The Lord of the Rings: The Fellowship of the Ring,2001,[1291571](https://movie.douban.com/subject/1291571/),9.1,彼得·杰克逊,伊利亚·伍德 / 西恩·奥斯汀 / 伊恩·麦克莱恩,剧情 / 动作 / 奇幻 / 冒险,新西兰/美国
-103,86,《搜索者》（1956，约翰·福特 John Ford）,搜索者 The Searchers,1956,[1292668](https://movie.douban.com/subject/1292668/),7.9,约翰·福特,约翰·韦恩 / 杰弗里·亨特 / 维拉·迈尔斯,剧情 / 西部 / 冒险,美国
-104,86,《撒旦探戈》（1994，贝拉·塔尔 Béla Tarr）,撒旦探戈 Sátántangó,1994,[1422088](https://movie.douban.com/subject/1422088/),8.9,贝拉·塔尔,米哈伊·维格 / 普吉·霍瓦特 / 拉斯洛·费卢戈希,剧情 / 悬疑,匈牙利/德国/瑞士
-105,86,《柏林苍穹下》（1987，维姆·文德斯 Wim Wenders）,柏林苍穹下 Der Himmel über Berlin,1987,[1292504](https://movie.douban.com/subject/1292504/),8.6,维姆·文德斯,布鲁诺·冈茨 / 索尔维格·多马尔坦 / 奥托·山德尔,奇幻 / 剧情 / 爱情,西德/法国
-106,86,《死囚越狱》（1956，罗伯特·布列松 Robert Bresson）,死囚越狱 Un Condamné à mort s'est échappé,1956,[1303562](https://movie.douban.com/subject/1303562/),8.5,罗伯特·布列松,弗朗索瓦·莱特瑞尔 / 查尔斯·勒克莱恩 / 莫里斯·贝尔布洛克,剧情 / 战争 / 惊悚,法国
-107,86,《潘多拉的魔盒》（1929，乔治· 威廉· 巴布斯特 Georg Wilhelm Pabst）,潘多拉的魔盒 Die Büchse der Pandora,1929,[1401368](https://movie.douban.com/subject/1401368/),8.2,G·W·帕布斯特,露易丝·布鲁克斯 / 弗里茨·科特讷 / 弗朗西斯·莱德雷尔,犯罪 / 剧情 / 爱情,德国
-108,86,《红圈》（1970，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）,红圈 Le cercle rouge,1970,[1401915](https://movie.douban.com/subject/1401915/),8.3,让-皮埃尔·梅尔维尔,阿兰·德龙 / 布尔维尔 / 吉安·马里亚·沃隆特,犯罪 / 剧情 / 惊悚,法国/意大利
-109,86,《西部往事》（1968，赛尔乔·莱翁内 Sergio Leone）,西部往事 C'era una volta il West,1968,[1293394](https://movie.douban.com/subject/1293394/),8.7,赛尔乔·莱昂内,亨利·方达 / 查尔斯·布朗森 / 克劳迪娅·卡汀娜,剧情 / 犯罪 / 西部,意大利/美国
-110,86,《让娜·迪尔曼》（1975，香坦·阿克曼 Chantal Akerman）,"让娜·迪尔曼 Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles",1975,[1868933](https://movie.douban.com/subject/1868933/),8.9,香特尔·阿克曼,德菲因·塞里格 / 亨利.斯多克 / 雅克·多尼奥-瓦克罗兹,剧情,比利时/法国
-111,86,《豹》（1963，卢奇诺·维斯康蒂 Luchino Visconti）,豹 Il gattopardo,1963,[1293146](https://movie.douban.com/subject/1293146/),8.7,卢基诺·维斯康蒂,伯特·兰卡斯特 / 克劳迪娅·卡汀娜 / 阿兰·德龙,剧情 / 历史 / 爱情 / 战争,意大利/法国
-112,86,《钱》（1983，罗伯特·布列松 Robert Bresson）,钱 L'argent,1983,[1303536](https://movie.douban.com/subject/1303536/),8.3,罗伯特·布列松,克里斯蒂安·佩蒂 / Vincent Risterucci / Caroline Lang,剧情 / 犯罪,法国/瑞士
-113,86,《铁西区》（2003，王兵 Bing Wang）,铁西区第一部分：工厂,2003,[1309215](https://movie.douban.com/subject/1309215/),8.6,王兵,,纪录片,中国大陆
-114,86,《阿飞正传》（1990，王家卫 Kar Wai Wong）,阿飞正传 阿飛正傳,1990,[1305690](https://movie.douban.com/subject/1305690/),8.5,王家卫,张国荣 / 张曼玉 / 刘嘉玲,犯罪 / 剧情 / 爱情,中国香港
-115,86,《雾中风景》（1988，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,雾中风景 Τοπίο στην ομίχλη,1988,[1294252](https://movie.douban.com/subject/1294252/),9.0,西奥·安哲罗普洛斯,米哈利斯·齐克 / 塔尼娅·帕拉依奥罗葛 / 斯特拉托斯·楚措格卢,剧情,希腊/法国/意大利
-116,86,《霸王别姬》（1993，陈凯歌 Kaige Chen）,霸王别姬,1993,[1291546](https://movie.douban.com/subject/1291546/),9.6,陈凯歌,张国荣 / 张丰毅 / 巩俐,剧情 / 爱情 / 同性,中国大陆/中国香港
-117,86,《驴子巴特萨》（1966，罗伯特·布列松 Robert Bresson）,驴子巴特萨 Au hasard Balthazar,1966,[1401619](https://movie.douban.com/subject/1401619/),8.3,罗伯特·布列松,安妮·维亚泽姆斯基 / Walter Green / François Lafarge,剧情,法国/瑞典
-118,86,《黑客帝国》（1999，安迪·沃卓斯基 / 拉娜·沃卓斯基 Andy Wachowski / Lana Wachowski）,黑客帝国 The Matrix,1999,[1291843](https://movie.douban.com/subject/1291843/),9.1,莉莉·沃卓斯基 / 拉娜·沃卓斯基,基努·里维斯 / 劳伦斯·菲什伯恩 / 凯瑞-安·莫斯,动作 / 科幻,美国
-119,120,《一个国家的诞生》（1915，D·W·格里菲斯 D.W. Griffith）,一个国家的诞生 The Birth of a Nation,1915,[1300306](https://movie.douban.com/subject/1300306/),7.9,大卫·格里菲斯,丽莲·吉许 / 梅·马什 / 亨利·B·沃斯奥,剧情 / 历史 / 爱情 / 战争 / 西部,美国
-120,120,《一九零零》（1976，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）,一九零零 Novecento,1976,[1300956](https://movie.douban.com/subject/1300956/),8.7,贝纳尔多·贝托鲁奇,罗伯特·德尼罗 / 热拉尔·德帕迪约 / 多米妮克·桑达,剧情 / 历史 / 爱情 / 战争,意大利/法国/西德
-121,120,《不散》（2003，蔡明亮 Ming-liang Tsai）,不散,2003,[1304862](https://movie.douban.com/subject/1304862/),7.8,蔡明亮,李康生 / 杨贵媚 / 石隽,剧情,中国台湾
-122,120,《东邪西毒》（1994，王家卫 Kar Wai Wong）,东邪西毒 東邪西毒,1994,[1292328](https://movie.douban.com/subject/1292328/),8.6,王家卫,张国荣 / 林青霞 / 梁朝伟,剧情 / 动作 / 爱情 / 武侠 / 古装,中国香港/中国台湾
-123,120,《亚伯拉罕山谷》（1993，曼努埃尔·德·奥里维拉 Manoel de Oliveira）,亚伯拉罕山谷 Vale Abraão,1993,[1303467](https://movie.douban.com/subject/1303467/),8.1,曼努埃尔·德·奥利维拉,里诺尔·森微娜 / 路易斯·米格尔·辛特拉 / 鲁伊·德·卡瓦略,剧情,法国/葡萄牙/瑞士
-124,120,《伊凡雷帝》（1944，谢尔盖·爱森斯坦 Sergei M. Eisenstein）,伊凡雷帝 Иван Грозный,1944,[1298182](https://movie.douban.com/subject/1298182/),8.0,谢尔盖·爱森斯坦,尼古拉·切尔卡索夫 / Lyudmila Tselikovskaya / Serafima Birman,传记 / 历史,苏联
-125,120,《十月》（1928，格里高利·亚历山大洛夫 / 谢尔盖·爱森斯坦 Grigori Aleksandrov / Sergei M. Eisenstein）,十月 Октябрь,1928,[1297024](https://movie.douban.com/subject/1297024/),8.0,格里高利·亚历山德罗夫 / 谢尔盖·爱森斯坦,Nikolay Popov / Vasili Nikandrov / Layaschenko,剧情 / 历史,苏联
-126,120,《千与千寻》（2001，宫崎骏 Hayao Miyazaki）,千与千寻 千と千尋の神隠し,2001,[1291561](https://movie.douban.com/subject/1291561/),9.4,宫崎骏,柊瑠美 / 入野自由 / 夏木真理,剧情 / 动画 / 奇幻,日本
-127,120,《卡里加里博士的小屋》（1920，罗伯特·维内 Robert Wiene）,卡里加里博士的小屋 Das Cabinet des Dr. Caligari,1920,[1292547](https://movie.douban.com/subject/1292547/),8.9,罗伯特·维内,维尔纳·克劳斯 / 康拉德·韦特 / 弗里德里希·费赫尔,犯罪 / 悬疑 / 恐怖,德国
-128,120,《夏日纪事》（1961，让·鲁什 Jean Rouch）,夏日纪事 Chronique d'un été (Paris 1960),1961,[1421292](https://movie.douban.com/subject/1421292/),8.1,让·鲁什 / 埃德加·莫兰,玛索琳娜·罗尔丹·伊文思 / 玛丽卢·帕罗利尼,纪录片,法国
-129,120,《大独裁者》（1940，查理·卓别林 Charles Chaplin）,大独裁者 The Great Dictator,1940,[1295646](https://movie.douban.com/subject/1295646/),9.2,查理·卓别林,查理·卓别林 / 宝莲·高黛 / 杰克·奥克,喜剧 / 剧情 / 战争,美国
-130,120,《大路》（1934，孙瑜 Yu Sun）,大路,1934,[1307015](https://movie.douban.com/subject/1307015/),7.8,孙瑜,金焰 / 黎莉莉 / 陈燕燕,喜剧 / 歌舞 / 剧情 / 战争,中国大陆
-131,120,《奥赛罗》（1952，奥逊·威尔斯 Orson Welles）,奥赛罗 The Tragedy of Othello: The Moor of Venice,1951,[1296289](https://movie.douban.com/subject/1296289/),7.8,奥逊·威尔斯,米歇尔·麦克利亚姆莫伊尔 / 罗伯托·库特 / 奥逊·威尔斯,剧情 / 爱情,美国/意大利/法国/摩洛哥
-132,120,《开罗紫玫瑰》（1985，伍迪·艾伦 Woody Allen）,开罗紫玫瑰 The Purple Rose of Cairo,1985,[1292994](https://movie.douban.com/subject/1292994/),8.8,伍迪·艾伦,米娅·法罗 / 杰夫·丹尼尔斯 / 丹尼·爱罗,喜剧 / 爱情 / 奇幻,美国
-133,120,《恐惧吞噬灵魂》（1974，赖纳·维尔纳·法斯宾德 Rainer Werner Fassbinder）,恐惧吞噬灵魂 Angst essen Seele auf,1974,[1294092](https://movie.douban.com/subject/1294092/),8.5,赖纳·维尔纳·法斯宾德,布里吉特·米拉 / 埃尔·赫迪·本·萨利姆 / 芭芭拉·瓦伦汀,剧情 / 爱情,西德
-134,120,《恨难解》（1965，让-马利·斯特劳布 Jean-Marie Straub）,没有和解 Nicht versöhnt oder Es hilft nur Gewalt wo Gewalt herrscht,1965,[1850440](https://movie.douban.com/subject/1850440/),7.5,让-马里·斯特劳布 / 达尼埃尔·于伊耶,Heinrich Hargesheimer / Carlheinz Hargesheimer / Martha Staendner,剧情,西德
-135,120,《情迷意乱》（1964，成濑巳喜男 Mikio Naruse）,情迷意乱 乱れる,1964,[1422091](https://movie.douban.com/subject/1422091/),9.1,成濑巳喜男,高峰秀子 / 加山雄三 / 草笛光子,剧情 / 爱情 / 家庭,日本
-136,120,《意大利之旅》（1954，罗伯托·罗西里尼 Roberto Rossellini）,游览意大利 Viaggio in Italia,1954,[1303576](https://movie.douban.com/subject/1303576/),7.8,罗伯托·罗西里尼,英格丽·褒曼 / 乔治·桑德斯 / Leslie Daniels,剧情,法国/意大利
-137,120,《意志的胜利》（1935，莱尼·里芬斯塔尔 Leni Riefenstahl）,意志的胜利 Triumph des Willens,1935,[1306186](https://movie.douban.com/subject/1306186/),8.5,莱妮·里芬施塔尔,马克斯·阿曼 / 马丁·鲍曼,纪录片 / 战争,德国
-138,120,《我的舅舅》（1958，雅克·塔蒂 Jacques Tati）,我的舅舅 Mon Oncle,1958,[1400829](https://movie.douban.com/subject/1400829/),8.6,雅克·塔蒂,让·皮埃尔·佐拉 / Adrienne Servantie / Lucien Frégis,喜剧,意大利/法国
-139,120,《战争与和平》（1968，谢尔盖·邦达尔丘克 Sergei Bondarchuk）,战争与和平 Война и мир,1966,[1307067](https://movie.douban.com/subject/1307067/),9.2,谢尔盖·邦达尔丘克,谢尔盖·邦达尔丘克 / 柳德米拉·萨维里耶娃 / 维亚切斯拉夫·吉洪诺夫,剧情 / 历史 / 爱情 / 战争,苏联
-140,120,《拉孔布·吕西安》（1974，路易·马勒 Louis Malle）,拉孔布·吕西安 Lacombe Lucien,1974,[1432637](https://movie.douban.com/subject/1432637/),8.1,路易·马勒,皮埃尔·布莱士 / 奥萝尔·克莱芒 / 霍尔格·洛文纳德勒,剧情,法国/意大利/西德
-141,120,《无耻混蛋》（2009，昆汀·塔伦蒂诺 Quentin Tarantino）,无耻混蛋 Inglourious Basterds,2009,[1438652](https://movie.douban.com/subject/1438652/),8.7,昆汀·塔伦蒂诺,布拉德·皮特 / 梅拉尼·罗兰 / 克里斯托弗·瓦尔兹,剧情 / 犯罪,德国/美国
-142,120,《星球大战》（1977，乔治·卢卡斯 George Lucas）,星球大战 Star Wars,1977,[1293838](https://movie.douban.com/subject/1293838/),8.5,乔治·卢卡斯,哈里森·福特 / 马克·哈米尔 / 凯丽·费雪,动作 / 科幻 / 冒险,美国
-143,120,《星球大战2：帝国反击战》（1980，欧文·克什纳 Irvin Kershner）,星球大战2：帝国反击战 Star Wars: Episode V - The Empire Strikes Back,1980,[1296528](https://movie.douban.com/subject/1296528/),8.4,厄文·克什纳,马克·哈米尔 / 哈里森·福特 / 凯丽·费雪,动作 / 冒险 / 科幻,美国
-144,120,《桃色公寓》（1960，比利·怀尔德 Billy Wilder）,桃色公寓 The Apartment,1960,[1394218](https://movie.douban.com/subject/1394218/),8.8,比利·怀尔德,杰克·莱蒙 / 雪莉·麦克雷恩 / 弗莱德·麦克莫瑞,爱情 / 喜剧 / 剧情,美国
-145,120,《梁山伯与祝英台》（1963，李翰祥 Han Hsiang Li）,梁山伯与祝英台 梁山伯與祝英台,1963,[1438020](https://movie.douban.com/subject/1438020/),8.5,李翰祥,凌波 / 乐蒂 / 任洁,爱情 / 古装 / 戏曲,中国香港
-146,120,《死者田园祭》（1974，寺山修司 Shuji Terayama）,死者田园祭 田園に死す,1974,[1366165](https://movie.douban.com/subject/1366165/),8.9,寺山修司,菅贯太郎 / 高野浩幸 / 八千草薰,剧情 / 奇幻,日本
-147,120,《残菊物语》（1939，沟口健二 Kenji Mizoguchi）,残菊物语 殘菊物語,1939,[1293329](https://movie.douban.com/subject/1293329/),8.5,沟口健二,花柳章太郎 / 森赫子 / 高田浩吉,剧情,日本
-148,120,《永恒和一日》（1998，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,永恒和一日 Μία αιωνιότητα και μία μέρα,1998,[1293455](https://movie.douban.com/subject/1293455/),9.1,西奥·安哲罗普洛斯,布鲁诺·冈茨 / 伊莎贝拉·雷纳德 / 法布里齐奥·本蒂沃利奥,剧情,法国/意大利/希腊/德国
-149,120,《泯灭天使》（1962，路易斯·布努埃尔 Luis Buñuel）,泯灭天使 El ángel exterminador,1962,[1303556](https://movie.douban.com/subject/1303556/),8.3,路易斯·布努埃尔,西尔维娅·皮纳尔 / 恩里克·兰巴尔 / 克劳迪奥·布鲁克,喜剧 / 剧情 / 奇幻 / 悬疑,墨西哥
-150,120,《泰坦尼克号》（1997，詹姆斯·卡梅隆 James Cameron）,泰坦尼克号 Titanic,1997,[1292722](https://movie.douban.com/subject/1292722/),9.5,詹姆斯·卡梅隆,莱昂纳多·迪卡普里奥 / 凯特·温丝莱特 / 比利·赞恩,剧情 / 爱情 / 灾难,美国/墨西哥
-151,120,《浮草》（1959，小津安二郎 Yasujirô Ozu）,浮草,1959,[1297841](https://movie.douban.com/subject/1297841/),8.6,小津安二郎,中村雁治郎 / 京町子 / 若尾文子,剧情,日本
-152,120,《热带疾病》（2004，阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul）,热带疾病 สัตว์ประหลาด,2004,[1414808](https://movie.douban.com/subject/1414808/),8.0,阿彼察邦·韦拉斯哈古,班罗普·洛罗伊 / 萨卡达·卡温巴迪 / Huai Dessom,剧情 / 爱情 / 奇幻,泰国/法国/德国/意大利
-153,120,《爱的激流》（1984，约翰·卡索维茨 John Cassavetes）,爱的激流 Love Streams,1984,[1303532](https://movie.douban.com/subject/1303532/),8.1,约翰·卡萨维蒂,约翰·卡萨维蒂 / 吉娜·罗兰兹 / 西摩·卡塞尔,喜剧 / 剧情,美国
-154,120,《独行杀手》（1967，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）,独行杀手 Le samouraï,1967,[1300966](https://movie.douban.com/subject/1300966/),8.3,让-皮埃尔·梅尔维尔,阿兰·德龙 / 弗朗索瓦·佩里埃 / 娜塔莉·德龙,犯罪 / 剧情 / 悬疑 / 惊悚,法国/意大利
-155,120,《生命之树》（2011，泰伦斯·马力克 Terrence Malick）,生命之树 The Tree of Life,2011,[2336735](https://movie.douban.com/subject/2336735/),7.1,泰伦斯·马力克,布拉德·皮特 / 西恩·潘 / 杰西卡·查斯坦,剧情 / 奇幻 / 家庭,美国
-156,120,《生命的标记》（1968，沃纳·赫尔佐格 Werner Herzog）,生命的标记 Lebenszeichen,1968,[1299262](https://movie.douban.com/subject/1299262/),8.1,沃纳·赫尔佐格,彼得·布罗格尔 / 沃尔夫冈·施通普夫 / 弗洛里安·弗里克,剧情,西德
-157,120,《生生长流》（1991，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,生生长流 زندگی و دیگر هیچ,1992,[1303471](https://movie.douban.com/subject/1303471/),8.8,阿巴斯·基亚罗斯塔米,法德哈·基德曼 / 布巴·巴尤尔· / 奥西纳·法赫,剧情 / 灾难,伊朗
-158,120,《盗梦空间》（2010，克里斯托弗·诺兰 Christopher Nolan）,盗梦空间 Inception,2010,[3541415](https://movie.douban.com/subject/3541415/),9.4,克里斯托弗·诺兰,莱昂纳多·迪卡普里奥 / 约瑟夫·高登-莱维特 / 艾利奥特·佩吉,剧情 / 科幻 / 悬疑 / 冒险,美国/英国
-159,120,《空山灵雨》（1979，胡金铨 King Hu）,空山灵雨 空山靈雨,1979,[1301136](https://movie.douban.com/subject/1301136/),8.4,胡金铨,田丰 / 孙越 / 徐枫,剧情 / 动作 / 武侠 / 古装,中国香港
-160,120,《第三人》（1949，卡洛尔·里德 Carol Reed）,第三人 The Third Man,1949,[1295451](https://movie.douban.com/subject/1295451/),8.2,卡罗尔·里德,约瑟夫·科顿 / 阿莉达·瓦利 / 奥逊·威尔斯,黑色电影 / 悬疑 / 惊悚,英国
-161,120,《红色沙漠》（1964，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,红色沙漠 Il deserto rosso,1964,[1299261](https://movie.douban.com/subject/1299261/),8.0,米开朗基罗·安东尼奥尼,莫妮卡·维蒂 / 理查德·哈里斯 / Carlo Chionetti,剧情,意大利/法国
-162,120,《自由的幻影》（1974，路易斯·布努埃尔 Luis Buñuel）,自由的幻影 Le fantôme de la liberté,1974,[1297188](https://movie.douban.com/subject/1297188/),8.6,路易斯·布努埃尔,阿德里娅娜·阿斯蒂 / 朱利安·贝尔托 / 让-克洛德·布里亚利,喜剧 / 剧情,法国/意大利
-163,120,《花样年华》（2000，王家卫 Kar Wai Wong）,花样年华 花樣年華,2000,[1291557](https://movie.douban.com/subject/1291557/),8.8,王家卫,梁朝伟 / 张曼玉 / 潘迪华,剧情 / 爱情,中国香港
-164,120,《蓝》（1993，德里克·贾曼 Derek Jarman）,蓝 Blue,1993,[1417428](https://movie.douban.com/subject/1417428/),8.6,德里克·贾曼,约翰·昆汀 / 尼吉尔·特瑞 / 德里克·贾曼,剧情 / 传记 / 同性,英国/日本
-165,120,《蓝白红三部曲之红》（1994，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,蓝白红三部曲之红 Trois couleurs: Rouge,1994,[1292047](https://movie.douban.com/subject/1292047/),8.8,克日什托夫·基耶斯洛夫斯基,伊莲娜·雅各布 / 让-路易·特兰蒂尼昂 / 弗雷德里奎·费德,剧情 / 爱情 / 悬疑,法国/波兰/瑞士
-166,120,《蝙蝠侠前传2：黑暗骑士》（2008，克里斯托弗·诺兰 Christopher Nolan）,蝙蝠侠：黑暗骑士 The Dark Knight,2008,[1851857](https://movie.douban.com/subject/1851857/),9.2,克里斯托弗·诺兰,克里斯蒂安·贝尔 / 希斯·莱杰 / 艾伦·艾克哈特,剧情 / 动作 / 科幻 / 犯罪 / 惊悚,美国/英国
-167,120,《西力传》（1983，伍迪·艾伦 Woody Allen）,西力传 Zelig,1983,[1293846](https://movie.douban.com/subject/1293846/),9.0,伍迪·艾伦,伍迪·艾伦 / 米娅·法罗 / 帕特里克霍根,喜剧 / 奇幻,美国
-168,120,《西北偏北》（1959，阿尔弗雷德·希区柯克 Alfred Hitchcock）,西北偏北 North by Northwest,1959,[1295872](https://movie.douban.com/subject/1295872/),8.3,阿尔弗雷德·希区柯克,加里·格兰特 / 爱娃·玛丽·森特 / 詹姆斯·梅森,悬疑 / 惊悚 / 冒险,美国
-169,120,《西鹤一代女》（1952，沟口健二 Kenji Mizoguchi）,西鹤一代女 西鶴一代女,1952,[1303603](https://movie.douban.com/subject/1303603/),8.3,沟口健二,田中绢代 / 山根寿子 / 三船敏郎,剧情,日本
-170,120,《资产阶级的审慎魅力》（1972，路易斯·布努埃尔 Luis Buñuel）,资产阶级的审慎魅力 Le Charme discret de la bourgeoisie,1972,[1303364](https://movie.douban.com/subject/1303364/),8.2,路易斯·布努埃尔,费尔南多·雷伊 / 保罗·弗朗克尔 / 德菲因·塞里格,喜剧 / 剧情 / 奇幻,法国/意大利/西班牙
-171,120,《趣味游戏》（1997，迈克尔·哈内克 Michael Haneke）,趣味游戏 Funny Games,1997,[1306548](https://movie.douban.com/subject/1306548/),7.3,迈克尔·哈内克,苏珊娜·洛塔尔 / 乌尔里希·穆埃 / 亚诺·弗里斯奇,剧情 / 犯罪 / 悬疑 / 惊悚,奥地利
-172,120,《阿凡达》（2009，詹姆斯·卡梅隆 James Cameron）,阿凡达 Avatar,2009,[1652587](https://movie.douban.com/subject/1652587/),8.8,詹姆斯·卡梅隆,萨姆·沃辛顿 / 佐伊·索尔达娜 / 西格妮·韦弗,动作 / 科幻 / 冒险,美国
-173,120,《阿基尔，上帝的愤怒》（1972，沃纳·赫尔佐格 Werner Herzog）,"阿基尔，上帝的愤怒 Aguirre, der Zorn Gottes",1972,[1306002](https://movie.douban.com/subject/1306002/),8.3,沃纳·赫尔佐格,克劳斯·金斯基 / 彼得·贝尔林 / 海伦娜·罗霍,冒险 / 传记 / 剧情 / 历史,西德/墨西哥
-174,120,《阿甘正传》（1994，罗伯特·泽米基斯 Robert Zemeckis）,阿甘正传 Forrest Gump,1994,[1292720](https://movie.douban.com/subject/1292720/),9.5,罗伯特·泽米吉斯,汤姆·汉克斯 / 罗宾·怀特 / 加里·西尼斯,剧情 / 爱情,美国
-175,120,《陆上行舟》（1982，沃纳·赫尔佐格 Werner Herzog）,陆上行舟 Fitzcarraldo,1982,[1297105](https://movie.douban.com/subject/1297105/),8.7,沃纳·赫尔佐格,克劳斯·金斯基 / 若泽·卢戈伊 / 米格尔·安赫尔·富恩特斯,剧情 / 冒险,西德/秘鲁
-176,120,《面孔》（1968，约翰·卡索维茨 John Cassavetes）,面孔 Faces,1968,[1292644](https://movie.douban.com/subject/1292644/),8.0,约翰·卡萨维蒂,约翰·马利 / 琳恩·卡林 / 吉娜·罗兰兹,剧情,美国
-177,120,《音乐之声》（1965，罗伯特·怀斯 Robert Wise）,音乐之声 The Sound of Music,1965,[1294408](https://movie.douban.com/subject/1294408/),9.1,罗伯特·怀斯,朱莉·安德鲁斯 / 克里斯托弗·普卢默 / 埃琳诺·帕克,剧情 / 传记 / 爱情 / 歌舞,美国
-178,120,《首演之夜》（1977，约翰·卡索维茨 John Cassavetes）,首演之夜 Opening Night,1977,[1292768](https://movie.douban.com/subject/1292768/),8.4,约翰·卡萨维蒂,吉娜·罗兰兹 / 约翰·卡萨维蒂 / 本·戈扎那,剧情,美国
-179,120,《魂断威尼斯》（1971，卢奇诺·维斯康蒂 Luchino Visconti）,魂断威尼斯 Morte a Venezia,1971,[1300912](https://movie.douban.com/subject/1300912/),8.2,卢基诺·维斯康蒂,德克·博加德 / 罗慕洛·瓦利 / 马克·伯恩斯,剧情 / 同性,意大利/法国
-180,120,《黄金三镖客》（1966，赛尔乔·莱翁内 Sergio Leone）,"黄金三镖客 Il buono, il brutto, il cattivo",1966,[1401118](https://movie.douban.com/subject/1401118/),9.2,赛尔乔·莱昂内,克林特·伊斯特伍德 / 埃里·瓦拉赫 / 李·范·克里夫,冒险 / 西部,意大利/西班牙/西德
-181,182,《2046》（2004，王家卫 Kar Wai Wong）,2046,2004,[1291555](https://movie.douban.com/subject/1291555/),7.7,王家卫,梁朝伟 / 章子怡 / 王菲,剧情 / 爱情 / 奇幻,中国香港/中国大陆/法国/意大利/德国
-182,182,《Arbor Vitae》（2000，纳撒尼尔·多斯基 Nathaniel Dorsky）,Arbor Vitae,2000,[11615411](https://movie.douban.com/subject/11615411/),,纳撒尼尔·多斯基,,短片,美国
-183,182,《City After Dark》（1980，伊斯梅尔·伯纳尔 Ishmael Bernal）,夜幕下的马尼拉 City After Dark,1980,[4010828](https://movie.douban.com/subject/4010828/),,伊斯梅尔·贝尔纳尔,查丽朵·索利斯 / Alma Moreno / Lorna Tolentino,剧情,菲律宾
-184,182,《Decasia》（2002，比尔·莫里森 Bill Morrison）,衰变幻想曲 Decasia,2002,[1888457](https://movie.douban.com/subject/1888457/),7.9,比尔·莫里森,,纪录片,美国
-185,182,《On The Run》（1980，达马塞纳·帕提拉杰 Darmasena Pathiraja）,Para Dige,1980,[11612089](https://movie.douban.com/subject/11612089/),,Darmasena Pathiraja,英迪拉·甘地 / Vasanthi Chathurani / Vijaya Kumaratunga,,斯里兰卡
-186,182,《The Exquisite Hour》（1994，菲利普·所罗门 Philip Solomon）,The Exquisite Hour,1994,[2141280](https://movie.douban.com/subject/2141280/),,菲利普 S. 所罗门,,短片,美国
-187,182,《一个明星的诞生》（1954，乔治·库克 George Cukor）,一个明星的诞生 A Star Is Born,1954,[1295619](https://movie.douban.com/subject/1295619/),7.7,乔治·库克,朱迪·加兰 / 詹姆斯·梅森 / 杰克·卡森,剧情 / 爱情 / 歌舞,美国
-188,182,《一切安好》（1972，让-吕克·戈达尔 Jean-Luc Godard）,一切安好 Tout va bien,1972,[1401582](https://movie.douban.com/subject/1401582/),7.7,让-吕克·戈达尔 / 让-皮埃尔·戈兰,伊夫·蒙当 / 简·方达 / 维托里奥·卡布里奥利,剧情,法国/意大利
-189,182,《一千零一夜》（1974，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）,一千零一夜 Il fiore delle mille e una notte,1974,[1294654](https://movie.douban.com/subject/1294654/),7.4,皮埃尔·保罗·帕索里尼,尼内托·达沃利 / 弗兰科·奇蒂 / 弗兰科·梅利,剧情 / 喜剧 / 历史 / 爱情 / 奇幻,意大利/法国
-190,182,《一江春水向东流》（1947，蔡楚生 / 郑君里 Chusheng Cai / Junli Zheng）,一江春水向东流 一江春水向東流,1947,[1389915](https://movie.douban.com/subject/1389915/),8.5,蔡楚生 / 郑君里,白杨 / 陶金 / 舒绣文,剧情,中国大陆
-191,182,《七宗罪》（1995，大卫·芬奇 David Fincher）,七宗罪 Se7en,1995,[1292223](https://movie.douban.com/subject/1292223/),8.8,大卫·芬奇,摩根·弗里曼 / 布拉德·皮特 / 凯文·史派西,剧情 / 犯罪 / 悬疑 / 惊悚,美国
-192,182,《万世魔星》（1979，特里·琼斯 Terry Jones）,万世魔星 Life of Brian,1979,[1292881](https://movie.douban.com/subject/1292881/),8.0,特瑞·琼斯,格雷厄姆·查普曼 / 约翰·克里斯 / 特瑞·吉列姆,喜剧,英国
-193,182,《三傻大闹宝莱坞》（2009，拉库马·希拉尼 Rajkumar Hirani）,三傻大闹宝莱坞 3 Idiots,2009,[3793023](https://movie.douban.com/subject/3793023/),9.2,拉吉库马尔·希拉尼,阿米尔·汗 / 卡琳娜·卡普尔 / 马达范,剧情 / 喜剧 / 爱情 / 歌舞,印度
-194,182,《三里塚边田部落》（2012，小川绅介 Shinsuke Ogawa）,三里塚 边田部落 三里塚 辺田部落,1973,[1845753](https://movie.douban.com/subject/1845753/),8.8,小川绅介,,纪录片,日本
-195,182,《不法之徒》（1986，吉姆·贾木许 Jim Jarmusch）,不法之徒 Down by Law,1986,[1301798](https://movie.douban.com/subject/1301798/),8.1,吉姆·贾木许,汤姆·威兹 / 约翰·劳瑞 / 罗伯托·贝尼尼,剧情 / 喜剧 / 犯罪,美国/西德
-196,182,《乌鸦与麻雀》（1949，郑君里 Junli Zheng）,乌鸦与麻雀 烏鴉与麻雀,1949,[1424627](https://movie.douban.com/subject/1424627/),8.7,郑君里,赵丹 / 上官云珠 / 孙道临,剧情,中国大陆
-197,182,《乱》（1985，黑泽明 Akira Kurosawa）,乱,1985,[1296196](https://movie.douban.com/subject/1296196/),8.9,黑泽明,仲代达矢 / 寺尾聪 / 根津甚八,剧情 / 动作,日本/法国
-198,182,《乱云》（1967，成濑巳喜男 Mikio Naruse）,乱云 乱れ雲,1967,[1302082](https://movie.douban.com/subject/1302082/),8.4,成濑巳喜男,司叶子 / 加山雄三 / 森光子,剧情,日本
-199,182,《二楼传来的歌声》（2000，罗伊·安德森 Roy Andersson）,二楼传来的歌声 Sånger från andra våningen,2000,[1295877](https://movie.douban.com/subject/1295877/),8.2,罗伊·安德森,拉斯·诺德 / 本基特·卡尔森 / Stefan Larsson,喜剧 / 剧情,丹麦/挪威/瑞典
-200,182,《云上的日子》（1995，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,云上的日子 Al di là delle nuvole,1995,[1291558](https://movie.douban.com/subject/1291558/),7.6,米开朗基罗·安东尼奥尼 / 维姆·文德斯,苏菲·玛索 / 约翰·马尔科维奇 / 芬妮·阿尔丹,剧情 / 爱情 / 情色,法国/意大利/德国
-201,182,《五至七时的奇奥》（1962，阿涅斯·瓦尔达 Agnès Varda）,五至七时的克莱奥 Cléo de 5 à 7,1962,[1294565](https://movie.douban.com/subject/1294565/),8.7,阿涅斯·瓦尔达,科琳娜·马尔尚 / 安托万·布尔塞耶 / 多米妮克·达夫雷,喜剧 / 剧情 / 音乐,法国/意大利
-202,182,《仁心与冠冕》（1949，罗伯特·汉默 Robert Hamer）,仁心与冠冕 Kind Hearts and Coronets,1949,[1295995](https://movie.douban.com/subject/1295995/),8.5,罗伯特·哈默,亚历克·吉尼斯 / 瓦莱莉娅·霍布森 / 丹尼斯·普莱斯,喜剧 / 犯罪,英国
-203,182,《伍》（2005，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,伍 پنج‎,2005,[1401919](https://movie.douban.com/subject/1401919/),7.6,阿巴斯·基亚罗斯塔米,,纪录片,伊朗/日本/法国
-204,182,《伍德斯托克音乐节1969》（1970，迈克尔·沃德利 Michael Wadleigh）,伍德斯托克音乐节1969 Woodstock,1970,[1292342](https://movie.douban.com/subject/1292342/),9.2,迈克尔·沃德利,琼·贝兹 / 里奇·海文思 / 罗杰·达尔特雷,纪录片 / 历史 / 音乐,美国
-205,182,《休日》（1968，李晚熙 Man-hui Lee）,休日 휴일,1968,[4265289](https://movie.douban.com/subject/4265289/),6.9,李晚熙,申星一 / 全智英,剧情 / 爱情,韩国
-206,182,《伯爵夫人的耳环》（1953，马克斯·奥菲尔斯 Max Ophüls）,伯爵夫人的耳环 Madame de...,1953,[1301122](https://movie.douban.com/subject/1301122/),8.1,马克斯·奥菲尔斯,达尼埃尔·达里约 / 维托里奥·德西卡 / 查尔斯·博耶,剧情 / 爱情,法国/意大利
-207,182,《何处是我朋友的家》（1987，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,何处是我朋友的家 خانه دوست کجاست؟‎,1987,[1301897](https://movie.douban.com/subject/1301897/),8.9,阿巴斯·基亚罗斯塔米,巴比·艾哈迈德·波 / 艾哈迈德·艾哈迈德·波 / 科达·巴和·迪范,剧情,伊朗
-208,182,《你逃我也逃》（1942，恩斯特·刘别谦 Ernst Lubitsch）,你逃我也逃 To Be or Not to Be,1942,[1303418](https://movie.douban.com/subject/1303418/),9.3,恩斯特·刘别谦,卡洛·朗白 / 杰克·本尼 / 罗伯特·斯塔克,喜剧 / 爱情 / 战争,美国
-209,182,《你那边几点》（2001，蔡明亮 Tsai Ming-liang）,你那边几点 你那邊幾點,2001,[1294540](https://movie.douban.com/subject/1294540/),8.0,蔡明亮,李康生 / 陈湘琪 / 陆弈静,剧情 / 爱情,法国/中国台湾
-210,182,《倒扣的王牌》（1951，比利·怀尔德 Billy Wilder）,倒扣的王牌 Ace in the Hole,1951,[1293841](https://movie.douban.com/subject/1293841/),8.7,比利·怀尔德,柯克·道格拉斯 / 简·斯特林 / 罗伯特·亚瑟,剧情 / 黑色电影,美国
-211,182,《偶然与巧合》（1998，克劳德·勒鲁什 Claude Lelouch）,偶然与巧合 Hasards ou coïncidences,1998,[1420124](https://movie.douban.com/subject/1420124/),8.7,克洛德·勒卢什,Alessandra Martines / Pierre Arditi,剧情,法国/加拿大
-212,182,《偷吻》（1968，弗朗索瓦·特吕弗 François Truffaut）,偷吻 Baisers volés,1968,[1298197](https://movie.douban.com/subject/1298197/),7.9,弗朗索瓦·特吕弗,让-皮埃尔·利奥德 / 德菲因·塞里格 / 克洛德·雅德,剧情 / 爱情 / 喜剧,法国
-213,182,《儿子》（2002，达内兄弟 Jean-Pierre & Luc Dardenne）,他人之子 Le fils,2002,[1305337](https://movie.douban.com/subject/1305337/),8.1,让-皮埃尔·达内 / 吕克·达内,奥利维埃·古尔梅 / 摩根·马林 / 伊莎贝拉·索帕特,剧情,比利时/法国
-214,182,《克莱尔的膝盖》（1970，埃里克·侯麦 Eric Rohmer）,克莱尔的膝盖 Le genou de Claire,1970,[1294915](https://movie.douban.com/subject/1294915/),7.8,埃里克·侯麦,让-克洛德·布里亚利 / 奥罗拉·康纽 / 碧翠丝·罗曼德,剧情 / 爱情,法国
-215,182,《全金属外壳》（1987，斯坦利·库布里克 Stanley Kubrick）,全金属外壳 Full Metal Jacket,1987,[1300055](https://movie.douban.com/subject/1300055/),8.6,斯坦利·库布里克,马修·莫迪恩 / 亚当·鲍德温 / 文森特·多诺费奥,剧情 / 战争,英国/美国
-216,182,《兰闺艳血》（1950，尼古拉斯·雷 Nicholas Ray）,兰闺艳血 In a Lonely Place,1950,[1302923](https://movie.douban.com/subject/1302923/),7.9,尼古拉斯·雷,亨弗莱·鲍嘉 / 格洛丽亚·格雷厄姆 / 弗兰克·洛夫乔伊,剧情 / 黑色电影 / 悬疑 / 爱情 / 惊悚,美国
-217,182,《内心的伤痕》（1972，菲利普·加瑞尔 Philippe Garrel）,内心的伤痕 La cicatrice intérieure,1972,[1439985](https://movie.douban.com/subject/1439985/),7.5,菲利普·加瑞尔,尼可 / 菲利普·加瑞尔 / Christian Aaron Boulogne,剧情 / 奇幻 / 音乐,法国
-218,182,《内陆帝国》（2006，大卫·林奇 David Lynch）,内陆帝国 Inland Empire,2006,[1438734](https://movie.douban.com/subject/1438734/),7.7,大卫·林奇,劳拉·邓恩 / 杰瑞米·艾恩斯 / 贾斯汀·塞洛克斯,剧情 / 悬疑 / 惊悚,法国/波兰/美国
-219,182,《军中禁恋》（1999，克莱尔·德尼 Claire Denis）,军中禁恋 Beau travail,1999,[1306791](https://movie.douban.com/subject/1306791/),7.4,克莱尔·德尼,德尼·拉旺 / 米歇尔·索博 / 格莱戈尔·科林,剧情 / 同性,法国
-220,182,《冬日之光》（1962，英格玛·伯格曼 Ingmar Bergman）,冬日之光 Nattvardsgästerna,1963,[1296792](https://movie.douban.com/subject/1296792/),8.3,英格玛·伯格曼,古纳尔·布约恩施特兰德 / 马克斯·冯·叙多夫 / 英格丽·图林,剧情,瑞典
-221,182,《冰血暴》（1996，科恩兄弟 Joel & Ethan Coen）,冰血暴 Fargo,1996,[1292067](https://movie.douban.com/subject/1292067/),8.0,乔尔·科恩,威廉姆·H·梅西 / 史蒂夫·布西密 / 彼得·斯特曼,犯罪 / 剧情 / 惊悚,美国/英国
-222,182,《凯斯》（1970，肯·洛奇 Ken Loach）,小孩与鹰 Kes,1969,[1297920](https://movie.douban.com/subject/1297920/),8.6,肯·洛奇,大卫·布拉德利 / Freddie Fletcher / 琳内·佩里,剧情 / 儿童,英国
-223,182,《前进青春》（2006，佩德罗·科斯塔 Pedro Costa）,前进青春 Juventude em Marcha,2006,[1937459](https://movie.douban.com/subject/1937459/),7.4,佩德罗·科斯塔,Ventura / Vanda Duarte / Beatriz Duarte,剧情,葡萄牙/法国/瑞士
-224,182,《加斯·荷伯之迷》（1974，沃纳·赫尔佐格 Werner Herzog）,,,,,,,,
-225,182,《动物之血》（1949，乔治·弗朗叙 Georges Franju）,,,,,,,,
-226,182,《动物电影》（1981，维克多·宋菲尔德 / 米莉亚姆·阿劳克斯 Victor Schonfeld / Myriam Alaux）,,,,,,,,
-227,182,《北方的纳努克》（1922，罗伯特·J.弗拉哈迪 Robert J. Flaherty）,,,,,,,,
-228,182,《十诫之六: 切勿沉湎于情欲》（1990，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,,,,,,,,
-229,182,《千钧一发》（1997，安德鲁·尼科尔 Andrew Niccol）,,,,,,,,
-230,182,《午后的迷惘》（1943，梅雅·黛伦 Maya Deren）,,,,,,,,
-231,182,《午夜钟声》（1965，奥逊·威尔斯 Orson Welles）,,,,,,,,
-232,182,《半边人》（1983，方育平 Allen Fong）,,,,,,,,
-233,182,《单车少年》（2011，达内兄弟 Jean-Pierre & Luc Dardenne）,,,,,,,,
-234,182,《南国再见，南国》（1996，侯孝贤 Hsiao-hsien Hou）,,,,,,,,
-235,182,《南方》（1988，费尔南多·索拉纳斯 Fernando E. Solanas）,,,,,,,,
-236,182,《卡宾枪手》（1963，让-吕克·戈达尔 Jean-Luc Godard）,,,,,,,,
-237,182,《卡门》（1983，卡洛斯·绍拉 Carlos Saura）,,,,,,,,
-238,182,《印度母亲》（1957，梅布·卡恩 Mehboob Khan）,,,,,,,,
-239,182,《危楼春晓》（1953，李铁 Tie Li）,,,,,,,,
-240,182,《历劫佳人》（1958，奥逊·威尔斯 Orson Welles）,,,,,,,,
-241,182,《压路机和小提琴》（1961，安德烈·塔科夫斯基 Andrei Tarkovsky）,,,,,,,,
-242,182,《受难记》（1982，让-吕克·戈达尔 Jean-Luc Godard）,,,,,,,,
-243,182,《另一个女人》（1988，伍迪·艾伦 Woody Allen）,,,,,,,,
-244,182,《史密斯先生到华盛顿》（1939，弗兰克·卡普拉 Frank Capra）,,,,,,,,
-245,182,《同流者》（1970，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）,,,,,,,,
-246,182,《吸血鬼》（1915，路易·费雅德 Louis Feuillade）,,,,,,,,
-247,182,《吸血鬼》（1932，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,,,,,,,,
-248,182,《呐喊》（1957，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,,,,,,,,
-249,182,《周末》（1967，让-吕克·戈达尔 Jean-Luc Godard）,,,,,,,,
-250,182,《呼喊与细语》（1972，英格玛·伯格曼 Ingmar Bergman）,,,,,,,,
-251,182,《咖啡时光》（2003，侯孝贤 Hsiao-hsien Hou）,,,,,,,,
-252,182,《哨兵》（1992，阿诺·德斯普里钦 Arnaud Desplechin）,,,,,,,,
-253,182,《回到未来》（1985，罗伯特·泽米基斯 Robert Zemeckis）,,,,,,,,
-254,182,《回归》（2003，安德烈·日瓦金采夫 Andrei Zvyagintsev）,,,,,,,,
-255,182,《国王迷》（1975，约翰·休斯顿 John Huston）,,,,,,,,
-256,182,《圣山》（1973，亚历桑德罗·佐杜洛夫斯基 Alejandro Jodorowsky）,,,,,,,,
-257,182,《在人生的另一边》（2007，法提·阿金 Fatih Akin）,,,,,,,,
-258,182,《在桥下》（1946，海尔姆特·考特纳 Helmut Käutner）,,,,,,,,
-259,182,《地下情》（1986，关锦鹏 Stanley Kwan）,,,,,,,,
-260,182,《坠入》（2006，塔西姆·辛 Tarsem Singh）,,,,,,,,
-261,182,《外部空间》（2000，彼特·契尔卡斯基 Peter Tscherkassky）,,,,,,,,
-262,182,《夜船》（1979，玛格丽特·杜拉 Marguerite Duras）,,,,,,,,
-263,182,《夜逃鸳鸯》（1949，尼古拉斯·雷 Nicholas Ray）,,,,,,,,
-264,182,《大地在波动》（1948，卢奇诺·维斯康蒂 Luchino Visconti）,,,,,,,,
-265,182,《大树之歌》（1959，萨蒂亚吉特·雷伊 Satyajit Ray）,,,,,,,,
-266,182,《大菩萨岭》（1966，冈本喜八 Kihachi Okamoto）,,,,,,,,
-267,182,《大话西游》（1995，刘镇伟 Jeffrey Lau）,,,,,,,,
-268,182,《大闹天宫》（1965，万籁鸣 / 唐澄 Laiming Wan / Cheng Tang）,,,,,,,,
-269,182,《天使爱美丽》（2001，让-皮埃尔·热内 Jean-Pierre Jeunet）,,,,,,,,
-270,182,《天国与地狱》（1963，黑泽明 Akira Kurosawa）,,,,,,,,
-271,182,《天堂电影院》（1988，朱塞佩·托纳多雷 Giuseppe Tornatore）,,,,,,,,
-272,182,《天堂里的烦恼》（1932，恩斯特·刘别谦 Ernst Lubitsch）,,,,,,,,
-273,182,《天意》（1977，阿伦·雷乃 Alain Resnais）,,,,,,,,
-274,182,《太阳照常升起》（2007，姜文 Wen Jiang）,,,,,,,,
-275,182,《夺命剑》（1967，小林正树 Masaki Kobayashi）,,,,,,,,
-276,182,《奇爱博士》（1964，斯坦利·库布里克 Stanley Kubrick）,,,,,,,,
-277,182,《奇迹》（2011，是枝裕和 Hirokazu Koreeda）,,,,,,,,
-278,182,《奥兰多》（1992，莎莉·波特 Sally Potter）,,,,,,,,
-279,182,《奥林匹亚》（1938，莱尼·里芬斯塔尔 Leni Riefenstahl）,,,,,,,,
-280,182,《女人步上楼梯时》（1960，成濑巳喜男 Mikio Naruse）,,,,,,,,
-281,182,《女友礼拜五》（1940，霍华德·霍克斯 Howard Hawks）,,,,,,,,
-282,182,《女巫》（1922，本杰明·克里斯滕森 Benjamin Christensen）,,,,,,,,
-283,182,《女收藏家》（1967，埃里克·侯麦 Eric Rohmer）,,,,,,,,
-284,182,《女继承人》（1949，威廉·惠勒 William Wyler）,,,,,,,,
-285,182,《好家伙》（1990，马丁·斯科塞斯 Martin Scorsese）,,,,,,,,
-286,182,《如果……》（1968，林赛·安德森 Lindsay Anderson）,,,,,,,,
-287,182,《娜塞琳》（1959，路易斯·布努埃尔 Luis Buñuel）,,,,,,,,
-288,182,《子弹横飞百老汇》（1994，伍迪·艾伦 Woody Allen）,,,,,,,,
-289,182,《孤独的妻子》（1964，萨蒂亚吉特·雷伊 Satyajit Ray）,,,,,,,,
-290,182,《定理》（1968，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）,,,,,,,,
-291,182,《审判》（1962，奥逊·威尔斯 Orson Welles）,,,,,,,,
-292,182,《寂静的生活》（1995，伊丹十三 Juzo Itami）,,,,,,,,
-293,182,《对她说》（2002，佩德罗·阿莫多瓦 Pedro Almodóvar）,,,,,,,,
-294,182,《小鞋子》（1999，马基德·马基迪 Majid Majidi）,,,,,,,,
-295,182,《山椒大夫》（1954，沟口健二 Kenji Mizoguchi）,,,,,,,,
-296,182,《巨蟒与圣杯》（1975，特里·吉连姆 / 特里·琼斯 Terry Gilliam / Terry Jones）,,,,,,,,
-297,182,《巴顿将军》（1970，弗兰克·J.沙夫纳 ranklin J. Schaffner）,,,,,,,,
-298,182,《希林公主》（2008，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,,,,,,,,
-299,182,《幸福》（1965，阿涅斯·瓦尔达 Agnès Varda）,,,,,,,,
-300,182,《幽灵马车》（1921，维克多·斯约斯特罗姆 Victor Sjöström）,,,,,,,,
-301,182,《异形》（1979，雷德利·斯科特 Ridley Scott）,,,,,,,,
-302,182,《影子部队》（1969，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）,,,,,,,,
-303,182,《往日情怀》（1973，西德尼·波拉克 Sydney Pollack）,,,,,,,,
-304,182,《德州巴黎》（1984，维姆·文德斯 Wim Wenders）,,,,,,,,
-305,182,《忘忧森林》（1986，罗伯特·加德纳 Robert Gardner）,,,,,,,,
-306,182,《恋恋风尘》（1987，侯孝贤 Hsiao-hsien Hou）,,,,,,,,
-307,182,《恋爱与义务》（1931，卜万苍 Wancang Bu）,,,,,,,,
-308,182,《恋爱症候群》（2006，阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul）,,,,,,,,
-309,182,《情枭的黎明》（1993，布莱恩·德·帕尔玛 Brian De Palma）,,,,,,,,
-310,182,《情欲与虐杀》（1970，吉田喜重 Yoshishige Yoshida）,,,,,,,,
-311,182,《惩罚公园》（1971，彼得·沃特金斯 Peter Watkins）,,,,,,,,
-312,182,《感官世界》（1976，大岛渚 Nagisa Ôshima）,,,,,,,,
-313,182,《戏梦巴黎》（2003，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）,,,,,,,,
-314,182,《我们如此相爱》（1974，埃托尔·斯科拉 Ettore Scola）,,,,,,,,
-315,182,《我是古巴》（1968，米哈依尔·卡拉托佐夫 Mikhail Kalatozov）,,,,,,,,
-316,182,《我略知她一二》（1967，让-吕克·戈达尔 Jean-Luc Godard）,,,,,,,,
-317,182,《我要》（2004，莎莉·波特 Sally Potter）,,,,,,,,
-318,182,《战地浪漫曲》（1985，皮奥特·托多罗夫斯基 Pyotr Todorovskiy）,,,,,,,,
-319,182,《战场上的快乐圣诞》（1983，大岛渚 Nagisa Ôshima）,,,,,,,,
-320,182,《房屋是黑的》（2008，芙茹弗·法洛克扎德 Forugh Farrokhzad）,,,,,,,,
-321,182,《扎布里斯基角》（1970，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,,,,,,,,
-322,182,《抛掉书本上街去》（1971，寺山修司 Shuji Terayama）,,,,,,,,
-323,182,《拿破仑》（1927，阿贝尔·冈斯 Abel Gance）,,,,,,,,
-324,182,《捕鼠者》（1999，琳恩·拉姆塞 Lynne Ramsay）,,,,,,,,
-325,182,《操行零分》（1933，让·维果 Jean Vigo）,,,,,,,,
-326,182,《收播新闻》（1987，詹姆斯·L·布鲁克斯 James L. Brooks）,,,,,,,,
-327,182,《无姓之人》（2009，雅克·范·多梅尔 Jaco van Dormael）,,,,,,,,
-328,182,《无辜》（1976，卢奇诺·维斯康蒂 Luchino Visconti）,,,,,,,,
-329,182,《日以作夜》（1973，弗朗索瓦·特吕弗 François Truffaut）,,,,,,,,
-330,182,《早安》（1959，小津安二郎 Yasujiro Ozu）,,,,,,,,
-331,182,《旺妲的房间》（2000，佩德罗·科斯塔 Pedro Costa）,,,,,,,,
-332,182,《星期天的人们》（1930，柯特·西奥德马克 / 罗伯特·西奥德马克 / 埃德加·G.乌尔默 / 弗雷德·金尼曼 / 洛克斯·格里希 Curt Siodmak / Robert Siodmak / Edgar G. Ulmer / Fred Zinnemann / Rochus Gliese）,,,,,,,,
-333,182,《普通的法西斯》（1966，米哈伊尔·罗姆 Mikhail Romm）,,,,,,,,
-334,182,《普里斯特法官》（1934，约翰·福特 John Ford）,,,,,,,,
-335,182,《暴雨将至》（1994，米尔科·曼彻夫斯基 Milcho Manchevski）,,,,,,,,
-336,182,《曼哈顿》（1979，伍迪·艾伦 Woody Allen）,,,,,,,,
-337,182,《最卑贱的人》（1924，F·W·茂瑙 F.W. Murnau）,,,,,,,,
-338,182,《月亮在跳舞》（1996，加林·努格罗 Garin Nugroho）,,,,,,,,
-339,182,《月球旅行记》（1902，乔治·梅里爱 Georges Méliès）,,,,,,,,
-340,182,《朦胧的欲望》（1977，路易斯·布努埃尔 Luis Buñuel）,,,,,,,,
-341,182,《木屐树》（1978，埃曼诺·奥米 Ermanno Olmi）,,,,,,,,
-342,182,《机遇之歌》（1987，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,,,,,,,,
-343,182,《杀人短片》（1988，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,,,,,,,,
-344,182,《杀手烙印》（1967，铃木清顺 (Seijun Suzuki)）,,,,,,,,
-345,182,《杀羊人》（1977，查尔斯·伯内特 Charles Burnett）,,,,,,,,
-346,182,《枪疯》（1950，约瑟夫·H.刘易斯 Joseph H. Lewis）,,,,,,,,
-347,182,《柏林谍影》（1965，马丁·里特 Martin Ritt）,,,,,,,,
-348,182,《梦》（1990，黑泽明 Akira Kurosawa）,,,,,,,,
-349,182,《梵高》（1991，莫里斯·皮亚拉 Maurice Pialat）,,,,,,,,
-350,182,《樱桃的滋味》（1997，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,,,,,,,,
-351,182,《橄榄树下的情人》（1994，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,,,,,,,,
-352,182,《欲望法则》（1987，佩德罗·阿莫多瓦 Pedro Almodóvar）,,,,,,,,
-353,182,《正午》（1952，弗雷德·金尼曼 Fred Zinnemann）,,,,,,,,
-354,182,《步履不停》（2008，是枝裕和 Hirokazu Koreeda）,,,,,,,,
-355,182,《武训传》（1952，孙瑜 Yu Sun）,,,,,,,,
-356,182,《死吻》（1955，罗伯特·奥尔德里奇 Robert Aldrich）,,,,,,,,
-357,182,《比丽迪亚娜》（1961，路易斯·布努埃尔 Luis Buñuel）,,,,,,,,
-358,182,《水中刀》（1962，罗曼·波兰斯基 Roman Polanski）,,,,,,,,
-359,182,《沙家浜》（1971，武兆堤 Zhaodi Wu）,,,,,,,,
-360,182,《没有过去的男人》（2002，阿基·考里斯马基 Aki Kaurismaki）,,,,,,,,
-361,182,《法国康康舞》（1954，让·雷诺阿 Jean Renoir）,,,,,,,,
-362,182,《洛可兄弟》（1960，卢奇诺·维斯康蒂 Luchino Visconti）,,,,,,,,
-363,182,《洞》（1998，蔡明亮 Tsai Ming-liang）,,,,,,,,
-364,182,《活着》（1994，张艺谋 Yimou Zhang）,,,,,,,,
-365,182,《流浪者之歌》（1988，埃米尔·库斯图里卡 Emir Kusturica）,,,,,,,,
-366,182,《浩劫》（1985，克劳德·朗兹曼 Claude Lanzmann）,,,,,,,,
-367,182,《浪花悲歌》（1936，沟口健二 Kenji Mizoguchi）,,,,,,,,
-368,182,《浪荡儿》（1956，费德里科·费里尼 Federico Fellini）,,,,,,,,
-369,182,《浮云世事》（1996，阿基·考里斯马基 Aki Kaurismaki）,,,,,,,,
-370,182,《浮生一日》（2011，凯文·麦克唐纳 Kevin Macdonald）,,,,,,,,
-371,182,《海上花》（1998，侯孝贤 Hsiao-hsien Hou）,,,,,,,,
-372,182,《海滩的一天》（1983，杨德昌 Edward Yang）,,,,,,,,
-373,182,《淑女伊芙》（1941，普莱斯顿·斯特奇斯 Preston Sturges）,,,,,,,,
-374,182,《深锁春光一院愁》（1955，道格拉斯·塞克 Douglas Sirk）,,,,,,,,
-375,182,《清作之妻》（1965，增村保造 Yasuzo Masumura）,,,,,,,,
-376,182,《漩涡之外》（1947，雅克·特纳 Jacques Tourneur）,,,,,,,,
-377,182,《漫长的告别》（1971，琪拉·穆拉托娃 Kira Muratova）,,,,,,,,
-378,182,《漫长的告别》（1973，罗伯特·奥特曼 Robert Altman）,,,,,,,,
-379,182,《火柴厂女工》（1990，阿基·考里斯马基 Aki Kaurismaki）,,,,,,,,
-380,182,《火树银花》（1948，文森特·明奈利 Vincente Minnelli）,,,,,,,,
-381,182,《火车大劫案》（1903，埃德温·S.波特 Edwin S. Porter）,,,,,,,,
-382,182,《火车进站》（1896，卢米埃尔兄弟 Auguste & Louis Lumière）,,,,,,,,
-383,182,《热天午后》（1975，西德尼·吕美特 Sidney Lumet）,,,,,,,,
-384,182,《燃火的时刻》（1970，费尔南多·索拉纳斯 Fernando Solanas）,,,,,,,,
-385,182,《爱情短片》（1988，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,,,,,,,,
-386,182,《爱情神话》（1969，费德里科·费里尼 Federico Fellini）,,,,,,,,
-387,182,《牧场之家好做伴》（2006，罗伯特·奥特曼 Robert Altman）,,,,,,,,
-388,182,《猎人之夜》（1955，查尔斯·劳顿 Charles Laughton）,,,,,,,,
-389,182,《猜火车》（1996，丹尼·鲍尔 Danny Boyle）,,,,,,,,
-390,182,《玛丽娅·布劳恩的婚姻》（1979，赖纳·维尔纳·法斯宾德 Rainer Werner Fassbinder）,,,,,,,,
-391,182,《玩家马布斯博士》（1922，弗里茨·朗 Fritz Lang）,,,,,,,,
-392,182,《甜蜜蜜》（1996，陈可辛 Peter Chan）,,,,,,,,
-393,182,《生之欲》（1952，黑泽明 Akira Kurosawa）,,,,,,,,
-394,182,《生活的发现》（2002，洪尚秀 Sang-soo Hong）,,,,,,,,
-395,182,《电视台风云》（1976，西德尼·吕美特 Sidney Lumet）,,,,,,,,
-396,182,《男人的争斗》（1955，朱尔斯·达辛 Jules Dassin）,,,,,,,,
-397,182,《疯劫》（1979，许鞍华 Ann Hui）,,,,,,,,
-398,182,《白痴》（1999，拉斯·冯·提尔 Lars von Trier）,,,,,,,,
-399,182,《百花深处》（2002，陈凯歌 Kaige Chen）,,,,,,,,
-400,182,《盗马贼》（1986，田壮壮 Zhuangzhuang Tian）,,,,,,,,
-401,182,《真实罗曼史》（1993，托尼·斯科特 Tony Scott）,,,,,,,,
-402,182,《神女》（1934，吴永刚 Yonggang Wu）,,,,,,,,
-403,182,《福利》（1975，弗雷德里克·怀斯曼 Frederick Wiseman）,,,,,,,,
-404,182,《福尔摩斯二世》（1924，巴斯特·基顿 Buster Keaton）,,,,,,,,
-405,182,《离魂异客》（1995，吉姆·贾木许 Jim Jarmusch）,,,,,,,,
-406,182,《秋日和》（1960，小津安二郎 Yasujirô Ozu）,,,,,,,,
-407,182,《稻草狗》（1971，萨姆·佩金帕 Sam Peckinpah）,,,,,,,,
-408,182,《窃听大阴谋》（1974，弗朗西斯·福特·科波拉 Francis Ford Coppola）,,,,,,,,
-409,182,《窃听风暴》（2006，弗洛里安·亨克尔·冯·多纳斯马 Florian Henckel von Donnersmarck）,,,,,,,,
-410,182,《第三类接触》（1977，史蒂文·斯皮尔伯格 Steven Spielberg）,,,,,,,,
-411,182,《第二号》（1975，让-吕克·戈达尔 Jean-Luc Godard）,,,,,,,,
-412,182,《第二层地狱》（1990，亚历山大·索科洛夫 Alexander Sokurov）,,,,,,,,
-413,182,《米兰奇迹》（1951，维托里奥·德·西卡 Vittorio De Sica）,,,,,,,,
-414,182,《索多玛120天》（1976，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）,,,,,,,,
-415,182,《红在革命蔓延时》（1977，克利斯·马克 Chris Marker）,,,,,,,,
-416,182,《红色海报》（1976，弗兰克·卡塞蒂 Frank Cassenti）,,,,,,,,
-417,182,《红菱艳》（1948，艾默力·皮斯伯格 / 迈克尔·鲍威尔 Emeric Pressburger / Michael Powell）,,,,,,,,
-418,182,《红辣椒》（2006，今敏 Satoshi Kon）,,,,,,,,
-419,182,《绅士们，我把爱因斯坦给宰掉了哦》（1970，奥德里奇·利普斯基 Oldrich Lipský）,,,,,,,,
-420,182,《绘图师的合约》（1982，彼得·格林纳威 Peter Greenaway）,,,,,,,,
-421,182,《绿光》（1986，埃里克·侯麦 Eric Rohmer）,,,,,,,,
-422,182,《罗拉快跑》（1998，汤姆·提克威 Tom Tykwer）,,,,,,,,
-423,182,《罗拉秘史》（1944，奥托·普莱明格 Otto Preminger）,,,,,,,,
-424,182,《罗马风情画》（1972，费德里科·费里尼 Federico Fellini）,,,,,,,,
-425,182,《美人计》（1946，阿尔弗雷德·希区柯克 Alfred Hitchcock）,,,,,,,,
-426,182,《老无所依》（2007，科恩兄弟 Joel & Ethan Coen）,,,,,,,,
-427,182,《耶利米启示录》（2006，拉夫·达兹 Lav Diaz）,,,,,,,,
-428,182,《聪明笨伯古惑车》（1971，雅克·塔蒂 Jacques Tati）,,,,,,,,
-429,182,《肖申克的救赎》（1994，弗兰克·德拉邦特 Frank Darabont）,,,,,,,,
-430,182,《育婴奇谭》（1938，霍华德·霍克斯 Howard Hawks）,,,,,,,,
-431,182,《自由》（2001，里山德罗·阿隆索 Lisandro Alonso）,,,,,,,,
-432,182,《致命档案》（1990，肯·洛奇 Ken Loach）,,,,,,,,
-433,182,《芭玛戈》（2006，阿伯德拉马纳·希萨柯 Abderrahmane Sissako）,,,,,,,,
-434,182,《花园》（1990，德里克·贾曼 Derek Jarman）,,,,,,,,
-435,182,《苏州河》（2000，娄烨 Ye Lou）,,,,,,,,
-436,182,《苦月亮》（1992，罗曼·波兰斯基 Roman Polanski）,,,,,,,,
-437,182,《苦雨恋春风》（1956，道格拉斯·塞克 Douglas Sirk）,,,,,,,,
-438,182,《蓝白红三部曲之白》（1994，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,,,,,,,,
-439,182,《虎豹小霸王》（1969，乔治·罗伊·希尔 George Roy Hill）,,,,,,,,
-440,182,《蝙蝠侠前传3：黑暗骑士崛起》（2012，克里斯托弗·诺兰 Christopher Nolan）,,,,,,,,
-441,182,《血溅十三号警署》（1976，约翰·卡朋特 John Carpenter）,,,,,,,,
-442,182,《被遗忘的人们》（1950，路易斯·布努埃尔 Luis Buñuel）,,,,,,,,
-443,182,《被遗忘的祖先的阴影》（1966，谢尔盖·帕拉杰诺夫 Sergei Parajanov）,,,,,,,,
-444,182,《词语》（1955，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,,,,,,,,
-445,182,《谁来为我摘月亮》（1999，巴克迪亚·库唐纳扎洛夫 Bakhtyar Khudojnazarov）,,,,,,,,
-446,182,《贪婪》（1924，埃里克·冯·施特罗海姆 Erich von Stroheim）,,,,,,,,
-447,182,《赖婚》（1922，D·W·格里菲斯 D.W. Griffith）,,,,,,,,
-448,182,《赤胆屠龙》（1959，霍华德·霍克斯 Howard Hawks）,,,,,,,,
-449,182,《走出非洲》（1985，西德尼·波拉克 Sydney Pollack）,,,,,,,,
-450,182,《跳出我天地》（2000，史蒂芬·戴德利 Stephen Daldry）,,,,,,,,
-451,182,《辛德勒的名单》（1993，史蒂文·斯皮尔伯格 Steven Spielberg）,,,,,,,,
-452,182,《过客》（1975，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,,,,,,,,
-453,182,《迈尼蒙坦特》（1928，迪米特里·吉萨诺夫 Dimitri Kirsanoff）,,,,,,,,
-454,182,《迷墙》（1982，阿兰·帕克 Alan Parker）,,,,,,,,
-455,182,《逍遥骑士》（1969，丹尼斯·霍珀 Dennis Hopper）,,,,,,,,
-456,182,《通天塔》（2006，亚利桑德罗·冈萨雷斯·伊纳里多 Alejandro González Iñárritu）,,,,,,,,
-457,182,《邀你同游》（1982，彼特·德尔·蒙特 Peter Del Monte）,,,,,,,,
-458,182,《邦妮和克莱德》（1967，阿瑟·佩恩 Arthur Penn）,,,,,,,,
-459,182,《邻居》（1952，诺曼·麦克拉伦 Norman McLaren）,,,,,,,,
-460,182,《都灵之马》（2011，贝拉·塔尔 Béla Tarr）,,,,,,,,
-461,182,《重庆森林》（1994，王家卫 Kar Wai Wong）,,,,,,,,
-462,182,《野玫瑰之恋》（1960，王天林 Tian-lin Wang）,,,,,,,,
-463,182,《钢琴教师》（2001，迈克尔·哈内克 Michael Haneke）,,,,,,,,
-464,182,《铁男1：金属兽》（1989，塚本晋也 Shinya Tsukamoto）,,,,,,,,
-465,182,《铁皮鼓》（1979，沃尔克·施隆多夫 Volker Schlöndorff）,,,,,,,,
-466,182,《铁窗喋血》（1967，斯图尔特·罗森博格 Stuart Rosenberg）,,,,,,,,
-467,182,《铁路的白蔷薇》（1923，阿贝尔·冈斯 Abel Gance）,,,,,,,,
-468,182,《银河系漫游指南》（2005，加斯·詹宁斯 Garth Jennings）,,,,,,,,
-469,182,《阳光灿烂的日子》（1994，姜文 Wen Jiang）,,,,,,,,
-470,182,《阿基拉》（1988，大友克洋 Katsuhiro Ôtomo）,,,,,,,,
-471,182,《阿尔卡特兹的养鸟人》（1962，约翰·弗兰克海默 John Frankenheimer）,,,,,,,,
-472,182,《阿尔及尔之战》（1966，吉洛·彭特克沃 Gillo Pontecorvo）,,,,,,,,
-473,182,《阿尔法城》（1965，让-吕克 戈达尔 Jean-Luc Godard）,,,,,,,,
-474,182,《阿黛尔·雨果的故事》（1975，弗朗索瓦·特吕弗 François Truffaut）,,,,,,,,
-475,182,《雨果》（2011，马丁·斯科塞斯 Martin Scorsese）,,,,,,,,
-476,182,《霍华德庄园》（1992，詹姆斯·伊沃里 James Ivory）,,,,,,,,
-477,182,《青春残酷物语》（1960，大岛渚 Nagisa Ôshima）,,,,,,,,
-478,182,《非洲女王号》（1951，约翰·休斯顿 John Huston）,,,,,,,,
-479,182,《音乐室》（1958，萨蒂亚吉特·雷伊 Satyajit Ray）,,,,,,,,
-480,182,《颐和园》（2007，娄烨 Ye Lou）,,,,,,,,
-481,182,《风柜来的人》（1983，侯孝贤 Hsiao-hsien Hou）,,,,,,,,
-482,182,《风烛泪》（1952，维托里奥·德·西卡 Vittorio De Sica）,,,,,,,,
-483,182,《风的故事》（1988，尤里斯·伊文思 Joris Ivens）,,,,,,,,
-484,182,《饥饿海峡》（1965，内田吐梦 Tomu Uchida）,,,,,,,,
-485,182,《马耳他之鹰》（1941，约翰·休斯顿 John Huston）,,,,,,,,
-486,182,《马路天使》（1937，袁牧之 Muzhi Yuan）,,,,,,,,
-487,182,《高潮艺术》（1998，丽莎·查罗登科 Lisa Cholodenko）,,,,,,,,
-488,182,《鬼子来了》（2000，姜文 Wen Jiang）,,,,,,,,
-489,182,《鲸鱼马戏团》（2000，贝拉·塔尔 Béla Tarr）,,,,,,,,
-490,182,《鹰扬》（1982，扬·特洛尔 Jan Troell）,,,,,,,,
-491,182,《麦秋》（1951，小津安二郎 Yasujirô Ozu）,,,,,,,,
-492,182,《麻将》（1996，杨德昌 Edward Yang）,,,,,,,,
-493,182,《黑上帝白魔鬼》（1964，格劳贝尔·罗恰 Glauber Rocha）,,,,,,,,
-494,182,《黑客帝国2：重装上阵》（2003，安迪·沃卓斯基 / 拉娜·沃卓斯基 Andy Wachowski / Lana Wachowski）,,,,,,,,
-495,182,《黑水仙》（1947，迈克尔·鲍威尔 Michael Powell）,,,,,,,,
-496,182,《黑鹰坠落》（2002，雷德利·斯科特 Ridley Scott）,,,,,,,,
-497,182,《龙门客栈》（1967，胡金铨 King Hu）,,,,,,,,
+Index,排名,电影名,豆瓣电影,豆瓣年份,豆瓣打分,导演,主演,类型,地区
+0,1,《公民凯恩》（1941，奥逊·威尔斯 Orson Welles）,[公民凯恩 Citizen Kane](https://movie.douban.com/subject/1292288/),1941,8.8,奥逊·威尔斯,奥逊·威尔斯 / 约瑟夫·科顿 / 多萝西·康明戈尔,剧情 / 悬疑,美国
+1,2,《教父》（1972，弗朗西斯·福特·科波拉 Francis Ford Coppola）,[教父 The Godfather](https://movie.douban.com/subject/1291841/),1972,9.3,弗朗西斯·福特·科波拉,马龙·白兰度 / 阿尔·帕西诺 / 詹姆斯·肯恩,剧情 / 犯罪,美国
+2,3,《牯岭街少年杀人事件》（1991，杨德昌 Edward Yang）,[牯岭街少年杀人事件 牯嶺街少年殺人事件](https://movie.douban.com/subject/1292329/),1991,8.9,杨德昌,张震 / 杨静怡 / 张国柱,剧情 / 犯罪,中国台湾
+3,4,《2001太空漫游》（1968，斯坦利·库布里克 Stanley Kubrick）,[2001太空漫游 2001: A Space Odyssey](https://movie.douban.com/subject/1292226/),1968,8.9,斯坦利·库布里克,凯尔·杜拉 / 加里·洛克伍德 / 威廉姆·西尔维斯特,科幻 / 惊悚 / 冒险,英国/美国
+4,5,《东京物语》（1953，小津安二郎 Yasujirô Ozu）,[东京物语 東京物語](https://movie.douban.com/subject/1291568/),1953,9.1,小津安二郎,笠智众 / 原节子 / 杉村春子,剧情 / 家庭,日本
+5,6,《八部半》（1963，费德里科·费里尼 Federico Fellini）,[八部半 8½](https://movie.douban.com/subject/1361276/),1963,8.6,费德里科·费里尼,马塞洛·马斯楚安尼 / 克劳迪娅·卡汀娜 / 阿努克·艾梅,剧情,意大利/法国
+6,7,《迷魂记》（1958，阿尔弗雷德·希区柯克 Alfred Hitchcock）,[迷魂记 Vertigo](https://movie.douban.com/subject/1297294/),1958,8.7,阿尔弗雷德·希区柯克,詹姆斯·斯图尔特 / 金·诺瓦克 / 芭芭拉·贝尔·戈迪斯,爱情 / 悬疑 / 惊悚,美国
+7,8,《七武士》（1954，黑泽明 Akira Kurosawa）,[七武士 七人の侍](https://movie.douban.com/subject/1295399/),1954,9.3,黑泽明,三船敏郎 / 志村乔 / 津岛惠子,动作 / 冒险 / 剧情,日本
+8,9,《大都会》（1927，弗里茨·朗 Fritz Lang）,[大都会 Metropolis](https://movie.douban.com/subject/1298107/),1927,9.1,弗里茨·朗,阿弗莱德·阿贝尔 / 古斯塔夫·佛力施 / 鲁道夫·克莱恩-鲁格,剧情 / 科幻,德国
+9,10,《小城之春》（1948，费穆 Mu Fei）,[小城之春](https://movie.douban.com/subject/1323746/),1948,8.7,费穆,李纬 / 韦伟 / 石羽,剧情 / 爱情,中国大陆
+10,11,《去年在马里昂巴德》（1961，阿伦·雷乃 Alain Resnais）,[去年在马里昂巴德 L'année dernière à Marienbad](https://movie.douban.com/subject/1400240/),1961,8.3,阿伦·雷乃,德菲因·塞里格 / 乔治·阿尔贝塔齐 / 萨夏·皮托埃夫,剧情 / 爱情 / 悬疑,法国/意大利
+11,11,《战舰波将金号》（1925，谢尔盖·爱森斯坦 Sergei M. Eisenstein）,[战舰波将金号 Броненосец Потёмкин](https://movie.douban.com/subject/1293492/),1925,8.7,谢尔盖·爱森斯坦,亚历山大·安东诺夫 / 弗拉迪米尔·巴斯基 / 格里高利·亚历山德罗夫,剧情 / 历史 / 战争,苏联
+12,11,《玩乐时间》（1967，雅克·塔蒂 Jacques Tati）,[玩乐时间 Play Time](https://movie.douban.com/subject/1303543/),1967,8.8,雅克·塔蒂,雅克·塔蒂 / Barbara Dennek / France Rumilly,喜剧,法国/意大利
+13,14,《偷自行车的人》（1948，维托里奥·德·西卡 Vittorio De Sica）,[偷自行车的人 Ladri di biciclette](https://movie.douban.com/subject/1295873/),1948,9.1,维托里奥·德西卡,兰贝托·马乔拉尼 / 恩佐·斯泰奥拉 / 莉安拉·卡雷尔,犯罪 / 剧情,意大利
+14,15,《奇遇》（1960，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,[奇遇 L'avventura](https://movie.douban.com/subject/1389923/),1960,8.2,米开朗基罗·安东尼奥尼,加布里埃尔·费泽蒂 / 莫妮卡·维蒂 / 蕾雅·马萨利,剧情 / 悬疑,意大利/法国
+15,15,《悲情城市》（1989，侯孝贤 Hsiao-hsien Hou）,[悲情城市](https://movie.douban.com/subject/1294194/),1989,9.0,侯孝贤,梁朝伟 / 辛树芬 / 陈松勇,剧情 / 历史,中国台湾
+16,15,《日出》（1927，F·W·茂瑙 F.W. Murnau）,[日出 Sunrise: A Song of Two Humans](https://movie.douban.com/subject/1295753/),1927,8.8,F·W·茂瑙,乔治·奥布莱恩 / 珍妮·盖诺 / 玛格丽特·利文斯顿,剧情 / 爱情,美国
+17,15,《游戏规则》（1939，让·雷诺阿 Jean Renoir）,[游戏规则 La Règle du jeu](https://movie.douban.com/subject/1401261/),1939,8.4,让·雷诺阿,诺拉·格雷戈尔 / 波莱特·杜博斯特 / 米拉·帕雷利,喜剧 / 剧情,法国
+18,19,《精疲力尽》（1960，让-吕克·戈达尔 Jean-Luc Godard）,[精疲力尽 À bout de souffle](https://movie.douban.com/subject/1353745/),1960,8.4,让-吕克·戈达尔,珍·茜宝 / 让-保罗·贝尔蒙多 / 达尼埃尔·布朗热,剧情 / 爱情 / 犯罪,法国
+19,20,《甜蜜的生活》（1960，费德里科·费里尼 Federico Fellini）,[甜蜜的生活 La dolce vita](https://movie.douban.com/subject/1293271/),1960,8.6,费德里科·费里尼,马塞洛·马斯楚安尼 / 安妮塔·艾克伯格 / 阿努克·艾梅,剧情 / 喜剧,意大利/法国
+20,21,《地下》（1995，埃米尔·库斯图里卡 Emir Kusturica）,[地下 Подземље](https://movie.douban.com/subject/1292206/),1995,9.2,埃米尔·库斯图里卡,米基·马诺伊洛维奇 / 拉扎尔·里斯托夫斯基 / 米里亚娜·约科维奇,剧情 / 战争,南斯拉夫/法国/德国/保加利亚/捷克/匈牙利/英国/美国
+21,21,《城市之光》（1931，查理·卓别林 Charles Chaplin）,[城市之光 City Lights](https://movie.douban.com/subject/1293908/),1931,9.3,查理·卓别林,查理·卓别林 / 弗吉尼亚·切瑞尔 / 佛罗伦斯·李,喜剧 / 剧情 / 爱情,美国
+22,21,《镜子》（1975，安德烈·塔科夫斯基 Andrei Tarkovsky）,[镜子 Зеркало](https://movie.douban.com/subject/1299248/),1975,9.0,安德烈·塔可夫斯基,玛格丽特·捷列霍娃 / 因诺肯季·斯莫克图诺夫斯基 / 奥列格·扬科夫斯基,传记 / 剧情 / 历史 / 战争,苏联
+23,24,《圣女贞德蒙难记》（1928，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,[圣女贞德蒙难记 La Passion de Jeanne d'Arc](https://movie.douban.com/subject/1293783/),1928,8.7,卡尔·西奥多·德莱叶,玛利亚·法奥康涅蒂 / 安德烈·贝利 / 莫里斯·舒茨,传记 / 犯罪 / 剧情 / 历史,法国
+24,24,《秋刀鱼之味》（1962，小津安二郎 Yasujirô Ozu）,[秋刀鱼之味 秋刀魚の味](https://movie.douban.com/subject/1294433/),1962,8.7,小津安二郎,笠智众 / 岩下志麻 / 冈田茉莉子,剧情 / 家庭,日本
+25,24,《第七封印》（1957，英格玛·伯格曼 Ingmar Bergman）,[第七封印 Det sjunde inseglet](https://movie.douban.com/subject/1293234/),1957,8.5,英格玛·伯格曼,古纳尔·布约恩施特兰德 / 本特·埃切罗特 / 尼尔斯·波普,剧情 / 奇幻,瑞典
+26,27,《M就是凶手》（1931，弗里茨·朗 Fritz Lang）,[M就是凶手 M - Eine Stadt sucht einen Mörder](https://movie.douban.com/subject/1293381/),1931,8.3,弗里茨·朗,彼得·洛 / 艾伦·维德曼 / 因格·兰德特,剧情 / 犯罪 / 惊悚 / 黑色电影,德国
+27,27,《一一》（2000，杨德昌 Edward Yang）,[一一](https://movie.douban.com/subject/1292434/),2000,9.1,杨德昌,吴念真 / 李凯莉 / 金燕玲,剧情 / 爱情 / 家庭,中国台湾/日本
+28,27,《低俗小说》（1994，昆汀·塔伦蒂诺 Quentin Tarantino）,[低俗小说 Pulp Fiction](https://movie.douban.com/subject/1291832/),1994,8.9,昆汀·塔伦蒂诺,约翰·特拉沃尔塔 / 乌玛·瑟曼 / 阿曼达·普拉莫,剧情 / 喜剧 / 犯罪,美国
+29,27,《出租车司机》（1976，马丁·斯科塞斯 Martin Scorsese）,[出租车司机 Taxi Driver](https://movie.douban.com/subject/1292222/),1976,8.6,马丁·斯科塞斯,罗伯特·德尼罗 / 朱迪·福斯特 / 斯碧尔·谢波德,剧情 / 犯罪,美国
+30,27,《四百击》（1959，弗朗索瓦·特吕弗 François Truffaut）,[四百击 Les quatre cents coups](https://movie.douban.com/subject/1300056/),1959,8.9,弗朗索瓦·特吕弗,让-皮埃尔·利奥德 / 克莱尔·莫里耶 / 阿尔贝·雷米,犯罪 / 剧情,法国
+31,27,《浮云》（1955，成濑巳喜男 Mikio Naruse）,[浮云 浮雲](https://movie.douban.com/subject/1298870/),1955,8.6,成濑巳喜男,高峰秀子 / 森雅之 / 冈田茉莉子,剧情 / 爱情,日本
+32,33,《惊魂记》（1960，阿尔弗雷德·希区柯克 Alfred Hitchcock）,[惊魂记 Psycho](https://movie.douban.com/subject/1293181/),1960,9.0,阿尔弗雷德·希区柯克,安东尼·博金斯 / 维拉·迈尔斯 / 约翰·加文,悬疑 / 惊悚 / 恐怖,美国
+33,34,《持摄影机的人》（1929，吉加·维尔托夫 Dziga Vertov）,[持摄影机的人 Человек с Киноаппаратом](https://movie.douban.com/subject/1293199/),1929,9.1,吉加·维尔托夫,Mikhail Kaufman,纪录片,苏联
+34,34,《摩登时代》（1936，查理·卓别林 Charles Chaplin）,[摩登时代 Modern Times](https://movie.douban.com/subject/1294371/),1936,9.3,查理·卓别林,查理·卓别林 / 宝莲·高黛 / 亨利·伯格曼,剧情 / 喜剧 / 爱情,美国
+35,34,《日落大道》（1950，比利·怀尔德 Billy Wilder）,[日落大道 Sunset Blvd.](https://movie.douban.com/subject/1298733/),1950,8.8,比利·怀尔德,威廉·霍尔登 / 葛洛丽亚·斯旺森 / 埃里克·冯·施特罗海姆,剧情 / 黑色电影,美国
+36,34,《现代启示录》（1979，弗朗西斯·福特·科波拉 Francis Ford Coppola）,[现代启示录 Apocalypse Now](https://movie.douban.com/subject/1292260/),1979,8.5,弗朗西斯·福特·科波拉,马丁·辛 / 马龙·白兰度 / 罗伯特·杜瓦尔,剧情 / 战争,美国
+37,34,《罗生门》（1950，黑泽明 Akira Kurosawa）,[罗生门 羅生門](https://movie.douban.com/subject/1291879/),1950,8.8,黑泽明,三船敏郎 / 京町子 / 森雅之,剧情 / 犯罪 / 悬疑,日本
+38,34,《阿玛柯德》（1973，费德里科·费里尼 Federico Fellini）,[阿玛柯德 Amarcord](https://movie.douban.com/subject/1298672/),1973,8.7,费德里科·费里尼,普佩拉·玛奇奥 / 阿尔曼多·布兰恰 / 玛加莉·诺埃尔,剧情 / 喜剧,意大利/法国
+39,34,《雨中曲》（1952，斯坦利·杜南 Stanley Donen）,[雨中曲 Singin' in the Rain](https://movie.douban.com/subject/1293460/),1952,9.1,斯坦利·多南 / 吉恩·凯利,吉恩·凯利 / 唐纳德·奥康纳 / 黛比·雷诺斯,喜剧 / 歌舞 / 爱情,美国
+40,41,《亚特兰大号》（1934，让·维果 Jean Vigo）,[亚特兰大号 L'Atalante](https://movie.douban.com/subject/1299433/),1934,8.1,让·维果,米歇尔·西蒙 / 迪塔·帕尔洛 / 让·达斯特,剧情 / 爱情,法国
+41,41,《将军号》（1926，巴斯特·基顿 Buster Keaton）,[将军号 The General](https://movie.douban.com/subject/1292778/),1926,9.1,巴斯特·基顿 / 克莱德·布鲁克曼,巴斯特·基顿 / 玛丽昂·马克 / 格伦·卡文德,剧情 / 喜剧 / 动作 / 战争 / 冒险,美国
+42,41,《广岛之恋》（1959，阿伦·雷乃 Alain Resnais）,[广岛之恋 Hiroshima mon amour](https://movie.douban.com/subject/1302050/),1959,7.9,阿伦·雷乃,埃玛妞·丽娃 / 冈田英次 / 贝尔纳·弗雷松,剧情 / 爱情 / 战争,法国/日本
+43,41,《晚春》（1949，小津安二郎 Yasujirô Ozu）,[晚春 晩春](https://movie.douban.com/subject/1307265/),1949,8.7,小津安二郎,笠智众 / 原节子 / 月丘梦路,剧情 / 家庭,日本
+44,41,《狂人皮埃罗》（1965，让-吕克·戈达尔 Jean-Luc Godard）,[狂人皮埃罗 Pierrot le fou](https://movie.douban.com/subject/1292533/),1965,8.4,让-吕克·戈达尔,让-保罗·贝尔蒙多 / 安娜·卡里娜 / 贾泽拉·加瓦尼,剧情 / 爱情 / 犯罪,法国/意大利
+45,41,《童年往事》（1986，侯孝贤 Hsiao-hsien Hou）,[童年往事](https://movie.douban.com/subject/1300572/),1985,8.9,侯孝贤,游安顺 / 田丰 / 梅芳,剧情 / 传记 / 家庭,中国台湾
+46,41,《芬妮与亚历山大》（1982，英格玛·伯格曼 Ingmar Bergman）,[芬妮与亚历山大 Fanny och Alexander](https://movie.douban.com/subject/1292784/),1982,8.7,英格玛·伯格曼,克里斯蒂娜·阿道夫森 / 伯杰·阿斯特 / 佩妮娜·奥威,剧情,法国/瑞典/西德
+47,41,《蚀》（1962，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,[蚀 L'eclisse](https://movie.douban.com/subject/1293105/),1962,8.4,米开朗基罗·安东尼奥尼,阿兰·德龙 / 莫妮卡·维蒂 / 弗朗西斯科·拉瓦尔,剧情 / 爱情,意大利/法国
+48,41,《阿拉伯的劳伦斯》（1962，大卫·里恩 David Lean）,[阿拉伯的劳伦斯 Lawrence of Arabia](https://movie.douban.com/subject/1292349/),1962,8.7,大卫·里恩,彼得·奥图尔 / 亚历克·吉尼斯 / 安东尼·奎恩,剧情 / 传记 / 冒险,英国
+49,50,《假面》（1966，英格玛·伯格曼 Ingmar Bergman）,[假面 Persona](https://movie.douban.com/subject/1294438/),1966,8.8,英格玛·伯格曼,毕比·安德松 / 丽芙·乌曼 / 玛格丽塔·克罗克,剧情 / 惊悚,瑞典
+50,50,《发条橙》（1971，斯坦利·库布里克 Stanley Kubrick）,[发条橙 A Clockwork Orange](https://movie.douban.com/subject/1292233/),1971,8.6,斯坦利·库布里克,马尔科姆·麦克道威尔 / 帕特里克·马基 / 迈克尔·贝茨,犯罪 / 剧情 / 科幻,英国/美国
+51,50,《堤》（1962，克利斯·马克 Chris Marker）,[堤 La jetée](https://movie.douban.com/subject/1306626/),1962,9.0,克里斯·马克,让·内格罗尼 / 埃莱娜·夏特兰 / 达沃斯·哈尼奇,短片 / 剧情 / 爱情 / 科幻,法国
+52,50,《大路》（1954，费德里科·费里尼 Federico Fellini）,[大路 La strada](https://movie.douban.com/subject/1292719/),1954,8.9,费德里科·费里尼,安东尼·奎恩 / 朱丽叶塔·马西纳 / 理查德·贝斯哈特,剧情,意大利
+53,50,《天堂的孩子》（1945，马塞尔·卡尔内 Marcel Carné）,[天堂的孩子 Les enfants du paradis](https://movie.douban.com/subject/1300375/),1945,8.5,马塞尔·卡尔内,阿莱蒂 / 让-路易斯·巴劳特 / 皮埃尔·布拉瑟,剧情 / 爱情,法国
+54,50,《戏梦人生》（1993，侯孝贤 Hsiao-hsien Hou）,[戏梦人生 戲夢人生](https://movie.douban.com/subject/1302941/),1993,8.4,侯孝贤,蔡振南 / 洪流 / 黄倩茹,传记 / 剧情 / 战争,中国台湾
+55,50,《教父2》（1974，弗朗西斯·福特·科波拉 Francis Ford Coppola）,[教父2 The Godfather: Part II](https://movie.douban.com/subject/1299131/),1974,9.3,弗朗西斯·福特·科波拉,阿尔·帕西诺 / 罗伯特·杜瓦尔 / 黛安·基顿,剧情 / 犯罪,美国
+56,50,《牺牲》（1986，安德烈·塔科夫斯基 Andrei Tarkovsky）,[牺牲 Offret](https://movie.douban.com/subject/1294531/),1986,8.8,安德烈·塔可夫斯基,厄兰·约瑟夫森 / 苏珊·弗利特伍德 / 艾伦·埃德渥,剧情,瑞典/法国/英国
+57,50,《电影史》（1988，让-吕克·戈达尔 Jean-Luc Godard）,[电影史-3B 新浪潮 Histoire(s) du cinéma: Une vague nouvelle](https://movie.douban.com/subject/1439720/),2001,8.5,Jean-Luc Godard, ,短片,法国
+58,50,《祖与占》（1962，弗朗索瓦·特吕弗 François Truffaut）,[祖与占 Jules et Jim](https://movie.douban.com/subject/1292338/),1962,8.4,弗朗索瓦·特吕弗,让娜·莫罗 / 奥斯卡·威内尔 / 亨利·赛尔,剧情 / 爱情,法国
+59,50,《美国往事》（1984，赛尔乔·莱翁内 Sergio Leone）,[美国往事 Once Upon a Time in America](https://movie.douban.com/subject/1292262/),1984,9.2,赛尔乔·莱昂内,罗伯特·德尼罗 / 詹姆斯·伍兹 / 伊丽莎白·麦戈文,犯罪 / 剧情,美国/意大利
+60,50,《蔑视》（1963，让-吕克·戈达尔 Jean-Luc Godard）,[蔑视 Le mépris](https://movie.douban.com/subject/1303555/),1963,7.7,让-吕克·戈达尔,碧姬·芭铎 / 米歇尔·皮科利 / 杰克·帕兰斯,剧情 / 爱情,法国/意大利
+61,50,《野草莓》（1957，英格玛·伯格曼 Ingmar Bergman）,[野草莓 Smultronstället](https://movie.douban.com/subject/1293071/),1957,8.8,英格玛·伯格曼,维克多·斯约斯特洛姆 / 毕比·安德松 / 英格丽·图林,剧情 / 爱情 / 家庭,瑞典
+62,63,《侠女》（1971，胡金铨 King Hu）,[侠女 俠女](https://movie.douban.com/subject/1306490/),1970,8.6,胡金铨,徐枫 / 石隽 / 白鹰,剧情 / 动作 / 武侠 / 古装,中国台湾/中国香港
+63,63,《切腹》（1962，小林正树 Masaki Kobayashi）,[切腹](https://movie.douban.com/subject/1304920/),1962,9.4,小林正树,仲代达矢 / 石浜朗 / 岩下志麻,剧情 / 动作 / 悬疑,日本
+64,63,《卡比利亚之夜》（1957，费德里科·费里尼 Federico Fellini）,[卡比利亚之夜 Le notti di Cabiria](https://movie.douban.com/subject/1294781/),1957,9.1,费德里科·费里尼,朱丽叶塔·马西纳 / 弗朗索瓦·佩里埃 / 弗兰卡·马尔齐,剧情,意大利/法国
+65,63,《后窗》（1954，阿尔弗雷德·希区柯克 Alfred Hitchcock）,[后窗 Rear Window](https://movie.douban.com/subject/1299080/),1954,8.7,阿尔弗雷德·希区柯克,詹姆斯·斯图尔特 / 格蕾丝·凯利 / 温戴尔·柯瑞,悬疑 / 惊悚,美国
+66,63,《大地之歌》（1955，萨蒂亚吉特·雷伊 Satyajit Ray）,[大地之歌 পথের পাঁচালী](https://movie.douban.com/subject/1306019/),1955,8.9,萨蒂亚吉特·雷伊,卡奴·班纳杰 / 卡鲁娜·班纳杰 / 楚尼巴拉·德芙,剧情,印度
+67,63,《大幻影》（1937，让·雷诺阿 Jean Renoir）,[大幻影 La grande illusion](https://movie.douban.com/subject/1294808/),1937,8.4,让·雷诺阿,让·迦本 / 迪塔·帕尔洛 / 皮埃尔·弗雷奈,剧情 / 战争,法国
+68,63,《安德烈·卢布廖夫》（1966，安德烈·塔科夫斯基 Andrei Tarkovsky）,[安德烈·卢布廖夫 Андрей Рублёв](https://movie.douban.com/subject/1298248/),1966,9.0,安德烈·塔可夫斯基,安纳托利·索洛尼岑 / 伊万·拉皮科夫 / 尼古拉·格林科,传记 / 剧情 / 历史 / 战争,苏联
+69,63,《尤里西斯的凝视》（1995，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,[尤里西斯的凝视 Το βλέμμα του Οδυσσέα](https://movie.douban.com/subject/1294573/),1995,9.0,西奥·安哲罗普洛斯,哈威·凯特尔 / 厄兰·约瑟夫森 / 玛雅·摩根斯特恩,剧情 / 历史 / 战争,希腊/法国/意大利/德国/英国/南斯拉夫/罗马尼亚/阿尔巴尼亚/波黑
+70,63,《愤怒的公牛》（1980，马丁·斯科塞斯 Martin Scorsese）,[愤怒的公牛 Raging Bull](https://movie.douban.com/subject/1293155/),1980,8.4,马丁·斯科塞斯,罗伯特·德尼罗 / 凯西·莫拉蒂 / 乔·佩西,剧情 / 传记 / 运动,美国
+71,63,《攻壳机动队》（1995，押井守 Mamoru Oshii）,[攻壳机动队 攻殻機動隊](https://movie.douban.com/subject/1291936/),1995,9.1,押井守,田中敦子 / 大塚明夫 / 山寺宏一,动作 / 科幻 / 动画,日本
+72,63,《放大》（1966，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,[放大 Blow-Up](https://movie.douban.com/subject/1310176/),1966,8.5,米开朗基罗·安东尼奥尼,瓦妮莎·雷德格雷夫 / 莎拉·米尔斯 / 戴维·海明斯,剧情 / 悬疑 / 惊悚,英国/意大利
+73,63,《杀人回忆》（2003，奉俊昊 Joon-ho Bong）,[杀人回忆 살인의 추억](https://movie.douban.com/subject/1300299/),2003,8.9,奉俊昊,宋康昊 / 金相庆 / 金雷夏,剧情 / 动作 / 犯罪 / 悬疑 / 惊悚,韩国
+74,63,《流浪艺人》（1975，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,[流浪艺人 Ο Θίασος](https://movie.douban.com/subject/1295759/),1975,8.6,西奥·安哲罗普洛斯,伊娃·科塔曼尼多 / Aliki Georgouli / Stratos Pahis,剧情 / 历史 / 战争,希腊
+75,63,《潜行者》（1979，安德烈·塔科夫斯基 Andrei Tarkovsky）,[潜行者 Сталкер](https://movie.douban.com/subject/1295656/),1979,8.8,安德烈·塔可夫斯基,亚历山大·凯伊达诺夫斯基 / 阿丽萨·弗雷因德利赫 / 安纳托利·索洛尼岑,剧情 / 科幻 / 悬疑,苏联
+76,63,《热情如火》（1959，比利·怀尔德 Billy Wilder）,[热情如火 Some Like It Hot](https://movie.douban.com/subject/1292574/),1959,8.9,比利·怀尔德,玛丽莲·梦露 / 托尼·柯蒂斯 / 杰克·莱蒙,喜剧,美国
+77,63,《特写》（1990，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,[特写 کلوزآپ](https://movie.douban.com/subject/1303521/),1990,8.8,阿巴斯·基亚罗斯塔米,Hossain Sabzian / 莫森·玛克玛尔巴夫 / Abolfazl Ahankhah,犯罪 / 剧情,伊朗
+78,63,《穆赫兰道》（2001，大卫·林奇 David Lynch）,[穆赫兰道 Mulholland Dr.](https://movie.douban.com/subject/1292217/),2001,8.4,大卫·林奇,娜奥米·沃茨 / 劳拉·哈灵 / 安·米勒,剧情 / 悬疑 / 惊悚,法国/美国
+79,63,《莫里埃尔》（1963，阿伦·雷乃 Alain Resnais）,[莫里埃尔 Muriel ou Le temps d'un retour](https://movie.douban.com/subject/1293844/),1963,7.7,阿伦·雷乃,德菲因·塞里格 / 让-皮埃尔·凯里安 / 妮特·克莱因,剧情,法国/意大利
+80,63,《葛楚》（1964，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）,[葛楚 Gertrud](https://movie.douban.com/subject/1420116/),1964,8.0,卡尔·西奥多·德莱叶,尼娜·彭斯·罗德 / 本特·罗斯 / 埃贝·罗德,剧情,丹麦
+81,63,《蓝白红三部曲之蓝》（1993，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,[蓝白红三部曲之蓝 Trois couleurs: Bleu](https://movie.douban.com/subject/1292048/),1993,8.5,克日什托夫·基耶斯洛夫斯基,朱丽叶·比诺什 / 贝努特·里格恩特 / 弗罗伦斯·派梅尔,剧情 / 爱情 / 音乐,法国/波兰/瑞士
+82,63,《蜂巢精灵》（1973，维克多·艾里斯 Víctor Erice）,[蜂巢幽灵 El espíritu de la colmena](https://movie.douban.com/subject/1401900/),1973,8.5,维克多·艾里斯,费尔南多·费尔南·戈麦斯 / 特雷莎·希梅拉 / 安娜·托伦特,剧情,西班牙
+83,63,《银翼杀手》（1982，雷德利·斯科特 Ridley Scott）,[银翼杀手 Blade Runner](https://movie.douban.com/subject/1291839/),1982,8.6,雷德利·斯科特,哈里森·福特 / 鲁格·豪尔 / 肖恩·杨,科幻 / 惊悚,美国
+84,63,《雨月物语》（1953，沟口健二 Kenji Mizoguchi）,[雨月物语 雨月物語](https://movie.douban.com/subject/1303577/),1953,8.6,沟口健二,田中绢代 / 森雅之 / 小泽荣太郎,剧情 / 战争 / 奇幻,日本
+85,86,《一条安达鲁狗》（1929，路易斯·布努埃尔 Luis Buñuel）,[一条安达鲁狗 Un chien andalou](https://movie.douban.com/subject/1298962/),1929,8.2,路易斯·布努埃尔,西蒙妮·玛勒伊 / Pierre Batcheff / 路易斯·布努埃尔,短片 / 奇幻,法国
+86,86,《两生花》（1991，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,[两生花 La Double vie de Véronique](https://movie.douban.com/subject/1291877/),1991,8.4,克日什托夫·基耶斯洛夫斯基,伊莲娜·雅各布 / 哈丽娜·格雷格拉谢夫斯卡 / 卡里娜·谢鲁斯克,剧情 / 爱情 / 奇幻,法国/波兰/挪威
+87,86,《乡愁》（1983，安德烈·塔科夫斯基 Andrei Tarkovsky）,[乡愁 Ностальгия](https://movie.douban.com/subject/1291556/),1983,9.1,安德烈·塔可夫斯基,奥列格·扬科夫斯基 / 厄兰·约瑟夫森 / 多米齐亚娜·焦尔达诺,剧情,苏联/意大利
+88,86,《乱世佳人》（1939，维克多·弗莱明 Victor Fleming）,[乱世佳人 Gone with the Wind](https://movie.douban.com/subject/1300267/),1939,9.3,维克多·弗莱明 / 乔治·库克 / 山姆·伍德,费雯·丽 / 克拉克·盖博 / 奥利维娅·德哈维兰,剧情 / 历史 / 爱情 / 战争,美国
+89,86,《俄罗斯方舟》（2002，亚历山大·索科诺夫 Aleksandr Sokurov）,[俄罗斯方舟 Русский ковчег](https://movie.douban.com/subject/1302279/),2002,7.5,亚历山大·索科洛夫,谢尔盖·德雷登 / Mariya Kuznetsova / 瓦莱里·捷杰耶夫,剧情 / 奇幻 / 历史,俄罗斯/德国/日本/加拿大/芬兰/丹麦
+90,86,《党同伐异》（1916，D·W·格里菲斯 D.W. Griffith）,[党同伐异 Intolerance: Love's Struggle Throughout the Ages](https://movie.douban.com/subject/1295287/),1916,8.7,大卫·格里菲斯,丽莲·吉许 / 梅·马什 / 罗伯特·哈伦,剧情 / 历史 / 爱情,美国
+91,86,《劳拉·蒙特斯》（1955，马克斯·奥菲尔斯 Max Ophüls）,[劳拉·蒙特斯 Lola Montès](https://movie.douban.com/subject/1293401/),1955,7.8,马克斯·奥菲尔斯,玛蒂妮·卡洛 / 彼得·乌斯蒂诺夫 / 安东·沃尔布鲁克,传记 / 剧情 / 爱情,法国/西德
+92,86,《十诫》（1989，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,[十诫 Dekalog](https://movie.douban.com/subject/1301252/),1989,9.2,克日什托夫·基耶斯洛夫斯基,阿图尔·巴奇斯 / 昂里克·巴兰诺斯基 / 胡契克·卡勒塔,剧情,波兰/西德
+93,86,《卡萨布兰卡》（1942，迈克尔·柯蒂斯 Michael Curtiz）,[卡萨布兰卡 Casablanca](https://movie.douban.com/subject/1296753/),1942,8.7,迈克尔·柯蒂兹,亨弗莱·鲍嘉 / 英格丽·褒曼 / 保罗·亨雷德,剧情 / 爱情 / 战争,美国
+94,86,《卧虎藏龙》（2000，李安 Ang Lee）,[卧虎藏龙 臥虎藏龍](https://movie.douban.com/subject/1301168/),2000,8.4,李安,周润发 / 杨紫琼 / 章子怡,剧情 / 爱情 / 武侠,中国台湾/中国香港/美国/中国大陆
+95,86,《双虎屠龙》（1962，约翰·福特 John Ford）,[双虎屠龙 The Man Who Shot Liberty Valance](https://movie.douban.com/subject/1295134/),1962,8.2,约翰·福特,约翰·韦恩 / 詹姆斯·斯图尔特 / 维拉·迈尔斯,剧情 / 爱情 / 西部,美国
+96,86,《天堂可以等待》（1943，恩斯特·刘别谦 Ernst Lubitsch）,[天堂可以等待 Heaven Can Wait](https://movie.douban.com/subject/1293608/),1943,7.9,恩斯特·刘别谦,吉恩·蒂尔尼 / 唐·阿米契 / 查尔斯·科本,喜剧 / 剧情 / 奇幻 / 爱情,美国
+97,86,《妖夜慌踪》（1997，大卫·林奇 David Lynch）,[妖夜慌踪 Lost Highway](https://movie.douban.com/subject/1303459/),1997,8.1,大卫·林奇,比尔·普尔曼 / 帕特丽夏·阿奎特 / 巴萨扎·盖提,悬疑 / 惊悚,法国/美国
+98,86,《安妮·霍尔》（1977，伍迪·艾伦 Woody Allen）,[安妮·霍尔 Annie Hall](https://movie.douban.com/subject/1296987/),1977,8.6,伍迪·艾伦,伍迪·艾伦 / 黛安·基顿 / 托尼·罗伯茨,喜剧 / 剧情 / 爱情,美国
+99,86,《小武》（1999，贾樟柯 Zhangke Jia）,[小武](https://movie.douban.com/subject/1291851/),1998,8.6,贾樟柯,王宏伟 / 郝鸿建 / 左夏初,剧情,中国香港/中国大陆
+100,86,《巴里·林登》（1975，斯坦利·库布里克 Stanley Kubrick）,[巴里·林登 Barry Lyndon](https://movie.douban.com/subject/1292472/),1975,8.8,斯坦利·库布里克,瑞安·奥尼尔 / 马里莎·贝伦森 / 帕特里克·马基,剧情 / 爱情 / 战争,英国/美国
+101,86,《扒手》（1959，罗伯特·布列松 Robert Bresson）,[扒手 Pickpocket](https://movie.douban.com/subject/1303559/),1959,8.3,罗伯特·布列松,马丁·拉萨尔 / 玛莉卡·格林 / Jean Pélégri,剧情 / 犯罪,法国
+102,86,《指环王》（2001，彼得·杰克逊 Peter Jackson）,[指环王1：护戒使者 The Lord of the Rings: The Fellowship of the Ring](https://movie.douban.com/subject/1291571/),2001,9.1,彼得·杰克逊,伊利亚·伍德 / 西恩·奥斯汀 / 伊恩·麦克莱恩,剧情 / 动作 / 奇幻 / 冒险,新西兰/美国
+103,86,《搜索者》（1956，约翰·福特 John Ford）,[搜索者 The Searchers](https://movie.douban.com/subject/1292668/),1956,7.9,约翰·福特,约翰·韦恩 / 杰弗里·亨特 / 维拉·迈尔斯,剧情 / 西部 / 冒险,美国
+104,86,《撒旦探戈》（1994，贝拉·塔尔 Béla Tarr）,[撒旦探戈 Sátántangó](https://movie.douban.com/subject/1422088/),1994,8.9,贝拉·塔尔,米哈伊·维格 / 普吉·霍瓦特 / 拉斯洛·费卢戈希,剧情 / 悬疑,匈牙利/德国/瑞士
+105,86,《柏林苍穹下》（1987，维姆·文德斯 Wim Wenders）,[柏林苍穹下 Der Himmel über Berlin](https://movie.douban.com/subject/1292504/),1987,8.6,维姆·文德斯,布鲁诺·冈茨 / 索尔维格·多马尔坦 / 奥托·山德尔,奇幻 / 剧情 / 爱情,西德/法国
+106,86,《死囚越狱》（1956，罗伯特·布列松 Robert Bresson）,[死囚越狱 Un Condamné à mort s'est échappé](https://movie.douban.com/subject/1303562/),1956,8.5,罗伯特·布列松,弗朗索瓦·莱特瑞尔 / 查尔斯·勒克莱恩 / 莫里斯·贝尔布洛克,剧情 / 战争 / 惊悚,法国
+107,86,《潘多拉的魔盒》（1929，乔治· 威廉· 巴布斯特 Georg Wilhelm Pabst）,[潘多拉的魔盒 Die Büchse der Pandora](https://movie.douban.com/subject/1401368/),1929,8.2,G·W·帕布斯特,露易丝·布鲁克斯 / 弗里茨·科特讷 / 弗朗西斯·莱德雷尔,犯罪 / 剧情 / 爱情,德国
+108,86,《红圈》（1970，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）,[红圈 Le cercle rouge](https://movie.douban.com/subject/1401915/),1970,8.3,让-皮埃尔·梅尔维尔,阿兰·德龙 / 布尔维尔 / 吉安·马里亚·沃隆特,犯罪 / 剧情 / 惊悚,法国/意大利
+109,86,《西部往事》（1968，赛尔乔·莱翁内 Sergio Leone）,[西部往事 C'era una volta il West](https://movie.douban.com/subject/1293394/),1968,8.7,赛尔乔·莱昂内,亨利·方达 / 查尔斯·布朗森 / 克劳迪娅·卡汀娜,剧情 / 犯罪 / 西部,意大利/美国
+110,86,《让娜·迪尔曼》（1975，香坦·阿克曼 Chantal Akerman）,"[让娜·迪尔曼 Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles](https://movie.douban.com/subject/1868933/)",1975,8.9,香特尔·阿克曼,德菲因·塞里格 / 亨利.斯多克 / 雅克·多尼奥-瓦克罗兹,剧情,比利时/法国
+111,86,《豹》（1963，卢奇诺·维斯康蒂 Luchino Visconti）,[豹 Il gattopardo](https://movie.douban.com/subject/1293146/),1963,8.7,卢基诺·维斯康蒂,伯特·兰卡斯特 / 克劳迪娅·卡汀娜 / 阿兰·德龙,剧情 / 历史 / 爱情 / 战争,意大利/法国
+112,86,《钱》（1983，罗伯特·布列松 Robert Bresson）,[钱 L'argent](https://movie.douban.com/subject/1303536/),1983,8.3,罗伯特·布列松,克里斯蒂安·佩蒂 / Vincent Risterucci / Caroline Lang,剧情 / 犯罪,法国/瑞士
+113,86,《铁西区》（2003，王兵 Bing Wang）,[铁西区第一部分：工厂](https://movie.douban.com/subject/1309215/),2003,8.6,王兵, ,纪录片,中国大陆
+114,86,《阿飞正传》（1990，王家卫 Kar Wai Wong）,[阿飞正传 阿飛正傳](https://movie.douban.com/subject/1305690/),1990,8.5,王家卫,张国荣 / 张曼玉 / 刘嘉玲,犯罪 / 剧情 / 爱情,中国香港
+115,86,《雾中风景》（1988，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,[雾中风景 Τοπίο στην ομίχλη](https://movie.douban.com/subject/1294252/),1988,9.0,西奥·安哲罗普洛斯,米哈利斯·齐克 / 塔尼娅·帕拉依奥罗葛 / 斯特拉托斯·楚措格卢,剧情,希腊/法国/意大利
+116,86,《霸王别姬》（1993，陈凯歌 Kaige Chen）,[霸王别姬](https://movie.douban.com/subject/1291546/),1993,9.6,陈凯歌,张国荣 / 张丰毅 / 巩俐,剧情 / 爱情 / 同性,中国大陆/中国香港
+117,86,《驴子巴特萨》（1966，罗伯特·布列松 Robert Bresson）,[驴子巴特萨 Au hasard Balthazar](https://movie.douban.com/subject/1401619/),1966,8.3,罗伯特·布列松,安妮·维亚泽姆斯基 / Walter Green / François Lafarge,剧情,法国/瑞典
+118,86,《黑客帝国》（1999，安迪·沃卓斯基 / 拉娜·沃卓斯基 Andy Wachowski / Lana Wachowski）,[黑客帝国 The Matrix](https://movie.douban.com/subject/1291843/),1999,9.1,莉莉·沃卓斯基 / 拉娜·沃卓斯基,基努·里维斯 / 劳伦斯·菲什伯恩 / 凯瑞-安·莫斯,动作 / 科幻,美国
+119,120,《一个国家的诞生》（1915，D·W·格里菲斯 D.W. Griffith）,[一个国家的诞生 The Birth of a Nation](https://movie.douban.com/subject/1300306/),1915,7.9,大卫·格里菲斯,丽莲·吉许 / 梅·马什 / 亨利·B·沃斯奥,剧情 / 历史 / 爱情 / 战争 / 西部,美国
+120,120,《一九零零》（1976，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）,[一九零零 Novecento](https://movie.douban.com/subject/1300956/),1976,8.7,贝纳尔多·贝托鲁奇,罗伯特·德尼罗 / 热拉尔·德帕迪约 / 多米妮克·桑达,剧情 / 历史 / 爱情 / 战争,意大利/法国/西德
+121,120,《不散》（2003，蔡明亮 Ming-liang Tsai）,[不散](https://movie.douban.com/subject/1304862/),2003,7.8,蔡明亮,李康生 / 杨贵媚 / 石隽,剧情,中国台湾
+122,120,《东邪西毒》（1994，王家卫 Kar Wai Wong）,[东邪西毒 東邪西毒](https://movie.douban.com/subject/1292328/),1994,8.6,王家卫,张国荣 / 林青霞 / 梁朝伟,剧情 / 动作 / 爱情 / 武侠 / 古装,中国香港/中国台湾
+123,120,《亚伯拉罕山谷》（1993，曼努埃尔·德·奥里维拉 Manoel de Oliveira）,[亚伯拉罕山谷 Vale Abraão](https://movie.douban.com/subject/1303467/),1993,8.1,曼努埃尔·德·奥利维拉,里诺尔·森微娜 / 路易斯·米格尔·辛特拉 / 鲁伊·德·卡瓦略,剧情,法国/葡萄牙/瑞士
+124,120,《伊凡雷帝》（1944，谢尔盖·爱森斯坦 Sergei M. Eisenstein）,[伊凡雷帝 Иван Грозный](https://movie.douban.com/subject/1298182/),1944,8.0,谢尔盖·爱森斯坦,尼古拉·切尔卡索夫 / Lyudmila Tselikovskaya / Serafima Birman,传记 / 历史,苏联
+125,120,《十月》（1928，格里高利·亚历山大洛夫 / 谢尔盖·爱森斯坦 Grigori Aleksandrov / Sergei M. Eisenstein）,[十月 Октябрь](https://movie.douban.com/subject/1297024/),1928,8.0,格里高利·亚历山德罗夫 / 谢尔盖·爱森斯坦,Nikolay Popov / Vasili Nikandrov / Layaschenko,剧情 / 历史,苏联
+126,120,《千与千寻》（2001，宫崎骏 Hayao Miyazaki）,[千与千寻 千と千尋の神隠し](https://movie.douban.com/subject/1291561/),2001,9.4,宫崎骏,柊瑠美 / 入野自由 / 夏木真理,剧情 / 动画 / 奇幻,日本
+127,120,《卡里加里博士的小屋》（1920，罗伯特·维内 Robert Wiene）,[卡里加里博士的小屋 Das Cabinet des Dr. Caligari](https://movie.douban.com/subject/1292547/),1920,8.9,罗伯特·维内,维尔纳·克劳斯 / 康拉德·韦特 / 弗里德里希·费赫尔,犯罪 / 悬疑 / 恐怖,德国
+128,120,《夏日纪事》（1961，让·鲁什 Jean Rouch）,[夏日纪事 Chronique d'un été (Paris 1960)](https://movie.douban.com/subject/1421292/),1961,8.1,让·鲁什 / 埃德加·莫兰,玛索琳娜·罗尔丹·伊文思 / 玛丽卢·帕罗利尼,纪录片,法国
+129,120,《大独裁者》（1940，查理·卓别林 Charles Chaplin）,[大独裁者 The Great Dictator](https://movie.douban.com/subject/1295646/),1940,9.2,查理·卓别林,查理·卓别林 / 宝莲·高黛 / 杰克·奥克,喜剧 / 剧情 / 战争,美国
+130,120,《大路》（1934，孙瑜 Yu Sun）,[大路](https://movie.douban.com/subject/1307015/),1934,7.8,孙瑜,金焰 / 黎莉莉 / 陈燕燕,喜剧 / 歌舞 / 剧情 / 战争,中国大陆
+131,120,《奥赛罗》（1952，奥逊·威尔斯 Orson Welles）,[奥赛罗 The Tragedy of Othello: The Moor of Venice](https://movie.douban.com/subject/1296289/),1951,7.8,奥逊·威尔斯,米歇尔·麦克利亚姆莫伊尔 / 罗伯托·库特 / 奥逊·威尔斯,剧情 / 爱情,美国/意大利/法国/摩洛哥
+132,120,《开罗紫玫瑰》（1985，伍迪·艾伦 Woody Allen）,[开罗紫玫瑰 The Purple Rose of Cairo](https://movie.douban.com/subject/1292994/),1985,8.8,伍迪·艾伦,米娅·法罗 / 杰夫·丹尼尔斯 / 丹尼·爱罗,喜剧 / 爱情 / 奇幻,美国
+133,120,《恐惧吞噬灵魂》（1974，赖纳·维尔纳·法斯宾德 Rainer Werner Fassbinder）,[恐惧吞噬灵魂 Angst essen Seele auf](https://movie.douban.com/subject/1294092/),1974,8.5,赖纳·维尔纳·法斯宾德,布里吉特·米拉 / 埃尔·赫迪·本·萨利姆 / 芭芭拉·瓦伦汀,剧情 / 爱情,西德
+134,120,《恨难解》（1965，让-马利·斯特劳布 Jean-Marie Straub）,[没有和解 Nicht versöhnt oder Es hilft nur Gewalt wo Gewalt herrscht](https://movie.douban.com/subject/1850440/),1965,7.5,让-马里·斯特劳布 / 达尼埃尔·于伊耶,Heinrich Hargesheimer / Carlheinz Hargesheimer / Martha Staendner,剧情,西德
+135,120,《情迷意乱》（1964，成濑巳喜男 Mikio Naruse）,[情迷意乱 乱れる](https://movie.douban.com/subject/1422091/),1964,9.1,成濑巳喜男,高峰秀子 / 加山雄三 / 草笛光子,剧情 / 爱情 / 家庭,日本
+136,120,《意大利之旅》（1954，罗伯托·罗西里尼 Roberto Rossellini）,[游览意大利 Viaggio in Italia](https://movie.douban.com/subject/1303576/),1954,7.8,罗伯托·罗西里尼,英格丽·褒曼 / 乔治·桑德斯 / Leslie Daniels,剧情,法国/意大利
+137,120,《意志的胜利》（1935，莱尼·里芬斯塔尔 Leni Riefenstahl）,[意志的胜利 Triumph des Willens](https://movie.douban.com/subject/1306186/),1935,8.5,莱妮·里芬施塔尔,马克斯·阿曼 / 马丁·鲍曼,纪录片 / 战争,德国
+138,120,《我的舅舅》（1958，雅克·塔蒂 Jacques Tati）,[我的舅舅 Mon Oncle](https://movie.douban.com/subject/1400829/),1958,8.6,雅克·塔蒂,让·皮埃尔·佐拉 / Adrienne Servantie / Lucien Frégis,喜剧,意大利/法国
+139,120,《战争与和平》（1968，谢尔盖·邦达尔丘克 Sergei Bondarchuk）,[战争与和平 Война и мир](https://movie.douban.com/subject/1307067/),1966,9.2,谢尔盖·邦达尔丘克,谢尔盖·邦达尔丘克 / 柳德米拉·萨维里耶娃 / 维亚切斯拉夫·吉洪诺夫,剧情 / 历史 / 爱情 / 战争,苏联
+140,120,《拉孔布·吕西安》（1974，路易·马勒 Louis Malle）,[拉孔布·吕西安 Lacombe Lucien](https://movie.douban.com/subject/1432637/),1974,8.1,路易·马勒,皮埃尔·布莱士 / 奥萝尔·克莱芒 / 霍尔格·洛文纳德勒,剧情,法国/意大利/西德
+141,120,《无耻混蛋》（2009，昆汀·塔伦蒂诺 Quentin Tarantino）,[无耻混蛋 Inglourious Basterds](https://movie.douban.com/subject/1438652/),2009,8.7,昆汀·塔伦蒂诺,布拉德·皮特 / 梅拉尼·罗兰 / 克里斯托弗·瓦尔兹,剧情 / 犯罪,德国/美国
+142,120,《星球大战》（1977，乔治·卢卡斯 George Lucas）,[星球大战 Star Wars](https://movie.douban.com/subject/1293838/),1977,8.5,乔治·卢卡斯,哈里森·福特 / 马克·哈米尔 / 凯丽·费雪,动作 / 科幻 / 冒险,美国
+143,120,《星球大战2：帝国反击战》（1980，欧文·克什纳 Irvin Kershner）,[星球大战2：帝国反击战 Star Wars: Episode V - The Empire Strikes Back](https://movie.douban.com/subject/1296528/),1980,8.4,厄文·克什纳,马克·哈米尔 / 哈里森·福特 / 凯丽·费雪,动作 / 冒险 / 科幻,美国
+144,120,《桃色公寓》（1960，比利·怀尔德 Billy Wilder）,[桃色公寓 The Apartment](https://movie.douban.com/subject/1394218/),1960,8.8,比利·怀尔德,杰克·莱蒙 / 雪莉·麦克雷恩 / 弗莱德·麦克莫瑞,爱情 / 喜剧 / 剧情,美国
+145,120,《梁山伯与祝英台》（1963，李翰祥 Han Hsiang Li）,[梁山伯与祝英台 梁山伯與祝英台](https://movie.douban.com/subject/1438020/),1963,8.5,李翰祥,凌波 / 乐蒂 / 任洁,爱情 / 古装 / 戏曲,中国香港
+146,120,《死者田园祭》（1974，寺山修司 Shuji Terayama）,[死者田园祭 田園に死す](https://movie.douban.com/subject/1366165/),1974,8.9,寺山修司,菅贯太郎 / 高野浩幸 / 八千草薰,剧情 / 奇幻,日本
+147,120,《残菊物语》（1939，沟口健二 Kenji Mizoguchi）,[残菊物语 殘菊物語](https://movie.douban.com/subject/1293329/),1939,8.5,沟口健二,花柳章太郎 / 森赫子 / 高田浩吉,剧情,日本
+148,120,《永恒和一日》（1998，西奥·安哲罗普洛斯 Theodoros Angelopoulos）,[永恒和一日 Μία αιωνιότητα και μία μέρα](https://movie.douban.com/subject/1293455/),1998,9.1,西奥·安哲罗普洛斯,布鲁诺·冈茨 / 伊莎贝拉·雷纳德 / 法布里齐奥·本蒂沃利奥,剧情,法国/意大利/希腊/德国
+149,120,《泯灭天使》（1962，路易斯·布努埃尔 Luis Buñuel）,[泯灭天使 El ángel exterminador](https://movie.douban.com/subject/1303556/),1962,8.3,路易斯·布努埃尔,西尔维娅·皮纳尔 / 恩里克·兰巴尔 / 克劳迪奥·布鲁克,喜剧 / 剧情 / 奇幻 / 悬疑,墨西哥
+150,120,《泰坦尼克号》（1997，詹姆斯·卡梅隆 James Cameron）,[泰坦尼克号 Titanic](https://movie.douban.com/subject/1292722/),1997,9.5,詹姆斯·卡梅隆,莱昂纳多·迪卡普里奥 / 凯特·温丝莱特 / 比利·赞恩,剧情 / 爱情 / 灾难,美国/墨西哥
+151,120,《浮草》（1959，小津安二郎 Yasujirô Ozu）,[浮草](https://movie.douban.com/subject/1297841/),1959,8.6,小津安二郎,中村雁治郎 / 京町子 / 若尾文子,剧情,日本
+152,120,《热带疾病》（2004，阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul）,[热带疾病 สัตว์ประหลาด](https://movie.douban.com/subject/1414808/),2004,8.0,阿彼察邦·韦拉斯哈古,班罗普·洛罗伊 / 萨卡达·卡温巴迪 / Huai Dessom,剧情 / 爱情 / 奇幻,泰国/法国/德国/意大利
+153,120,《爱的激流》（1984，约翰·卡索维茨 John Cassavetes）,[爱的激流 Love Streams](https://movie.douban.com/subject/1303532/),1984,8.1,约翰·卡萨维蒂,约翰·卡萨维蒂 / 吉娜·罗兰兹 / 西摩·卡塞尔,喜剧 / 剧情,美国
+154,120,《独行杀手》（1967，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）,[独行杀手 Le samouraï](https://movie.douban.com/subject/1300966/),1967,8.3,让-皮埃尔·梅尔维尔,阿兰·德龙 / 弗朗索瓦·佩里埃 / 娜塔莉·德龙,犯罪 / 剧情 / 悬疑 / 惊悚,法国/意大利
+155,120,《生命之树》（2011，泰伦斯·马力克 Terrence Malick）,[生命之树 The Tree of Life](https://movie.douban.com/subject/2336735/),2011,7.1,泰伦斯·马力克,布拉德·皮特 / 西恩·潘 / 杰西卡·查斯坦,剧情 / 奇幻 / 家庭,美国
+156,120,《生命的标记》（1968，沃纳·赫尔佐格 Werner Herzog）,[生命的标记 Lebenszeichen](https://movie.douban.com/subject/1299262/),1968,8.1,沃纳·赫尔佐格,彼得·布罗格尔 / 沃尔夫冈·施通普夫 / 弗洛里安·弗里克,剧情,西德
+157,120,《生生长流》（1991，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,[生生长流 زندگی و دیگر هیچ](https://movie.douban.com/subject/1303471/),1992,8.8,阿巴斯·基亚罗斯塔米,法德哈·基德曼 / 布巴·巴尤尔· / 奥西纳·法赫,剧情 / 灾难,伊朗
+158,120,《盗梦空间》（2010，克里斯托弗·诺兰 Christopher Nolan）,[盗梦空间 Inception](https://movie.douban.com/subject/3541415/),2010,9.4,克里斯托弗·诺兰,莱昂纳多·迪卡普里奥 / 约瑟夫·高登-莱维特 / 艾利奥特·佩吉,剧情 / 科幻 / 悬疑 / 冒险,美国/英国
+159,120,《空山灵雨》（1979，胡金铨 King Hu）,[空山灵雨 空山靈雨](https://movie.douban.com/subject/1301136/),1979,8.4,胡金铨,田丰 / 孙越 / 徐枫,剧情 / 动作 / 武侠 / 古装,中国香港
+160,120,《第三人》（1949，卡洛尔·里德 Carol Reed）,[第三人 The Third Man](https://movie.douban.com/subject/1295451/),1949,8.2,卡罗尔·里德,约瑟夫·科顿 / 阿莉达·瓦利 / 奥逊·威尔斯,黑色电影 / 悬疑 / 惊悚,英国
+161,120,《红色沙漠》（1964，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,[红色沙漠 Il deserto rosso](https://movie.douban.com/subject/1299261/),1964,8.0,米开朗基罗·安东尼奥尼,莫妮卡·维蒂 / 理查德·哈里斯 / Carlo Chionetti,剧情,意大利/法国
+162,120,《自由的幻影》（1974，路易斯·布努埃尔 Luis Buñuel）,[自由的幻影 Le fantôme de la liberté](https://movie.douban.com/subject/1297188/),1974,8.6,路易斯·布努埃尔,阿德里娅娜·阿斯蒂 / 朱利安·贝尔托 / 让-克洛德·布里亚利,喜剧 / 剧情,法国/意大利
+163,120,《花样年华》（2000，王家卫 Kar Wai Wong）,[花样年华 花樣年華](https://movie.douban.com/subject/1291557/),2000,8.8,王家卫,梁朝伟 / 张曼玉 / 潘迪华,剧情 / 爱情,中国香港
+164,120,《蓝》（1993，德里克·贾曼 Derek Jarman）,[蓝 Blue](https://movie.douban.com/subject/1417428/),1993,8.6,德里克·贾曼,约翰·昆汀 / 尼吉尔·特瑞 / 德里克·贾曼,剧情 / 传记 / 同性,英国/日本
+165,120,《蓝白红三部曲之红》（1994，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）,[蓝白红三部曲之红 Trois couleurs: Rouge](https://movie.douban.com/subject/1292047/),1994,8.8,克日什托夫·基耶斯洛夫斯基,伊莲娜·雅各布 / 让-路易·特兰蒂尼昂 / 弗雷德里奎·费德,剧情 / 爱情 / 悬疑,法国/波兰/瑞士
+166,120,《蝙蝠侠前传2：黑暗骑士》（2008，克里斯托弗·诺兰 Christopher Nolan）,[蝙蝠侠：黑暗骑士 The Dark Knight](https://movie.douban.com/subject/1851857/),2008,9.2,克里斯托弗·诺兰,克里斯蒂安·贝尔 / 希斯·莱杰 / 艾伦·艾克哈特,剧情 / 动作 / 科幻 / 犯罪 / 惊悚,美国/英国
+167,120,《西力传》（1983，伍迪·艾伦 Woody Allen）,[西力传 Zelig](https://movie.douban.com/subject/1293846/),1983,9.0,伍迪·艾伦,伍迪·艾伦 / 米娅·法罗 / 帕特里克霍根,喜剧 / 奇幻,美国
+168,120,《西北偏北》（1959，阿尔弗雷德·希区柯克 Alfred Hitchcock）,[西北偏北 North by Northwest](https://movie.douban.com/subject/1295872/),1959,8.3,阿尔弗雷德·希区柯克,加里·格兰特 / 爱娃·玛丽·森特 / 詹姆斯·梅森,悬疑 / 惊悚 / 冒险,美国
+169,120,《西鹤一代女》（1952，沟口健二 Kenji Mizoguchi）,[西鹤一代女 西鶴一代女](https://movie.douban.com/subject/1303603/),1952,8.3,沟口健二,田中绢代 / 山根寿子 / 三船敏郎,剧情,日本
+170,120,《资产阶级的审慎魅力》（1972，路易斯·布努埃尔 Luis Buñuel）,[资产阶级的审慎魅力 Le Charme discret de la bourgeoisie](https://movie.douban.com/subject/1303364/),1972,8.2,路易斯·布努埃尔,费尔南多·雷伊 / 保罗·弗朗克尔 / 德菲因·塞里格,喜剧 / 剧情 / 奇幻,法国/意大利/西班牙
+171,120,《趣味游戏》（1997，迈克尔·哈内克 Michael Haneke）,[趣味游戏 Funny Games](https://movie.douban.com/subject/1306548/),1997,7.3,迈克尔·哈内克,苏珊娜·洛塔尔 / 乌尔里希·穆埃 / 亚诺·弗里斯奇,剧情 / 犯罪 / 悬疑 / 惊悚,奥地利
+172,120,《阿凡达》（2009，詹姆斯·卡梅隆 James Cameron）,[阿凡达 Avatar](https://movie.douban.com/subject/1652587/),2009,8.8,詹姆斯·卡梅隆,萨姆·沃辛顿 / 佐伊·索尔达娜 / 西格妮·韦弗,动作 / 科幻 / 冒险,美国
+173,120,《阿基尔，上帝的愤怒》（1972，沃纳·赫尔佐格 Werner Herzog）,"[阿基尔，上帝的愤怒 Aguirre, der Zorn Gottes](https://movie.douban.com/subject/1306002/)",1972,8.3,沃纳·赫尔佐格,克劳斯·金斯基 / 彼得·贝尔林 / 海伦娜·罗霍,冒险 / 传记 / 剧情 / 历史,西德/墨西哥
+174,120,《阿甘正传》（1994，罗伯特·泽米基斯 Robert Zemeckis）,[阿甘正传 Forrest Gump](https://movie.douban.com/subject/1292720/),1994,9.5,罗伯特·泽米吉斯,汤姆·汉克斯 / 罗宾·怀特 / 加里·西尼斯,剧情 / 爱情,美国
+175,120,《陆上行舟》（1982，沃纳·赫尔佐格 Werner Herzog）,[陆上行舟 Fitzcarraldo](https://movie.douban.com/subject/1297105/),1982,8.7,沃纳·赫尔佐格,克劳斯·金斯基 / 若泽·卢戈伊 / 米格尔·安赫尔·富恩特斯,剧情 / 冒险,西德/秘鲁
+176,120,《面孔》（1968，约翰·卡索维茨 John Cassavetes）,[面孔 Faces](https://movie.douban.com/subject/1292644/),1968,8.0,约翰·卡萨维蒂,约翰·马利 / 琳恩·卡林 / 吉娜·罗兰兹,剧情,美国
+177,120,《音乐之声》（1965，罗伯特·怀斯 Robert Wise）,[音乐之声 The Sound of Music](https://movie.douban.com/subject/1294408/),1965,9.1,罗伯特·怀斯,朱莉·安德鲁斯 / 克里斯托弗·普卢默 / 埃琳诺·帕克,剧情 / 传记 / 爱情 / 歌舞,美国
+178,120,《首演之夜》（1977，约翰·卡索维茨 John Cassavetes）,[首演之夜 Opening Night](https://movie.douban.com/subject/1292768/),1977,8.4,约翰·卡萨维蒂,吉娜·罗兰兹 / 约翰·卡萨维蒂 / 本·戈扎那,剧情,美国
+179,120,《魂断威尼斯》（1971，卢奇诺·维斯康蒂 Luchino Visconti）,[魂断威尼斯 Morte a Venezia](https://movie.douban.com/subject/1300912/),1971,8.2,卢基诺·维斯康蒂,德克·博加德 / 罗慕洛·瓦利 / 马克·伯恩斯,剧情 / 同性,意大利/法国
+180,120,《黄金三镖客》（1966，赛尔乔·莱翁内 Sergio Leone）,"[黄金三镖客 Il buono, il brutto, il cattivo](https://movie.douban.com/subject/1401118/)",1966,9.2,赛尔乔·莱昂内,克林特·伊斯特伍德 / 埃里·瓦拉赫 / 李·范·克里夫,冒险 / 西部,意大利/西班牙/西德
+181,182,《2046》（2004，王家卫 Kar Wai Wong）,[2046](https://movie.douban.com/subject/1291555/),2004,7.7,王家卫,梁朝伟 / 章子怡 / 王菲,剧情 / 爱情 / 奇幻,中国香港/中国大陆/法国/意大利/德国
+182,182,《Arbor Vitae》（2000，纳撒尼尔·多斯基 Nathaniel Dorsky）,[Arbor Vitae](https://movie.douban.com/subject/11615411/),2000, ,纳撒尼尔·多斯基, ,短片,美国
+183,182,《City After Dark》（1980，伊斯梅尔·伯纳尔 Ishmael Bernal）,[夜幕下的马尼拉 City After Dark](https://movie.douban.com/subject/4010828/),1980, ,伊斯梅尔·贝尔纳尔,查丽朵·索利斯 / Alma Moreno / Lorna Tolentino,剧情,菲律宾
+184,182,《Decasia》（2002，比尔·莫里森 Bill Morrison）,[衰变幻想曲 Decasia](https://movie.douban.com/subject/1888457/),2002,7.9,比尔·莫里森, ,纪录片,美国
+185,182,《On The Run》（1980，达马塞纳·帕提拉杰 Darmasena Pathiraja）,[Para Dige](https://movie.douban.com/subject/11612089/),1980, ,Darmasena Pathiraja,英迪拉·甘地 / Vasanthi Chathurani / Vijaya Kumaratunga, ,斯里兰卡
+186,182,《The Exquisite Hour》（1994，菲利普·所罗门 Philip Solomon）,[The Exquisite Hour](https://movie.douban.com/subject/2141280/),1994, ,菲利普 S. 所罗门, ,短片,美国
+187,182,《一个明星的诞生》（1954，乔治·库克 George Cukor）,[一个明星的诞生 A Star Is Born](https://movie.douban.com/subject/1295619/),1954,7.7,乔治·库克,朱迪·加兰 / 詹姆斯·梅森 / 杰克·卡森,剧情 / 爱情 / 歌舞,美国
+188,182,《一切安好》（1972，让-吕克·戈达尔 Jean-Luc Godard）,[一切安好 Tout va bien](https://movie.douban.com/subject/1401582/),1972,7.7,让-吕克·戈达尔 / 让-皮埃尔·戈兰,伊夫·蒙当 / 简·方达 / 维托里奥·卡布里奥利,剧情,法国/意大利
+189,182,《一千零一夜》（1974，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）,[一千零一夜 Il fiore delle mille e una notte](https://movie.douban.com/subject/1294654/),1974,7.4,皮埃尔·保罗·帕索里尼,尼内托·达沃利 / 弗兰科·奇蒂 / 弗兰科·梅利,剧情 / 喜剧 / 历史 / 爱情 / 奇幻,意大利/法国
+190,182,《一江春水向东流》（1947，蔡楚生 / 郑君里 Chusheng Cai / Junli Zheng）,[一江春水向东流 一江春水向東流](https://movie.douban.com/subject/1389915/),1947,8.5,蔡楚生 / 郑君里,白杨 / 陶金 / 舒绣文,剧情,中国大陆
+191,182,《七宗罪》（1995，大卫·芬奇 David Fincher）,[七宗罪 Se7en](https://movie.douban.com/subject/1292223/),1995,8.8,大卫·芬奇,摩根·弗里曼 / 布拉德·皮特 / 凯文·史派西,剧情 / 犯罪 / 悬疑 / 惊悚,美国
+192,182,《万世魔星》（1979，特里·琼斯 Terry Jones）,[万世魔星 Life of Brian](https://movie.douban.com/subject/1292881/),1979,8.0,特瑞·琼斯,格雷厄姆·查普曼 / 约翰·克里斯 / 特瑞·吉列姆,喜剧,英国
+193,182,《三傻大闹宝莱坞》（2009，拉库马·希拉尼 Rajkumar Hirani）,[三傻大闹宝莱坞 3 Idiots](https://movie.douban.com/subject/3793023/),2009,9.2,拉吉库马尔·希拉尼,阿米尔·汗 / 卡琳娜·卡普尔 / 马达范,剧情 / 喜剧 / 爱情 / 歌舞,印度
+194,182,《三里塚边田部落》（2012，小川绅介 Shinsuke Ogawa）,[三里塚 边田部落 三里塚 辺田部落](https://movie.douban.com/subject/1845753/),1973,8.8,小川绅介, ,纪录片,日本
+195,182,《不法之徒》（1986，吉姆·贾木许 Jim Jarmusch）,[不法之徒 Down by Law](https://movie.douban.com/subject/1301798/),1986,8.1,吉姆·贾木许,汤姆·威兹 / 约翰·劳瑞 / 罗伯托·贝尼尼,剧情 / 喜剧 / 犯罪,美国/西德
+196,182,《乌鸦与麻雀》（1949，郑君里 Junli Zheng）,[乌鸦与麻雀 烏鴉与麻雀](https://movie.douban.com/subject/1424627/),1949,8.7,郑君里,赵丹 / 上官云珠 / 孙道临,剧情,中国大陆
+197,182,《乱》（1985，黑泽明 Akira Kurosawa）,[乱](https://movie.douban.com/subject/1296196/),1985,8.9,黑泽明,仲代达矢 / 寺尾聪 / 根津甚八,剧情 / 动作,日本/法国
+198,182,《乱云》（1967，成濑巳喜男 Mikio Naruse）,[乱云 乱れ雲](https://movie.douban.com/subject/1302082/),1967,8.4,成濑巳喜男,司叶子 / 加山雄三 / 森光子,剧情,日本
+199,182,《二楼传来的歌声》（2000，罗伊·安德森 Roy Andersson）,[二楼传来的歌声 Sånger från andra våningen](https://movie.douban.com/subject/1295877/),2000,8.2,罗伊·安德森,拉斯·诺德 / 本基特·卡尔森 / Stefan Larsson,喜剧 / 剧情,丹麦/挪威/瑞典
+200,182,《云上的日子》（1995，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）,[云上的日子 Al di là delle nuvole](https://movie.douban.com/subject/1291558/),1995,7.6,米开朗基罗·安东尼奥尼 / 维姆·文德斯,苏菲·玛索 / 约翰·马尔科维奇 / 芬妮·阿尔丹,剧情 / 爱情 / 情色,法国/意大利/德国
+201,182,《五至七时的奇奥》（1962，阿涅斯·瓦尔达 Agnès Varda）,[五至七时的克莱奥 Cléo de 5 à 7](https://movie.douban.com/subject/1294565/),1962,8.7,阿涅斯·瓦尔达,科琳娜·马尔尚 / 安托万·布尔塞耶 / 多米妮克·达夫雷,喜剧 / 剧情 / 音乐,法国/意大利
+202,182,《仁心与冠冕》（1949，罗伯特·汉默 Robert Hamer）,[仁心与冠冕 Kind Hearts and Coronets](https://movie.douban.com/subject/1295995/),1949,8.5,罗伯特·哈默,亚历克·吉尼斯 / 瓦莱莉娅·霍布森 / 丹尼斯·普莱斯,喜剧 / 犯罪,英国
+203,182,《伍》（2005，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,[伍 پنج‎](https://movie.douban.com/subject/1401919/),2005,7.6,阿巴斯·基亚罗斯塔米, ,纪录片,伊朗/日本/法国
+204,182,《伍德斯托克音乐节1969》（1970，迈克尔·沃德利 Michael Wadleigh）,[伍德斯托克音乐节1969 Woodstock](https://movie.douban.com/subject/1292342/),1970,9.2,迈克尔·沃德利,琼·贝兹 / 里奇·海文思 / 罗杰·达尔特雷,纪录片 / 历史 / 音乐,美国
+205,182,《休日》（1968，李晚熙 Man-hui Lee）,[休日 휴일](https://movie.douban.com/subject/4265289/),1968,6.9,李晚熙,申星一 / 全智英,剧情 / 爱情,韩国
+206,182,《伯爵夫人的耳环》（1953，马克斯·奥菲尔斯 Max Ophüls）,[伯爵夫人的耳环 Madame de...](https://movie.douban.com/subject/1301122/),1953,8.1,马克斯·奥菲尔斯,达尼埃尔·达里约 / 维托里奥·德西卡 / 查尔斯·博耶,剧情 / 爱情,法国/意大利
+207,182,《何处是我朋友的家》（1987，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）,[何处是我朋友的家 خانه دوست کجاست؟‎](https://movie.douban.com/subject/1301897/),1987,8.9,阿巴斯·基亚罗斯塔米,巴比·艾哈迈德·波 / 艾哈迈德·艾哈迈德·波 / 科达·巴和·迪范,剧情,伊朗
+208,182,《你逃我也逃》（1942，恩斯特·刘别谦 Ernst Lubitsch）,[你逃我也逃 To Be or Not to Be](https://movie.douban.com/subject/1303418/),1942,9.3,恩斯特·刘别谦,卡洛·朗白 / 杰克·本尼 / 罗伯特·斯塔克,喜剧 / 爱情 / 战争,美国
+209,182,《你那边几点》（2001，蔡明亮 Tsai Ming-liang）,[你那边几点 你那邊幾點](https://movie.douban.com/subject/1294540/),2001,8.0,蔡明亮,李康生 / 陈湘琪 / 陆弈静,剧情 / 爱情,法国/中国台湾
+210,182,《倒扣的王牌》（1951，比利·怀尔德 Billy Wilder）,[倒扣的王牌 Ace in the Hole](https://movie.douban.com/subject/1293841/),1951,8.7,比利·怀尔德,柯克·道格拉斯 / 简·斯特林 / 罗伯特·亚瑟,剧情 / 黑色电影,美国
+211,182,《偶然与巧合》（1998，克劳德·勒鲁什 Claude Lelouch）,[偶然与巧合 Hasards ou coïncidences](https://movie.douban.com/subject/1420124/),1998,8.7,克洛德·勒卢什,Alessandra Martines / Pierre Arditi,剧情,法国/加拿大
+212,182,《偷吻》（1968，弗朗索瓦·特吕弗 François Truffaut）,[偷吻 Baisers volés](https://movie.douban.com/subject/1298197/),1968,7.9,弗朗索瓦·特吕弗,让-皮埃尔·利奥德 / 德菲因·塞里格 / 克洛德·雅德,剧情 / 爱情 / 喜剧,法国
+213,182,《儿子》（2002，达内兄弟 Jean-Pierre & Luc Dardenne）,[他人之子 Le fils](https://movie.douban.com/subject/1305337/),2002,8.1,让-皮埃尔·达内 / 吕克·达内,奥利维埃·古尔梅 / 摩根·马林 / 伊莎贝拉·索帕特,剧情,比利时/法国
+214,182,《克莱尔的膝盖》（1970，埃里克·侯麦 Eric Rohmer）,[克莱尔的膝盖 Le genou de Claire](https://movie.douban.com/subject/1294915/),1970,7.8,埃里克·侯麦,让-克洛德·布里亚利 / 奥罗拉·康纽 / 碧翠丝·罗曼德,剧情 / 爱情,法国
+215,182,《全金属外壳》（1987，斯坦利·库布里克 Stanley Kubrick）,[全金属外壳 Full Metal Jacket](https://movie.douban.com/subject/1300055/),1987,8.6,斯坦利·库布里克,马修·莫迪恩 / 亚当·鲍德温 / 文森特·多诺费奥,剧情 / 战争,英国/美国
+216,182,《兰闺艳血》（1950，尼古拉斯·雷 Nicholas Ray）,[兰闺艳血 In a Lonely Place](https://movie.douban.com/subject/1302923/),1950,7.9,尼古拉斯·雷,亨弗莱·鲍嘉 / 格洛丽亚·格雷厄姆 / 弗兰克·洛夫乔伊,剧情 / 黑色电影 / 悬疑 / 爱情 / 惊悚,美国
+217,182,《内心的伤痕》（1972，菲利普·加瑞尔 Philippe Garrel）,[内心的伤痕 La cicatrice intérieure](https://movie.douban.com/subject/1439985/),1972,7.5,菲利普·加瑞尔,尼可 / 菲利普·加瑞尔 / Christian Aaron Boulogne,剧情 / 奇幻 / 音乐,法国
+218,182,《内陆帝国》（2006，大卫·林奇 David Lynch）,[内陆帝国 Inland Empire](https://movie.douban.com/subject/1438734/),2006,7.7,大卫·林奇,劳拉·邓恩 / 杰瑞米·艾恩斯 / 贾斯汀·塞洛克斯,剧情 / 悬疑 / 惊悚,法国/波兰/美国
+219,182,《军中禁恋》（1999，克莱尔·德尼 Claire Denis）,[军中禁恋 Beau travail](https://movie.douban.com/subject/1306791/),1999,7.4,克莱尔·德尼,德尼·拉旺 / 米歇尔·索博 / 格莱戈尔·科林,剧情 / 同性,法国
+220,182,《冬日之光》（1962，英格玛·伯格曼 Ingmar Bergman）,[冬日之光 Nattvardsgästerna](https://movie.douban.com/subject/1296792/),1963,8.3,英格玛·伯格曼,古纳尔·布约恩施特兰德 / 马克斯·冯·叙多夫 / 英格丽·图林,剧情,瑞典
+221,182,《冰血暴》（1996，科恩兄弟 Joel & Ethan Coen）,[冰血暴 Fargo](https://movie.douban.com/subject/1292067/),1996,8.0,乔尔·科恩,威廉姆·H·梅西 / 史蒂夫·布西密 / 彼得·斯特曼,犯罪 / 剧情 / 惊悚,美国/英国
+222,182,《凯斯》（1970，肯·洛奇 Ken Loach）,[小孩与鹰 Kes](https://movie.douban.com/subject/1297920/),1969,8.6,肯·洛奇,大卫·布拉德利 / Freddie Fletcher / 琳内·佩里,剧情 / 儿童,英国
+223,182,《前进青春》（2006，佩德罗·科斯塔 Pedro Costa）,[前进青春 Juventude em Marcha](https://movie.douban.com/subject/1937459/),2006,7.4,佩德罗·科斯塔,Ventura / Vanda Duarte / Beatriz Duarte,剧情,葡萄牙/法国/瑞士
+224,182,《加斯·荷伯之迷》（1974，沃纳·赫尔佐格 Werner Herzog）, , , , , , , 
+225,182,《动物之血》（1949，乔治·弗朗叙 Georges Franju）, , , , , , , 
+226,182,《动物电影》（1981，维克多·宋菲尔德 / 米莉亚姆·阿劳克斯 Victor Schonfeld / Myriam Alaux）, , , , , , , 
+227,182,《北方的纳努克》（1922，罗伯特·J.弗拉哈迪 Robert J. Flaherty）, , , , , , , 
+228,182,《十诫之六: 切勿沉湎于情欲》（1990，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）, , , , , , , 
+229,182,《千钧一发》（1997，安德鲁·尼科尔 Andrew Niccol）, , , , , , , 
+230,182,《午后的迷惘》（1943，梅雅·黛伦 Maya Deren）, , , , , , , 
+231,182,《午夜钟声》（1965，奥逊·威尔斯 Orson Welles）, , , , , , , 
+232,182,《半边人》（1983，方育平 Allen Fong）, , , , , , , 
+233,182,《单车少年》（2011，达内兄弟 Jean-Pierre & Luc Dardenne）, , , , , , , 
+234,182,《南国再见，南国》（1996，侯孝贤 Hsiao-hsien Hou）, , , , , , , 
+235,182,《南方》（1988，费尔南多·索拉纳斯 Fernando E. Solanas）, , , , , , , 
+236,182,《卡宾枪手》（1963，让-吕克·戈达尔 Jean-Luc Godard）, , , , , , , 
+237,182,《卡门》（1983，卡洛斯·绍拉 Carlos Saura）, , , , , , , 
+238,182,《印度母亲》（1957，梅布·卡恩 Mehboob Khan）, , , , , , , 
+239,182,《危楼春晓》（1953，李铁 Tie Li）, , , , , , , 
+240,182,《历劫佳人》（1958，奥逊·威尔斯 Orson Welles）, , , , , , , 
+241,182,《压路机和小提琴》（1961，安德烈·塔科夫斯基 Andrei Tarkovsky）, , , , , , , 
+242,182,《受难记》（1982，让-吕克·戈达尔 Jean-Luc Godard）, , , , , , , 
+243,182,《另一个女人》（1988，伍迪·艾伦 Woody Allen）, , , , , , , 
+244,182,《史密斯先生到华盛顿》（1939，弗兰克·卡普拉 Frank Capra）, , , , , , , 
+245,182,《同流者》（1970，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）, , , , , , , 
+246,182,《吸血鬼》（1915，路易·费雅德 Louis Feuillade）, , , , , , , 
+247,182,《吸血鬼》（1932，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）, , , , , , , 
+248,182,《呐喊》（1957，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）, , , , , , , 
+249,182,《周末》（1967，让-吕克·戈达尔 Jean-Luc Godard）, , , , , , , 
+250,182,《呼喊与细语》（1972，英格玛·伯格曼 Ingmar Bergman）, , , , , , , 
+251,182,《咖啡时光》（2003，侯孝贤 Hsiao-hsien Hou）, , , , , , , 
+252,182,《哨兵》（1992，阿诺·德斯普里钦 Arnaud Desplechin）, , , , , , , 
+253,182,《回到未来》（1985，罗伯特·泽米基斯 Robert Zemeckis）, , , , , , , 
+254,182,《回归》（2003，安德烈·日瓦金采夫 Andrei Zvyagintsev）, , , , , , , 
+255,182,《国王迷》（1975，约翰·休斯顿 John Huston）, , , , , , , 
+256,182,《圣山》（1973，亚历桑德罗·佐杜洛夫斯基 Alejandro Jodorowsky）, , , , , , , 
+257,182,《在人生的另一边》（2007，法提·阿金 Fatih Akin）, , , , , , , 
+258,182,《在桥下》（1946，海尔姆特·考特纳 Helmut Käutner）, , , , , , , 
+259,182,《地下情》（1986，关锦鹏 Stanley Kwan）, , , , , , , 
+260,182,《坠入》（2006，塔西姆·辛 Tarsem Singh）, , , , , , , 
+261,182,《外部空间》（2000，彼特·契尔卡斯基 Peter Tscherkassky）, , , , , , , 
+262,182,《夜船》（1979，玛格丽特·杜拉 Marguerite Duras）, , , , , , , 
+263,182,《夜逃鸳鸯》（1949，尼古拉斯·雷 Nicholas Ray）, , , , , , , 
+264,182,《大地在波动》（1948，卢奇诺·维斯康蒂 Luchino Visconti）, , , , , , , 
+265,182,《大树之歌》（1959，萨蒂亚吉特·雷伊 Satyajit Ray）, , , , , , , 
+266,182,《大菩萨岭》（1966，冈本喜八 Kihachi Okamoto）, , , , , , , 
+267,182,《大话西游》（1995，刘镇伟 Jeffrey Lau）, , , , , , , 
+268,182,《大闹天宫》（1965，万籁鸣 / 唐澄 Laiming Wan / Cheng Tang）, , , , , , , 
+269,182,《天使爱美丽》（2001，让-皮埃尔·热内 Jean-Pierre Jeunet）, , , , , , , 
+270,182,《天国与地狱》（1963，黑泽明 Akira Kurosawa）, , , , , , , 
+271,182,《天堂电影院》（1988，朱塞佩·托纳多雷 Giuseppe Tornatore）, , , , , , , 
+272,182,《天堂里的烦恼》（1932，恩斯特·刘别谦 Ernst Lubitsch）, , , , , , , 
+273,182,《天意》（1977，阿伦·雷乃 Alain Resnais）, , , , , , , 
+274,182,《太阳照常升起》（2007，姜文 Wen Jiang）, , , , , , , 
+275,182,《夺命剑》（1967，小林正树 Masaki Kobayashi）, , , , , , , 
+276,182,《奇爱博士》（1964，斯坦利·库布里克 Stanley Kubrick）, , , , , , , 
+277,182,《奇迹》（2011，是枝裕和 Hirokazu Koreeda）, , , , , , , 
+278,182,《奥兰多》（1992，莎莉·波特 Sally Potter）, , , , , , , 
+279,182,《奥林匹亚》（1938，莱尼·里芬斯塔尔 Leni Riefenstahl）, , , , , , , 
+280,182,《女人步上楼梯时》（1960，成濑巳喜男 Mikio Naruse）, , , , , , , 
+281,182,《女友礼拜五》（1940，霍华德·霍克斯 Howard Hawks）, , , , , , , 
+282,182,《女巫》（1922，本杰明·克里斯滕森 Benjamin Christensen）, , , , , , , 
+283,182,《女收藏家》（1967，埃里克·侯麦 Eric Rohmer）, , , , , , , 
+284,182,《女继承人》（1949，威廉·惠勒 William Wyler）, , , , , , , 
+285,182,《好家伙》（1990，马丁·斯科塞斯 Martin Scorsese）, , , , , , , 
+286,182,《如果……》（1968，林赛·安德森 Lindsay Anderson）, , , , , , , 
+287,182,《娜塞琳》（1959，路易斯·布努埃尔 Luis Buñuel）, , , , , , , 
+288,182,《子弹横飞百老汇》（1994，伍迪·艾伦 Woody Allen）, , , , , , , 
+289,182,《孤独的妻子》（1964，萨蒂亚吉特·雷伊 Satyajit Ray）, , , , , , , 
+290,182,《定理》（1968，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）, , , , , , , 
+291,182,《审判》（1962，奥逊·威尔斯 Orson Welles）, , , , , , , 
+292,182,《寂静的生活》（1995，伊丹十三 Juzo Itami）, , , , , , , 
+293,182,《对她说》（2002，佩德罗·阿莫多瓦 Pedro Almodóvar）, , , , , , , 
+294,182,《小鞋子》（1999，马基德·马基迪 Majid Majidi）, , , , , , , 
+295,182,《山椒大夫》（1954，沟口健二 Kenji Mizoguchi）, , , , , , , 
+296,182,《巨蟒与圣杯》（1975，特里·吉连姆 / 特里·琼斯 Terry Gilliam / Terry Jones）, , , , , , , 
+297,182,《巴顿将军》（1970，弗兰克·J.沙夫纳 ranklin J. Schaffner）, , , , , , , 
+298,182,《希林公主》（2008，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）, , , , , , , 
+299,182,《幸福》（1965，阿涅斯·瓦尔达 Agnès Varda）, , , , , , , 
+300,182,《幽灵马车》（1921，维克多·斯约斯特罗姆 Victor Sjöström）, , , , , , , 
+301,182,《异形》（1979，雷德利·斯科特 Ridley Scott）, , , , , , , 
+302,182,《影子部队》（1969，让-皮埃尔·梅尔维尔 Jean-Pierre Melville）, , , , , , , 
+303,182,《往日情怀》（1973，西德尼·波拉克 Sydney Pollack）, , , , , , , 
+304,182,《德州巴黎》（1984，维姆·文德斯 Wim Wenders）, , , , , , , 
+305,182,《忘忧森林》（1986，罗伯特·加德纳 Robert Gardner）, , , , , , , 
+306,182,《恋恋风尘》（1987，侯孝贤 Hsiao-hsien Hou）, , , , , , , 
+307,182,《恋爱与义务》（1931，卜万苍 Wancang Bu）, , , , , , , 
+308,182,《恋爱症候群》（2006，阿彼察邦·韦拉斯哈古 Apichatpong Weerasethakul）, , , , , , , 
+309,182,《情枭的黎明》（1993，布莱恩·德·帕尔玛 Brian De Palma）, , , , , , , 
+310,182,《情欲与虐杀》（1970，吉田喜重 Yoshishige Yoshida）, , , , , , , 
+311,182,《惩罚公园》（1971，彼得·沃特金斯 Peter Watkins）, , , , , , , 
+312,182,《感官世界》（1976，大岛渚 Nagisa Ôshima）, , , , , , , 
+313,182,《戏梦巴黎》（2003，贝纳尔多·贝托鲁奇 Bernardo Bertolucci）, , , , , , , 
+314,182,《我们如此相爱》（1974，埃托尔·斯科拉 Ettore Scola）, , , , , , , 
+315,182,《我是古巴》（1968，米哈依尔·卡拉托佐夫 Mikhail Kalatozov）, , , , , , , 
+316,182,《我略知她一二》（1967，让-吕克·戈达尔 Jean-Luc Godard）, , , , , , , 
+317,182,《我要》（2004，莎莉·波特 Sally Potter）, , , , , , , 
+318,182,《战地浪漫曲》（1985，皮奥特·托多罗夫斯基 Pyotr Todorovskiy）, , , , , , , 
+319,182,《战场上的快乐圣诞》（1983，大岛渚 Nagisa Ôshima）, , , , , , , 
+320,182,《房屋是黑的》（2008，芙茹弗·法洛克扎德 Forugh Farrokhzad）, , , , , , , 
+321,182,《扎布里斯基角》（1970，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）, , , , , , , 
+322,182,《抛掉书本上街去》（1971，寺山修司 Shuji Terayama）, , , , , , , 
+323,182,《拿破仑》（1927，阿贝尔·冈斯 Abel Gance）, , , , , , , 
+324,182,《捕鼠者》（1999，琳恩·拉姆塞 Lynne Ramsay）, , , , , , , 
+325,182,《操行零分》（1933，让·维果 Jean Vigo）, , , , , , , 
+326,182,《收播新闻》（1987，詹姆斯·L·布鲁克斯 James L. Brooks）, , , , , , , 
+327,182,《无姓之人》（2009，雅克·范·多梅尔 Jaco van Dormael）, , , , , , , 
+328,182,《无辜》（1976，卢奇诺·维斯康蒂 Luchino Visconti）, , , , , , , 
+329,182,《日以作夜》（1973，弗朗索瓦·特吕弗 François Truffaut）, , , , , , , 
+330,182,《早安》（1959，小津安二郎 Yasujiro Ozu）, , , , , , , 
+331,182,《旺妲的房间》（2000，佩德罗·科斯塔 Pedro Costa）, , , , , , , 
+332,182,《星期天的人们》（1930，柯特·西奥德马克 / 罗伯特·西奥德马克 / 埃德加·G.乌尔默 / 弗雷德·金尼曼 / 洛克斯·格里希 Curt Siodmak / Robert Siodmak / Edgar G. Ulmer / Fred Zinnemann / Rochus Gliese）, , , , , , , 
+333,182,《普通的法西斯》（1966，米哈伊尔·罗姆 Mikhail Romm）, , , , , , , 
+334,182,《普里斯特法官》（1934，约翰·福特 John Ford）, , , , , , , 
+335,182,《暴雨将至》（1994，米尔科·曼彻夫斯基 Milcho Manchevski）, , , , , , , 
+336,182,《曼哈顿》（1979，伍迪·艾伦 Woody Allen）, , , , , , , 
+337,182,《最卑贱的人》（1924，F·W·茂瑙 F.W. Murnau）, , , , , , , 
+338,182,《月亮在跳舞》（1996，加林·努格罗 Garin Nugroho）, , , , , , , 
+339,182,《月球旅行记》（1902，乔治·梅里爱 Georges Méliès）, , , , , , , 
+340,182,《朦胧的欲望》（1977，路易斯·布努埃尔 Luis Buñuel）, , , , , , , 
+341,182,《木屐树》（1978，埃曼诺·奥米 Ermanno Olmi）, , , , , , , 
+342,182,《机遇之歌》（1987，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）, , , , , , , 
+343,182,《杀人短片》（1988，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）, , , , , , , 
+344,182,《杀手烙印》（1967，铃木清顺 (Seijun Suzuki)）, , , , , , , 
+345,182,《杀羊人》（1977，查尔斯·伯内特 Charles Burnett）, , , , , , , 
+346,182,《枪疯》（1950，约瑟夫·H.刘易斯 Joseph H. Lewis）, , , , , , , 
+347,182,《柏林谍影》（1965，马丁·里特 Martin Ritt）, , , , , , , 
+348,182,《梦》（1990，黑泽明 Akira Kurosawa）, , , , , , , 
+349,182,《梵高》（1991，莫里斯·皮亚拉 Maurice Pialat）, , , , , , , 
+350,182,《樱桃的滋味》（1997，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）, , , , , , , 
+351,182,《橄榄树下的情人》（1994，阿巴斯·基亚罗斯塔米 Abbas Kiarostami）, , , , , , , 
+352,182,《欲望法则》（1987，佩德罗·阿莫多瓦 Pedro Almodóvar）, , , , , , , 
+353,182,《正午》（1952，弗雷德·金尼曼 Fred Zinnemann）, , , , , , , 
+354,182,《步履不停》（2008，是枝裕和 Hirokazu Koreeda）, , , , , , , 
+355,182,《武训传》（1952，孙瑜 Yu Sun）, , , , , , , 
+356,182,《死吻》（1955，罗伯特·奥尔德里奇 Robert Aldrich）, , , , , , , 
+357,182,《比丽迪亚娜》（1961，路易斯·布努埃尔 Luis Buñuel）, , , , , , , 
+358,182,《水中刀》（1962，罗曼·波兰斯基 Roman Polanski）, , , , , , , 
+359,182,《沙家浜》（1971，武兆堤 Zhaodi Wu）, , , , , , , 
+360,182,《没有过去的男人》（2002，阿基·考里斯马基 Aki Kaurismaki）, , , , , , , 
+361,182,《法国康康舞》（1954，让·雷诺阿 Jean Renoir）, , , , , , , 
+362,182,《洛可兄弟》（1960，卢奇诺·维斯康蒂 Luchino Visconti）, , , , , , , 
+363,182,《洞》（1998，蔡明亮 Tsai Ming-liang）, , , , , , , 
+364,182,《活着》（1994，张艺谋 Yimou Zhang）, , , , , , , 
+365,182,《流浪者之歌》（1988，埃米尔·库斯图里卡 Emir Kusturica）, , , , , , , 
+366,182,《浩劫》（1985，克劳德·朗兹曼 Claude Lanzmann）, , , , , , , 
+367,182,《浪花悲歌》（1936，沟口健二 Kenji Mizoguchi）, , , , , , , 
+368,182,《浪荡儿》（1956，费德里科·费里尼 Federico Fellini）, , , , , , , 
+369,182,《浮云世事》（1996，阿基·考里斯马基 Aki Kaurismaki）, , , , , , , 
+370,182,《浮生一日》（2011，凯文·麦克唐纳 Kevin Macdonald）, , , , , , , 
+371,182,《海上花》（1998，侯孝贤 Hsiao-hsien Hou）, , , , , , , 
+372,182,《海滩的一天》（1983，杨德昌 Edward Yang）, , , , , , , 
+373,182,《淑女伊芙》（1941，普莱斯顿·斯特奇斯 Preston Sturges）, , , , , , , 
+374,182,《深锁春光一院愁》（1955，道格拉斯·塞克 Douglas Sirk）, , , , , , , 
+375,182,《清作之妻》（1965，增村保造 Yasuzo Masumura）, , , , , , , 
+376,182,《漩涡之外》（1947，雅克·特纳 Jacques Tourneur）, , , , , , , 
+377,182,《漫长的告别》（1971，琪拉·穆拉托娃 Kira Muratova）, , , , , , , 
+378,182,《漫长的告别》（1973，罗伯特·奥特曼 Robert Altman）, , , , , , , 
+379,182,《火柴厂女工》（1990，阿基·考里斯马基 Aki Kaurismaki）, , , , , , , 
+380,182,《火树银花》（1948，文森特·明奈利 Vincente Minnelli）, , , , , , , 
+381,182,《火车大劫案》（1903，埃德温·S.波特 Edwin S. Porter）, , , , , , , 
+382,182,《火车进站》（1896，卢米埃尔兄弟 Auguste & Louis Lumière）, , , , , , , 
+383,182,《热天午后》（1975，西德尼·吕美特 Sidney Lumet）, , , , , , , 
+384,182,《燃火的时刻》（1970，费尔南多·索拉纳斯 Fernando Solanas）, , , , , , , 
+385,182,《爱情短片》（1988，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）, , , , , , , 
+386,182,《爱情神话》（1969，费德里科·费里尼 Federico Fellini）, , , , , , , 
+387,182,《牧场之家好做伴》（2006，罗伯特·奥特曼 Robert Altman）, , , , , , , 
+388,182,《猎人之夜》（1955，查尔斯·劳顿 Charles Laughton）, , , , , , , 
+389,182,《猜火车》（1996，丹尼·鲍尔 Danny Boyle）, , , , , , , 
+390,182,《玛丽娅·布劳恩的婚姻》（1979，赖纳·维尔纳·法斯宾德 Rainer Werner Fassbinder）, , , , , , , 
+391,182,《玩家马布斯博士》（1922，弗里茨·朗 Fritz Lang）, , , , , , , 
+392,182,《甜蜜蜜》（1996，陈可辛 Peter Chan）, , , , , , , 
+393,182,《生之欲》（1952，黑泽明 Akira Kurosawa）, , , , , , , 
+394,182,《生活的发现》（2002，洪尚秀 Sang-soo Hong）, , , , , , , 
+395,182,《电视台风云》（1976，西德尼·吕美特 Sidney Lumet）, , , , , , , 
+396,182,《男人的争斗》（1955，朱尔斯·达辛 Jules Dassin）, , , , , , , 
+397,182,《疯劫》（1979，许鞍华 Ann Hui）, , , , , , , 
+398,182,《白痴》（1999，拉斯·冯·提尔 Lars von Trier）, , , , , , , 
+399,182,《百花深处》（2002，陈凯歌 Kaige Chen）, , , , , , , 
+400,182,《盗马贼》（1986，田壮壮 Zhuangzhuang Tian）, , , , , , , 
+401,182,《真实罗曼史》（1993，托尼·斯科特 Tony Scott）, , , , , , , 
+402,182,《神女》（1934，吴永刚 Yonggang Wu）, , , , , , , 
+403,182,《福利》（1975，弗雷德里克·怀斯曼 Frederick Wiseman）, , , , , , , 
+404,182,《福尔摩斯二世》（1924，巴斯特·基顿 Buster Keaton）, , , , , , , 
+405,182,《离魂异客》（1995，吉姆·贾木许 Jim Jarmusch）, , , , , , , 
+406,182,《秋日和》（1960，小津安二郎 Yasujirô Ozu）, , , , , , , 
+407,182,《稻草狗》（1971，萨姆·佩金帕 Sam Peckinpah）, , , , , , , 
+408,182,《窃听大阴谋》（1974，弗朗西斯·福特·科波拉 Francis Ford Coppola）, , , , , , , 
+409,182,《窃听风暴》（2006，弗洛里安·亨克尔·冯·多纳斯马 Florian Henckel von Donnersmarck）, , , , , , , 
+410,182,《第三类接触》（1977，史蒂文·斯皮尔伯格 Steven Spielberg）, , , , , , , 
+411,182,《第二号》（1975，让-吕克·戈达尔 Jean-Luc Godard）, , , , , , , 
+412,182,《第二层地狱》（1990，亚历山大·索科洛夫 Alexander Sokurov）, , , , , , , 
+413,182,《米兰奇迹》（1951，维托里奥·德·西卡 Vittorio De Sica）, , , , , , , 
+414,182,《索多玛120天》（1976，皮埃尔·保罗·帕索里尼 Pier Paolo Pasolini）, , , , , , , 
+415,182,《红在革命蔓延时》（1977，克利斯·马克 Chris Marker）, , , , , , , 
+416,182,《红色海报》（1976，弗兰克·卡塞蒂 Frank Cassenti）, , , , , , , 
+417,182,《红菱艳》（1948，艾默力·皮斯伯格 / 迈克尔·鲍威尔 Emeric Pressburger / Michael Powell）, , , , , , , 
+418,182,《红辣椒》（2006，今敏 Satoshi Kon）, , , , , , , 
+419,182,《绅士们，我把爱因斯坦给宰掉了哦》（1970，奥德里奇·利普斯基 Oldrich Lipský）, , , , , , , 
+420,182,《绘图师的合约》（1982，彼得·格林纳威 Peter Greenaway）, , , , , , , 
+421,182,《绿光》（1986，埃里克·侯麦 Eric Rohmer）, , , , , , , 
+422,182,《罗拉快跑》（1998，汤姆·提克威 Tom Tykwer）, , , , , , , 
+423,182,《罗拉秘史》（1944，奥托·普莱明格 Otto Preminger）, , , , , , , 
+424,182,《罗马风情画》（1972，费德里科·费里尼 Federico Fellini）, , , , , , , 
+425,182,《美人计》（1946，阿尔弗雷德·希区柯克 Alfred Hitchcock）, , , , , , , 
+426,182,《老无所依》（2007，科恩兄弟 Joel & Ethan Coen）, , , , , , , 
+427,182,《耶利米启示录》（2006，拉夫·达兹 Lav Diaz）, , , , , , , 
+428,182,《聪明笨伯古惑车》（1971，雅克·塔蒂 Jacques Tati）, , , , , , , 
+429,182,《肖申克的救赎》（1994，弗兰克·德拉邦特 Frank Darabont）, , , , , , , 
+430,182,《育婴奇谭》（1938，霍华德·霍克斯 Howard Hawks）, , , , , , , 
+431,182,《自由》（2001，里山德罗·阿隆索 Lisandro Alonso）, , , , , , , 
+432,182,《致命档案》（1990，肯·洛奇 Ken Loach）, , , , , , , 
+433,182,《芭玛戈》（2006，阿伯德拉马纳·希萨柯 Abderrahmane Sissako）, , , , , , , 
+434,182,《花园》（1990，德里克·贾曼 Derek Jarman）, , , , , , , 
+435,182,《苏州河》（2000，娄烨 Ye Lou）, , , , , , , 
+436,182,《苦月亮》（1992，罗曼·波兰斯基 Roman Polanski）, , , , , , , 
+437,182,《苦雨恋春风》（1956，道格拉斯·塞克 Douglas Sirk）, , , , , , , 
+438,182,《蓝白红三部曲之白》（1994，克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski）, , , , , , , 
+439,182,《虎豹小霸王》（1969，乔治·罗伊·希尔 George Roy Hill）, , , , , , , 
+440,182,《蝙蝠侠前传3：黑暗骑士崛起》（2012，克里斯托弗·诺兰 Christopher Nolan）, , , , , , , 
+441,182,《血溅十三号警署》（1976，约翰·卡朋特 John Carpenter）, , , , , , , 
+442,182,《被遗忘的人们》（1950，路易斯·布努埃尔 Luis Buñuel）, , , , , , , 
+443,182,《被遗忘的祖先的阴影》（1966，谢尔盖·帕拉杰诺夫 Sergei Parajanov）, , , , , , , 
+444,182,《词语》（1955，卡尔·西奥多·德莱叶 Carl Theodor Dreyer）, , , , , , , 
+445,182,《谁来为我摘月亮》（1999，巴克迪亚·库唐纳扎洛夫 Bakhtyar Khudojnazarov）, , , , , , , 
+446,182,《贪婪》（1924，埃里克·冯·施特罗海姆 Erich von Stroheim）, , , , , , , 
+447,182,《赖婚》（1922，D·W·格里菲斯 D.W. Griffith）, , , , , , , 
+448,182,《赤胆屠龙》（1959，霍华德·霍克斯 Howard Hawks）, , , , , , , 
+449,182,《走出非洲》（1985，西德尼·波拉克 Sydney Pollack）, , , , , , , 
+450,182,《跳出我天地》（2000，史蒂芬·戴德利 Stephen Daldry）, , , , , , , 
+451,182,《辛德勒的名单》（1993，史蒂文·斯皮尔伯格 Steven Spielberg）, , , , , , , 
+452,182,《过客》（1975，米开朗基罗·安东尼奥尼 Michelangelo Antonioni）, , , , , , , 
+453,182,《迈尼蒙坦特》（1928，迪米特里·吉萨诺夫 Dimitri Kirsanoff）, , , , , , , 
+454,182,《迷墙》（1982，阿兰·帕克 Alan Parker）, , , , , , , 
+455,182,《逍遥骑士》（1969，丹尼斯·霍珀 Dennis Hopper）, , , , , , , 
+456,182,《通天塔》（2006，亚利桑德罗·冈萨雷斯·伊纳里多 Alejandro González Iñárritu）, , , , , , , 
+457,182,《邀你同游》（1982，彼特·德尔·蒙特 Peter Del Monte）, , , , , , , 
+458,182,《邦妮和克莱德》（1967，阿瑟·佩恩 Arthur Penn）, , , , , , , 
+459,182,《邻居》（1952，诺曼·麦克拉伦 Norman McLaren）, , , , , , , 
+460,182,《都灵之马》（2011，贝拉·塔尔 Béla Tarr）, , , , , , , 
+461,182,《重庆森林》（1994，王家卫 Kar Wai Wong）, , , , , , , 
+462,182,《野玫瑰之恋》（1960，王天林 Tian-lin Wang）, , , , , , , 
+463,182,《钢琴教师》（2001，迈克尔·哈内克 Michael Haneke）, , , , , , , 
+464,182,《铁男1：金属兽》（1989，塚本晋也 Shinya Tsukamoto）, , , , , , , 
+465,182,《铁皮鼓》（1979，沃尔克·施隆多夫 Volker Schlöndorff）, , , , , , , 
+466,182,《铁窗喋血》（1967，斯图尔特·罗森博格 Stuart Rosenberg）, , , , , , , 
+467,182,《铁路的白蔷薇》（1923，阿贝尔·冈斯 Abel Gance）, , , , , , , 
+468,182,《银河系漫游指南》（2005，加斯·詹宁斯 Garth Jennings）, , , , , , , 
+469,182,《阳光灿烂的日子》（1994，姜文 Wen Jiang）, , , , , , , 
+470,182,《阿基拉》（1988，大友克洋 Katsuhiro Ôtomo）, , , , , , , 
+471,182,《阿尔卡特兹的养鸟人》（1962，约翰·弗兰克海默 John Frankenheimer）, , , , , , , 
+472,182,《阿尔及尔之战》（1966，吉洛·彭特克沃 Gillo Pontecorvo）, , , , , , , 
+473,182,《阿尔法城》（1965，让-吕克 戈达尔 Jean-Luc Godard）, , , , , , , 
+474,182,《阿黛尔·雨果的故事》（1975，弗朗索瓦·特吕弗 François Truffaut）, , , , , , , 
+475,182,《雨果》（2011，马丁·斯科塞斯 Martin Scorsese）, , , , , , , 
+476,182,《霍华德庄园》（1992，詹姆斯·伊沃里 James Ivory）, , , , , , , 
+477,182,《青春残酷物语》（1960，大岛渚 Nagisa Ôshima）, , , , , , , 
+478,182,《非洲女王号》（1951，约翰·休斯顿 John Huston）, , , , , , , 
+479,182,《音乐室》（1958，萨蒂亚吉特·雷伊 Satyajit Ray）, , , , , , , 
+480,182,《颐和园》（2007，娄烨 Ye Lou）, , , , , , , 
+481,182,《风柜来的人》（1983，侯孝贤 Hsiao-hsien Hou）, , , , , , , 
+482,182,《风烛泪》（1952，维托里奥·德·西卡 Vittorio De Sica）, , , , , , , 
+483,182,《风的故事》（1988，尤里斯·伊文思 Joris Ivens）, , , , , , , 
+484,182,《饥饿海峡》（1965，内田吐梦 Tomu Uchida）, , , , , , , 
+485,182,《马耳他之鹰》（1941，约翰·休斯顿 John Huston）, , , , , , , 
+486,182,《马路天使》（1937，袁牧之 Muzhi Yuan）, , , , , , , 
+487,182,《高潮艺术》（1998，丽莎·查罗登科 Lisa Cholodenko）, , , , , , , 
+488,182,《鬼子来了》（2000，姜文 Wen Jiang）, , , , , , , 
+489,182,《鲸鱼马戏团》（2000，贝拉·塔尔 Béla Tarr）, , , , , , , 
+490,182,《鹰扬》（1982，扬·特洛尔 Jan Troell）, , , , , , , 
+491,182,《麦秋》（1951，小津安二郎 Yasujirô Ozu）, , , , , , , 
+492,182,《麻将》（1996，杨德昌 Edward Yang）, , , , , , , 
+493,182,《黑上帝白魔鬼》（1964，格劳贝尔·罗恰 Glauber Rocha）, , , , , , , 
+494,182,《黑客帝国2：重装上阵》（2003，安迪·沃卓斯基 / 拉娜·沃卓斯基 Andy Wachowski / Lana Wachowski）, , , , , , , 
+495,182,《黑水仙》（1947，迈克尔·鲍威尔 Michael Powell）, , , , , , , 
+496,182,《黑鹰坠落》（2002，雷德利·斯科特 Ridley Scott）, , , , , , , 
+497,182,《龙门客栈》（1967，胡金铨 King Hu）, , , , , , , 
