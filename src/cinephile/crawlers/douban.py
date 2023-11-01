@@ -355,12 +355,14 @@ class DoubanCrawler(BaseCrawler):
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
-    def process_detail_list(self, movie_id_list, savedir=None):
+    def process_detail_list(self, movie_id_list, savedir=None, postfix=None):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
 
         url_config = self.urls.query(key)
-        savename = self.getname(dt, name=f"{self.save_prefix_movie}-cnt{len(movie_id_list)}")
+        postfix = ("-" + postfix) if postfix else ""
+        movie_cnt = len(movie_id_list)
+        savename = self.getname(dt, name=f"{self.save_prefix_movie}-cnt{movie_cnt}{postfix}")
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, savefile
