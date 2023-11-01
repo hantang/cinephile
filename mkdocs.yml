@@ -81,6 +81,7 @@ nav:
       - IMDb电影: imdb/index.md
       - TSPDT电影: tspdt/index.md
       - 电影组织: fiff/index.md
+      - 国别榜单: region/index.md
       - 补充: more/index.md
   - Douban:
       - 豆瓣电影: douban/index.md
@@ -101,6 +102,9 @@ nav:
       - 美国电影协会AFI: fiff/afi.md
       - 韩国釜山电影节（BIFF）: fiff/biff.md
       - 迷影网: fiff/cinephilia.md
+  - Region:
+     - 国别榜单: region/index.md
+     - 华语（中文）电影: region/zh.md
   - More:
       - 补充: more/index.md
       - 时光网Mtime: more/mtime.md
