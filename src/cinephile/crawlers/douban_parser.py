@@ -333,8 +333,10 @@ def parse_page_detail(page, **kwargs):
         comments = comments.h2
     else:
         comments = content.find("h2", id="comment_short_tab")
-    if comments:
+    if comments and comments.a:
         comments = strip(comments.a.text)
+    else:
+        comments = None
     reviews = content.find(id="reviews-wrapper") # todo
     if not reviews:
         reviews = content.find(id="review_section")
@@ -346,8 +348,10 @@ def parse_page_detail(page, **kwargs):
             reviews = reviews.find("span", class_="pl")
     else:
         reviews = reviews.h2
-    if reviews:
+    if reviews and reviews.a:
         reviews = strip(reviews.a.text)
+    else:
+        reviews = None
     discussion = content.find(class_="section-discussion")
     if discussion:
         if discussion.find("p", class_="pl"):
