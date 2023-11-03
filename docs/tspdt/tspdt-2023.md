@@ -10,14 +10,6 @@ hide:
 Current Version: April 2023 (18th edition)  
 Published on April 5, 2023
 
-### Top 1-250
+## Top 1000
 
-{{ read_csv("../../data/tspdt-top1000-v20231016-part1.csv") }}
-
-### Top 251-500
-
-{{ read_csv("../../data/tspdt-top1000-v20231016-part2.csv") }}
-
-### Top 501-1000
-
-{{ read_csv("../../data/tspdt-top1000-v20231016-part3.csv") }}
+{{ read_csv("../../data/tspdt-top1000-v20231016.csv") }}

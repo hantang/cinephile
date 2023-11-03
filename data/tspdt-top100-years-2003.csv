@@ -1,0 +1,101 @@
+Index,Rank,Title,Director,Imdb,Year,Length,Color,Region,Genre
+0,1,Citizen Kane,ORSON WELLES,tt0033467,1941 , 119m , BW , USA , Drama
+1,2,Vertigo,ALFRED HITCHCOCK,tt0052357,1958 , 128m , Col , USA , Thriller
+2,3,Rules of the Game,JEAN RENOIR,tt0031885,1939 , 113m , BW , France , Drama
+3,4,2001: A Space Odyssey,STANLEY KUBRICK,tt0062622,1968 , 139m , Col , UK , Sci-Fi
+4,5,8Â½,FEDERICO FELLINI,tt0056801,1963 , 135m , BW , Italy , Drama
+5,6,Tokyo Story,YASUJIRO OZU,tt0046438,1953 , 134m , BW , Japan , Drama
+6,7,The Searchers,JOHN FORD,tt0049730,1956 , 119m , Col , USA , Western
+7,8,Sunrise,F.W. MURNAU,tt0018455,1927 , 110m , BW , USA , Drama-Crime
+8,9,The Seven Samurai,AKIRA KUROSAWA,tt0047478,1954 , 200m , BW , Japan , Drama
+9,10,Battleship Potemkin,SERGEI EISENSTEIN,tt0015648,1925 , 65m , BW , Russia , War-Historical
+10,11,L'Atalante,JEAN VIGO,tt0024844,1934 , 89m , BW , France , Romance
+11,12,Rashomon,AKIRA KUROSAWA,tt0042876,1950 , 88m , BW , Japan , Drama
+12,13,The Godfather,FRANCIS FORD COPPOLA,tt0068646,1972 , 175m , Col , USA , Drama-Crime
+13,14,Singin' in the Rain,STANLEY DONEN/GENE KELLY,tt0045152,1952 , 102m , Col , USA , Musical-Dance
+14,15,The Passion of Joan of Arc,CARL DREYER,tt0019254,1928 , 77m , BW , France , Historical
+15,16,La Dolce Vita,FEDERICO FELLINI,tt0053779,1960 , 175m , BW , Italy , Drama
+16,17,The Bicycle Thief,VITTORIO DE SICA,tt0040522,1948 , 90m , BW , Italy , Drama
+17,18,Touch of Evil,ORSON WELLES,tt0052311,1958 , 108m , BW , USA , Crime
+18,19,The Godfather Part II,FRANCIS FORD COPPOLA,tt0071562,1974 , 200m , Col , USA , Drama-Crime
+19,20,Raging Bull,MARTIN SCORSESE,tt0081398,1980 , 128m , BW , USA , Sports-Bio
+20,21,Lawrence of Arabia,DAVID LEAN,tt0056172,1962 , 216m , Col , UK , War-Bio-Adventure
+21,22,City Lights,CHARLES CHAPLIN,tt0021749,1931 , 86m , BW , USA , Comedy
+22,23,The Mirror,ANDREI TARKOVSKY,tt0072443,1976 , 106m , Col , Russia , Drama
+23,24,L'Avventura,MICHELANGELO ANTONIONI,tt0053619,1960 , 145m , BW , Italy-France , Drama
+24,25,Andrei Rublev,ANDREI TARKOVSKY,tt0060107,1966 , 185m , Col-BW , Russia , Historical
+25,26,Les Enfants du Paradis,MARCEL CARNE,tt0037674,1945 , 195m , BW , France , Romance
+26,27,The General,BUSTER KEATON & CLYDE BRUCKMAN,tt0017925,1926 , 74m , BW , USA , Historical-Comedy
+27,28,The Third Man,CAROL REED,tt0041959,1949 , 104m , BW , UK , Thriller
+28,29,Psycho,ALFRED HITCHCOCK,tt0054215,1960 , 109m , BW , USA , Thriller-Horror
+29,30,Pather Panchali,SATYAJIT RAY,tt0048473,1955 , 112m , BW , India , Drama
+30,31,Ordet,CARL DREYER,tt0048452,1955 , 125m , BW , Denmark , Drama
+31,32,Ugetsu Monogatari,KENJI MIZOGUCHI,tt0046478,1953 , 96m , BW , Japan , Drama
+32,33,Jules et Jim,FRANCOIS TRUFFAUT,tt0055032,1961 , 104m , BW , France , Drama
+33,34,Taxi Driver,MARTIN SCORSESE,tt0075314,1976 , 113m , Col , USA , Drama
+34,35,La Grande Illusion,JEAN RENOIR,tt0028950,1937 , 117m , BW , France , War-Prison
+35,36,Contempt,JEAN-LUC GODARD,tt0057345,1963 , 103m , Col , France-Italy , Drama
+36,37,Breathless,JEAN-LUC GODARD,tt0053472,1959 , 89m , BW , France , Romance-Drama-Crime
+37,38,Au Hasard Balthazar,ROBERT BRESSON,tt0060138,1966 , 95m , BW , France , Drama
+38,39,Sunset Blvd.,BILLY WILDER,tt0043014,1950 , 110m , BW , USA , Drama
+39,40,The Conformist,BERNARDO BERTOLUCCI,tt0065571,1969 , 115m , Col , Italy-France-Germany , Political
+40,41,Apocalypse Now,FRANCIS FORD COPPOLA,tt0078788,1979 , 150m , Col , USA , War
+41,42,The Night of the Hunter,CHARLES LAUGHTON,tt0048424,1955 , 93m , BW , USA , Thriller
+42,43,Dr. Strangelove,STANLEY KUBRICK,tt0057012,1964 , 93m , BW , UK , Comedy
+43,44,The Seventh Seal,INGMAR BERGMAN,tt0050976,1957 , 96m , BW , Sweden , Drama
+44,45,Some Like it Hot,BILLY WILDER,tt0053291,1959 , 119m , BW , USA , Crime-Comedy
+45,46,Wild Strawberries,INGMAR BERGMAN,tt0050986,1957 , 90m , BW , Sweden , Drama
+46,47,M,FRITZ LANG,tt0022100,1931 , 99m , BW , Germany , Horror-Drama-Crime
+47,48,Persona,INGMAR BERGMAN,tt0060827,1966 , 81m , BW , Sweden , Drama
+48,49,"Ivan the Terrible, Part One",SERGEI EISENSTEIN,tttt0037824,1944 , 96m , BW , Russia , Historical-Drama
+49,50,Fanny and Alexander,INGMAR BERGMAN,tt0083922,1982 , 189m , Col , Sweden , Drama
+50,51,Modern Times,CHARLES CHAPLIN,tt0027977,1936 , 89m , BW , USA , Comedy
+51,52,The 400 Blows,FRANCOIS TRUFFAUT,tt0053198,1959 , 99m , BW , France , Drama
+52,53,La Strada,FEDERICO FELLINI,tt0047528,1954 , 115m , BW , Italy , Drama
+53,54,Intolerance,D.W. GRIFFITH,tt0006864,1916 , 178m , BW , USA , Drama
+54,55,Casablanca,MICHAEL CURTIZ,tt0034583,1942 , 102m , BW , USA , War-Romance-Drama
+55,56,Sansho the Bailiff,KENJI MIZOGUCHI,tt0047445,1954 , 125m , BW , Japan , Drama
+56,57,Viaggio in Italia,ROBERTO ROSSELLINI,tt0046511,1953 , 97m , BW , Italy , Romance
+57,58,Pierrot le fou,JEAN-LUC GODARD,tt0059592,1965 , 110m , Col , France-Italy , Romance-Drama-Crime
+58,59,Rear Window,ALFRED HITCHCOCK,tt0047396,1954 , 112m , Col , USA , Thriller
+59,60,Chinatown,ROMAN POLANSKI,tt0071315,1974 , 131m , Col , USA , Mystery
+60,61,The Wizard of Oz,VICTOR FLEMING,tt0032138,1939 , 101m , Col-BW , USA , Musical-Fantasy-Dance
+61,62,The Magnificent Ambersons,ORSON WELLES,tt0035015,1942 , 88m , BW , USA , Drama
+62,63,North by Northwest,ALFRED HITCHCOCK,tt0053125,1959 , 136m , Col , USA , Thriller-Spy
+63,64,The Gold Rush,CHARLES CHAPLIN,tt0015864,1925 , 82m , BW , USA , Comedy
+64,65,Metropolis,FRITZ LANG,tt6305013578.01.LZZZZZZZ.jpg,1926 , 120m , BW , Germany , Fantasy-Drama
+65,66,Blade Runner,RIDLEY SCOTT,tt0083658,1982 , 118m , Col , USA , Sci-Fi
+66,67,"Sherlock, Jr.",BUSTER KEATON,tt0015324,1924 , 45m , BW , USA , Comedy
+67,68,Nashville,ROBERT ALTMAN,tt0073440,1975 , 159m , Col , USA , Drama
+68,69,L'Age d'Or,LUIS BUNUEL,tt0021577,1930 , 63m , BW , France , Drama
+69,70,Blue Velvet,DAVID LYNCH,tt0090756,1986 , 120m , Col , USA , Mystery-Drama
+70,71,Pickpocket,ROBERT BRESSON,tt0053168,1959 , 75m , BW , France , Drama-Crime
+71,72,My Darling Clementine,JOHN FORD,tt0038762,1946 , 97m , BW , USA , Western
+72,73,It's a Wonderful Life,FRANK CAPRA,tt0038650,1946 , 129m , BW , USA , Drama
+73,74,Greed,ERICH VON STROHEIM,tt0015881,1925 , 140m , BW , USA , Drama
+74,75,The Man with a Movie Camera,DZIGA VERTOV,tt0019760,1929 , 80m , BW , Russia , Documentary
+75,76,Vivre sa Vie,JEAN-LUC GODARD,tt0056663,1963 , 85m , BW , France , Drama
+76,77,Barry Lyndon,STANLEY KUBRICK,tt0072684,1975 , 183m , Col , UK , Drama
+77,78,Rio Bravo,HOWARD HAWKS,tt0053221,1959 , 141m , Col , USA , Western
+78,79,The Earrings of Madame de...,MAX OPHULS,tt0046022,1930 , 63m , BW , France , Drama
+79,80,Amarcord,FEDERICO FELLINI,tt0071129,1973 , 127m , Col , Italy , Comedy
+80,81,Stalker,ANDREI TARKOVSKY,tt0079944,1979 , 160m , Col-BW , Russia , Sci-Fi-Mystery
+81,82,Gertrud,CARL DREYER,tt0058138,1964 , 116m , BW , Denmark , Drama
+82,83,Last Year in Marienbad,ALAIN RESNAIS,tt0054632,1961 , 94m , BW , France-Italy , Drama-Mystery-Romance
+83,84,Nosferatu,F.W. MURNAU,tt0013442,1922 , 84m , BW , Germany , Horror
+84,85,Viridiana,LUIS BUNUEL,tt0055601,1961 , 90m , BW , Spain , Drama
+85,86,Playtime,JACQUES TATI,tt0062136,1967 , 108m , Col , France , Drama-Comedy
+86,87,The Apartment,BILLY WILDER,tt0053604,1960 , 125m , BW , USA , Drama-Comedy
+87,88,The Wild Bunch,SAM PECKINPAH,tt0065214,1969 , 144m , Col , USA , Western
+88,89,The Man Who Shot Liberty Valance,JOHN FORD,tt0056217,1962 , 119m , BW , USA , Western
+89,90,Once Upon a Time in the West,SERGIO LEONE,tt0064116,1968 , 165m , Col , Italy-USA , Western
+90,91,Ran,AKIRA KUROSAWA,tt0089881,1985 , 161m , Col , France-Japan , War-Historical-Drama
+91,92,The Leopard,LUCHINO VISCONTI,tt0057091,1963 , 205m , Col , France-Italy , Historical-Drama
+92,93,Aguirre: The Wrath of God,WERNER HERZOG,tt0068182,1972 , 94m , Col , Germany , Historical-Drama-Adventure
+93,94,"Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles",CHANTAL AKERMAN,tt0073198,1975 , 201m , Col , Belgium-France , Drama
+94,95,Dekalog,KRZYSZTOF KIESLOWSKI,tttt0092337,1987 , 550m , Col , Poland , Drama
+95,96,Ikiru,AKIRA KUROSAWA,tt0044741,1952 , 143m , BW , Japan , Drama
+96,97,Los Olvidados,LUIS BUNUEL,tt0042804,1950 , 88m , BW , Mexico , Drama
+97,98,Pulp Fiction,QUENTIN TARANTINO,tt0110912,1994 , 154m , Col , USA , Drama-Crime-Comedy
+98,99,Letter From an Unknown Woman,MAX OPHULS,tt0040536,1948 , 90m , BW , USA , Drama
+99,100,The Lady Eve,PRESTON STURGES,tt0033804,1941 , 94m , BW , USA , Romance-Comedy

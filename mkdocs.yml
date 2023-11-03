@@ -93,7 +93,8 @@ nav:
   - TSPDT:
       - TSPDT电影: tspdt/index.md
       - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
-      - TSPDT电影历年统计: tspdt/tspdt-years.md
+      - TSPDT电影历年统计1: tspdt/tspdt-hist1.md
+      - TSPDT电影历年统计2: tspdt/tspdt-hist2.md
   - FI&FF:
       - 电影组织（期刊、协会和电影节等）: fiff/index.md
       - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers.md
