@@ -22,16 +22,13 @@
 ### 相关结果
 
 - 年代和国家（地区）分布：美国遥遥领先，华语片、日语片紧随其后。
-
-![](../images/douban-hist.png)
+  ![](../images/douban-hist.png)
 
 - 导演：斯皮尔伯格、宫崎骏、诺兰问鼎前三。
-
-![](../images/douban-hist-director.png)
+  ![](../images/douban-hist-director.png)
 
 - 类型分布：剧情片为主，爱情、喜剧类型最多。
-
-![](../images/douban-hist-genre.png)
+  ![](../images/douban-hist-genre.png)
 
 ### 热门影片
 
