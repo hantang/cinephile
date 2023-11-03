@@ -104,8 +104,10 @@ nav:
       - 韩国釜山电影节（BIFF）: fiff/biff.md
       - 迷影网: fiff/cinephilia.md
   - Region:
-     - 国别榜单: region/index.md
-     - 华语（中文）电影: region/zh.md
+      - 国别榜单: region/index.md
+      - 华语（中文）电影: region/zh.md
+      - 香港电影: region/hk.md
+      - 日本电影: region/jp.md
   - More:
       - 补充: more/index.md
       - 时光网Mtime: more/mtime.md
