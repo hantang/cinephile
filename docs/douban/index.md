@@ -22,20 +22,20 @@
 ### 相关结果
 
 - 年代和国家（地区）分布：美国遥遥领先，华语片、日语片紧随其后。
-  ![](../images/douban-hist.png)
+  ![](../assets/images/douban-hist.png)
 
 - 导演：斯皮尔伯格、宫崎骏、诺兰问鼎前三。
-  ![](../images/douban-hist-director.png)
+  ![](../assets/images/douban-hist-director.png)
 
 - 类型分布：剧情片为主，爱情、喜剧类型最多。
-  ![](../images/douban-hist-genre.png)
+  ![](../assets/images/douban-hist-genre.png)
 
 ### 热门影片
 
 - 在榜影片：《肖申克的救赎》、《我不是药神》、《小偷家族》。
-  ![](../images/douban-hist-count.png)
-  ![](../images/douban-hist-plot.png)
+  ![](../assets/images/douban-hist-count.png)
+  ![](../assets/images/douban-hist-plot.png)
 
 - 下榜影片：《驴得水》、《那些年，我们一起追的女孩》、《网络迷踪》。下榜影片整体相比在榜的热门度都低很多。
-  ![](../images/douban-hist-old-count.png)
-  ![](../images/douban-hist-old-plot.png)
+  ![](../assets/images/douban-hist-old-count.png)
+  ![](../assets/images/douban-hist-old-plot.png)
