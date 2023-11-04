@@ -15,6 +15,9 @@ hide:
 - [CC 标准电影片单（23 年 10 月更新） - douban.com](https://www.douban.com/doulist/130761466/)
 - [Criterion Collection 目前已发行电影名单 - douban.com](https://www.douban.com/doulist/38521365/)
 - [The Criterion Collection (complete) - imdb.com](https://www.imdb.com/list/ls087831830/)
+- (https://www.douban.com/doulist/36946244/)
+- (https://www.douban.com/doulist/38521365/)
+
 
 ![Criterion Collection](../assets/images/criterion-collection-films.png)
 

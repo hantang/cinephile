@@ -36,18 +36,19 @@ hide:
 ## 参考
 
 ### 香港《亚洲周刊》：20 世纪 100 部最佳华语影片
-- 《亚洲周刊》二十世紀中文電影100強 `http://www.yzzk.com/199950/50ae2.htm`
+
+- 《亚洲周刊》二十世紀中文電影 100 強 `http://www.yzzk.com/199950/50ae2.htm`
 - [100 Greatest Chinese Films of the 20th Century, as chosen by Asia Weekly Magazine](http://www.chinesecinemas.org/chinacentury.html)
 - [继续电影, 亚洲周刊，百佳华语电影（1999 年） - douban.com](https://www.douban.com/doulist/110658964/)
 
 > “二十世纪中文电影一百强”的评选，是先酝酿六百一十部建议名单，从一九零五年第一部影片《定军山》起直至一九九九年度十月止，
 > 所有由华人创作、拍摄、投资出品并公开上映的长片。这些影片类型包括剧情片、戏曲片和动画片。记录片和短片不包含在内。
 
-共100部，其中﹕
-中國大陸43部；
-台灣18部；
-香港36部；
-中國大陸與香港合製3部。
+共 100 部，其中﹕
+中國大陸 43 部；
+台灣 18 部；
+香港 36 部；
+中國大陸與香港合製 3 部。
 
 ```
 年份	電影	導演	出品地
@@ -152,8 +153,8 @@ hide:
 1996	甜蜜蜜	陳可辛	香港
 1997	香港製造	陳果	香港
 
-*浙江越劇			
-**動畫片			
+*浙江越劇
+**動畫片
 ```
 
 ### 香港电影评论学会：最佳华语电影二百部
@@ -338,7 +339,7 @@ hide:
 95. 魏紹恩  	電影編劇、影評人 	96. 鄺文偉  	電影編劇
 97. 羅啟銳  	導演、編劇 	98. 羅維明  	影評人
 99. 譚家明  	電影導演 、 香港城市大學創意媒體學院講師 	100. 關錦鵬  	電影導演
-101. 嚴浩  	電影導演 	  	 
+101. 嚴浩  	電影導演
 ```
 
 ### 华语电影传媒大奖：百年百大华语电影
@@ -394,6 +395,14 @@ hide:
 - [船山遗风, 影史百大华语电影 - douban.com](https://www.douban.com/doulist/3270887/)
 - [ZY79, 2011 金马奖影史百大经典华语电影 - zhihu.com](https://zhuanlan.zhihu.com/p/638685397)
 - 《光影的長河－影史百大經典華語電影》
+
+### 其他
+
+- [中文电影 250 强总榜（1905——2012）](https://www.douban.com/doulist/380312/)
+- TimeOut TOP 100 Chinese Mainland Films (2014)
+  - (https://www.timeoutshanghai.com/features/Film-Film_features/18155/100-best-Chinese-Mainland-Films-the-countdown.html)
+  - (https://www.douban.com/doulist/3870928/)
+  - (https://www.douban.com/doulist/3870397/)
 
 ## 汇总榜单
 
