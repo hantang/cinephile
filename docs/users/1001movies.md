@@ -18,23 +18,19 @@ hide:
 - [icheckmovies.com](https://www.icheckmovies.com/lists/1001+movies+you+must+see+before+you+die+all+editions/joachimt/)
 - [trakt.tv](https://trakt.tv/users/pygospa/lists/1001-movies-to-watch-before-you-die-all-editions?sort=released,desc)
 
+
+## 补充：101系列电影
+
+- [《有生之年非看不可的101部科幻电影》 101 Sci-Fi Movies You Must See Before You Die](https://www.douban.com/doulist/2575951/)
+- [《有生之年非看不可的101部恐怖电影》101 Horror Movies You Must See Before You Die](https://www.douban.com/doulist/1796759/)
+- [《有生之年非看不可的101部战争电影》101 War Movies You Must See Before You Die](https://www.douban.com/doulist/12471995/)
+- [《有生之年非看不可的101部动作电影》101 Action Movies You Must See Before You Die](https://www.douban.com/doulist/12467434/)
+- [《有生之年非看不可的101部黑帮电影》101 Gangster Movies You Must See Before You Die](https://www.douban.com/doulist/12442051/)
+- [《有生之年非看不可的101部邪典电影》101 Cult Movies You Must See Before You Die](https://www.douban.com/doulist/12474570/)
+
+
 ## 片单
 
 目前大约1200多部电影（含有电视剧，短片）。
 
 {{ read_csv("../../data/1001-movies-full.csv") }}
-
-## 补充：101系列电影
-
-《有生之年非看不可的101部科幻电影》 101 Sci-Fi Movies You Must See Before You Die
-- (https://www.douban.com/doulist/2575951/)
-《有生之年非看不可的101部恐怖电影》101 Horror Movies You Must See Before You Die
-- (https://www.douban.com/doulist/1796759/)
-《有生之年非看不可的101部战争电影》101 War Movies You Must See Before You Die
-- (https://www.douban.com/doulist/12471995/)
-《有生之年非看不可的101部动作电影》101 Action Movies You Must See Before You Die
-- (https://www.douban.com/doulist/12467434/)
-《有生之年非看不可的101部黑帮电影》101 Gangster Movies You Must See Before You Die
-- (https://www.douban.com/doulist/12442051/)
-《有生之年非看不可的101部邪典电影》101 Cult Movies You Must See Before You Die
-- (https://www.douban.com/doulist/12474570/)
