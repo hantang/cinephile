@@ -27,7 +27,6 @@
     - [美国《ThePlaylist》](#美国theplaylist)
     - [美国《Independent Film Channel》](#美国independent-film-channel)
     - [美国 Yahoo!](#美国-yahoo)
-    - [美国《反学院派》 film school rejects](#美国反学院派-film-school-rejects)
     - [台湾《影响杂志》影響雜誌【倒闭】](#台湾影响杂志影響雜誌倒闭)
   - [电影机构](#电影机构)
     - [英国电影学会(The British Film Institute, BFI)](#英国电影学会the-british-film-institute-bfi)
@@ -462,11 +461,6 @@
 
 **【综合】** Yahoo! Movies 100部今生必看电影(2009)
 - (https://www.douban.com/doulist/222660/)
-
-### 美国《反学院派》 film school rejects
-
-**综合** 奥斯卡提名未获奖百佳影片 The 100 Best Movies That Were Not Nominated for Best Picture
-- (https://filmschoolrejects.com/movies-not-nominated-best-picture/10/)
 
 ### 台湾《影响杂志》影響雜誌【倒闭】
 
