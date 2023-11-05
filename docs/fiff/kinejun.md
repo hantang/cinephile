@@ -11,6 +11,27 @@ hide:
 - 1999 年，【电影旬报】创刊 80 周年，评选出 20 世纪百佳日本电影，共有 119 部；外国（非日本）电影 129 部。
 - 2009 年，【电影旬报】创刊 90 周年，评选出“映画遺産 200”，其中日本电影共 198 部，外国（非日本）电影 225 部。
 
+补充：
+
+【综合】
+
+日本《电影旬报》TOP 10 (1995)
+- (https://www.douban.com/doulist/125162520/)
+日本《电影旬报》TOP 10 (1999)
+- (https://www.douban.com/doulist/125162696/)
+日本《电影旬报》TOP 100 Foreign Films (1999)
+- (https://www.douban.com/doulist/210728/)
+日本《电影旬报》TOP 100 Japanese Films (1999)
+- (https://www.douban.com/doulist/26172/)
+日本《电影旬报》TOP 200 Japanese Films (2009)
+- (https://www.douban.com/doulist/429701/)
+日本《电影旬报》TOP 10 Japanese Films Each Year
+- (https://www.douban.com/doulist/26095/)
+- (https://www.douban.com/doulist/39508603/)
+日本《电影旬报》TOP 1 Japanese Films Each Year
+- (https://www.douban.com/doulist/4345773/)
+
+
 ## 1995 年(电影 100 年) 日本电影 All Time Best 100
 
 - [继续电影, 旬报，影史最佳日本电影（1995年） - douban.com](https://www.douban.com/doulist/125147581/)

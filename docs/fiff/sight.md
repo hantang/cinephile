@@ -19,7 +19,7 @@ hide:
 
 {{ read_csv("../../data/bfi-top250-critics-v2022.csv") }}
 
-## 历史版本
+## 导演版Top100/影评人版Top250历史版本
 
 视与听影史最伟大影片评选：
 
@@ -42,3 +42,12 @@ hide:
 - 2002 https://www.douban.com/doulist/153129108/
 - 2012 https://www.douban.com/doulist/153131408/
 - 2022 https://www.douban.com/doulist/153143260/
+
+## 其他榜单
+
+英国权威电影杂志《视与听》每月最佳影片 Sight & Sound TOP 1 Each Month （2008-2020）
+- (https://www.douban.com/doulist/132687/)
+
+英国《视与听》杂志评选影史上被忽略的75部佳作 Sight & Sound 75 Hidden Gems (2007)
+- (https://rateyourmusic.com/list/chrismass61/sight__and_sound_75_hidden_gems/)
+- (https://www.douban.com/doulist/127575/)
