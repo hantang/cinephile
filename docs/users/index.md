@@ -107,3 +107,4 @@
 - [不可错过的200部中文经典电影](https://www.douban.com/doulist/1619577/)
 - [看过5000部，再推100部——华语电影篇](https://www.douban.com/note/521569678/)
 - [初见惊艳，再见依然（电影篇）](https://www.douban.com/doulist/4050241/)
+- [【个人】130 部拉美电影](https://www.douban.com/note/333609368/)
