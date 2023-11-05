@@ -17,7 +17,7 @@ hide:
 
 补充：
 
-电影手册 Cahiers du Cinéma TOP 100 (2007) 
+电影手册 Cahiers du Cinéma TOP 100 (2007)
 - (https://mubi.com/lists/cahiers-du-cinema-top-100)
 - (https://www.douban.com/doulist/124492326/)
 电影手册 Cahiers du Cinéma TOP 250 (2007)

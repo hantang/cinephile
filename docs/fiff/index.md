@@ -65,7 +65,8 @@
 ## 本站整理收录
 
 - [法国《电影手册》(Cahiers du cinéma)](cahiers.md)
-- [英国《视与听》(BFI, Sight & Sound)](bfi.md)
+- [法国《电影手册》(Cahiers du cinéma) Top100](cahiers-100.md)
+- [英国《视与听》(BFI, Sight & Sound)](sight.md)
 - [日本《电影旬报》](kinejun.md)
 - [美国标准收藏公司（The Criterion Collection）](criterion.md)
 - [美国电影协会 AFI](afi.md)
@@ -78,27 +79,35 @@
 
 **【综合】**《看电影》21 世纪伟大电影 (2019)
 - (https://www.douban.com/doulist/113435291/)
+
 **【综合】**《看电影》性感电影 100 瞬间 (2013)
 - (https://www.douban.com/doulist/4686715/)
+
 **【综合】**《看电影》午夜场 50 高估电影
 - (https://www.douban.com/doulist/1258051/)
+
 **【综合】**《看电影》世界 100 部禁片 (2010)
 - (https://www.douban.com/doulist/2627680/)
 
 **【国别】**《看电影》华语电影 Top100 (2009)
 - (https://www.douban.com/doulist/227787/)
+
 **【国别】**《看电影》韩国电影 Top100 (2020)
 - (https://www.douban.com/doulist/126103792/)
 
 **【类型】**《看电影》盘点 40 部最经典恐怖片（2006）
 - (https://www.douban.com/doulist/36980/)
+
 **【类型】**《看电影》100 部爱情电影 (2010)
 - (https://www.douban.com/doulist/435163/)
+
 **【类型】**《看电影》100 部坏电影 (2005)
 - (https://www.douban.com/note/652003492/)
 - (https://www.douban.com/doulist/139344558/)
+
 **【类型】**《看电影》125 部反类型片 (2006)
 - (https://www.douban.com/doulist/143801/)
+
 **【类型】**《看电影》100 部 B 级佳作 (2015)
 - (https://www.douban.com/doulist/40507131/)
 
@@ -106,15 +115,19 @@
 
 **【综合十年】**《电影世界》新世纪第一个 10 年 TOP100 (2010)
 - (https://www.douban.com/doulist/605184/)
+
 **【综合十年】**《电影世界》100 部被忽视的好电影（十年十部）【2009 年 12 月号】（2000-2009）
 - (https://www.douban.com/doulist/419218/)
+
 **【国别】**《电影世界》中国电影 50 神来之笔【《电影世界》2009 年 8 月刊】 (2009)
 - (https://www.douban.com/doulist/277199/)
 
 **【类型】**《电影世界》TOP 50 黑色电影【《电影世界》2013 年 7 月号】 (2013)
 - (https://www.douban.com/doulist/3356172/)
+
 **【类型】**《电影世界》影史 100 部 Cult 电影（2013 前）
 - (https://www.douban.com/doulist/1804385/)
+
 **【类型】**《电影世界》新世纪 10 年 100 部重口味电影 (2010)
 - (https://www.douban.com/doulist/1152915/)
 
@@ -125,18 +138,23 @@
 **【综合十年】**法国《Les Inrocks》80 年代电影百佳(2021) Les Inrocks TOP 100 Films in 80s (2021)
 - (https://www.lesinrocks.com/cinema/nos-100-films-preferes-des-annees-1980-de-25-a-1-432023-24-12-2021/)
 - (https://www.douban.com/doulist/147721555/)
+
 **【综合十年】**法国《Les Inrocks》评选 2000-2009 年代电影百佳 Les Inrocks TOP 100 Films in 00s (2010)
 - (https://www.lesinrocks.com/cinema/les-100-meilleurs-films-de-la-decennie-31351-09-03-2010/)
 - (https://www.douban.com/doulist/147790310/)
+
 **【综合十年】**法国《Les Inrocks》评选 2010-2019 年百大电影 Les Inrocks TOP 100 Films in 10s (2019)
 - (https://www.lesinrocks.com/series/top-series-190011-19-11-2019/)
 - (https://www.douban.com/doulist/121379036/)
+
 **【综合世纪】**法国《Les Inrocks》最美的 100 部美国电影 Les Inrocks TOP 100 Films in 21 Century (2016)
 - (https://www.lesinrocks.com/cinema/suite-fin-de-top-100-25-meilleurs-films-xxie-siecle-57385-23-10-2016/)
 - (https://www.douban.com/doulist/147800610/)
+
 **【国别】**法国《Les Inrocks》最美的 100 部法国电影 Les Inrocks TOP 100 French Films (2014)
 - (https://www.lesinrocks.com/cinema/top-100-plus-beaux-films-francais-184124-05-03-2014/)
 - (https://www.douban.com/doulist/147732047/)
+
 **【国别】**法国《Les Inrocks》最美的 100 部美国电影 Les Inrocks TOP 100 American Films (2018)
 - (https://www.lesinrocks.com/cinema/les-100-plus-beaux-films-americains-de-tous-les-temps-1-4-171997-31-08-2018/)
 - (https://www.douban.com/doulist/133306378/)
@@ -144,7 +162,7 @@
 ### 法国《Télérama》
 
 **【综合】**法国文化周刊《Télérama》影史百佳 Télérama TOP 100 (2016)
-- https://www.telerama.fr/cinema/les-100-meilleurs-films-de-l-histoire-selon-telerama,149864.php
+- (https://www.telerama.fr/cinema/les-100-meilleurs-films-de-l-histoire-selon-telerama,149864.php)
 - (https://www.imdb.com/list/ls069674978/)
 - (https://www.douban.com/doulist/133302531/)
 
@@ -153,15 +171,19 @@
 **【综合】**《Total Film》，影史百佳电影（2005 年）
 - (https://thependragonsociety.com/total-films-100-greatest-movies-of-all-time/)
 - (https://www.douban.com/doulist/150145712/)
+
 **【综合】**《Total Film》，25 年 50 部最佳电影（2012 年）
 - (https://thependragonsociety.com/50-best-movies-of-total-film-magazine-lifetime/)
 - (https://www.douban.com/doulist/124682252/)
+
 **【综合】**《Total Film》，十年百佳电影（2019 年）
 - (https://www.gamesradar.com/decade-best-movies-2010-2019/)
 - (https://www.douban.com/doulist/124682685/)
+
 **【综合】**《Total Film》“67 部改变世界的电影” Total Film 67 Most Influential Films (2009)
 - (https://www.gamesradar.com/the-67-most-influential-films-ever-made/)
 - (https://www.douban.com/doulist/1363698/)
+
 **【综合】**《Total Film》评出影史上经典的 50 部 WTF“神片” Total Film 50 WTF Films (2012)
 - (https://www.gamesradar.com/50-greatest-wtf-movies/)
 - (https://www.douban.com/doulist/1697205/)
@@ -169,6 +191,7 @@
 **【类型】**《Total Film》影史最伟大战争电影 TOP50 Total Film TOP 50 War Films (2011)
 - (https://www.timeout.com/film/best-war-movies-of-all-time)
 - (https://www.douban.com/doulist/1325957/)
+
 **【类型】**《Total Film》杂志评选影史 50 大科幻电影 Total Film TOP 50 Sci-Fi Films (2011)
 - (https://site.douban.com/widget/notes/3673949/note/159151527/)
 - (https://www.douban.com/doulist/1245233/)
@@ -178,6 +201,7 @@
 **【综合】**BBC 评选 21 世纪 100 部佳片 BBC TOP 100 in 21st Century’s (2016)
 - (https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films)
 - (https://www.douban.com/doulist/45025038/)
+
 **【综合】**BBC 评选影史最伟大的 100 部女性导演电影 BBC TOP 100 Films Directed By Women (2019)
 - (https://www.bbc.com/culture/article/20191125-the-100-greatest-films-directed-by-women-poll)
 - (https://www.douban.com/doulist/121419777/)
@@ -185,9 +209,11 @@
 **【国别】**BBC 最伟大的 100 部美国电影 BBC TOP 100 American Films (2015)
 - (http://www.bbc.com/culture/story/20150720-the-100-greatest-american-films)
 - (https://www.douban.com/doulist/40881185/)
+
 **【国别】**BBC 评选 100 部最佳非英语电影（2018） BBC TOP 100 Foreign-Language Films (2018)
 - (https://www.bbc.com/culture/article/20181029-the-100-greatest-foreign-language-films)
 - (https://www.douban.com/doulist/110673905/)
+
 **【类型】**BBC 评选影史最伟大的 100 部喜剧电影 BBC TOP 100 Comedy Films (2017)
 - (https://www.bbc.com/culture/article/20170821-the-100-greatest-comedies-of-all-time)
 - (https://www.douban.com/doulist/46167891/)
@@ -195,21 +221,25 @@
 ### 英国《帝国》Empire
 
 **【综合】**《帝国》影史百佳 Empire's 100 Greatest Movies Of All Time （2018 年）
-- https://www.douban.com/doulist/133639572/
+- (https://www.douban.com/doulist/133639572/)
+
 **【综合】**《帝国》影史百佳角色（2019 年）Empire TOP 100 Movie Characters (2019)
 - (https://www.empireonline.com/movies/features/100-greatest-movie-characters/?c=31/)
 - (https://www.douban.com/doulist/124445370/)
+
 **【类型】**《帝国》50 部最佳独立电影（2005）Empire TOP 50 Independent Films (2005)
-- http://www.filmsite.org/independentfilms3.html
+- (http://www.filmsite.org/independentfilms3.html)
 - (https://www.filmsite.org/independentfilms.html)
 - (https://www.douban.com/doulist/121847/)
 
 **【国别】**《帝国》100 部载入影史的非英语电影 Empire TOP 100 Foreign Language Films (2010)
 - (https://www.imdb.com/list/ls039249279/)
 - (https://www.douban.com/doulist/669101/)
+
 **【国别】**《帝国》50 部最佳（美国）独立电影（2011 年）Empire TOP 50 Independent Films (2011)
 - (https://www.empireonline.com/movies/features/50-greatest-american-indies/)
 - (https://www.douban.com/doulist/124793369/)
+
 **【类型】**《帝国》评选史上 50 佳科幻电影 Empire TOP 50 Sci-Fi Films (2022)
 - (https://www.empireonline.com/movies/features/best-sci-fi-movies/)
 - (https://www.douban.com/doulist/149445898/)
@@ -219,14 +249,18 @@
 **【综合】**《TimeOut》百年百佳电影 TimeOut TOP 100 (1995)
 - (https://www.filmsite.org/timeout.html)
 - (https://www.douban.com/doulist/124463121/)
+
 **【综合】**《TimeOut》演员心目中最伟大的 100 部电影 TimeOut TOP 100 Movies By Actors (2015)
 - (https://www.timeout.com/film/100-best-movies-as-chosen-by-actors)
 - (https://www.douban.com/doulist/41049282/)
+
 **【综合】**《TimeOut》有史以来最伟大的 50 部电影处女作 TimeOut TOP 50 First Films (2013)
 - (https://www.douban.com/doulist/1196931/)
+
 **【综合】**《TimeOut》影史最性感电影百佳 TimeOut TOP 101 Sex Scenes (2015)
 - (https://www.timeout.com/film/best-sex-scenes-of-all-time)
 - (https://www.douban.com/doulist/37497834/)
+
 **【综合】**《TimeOut》影史五十大争议电影 TimeOut TOP 50 Controversial Movies (2011)
 - (https://www.timeout.com/newyork/film/the-50-most-controversial-movies-ever)
 - (https://www.douban.com/doulist/1125762/)
@@ -234,24 +268,31 @@
 **【类型】**《Timeout》评影史 100 大动作片 TimeOut TOP 100 Action Films (2014)
 - (https://rateyourmusic.com/list/unj/time_out_london__the_100_best_action_films/)
 - (https://www.douban.com/doulist/15652227/)
+
 **【类型】**《Timeout》评影史 100 大动画片 TimeOut TOP 100 Animated Films (2014)
 - (https://www.timeout.com/film/best-animated-movies?package_page=38141)
 - (https://www.douban.com/doulist/3953127/)
+
 **【类型】**《Time Out》评选 50 部最伟大的怪物/怪兽电影 TimeOut TOP 50 Monster Films (2011)
 - (https://www.timeout.com/film/the-50-best-monster-movies)
 - (https://www.douban.com/doulist/1344391/)
+
 **【类型】**《TimeOut》评选影史 100 部科幻电影 TimeOut TOP 100 Sci-Fi Films (2019)
 - (https://www.timeout.com/film/the-100-best-sci-fi-movies)
 - (https://www.douban.com/doulist/119286298/)
+
 **【类型】**《TimeOut》史上百佳恐怖片 TimeOut TOP 100 Horror Films (2012)
 - (https://www.listchallenges.com/time-out-londons-100-best-horror-films)
 - (https://www.douban.com/doulist/1517341/)
+
 **【类型】**《TimeOut》影史百佳恐怖电影 TimeOut TOP 100 Horror Films (2022)
 - (https://www.timeout.com/film/best-horror-films)
 - (https://www.douban.com/doulist/152842578/)
+
 **【类型】**《TimeOut》影史 50 部最佳 LGBT 电影 TimeOut TOP 50 LGBTQ+ Movies (2015)
 - (https://gaynrd.com/time-out-picked-the-50-best-lgbt-movies-of-all-time/)
 - (https://www.douban.com/doulist/43144752/)
+
 **【类型】**《TimeOut》评选爱情电影 TOP100 TimeOut TOP 100 Romantic Films (2013)
 - (https://www.imdb.com/list/ls059137577/)
 - (https://www.douban.com/doulist/2442612/)
@@ -259,18 +300,23 @@
 **【国别】**《TimeOut》史上最佳 100 部英国电影 TimeOut TOP 100 British Films (2011)
 - (https://www.timeout.com/london/film/100-best-british-films)
 - (https://www.douban.com/doulist/969571/)
+
 **【国别】**《TimeOut》影史 50 佳外语片 TimeOut TOP 50 Foreign Flims (2022)
 - (https://www.timeout.com/film/the-top-50-foreign-films-of-all-time-foreign-language)
 - (https://www.douban.com/doulist/149628807/)
+
 **【国别】**《TimeOut》评选影史百佳法国电影 TimeOut TOP 100 French Films (2013)
 - (https://www.douban.com/doulist/2605823/)
+
 **【国别】**《Time Out》影史百佳法国电影 TimeOut TOP 100 French Films (2020)
 - (https://www.timeout.com/paris/en/film/best-french-movies)
 - (https://www.douban.com/doulist/125106336/)
+
 **【国别】**Time Out 大陆电影百佳 TimeOut TOP 100 Chinese Mainland Films (2014)
 - (https://www.timeoutshanghai.com/features/Film-Film_features/18155/100-best-Chinese-Mainland-Films-the-countdown.html)
 - (https://www.douban.com/doulist/3870928/)
 - (https://www.douban.com/doulist/3870397/)
+
 **【国别】**TIMEOUT 评香港电影百佳 TimeOut TOP 100 Hong Kong Films (2012)
 - (https://www.timeout.com/hong-kong/film/best-hong-kong-movies)
 - (https://www.douban.com/doulist/1522798/)
@@ -286,7 +332,7 @@
 **【综合】**《纽约时报》1000 部最佳电影 The Best 1,000 Movies Ever Made （2004）
 - `http://www.nytimes.com/ref/movies/1000best.html#`
 - (https://mubi.com/lists/new-york-times-best-1000-movies-ever)
-- http://www.imdb.com/list/ls058705802/
+- (http://www.imdb.com/list/ls058705802/)
 - (https://www.douban.com/doulist/996525/)
 - (https://www.douban.com/doulist/45764123/)
 
@@ -299,15 +345,19 @@
 **【类型】**《Slant Magazine》评选影史百佳科幻电影 Slant Magazine TOP 100 Sci-Fi Films (2019)
 - (https://www.slantmagazine.com/features/the-100-best-sci-fi-films-of-all-time/)
 - (https://www.douban.com/doulist/119280246/)
+
 **【类型】**《Slant Magazine》评选影史百佳恐怖电影 Slant Magazine TOP 100 Horror Films (2021)
 - (https://www.slantmagazine.com/film/100-greatest-horror-movies-of-all-time/)
 - (https://www.douban.com/doulist/150152620/)
+
 **【类型】**《Slant Magazine》评选 21 世纪百佳恐怖电影 Slant Magazine TOP 100 Horror Films in 21st Century (2021)
 - (https://www.slantmagazine.com/features/the-100-best-horror-movies-of-the-21st-century/)
 - (https://www.douban.com/doulist/150153442/)
+
 **【类型】**《Slant Magazine》评选影史百大西部电影 Slant Magazine TOP 100 Western Films (2020)
 - (https://www.slantmagazine.com/features/the-100-best-westerns-of-all-time/)
 - (https://www.douban.com/doulist/125140155/)
+
 **【类型】**《Slant Magazine》评选影史百大黑色电影 Slant Magazine TOP 100 Film Noirs (2019)
 - (https://www.slantmagazine.com/film/the-100-best-film-noirs-of-all-time/)
 - (https://www.douban.com/doulist/113149036/)
@@ -318,6 +368,7 @@
 - (https://www.filmcomment.com/article/film-comments-end-of-the-decade-critics-poll/)
 - (https://www.douban.com/doulist/124643612/)
 - (https://www.douban.com/doulist/45938155/)
+
 **【综合十年】**《电影评论》，2010-2019 年 50 部最佳电影 Film Comment 2010-2019 TOP 50 (2020)
 - (https://www.filmcomment.com/best-films-of-the-decade/)
 - (https://www.douban.com/doulist/124646978/)
@@ -327,12 +378,15 @@
 **【综合】**《IndieWire》评选影史百大女性导演电影 IndieWire TOP 100 Films Directed by Women (2019)
 - (https://www.indiewire.com/feature/female-directors-best-movies-directed-by-women-1202045399/)
 - (https://www.douban.com/doulist/112134520/)
+
 **【综合十年】**《IndieWire》评选 1990-1999 年百大电影 IndieWire 1990-1999 TOP 100 (2022)
 - (https://www.indiewire.com/gallery/best-90s-movies/)
 - (https://www.douban.com/doulist/151714294/)
+
 **【综合十年】**《IndieWire》评选 2010-2019 年百大电影 IndieWire 2010-2019 TOP 100 (2019)
 - (https://www.indiewire.com/gallery/best-movies-of-2010s-decade/)
 - (https://www.douban.com/doulist/117685866/)
+
 **【类型】**《IndieWire》影史最伟大恐怖电影 110 部 IndieWire TOP 100 Horror Films (2018)
 - (https://www.indiewire.com/gallery/best-horror-movies-all-time-scary-films/)
 - (https://www.douban.com/doulist/130920203/)
@@ -374,6 +428,7 @@
 **【综合】**《滚石》杂志，百年百佳影片（1999 年） Rolling Stone TOP 100 (1999)
 - (https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636/)
 - (https://www.douban.com/doulist/125066700/)
+
 **【国别】**《滚石》评选 50 年来关于美国的 50 佳电影 Rolling Stone TOP 50 American Films of the Past 50 Years (2022)
 - (https://www.rollingstone.com/tv-movies/tv-movie-lists/best-american-movies-of-past-fifty-years-1368257/)
 - (https://www.douban.com/doulist/151114148/)
@@ -383,6 +438,7 @@
 **【综合】**《娱乐周刊》评选百部新经典（1983 年到 2008 年） Entertainment Weekly TOP 100 1983-2008 (2009)
 - (https://ew.com/article/2007/06/18/new-classics-movies/)
 - (https://www.douban.com/doulist/2473430/)
+
 **【综合】**《娱乐周刊》评出五十部最性感影片 Entertainment Weekly 50 Sexiest Movies (2008)
 - (https://www.listchallenges.com/entertainment-weeklys-50-sexiest-movies-ever)
 - (https://www.douban.com/doulist/202766/)
@@ -392,6 +448,7 @@
 **【综合】**《Movieline》，影史百佳影片 Movieline TOP 100 (1995)
 - (https://www.filmsite.org/movieline.html)
 - (https://www.douban.com/doulist/124734985/)
+
 **【国别】**《Movieline》，影史百佳外语片 Movieline TOP 100 Foreign Films (1996)
 - (https://www.filmsite.org/foreign100_2.html)
 - (https://www.douban.com/doulist/124721786/)
@@ -399,9 +456,10 @@
 ### 美国 Arts & Faith
 
 **【综合】**Arts&Faith，百佳电影 Arts & Faith TOP 100 (2010)
-- https://artsandfaith.com/t100/2010/
+- (https://artsandfaith.com/t100/2010/)
 - (https://thependragonsociety.com/arts-faiths-top-100-spiritually-significant-films-2011/)
 - (https://www.douban.com/doulist/124847488/)
+
 **【综合】**Arts&Faith，百佳精神意义电影 Arts & Faith TOP 100 (2004)
 - (https://www.filmsite.org/top100spiritual.html)
 - (https://www.douban.com/doulist/124811483/)
@@ -417,6 +475,7 @@
 **【影视十年】**《ThePlaylist》 评选 1990-1999 百大电影 The Playlist 1990-1999 TOP 100 (2017)
 - (https://theplaylist.net/best-movies-1990s-20170406/)
 - (https://www.douban.com/doulist/127568656/)
+
 **【类型】**《ThePlaylist》 影史百佳科幻片 The Playlist TOP 100 Sci-Fi Films (2021)
 - (https://theplaylist.net/100-best-sci-fi-films-time-20170515/)
 - (https://www.douban.com/doulist/138029728/)
@@ -425,17 +484,18 @@
 
 **【综合】**Independent Film Channel（IFC） 评选出的影史 50 个最伟大的电影片头 IFC TOP 50 Opening Title Sequences (2011)
 - (https://blogs.library.american.edu/mediaservices/2011/02/23/ifc-ranks-the-top-50-opening-title-sequences-of-all-time/)
-- https://www.douban.com/doulist/46366306/
+- (https://www.douban.com/doulist/46366306/)
 - (https://www.douban.com/doulist/116295223/)
 
 ### 美国 Yahoo!
+
 **【综合】** Yahoo! Movies 100部今生必看电影(2009)
-- https://www.douban.com/doulist/222660/
+- (https://www.douban.com/doulist/222660/)
 
 ### 美国《反学院派》 film school rejects
 
 **综合** 奥斯卡提名未获奖百佳影片 The 100 Best Movies That Were Not Nominated for Best Picture
-- https://filmschoolrejects.com/movies-not-nominated-best-picture/10/
+- (https://filmschoolrejects.com/movies-not-nominated-best-picture/10/)
 
 ### 台湾《影响杂志》影響雜誌【倒闭】
 
@@ -459,7 +519,7 @@
 ### 英国电影学会(The British Film Institute, BFI)
 
 **【综合】**BFI 360 Classic Films
-- https://www.bfi.org.uk/features/360-classic-feature-films-how-archive-project-sought-show-canon-all-year-round
+- (https://www.bfi.org.uk/features/360-classic-feature-films-how-archive-project-sought-show-canon-all-year-round)
 - (https://www.douban.com/doulist/1691031/)
 - (https://www.douban.com/doulist/1691047/)
 
@@ -477,7 +537,7 @@
 
 **【国别】**欧洲电影摄影师协会，史上摄影最棒的一百部欧洲电影 TOP 100 Photographed European Films (2003)
 - 图书：《Making Pictures: A Century of European Cinematography》
-- https://www.douban.com/note/78678362/
+- (https://www.douban.com/note/78678362/)
 - (https://www.douban.com/doulist/638873/)
 
 ### 美国电影摄影师协会(The American Society of Cinematographers)
@@ -505,18 +565,18 @@
 - (https://www.wga.org/writers-room/101-best-lists/101-funniest-screenplays/list)
 - (https://www.douban.com/doulist/46299109/)
 
-
 ### 美国电影剪辑协会(Motion Picture Editors Guild)
 
 **【综合】** 美国电影剪辑协会（MPEG）投票选出的75部剪得最好的电影
-- https://www.editorsguild.com/Magazine.cfm?ArticleID=1101
-- https://www.douban.com/doulist/1792464/
+- (https://www.editorsguild.com/Magazine.cfm?ArticleID=1101)
+- (https://www.douban.com/doulist/1792464/)
 
 ### 在线影评人协会（The Online Film Critics Society，OFCS）
 
 **【综合】**在线影评人协会-【100 部最佳处女作】OFCS TOP 100 First Films 处女作 (2010)
 - (https://ofcs.org/ofcs-top-100-100-best-first-films/)
 - (https://www.douban.com/doulist/758470/)
+
 **【类型】**在线影评人协会-百部最佳科幻电影 OFCS TOP 100 Sci-Fi Films (2002)
 - (https://ofcs.org/ofcs-top-100-top-100-sci-fi-films/)
 - (https://www.douban.com/doulist/1245800/)
@@ -533,7 +593,7 @@
 ### 加拿大多伦多电影节(Toronto Film Festival)
 
 **【综合】**多伦多电影节, 百部必看电影 Toronto Film Festival's Essential 100 Movies (2010)
-- https://tiff.net/the-essential-100
+- (https://tiff.net/the-essential-100)
 - (https://www.slashfilm.com/512855/toronto-film-festivals-essential-100-movies/)
 - (https://www.douban.com/doulist/680115/)
 
@@ -565,10 +625,10 @@
 【机构】英国电影协会百佳本土电影（BFI Top 100 British films） (1999)
 - `http://news.bbc.co.uk/2/hi/entertainment/455170.stm`
 - (https://en.wikipedia.org/wiki/BFI_Top_100_British_films)
-- https://www.douban.com/note/267006643/
-- https://www.douban.com/doulist/46813/
-- https://www.douban.com/doulist/49269014/
-- https://www.douban.com/doulist/147984628/
+- (https://www.douban.com/note/267006643/)
+- (https://www.douban.com/doulist/46813/)
+- (https://www.douban.com/doulist/49269014/)
+- (https://www.douban.com/doulist/147984628/)
 
 【杂志】《Time Out》 2011“史上最佳 100 部英国电影”
 - (https://www.timeout.com/london/film/100-best-british-films)
@@ -582,10 +642,11 @@
 
 【个人？】经典意大利电影 60 部 (2008)
 - (https://www.douban.com/doulist/183370/)
+
 【杂志】意大利《FilmTv》影史最佳意大利影片 100 部 (2018)
 - (https://filmtv.press/filmtv201834)
 - (https://www.douban.com/doulist/110387764/)
-- https://www.douban.com/doulist/152136403/
+- (https://www.douban.com/doulist/152136403/)
 
 ### 德国
 
@@ -593,7 +654,7 @@
 - (https://www.douban.com/note/144246239/)
 - (https://www.douban.com/doulist/1130089/)
 - (https://www.douban.com/doulist/152004848/)
-- https://www.icheckmovies.com/lists/kinemathekverbunds+the+100+most+important+german+films/
+- (https://www.icheckmovies.com/lists/kinemathekverbunds+the+100+most+important+german+films/)
 
 ### 西班牙
 【国别】西班牙影评人协会评选20世纪50部最佳西班牙电影
@@ -613,35 +674,34 @@
 - (https://www.douban.com/doulist/947451/)
 
 捷克（斯洛伐克）影史百佳（《电影快递》(Ffilmovy Listy) ，1998）
-- https://www.douban.com/doulist/183994/
-- https://www.sohu.com/a/228988955_759600
+- (https://www.douban.com/doulist/183994/)
+- (https://www.sohu.com/a/228988955_759600)
 - 1-10名：http://www.uh.cz/p100/p100/anketa.htm
 - 11-100名：http://www.uh.cz/p100/p100/anketa_zbytek.htm
 
 最伟大的100部波兰电影（2017）
-- pelnasala.pl/top100_polska/ 
-- https://www.douban.com/doulist/156123312/
-
+- pelnasala.pl/top100_polska/
+- (https://www.douban.com/doulist/156123312/)
 
 ### 瑞典
 
-FLM TOP 100 Swedish Films
+FLM影史最佳瑞典电影 FLM TOP 100 Swedish Films
 - (https://www.douban.com/doulist/19821417/)
 
 ### 加拿大
 
-Toronto International Film Festival TOP 100 Canadian Films (2004)
+多伦多电影节 Toronto International Film Festival TOP 100 Canadian Films (2004)
 - `http://www.thefreelibrary.com/Canada\'s+top+10+films+of+all+time.-a0122765023`
 - (https://www.douban.com/doulist/1691056/)
 
 【个人】100 Best Canadian Films – David Davidson（2017）
-- https://torontofilmreview.blogspot.com/2017/03/100-best-canadian-films-david-davidson.html
+- (https://torontofilmreview.blogspot.com/2017/03/100-best-canadian-films-david-davidson.html)
 
 ## 亚太
 
 ### 中国
 
-[参见](./fimls-zh.md)
+[参见](./films-zh.md)
 
 补充：
 Time Out 大陆电影百佳 TimeOut TOP 100 Chinese Mainland Films (2014)
@@ -651,7 +711,7 @@ Time Out 大陆电影百佳 TimeOut TOP 100 Chinese Mainland Films (2014)
 
 ### 香港
 
-[参见](./fimls-hk.md)
+[参见](./films-hk.md)
 
 补充：
 TIMEOUT 评香港电影百佳 TimeOut TOP 100 Hong Kong Films (2012)
@@ -660,7 +720,7 @@ TIMEOUT 评香港电影百佳 TimeOut TOP 100 Hong Kong Films (2012)
 
 ### 日本
 
-[参见](./fimls-jp.md)
+[参见](./films-jp.md)
 
 补充：
 【一年一部代表作】BFI 日本电影佳作选 BFI TOP 100 Japanese Films (2020)
@@ -709,8 +769,8 @@ TOP 100 Korean Films By Korean Industry Critics (2016)
 
 【图书】《百年孤独：影史最佳拉美电影》
 - (https://www.douban.com/doulist/18783346/)
-- https://www.douban.com/doulist/40186291/
-- http://www.imdb.com/list/ls057766498/
+- (https://www.douban.com/doulist/40186291/)
+- (http://www.imdb.com/list/ls057766498/)
 
 【个人】130 部拉美电影
-- https://www.douban.com/note/333609368/
+- (https://www.douban.com/note/333609368/)

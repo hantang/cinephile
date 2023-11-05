@@ -71,18 +71,41 @@ extra_javascript:
 plugins:
   - search
   - table-reader
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
 
 nav:
   - Home:
       - 电影万岁: index.md
-      - 豆瓣电影: douban/index.md
-      - IMDb电影: imdb/index.md
-      - TSPDT电影: tspdt/index.md
-      - 电影组织: fiff/index.md
-      - 国别榜单: region/index.md
-      - 补充: more/index.md
+      - 大众榜单: 
+        - 榜单资源: popular/index.md
+        - 豆瓣电影: douban/index.md
+        - IMDb电影: imdb/index.md
+        - TSPDT电影: tspdt/index.md
+      - 专业榜单: 
+        - 榜单资源: fiff/index.md
+        - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers-100.md
+        - 英国《视与听》(BFI, Sight & Sound): fiff/sight.md
+        - 中国电影: fiff/films-zh.md
+        - 香港电影: fiff/films-hk.md
+        - 日本电影: fiff/films-jp.md
+      - 个人片单: 
+        - 榜单资源: users/index.md
+        - 1001电影系列: users/1001movies.md
+  - FI&FF:
+      - 专业榜单: fiff/index.md
+      - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers.md
+      - 法国《电影手册》(Cahiers du cinéma)Top100: fiff/cahiers-100.md
+      - 英国《视与听》(BFI, Sight & Sound): fiff/sight.md
+      - 日本《电影旬报》: fiff/kinejun.md
+      - 美国标准收藏公司（The Criterion Collection）: fiff/criterion.md
+      - 美国电影协会AFI: fiff/afi.md
+      - 韩国釜山电影节（BIFF）: fiff/biff.md
+      - 迷影网: fiff/cinephilia.md
+      - 国别（地区）榜单:
+        - 中国电影: fiff/films-zh.md
+        - 香港电影: fiff/films-hk.md
+        - 日本电影: fiff/films-jp.md
   - Douban:
       - 豆瓣电影: douban/index.md
       - 豆瓣电影历史榜单: douban/douban-hist.md
@@ -95,26 +118,11 @@ nav:
       - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
       - TSPDT电影历年统计1: tspdt/tspdt-hist1.md
       - TSPDT电影历年统计2: tspdt/tspdt-hist2.md
-  - FI&FF:
-      - 电影组织（期刊、协会和电影节等）: fiff/index.md
-      - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers.md
-      - 英国《视与听》(BFI, Sight & Sound): fiff/bfi.md
-      - 日本《电影旬报》: fiff/kinejun.md
-      - 美国标准收藏公司（The Criterion Collection）: fiff/criterion.md
-      - 美国电影协会AFI: fiff/afi.md
-      - 韩国釜山电影节（BIFF）: fiff/biff.md
-      - 迷影网: fiff/cinephilia.md
-  - Region:
-      - 国别榜单: region/index.md
-      - 华语（中文）电影: region/zh.md
-      - 香港电影: region/hk.md
-      - 日本电影: region/jp.md
   - More:
-      - 补充: more/index.md
-      - 时光网Mtime: more/mtime.md
-      - 猫眼MaoYan: more/maoyan.md
-      - TMDb: more/tmdb.md
-      - 俄罗斯Kinopoisk: more/kinopoisk.md
-      - 有生必看1001部电影: more/1001movies.md
-  # - FAQ:
-  # - About:
+      - 大众榜单: popular/index.md
+      - 个人片单: users/index.md
+      - 猫眼电影Top100: popular/maoyan.md
+      - 时光电影Top100: popular/mtime.md
+      - TMDB电影Top250: popular/tmdb.md
+      - 俄罗斯Kinopoisk Top250: popular/kinopoisk.md
+      - 不散评选: popular/busan.md
