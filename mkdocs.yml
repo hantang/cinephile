@@ -96,8 +96,8 @@ nav:
         - 1001电影系列: users/1001movies.md
   - FI&FF:
       - 专业榜单: fiff/index.md
-        - 榜单资料1: fiff/index-media.md
-        - 榜单资料2: fiff/index-region.md
+      - 榜单资料1: fiff/index-media.md
+      - 榜单资料2: fiff/index-region.md
       - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers.md
       - 法国《电影手册》(Cahiers du cinéma)Top100: fiff/cahiers-100.md
       - 英国《视与听》(BFI, Sight & Sound): fiff/sight.md
