@@ -462,7 +462,7 @@ class DoubanCrawler(BaseCrawler):
         assert year >= 2015
 
         url_config = self.urls.query(key)
-        savename = f"douban-movie-annual{year}.csv"
+        savename = f"douban-annual{year}.csv"
         savefile = Path(savedir if savedir else self.savedir, savename)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, savefile
