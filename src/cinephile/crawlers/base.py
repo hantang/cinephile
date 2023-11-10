@@ -2,7 +2,7 @@ import json
 import logging
 from abc import abstractmethod
 from pathlib import Path
-from typing import Union
+from typing import Union, Optional
 
 from bs4.dammit import UnicodeDammit
 
@@ -127,16 +127,22 @@ class BaseCrawler:
             return True
         return False
 
-    def save(self, savefile, movie_cluster: MovieCluster, **kwargs):
+    def save(self, savefile, movie_cluster: Optional[MovieCluster], **kwargs):
         # todo save
-        data = movie_cluster.to_dict()
-        logging.info(f"data keys = {data.keys()}")
-
         filename = Path(savefile)
         if not filename.parent.exists():
             logging.info(f"create dir = {filename.parent}")
             filename.parent.mkdir(parents=True)
         logging.info(f"save to {filename}")
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        if movie_cluster is None and 'dataframe' in kwargs:
+            df = kwargs['dataframe']
+            logging.info(f"save dataframe to csv, df={df.shape}")
+            df.to_csv(filename, index=False)
+        else:
+            data = movie_cluster.to_dict()
+            logging.info(f"data keys = {data.keys()}")
+            with open(filename, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+
         logging.info("save done\n\n")

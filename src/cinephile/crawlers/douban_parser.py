@@ -1,4 +1,7 @@
+import json
 import logging
+
+import pandas as pd
 from bs4 import BeautifulSoup
 from cinephile.utils.texts import strip
 from cinephile.utils.movies import Movie
@@ -26,7 +29,7 @@ def extract_page_info(page, desc=None):
             about = strip(about, keep=True)
         else:
             about = ""
-        count = content.find('div', class_='doulist-filter').span  # 片单电影数量
+        count = content.find("div", class_="doulist-filter").span  # 片单电影数量
         if count:
             count = int(count.text.strip().strip("()"))
         more = {"author": author, "about": about, "count": count}
@@ -64,7 +67,7 @@ def parse_page_top250(page, **kwargs):
     paginator = content.find(class_="paginator")
     next_url = paginator.find("span", class_="next").a
     if next_url:
-        next_url = next_url['href']
+        next_url = next_url["href"]
 
     items = grid_view.find_all("li")
     logging.info(f"items = {len(items)}/{total}")
@@ -83,9 +86,7 @@ def parse_page_top250(page, **kwargs):
 
         bd = item.find(class_="bd")
         info = [v.text.strip() for v in bd.p.contents if not v.name]
-        year = (
-            int(str(info[-1].split("\xa0")[0])[:4]) if len(info) == 2 else 0
-        )  # todo fix year
+        year = (int(str(info[-1].split("\xa0")[0])[:4]) if len(info) == 2 else 0)
 
         star = bd.find(class_="star")
         star_score = star.select_one(".rating_num").text
@@ -170,7 +171,7 @@ def parse_page_list(page, **kwargs):
     next_url = "#"
     paginator = content.find(class_="paginator")
     if paginator and paginator.find("span", class_="next").a:
-        next_url = paginator.find("span", class_="next").a['href']
+        next_url = paginator.find("span", class_="next").a["href"]
 
     items = content.find_all("div", class_="doulist-item")
     logging.info(f"items = {len(items)}/{total}")
@@ -206,10 +207,10 @@ def parse_page_list(page, **kwargs):
 
         comment, actions = None, None
         if ft:
-            comment = ft.find(class_='comment-item')
+            comment = ft.find(class_="comment-item")
             if comment:
                 comment = strip(comment.text)
-            actions = ft.find(class_='actions')
+            actions = ft.find(class_="actions")
             if actions:
                 actions = strip(actions.text)
 
@@ -295,7 +296,7 @@ def parse_page_detail(page, **kwargs):
     else:
         # 部分词条没有评分、影评
         # https://movie.douban.com/subject/1293408/  小活佛 Little Buddha (1993)
-        score, count, weight= "", "", []
+        score, count, weight = "", "", []
     left = article.find(class_="subject clearfix")
     pic = left.find(id="mainpic")
     alt = pic.img["alt"]
@@ -337,7 +338,7 @@ def parse_page_detail(page, **kwargs):
         comments = strip(comments.a.text)
     else:
         comments = None
-    reviews = content.find(id="reviews-wrapper") # todo
+    reviews = content.find(id="reviews-wrapper")
     if not reviews:
         reviews = content.find(id="review_section")
     if not reviews:
@@ -401,3 +402,95 @@ def parse_page_detail(page, **kwargs):
     }
     movie = Movie(title, link, img, year, rank, mtype=mtype, score=score, **more)
     return movie
+
+
+def parse_annual_data(page, **kwargs):
+    """豆瓣年度榜单，转化成csv"""
+
+    def _get_id_link(url):
+        url = url.strip()
+        if not url:
+            return " "
+        v = url.strip("/").split("/")[-1]
+        return "[{}]({})".format(v, url)
+
+    def _get_title(x):
+        title = " / ".join([v.strip() for v in [x["title"], x["orig_title"]] if v.strip() != ""])
+        return " " if title == "" else title
+
+    keys = [
+        "description",
+        "info",
+        "orig_title",
+        "rating",
+        "title",
+        "type",
+        "url",
+        "cover",
+        # "done_count",
+        # "rating_count",
+        # "rating_stats",
+        # "short_info",
+    ]
+
+    cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
+    cols_raw = ["group", "rank", "title2", "id", "rating", "info", "description"]
+    data = page
+    data2 = []
+    for entry in data["res"]["widgets"]:
+        if "show_kind" in entry and "widgets" in entry["payload"]:
+            for entry2 in entry["payload"]["widgets"]:
+                if "show_kind" not in entry2:
+                    data2.append(entry2)
+        else:
+            data2.append(entry)
+
+    data3 = []
+    for entry in data2:
+        payload = entry["payload"]
+        entry2 = {k: entry.get(k) for k in ["kind_cn", "kind_str", "subjects"]}
+        if not entry2["subjects"]:
+            if "items" not in payload:
+                continue
+            items = payload["items"]
+            entry2["subjects"] = json.loads(items) if isinstance(items, str) else items
+        if not entry2["subjects"]: continue
+
+        t = payload["title"].strip()
+        t1 = payload.get("subtitle", "").strip()
+        # 仅保留了电影类，去除剧集、综艺和其他
+        if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
+            logging.info(f"ignore: {t}")
+            continue
+        entry2["group"] = "-".join([v for v in [t1, t] if v])
+        data3.append(entry2)
+
+    data4 = []
+    for e in data3:
+        for i, v in enumerate(e["subjects"]):
+            e2 = {k: e[k] for k in ["group"]}
+            e2["rank"] = i + 1
+            if "cover" in v:
+                e2.update({k: v[k] for k in keys})
+            else:
+                e2["desc"] = v["subtitle"]
+                if "subject" in v:
+                    e2.update({k: v["subject"].get(k) for k in keys})
+            data4.append(e2)
+        data4.append({})  # 不同榜单分组加入空白行
+    if not data4[-1]:
+        data4 = data4[:-1]
+    if len(data4) == 0:
+        return None
+
+    df = pd.DataFrame(data4[:-1])
+    df = df.fillna(" ").astype(str)
+    df["id"] = df["url"].apply(_get_id_link)
+    df["title2"] = df.apply(lambda x: _get_title(x), axis=1)
+    df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
+    df["rating"] = df["rating"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
+    logging.info(df['group'].value_counts())
+
+    df2 = df[cols_raw].copy()
+    df2.columns = cols_out
+    return df2

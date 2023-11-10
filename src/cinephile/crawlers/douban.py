@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import List, Union
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
-from cinephile.crawlers.douban_parser import extract_page_info
+from cinephile.crawlers.douban_parser import extract_page_info, parse_annual_data
 from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list
 from cinephile.crawlers.douban_parser import parse_page_detail, parse_page_hot
 from cinephile.utils import datetimes
@@ -13,6 +13,10 @@ from cinephile.utils.movies import MovieCluster
 
 
 class DoubanUrl(CrawlerUrl):
+    def __init__(self, sitename, description=None):
+        self._key_annual = f"{sitename}-annual"
+        super().__init__(sitename, description)
+
     @property
     def key_top250(self):
         return self._key_top250
@@ -28,6 +32,10 @@ class DoubanUrl(CrawlerUrl):
     @property
     def key_hot(self):
         return self._key_hot
+
+    @property
+    def key_annual(self):
+        return self._key_annual
 
     def url(self, key: str, **kwargs) -> str:
         config = self.url_dict[key]
@@ -66,6 +74,9 @@ class DoubanUrl(CrawlerUrl):
             url_id = config["collections"][order]["id"]
             url = url.format(url_id)
             return f"{url}?{params}"
+        elif key == self._key_annual:
+            year = kwargs["year"]
+            return config["url"].format(year)
         return ""
 
     def source(self, key: str, **kwargs) -> Union[str, List[str]]:
@@ -89,6 +100,9 @@ class DoubanUrl(CrawlerUrl):
             url_id = config["collections"][order]["id"]
             url = [raw_url[0], raw_url[1].format(url_id)]
             return url
+        elif key == self._key_annual:
+            year = kwargs["year"]
+            return config["raw_url"].format(year)
         return ""
 
     def _init_urls(self) -> dict:
@@ -134,6 +148,11 @@ class DoubanUrl(CrawlerUrl):
                     {"desc": "近期冷门佳片榜（20部）", "id": "ECSU5CIVQ"},
                 ],
             },
+            self._key_annual: {
+                "desc": "豆瓣电影年度榜单",
+                "url": 'https://movie.douban.com/ithil_j/activity/movie_annual{}?with_widgets=1',
+                "raw_url": "https://movie.douban.com/annual/{}",
+            }
         }
         return url_dict
 
@@ -154,7 +173,9 @@ class DoubanCrawler(BaseCrawler):
         self.urls = DoubanUrl(self.sitename, self.description)
 
     def parse_page(self, key, page, char_detect=False, **kwargs):
-        page = super().parse_page(key, page, char_detect)
+        if char_detect:
+            page = super().parse_page(key, page, char_detect)
+
         if key == self.urls.key_top250:
             return parse_page_top250(page, **kwargs)
         elif key == self.urls.key_hot:
@@ -163,6 +184,8 @@ class DoubanCrawler(BaseCrawler):
             return parse_page_list(page, **kwargs)
         elif key == self.urls.key_detail:
             return parse_page_detail(page, **kwargs)
+        elif key == self.urls.key_annual:
+            return parse_annual_data(page, **kwargs)
         return None
 
     def process(self, key=None, savedir=None, **kwargs):
@@ -432,3 +455,29 @@ class DoubanCrawler(BaseCrawler):
         movie_cluster = MovieCluster(dt, dt, desc, source, cluster=clusters)
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
+
+    def process_annual(self, year, savedir=None):
+        key = self.urls.key_annual
+        dt = datetimes.utcnow()
+        assert year >= 2015
+
+        url_config = self.urls.query(key)
+        savename = f"douban-movie-annual{year}.csv"
+        savefile = Path(savedir if savedir else self.savedir, savename)
+        if self.check(savefile) and not self.overwrite:
+            return self.error_file_exist, savefile
+
+        headers = self.get_headers()
+        url = self.get_url(key, year=year)
+
+        page = self.get_page(url, headers=headers, page_format="json")
+        if not page:
+            logging.warning("page error, exit\n\n")
+            return self.error_http, savefile
+
+        df = self.parse_page(key, page)
+        if df is None:
+            return self.error_parse, savefile
+
+        self.save(savefile, movie_cluster=None, dataframe=df)
+        return len(df), savefile
