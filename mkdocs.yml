@@ -112,11 +112,12 @@ nav:
       - 日本电影: fiff/films-jp.md
   - Douban:
     - 豆瓣电影: douban/index.md
-    - 豆瓣电影历史榜单: douban/douban-hist.md
-    - 豆瓣电影2023榜单: douban/douban-2023.md
+    - 豆瓣电影年度榜单汇总: douban/douban-annual.md
+    - 豆瓣电影2023年Top250: douban/douban-2023.md
+    - 豆瓣电影Top250历史归档: douban/douban-hist.md
   - IMDb:
     - IMDb电影: imdb/index.md
-    - IMDb电影2023年榜单: imdb/imdb-2023.md
+    - IMDb电影2023年Top250: imdb/imdb-2023.md
   - TSPDT:
     - TSPDT电影: tspdt/index.md
     - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
