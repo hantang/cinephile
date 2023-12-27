@@ -435,9 +435,9 @@ def parse_annual_data(page, **kwargs):
 
     cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
     cols_raw = ["group", "rank", "title2", "id", "rating", "info", "description"]
-    data = page
+    data = page["res"]
     data2 = []
-    for entry in data["res"]["widgets"]:
+    for entry in data["widgets"]:
         if "show_kind" in entry and "widgets" in entry["payload"]:
             for entry2 in entry["payload"]["widgets"]:
                 if "show_kind" not in entry2:
@@ -483,13 +483,83 @@ def parse_annual_data(page, **kwargs):
     if len(data4) == 0:
         return None
 
-    df = pd.DataFrame(data4[:-1])
+    df = pd.DataFrame(data4)
     df = df.fillna(" ").astype(str)
     df["id"] = df["url"].apply(_get_id_link)
     df["title2"] = df.apply(lambda x: _get_title(x), axis=1)
     df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
     df["rating"] = df["rating"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
     logging.info(df['group'].value_counts())
+
+    df2 = df[cols_raw].copy()
+    df2.columns = cols_out
+    return df2
+
+def parse_annual_data2(page, **kwargs):
+    # douban movie annual 2023
+    data = page
+    data2 = data["widgets"]
+    data3 = []
+    for entry in data2:
+        # payload = entry["payload"]
+        sources = entry["source_data"]
+        t = entry["title"].strip()
+        if not (t and sources):
+            continue
+        if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
+            logging.info(f"ignore: {t}")
+            continue
+
+        if not isinstance(sources, list):
+            sources = [sources]
+        for source in sources:
+            t = source["subject_collection"]["title"].strip()
+            if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
+                logging.info(f"ignore: {t}")
+                continue
+            data3.append(source)
+
+    data4 = []
+    keys = ["cover_url", "id", "title", "url"]
+    for e in data3:
+        group = e["subject_collection"]["title"].strip()
+        for i, v in enumerate(e["subject_collection_items"]):
+            e2 = {"group": group}
+            e2["rank"] = i + 1
+            for key in keys:
+                e2[key] = v[key]
+            e2["rating_count"] = v["rating"]["rating_count"]
+            e2["rating"] = v["rating"]["value"]
+            parts = [p.strip() for p in v["card_subtitle"].split("/")]
+            year, region, genre, staff = (
+                parts[0],
+                parts[1],
+                parts[2],
+                " / ".join(parts[3:]),
+            )
+            # assert len(parts) in [4,5]
+            e2["year"] = year
+            e2["region"] = region
+            e2["genre"] = genre
+            e2["staff"] = staff
+            data4.append(e2)
+        data4.append({})
+    if not data4[-1]:
+        data4 = data4[:-1]
+    if len(data4) == 0:
+        return None
+
+    cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
+    cols_raw = ["group", "rank", "title", "id2", "rating", "staff", "region"]
+
+    df = pd.DataFrame(data4)
+    df = df.fillna(" ").astype(str)
+    df["id2"] = df.apply(lambda x: "[{}]({})".format(x["id"], x["url"]), axis=1)
+    df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
+    df["rating"] = df["rating"].apply(
+        lambda x: "{:.1f}".format(float(x)) if x != " " else " "
+    )
+    logging.info(df["group"].value_counts())
 
     df2 = df[cols_raw].copy()
     df2.columns = cols_out
