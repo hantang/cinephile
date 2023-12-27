@@ -7,6 +7,7 @@ hide:
 
 - [豆瓣年度电影榜单](#豆瓣年度电影榜单)
   - [说明](#说明)
+  - [2023 年度电影榜单](#2023-年度电影榜单)
   - [2022 年度电影榜单](#2022-年度电影榜单)
   - [2021 年度电影榜单](#2021-年度电影榜单)
   - [2020 年度电影榜单](#2020-年度电影榜单)
@@ -23,10 +24,16 @@ hide:
 
 网址：`https://movie.douban.com/annual/年份`
 
-- 2022 年度【最新】: `https://movie.douban.com/annual/2022`
+- 2023 年度【最新】: `https://movie.douban.com/annual/2023`
 - ……
 - 2015 年度：`https://movie.douban.com/annual/2015`
 - 2014 年度：`https://movie.douban.com/review2014/`
+
+## 2023 年度电影榜单
+
+> 2023/12/26 发布
+
+{{ read_csv("../../data/douban-annual2023.csv") }}
 
 ## 2022 年度电影榜单
 
