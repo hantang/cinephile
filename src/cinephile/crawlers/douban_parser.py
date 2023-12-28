@@ -3,8 +3,9 @@ import logging
 
 import pandas as pd
 from bs4 import BeautifulSoup
-from cinephile.utils.texts import strip
+
 from cinephile.utils.movies import Movie
+from cinephile.utils.texts import strip
 
 
 def extract_page_info(page, desc=None):
@@ -225,7 +226,7 @@ def parse_page_list(page, **kwargs):
     return entries, next_url
 
 
-def parse_page_detail(page, **kwargs):
+def parse_page_detail(page, year, **kwargs):
     """豆瓣电影详情页
     https://movie.douban.com/subject/1292722/
     """
@@ -404,8 +405,13 @@ def parse_page_detail(page, **kwargs):
     return movie
 
 
+def _is_movie_list(title):
+    # 仅保留了电影类，去除剧集、综艺和其他
+    return "电影" in title or title.endswith("片") or title.endswith("佳作")
+
+
 def parse_annual_data(page, **kwargs):
-    """豆瓣年度榜单，转化成csv"""
+    """豆瓣年度榜单"""
 
     def _get_id_link(url):
         url = url.strip()
@@ -414,153 +420,153 @@ def parse_annual_data(page, **kwargs):
         v = url.strip("/").split("/")[-1]
         return "[{}]({})".format(v, url)
 
-    def _get_title(x):
-        title = " / ".join([v.strip() for v in [x["title"], x["orig_title"]] if v.strip() != ""])
-        return " " if title == "" else title
+    annual = kwargs.get("year", 0)
+    if annual <= 2022:
+        items_list, entries_list = parse_annual_data1(page, **kwargs)
+    else:
+        items_list, entries_list = parse_annual_data2(page, **kwargs)
 
-    keys = [
-        "description",
-        "info",
-        "orig_title",
-        "rating",
-        "title",
-        "type",
-        "url",
-        "cover",
-        # "done_count",
-        # "rating_count",
-        # "rating_stats",
-        # "short_info",
-    ]
+    data = []
+    groups = []
+    for items, entries in zip(items_list, entries_list):
+        if "payload" in items:
+            payload = items["payload"]
+            group = "".join([v.strip() for v in [payload.get("subtitle", ""), payload["title"]]])
+            group = group.replace(" ", "").strip()
+            if not group.startswith("豆瓣"):
+                group = "豆瓣" + group
+        else:
+            group = items["subject_collection"]["title"].strip()
+        groups.append(group)
+        for movie in entries:
+            entry = {
+                "group": group,
+                "rank": movie.rank,
+                "title": movie.title,
+                "id": _get_id_link(movie.link),
+                "score": movie.score.get("douban-score", 0),
+                "staff": movie.more.get("staff"),
+                "region": movie.more.get("region"),
+            }
+            data.append(entry)
+        data.append({})
+    if not data[-1]:
+        data = data[:-1]
+    if len(data) == 0:
+        return items_list, entries_list, None, None
 
+    df = pd.DataFrame(data)
+    df = df.fillna(" ").astype(str)
+    df["rank"] = df["rank"].apply(lambda x: x.split(".0")[0])
+    df["score"] = df["score"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
+    logging.info(df["group"].value_counts())
     cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
-    cols_raw = ["group", "rank", "title2", "id", "rating", "info", "description"]
+    df.columns = cols_out
+    return items_list, entries_list, groups, df
+
+
+def parse_annual_data1(page, **kwargs):
+    """豆瓣年度榜单 2015-2022"""
+    widgets = []
     data = page["res"]
-    data2 = []
     for entry in data["widgets"]:
         if "show_kind" in entry and "widgets" in entry["payload"]:
             for entry2 in entry["payload"]["widgets"]:
                 if "show_kind" not in entry2:
-                    data2.append(entry2)
+                    widgets.append(entry2)
         else:
-            data2.append(entry)
+            widgets.append(entry)
 
-    data3 = []
-    for entry in data2:
-        payload = entry["payload"]
-        entry2 = {k: entry.get(k) for k in ["kind_cn", "kind_str", "subjects"]}
-        if not entry2["subjects"]:
-            if "items" not in payload:
-                continue
-            items = payload["items"]
-            entry2["subjects"] = json.loads(items) if isinstance(items, str) else items
-        if not entry2["subjects"]: continue
-
-        t = payload["title"].strip()
-        t1 = payload.get("subtitle", "").strip()
-        # 仅保留了电影类，去除剧集、综艺和其他
-        if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
-            logging.info(f"ignore: {t}")
-            continue
-        entry2["group"] = "-".join([v for v in [t1, t] if v])
-        data3.append(entry2)
-
-    data4 = []
-    for e in data3:
-        for i, v in enumerate(e["subjects"]):
-            e2 = {k: e[k] for k in ["group"]}
-            e2["rank"] = i + 1
-            if "cover" in v:
-                e2.update({k: v[k] for k in keys})
+    items_list = []
+    for widget in widgets[:]:
+        payload = widget["payload"]
+        if widget.get("subjects") or "items" in payload:
+            t = payload.get("title", "").strip()
+            if _is_movie_list(t):
+                items_list.append(widget)
             else:
-                e2["desc"] = v["subtitle"]
-                if "subject" in v:
-                    e2.update({k: v["subject"].get(k) for k in keys})
-            data4.append(e2)
-        data4.append({})  # 不同榜单分组加入空白行
-    if not data4[-1]:
-        data4 = data4[:-1]
-    if len(data4) == 0:
-        return None
+                print(f"ignore = {t}")
 
-    df = pd.DataFrame(data4)
-    df = df.fillna(" ").astype(str)
-    df["id"] = df["url"].apply(_get_id_link)
-    df["title2"] = df.apply(lambda x: _get_title(x), axis=1)
-    df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
-    df["rating"] = df["rating"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
-    logging.info(df['group'].value_counts())
+    entries_list = []
+    for widget in items_list[:]:
+        payload = entry["payload"]
+        items = widget.get("subjects", payload.get("items"))
+        assert items is not None
+        if isinstance(items, str):
+            items = json.loads(items)
 
-    df2 = df[cols_raw].copy()
-    df2.columns = cols_out
-    return df2
+        entries = []
+        for idx, item in enumerate(items):
+            idx += 1
+            url = item["url"]
+            img = item["cover"]
+            title = item["title"]
+            score, count = item["rating"], item["rating_count"]
+            comment, actions = None, None
+            link = url
+            year = item.get("year", 0)
+            score = {"douban-score": score, "douban-vote": count}
+            more = {
+                "region": item["description"],
+                "staff": item["info"],
+                "orig_title": item["orig_title"],
+                "comment": [comment, actions]
+            }
+            movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
+            entries.append(movie)
+        entries_list.append(entries)
+    return items_list, entries_list
+
 
 def parse_annual_data2(page, **kwargs):
-    # douban movie annual 2023
+    """豆瓣年度榜单 2023"""
     data = page
-    data2 = data["widgets"]
-    data3 = []
-    for entry in data2:
-        # payload = entry["payload"]
+    items_list = []
+    for entry in data["widgets"]:
         sources = entry["source_data"]
         t = entry["title"].strip()
         if not (t and sources):
             continue
-        if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
-            logging.info(f"ignore: {t}")
-            continue
-
         if not isinstance(sources, list):
             sources = [sources]
         for source in sources:
-            t = source["subject_collection"]["title"].strip()
-            if not ("电影" in t or t.endswith("片") or t.endswith("佳作")):
-                logging.info(f"ignore: {t}")
+            if "subject_collection" not in source:
                 continue
-            data3.append(source)
+            t = source["subject_collection"]["title"].strip()
+            if not _is_movie_list(t):
+                print(f"ignore: {t}")
+                continue
+            items_list.append(source)
 
-    data4 = []
-    keys = ["cover_url", "id", "title", "url"]
-    for e in data3:
-        group = e["subject_collection"]["title"].strip()
-        for i, v in enumerate(e["subject_collection_items"]):
-            e2 = {"group": group}
-            e2["rank"] = i + 1
-            for key in keys:
-                e2[key] = v[key]
-            e2["rating_count"] = v["rating"]["rating_count"]
-            e2["rating"] = v["rating"]["value"]
-            parts = [p.strip() for p in v["card_subtitle"].split("/")]
+    entries_list = []
+    for widget in items_list:
+        items = widget["subject_collection_items"]
+        entries = []
+        for idx, item in enumerate(items):
+            idx += 1
+            url = item["url"]
+            img = item["cover_url"]
+            title = item["title"]
+            score = item["rating"]["value"]
+            count = item["rating"]["rating_count"]
+            comment, actions = None, None
+            link = url
+            parts = [p.strip() for p in item["card_subtitle"].split("/")]
             year, region, genre, staff = (
                 parts[0],
                 parts[1],
                 parts[2],
                 " / ".join(parts[3:]),
             )
-            # assert len(parts) in [4,5]
-            e2["year"] = year
-            e2["region"] = region
-            e2["genre"] = genre
-            e2["staff"] = staff
-            data4.append(e2)
-        data4.append({})
-    if not data4[-1]:
-        data4 = data4[:-1]
-    if len(data4) == 0:
-        return None
-
-    cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
-    cols_raw = ["group", "rank", "title", "id2", "rating", "staff", "region"]
-
-    df = pd.DataFrame(data4)
-    df = df.fillna(" ").astype(str)
-    df["id2"] = df.apply(lambda x: "[{}]({})".format(x["id"], x["url"]), axis=1)
-    df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
-    df["rating"] = df["rating"].apply(
-        lambda x: "{:.1f}".format(float(x)) if x != " " else " "
-    )
-    logging.info(df["group"].value_counts())
-
-    df2 = df[cols_raw].copy()
-    df2.columns = cols_out
-    return df2
+            year = int(year)
+            score = {"douban-score": score, "douban-vote": count}
+            more = {
+                "region": region,
+                "genre": genre,
+                "staff": staff,
+                "comment": [comment, actions]
+            }
+            movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
+            entries.append(movie)
+        entries_list.append(entries)
+    return items_list, entries_list
