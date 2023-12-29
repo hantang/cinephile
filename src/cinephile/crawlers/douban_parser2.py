@@ -1,9 +1,10 @@
 import json
 import logging
 
-import pandas as pd
+from bs4 import BeautifulSoup
 
 from cinephile.utils.movies import Movie, MovieTag
+from cinephile.utils.texts import strip
 
 
 def _is_movie_list(title):
@@ -14,15 +15,17 @@ def _is_movie_list(title):
 def parse_annual_data(page, **kwargs):
     """豆瓣年度榜单"""
 
-    def _get_id_link(url):
-        url = url.strip()
-        if not url:
-            return " "
-        v = url.strip("/").split("/")[-1]
-        return "[{}]({})".format(v, url)
+    # def _get_id_link(url):
+    #     url = url.strip()
+    #     if not url:
+    #         return " "
+    #     v = url.strip("/").split("/")[-1]
+    #     return "[{}]({})".format(v, url)
 
     annual = kwargs.get("year", 0)
-    if annual <= 2022:
+    if annual == 2014:
+        items_list, entries_list = parse_annual_data0(page, **kwargs)
+    elif annual <= 2022:
         items_list, entries_list = parse_annual_data1(page, **kwargs)
     else:
         items_list, entries_list = parse_annual_data2(page, **kwargs)
@@ -36,8 +39,10 @@ def parse_annual_data(page, **kwargs):
             group = group.replace(" ", "").strip()
             if not group.startswith("豆瓣"):
                 group = "豆瓣" + group
-        else:
+        elif 'subject_collection' in items:
             group = items["subject_collection"]["title"].strip()
+        else:
+            group = " | ".join(strip(items[k]) for k in ["douban-group", "douban-tips", "douban-comment"])
         groups.append(group)
     #     for movie in entries:
     #         entry = {
@@ -63,12 +68,76 @@ def parse_annual_data(page, **kwargs):
     # logging.info(df["group"].value_counts())
     # cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
     # df.columns = cols_out
-    return items_list, entries_list, groups # , df
+    return items_list, entries_list, groups  # , df
 
 
 def parse_annual_data0(page, **kwargs):
     """豆瓣年度榜单 2014"""
-    pass  # todo
+    soup = BeautifulSoup(page, "html5lib")
+    logging.info("Process movie = {}".format(strip(soup.title.text)))
+
+    div_main = soup.body.find("div", class_='main')
+
+    sections = div_main.find_all("div", class_='section', recursive=False)
+    items_list = []
+    entries_list = []
+    tag = MovieTag.DOUBAN_ANNUAL
+    for i, items in enumerate(sections):
+        if 'typeA' not in items['class'] or not items.h1:
+            if items.h1:
+                logging.info(f"Skip = {i}, {items.h1.text.strip()}")
+            continue
+
+        wp = items.find("div", "wp")
+        more = items.find("div", "more")
+        group = wp.h1.text.strip()
+        if not _is_movie_list(group):
+            logging.info(f"Ignore annual list = {group}")
+            continue
+        desc = wp.find("div", class_='desc')
+        # desc.find("span", class_="collections").text.strip()
+        # desc.find("span", class_="rank").text.strip()
+        tips = desc.find("p", class_="tips").text.strip()
+        comment = more.find("div", class_='fleft').text.strip()
+        alist = more.find("div", class_='fright').find_all("a", recursive=False)
+        assert len(alist) in [5, 10]
+        entries = []
+        for item in alist:
+            link = item['href']
+            img = item.img['src']
+            rank = item.find("span", class_="num").text.strip()
+            subject_info = item.find(class_='subject_info')
+            plist = [p.text.strip() for p in subject_info.find_all("p")]
+            s = subject_info.strong
+            score = None
+            if s.span:
+                score = s.span.text.strip()
+                s.span.decompose()
+            title = s.text.strip()
+            extra = {
+                "douban-url": link,
+                "douban-cover": img,
+                "douban-score": score,
+                "dounan-info": plist,
+            }
+            category = "movie"
+            region = None
+            year = 0
+            info_dict = dict([p.split("：") for p in plist])
+            director = info_dict.get("导演")
+            genre = info_dict.get("类型")
+            douban_id = link.strip("/").split("subject/")[-1] if link else None
+            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
+                          **extra)
+            entries.append(movie)
+        items_new = {
+            "douban-tips": tips,
+            "douban-comment": comment,
+            "douban-group": group,
+        }
+        items_list.append(items_new)
+        entries_list.append(entries)
+    return items_list, entries_list
 
 
 def parse_annual_data1(page, **kwargs):
@@ -124,7 +193,8 @@ def parse_annual_data1(page, **kwargs):
             genre = None
             rank = idx
             douban_id = link.strip("/").split("subject/")[-1] if link else None
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
+            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
+                          **extra)
             entries.append(movie)
         entries_list.append(entries)
     return items_list, entries_list
@@ -182,7 +252,8 @@ def parse_annual_data2(page, **kwargs):
             category = "movie"
             director = staff.split("/")[0].strip()
             rank = idx
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
+            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
+                          **extra)
             entries.append(movie)
         entries_list.append(entries)
     return items_list, entries_list

@@ -111,12 +111,15 @@ class BaseCrawler:
     def process(self, key=None, savedir=None, **kwargs):
         pass
 
-    def getname(self, dt=None, name=None, post=None, suffix="json"):
+    def getname(self, dt=None, name=None, post=None, suffix="json", datetime=True):
         # douban-movie-top250-v20230101.json, douban-movie-dl1234-v2023.json
+        suffix = suffix.strip().strip(".").strip()
         dt2 = datetimes.time2str(dt if dt else self.dt, 3)
         category = name if name else ""
         post = "" if not post else post
-        parts = [self.sitename, self.save_prefix_base, category, post, "v" + dt2]
+        parts = [self.sitename, self.save_prefix_base, category, post]
+        if datetime:
+            parts.append("v" + dt2)
         parts = "-".join([v for v in parts if len(v) > 0])
         savename = f"{parts}.{suffix}"
         return savename
