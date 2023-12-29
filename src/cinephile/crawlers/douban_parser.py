@@ -100,7 +100,7 @@ def parse_page_top250(page, **kwargs):
             "douban-info": info,
             "douban-quote": quote,
         }
-        info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ':' in v])
+        info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ":" in v])
         director = info_part1.get("导演")
         info_part2 = [v.strip() for v in info[1].split("\xa0/\xa0")]
         assert len(info_part2) == 3
@@ -133,30 +133,41 @@ def parse_page_hot(page, **kwargs):
         title = item["title"]
         link = item["uri"]
         img = item["pic"]["normal"]
-        mtype = item.get("type_name", item.get("type"))
+        mtype = item.get("type_name", item.get("type", "")).strip().lower()
         rank = item.get("rank_value", item.get("rank"))
-        if "year" in item:  # 实时
-            year = item["year"][:4]
-        else:  # 实时/热门
-            year = item["card_subtitle"].split("/")[0].strip()[:4]
-        info2 = [item["info"]] if "info" in item else []  # 实时
         comments = item.get("comments", [])
         comments = [(v["comment"], v["rating"]["star_count"]) for v in comments]
         extra = {
             "douban-url": link,
             "douban-cover": img,
+            "douban-type": mtype,
             "douban-score": item["rating"]["value"],
             "douban-vote": item["rating"]["count"],
             # "douban-titles": titles,
-            "douban-info": [item["card_subtitle"]] + info2,
+            "douban-info": [item["card_subtitle"], item.get("info", "")],  # info - 实时
             "douban-reward": [v["title"] for v in item["honor_infos"]],
             "douban-comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
             "douban-tag": [v["name"] for v in item.get("tags", [])],  # 热门
             "douban-summary": item.get("description"),  # 热门
         }
 
-        category = None  # todo
+        if mtype in ["movie", "电影", ""]:
+            category = "movie"
+        elif mtype in ["tv", "电视剧", "电视", "综艺"]:
+            category = "tv"
+        else:
+            logging.info(f"mtype = {mtype}")
+            category = "other"
         douban_id = item["id"]
+        if category in ["movie", "tv"]:
+            card_parts = item["card_subtitle"].split(" / ")
+            assert len(card_parts) in [4, 5], (item["card_subtitle"], title, mtype)
+            year, region, genre, director = card_parts[:4]  # actors
+            if "year" in item:
+                year = item["year"]
+            year = int(year.strip()[:4])
+        else:
+            year, region, director, genre = 0, None, None, None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
         entries.append(movie)
     logging.info(f"output entries = {len(entries)} / {total}")
