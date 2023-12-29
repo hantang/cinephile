@@ -110,6 +110,11 @@ class ImdbCrawler(BaseCrawler):
         self.description = "IMDb电影"
         self.urls = ImdbUrl(self.sitename, self.description, self.baseurl)
 
+    def get_headers(self, agent="random"):
+        headers = super().get_headers(agent)
+        headers["Accept-Language"] = "en-US,en"
+        return headers
+
     def parse_page(self, key, page, char_detect=False, **kwargs):
         page = super().parse_page(key, page, char_detect)
         if key == self.urls.key_top250:

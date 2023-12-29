@@ -56,7 +56,7 @@ def run_douban_annual(save_dir):
     crawler = DoubanCrawler()
     # for year in range(2015, 2023):
     #     crawler.process_annual(year=year, savedir=save_dir)
-    crawler.process_annual(year=2014, savedir=save_dir)
+    # crawler.process_annual(year=2014, savedir=save_dir)
 
 
 if __name__ == "__main__":
