@@ -506,7 +506,7 @@ class MovieCluster:
             release_time: Union[str, DateTime],
             update_time: Union[str, DateTime],
             description: str,
-            source: Union[str, List[str]],
+            source: Union[str, List[str]] = None,
             movie: Optional[Movie] = None,
             movies: Optional[List[Movie]] = None,
             cluster: Optional[List[MovieCluster]] = None,

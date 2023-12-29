@@ -6,9 +6,9 @@ from typing import List, Union
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.crawlers.douban_parser import extract_page_info
-from cinephile.crawlers.douban_parser2 import parse_annual_data
 from cinephile.crawlers.douban_parser import parse_page_detail, parse_page_hot
 from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list
+from cinephile.crawlers.douban_parser2 import parse_annual_data
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
 
@@ -75,10 +75,13 @@ class DoubanUrl(CrawlerUrl):
             return f"{url}?{params}"
         elif key == self._key_annual:
             year = kwargs["year"]
-            if year <= 2022:
-                return config["url"].format(year)
+            urls = config["urls"]
+            if year == 2014:
+                return urls[0]
+            elif year <= 2022:
+                return urls[1].format(year)
             else:
-                return config["url2"]
+                return urls[2]
         return ""
 
     def source(self, key: str, **kwargs) -> Union[str, List[str]]:
@@ -104,7 +107,13 @@ class DoubanUrl(CrawlerUrl):
             return url
         elif key == self._key_annual:
             year = kwargs["year"]
-            return config["raw_url"].format(year)
+            urls = config["raw_urls"]
+            if year == 2014:
+                return urls[0]
+            elif year <= 2016:
+                return urls[1].format(year)
+            else:
+                return urls[2].format(year)
         return ""
 
     def _init_urls(self) -> dict:
@@ -153,14 +162,14 @@ class DoubanUrl(CrawlerUrl):
             self._key_annual: {
                 "desc": "豆瓣电影年度榜单",
                 "urls": [
-                    "https://movie.douban.com/review2014", 
-                    "https://movie.douban.com/ithil_j/activity/movie_annual{}",  # 2015~2022 json
-                    "https://movie.douban.com/j/neu/page/22/" # 2023 json
+                    "https://movie.douban.com/review2014",  # 2014 html
+                    "https://movie.douban.com/ithil_j/activity/movie_annual{}?with_widgets=1",  # 2015~2022 json
+                    "https://movie.douban.com/j/neu/page/22/"  # 2023 json
                 ],
                 "raw_urls": [
-                    "https://movie.douban.com/review2014",
-                    "https://movie.douban.com/annual{}", # 2015~2016
-                    "https://movie.douban.com/annual/{}", # 2017~
+                    "https://movie.douban.com/review2014",  # 2014
+                    "https://movie.douban.com/annual{}",  # 2015~2016
+                    "https://movie.douban.com/annual/{}",  # 2017~
                 ]
             },
         }
@@ -181,6 +190,12 @@ class DoubanCrawler(BaseCrawler):
         self.baseurl = "https://movie.douban.com/"
         self.description = "豆瓣电影"
         self.urls = DoubanUrl(self.sitename, self.description)
+
+    def get_headers(self, agent="random", **kwargs):
+        headers = super().get_headers(agent)
+        if kwargs.get("key") == self.urls.key_hot:
+            headers["Referer"] = kwargs["referer"]
+        return headers
 
     def parse_page(self, key, page, char_detect=False, **kwargs):
         if char_detect:
@@ -360,7 +375,7 @@ class DoubanCrawler(BaseCrawler):
             next_url = self.get_url(key, params=next_url, start=page_num)
 
         logging.info(f"save to data, movie list = {len(movies)}")
-        desc = "\n".join([dou_desc[v] for v in ["name", "author", "about"]]).strip() if dou_desc else url_config['desc']
+        desc = "\n".join([dou_desc[v] for v in ["name", "author", "about"]]).strip() if dou_desc else url_config["desc"]
         source = self.get_url(key, is_source=True, movie_list_id=movie_list_id)
         release_time = dou_desc["author"].split()[3]
         movie_cluster = MovieCluster(release_time, dt, desc, source, movies=movies)
@@ -447,8 +462,7 @@ class DoubanCrawler(BaseCrawler):
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, savefile
 
-        headers = self.get_headers()
-        headers["Referer"] = url_config["base_url"]
+        headers = self.get_headers(key=key, referer=url_config["base_url"])
         count = url_config["count"]
         clusters = []
         for i in range(count):
@@ -478,17 +492,17 @@ class DoubanCrawler(BaseCrawler):
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
-    def process_annual(self, year, savedir=None, save_df=True):
+    def process_annual(self, year, savedir=None, save_csv=True):
         assert year >= 2015
         key = self.urls.key_annual
         dt = datetimes.utcnow()
         url_config = self.urls.query(key)
         logging.info(f"process douban annual movies, year = {year}")
 
-        savename = f"douban-annual{year}.json"
-        savename_df = f"douban-annual{year}.csv"
+        savename = self.getname(dt, name=f"annual{year}")
+        savename_csv = savename.replace(".json", ".csv")
         savefile = Path(savedir if savedir else self.savedir, savename)
-        savefile_df = Path(savedir if savedir else self.savedir, savename_df)
+        savefile_csv = Path(savedir if savedir else self.savedir, savename_csv)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, savefile
 
@@ -501,24 +515,22 @@ class DoubanCrawler(BaseCrawler):
             logging.warning("page error, exit\n\n")
             return self.error_http, savefile
 
-        items_list, entries_list, groups, df = self.parse_page(key, page, year=year)
+        items_list, entries_list, groups = self.parse_page(key, page, year=year)
 
         n = len(items_list)
-        if n == 0 or df is None:
+        if n == 0:  # or df is None:
             logging.warning("Error dataframe is null")
             return self.error_parse, savefile
 
         clusters = []
         for i in range(n):
             items, entries, desc = items_list[i], entries_list[i], groups[i]
-            movie_cluster = MovieCluster(
-                dt, dt, desc, None, movies=entries, draft=items
-            )
+            movie_cluster = MovieCluster(dt, dt, desc, None, movies=entries, draft=items)
             clusters.append(movie_cluster)
         desc = url_config["desc"] + f": 豆瓣{year}年度"
         source = self.get_url(key, is_source=True, order=-1, year=year)
         movie_cluster = MovieCluster(dt, dt, desc, source, cluster=clusters)
         self.save(savefile, movie_cluster)
-        if save_df:
-            self.save(savefile_df, movie_cluster=None, dataframe=df)
+        # if save_csv:
+        #     self.save(savefile_csv, movie_cluster=None, dataframe=df)
         return movie_cluster.total, savefile
