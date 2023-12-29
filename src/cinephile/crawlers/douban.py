@@ -6,7 +6,7 @@ from typing import List, Union
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.crawlers.douban_parser import extract_page_info
-from cinephile.crawlers.douban_parser import parse_annual_data
+from cinephile.crawlers.douban_parser2 import parse_annual_data
 from cinephile.crawlers.douban_parser import parse_page_detail, parse_page_hot
 from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list
 from cinephile.utils import datetimes
@@ -65,8 +65,6 @@ class DoubanUrl(CrawlerUrl):
         elif key == self._key_detail:
             url = config["url"]
             movie_id = kwargs["movie_id"]
-            if movie_id.startswith("http"):
-                return movie_id
             return url.format(movie_id)
         elif key == self._key_hot:
             order = kwargs.get("order", 0)
@@ -248,7 +246,7 @@ class DoubanCrawler(BaseCrawler):
             page = self.get_page(url, headers, round_i=ri, round_n=page_end)
             if not page:
                 continue
-            logging.info(f"round={1 + num}/{rn} parse page, page={len(page)}")
+            logging.info(f"round={1 + num}/{rn} parse page, page bytes={len(page)}")
             out = self.parse_page(key, page, total=page_step)
             if out:
                 movies.extend(out)
@@ -293,7 +291,7 @@ class DoubanCrawler(BaseCrawler):
                 page_cnt = int(math.ceil(total_num / page_step))
                 logging.info(f"total items = {total_num} page = {page_cnt}")
 
-            logging.info(f"round={page_num}/{page_cnt} parse page, page={len(page)}")
+            logging.info(f"round={page_num}/{page_cnt} parse page, page bytes={len(page)}")
             out, next_url = self.parse_page(key, page, total=page_step)
             logging.info("out = {}, next_url = {}".format(len(out) if out else None, next_url))
             if out:
@@ -313,6 +311,12 @@ class DoubanCrawler(BaseCrawler):
     def process_list(self, movie_list_id, savedir=None, page_limit=-1):
         key = self.urls.key_list
         dt = datetimes.utcnow()
+        movie_list_id = str(movie_list_id)
+        if "doulist" in movie_list_id:
+            movie_list_id = movie_list_id.strip("/").split("doulist/")[-1]
+        if not movie_list_id.isdigit():
+            logging.warning(f"Error doulist id = {movie_list_id}")
+            exit(-1)
 
         url_config = self.urls.query(key)
         savename = self.getname(dt, name=f"{self.save_prefix_list}{movie_list_id}")
@@ -345,7 +349,7 @@ class DoubanCrawler(BaseCrawler):
                 page_cnt = int(math.ceil(total_num / page_step))
                 logging.info(f"total items = {total_num} page = {page_cnt}")
 
-            logging.info(f"round={page_num}/{page_cnt} parse page, page={len(page)}")
+            logging.info(f"round={page_num}/{page_cnt} parse page, page bytes={len(page)}")
             out, next_url = self.parse_page(key, page, total=page_step)
             logging.info("out = {}, next_url = {}".format(len(out) if out else None, next_url))
             if out:
@@ -366,6 +370,12 @@ class DoubanCrawler(BaseCrawler):
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
+        movie_id = str(movie_id)
+        if "subject" in movie_id:
+            movie_id = movie_id.strip("/").split("subject/")[-1]
+        if not movie_id.isdigit():
+            logging.warning(f"Error douban movie id = {movie_id}")
+            exit(-1)
 
         url_config = self.urls.query(key)
         savename = self.getname(dt, name=f"{self.save_prefix_movie}{movie_id}")

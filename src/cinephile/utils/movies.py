@@ -47,8 +47,17 @@ class BaseMovie(ABC):
                  genre: Optional[str] = None,
                  **kwargs
                  ):
+        if title:
+            title = title.strip()
+        if region:
+            region = region.strip()
+        if director:
+            director = director.strip()
+        if genre:
+            genre = genre.strip()
         if category is None:
             category = "movie"
+
         assert category in ["movie", "tv"]
         self._title = title
         self._category = category
@@ -485,7 +494,8 @@ class Movie(BaseMovie):
         for k, v in json_data:
             if k not in all_keys:
                 more[k] = v
-        movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, imdb_id=imdb_id,
+        movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
+                    imdb_id=imdb_id,
                     douban=douban, imdb=imdb, **more)
         return movie
 

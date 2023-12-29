@@ -57,12 +57,12 @@ def parse_page_top250(page, **kwargs):
     content = wrapper.find(id="content")
     if not content:
         logging.warning(f"Error Top250")
-        return None
+        # return None
 
     grid_view = content.find("ol", class_="grid_view")
     if not grid_view:
         logging.warning("grid_view is null")
-        return None
+        # return None
 
     paginator = content.find(class_="paginator")
     next_url = paginator.find("span", class_="next").a
@@ -86,8 +86,6 @@ def parse_page_top250(page, **kwargs):
 
         bd = item.find(class_="bd")
         info = [v.text.strip() for v in bd.p.contents if not v.name]
-        year = (int(str(info[-1].split("\xa0")[0])[:4]) if len(info) == 2 else 0)
-
         star = bd.find(class_="star")
         star_score = star.select_one(".rating_num").text
         star_count = star.find_all("span")[-1].text
@@ -103,12 +101,12 @@ def parse_page_top250(page, **kwargs):
             "douban-quote": quote,
         }
         info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ':' in v])
-        director = info_part1.get("导演").strip()
-        info_part2 = [v.strip() for v in info[1].split("/")]
+        director = info_part1.get("导演")
+        info_part2 = [v.strip() for v in info[1].split("\xa0/\xa0")]
         assert len(info_part2) == 3
-        year2, region, genre = info_part2
-        if not year and year2:
-            year = int(year2)
+        year_raw, region, genre = info_part2
+        years = re.findall(r"\d{4}", year_raw)
+        year = int(years[0]) if years else 0
         category = None
         douban_id = link.strip("/").split("subject/")[-1] if link else None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
@@ -157,7 +155,7 @@ def parse_page_hot(page, **kwargs):
             "douban-summary": item.get("description"),  # 热门
         }
 
-        category = None # todo
+        category = None  # todo
         douban_id = item["id"]
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
         entries.append(movie)
@@ -241,11 +239,11 @@ def parse_page_list(page, **kwargs):
 
         category = None  # todo
         info_dict = dict([v.split(":") for v in abstract])
-        director = info_dict.get("导演").strip()
-        genre = info_dict.get("类型").strip()
-        region = info_dict.get("制片国家/地区").strip()
-        year = int(info_dict.get("年份").strip())
-        year = int(year) if year.isdigit() else 0
+        director = info_dict.get("导演")
+        genre = info_dict.get("类型")
+        region = info_dict.get("制片国家/地区")
+        year = info_dict.get("年份")
+        year = int(year.strip()) if year and year.strip().isdigit() else 0
         douban_id = link.strip("/").split("subject/")[-1] if link else None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=idx, douban_id=douban_id, **extra)
         entries.append(movie)
