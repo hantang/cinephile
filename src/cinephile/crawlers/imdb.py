@@ -5,7 +5,7 @@ from pathlib import Path
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.crawlers.imdb_parser import extract_imdb_page_info
-from cinephile.crawlers.imdb_parser import parse_imdb_page_list
+from cinephile.crawlers.imdb_parser import parse_imdb_page_list, parse_imdb_page_detail
 from cinephile.crawlers.imdb_parser import parse_imdb_page_top_v4
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
@@ -122,7 +122,7 @@ class ImdbCrawler(BaseCrawler):
         elif key == self.urls.key_list:
             return parse_imdb_page_list(page, **kwargs)
         elif key == self.urls.key_detail:
-            pass  # todo
+            return parse_imdb_page_detail(page, **kwargs)
         # elif key == self.urls.key_hist:
         #     pass
         return None

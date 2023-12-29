@@ -73,7 +73,7 @@ def download_sleep(round_i, sleep_opt, sleep_range=None):
 
 
 def download_page(url, headers, params, page_format="text", **kwargs):
-    assert page_format in ["text", "json"]
+    assert page_format in ["text", "html", "json"]
     tag = "=" * 50
     round_i, round_n = kwargs.get("round_i", 1), kwargs.get("round_n", 1)
     out, status = None, -1

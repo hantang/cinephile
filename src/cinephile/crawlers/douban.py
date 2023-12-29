@@ -493,14 +493,14 @@ class DoubanCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_annual(self, year, savedir=None, save_csv=True):
-        assert year >= 2015
+        assert year >= 2014
         key = self.urls.key_annual
         dt = datetimes.utcnow()
         url_config = self.urls.query(key)
         logging.info(f"process douban annual movies, year = {year}")
 
-        savename = self.getname(dt, name=f"annual{year}")
-        savename_csv = savename.replace(".json", ".csv")
+        savename = self.getname(dt, name=f"annual{year}", datetime=False)
+        savename_csv = self.getname(dt, name=f"annual{year}", suffix="csv", datetime=False)
         savefile = Path(savedir if savedir else self.savedir, savename)
         savefile_csv = Path(savedir if savedir else self.savedir, savename_csv)
         if self.check(savefile) and not self.overwrite:
@@ -510,7 +510,7 @@ class DoubanCrawler(BaseCrawler):
         url = self.get_url(key, year=year)
         logging.info(f"url = {url}")
 
-        page = self.get_page(url, headers=headers, page_format="json")
+        page = self.get_page(url, headers=headers, page_format="json" if year >= 2015 else "text")
         if not page:
             logging.warning("page error, exit\n\n")
             return self.error_http, savefile
