@@ -473,10 +473,10 @@ class Movie(BaseMovie):
         douban_id = json_data.get("douban_id")
         imdb_id = json_data.get("imdb_id")
 
-        if "douban" in json_data:
+        if "douban" in json_data and json_data["douban"]:
             douban = DoubanMovie.from_json(json_data["douban"])
             douban_id = douban.douban_id
-        if "imdb" in json_data:
+        if "imdb" in json_data and json_data["imdb"]:
             imdb = ImdbMovie.from_json(json_data["imdb"])
             imdb_id = imdb.imdb_id
 
@@ -491,7 +491,7 @@ class Movie(BaseMovie):
         if cover:
             more["cover"] = cover["cover"]
         all_keys = cls.keys_base + [cls.keys_extra] + cls.keys_more + cls.keys_deprecate
-        for k, v in json_data:
+        for k, v in json_data.items():
             if k not in all_keys:
                 more[k] = v
         movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
