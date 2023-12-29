@@ -153,11 +153,17 @@ class DoubanUrl(CrawlerUrl):
                 ],
             },
             self._key_annual: {
-                # year: 2015~2022
                 "desc": "豆瓣电影年度榜单",
-                "url": "https://movie.douban.com/ithil_j/activity/movie_annual{}?with_widgets=1",
-                "url2": "https://movie.douban.com/j/neu/page/22/",
-                "raw_url": "https://movie.douban.com/annual/{}",
+                "urls": [
+                    "https://movie.douban.com/review2014", 
+                    "https://movie.douban.com/ithil_j/activity/movie_annual{}",  # 2015~2022 json
+                    "https://movie.douban.com/j/neu/page/22/" # 2023 json
+                ],
+                "raw_urls": [
+                    "https://movie.douban.com/review2014",
+                    "https://movie.douban.com/annual{}", # 2015~2016
+                    "https://movie.douban.com/annual/{}", # 2017~
+                ]
             },
         }
         return url_dict
@@ -463,7 +469,7 @@ class DoubanCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_annual(self, year, savedir=None, save_df=True):
-        assert year >= 2014
+        assert year >= 2015
         key = self.urls.key_annual
         dt = datetimes.utcnow()
         url_config = self.urls.query(key)

@@ -1,10 +1,9 @@
-import json
 import logging
+import re
 
-import pandas as pd
 from bs4 import BeautifulSoup
 
-from cinephile.utils.movies import Movie
+from cinephile.utils.movies import Movie, DoubanMovie, MovieTag
 from cinephile.utils.texts import strip
 
 
@@ -74,7 +73,7 @@ def parse_page_top250(page, **kwargs):
     logging.info(f"items = {len(items)}/{total}")
 
     entries = []
-    # info_keys = ["director", "actor", "year", "region", "genre"]
+    tag = MovieTag.DOUBAN_TOP250
     for item in items:
         tpic = item.find(class_="pic")
         rank = tpic.em.text.strip()
@@ -94,17 +93,27 @@ def parse_page_top250(page, **kwargs):
         star_count = star.find_all("span")[-1].text
         quote = bd.find(class_="quote")
         quote = quote.text.strip() if quote else ""
-        score = {
+        extra = {
+            "douban-url": link,
+            "douban-cover": img,
             "douban-score": star_score,
             "douban-vote": star_count,
-        }
-        more = {
-            "title-more": titles,
+            "douban-titles": titles,
             "douban-info": info,
             "douban-quote": quote,
         }
-        entry = Movie(title, link, img, year, rank, mtype=None, score=score, **more)
-        entries.append(entry)
+        info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ':' in v])
+        director = info_part1.get("导演").strip()
+        info_part2 = [v.strip() for v in info[1].split("/")]
+        assert len(info_part2) == 3
+        year2, region, genre = info_part2
+        if not year and year2:
+            year = int(year2)
+        category = None
+        douban_id = link.strip("/").split("subject/")[-1] if link else None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
+        entries.append(movie)
+
     logging.info(f"output entries = {len(entries)} / {total}")
     return entries, next_url
 
@@ -119,13 +128,15 @@ def parse_page_hot(page, **kwargs):
     items = page["subject_collection_items"]
     total = page["total"]
     logging.info(f"items = {len(items)}/{total}")
+
     entries = []
+    tag = MovieTag.DOUBAN_HOT
     for item in items:
         title = item["title"]
         link = item["uri"]
         img = item["pic"]["normal"]
-        mtype = item.get("type_name", item.get("type"))  # 实时/热门
-        rank = item.get("rank_value", item.get("rank"))  # 实时/热门
+        mtype = item.get("type_name", item.get("type"))
+        rank = item.get("rank_value", item.get("rank"))
         if "year" in item:  # 实时
             year = item["year"][:4]
         else:  # 实时/热门
@@ -133,19 +144,22 @@ def parse_page_hot(page, **kwargs):
         info2 = [item["info"]] if "info" in item else []  # 实时
         comments = item.get("comments", [])
         comments = [(v["comment"], v["rating"]["star_count"]) for v in comments]
-        score = {
+        extra = {
+            "douban-url": link,
+            "douban-cover": img,
             "douban-score": item["rating"]["value"],
             "douban-vote": item["rating"]["count"],
-        }
-        more = {
-            "douban-id": item["id"],
+            # "douban-titles": titles,
             "douban-info": [item["card_subtitle"]] + info2,
-            "reward": [v["title"] for v in item["honor_infos"]],
-            "comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
-            "tag": [v["name"] for v in item.get("tags", [])],  # 热门
-            "summary": item.get("description"),  # 热门
+            "douban-reward": [v["title"] for v in item["honor_infos"]],
+            "douban-comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
+            "douban-tag": [v["name"] for v in item.get("tags", [])],  # 热门
+            "douban-summary": item.get("description"),  # 热门
         }
-        movie = Movie(title, link, img, year, rank, mtype=mtype, score=score, **more)
+
+        category = None # todo
+        douban_id = item["id"]
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
         entries.append(movie)
     logging.info(f"output entries = {len(entries)} / {total}")
     return items, entries
@@ -177,6 +191,7 @@ def parse_page_list(page, **kwargs):
     items = content.find_all("div", class_="doulist-item")
     logging.info(f"items = {len(items)}/{total}")
     entries = []
+    tag = MovieTag.DOUBAN_LIST
     for item in items:
         idx = item.find("div", class_="hd").text.strip()
         bd = item.find("div", class_="bd")
@@ -184,11 +199,11 @@ def parse_page_list(page, **kwargs):
         post = bd.find("div", class_="post")
         if post is None:
             logging.warning(f"empty -> {idx}")
-            movie = Movie("", None, None, 0, rank=idx, mtype=None, score=None)
+            movie = Movie("", None, None, None, None, None, tag=tag, rank=idx, douban_id=None)
             entries.append(movie)
             continue
 
-        url = post.a["href"]
+        link = post.a["href"]
         img = post.img["src"]
 
         title = bd.find("div", class_="title").text.strip()
@@ -214,19 +229,31 @@ def parse_page_list(page, **kwargs):
             actions = ft.find(class_="actions")
             if actions:
                 actions = strip(actions.text)
+        extra = {
+            "douban-url": link,
+            "douban-cover": img,
+            "douban-score": score,
+            "douban-vote": count,
+            # "douban-titles": titles,
+            "douban-info": abstract,
+            "douban-comment": [comment, actions]
+        }
 
-        link = url
-        year = "\n".join(abstract).split("年份:")[-1].split("\n")[0].strip()
+        category = None  # todo
+        info_dict = dict([v.split(":") for v in abstract])
+        director = info_dict.get("导演").strip()
+        genre = info_dict.get("类型").strip()
+        region = info_dict.get("制片国家/地区").strip()
+        year = int(info_dict.get("年份").strip())
         year = int(year) if year.isdigit() else 0
-        score = {"douban-score": score, "douban-vote": count}
-        more = {"info": abstract, "comment": [comment, actions]}
-        movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
+        douban_id = link.strip("/").split("subject/")[-1] if link else None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=idx, douban_id=douban_id, **extra)
         entries.append(movie)
     logging.info(f"entries = {len(entries)}/ {total}")
     return entries, next_url
 
 
-def parse_page_detail(page, year, **kwargs):
+def parse_page_detail(page, **kwargs):
     """豆瓣电影详情页
     https://movie.douban.com/subject/1292722/
     """
@@ -266,12 +293,13 @@ def parse_page_detail(page, year, **kwargs):
     movie_id = kwargs.get("movie_id")
 
     soup = BeautifulSoup(page, "html5lib")
-    logging.info(soup.title.text.strip())
+    logging.info("Process movie = {}".format(strip(soup.title.text)))
+
     wrapper = soup.body.find(id="wrapper")
     content = wrapper.find(id="content")
     if not content:
         logging.warning(f"Error douban-movie-id = {movie_id}")
-        return None
+        # return None
 
     rank = content.find(class_="top250-no")
     rank = strip(rank.text) if rank else ""
@@ -279,6 +307,12 @@ def parse_page_detail(page, year, **kwargs):
     title, year = [strip(v.text) for v in h1.select("span")]
 
     article = content.find(class_="article")
+    if ("在看" in strip(article.find(id="interest_sect_level").text)) or \
+            article.find("div", class_="episode_list"):
+        category = "tv"
+    else:
+        category = "movie"
+
     right = article.find(id="interest_sectl")
     if right:
         if right.find(class_="rating_sum"):
@@ -291,36 +325,28 @@ def parse_page_detail(page, year, **kwargs):
             t = list(star_path.children)
             t2 = [v for v in t if v.name in ["p", "span"] or "%" in v.text]
             score = t2[0].find(class_="ll rating_num").text
-            count = t2[1].text.strip()
+            count = strip(t2[1].text)
             weight_cnt = 5  # 五星评级
-            weight = [[t2[i]["title"], t2[i + 1].text.strip()] for i in range(2, weight_cnt * 2, 2)]
+            weight = [[t2[i]["title"], strip(t2[i + 1].text)] for i in range(2, weight_cnt * 2, 2)]
+        betterthan = right.find(class_="rating_betterthan")
+        if betterthan:
+            betterthan = strip(betterthan.text)
     else:
         # 部分词条没有评分、影评
         # https://movie.douban.com/subject/1293408/  小活佛 Little Buddha (1993)
-        score, count, weight = "", "", []
+        score, count, weight, betterthan = "", "", [], ""
     left = article.find(class_="subject clearfix")
     pic = left.find(id="mainpic")
-    alt = pic.img["alt"]
-
-    # 分享按钮
-    rec = content.find(class_="gtleft").find(class_="rec")
-    if rec:
-        mtype = rec.a.get("data-type")
-        if not mtype:
-            mtype = rec.a["data-title"].split("《")[0]
-        link = rec.a["data-url"]
-        img = rec.a["data-pic"]
-    else:
-        mtype = None
-        img = pic.img["src"]
-        link = pic.a["href"].split("photo")[0]
+    cover = pic.img["alt"]
+    url = pic.a["href"].split("/photos?")[0]
     if not movie_id:
-        movie_id = link.strip("/").split("/")[-1]
-
+        movie_id = url.strip("/").split("/")[-1]
+    # 分享按钮
+    # rec = content.find(class_="gtleft").find(class_="rec")
     info = left.find(id="info")
     info_result = _parse_douban_info(info)
 
-    rewards = [strip(v.text) for v in content.find_all("ul", class_="award")]
+    # 剧情简介
     summary = content.find(id="link-report-intra")
     if not summary:
         summary = content.find(class_="related-info")
@@ -330,6 +356,13 @@ def parse_page_detail(page, year, **kwargs):
         summary = strip(summary.span.text, keep=True)
     else:
         summary = None
+    # 视频和图片
+    resources = content.find(id="related-pic").find("span", class_="pl")
+    if resources:
+        resources = strip(resources.text)
+    # 获奖 
+    rewards = [strip(v.text) for v in content.find_all("ul", class_="award")]
+    # 短评
     comments = content.find(id="comments-section")
     if comments:
         comments = comments.h2
@@ -339,6 +372,7 @@ def parse_page_detail(page, year, **kwargs):
         comments = strip(comments.a.text)
     else:
         comments = None
+    # 影评
     reviews = content.find(id="reviews-wrapper")
     if not reviews:
         reviews = content.find(id="review_section")
@@ -354,6 +388,7 @@ def parse_page_detail(page, year, **kwargs):
         reviews = strip(reviews.a.text)
     else:
         reviews = None
+    # 讨论区
     discussion = content.find(class_="section-discussion")
     if discussion:
         if discussion.find("p", class_="pl"):
@@ -369,9 +404,13 @@ def parse_page_detail(page, year, **kwargs):
     discussion2 = content.find(class_="mv-discussion-list discussion-list")
     if discussion2:
         discussion2 = strip(discussion2.table.next_sibling.next_sibling.text)
+    discussion = "/".join([v for v in [discussion, discussion2] if v])
+
+    # 问题
     question = content.find(id="askmatrix")
     if question:
         question = strip(question.h2.a.text)
+    # 想看/看过/在看
     if content.find(id="subject-others-interests"):
         watch = content.find(id="subject-others-interests").find(
             "div", class_="subject-others-interests-ft"
@@ -382,191 +421,69 @@ def parse_page_detail(page, year, **kwargs):
         watch = [strip(v.text) for v in watch]
     else:
         watch = None
-    year = int(year.strip("()"))
-    score = {
-        "douban-score": score,
-        "douban-vote": count,
-        "douban-weight": weight,
-    }
-    more = {
-        "douban-id": movie_id,
-        "title-more": alt,
-        "info": info_result,
-        "rewards": rewards,
-        "summary": summary,
-        "comments": comments,
-        "reviews": reviews,
-        "discussion": discussion,
-        "discussion-list": discussion2,
-        "question": question,
-        "watch": watch,
-    }
-    movie = Movie(title, link, img, year, rank, mtype=mtype, score=score, **more)
+
+    info_dict = dict(info_result)
+    used_keys = ["导演", "编剧", "主演", "类型", "制片国家/地区", "语言", "上映日期", "片长", "又名", "IMDb",
+                 "官方网站"]
+    director = info_dict["导演"]
+    writers = info_dict.get("编剧")
+    actors = info_dict.get("主演")
+    genre = info_dict.get("类型")
+    region = info_dict.get("制片国家/地区")
+    languages = info_dict.get("语言")
+    release_date = info_dict.get("上映日期")
+    length = info_dict.get("片长")
+    title_alias = info_dict.get("又名")
+    imdb_id = info_dict.get("IMDb")
+    websites = info_dict.get("官方网站")
+    extra = {key: val for key, val in info_dict.items() if key not in used_keys}
+
+    year_part = re.findall(r"\d{4}", year)
+    year = int(year_part[0]) if year_part else 0
+    if resources:
+        resources = dict(re.findall(r"([^\d\s]+)(\d+)", resources))
+    if discussion:
+        discussion_result = re.findall(r"全部\s*\d+\s*条", discussion)
+        if discussion_result:
+            discussion = discussion_result[0]
+
+    douban_url = url
+    douban_cover = cover
+    douban_rank = rank
+    douban_id = movie_id
+    score_count = count
+    score_weights = weight
+    watching = watch
+    douban = DoubanMovie(title,
+                         category,
+                         year,
+                         region,
+                         director,
+                         genre,
+                         douban_url,
+                         douban_cover,
+                         douban_rank,
+                         douban_id,
+                         writers,
+                         actors,
+                         languages,
+                         release_date,
+                         websites,
+                         length,
+                         title_alias,
+                         imdb_id,
+                         score,
+                         score_count,
+                         score_weights,
+                         summary,
+                         resources,
+                         rewards,
+                         comments,
+                         reviews,
+                         discussion,
+                         question,
+                         watching,
+                         **extra)
+    tag = MovieTag.DOUBAN_DETAIL
+    movie = Movie(title, category, year, region, director, genre, tag=tag, douban=douban)
     return movie
-
-
-def _is_movie_list(title):
-    # 仅保留了电影类，去除剧集、综艺和其他
-    return "电影" in title or title.endswith("片") or title.endswith("佳作")
-
-
-def parse_annual_data(page, **kwargs):
-    """豆瓣年度榜单"""
-
-    def _get_id_link(url):
-        url = url.strip()
-        if not url:
-            return " "
-        v = url.strip("/").split("/")[-1]
-        return "[{}]({})".format(v, url)
-
-    annual = kwargs.get("year", 0)
-    if annual <= 2022:
-        items_list, entries_list = parse_annual_data1(page, **kwargs)
-    else:
-        items_list, entries_list = parse_annual_data2(page, **kwargs)
-
-    data = []
-    groups = []
-    for items, entries in zip(items_list, entries_list):
-        if "payload" in items:
-            payload = items["payload"]
-            group = "".join([v.strip() for v in [payload.get("subtitle", ""), payload["title"]]])
-            group = group.replace(" ", "").strip()
-            if not group.startswith("豆瓣"):
-                group = "豆瓣" + group
-        else:
-            group = items["subject_collection"]["title"].strip()
-        groups.append(group)
-        for movie in entries:
-            entry = {
-                "group": group,
-                "rank": movie.rank,
-                "title": movie.title,
-                "id": _get_id_link(movie.link),
-                "score": movie.score.get("douban-score", 0),
-                "staff": movie.more.get("staff"),
-                "region": movie.more.get("region"),
-            }
-            data.append(entry)
-        data.append({})
-    if not data[-1]:
-        data = data[:-1]
-    if len(data) == 0:
-        return items_list, entries_list, None, None
-
-    df = pd.DataFrame(data)
-    df = df.fillna(" ").astype(str)
-    df["rank"] = df["rank"].apply(lambda x: x.split(".0")[0])
-    df["score"] = df["score"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
-    logging.info(df["group"].value_counts())
-    cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
-    df.columns = cols_out
-    return items_list, entries_list, groups, df
-
-
-def parse_annual_data1(page, **kwargs):
-    """豆瓣年度榜单 2015-2022"""
-    widgets = []
-    data = page["res"]
-    for entry in data["widgets"]:
-        if "show_kind" in entry and "widgets" in entry["payload"]:
-            for entry2 in entry["payload"]["widgets"]:
-                if "show_kind" not in entry2:
-                    widgets.append(entry2)
-        else:
-            widgets.append(entry)
-
-    items_list = []
-    for widget in widgets[:]:
-        payload = widget["payload"]
-        if widget.get("subjects") or "items" in payload:
-            t = payload.get("title", "").strip()
-            if _is_movie_list(t):
-                items_list.append(widget)
-            else:
-                print(f"ignore = {t}")
-
-    entries_list = []
-    for widget in items_list[:]:
-        payload = entry["payload"]
-        items = widget.get("subjects", payload.get("items"))
-        assert items is not None
-        if isinstance(items, str):
-            items = json.loads(items)
-
-        entries = []
-        for idx, item in enumerate(items):
-            idx += 1
-            url = item["url"]
-            img = item["cover"]
-            title = item["title"]
-            score, count = item["rating"], item["rating_count"]
-            comment, actions = None, None
-            link = url
-            year = item.get("year", 0)
-            score = {"douban-score": score, "douban-vote": count}
-            more = {
-                "region": item["description"],
-                "staff": item["info"],
-                "orig_title": item["orig_title"],
-                "comment": [comment, actions]
-            }
-            movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
-            entries.append(movie)
-        entries_list.append(entries)
-    return items_list, entries_list
-
-
-def parse_annual_data2(page, **kwargs):
-    """豆瓣年度榜单 2023"""
-    data = page
-    items_list = []
-    for entry in data["widgets"]:
-        sources = entry["source_data"]
-        t = entry["title"].strip()
-        if not (t and sources):
-            continue
-        if not isinstance(sources, list):
-            sources = [sources]
-        for source in sources:
-            if "subject_collection" not in source:
-                continue
-            t = source["subject_collection"]["title"].strip()
-            if not _is_movie_list(t):
-                print(f"ignore: {t}")
-                continue
-            items_list.append(source)
-
-    entries_list = []
-    for widget in items_list:
-        items = widget["subject_collection_items"]
-        entries = []
-        for idx, item in enumerate(items):
-            idx += 1
-            url = item["url"]
-            img = item["cover_url"]
-            title = item["title"]
-            score = item["rating"]["value"]
-            count = item["rating"]["rating_count"]
-            comment, actions = None, None
-            link = url
-            parts = [p.strip() for p in item["card_subtitle"].split("/")]
-            year, region, genre, staff = (
-                parts[0],
-                parts[1],
-                parts[2],
-                " / ".join(parts[3:]),
-            )
-            year = int(year)
-            score = {"douban-score": score, "douban-vote": count}
-            more = {
-                "region": region,
-                "genre": genre,
-                "staff": staff,
-                "comment": [comment, actions]
-            }
-            movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
-            entries.append(movie)
-        entries_list.append(entries)
-    return items_list, entries_list
