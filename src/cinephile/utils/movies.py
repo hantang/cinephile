@@ -58,7 +58,7 @@ class BaseMovie(ABC):
         if category is None:
             category = "movie"
 
-        assert category in ["movie", "tv"]
+        assert category in ["movie", "tv", "other"]
         self._title = title
         self._category = category
         self._year = year
