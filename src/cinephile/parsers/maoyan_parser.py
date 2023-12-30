@@ -28,14 +28,14 @@ def parse_maoyan_json_top(page, **kwargs):
             logging.warning(f"Error year {title}: {year}")
             year = 0
         more = {
-            "maoyan-url": link,
-            "maoyan-cover": img,
-            "maoyan-id": maoyan_id,
-            "maoyan-score": item["sc"],
-            "maoyan-actor": item["star"],
-            "maoyan-date": item["pubDesc"],
-            "maoyan-watch-wish": item["wish"],
-            "maoyan-summary": item["shortDec"],
+            "maoyan_url": link,
+            "maoyan_cover": img,
+            "maoyan_id": maoyan_id,
+            "maoyan_score": item["sc"],
+            "maoyan_actor": item["star"],
+            "maoyan_date": item["pubDesc"],
+            "maoyan_watch_wish": item["wish"],
+            "maoyan_summary": item["shortDec"],
         }
         category = None
         genre = item["cat"]
@@ -131,16 +131,16 @@ def parse_maoyan_detail(page, **kwargs):
     rewards = [strip(li.text) for li in reward2]
 
     more = {
-        # "maoyan-url": link,
-        "maoyan-cover": img,
-        "maoyan-titles": [title2],
-        "maoyan-score": score,
-        "maoyan-score-vote": score_count,
-        "maoyan-staff": staff,
-        "maoyan-info": info1 + attrs,
-        "maoyan-summary": summary,
-        "maoyan-boxoffice": [v for v in [box] + box_info if v],
-        "maoyao-rewards": rewards,
+        # "maoyan_url": link,
+        "maoyan_cover": img,
+        "maoyan_titles": [title2],
+        "maoyan_score": score,
+        "maoyan_vote": score_count,
+        "maoyan_staff": staff,
+        "maoyan_info": info1 + attrs,
+        "maoyan_summary": summary,
+        "maoyan_boxoffice": [v for v in [box] + box_info if v],
+        "maoyao_rewards": rewards,
     }
     category = None
     tag = MovieTag.MAOYAN_DETAIL

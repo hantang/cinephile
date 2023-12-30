@@ -138,7 +138,7 @@ class MaoyanCrawler(BaseCrawler):
             return self.error_file_exist, None
 
         headers = self.get_headers()
-        params = get_maoyan_params(headers["User-agent"])  # signKey等参数
+        params = get_maoyan_params(headers[self.user_agent])  # signKey等参数
         url = self.get_url(key, movie_id=movie_id)
         page = self.get_page(url, headers, round_i=1, round_n=1, params=params)
         if not page:

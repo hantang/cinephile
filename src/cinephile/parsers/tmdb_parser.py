@@ -59,11 +59,11 @@ def parse_tmdb_page_top(page, **kwargs):
             year = 0
         score = div_content.find("div", class_="user_score_chart")["data-percent"]
         more = {
-            "tmdb-url": link,
-            "tmdb-cover": img,
-            "tmdb-id": tmdb_id,
-            "tmdb-score": score,
-            "tmdb-date": date,
+            "tmdb_url": link,
+            "tmdb_cover": img,
+            "tmdb_id": tmdb_id,
+            "tmdb_score": score,
+            "tmdb_date": date,
         }
         if titles:
             more["tmdb-titles"] = [titles[i]]
@@ -113,8 +113,8 @@ def parse_tmdb_page_detail(page, **kwargs):
     header_info = head_part.find(class_="header_info")
     tagline = strip(header_info.h3.text)
     overview = strip(header_info.find(class_="overview").text)
-    info1 = [[strip(li.find("p", class_="character").text), strip(li.p.text)] for li in
-             header_info.find_all("li", class_="profile")]
+    info_profile = header_info.find_all("li", class_="profile")
+    info1 = [[strip(li.find("p", class_="character").text), strip(li.p.text)] for li in info_profile]
 
     left_part = part2.find(class_="white_column")
     right_part = part2.find(class_="grey_column")
@@ -160,21 +160,21 @@ def parse_tmdb_page_detail(page, **kwargs):
             resources.append([strip(key), strip(val)])
 
     extra = {
-        "tmdb-cover": img,
-        "tmdb-url": link,
-        "tmdb-score": score,
-        "tmdb-comment": tagline,
-        "tmdb-summary": overview,
-        "tmdb-titles": alt,
-        "tmdb-release-date": release_date,
-        "tmdb-length": length,
-        "tmdb-rating": rating,
-        "tmdb-website": website,
-        "tmdb-info": info1 + info2,
-        "tmdb-keywords": keywords,
-        "tmdb-actors": actors,
-        "tmdb-reviews": reviews,
-        "tmdb-resources": resources,
+        "tmdb_cover": img,
+        "tmdb_url": link,
+        "tmdb_score": score,
+        "tmdb_comment": tagline,
+        "tmdb_summary": overview,
+        "tmdb_titles": alt,
+        "tmdb_release_date": release_date,
+        "tmdb_length": length,
+        "tmdb_rating": rating,
+        "tmdb_website": website,
+        "tmdb_info": info1 + info2,
+        "tmdb_keywords": keywords,
+        "tmdb_actors": actors,
+        "tmdb_reviews": reviews,
+        "tmdb_resources": resources,
     }
     tag = MovieTag.TMDB_DETAIL
     # category = "tv" if left_part.find("section", class_="panel season") else "movie"

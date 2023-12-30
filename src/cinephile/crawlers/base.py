@@ -62,11 +62,12 @@ class BaseCrawler:
         self.error_parse = -3
         self.error_param = -4
         self.error_other = -10
+        self.user_agent = "User-Agent"
         logging.info(f"now = {self.dt}")
 
     def get_headers(self, agent="random"):
         val = get_ua(agent)
-        headers = {"User-agent": val}
+        headers = {self.user_agent: val}
         return headers
 
     def get_url(self, key, is_source=False, **kwargs):

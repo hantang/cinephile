@@ -115,10 +115,10 @@ def parse_annual_data0(page, **kwargs):
                 s.span.decompose()
             title = s.text.strip()
             extra = {
-                "douban-url": link,
-                "douban-cover": img,
-                "douban-score": score,
-                "dounan-info": plist,
+                "douban_url": link,
+                "douban_cover": img,
+                "douban_score": score,
+                "dounan_info": plist,
             }
             category = "movie"
             region = None
@@ -131,9 +131,9 @@ def parse_annual_data0(page, **kwargs):
                           **extra)
             entries.append(movie)
         items_new = {
-            "douban-tips": tips,
-            "douban-comment": comment,
-            "douban-group": group,
+            "douban_tips": tips,
+            "douban_comment": comment,
+            "douban_group": group,
         }
         items_list.append(items_new)
         entries_list.append(entries)
@@ -179,12 +179,12 @@ def parse_annual_data1(page, **kwargs):
             title = item["title"]
             score, count = item["rating"], item["rating_count"]
             extra = {
-                "douban-url": link,
-                "douban-cover": img,
-                "douban-score": score,
-                "douban-vote": count,
-                "douban-staff": item["info"],
-                "douban-title-orig": item["orig_title"],
+                "douban_url": link,
+                "douban_cover": img,
+                "douban_score": score,
+                "douban_vote": count,
+                "douban_staff": item["info"],
+                "douban_title_orig": item["orig_title"],
             }
             category = "movie"
             region = item["description"]
@@ -241,12 +241,12 @@ def parse_annual_data2(page, **kwargs):
             )
             year = int(year)
             extra = {
-                "douban-url": link,
-                "douban-cover": img,
-                "douban-score": score,
-                "douban-vote": count,
-                "douban-region": region,
-                "douban-staff": staff,
+                "douban_url": link,
+                "douban_cover": img,
+                "douban_score": score,
+                "douban_vote": count,
+                "douban_region": region,
+                "douban_staff": staff,
             }
             douban_id = link.strip("/").split("subject/")[-1] if link else None
             category = "movie"

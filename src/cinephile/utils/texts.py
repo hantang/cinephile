@@ -19,6 +19,14 @@ def strip(s, keep=False, slash=False):
     return s
 
 
+def strip_field(text):
+    if text:
+        if isinstance(text, list):
+            return " / ".join([str(v).strip() for v in text])
+        return text.strip()
+    return None
+
+
 def extract_year(text):
     # movie year from 1895 to present (20xx)
     if not text: return 0
