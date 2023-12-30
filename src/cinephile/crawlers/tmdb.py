@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.utils import datetimes
-from cinephile.utils.movies import MovieCluster, Movie
+from cinephile.utils.movies import MovieCluster, Movie, MovieTag
 from cinephile.utils.texts import strip
 
 
@@ -81,8 +81,8 @@ class TmdbCrawler(BaseCrawler):
     def process(self, key=None, savedir=None, **kwargs):
         if key == self.urls.key_top250:
             self.process_top250(savedir)
-        if key == self.urls.key_detail:
-            self.process_detail(kwargs["movie_id"], savedir)
+        # if key == self.urls.key_detail:
+        #     self.process_detail(kwargs["movie_id"], savedir)
 
     def process_top250(self, savedir=None):
         key = self.urls.key_top250
@@ -132,8 +132,9 @@ class TmdbCrawler(BaseCrawler):
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
+    @NotImplementedError
     def process_detail(self, movie_id, savedir=None):
-        key = self.urls.key_detail
+        key = self.urls.key_detail # TODO
 
 
 def parse_tmdb_page_top_lang(page, **kwargs):
@@ -169,6 +170,7 @@ def parse_tmdb_page_top(page, **kwargs):
     next_url = div_page.find("p", class_="load_more").a["href"]
 
     entries = []
+    tag = MovieTag.TMDB_TOP
     for i, item in enumerate(items):
         rank = start + i + 1
         div_image = item.find("div", class_="image")
@@ -187,25 +189,18 @@ def parse_tmdb_page_top(page, **kwargs):
             logging.warning(f"Error year {title}, {year}")
             year = 0
         score = div_content.find("div", class_="user_score_chart")["data-percent"]
-        score = {
-            "tmdb-score": score,
-        }
         more = {
-            "tmdb_id": tmdb_id,
-            "date": date,
+            "tmdb-url": link,
+            "tmdb-cover": img,
+            "tmdb-id": tmdb_id,
+            "tmdb-score": score,
+            "tmdb-date": date,
         }
         if titles:
-            more["title-more"] = titles[i]
-        movie = Movie(
-            title,
-            link,
-            img,
-            year,
-            rank=rank,
-            mtype=None,
-            score=score,
-            **more,
-        )
+            more["tmdb-titles"] = [titles[i]]
+        category = None
+        region, director, genre = None, None, None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, **more)
         entries.append(movie)
 
     return entries, next_url
