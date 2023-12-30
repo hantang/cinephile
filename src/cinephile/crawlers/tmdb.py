@@ -24,7 +24,7 @@ class TmdbUrl(CrawlerUrl):
             page = kwargs.get("page")
             lang = kwargs.get("lang")
             if page:
-                params = config["params-lang"] if lang else config["params"]
+                params = config["params_lang"] if lang else config["params"]
                 params = params.format(page)
                 return f"{url}?{params}"
             return url
@@ -45,7 +45,7 @@ class TmdbUrl(CrawlerUrl):
                 "desc": self.description,
                 "url": "https://www.themoviedb.org/movie/top-rated",
                 "params": "page={}",
-                "params-lang": "page={}&language=zh-CN",
+                "params_lang": "page={}&language=zh-CN",
                 "total": 250,
                 "page_step": 20,
             },

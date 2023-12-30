@@ -92,13 +92,13 @@ def parse_page_top250(page, **kwargs):
         quote = bd.find(class_="quote")
         quote = quote.text.strip() if quote else ""
         extra = {
-            "douban-url": link,
-            "douban-cover": img,
-            "douban-score": star_score,
-            "douban-vote": star_count,
-            "douban-titles": titles,
-            "douban-info": [strip(v) for v in info],
-            "douban-quote": quote,
+            "douban_url": link,
+            "douban_cover": img,
+            "douban_score": star_score,
+            "douban_vote": star_count,
+            "douban_titles": titles,
+            "douban_info": [strip(v) for v in info],
+            "douban_quote": quote,
         }
         info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ":" in v])
         director = info_part1.get("导演")
@@ -137,17 +137,17 @@ def parse_page_hot(page, **kwargs):
         comments = item.get("comments", [])
         comments = [(v["comment"], v["rating"]["star_count"]) for v in comments]
         extra = {
-            "douban-url": link,
-            "douban-cover": img,
-            "douban-type": mtype,
-            "douban-score": item["rating"]["value"],
-            "douban-vote": item["rating"]["count"],
-            # "douban-titles": titles,
-            "douban-info": [item["card_subtitle"], item.get("info", "")],  # info - 实时
-            "douban-reward": [v["title"] for v in item["honor_infos"]],
-            "douban-comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
-            "douban-tag": [v["name"] for v in item.get("tags", [])],  # 热门
-            "douban-summary": item.get("description"),  # 热门
+            "douban_url": link,
+            "douban_cover": img,
+            "douban_type": mtype,
+            "douban_score": item["rating"]["value"],
+            "douban_vote": item["rating"]["count"],
+            # "douban_titles": titles,
+            "douban_info": [item["card_subtitle"], item.get("info", "")],  # info 实时
+            "douban_reward": [v["title"] for v in item["honor_infos"]],
+            "douban_comment": [f"{v1} (star={v2})" for v1, v2 in comments],  # 实时
+            "douban_tag": [v["name"] for v in item.get("tags", [])],  # 热门
+            "douban_summary": item.get("description"),  # 热门
         }
 
         if mtype in ["movie", "电影", ""]:
@@ -238,13 +238,13 @@ def parse_page_list(page, **kwargs):
             if actions:
                 actions = strip(actions.text)
         extra = {
-            "douban-url": link,
-            "douban-cover": img,
-            "douban-score": score,
-            "douban-vote": count,
-            # "douban-titles": titles,
-            "douban-info": abstract,
-            "douban-comment": [comment, actions]
+            "douban_url": link,
+            "douban_cover": img,
+            "douban_score": score,
+            "douban_vote": count,
+            # "douban_titles": titles,
+            "douban_info": abstract,
+            "douban_comment": [comment, actions]
         }
 
         category = None  # todo

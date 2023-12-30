@@ -68,16 +68,16 @@ def parse_imdb_page_top_v4(page, **kwargs):
         count = str(node["ratingsSummary"]["voteCount"])
         outline = node["plot"]["plotText"]["plainText"]
         extra = {
-            "imdb-link": link,
-            "imdb-cover": img,
-            "imdb-score": score,
-            "imdb-vote": count,
-            "imdb-id": movie_id,
-            "imdb-image-id": img_id,
-            "imdb-video-id": video_id,
-            "imdb-rating": rating,
-            "imdb-length": runtime,
-            "imdb-summary": outline,
+            "imdb_link": link,
+            "imdb_cover": img,
+            "imdb_score": score,
+            "imdb_vote": count,
+            "imdb_id": movie_id,
+            "imdb_image_id": img_id,
+            "imdb_video_id": video_id,
+            "imdb_rating": rating,
+            "imdb_length": runtime,
+            "imdb_summary": outline,
         }
         category = None
         region, director = None, None
@@ -131,12 +131,12 @@ def parse_imdb_page_list(page, **kwargs):
         info1 = [strip(v.text) for v in con_part.find_all("p", recursive=False)]
         info2 = [strip(v.text) for v in desc_part.find_all("p", recursive=False)]  # todo split by <br/>
         extra = {
-            "imdb-url": link,
-            "imdb-cover": img,
-            "imdb-score": score,
+            "imdb_url": link,
+            "imdb_cover": img,
+            "imdb_score": score,
             "metascore": metascore,
-            "imdb-titles": [title2],
-            "imdb-info": info1 + info2
+            "imdb_titles": [title2],
+            "imdb_info": info1 + info2
         }
         category = None
         region = None

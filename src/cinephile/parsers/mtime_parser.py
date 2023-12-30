@@ -68,15 +68,15 @@ def parse_mtime_json_top(page: dict, **kwargs) -> Optional[List[Movie]]:
             year = 0
         title = info["movieName"]
         more = {
-            "mtime-url": f"http://movie.mtime.com/{mtime_id}",
-            "mtime-cover": info["img"],
-            "mtime-id": info["movieId"],
-            "mtime-score": info["score"],
-            "mtime-title": [info["movieName"], info["movieNameEn"], item["title"]],
-            "mtime-actor": info["actors"],
-            "mtime-date": info["releaseDate"],
-            "mtime-summary": item["description"],
-            "mtime-award": info["award"],
+            "mtime_url": f"http://movie.mtime.com/{mtime_id}",
+            "mtime_cover": info["img"],
+            "mtime_id": info["movieId"],
+            "mtime_score": info["score"],
+            "mtime_title": [info["movieName"], info["movieNameEn"], item["title"]],
+            "mtime_actor": info["actors"],
+            "mtime_date": info["releaseDate"],
+            "mtime_summary": item["description"],
+            "mtime_award": info["award"],
         }
         director = info["director"]
         region = info["releaseLocation"]
@@ -100,19 +100,19 @@ def parse_mtime_json_detail(page: dict, **kwargs) -> Movie:
         genre = [v["name"] for v in item["movieGenres"]]
     date = item["releaseDateNew"] if item["releaseDateNew"] else item["releaseDate"]
     more = {
-        "mtime-url": item["url"],
-        "mtime-cover": item["img"],
-        "mtime-id": item["movieId"],
-        "mtime-score": item["overallRating"],
-        "mtime-subsore": item["movieSubItemRatings"],
-        "mtime-weight": item["ratingCountRatios"],
-        "mtimes-titles": [item["name"], item["nameEn"]] + item["otherTitles"],
-        "mtime-writer": [v["name"] for v in item["writers"]],
-        "mtime-actor": [v["name"] for v in item["actors"]],
-        "mtime-date": date,
-        "mtime-summary": item["story"],
-        "mtime-award": item["award"]["awardList"],
-        "mtime-length": item["mins"],
+        "mtime_url": item["url"],
+        "mtime_cover": item["img"],
+        "mtime_id": item["movieId"],
+        "mtime_score": item["overallRating"],
+        "mtime_subsore": item["movieSubItemRatings"],
+        "mtime_weight": item["ratingCountRatios"],
+        "mtimes_titles": [item["name"], item["nameEn"]] + item["otherTitles"],
+        "mtime_writer": [v["name"] for v in item["writers"]],
+        "mtime_actor": [v["name"] for v in item["actors"]],
+        "mtime_date": date,
+        "mtime_summary": item["story"],
+        "mtime_award": item["award"]["awardList"],
+        "mtime_length": item["mins"],
     }
     director = [v["name"] for v in item["directors"]]
     region = item["releaseArea"]

@@ -55,8 +55,8 @@ def parse_imdb_hist_page_date(page, **kwargs):
         extra_out = re.findall(r"position: (\d){1,3} \((\d\.?\d?) with (\d[\d,]+) votes\)", a.img["title"])
         imdb_id = link.rstrip("/").split("/")[-1]
         more = {
-            "imdb-score": score,
-            "imdb-vote": count,
+            "imdb_score": score,
+            "imdb_vote": count,
         }
         if extra_out:
             more["imdb-rank-new"] = extra_out[0][0]

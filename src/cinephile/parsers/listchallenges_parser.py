@@ -58,14 +58,14 @@ def parse_listchallenges_page_list(page, **kwargs):
         rt = item.find(class_='rt-score')
         if rt.a:
             link = rt.a['href']
-            rt_score = rt.text.strip().split()[-1]  # rotten tomatoes
+            rt_score = rt.text.strip().split()[-1]  # rt: rotten tomatoes
         else:
             link, rt_score = None, None
         more = {
-            "rottentomatoes-url": link,
-            "rottentomatoes-cover": img,
-            "rottentomatoes-score": rt_score,
-            "listchallenges-titles": [name_alt]
+            "listchallenges_rt_url": link,
+            "listchallenges_rt_cover": img,
+            "listchallenges_rt_score": rt_score,
+            "listchallenges_titles": [name_alt]
         }
         category = None
         region, director, genre = None, None, None

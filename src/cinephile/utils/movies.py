@@ -9,6 +9,7 @@ import pandas as pd
 from pendulum import DateTime
 
 from cinephile.utils.datetimes import time2str
+from cinephile.utils.texts import strip_field
 
 
 class MovieTag(Enum):
@@ -34,14 +35,6 @@ class MovieTag(Enum):
     LC_LIST = "listchallenges(rottentomatoes)"
 
 
-def _format_field(text):
-    if text:
-        if isinstance(text, list):
-            return " / ".join([str(v).strip() for v in text])
-        return text.strip()
-    return None
-
-
 class BaseMovie(ABC):
     keys_base = ["title",
                  "category",
@@ -60,15 +53,15 @@ class BaseMovie(ABC):
                  genre: Optional[str] = None,
                  **kwargs
                  ):
-        title = _format_field(title)
-        region = _format_field(region)
-        director = _format_field(director)
-        genre = _format_field(genre)
+        title = strip_field(title)
+        region = strip_field(region)
+        director = strip_field(director)
+        genre = strip_field(genre)
 
         if category is None:
             category = "movie"
-
         assert category in ["movie", "tv", "other"]
+
         self._title = title
         self._category = category
         self._year = year
