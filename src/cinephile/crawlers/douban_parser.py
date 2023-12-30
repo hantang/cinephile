@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 from cinephile.utils.movies import Movie, DoubanMovie, MovieTag
-from cinephile.utils.texts import strip
+from cinephile.utils.texts import strip, extract_year
 
 
 def extract_page_info(page, desc=None):
@@ -105,8 +105,7 @@ def parse_page_top250(page, **kwargs):
         info_part2 = [v.strip() for v in info[1].split("\xa0/\xa0")]
         assert len(info_part2) == 3
         year_raw, region, genre = info_part2
-        years = re.findall(r"\d{4}", year_raw)
-        year = int(years[0]) if years else 0
+        year = extract_year(year_raw)
         category = None
         douban_id = link.strip("/").split("subject/")[-1] if link else None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
@@ -165,7 +164,7 @@ def parse_page_hot(page, **kwargs):
             year, region, genre, director = card_parts[:4]  # actors
             if "year" in item:
                 year = item["year"]
-            year = int(year.strip()[:4])
+            year = extract_year(str(year))
         else:
             year, region, director, genre = 0, None, None, None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
@@ -253,8 +252,7 @@ def parse_page_list(page, **kwargs):
         director = info_dict.get("导演")
         genre = info_dict.get("类型")
         region = info_dict.get("制片国家/地区")
-        year = info_dict.get("年份")
-        year = int(year.strip()) if year and year.strip().isdigit() else 0
+        year = extract_year(info_dict.get("年份"))
         douban_id = link.strip("/").split("subject/")[-1] if link else None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=idx, douban_id=douban_id, **extra)
         entries.append(movie)
@@ -313,7 +311,7 @@ def parse_page_detail(page, **kwargs):
     rank = content.find(class_="top250-no")
     rank = strip(rank.text) if rank else ""
     h1 = content.h1 if content.h1 else wrapper.h1
-    title, year = [strip(v.text) for v in h1.select("span")]
+    title, year_raw = [strip(v.text) for v in h1.select("span")]
 
     article = content.find(class_="article")
     if ("在看" in strip(article.find(id="interest_sect_level").text)) or \
@@ -446,9 +444,7 @@ def parse_page_detail(page, **kwargs):
     imdb_id = info_dict.get("IMDb")
     websites = info_dict.get("官方网站")
     extra = {key: val for key, val in info_dict.items() if key not in used_keys}
-
-    year_part = re.findall(r"\d{4}", year)
-    year = int(year_part[0]) if year_part else 0
+    year = extract_year(year_raw)
     if resources:
         resources = dict(re.findall(r"([^\d\s]+)(\d+)", resources))
     if discussion:
