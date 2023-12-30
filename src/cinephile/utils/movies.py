@@ -29,7 +29,7 @@ class MovieTag(Enum):
     MTIE_DETAIL = "mtime-detail"
     MAOYAN_TOP = "maoyan-top"
     TMDB_TOP = "tmdb-top"
-    LC_LIST = "listchallenges"
+    LC_LIST = "listchallenges(rottentomatoes)"
 
 
 def _format_field(text):
