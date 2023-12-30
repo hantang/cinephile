@@ -1,7 +1,7 @@
 import logging
 from typing import List, Optional
 
-from cinephile.utils.movies import Movie
+from cinephile.utils.movies import Movie, MovieTag
 
 mtime_id_year_map = {
     "68615": "1978",
@@ -55,42 +55,34 @@ def parse_mtime_json_top(page: dict, **kwargs) -> Optional[List[Movie]]:
     draft = tops[order]
     items = draft["items"]
     movies = []
+    tag = MovieTag.MTIME_TOP
     for item in items:
         info = item["movieInfo"]
-        rank = item["rank"]
-        # title = item["title"]
-        link = "http://movie.mtime.com/{}".format(info["movieId"])
-        img = info["img"]
         mtime_id = str(info["movieId"])
+        rank = item["rank"]
         if info["releaseDate"]:
             year = int(info["releaseDate"][:4])
         elif mtime_id in mtime_id_year_map:
             year = int(mtime_id_year_map[mtime_id])
-            # title = title.replace("(0)", f"({year})")
         else:
             year = 0
         title = info["movieName"]
-        score = {"mtime-score": info["score"]}
         more = {
-            "mtime_id": info["movieId"],
-            "title-more": [info["movieName"], info["movieNameEn"], item["title"]],
-            "director": info["director"],
-            "actor": info["actors"],
-            "date": info["releaseDate"],
-            "region": info["releaseLocation"],
-            "summary": item["description"],
-            "award": info["award"],
+            "mtime-url": f"http://movie.mtime.com/{mtime_id}",
+            "mtime-cover": info["img"],
+            "mtime-id": info["movieId"],
+            "mtime-score": info["score"],
+            "mtime-title": [info["movieName"], info["movieNameEn"], item["title"]],
+            "mtime-actor": info["actors"],
+            "mtime-date": info["releaseDate"],
+            "mtime-summary": item["description"],
+            "mtime-award": info["award"],
         }
-        movie = Movie(
-            title,
-            link,
-            img,
-            year,
-            rank,
-            mtype=None,
-            score=score,
-            **more,
-        )
+        director = info["director"]
+        region = info["releaseLocation"]
+        category = None
+        genre = None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, **more)
         movies.append(movie)
     return movies
 
@@ -102,39 +94,29 @@ def parse_mtime_json_detail(page: dict, **kwargs) -> Movie:
     """
     item = page["data"]["basic"]
     title = item["name"]
-    link = item["url"]
-    img = item["img"]
     year = int(item["year"])
-    score = {
-        "mtime-score": item["overallRating"],
-        "mtime-subsore": item["movieSubItemRatings"],
-        "mtime-weight": item["ratingCountRatios"],
-    }
     genre = item["type"]
     if not genre:
         genre = [v["name"] for v in item["movieGenres"]]
     date = item["releaseDateNew"] if item["releaseDateNew"] else item["releaseDate"]
     more = {
-        "mtime_id": item["movieId"],
-        "title-more": [item["name"], item["nameEn"]] + item["otherTitles"],
-        "director": [v["name"] for v in item["directors"]],
-        "writer": [v["name"] for v in item["writers"]],
-        "actor": [v["name"] for v in item["actors"]],
-        "date": date,
-        "genre": genre,
-        "region": item["releaseArea"],
-        "summary": item["story"],
-        "award": item["award"]["awardList"],
-        "length": item["mins"],
+        "mtime-url": item["url"],
+        "mtime-cover": item["img"],
+        "mtime-id": item["movieId"],
+        "mtime-score": item["overallRating"],
+        "mtime-subsore": item["movieSubItemRatings"],
+        "mtime-weight": item["ratingCountRatios"],
+        "mtimes-titles": [item["name"], item["nameEn"]] + item["otherTitles"],
+        "mtime-writer": [v["name"] for v in item["writers"]],
+        "mtime-actor": [v["name"] for v in item["actors"]],
+        "mtime-date": date,
+        "mtime-summary": item["story"],
+        "mtime-award": item["award"]["awardList"],
+        "mtime-length": item["mins"],
     }
-    movie = Movie(
-        title,
-        link,
-        img,
-        year,
-        rank=None,
-        mtype=None,
-        score=score,
-        **more,
-    )
+    director = [v["name"] for v in item["directors"]]
+    region = item["releaseArea"]
+    category = None
+    tag = MovieTag.MTIE_DETAIL
+    movie = Movie(title, category, year, region, director, genre, tag=tag, **more)
     return movie

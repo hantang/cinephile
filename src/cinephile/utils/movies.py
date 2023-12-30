@@ -26,6 +26,7 @@ class MovieTag(Enum):
     IMDB_TOP250_HIST = "imdb-top250-hist"
 
     MTIME_TOP = "mtime-top"
+    MTIE_DETAIL = "mtime-detail"
     MAOYAN_TOP = "maoyan-top"
     TMDB_TOP = "tmdb-top"
     LC_LIST = "listchallenges"
@@ -415,7 +416,7 @@ class Movie(BaseMovie):
             category: Optional[str] = None,
             year: Optional[int] = 0,
             region: Optional[str] = None,
-            director: Optional[str] = None,
+            director: Optional[str | List] = None,
             genre: Optional[str] = None,
             tag: Optional[MovieTag] = None,
             rank: Optional[int] = 0,
