@@ -3,8 +3,8 @@ import re
 
 from bs4 import BeautifulSoup
 
-from cinephile.utils.movies import Movie
-from cinephile.utils.texts import strip
+from cinephile.utils.movies import Movie, MovieTag
+from cinephile.utils.texts import strip, extract_year
 
 
 def parse_imdb_hist_page_month(page, **kwargs):
@@ -41,40 +41,30 @@ def parse_imdb_hist_page_date(page, **kwargs):
     logging.info(f"items = {len(items)} / {len(raw_items)}")
 
     entries = []
+    tag = MovieTag.IMDB_TOP250_HIST
     for item in items:
         td_list = item.find_all("td")
         rank = td_list[0].text.strip().rstrip(".")
         title = td_list[3].span.a.text.strip()
-        year = int(td_list[3].span.span.text.strip("()"))
+        year = extract_year(td_list[3].span.span.text)
         score = td_list[2].text.strip()
         count = td_list[4].text.strip().replace(",", "")
 
         a = td_list[5].find_all("a")[-1]
         link = a["href"]
-        extra = a.img["title"]
-        extra_out = re.findall(r"position: (\d){1,3} \((\d\.?\d?) with (\d[\d,]+) votes\)", extra)
-        img = None
-        score = {
+        extra_out = re.findall(r"position: (\d){1,3} \((\d\.?\d?) with (\d[\d,]+) votes\)", a.img["title"])
+        imdb_id = link.rstrip("/").split("/")[-1]
+        more = {
             "imdb-score": score,
             "imdb-vote": count,
         }
-        more = {
-            "imdb_id": link.rstrip("/").split("/")[-1],
-        }
         if extra_out:
-            more["new-imbd-rank"] = extra_out[0][0]
-            more["new-imbd-score"] = extra_out[0][1]
-            more["new-imbd-vote"] = extra_out[0][2].replace(",", "")
-        movie = Movie(
-            title,
-            link,
-            img,
-            year,
-            rank=rank,
-            mtype=None,
-            score=score,
-            **more,
-        )
+            more["imdb-rank-new"] = extra_out[0][0]
+            more["imdb-score-new"] = extra_out[0][1]
+            more["imdb-vote-new"] = extra_out[0][2].replace(",", "")
+        category = None
+        region, director, genre = None, None, None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, imdb_id=imdb_id, **more)
         entries.append(movie)
     return desc, entries
 
@@ -99,8 +89,9 @@ def extract_listchallenges_page_info(page, desc=None):
     total_num = int(info[2].split("of")[-1].split("(")[0])
     return more_hrefs, total_num, list_desc
 
+
 def parse_listchallenges_page_list(page, **kwargs):
-    # IMDb电影单解析
+    # list challenges电影单解析
     base_url = kwargs["base_url"].rstrip("/")
     total = kwargs.get('total', 40)
     soup = BeautifulSoup(page, "html5lib")
@@ -112,12 +103,14 @@ def parse_listchallenges_page_list(page, **kwargs):
     items = div_list.find_all('div', class_='list-item', recursive=False)
     logging.debug(f"items = {len(items)} / {total}")
     entries = []
+    tag = MovieTag.LC_LIST
     for item in items:
         rank = item.find(class_='item-rank').text.strip()
         name_alt = item.img['alt']
         img = "{}/{}".format(base_url, item.img['src'].lstrip("/"))
         item_name = item.find(class_='item-name').text.strip()
         item_name_out = re.findall(r'(.+) \(([12]\d{3})\)', item_name)
+        title, year = None, 0
         if item_name_out:
             title, year = item_name_out[0]
             if '(' in title:
@@ -130,12 +123,15 @@ def parse_listchallenges_page_list(page, **kwargs):
             rt_score = rt.text.strip().split()[-1]  # rotten tomatoes
         else:
             link, rt_score = None, None
-        score = {
-            "rt-score": rt_score,
-        }
         more = {
-            "title-more": [name_alt]
+            "listchallenges-url": link,
+            "listchallenges-cover": img,
+            "listchallenges-rt-score": rt_score,
+            "listchallenges-titles": [name_alt]
         }
-        movie = Movie(title, link, img, year, rank=rank, mtype=None, score=score, **more)
+        imdb_id = link.strip("/").split("/")[-1]
+        category = None
+        region, director, genre = None, None, None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, imdb_id=imdb_id, **more)
         entries.append(movie)
     return entries

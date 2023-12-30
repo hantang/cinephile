@@ -23,10 +23,12 @@ class MovieTag(Enum):
     IMDB_TOP250 = "imdb-top250"
     IMDB_LIST = "imdb-list"
     IMDB_DETAIL = "imdb-detail"
+    IMDB_TOP250_HIST = "imdb-top250-hist"
 
     MTIME_TOP = "mtime-top"
     MAOYAN_TOP = "maoyan-top"
     TMDB_TOP = "tmdb-top"
+    LC_LIST = "listchallenges"
 
 
 def _format_field(text):
