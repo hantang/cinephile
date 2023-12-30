@@ -1,8 +1,6 @@
 import logging
 from pathlib import Path
 
-import pendulum
-
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
 from cinephile.parsers.maoyan_parser import parse_maoyan_json_top
 from cinephile.utils import datetimes
@@ -105,9 +103,8 @@ class MaoyanCrawler(BaseCrawler):
             return self.error_parse, savefile
 
         logging.info(f"save to data, top movies = {len(movies)}")
-        # desc = ", ".join([page["data"]["title"], page["data"]["content"]])
         desc = self.description
-        release = pendulum.from_timestamp(int(page["data"]["created"]) / 1000, tz="Asia/Shanghai")
+        release = datetimes.timestamp2str(int(page["data"]["created"]), fmt=0)
         source = self.get_url(key, is_source=True)
         movie_cluster = MovieCluster(release, dt, desc, source, movies=movies, draft=draft)
         self.save(savefile, movie_cluster)
