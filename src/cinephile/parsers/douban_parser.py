@@ -97,7 +97,7 @@ def parse_page_top250(page, **kwargs):
             "douban-score": star_score,
             "douban-vote": star_count,
             "douban-titles": titles,
-            "douban-info": info,
+            "douban-info": [strip(v) for v in info],
             "douban-quote": quote,
         }
         info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ":" in v])
