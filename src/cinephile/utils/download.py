@@ -80,13 +80,15 @@ def download_page(url, headers, params, page_format="text", **kwargs):
     info = f"url = {url}" + (f", params = {params}" if params else "")
     logging.info(f"==> round {round_i}/{round_n}, page_format = {page_format}, {info}")
     try:
-        res = requests.get(url, headers=headers)
+        res = requests.get(url, headers=headers, params=params)
         # res = requests.post(url, headers=headers)
     except (requests.RequestException, Exception):
         logging.error(f"{tag}\n!! Failed url = {url}\n{tag}")
         traceback.print_exc()
         # exit(-1)
         return out, status
+    if url != res.url:
+        logging.info(f"redirect url: {url} -> {res.url}")
 
     if res.status_code == http_status_ok:
         out = res.json() if page_format == "json" else res.text
