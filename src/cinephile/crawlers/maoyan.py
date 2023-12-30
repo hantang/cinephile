@@ -4,8 +4,9 @@ from pathlib import Path
 import pendulum
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
+from cinephile.parsers.maoyan_parser import parse_maoyan_json_top
 from cinephile.utils import datetimes
-from cinephile.utils.movies import MovieCluster, Movie, MovieTag
+from cinephile.utils.movies import MovieCluster
 
 
 class MaoyanUrl(CrawlerUrl):
@@ -114,38 +115,3 @@ class MaoyanCrawler(BaseCrawler):
 
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
-
-
-def parse_maoyan_json_top(page, **kwargs):
-    base_url = kwargs["base_url"].rstrip("/")
-    items = page["data"]["movies"]
-    entries = []
-    tag = MovieTag.MAOYAN_TOP
-    for item in items:
-        title = item["nm"]
-        rank = item["rank"]
-        img = item["img"]
-        maoyan_id = item["id"]
-        link = f"{base_url}/films/{maoyan_id}"
-        year = item["pubDesc"][:4]
-        if year.isdigit():
-            year = int(year)
-        else:
-            logging.warning(f"Error year {title}: {year}")
-            year = 0
-        more = {
-            "maoyan-url": link,
-            "maoyan-cover": img,
-            "maoyan-id": maoyan_id,
-            "maoyan-score": item["sc"],
-            "maoyan-actor": item["star"],
-            "maoyan-date": item["pubDesc"],
-            "maoyan-watch-wish": item["wish"],
-            "maoyan-summary": item["shortDec"],
-        }
-        category = None
-        genre = item["cat"]
-        region, director = None, None
-        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, **more)
-        entries.append(movie)
-    return items, entries

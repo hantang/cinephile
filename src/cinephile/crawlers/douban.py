@@ -5,10 +5,10 @@ from pathlib import Path
 from typing import List, Union
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
-from cinephile.crawlers.douban_parser import extract_page_info
-from cinephile.crawlers.douban_parser import parse_page_detail, parse_page_hot
-from cinephile.crawlers.douban_parser import parse_page_top250, parse_page_list
-from cinephile.crawlers.douban_parser2 import parse_annual_data
+from cinephile.parsers.douban_parser import extract_page_info
+from cinephile.parsers.douban_parser import parse_page_detail, parse_page_hot
+from cinephile.parsers.douban_parser import parse_page_top250, parse_page_list
+from cinephile.parsers.douban_parser2 import parse_annual_data
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
 
