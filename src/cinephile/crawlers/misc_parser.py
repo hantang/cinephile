@@ -124,14 +124,13 @@ def parse_listchallenges_page_list(page, **kwargs):
         else:
             link, rt_score = None, None
         more = {
-            "listchallenges-url": link,
-            "listchallenges-cover": img,
-            "listchallenges-rt-score": rt_score,
+            "rottentomatoes-url": link,
+            "rottentomatoes-cover": img,
+            "rottentomatoes-score": rt_score,
             "listchallenges-titles": [name_alt]
         }
-        imdb_id = link.strip("/").split("/")[-1]
         category = None
         region, director, genre = None, None, None
-        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, imdb_id=imdb_id, **more)
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, **more)
         entries.append(movie)
     return entries
