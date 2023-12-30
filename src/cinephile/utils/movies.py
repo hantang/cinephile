@@ -36,13 +36,16 @@ class MovieTag(Enum):
 
 
 class BaseMovie(ABC):
-    keys_base = ["title",
-                 "category",
-                 "year",
-                 "region",
-                 "director",
-                 "genre", ]
+    keys_base = [
+        "title",
+        "category",
+        "year",
+        "region",
+        "director",
+        "genre",
+    ]
     keys_extra = "extra"
+    valid_tags = [mt.value for mt in list(MovieTag)]
 
     def __init__(self,
                  title: Optional[str],
@@ -262,27 +265,29 @@ class DoubanMovie(BaseMovie):
 
 
 class ImdbMovie(BaseMovie):
-    keys_imdb = ["imdb_url",
-                 "imdb_cover",
-                 "imdb_rank",
-                 "imdb_id",
-                 "writers",
-                 "actors",
-                 "languages",
-                 "release_date",
-                 "websites",
-                 "length",
-                 "title_alias",
-                 "title_orig",
-                 "score",
-                 "score_count",
-                 "metascore",
-                 "rating",
-                 "summary",
-                 "resources",
-                 "rewards",
-                 "reviews",
-                 "question", ]
+    keys_imdb = [
+        "imdb_url",
+        "imdb_cover",
+        "imdb_rank",
+        "imdb_id",
+        "writers",
+        "actors",
+        "languages",
+        "release_date",
+        "websites",
+        "length",
+        "title_alias",
+        "title_orig",
+        "score",
+        "score_count",
+        "metascore",
+        "rating",
+        "summary",
+        "resources",
+        "rewards",
+        "reviews",
+        "question",
+    ]
 
     def __init__(self,
                  title,
@@ -465,17 +470,26 @@ class Movie(BaseMovie):
 
     @classmethod
     def from_json(cls, json_data):
-        title = json_data["title"]
+        all_keys = cls.keys_base + [cls.keys_extra] + cls.keys_more + cls.keys_deprecate
+        tmp_extra = {}
+        for tmp_key in ["extra", "more", "movieInfo"]:
+            if tmp_key not in json_data: continue
+            for k, v in json_data[tmp_key].items():
+                k = k.replace("-", "_").lower()
+                tmp_extra[k] = v
+
+        title = json_data.get("title", json_data.get("nm"))
+        assert title is not None
         category = json_data.get("category", json_data.get("type"))
-        year = json_data["year"]
-        region = json_data.get("region")
-        director = json_data.get("director")
-        genre = json_data.get("genre")
+        year = json_data.get("year", tmp_extra.get("year", 0))
+        region = json_data.get("region", tmp_extra.get("region"))
+        director = json_data.get("director", tmp_extra.get("director"))
+        genre = json_data.get("genre", tmp_extra.get("genre"))
+        rank = json_data.get("rank")
 
         douban, imdb = None, None
         douban_id = json_data.get("douban_id")
         imdb_id = json_data.get("imdb_id")
-
         if "douban" in json_data and json_data["douban"]:
             douban = DoubanMovie.from_json(json_data["douban"])
             douban_id = douban.douban_id
@@ -483,23 +497,29 @@ class Movie(BaseMovie):
             imdb = ImdbMovie.from_json(json_data["imdb"])
             imdb_id = imdb.imdb_id
 
-        tag = MovieTag(json_data["tag"]) if "tag" in json_data else MovieTag.UNK
-        rank = json_data.get("rank")
-
-        url = json_data.get("url", json_data.get("link"))
-        cover = json_data.get("cover", json_data.get("img"))
-        more = json_data["extra"]
-        if url:
-            more["url"] = more["url"]
-        if cover:
-            more["cover"] = cover["cover"]
-        all_keys = cls.keys_base + [cls.keys_extra] + cls.keys_more + cls.keys_deprecate
-        for k, v in json_data.items():
+        tag_val = str(json_data.get("tag"))
+        if tag_val and tag_val in cls.valid_tags:
+            tag = MovieTag(tag_val)
+        else:
+            tag = MovieTag.UNK
+        url = json_data.get("url", json_data.get("link", ""))
+        cover = json_data.get("cover", json_data.get("img", ""))
+        k_url = "douban_url" if "douban" in url else ("imdb_url" if "imdb" in url else "url")
+        k_cover = "douban_cover" if "douban" in cover else ("imdb_url" if "amazon.com" in cover else "cover")
+        extra = {}
+        for k, v in tmp_extra.items():
             if k not in all_keys:
-                more[k] = v
-        movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
-                    imdb_id=imdb_id,
-                    douban=douban, imdb=imdb, **more)
+                extra[k] = v
+        for k, v in {k_url: url, k_cover: cover}.items():
+            if v and k not in all_keys and k not in extra:
+                extra[k] = v
+        for k, v in json_data.items():
+            k = k.replace("-", "_")
+            if k not in all_keys and k not in extra:
+                extra[k] = v
+
+        movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank,
+                    douban_id=douban_id, imdb_id=imdb_id, douban=douban, imdb=imdb, **extra)
         return movie
 
 
@@ -578,11 +598,11 @@ class MovieCluster:
                 "movie", "movies", "cluster", "draft"]
         movie, movies, cluster = None, None, None
 
-        release_time = json_data["release_time"]
-        update_time = json_data["update_time"]
-        description = json_data["description"]
-        source = json_data["source"]
-        draft = json_data.get("draft")
+        release_time = json_data.get("release_time", json_data.get("datetime"))
+        update_time = json_data.get("update_time", json_data.get("datetime"))
+        description = json_data.get("description")
+        source = json_data.get("source")
+        draft = json_data.get("draft", json_data.get("more"))
         more = {k: v for k, v in json_data.items() if k not in keys}
 
         if "movie" in json_data:
