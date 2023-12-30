@@ -29,6 +29,14 @@ class MovieTag(Enum):
     TMDB_TOP = "tmdb-top"
 
 
+def _format_field(text):
+    if text:
+        if isinstance(text, list):
+            return " / ".join([str(v).strip() for v in text])
+        return text.strip()
+    return None
+
+
 class BaseMovie(ABC):
     keys_base = ["title",
                  "category",
@@ -47,14 +55,11 @@ class BaseMovie(ABC):
                  genre: Optional[str] = None,
                  **kwargs
                  ):
-        if title:
-            title = title.strip()
-        if region:
-            region = region.strip()
-        if director:
-            director = director.strip()
-        if genre:
-            genre = genre.strip()
+        title = _format_field(title)
+        region = _format_field(region)
+        director = _format_field(director)
+        genre = _format_field(genre)
+
         if category is None:
             category = "movie"
 

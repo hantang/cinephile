@@ -32,7 +32,7 @@ def parse_imdb_page_top_v4(page, **kwargs):
     total = kwargs["total"]
     base_url = kwargs["base_url"].rstrip("/")
 
-    tag1 = '<script id="__NEXT_DATA__" type="application/json">'
+    tag1 = """<script id="__NEXT_DATA__" type="application/json">"""
     tag2 = "</script>"
     pattern = rf"{tag1}.+?{tag2}"
 
@@ -48,10 +48,11 @@ def parse_imdb_page_top_v4(page, **kwargs):
         logging.warning(f"error items count = {len(items)}/{total}")
 
     entries = []
+    tag = MovieTag.IMDB_TOP250
     for item in items:
         node = item["node"]
 
-        rank = str(int(item["currentRank"]))
+        rank = int(item["currentRank"])
         movie_id = node["id"]
         img_id = node["primaryImage"]["id"]
         video_id = node["latestTrailer"]["id"] if node["latestTrailer"] else ""
@@ -63,25 +64,24 @@ def parse_imdb_page_top_v4(page, **kwargs):
         runtime = node["runtime"]["seconds"]
         rating = node["certificate"]["rating"] if node["certificate"] else ""
         genre = ",".join([v["genre"]["text"] for v in node["titleGenres"]["genres"]])
-
         score = str(node["ratingsSummary"]["aggregateRating"])
         count = str(node["ratingsSummary"]["voteCount"])
         outline = node["plot"]["plotText"]["plainText"]
-
-        score = {
+        extra = {
+            "imdb-link": link,
+            "imdb-cover": img,
             "imdb-score": score,
             "imdb-vote": count,
-        }
-        more = {
             "imdb-id": movie_id,
-            "image-img-id": img_id,
-            "video-video-id": video_id,
-            "genre": genre,
-            "rating": rating,
-            "length": runtime,
-            "summary": outline,
+            "imdb-image-id": img_id,
+            "imdb-video-id": video_id,
+            "imdb-rating": rating,
+            "imdb-length": runtime,
+            "imdb-summary": outline,
         }
-        movie = Movie(title, link, img, year, rank, mtype=None, score=score, **more)
+        category = None
+        region, director = None, None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, imdb_id=movie_id, **extra)
         entries.append(movie)
     return entries
 
@@ -95,7 +95,7 @@ def parse_imdb_page_list(page, **kwargs):
         return None, None
 
     div_pagi = div_main.find("div", class_="list-pagination")
-    next_url = div_pagi.find(class_="next-page")
+    next_url = div_pagi.find(class_="next-page") if div_pagi else None
     if next_url:
         next_url = next_url["href"]
     logging.info(f"next url = {next_url}")
@@ -104,37 +104,50 @@ def parse_imdb_page_list(page, **kwargs):
     items = div_lister.find_all(class_="lister-item mode-detail")
     logging.debug(f"items = {len(items)}")
     entries = []
+    tag = MovieTag.IMDB_LIST
     for item in items:
-        t = item.find(class_="lister-item-image ribbonize")
-        link = "{}/{}".format(base_url, t.a["href"].split("?")[0].lstrip("/"))
-        img = t.img["src"]
-        title = t.img["alt"]
+        img_part = item.find(class_="lister-item-image", recursive=False)
+        con_part = item.find(class_="lister-item-content", recursive=False)
+        desc_part = item.find(class_="list-description", recursive=False)
 
-        t2 = item.find(class_="lister-item-content")
-        idx = t2.h3.find(class_="lister-item-index").text.strip(".")
-        title2 = t2.h3.a.text.strip()
+        href = img_part.a["href"].split("?")[0].lstrip("/")
+        link = f"{base_url}/{href}"
+        img = img_part.img["src"]
+        title = img_part.img["alt"]
+
+        idx = con_part.h3.find(class_="lister-item-index").text.strip(".")
+        title2 = con_part.h3.a.text.strip()
         year = 0
-        year_span = t2.h3.find("span", class_="lister-item-year")
+        year_span = con_part.h3.find("span", class_="lister-item-year")
         if year_span:
-            year_out = extract_year(year_span.text.strip())
-            if year_out:
-                year = int(year_out[-1][0])
+            year = extract_year(year_span.text)
 
-        score = strip(item.find(class_="ipl-rating-star small").text)
-        t3 = item.find(class_="inline-block ratings-metascore")
+        # rating = con_part.find("span", "certificate")
+        # length = con_part.find("span", "runtime")
+        genre = strip(con_part.find("span", "genre").text)
+        score = strip(con_part.find(class_="ipl-rating-star").text)
+        t3 = con_part.find(class_="ratings-metascore")
         metascore = strip(t3.text) if t3 else ""
-        extra = [strip(v.text) for v in item.find_all("p")]
-        score = {
+        info1 = [strip(v.text) for v in con_part.find_all("p", recursive=False)]
+        info2 = [strip(v.text) for v in desc_part.find_all("p", recursive=False)]  # todo split by <br/>
+        extra = {
+            "imdb-url": link,
+            "imdb-cover": img,
             "imdb-score": score,
-            # "imdb-vote": count,
-            "metascore": metascore
+            "metascore": metascore,
+            "imdb-titles": [title2],
+            "imdb-info": info1 + info2
         }
-        more = {
-            "title-more": [title2],
-            "imdb-info": extra
-        }
-        movie = Movie(title, link, img, year, rank=idx, mtype=None, score=score, **more)
-        movie = Movie(title, category, year, region, director, genre, imdb=imdb,)
+        category = None
+        region = None
+        director = None
+
+        for line in info1:
+            if "Director:" in line:
+                director = dict([w.split(":") for w in line.split("|")]).get("Director", "").strip()
+                break
+        imdb_id = link.strip("/").split("title/")[-1] if link else None
+        movie = Movie(title, category, year, region, director, genre, tag=tag, rank=idx, imdb_id=imdb_id, **extra)
         entries.append(movie)
     return entries, next_url
 

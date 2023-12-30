@@ -166,7 +166,6 @@ class ImdbCrawler(BaseCrawler):
         return movie_cluster.total, savefile
 
     def process_detail(self, movie_id, savedir=None):
-        # todo parse page
         key = self.urls.key_detail
         dt = datetimes.utcnow()
 

@@ -21,7 +21,11 @@ def strip(s, keep=False, slash=False):
 
 def extract_year(text):
     # movie year from 1895 to present (20xx)
-    return re.findall(r"((1[89]|20)\d{2})", text)
+    if not text: return 0
+    years = re.findall(r"((1[89]|2[01])\d{2})", text.strip())
+    if years:
+        return int(years[-1][0])
+    return 0
 
 
 def purify_webarchive(html_page):
