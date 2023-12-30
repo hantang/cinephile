@@ -72,7 +72,6 @@ def parse_imdb_page_top_v4(page, **kwargs):
             "imdb_cover": img,
             "imdb_score": score,
             "imdb_vote": count,
-            "imdb_id": movie_id,
             "imdb_image_id": img_id,
             "imdb_video_id": video_id,
             "imdb_rating": rating,
