@@ -52,9 +52,11 @@ def time2zh(ti=None) -> str:
     return f"{year}年{month}月{day}日（星期{week}）{extra}"
 
 
-def timestamp2str(ts, fmt=2) -> str:
+def timestamp2str(ts, fmt=2, tz="Asia/Shanghai") -> str:
     if ts is None:
-        ti = pendulum.now()
+        ti = pendulum.now(tz)
     else:
-        ti = pendulum.from_timestamp(ts)
+        if ts > 10**12:
+            ts = ts / 1000
+        ti = pendulum.from_timestamp(ts, tz)
     return time2str(ti, fmt)
