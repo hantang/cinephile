@@ -5,9 +5,9 @@ import time
 from pathlib import Path
 
 from cinephile.crawlers.base import BaseCrawler, CrawlerUrl
-from cinephile.crawlers.imdb_parser import extract_imdb_page_info
-from cinephile.crawlers.imdb_parser import parse_imdb_page_list, parse_imdb_page_detail
-from cinephile.crawlers.imdb_parser import parse_imdb_page_top_v4
+from cinephile.parsers.imdb_parser import extract_imdb_page_info
+from cinephile.parsers.imdb_parser import parse_imdb_page_list, parse_imdb_page_detail
+from cinephile.parsers.imdb_parser import parse_imdb_page_top_v4
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
 

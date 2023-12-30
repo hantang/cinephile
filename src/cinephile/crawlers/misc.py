@@ -1,12 +1,11 @@
 import json
 import logging
-import math
 import time
 from pathlib import Path
 
 from cinephile.crawlers.base import BaseCrawler
-from cinephile.crawlers.misc_parser import parse_imdb_hist_page_date, parse_imdb_hist_page_month
-from cinephile.crawlers.misc_parser import parse_listchallenges_page_list, extract_listchallenges_page_info
+from cinephile.parsers.misc_parser import parse_imdb_hist_page_date, parse_imdb_hist_page_month
+from cinephile.parsers.misc_parser import parse_listchallenges_page_list, extract_listchallenges_page_info
 from cinephile.utils import datetimes
 from cinephile.utils.movies import MovieCluster
 
