@@ -129,6 +129,12 @@ class MtimeCrawler(BaseCrawler):
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
+        movie_id = str(movie_id)
+        if 'mtime' in movie_id:
+            movie_id = movie_id.rstrip("/").split("/")[-1]
+        if not movie_id.isdigit():
+            logging.warning(f"Error mtime movie id = {movie_id}")
+            return self.error_param, None
 
         url_config = self.urls.query(key)
         savename = self.getname(dt, name=f"{self.save_prefix_movie}{movie_id}")
