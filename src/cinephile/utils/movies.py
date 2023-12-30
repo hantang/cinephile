@@ -28,6 +28,7 @@ class MovieTag(Enum):
     MTIME_TOP = "mtime-top"
     MTIE_DETAIL = "mtime-detail"
     MAOYAN_TOP = "maoyan-top"
+    MAOYAN_DETAIL = "maoyan-detail"
     TMDB_TOP = "tmdb-top"
     TMDB_DETAIL = "tmdb-detail"
     LC_LIST = "listchallenges(rottentomatoes)"
