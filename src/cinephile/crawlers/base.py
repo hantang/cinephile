@@ -60,6 +60,7 @@ class BaseCrawler:
         self.error_http = -1
         self.error_file_exist = -2
         self.error_parse = -3
+        self.error_param = -4
         self.error_other = -10
         logging.info(f"now = {self.dt}")
 

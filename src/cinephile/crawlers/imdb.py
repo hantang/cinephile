@@ -1,5 +1,6 @@
 import logging
 import math
+import re
 import time
 from pathlib import Path
 
@@ -168,6 +169,11 @@ class ImdbCrawler(BaseCrawler):
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
+        if 'title' in movie_id:
+            movie_id = movie_id.split("title/")[-1].strip("/")
+        if not re.match(r"tt\d+", movie_id):
+            logging.warning(f"Error imdb movie id = {movie_id}")
+            return self.error_param, None
 
         url_config = self.urls.query(key)
         savename = self.getname(dt, name=f"{self.save_prefix_movie}{movie_id}")

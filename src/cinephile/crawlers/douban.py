@@ -390,7 +390,7 @@ class DoubanCrawler(BaseCrawler):
             movie_id = movie_id.strip("/").split("subject/")[-1]
         if not movie_id.isdigit():
             logging.warning(f"Error douban movie id = {movie_id}")
-            exit(-1)
+            return self.error_param, None
 
         url_config = self.urls.query(key)
         savename = self.getname(dt, name=f"{self.save_prefix_movie}{movie_id}")
