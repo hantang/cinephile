@@ -831,13 +831,8 @@ class MovieCluster:
                     info_parts += [f"{rank_tag}{rank:0{num_len}d}" if rank else ""]
                 info = " / ".join([v for v in info_parts if v])  # (🎬 2023 / 🌟 9.20 / 🥇001)
                 if keep_cover and split_cover:
-                    if keep_url:
-                        headline2 = f'<a href="{url}">{title}</a>'
-                    else:
-                        headline2 = title
-                    col = sep.join([v for v in [headline2, f"({info})" if info else ""] if v])
-                    # cols.append(image)
-                    cols.append(f'<img src="{cover}" alt="{movie_id}" />')
+                    col = sep.join([v for v in [headline, f"({info})" if info else ""] if v])
+                    cols.append(image)
                     cols.append(col)
                 else:
                     col = sep.join([v for v in [image, headline, f"({info})" if info else ""] if v])

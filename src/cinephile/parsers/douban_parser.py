@@ -130,7 +130,7 @@ def parse_page_hot(page, **kwargs):
     tag = MovieTag.DOUBAN_HOT
     for item in items:
         title = item["title"]
-        link = item["uri"]
+        link = item["url"]
         img = item["pic"]["normal"]
         mtype = item.get("type_name", item.get("type", "")).strip().lower()
         rank = item.get("rank_value", item.get("rank"))
