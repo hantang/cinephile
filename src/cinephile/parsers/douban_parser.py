@@ -131,6 +131,8 @@ def parse_page_hot(page, **kwargs):
     for item in items:
         title = item["title"]
         link = item["url"]
+        if "m.douban.com" in link:
+            link = link.replace("m.douban.com/movie", "movie.douban.com")
         img = item["pic"]["normal"]
         mtype = item.get("type_name", item.get("type", "")).strip().lower()
         rank = item.get("rank_value", item.get("rank"))
