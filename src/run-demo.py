@@ -16,7 +16,7 @@ from cinephile.crawlers.listchallenges import ListChallengesCrawler
 def run_douban(save_dir):
     logging.info("Test douban")
     crawler = DoubanCrawler(save_dir)
-    crawler.process_top250(savedir=save_dir)
+    # crawler.process_top250(savedir=save_dir)
     # crawler.process_detail(movie_id=iii, savedir=save_dir)
     # crawler.process_list(movie_list_id=jjj, savedir=save_dir, page_limit=1)
     # crawler.process_hot(savedir=save_dir)
