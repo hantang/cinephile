@@ -133,7 +133,7 @@ class MtimeCrawler(BaseCrawler):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
         movie_id = str(movie_id)
-        if 'mtime' in movie_id:
+        if "mtime" in movie_id:
             movie_id = movie_id.rstrip("/").split("/")[-1]
         if not movie_id.isdigit():
             logging.warning(f"Error mtime movie id = {movie_id}")
