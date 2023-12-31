@@ -82,7 +82,7 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
     parts = []
     for i, site in enumerate(names):
         desc = desc_list[i]
-        count = min(count_list[i], 2)
+        count = max(count_list[i], 2)
 
         tmpdir = Path(datadir, site)
         if not tmpdir.exists(): continue
@@ -91,10 +91,11 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
         files = datafiles[:count]
         if len(files) <= 1: continue
 
-        cols = [site + "_id", "rank", "title"]
+        cols = [site + "_id", "rank", "title", "url"]
         key_col = cols[0]
         rank_col = cols[1]
         title_col = cols[2]
+        url_col = cols[3]
 
         df_list = {}
         for file in files:
@@ -102,7 +103,10 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
                 data = json.load(f)
             mc = MovieCluster.from_json(data)
             dt = mc.release_time.split(" ")[0]
-            df_list[dt] = mc.to_df()[cols].fillna("").astype(str)
+            df = mc.to_df()[cols]
+            df[title_col] = df[[title_col, url_col]].apply(
+                lambda x: "[{}]({})".format(x[title_col], x[url_col]) if x[url_col] else x[title_col], axis=1)
+            df_list[dt] = df[cols[:3]].fillna("").astype(str)
 
         dates = sorted(df_list.keys())
         df_merge = None
@@ -146,7 +150,8 @@ def update_readme(basedir, moredir):
     ]
 
     extra_parts = _get_extra_stats(basedir, moredir, EXTRA_SITES)
-    diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[7,3])
+    diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"],
+                                 count_list=[7, 3])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
     for part in [extra_parts, diff_parts, top_parts]:
         texts.append(hr_line)
