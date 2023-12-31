@@ -23,9 +23,10 @@ def _get_top_stats(datadir, moredir, name, desc=""):
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site if site in MAIN_SITES else MISCDIR)
             if not tmpdir.exists(): continue
-            datafiles = sorted(tmpdir.glob(f"{site}*.json"))
+            datafiles = list(tmpdir.glob(f"{site}*.json"))
             if datafiles:
-                file = datafiles[-1]  # use latest
+                datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
+                file = datafiles[0]  # use latest
                 break
         if file:
             files.append(file)
@@ -57,9 +58,10 @@ def _get_extra_stats(datadir, moredir, names):
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site)
             if not tmpdir.exists(): continue
-            datafiles = sorted(tmpdir.glob("*.json"))
+            datafiles = list(tmpdir.glob(f"{site}*.json"))
             if datafiles:
-                files.append(datafiles[-1])
+                datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
+                files.append(datafiles[0])
     if len(files) == 0:
         logging.warning("files are empty")
         return []
@@ -84,8 +86,9 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
 
         tmpdir = Path(datadir, site)
         if not tmpdir.exists(): continue
-        datafiles = sorted(tmpdir.glob(f"{site}*.json"))
-        files = datafiles[-count:]
+        datafiles = tmpdir.glob(f"{site}*.json")
+        datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
+        files = datafiles[:count]
         if len(files) <= 1: continue
 
         cols = [site + "_id", "rank", "title"]
