@@ -30,7 +30,6 @@ def parse_annual_data(page, **kwargs):
     else:
         items_list, entries_list = parse_annual_data2(page, **kwargs)
 
-    data = []
     groups = []
     for items, entries in zip(items_list, entries_list):
         if "payload" in items:
@@ -42,33 +41,9 @@ def parse_annual_data(page, **kwargs):
         elif 'subject_collection' in items:
             group = items["subject_collection"]["title"].strip()
         else:
-            group = " | ".join(strip(items[k]) for k in ["douban-group", "douban-tips", "douban-comment"])
+            group = " | ".join(strip(items[k]) for k in ["douban_group", "douban_tips", "douban_comment"])
         groups.append(group)
-    #     for movie in entries:
-    #         entry = {
-    #             "group": group,
-    #             "rank": movie.rank,
-    #             "title": movie.title,
-    #             "id": _get_id_link(movie.link),
-    #             "score": movie.score.get("douban-score", 0),
-    #             "staff": movie.more.get("staff"),
-    #             "region": movie.more.get("region"),
-    #         }
-    #         data.append(entry)
-    #     data.append({})
-    # if not data[-1]:
-    #     data = data[:-1]
-    # if len(data) == 0:
-    #     return items_list, entries_list, None, None
-    #
-    # df = pd.DataFrame(data)
-    # df = df.fillna(" ").astype(str)
-    # df["rank"] = df["rank"].apply(lambda x: x.split(".0")[0])
-    # df["score"] = df["score"].apply(lambda x: "{:.1f}".format(float(x)) if x != " " else " ")
-    # logging.info(df["group"].value_counts())
-    # cols_out = ["Group 分类", "Rank 排名", "Title 电影", "ID 豆瓣", "Score 打分", "Staff 人员", "Region 地区", ]
-    # df.columns = cols_out
-    return items_list, entries_list, groups  # , df
+    return items_list, entries_list, groups
 
 
 def parse_annual_data0(page, **kwargs):
@@ -127,8 +102,7 @@ def parse_annual_data0(page, **kwargs):
             director = info_dict.get("导演")
             genre = info_dict.get("类型")
             douban_id = link.strip("/").split("subject/")[-1] if link else None
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
-                          **extra)
+            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
             entries.append(movie)
         items_new = {
             "douban_tips": tips,
