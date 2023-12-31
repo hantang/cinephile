@@ -113,6 +113,8 @@ class ImdbCrawler(BaseCrawler):
 
     def get_headers(self, agent="random"):
         headers = super().get_headers(agent)
+        headers["Host"] = "www.imdb.com"
+        # headers["Accept-Language"] = "en-US,en;q=0.5"
         headers["Accept-Language"] = "en-US,en"
         return headers
 
@@ -172,7 +174,7 @@ class ImdbCrawler(BaseCrawler):
     def process_detail(self, movie_id, savedir=None):
         key = self.urls.key_detail
         dt = datetimes.utcnow()
-        if 'title' in movie_id:
+        if "title" in movie_id:
             movie_id = movie_id.split("title/")[-1].strip("/")
         if not re.match(r"tt\d+", movie_id):
             logging.warning(f"Error imdb movie id = {movie_id}")
@@ -228,8 +230,6 @@ class ImdbCrawler(BaseCrawler):
         while page_limit <= 0 or page_num <= page_limit:
             if page_num % 10 == 1:
                 headers = self.get_headers()
-                headers['Host'] = 'www.imdb.com'
-                headers['Accept-Language'] = 'en-US,en;q=0.5'
                 if page_limit > 1:
                     time.sleep(3)
 

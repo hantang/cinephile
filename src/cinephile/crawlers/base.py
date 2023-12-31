@@ -141,8 +141,8 @@ class BaseCrawler:
             filename.parent.mkdir(parents=True)
         logging.info(f"save to {filename}")
 
-        if movie_cluster is None and 'dataframe' in kwargs:
-            df = kwargs['dataframe']
+        if movie_cluster is None and "dataframe" in kwargs:
+            df = kwargs["dataframe"]
             logging.info(f"save dataframe to csv, df={df.shape}")
             df.to_csv(filename, index=False)
         else:
