@@ -133,10 +133,9 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
     return parts
 
 
-def update_readme(basedir, moredir):
+def update_readme(basedir, moredir, limit = 3):
     readfile = Path(f"{BASEDIR}/README.md")
     hr_line = "-" * 3
-    limit = 2
     raw_readmes = []
     if readfile.exists():
         with open(readfile) as f:
