@@ -150,8 +150,7 @@ def update_readme(basedir, moredir):
     ]
 
     extra_parts = _get_extra_stats(basedir, moredir, EXTRA_SITES)
-    diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"],
-                                 count_list=[7, 3])
+    diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 2])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
     for part in [extra_parts, diff_parts, top_parts]:
         texts.append(hr_line)
@@ -161,7 +160,6 @@ def update_readme(basedir, moredir):
                 texts.extend(["## {}".format(desc), df.to_markdown()])
 
     readfile2 = readfile
-    # readfile2 = Path(f"{BASEDIR}/README2.md")
     logging.info(f"save to {readfile2}")
     with open(readfile2, "w") as fw:
         fw.write("\n\n".join(texts) + "\n")
