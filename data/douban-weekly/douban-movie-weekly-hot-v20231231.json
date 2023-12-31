@@ -31,7 +31,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35725869",
+            "douban_url": "https://movie.douban.com/subject/35725869/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901057189.jpg",
             "douban_type": "电影",
             "douban_score": 8.0,
@@ -62,7 +62,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35074609",
+            "douban_url": "https://movie.douban.com/subject/35074609/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901830629.jpg",
             "douban_type": "电影",
             "douban_score": 6.5,
@@ -91,7 +91,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35768712",
+            "douban_url": "https://movie.douban.com/subject/35768712/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2897155142.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -120,7 +120,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35927496",
+            "douban_url": "https://movie.douban.com/subject/35927496/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2900207662.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -149,7 +149,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36538847",
+            "douban_url": "https://movie.douban.com/subject/36538847/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901984940.jpg",
             "douban_type": "电影",
             "douban_score": 9.2,
@@ -180,7 +180,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/26769592",
+            "douban_url": "https://movie.douban.com/subject/26769592/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902243978.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -209,7 +209,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35208463",
+            "douban_url": "https://movie.douban.com/subject/35208463/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901703469.jpg",
             "douban_type": "电影",
             "douban_score": 7.8,
@@ -240,7 +240,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35736202",
+            "douban_url": "https://movie.douban.com/subject/35736202/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901534046.jpg",
             "douban_type": "电影",
             "douban_score": 8.2,
@@ -271,7 +271,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/30444942",
+            "douban_url": "https://movie.douban.com/subject/30444942/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900515564.jpg",
             "douban_type": "电影",
             "douban_score": 6.6,
@@ -302,7 +302,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/27185563",
+            "douban_url": "https://movie.douban.com/subject/27185563/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2529177999.jpg",
             "douban_type": "电影",
             "douban_score": 8.2,
@@ -333,7 +333,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36066128",
+            "douban_url": "https://movie.douban.com/subject/36066128/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901704646.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -362,7 +362,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35448384",
+            "douban_url": "https://movie.douban.com/subject/35448384/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900172884.jpg",
             "douban_type": "电影",
             "douban_score": 6.5,
@@ -391,7 +391,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35242824",
+            "douban_url": "https://movie.douban.com/subject/35242824/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2899927039.jpg",
             "douban_type": "电影",
             "douban_score": 6.6,
@@ -420,7 +420,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/33456512",
+            "douban_url": "https://movie.douban.com/subject/33456512/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2900852349.jpg",
             "douban_type": "电影",
             "douban_score": 7.5,
@@ -451,7 +451,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35593344",
+            "douban_url": "https://movie.douban.com/subject/35593344/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2897210097.jpg",
             "douban_type": "电影",
             "douban_score": 8.8,
@@ -482,7 +482,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35633650",
+            "douban_url": "https://movie.douban.com/subject/35633650/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2902557922.jpg",
             "douban_type": "电影",
             "douban_score": 8.5,
@@ -513,7 +513,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/25934014",
+            "douban_url": "https://movie.douban.com/subject/25934014/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2901102612.jpg",
             "douban_type": "电影",
             "douban_score": 8.4,
@@ -544,7 +544,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/34941536",
+            "douban_url": "https://movie.douban.com/subject/34941536/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2889865405.jpg",
             "douban_type": "电影",
             "douban_score": 8.0,
@@ -575,7 +575,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35873969",
+            "douban_url": "https://movie.douban.com/subject/35873969/",
             "douban_cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2901972551.jpg",
             "douban_type": "电影",
             "douban_score": 6.6,
@@ -604,7 +604,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35875180",
+            "douban_url": "https://movie.douban.com/subject/35875180/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900091126.jpg",
             "douban_type": "电影",
             "douban_score": 5.9,
@@ -1811,7 +1811,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35725869",
+            "douban_url": "https://movie.douban.com/subject/35725869/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901057189.jpg",
             "douban_type": "电影",
             "douban_score": 8.0,
@@ -1842,7 +1842,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/34874646",
+            "douban_url": "https://movie.douban.com/subject/34874646/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882790114.jpg",
             "douban_type": "电视剧",
             "douban_score": 0,
@@ -1871,7 +1871,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35074609",
+            "douban_url": "https://movie.douban.com/subject/35074609/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901830629.jpg",
             "douban_type": "电影",
             "douban_score": 6.5,
@@ -1900,7 +1900,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35768712",
+            "douban_url": "https://movie.douban.com/subject/35768712/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2897155142.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -1929,7 +1929,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35927496",
+            "douban_url": "https://movie.douban.com/subject/35927496/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2900207662.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -1958,7 +1958,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36538847",
+            "douban_url": "https://movie.douban.com/subject/36538847/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901984940.jpg",
             "douban_type": "电影",
             "douban_score": 9.2,
@@ -1989,7 +1989,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/26769592",
+            "douban_url": "https://movie.douban.com/subject/26769592/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902243978.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -2018,7 +2018,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35208463",
+            "douban_url": "https://movie.douban.com/subject/35208463/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901703469.jpg",
             "douban_type": "电影",
             "douban_score": 7.8,
@@ -2049,7 +2049,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/36178641",
+            "douban_url": "https://movie.douban.com/subject/36178641/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902230708.jpg",
             "douban_type": "电视剧",
             "douban_score": 7.2,
@@ -2078,7 +2078,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35736202",
+            "douban_url": "https://movie.douban.com/subject/35736202/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901534046.jpg",
             "douban_type": "电影",
             "douban_score": 8.2,
@@ -2109,7 +2109,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/35744499",
+            "douban_url": "https://movie.douban.com/subject/35744499/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2902566883.jpg",
             "douban_type": "电视剧",
             "douban_score": 0,
@@ -2138,7 +2138,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/35087769",
+            "douban_url": "https://movie.douban.com/subject/35087769/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2867203983.jpg",
             "douban_type": "电视剧",
             "douban_score": 6.8,
@@ -2167,7 +2167,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/30444942",
+            "douban_url": "https://movie.douban.com/subject/30444942/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900515564.jpg",
             "douban_type": "电影",
             "douban_score": 6.6,
@@ -2198,7 +2198,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/27185563",
+            "douban_url": "https://movie.douban.com/subject/27185563/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2529177999.jpg",
             "douban_type": "电影",
             "douban_score": 8.2,
@@ -2229,7 +2229,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/35873858",
+            "douban_url": "https://movie.douban.com/subject/35873858/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901660879.jpg",
             "douban_type": "电视剧",
             "douban_score": 7.9,
@@ -2258,7 +2258,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36066128",
+            "douban_url": "https://movie.douban.com/subject/36066128/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901704646.jpg",
             "douban_type": "电影",
             "douban_score": 0,
@@ -2287,7 +2287,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35448384",
+            "douban_url": "https://movie.douban.com/subject/35448384/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2900172884.jpg",
             "douban_type": "电影",
             "douban_score": 6.5,
@@ -2316,7 +2316,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/book/22714154",
+            "douban_url": "https://movie.douban.com/subject/22714154/",
             "douban_cover": "https://qnmob3.doubanio.com/view/subject/m/public/s26037307.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1",
             "douban_type": "图书",
             "douban_score": 8.6,
@@ -2347,7 +2347,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/tv/35991840",
+            "douban_url": "https://movie.douban.com/subject/35991840/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2900368358.jpg",
             "douban_type": "电视剧",
             "douban_score": 8.7,
@@ -2378,7 +2378,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35242824",
+            "douban_url": "https://movie.douban.com/subject/35242824/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2899927039.jpg",
             "douban_type": "电影",
             "douban_score": 6.6,
@@ -3565,7 +3565,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36538847",
+            "douban_url": "https://movie.douban.com/subject/36538847/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901984940.jpg",
             "douban_type": "movie",
             "douban_score": 9.2,
@@ -3600,7 +3600,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35499155",
+            "douban_url": "https://movie.douban.com/subject/35499155/",
             "douban_cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2898959651.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -3634,7 +3634,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35736202",
+            "douban_url": "https://movie.douban.com/subject/35736202/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2901534046.jpg",
             "douban_type": "movie",
             "douban_score": 8.2,
@@ -3669,7 +3669,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35699773",
+            "douban_url": "https://movie.douban.com/subject/35699773/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902201290.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -3702,7 +3702,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35899010",
+            "douban_url": "https://movie.douban.com/subject/35899010/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2892488483.jpg",
             "douban_type": "movie",
             "douban_score": 7.4,
@@ -3735,7 +3735,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35981370",
+            "douban_url": "https://movie.douban.com/subject/35981370/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895834764.jpg",
             "douban_type": "movie",
             "douban_score": 7.6,
@@ -3768,7 +3768,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36218661",
+            "douban_url": "https://movie.douban.com/subject/36218661/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2892062454.jpg",
             "douban_type": "movie",
             "douban_score": 7.2,
@@ -3802,7 +3802,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35376692",
+            "douban_url": "https://movie.douban.com/subject/35376692/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2897987524.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -3835,7 +3835,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36493712",
+            "douban_url": "https://movie.douban.com/subject/36493712/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896753280.jpg",
             "douban_type": "movie",
             "douban_score": 6.8,
@@ -3869,7 +3869,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35168599",
+            "douban_url": "https://movie.douban.com/subject/35168599/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2888180337.jpg",
             "douban_type": "movie",
             "douban_score": 7.0,
@@ -4644,7 +4644,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35722688",
+            "douban_url": "https://movie.douban.com/subject/35722688/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2887388117.jpg",
             "douban_type": "movie",
             "douban_score": 7.4,
@@ -4675,7 +4675,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/33455421",
+            "douban_url": "https://movie.douban.com/subject/33455421/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2884692335.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -4706,7 +4706,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35738421",
+            "douban_url": "https://movie.douban.com/subject/35738421/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2888131086.jpg",
             "douban_type": "movie",
             "douban_score": 7.5,
@@ -4737,7 +4737,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35739931",
+            "douban_url": "https://movie.douban.com/subject/35739931/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886381049.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -4768,7 +4768,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35698284",
+            "douban_url": "https://movie.douban.com/subject/35698284/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2881995796.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -4799,7 +4799,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35580265",
+            "douban_url": "https://movie.douban.com/subject/35580265/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2879208427.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -4830,7 +4830,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36021623",
+            "douban_url": "https://movie.douban.com/subject/36021623/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2880988156.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -4861,7 +4861,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35573316",
+            "douban_url": "https://movie.douban.com/subject/35573316/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2884285127.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -4892,7 +4892,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/34670297",
+            "douban_url": "https://movie.douban.com/subject/34670297/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886570078.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -4923,7 +4923,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35791966",
+            "douban_url": "https://movie.douban.com/subject/35791966/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2884868812.jpg",
             "douban_type": "movie",
             "douban_score": 7.7,
@@ -4954,7 +4954,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/27150277",
+            "douban_url": "https://movie.douban.com/subject/27150277/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2888752193.jpg",
             "douban_type": "movie",
             "douban_score": 7.6,
@@ -4985,7 +4985,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/34948595",
+            "douban_url": "https://movie.douban.com/subject/34948595/",
             "douban_cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2889236161.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -5016,7 +5016,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35727254",
+            "douban_url": "https://movie.douban.com/subject/35727254/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2880417435.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -5047,7 +5047,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35772573",
+            "douban_url": "https://movie.douban.com/subject/35772573/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2871137380.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -5078,7 +5078,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35390098",
+            "douban_url": "https://movie.douban.com/subject/35390098/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2892195504.jpg",
             "douban_type": "movie",
             "douban_score": 7.4,
@@ -5109,7 +5109,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35430833",
+            "douban_url": "https://movie.douban.com/subject/35430833/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2883951104.jpg",
             "douban_type": "movie",
             "douban_score": 7.4,
@@ -5140,7 +5140,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36118263",
+            "douban_url": "https://movie.douban.com/subject/36118263/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2881661637.jpg",
             "douban_type": "movie",
             "douban_score": 8.2,
@@ -5171,7 +5171,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35870056",
+            "douban_url": "https://movie.douban.com/subject/35870056/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2881033774.jpg",
             "douban_type": "movie",
             "douban_score": 8.6,
@@ -5202,7 +5202,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35797506",
+            "douban_url": "https://movie.douban.com/subject/35797506/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2884266466.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -5233,7 +5233,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36171814",
+            "douban_url": "https://movie.douban.com/subject/36171814/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2885525832.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -6580,7 +6580,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35870056",
+            "douban_url": "https://movie.douban.com/subject/35870056/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2881033774.jpg",
             "douban_type": "movie",
             "douban_score": 8.6,
@@ -6611,7 +6611,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35739931",
+            "douban_url": "https://movie.douban.com/subject/35739931/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886381049.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -6642,7 +6642,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35698284",
+            "douban_url": "https://movie.douban.com/subject/35698284/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2881995796.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -6673,7 +6673,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36171814",
+            "douban_url": "https://movie.douban.com/subject/36171814/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2885525832.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -6704,7 +6704,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36118263",
+            "douban_url": "https://movie.douban.com/subject/36118263/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2881661637.jpg",
             "douban_type": "movie",
             "douban_score": 8.2,
@@ -6735,7 +6735,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35797506",
+            "douban_url": "https://movie.douban.com/subject/35797506/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2884266466.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -6766,7 +6766,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/33455421",
+            "douban_url": "https://movie.douban.com/subject/33455421/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2884692335.jpg",
             "douban_type": "movie",
             "douban_score": 7.3,
@@ -6797,7 +6797,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35230630",
+            "douban_url": "https://movie.douban.com/subject/35230630/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2674237490.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -6828,7 +6828,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35358429",
+            "douban_url": "https://movie.douban.com/subject/35358429/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2881166223.jpg",
             "douban_type": "movie",
             "douban_score": 8.0,
@@ -6859,7 +6859,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35727254",
+            "douban_url": "https://movie.douban.com/subject/35727254/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2880417435.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -6890,7 +6890,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35134230",
+            "douban_url": "https://movie.douban.com/subject/35134230/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2878186222.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -6921,7 +6921,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/3927767",
+            "douban_url": "https://movie.douban.com/subject/3927767/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2876847447.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -6952,7 +6952,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35316486",
+            "douban_url": "https://movie.douban.com/subject/35316486/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2868539635.jpg",
             "douban_type": "movie",
             "douban_score": 8.0,
@@ -6983,7 +6983,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35791966",
+            "douban_url": "https://movie.douban.com/subject/35791966/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2884868812.jpg",
             "douban_type": "movie",
             "douban_score": 7.7,
@@ -7014,7 +7014,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/34948595",
+            "douban_url": "https://movie.douban.com/subject/34948595/",
             "douban_cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2889236161.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -7045,7 +7045,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35493136",
+            "douban_url": "https://movie.douban.com/subject/35493136/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885560939.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -7076,7 +7076,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/27150277",
+            "douban_url": "https://movie.douban.com/subject/27150277/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2888752193.jpg",
             "douban_type": "movie",
             "douban_score": 7.6,
@@ -7107,7 +7107,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35772573",
+            "douban_url": "https://movie.douban.com/subject/35772573/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2871137380.jpg",
             "douban_type": "movie",
             "douban_score": 7.8,
@@ -7138,7 +7138,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35699754",
+            "douban_url": "https://movie.douban.com/subject/35699754/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2887631248.jpg",
             "douban_type": "movie",
             "douban_score": 7.7,
@@ -7169,7 +7169,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35073914",
+            "douban_url": "https://movie.douban.com/subject/35073914/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2872856462.jpg",
             "douban_type": "movie",
             "douban_score": 7.5,
@@ -8518,7 +8518,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36319595",
+            "douban_url": "https://movie.douban.com/subject/36319595/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2899309776.jpg",
             "douban_type": "movie",
             "douban_score": 9.3,
@@ -8549,7 +8549,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35923540",
+            "douban_url": "https://movie.douban.com/subject/35923540/",
             "douban_cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2885627311.jpg",
             "douban_type": "movie",
             "douban_score": 8.8,
@@ -8580,7 +8580,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36362608",
+            "douban_url": "https://movie.douban.com/subject/36362608/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2890781835.jpg",
             "douban_type": "movie",
             "douban_score": 8.8,
@@ -8611,7 +8611,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35700022",
+            "douban_url": "https://movie.douban.com/subject/35700022/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2889907890.jpg",
             "douban_type": "movie",
             "douban_score": 8.7,
@@ -8642,7 +8642,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35426925",
+            "douban_url": "https://movie.douban.com/subject/35426925/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2899644203.jpg",
             "douban_type": "movie",
             "douban_score": 8.7,
@@ -8673,7 +8673,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35191489",
+            "douban_url": "https://movie.douban.com/subject/35191489/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2902035150.jpg",
             "douban_type": "movie",
             "douban_score": 8.6,
@@ -8704,7 +8704,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36367141",
+            "douban_url": "https://movie.douban.com/subject/36367141/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2897789174.jpg",
             "douban_type": "movie",
             "douban_score": 8.5,
@@ -8735,7 +8735,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36099457",
+            "douban_url": "https://movie.douban.com/subject/36099457/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896396894.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -8766,7 +8766,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36372932",
+            "douban_url": "https://movie.douban.com/subject/36372932/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2893420937.jpg",
             "douban_type": "movie",
             "douban_score": 8.3,
@@ -8797,7 +8797,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36110780",
+            "douban_url": "https://movie.douban.com/subject/36110780/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2891977996.jpg",
             "douban_type": "movie",
             "douban_score": 8.2,
@@ -8828,7 +8828,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35715748",
+            "douban_url": "https://movie.douban.com/subject/35715748/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2885537087.jpg",
             "douban_type": "movie",
             "douban_score": 8.2,
@@ -8859,7 +8859,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35883383",
+            "douban_url": "https://movie.douban.com/subject/35883383/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2887256182.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -8890,7 +8890,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36368652",
+            "douban_url": "https://movie.douban.com/subject/36368652/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2892006443.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -8921,7 +8921,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35707335",
+            "douban_url": "https://movie.douban.com/subject/35707335/",
             "douban_cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2891298249.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -8952,7 +8952,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35986833",
+            "douban_url": "https://movie.douban.com/subject/35986833/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2898674345.jpg",
             "douban_type": "movie",
             "douban_score": 8.1,
@@ -8983,7 +8983,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36097424",
+            "douban_url": "https://movie.douban.com/subject/36097424/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2891373485.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -9014,7 +9014,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35268501",
+            "douban_url": "https://movie.douban.com/subject/35268501/",
             "douban_cover": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2893016943.jpg",
             "douban_type": "movie",
             "douban_score": 8.0,
@@ -9045,7 +9045,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/35819629",
+            "douban_url": "https://movie.douban.com/subject/35819629/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2886439616.jpg",
             "douban_type": "movie",
             "douban_score": 8.0,
@@ -9076,7 +9076,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36328434",
+            "douban_url": "https://movie.douban.com/subject/36328434/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2891160745.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
@@ -9107,7 +9107,7 @@
           "douban": null,
           "imdb": null,
           "extra": {
-            "douban_url": "douban://douban.com/movie/36156578",
+            "douban_url": "https://movie.douban.com/subject/36156578/",
             "douban_cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896060426.jpg",
             "douban_type": "movie",
             "douban_score": 7.9,
