@@ -19,12 +19,17 @@ def strip(s, keep=False, slash=False):
     return s
 
 
-def strip_field(text):
+def strip_field(text, default=None):
     if text:
         if isinstance(text, list):
             return " / ".join([str(v).strip() for v in text])
-        return text.strip()
-    return None
+        elif isinstance(text, str):
+            return text.strip()
+        elif isinstance(text, dict):
+            return default
+        else:
+            return str(text)
+    return default
 
 
 def extract_year(text):

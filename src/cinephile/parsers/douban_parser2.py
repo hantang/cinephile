@@ -118,7 +118,7 @@ def parse_annual_data0(page, **kwargs):
                 "douban_url": link,
                 "douban_cover": img,
                 "douban_score": score,
-                "dounan_info": plist,
+                "douban_info": plist,
             }
             category = "movie"
             region = None
@@ -252,8 +252,7 @@ def parse_annual_data2(page, **kwargs):
             category = "movie"
             director = staff.split("/")[0].strip()
             rank = idx
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id,
-                          **extra)
+            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
             entries.append(movie)
         entries_list.append(entries)
     return items_list, entries_list
