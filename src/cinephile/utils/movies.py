@@ -778,14 +778,13 @@ class MovieCluster:
         df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
         df["score"] = df["score"].apply(lambda x: "{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
 
-        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型",
-                 "Staff 人员"]
+        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型", "Staff 人员"]
         cols = ["group", "rank", "title", "score", "region", "genre", "staff"]
         df2 = df[cols].reset_index()
         df2.columns = names
         return df2
 
-    def to_df_table(self, keep_url=False, keep_cover=False) -> pd.DataFrame:
+    def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False) -> pd.DataFrame:
         movies_list = self._to_movies()
         if not movies_list:
             return None
@@ -831,8 +830,13 @@ class MovieCluster:
                 if keep_rank:
                     info_parts += [f"{rank_tag}{rank:0{num_len}d}" if rank else ""]
                 info = " / ".join([v for v in info_parts if v])  # (🎬 2023 / 🌟 9.20 / 🥇001)
-                col = sep.join([v for v in [image, headline, f"({info})" if info else ""] if v])
-                cols.append(col)
+                if keep_cover and split_cover:
+                    col = sep.join([v for v in [headline, f"({info})" if info else ""] if v])
+                    cols.append(image)
+                    cols.append(col)
+                else:
+                    col = sep.join([v for v in [image, headline, f"({info})" if info else ""] if v])
+                    cols.append(col)
             table[desc] = cols
         df = pd.DataFrame.from_dict(table, orient="index").T
         df = df.fillna(" ").astype(str)
