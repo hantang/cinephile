@@ -58,7 +58,7 @@ def _get_extra_stats(datadir, moredir, names):
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site)
             if not tmpdir.exists(): continue
-            datafiles = list(tmpdir.glob(f"{site}*.json"))
+            datafiles = list(tmpdir.glob(f"*.json"))
             if datafiles:
                 datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
                 files.append(datafiles[0])
@@ -148,21 +148,28 @@ def update_readme(basedir, moredir):
         "".join(raw_readmes).strip(),
         "最近更新：{}".format(datetimes.time2zh())
     ]
-
+    
     extra_parts = _get_extra_stats(basedir, moredir, EXTRA_SITES)
     diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 2])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
+    toc = ["- Table of Contents"]
+    texts2 = []
     for part in [extra_parts, diff_parts, top_parts]:
-        texts.append(hr_line)
+        texts2.append(hr_line)
         for desc, df in part:
             if df is not None:
                 logging.info(f"add {desc}, shape={df.shape}")
-                texts.extend(["## {}".format(desc), df.to_markdown()])
-
+                if desc:
+                    desc = desc.strip()
+                    desc2 = desc.lower().replace(" ", "-")
+                    toc.append(f"  - [{desc}](#{desc2})")
+                    texts2.append(f"## {desc}")
+                texts2.append(df.to_markdown())
+    texts.append("\n".join(toc))
     readfile2 = readfile
     logging.info(f"save to {readfile2}")
     with open(readfile2, "w") as fw:
-        fw.write("\n\n".join(texts) + "\n")
+        fw.write("\n\n".join(texts + texts2) + "\n")
     logging.info("done")
 
 
