@@ -38,7 +38,7 @@ def parse_annual_data(page, **kwargs):
             group = group.replace(" ", "").strip()
             if not group.startswith("豆瓣"):
                 group = "豆瓣" + group
-        elif 'subject_collection' in items:
+        elif "subject_collection" in items:
             group = items["subject_collection"]["title"].strip()
         else:
             group = " | ".join(strip(items[k]) for k in ["douban_group", "douban_tips", "douban_comment"])
@@ -51,14 +51,14 @@ def parse_annual_data0(page, **kwargs):
     soup = BeautifulSoup(page, "html5lib")
     logging.info("Process movie = {}".format(strip(soup.title.text)))
 
-    div_main = soup.body.find("div", class_='main')
+    div_main = soup.body.find("div", class_="main")
 
-    sections = div_main.find_all("div", class_='section', recursive=False)
+    sections = div_main.find_all("div", class_="section", recursive=False)
     items_list = []
     entries_list = []
     tag = MovieTag.DOUBAN_ANNUAL
     for i, items in enumerate(sections):
-        if 'typeA' not in items['class'] or not items.h1:
+        if "typeA" not in items["class"] or not items.h1:
             if items.h1:
                 logging.info(f"Skip = {i}, {items.h1.text.strip()}")
             continue
@@ -69,19 +69,19 @@ def parse_annual_data0(page, **kwargs):
         if not _is_movie_list(group):
             logging.info(f"Ignore annual list = {group}")
             continue
-        desc = wp.find("div", class_='desc')
+        desc = wp.find("div", class_="desc")
         # desc.find("span", class_="collections").text.strip()
         # desc.find("span", class_="rank").text.strip()
         tips = desc.find("p", class_="tips").text.strip()
-        comment = more.find("div", class_='fleft').text.strip()
-        alist = more.find("div", class_='fright').find_all("a", recursive=False)
+        comment = more.find("div", class_="fleft").text.strip()
+        alist = more.find("div", class_="fright").find_all("a", recursive=False)
         assert len(alist) in [5, 10]
         entries = []
         for item in alist:
-            link = item['href']
-            img = item.img['src']
+            link = item["href"]
+            img = item.img["src"]
             rank = item.find("span", class_="num").text.strip()
-            subject_info = item.find(class_='subject_info')
+            subject_info = item.find(class_="subject_info")
             plist = [p.text.strip() for p in subject_info.find_all("p")]
             s = subject_info.strong
             score = None

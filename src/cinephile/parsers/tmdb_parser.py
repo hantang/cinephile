@@ -148,7 +148,7 @@ def parse_tmdb_page_detail(page, **kwargs):
         reviews.append([strip(key), strip(val)])
     media_part = left_part.find("section", class_="panel media_panel media scroller")
     if not media_part:
-        media_part = left_part.find("section", class_='panel media_panel media tv_panel scroller')
+        media_part = left_part.find("section", class_="panel media_panel media tv_panel scroller")
     media_part = media_part.find_all("li")
     resources = []
     for li in media_part:
