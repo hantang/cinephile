@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import logging
+import math
+import re
 from abc import ABC, abstractmethod
 from enum import Enum
 from typing import List, Any, Union, Optional
@@ -8,8 +10,21 @@ from typing import List, Any, Union, Optional
 import pandas as pd
 from pendulum import DateTime
 
-from cinephile.utils.datetimes import time2str
+from cinephile.utils.datetimes import time2str, now
 from cinephile.utils.texts import strip_field
+
+
+def _query(extra_dict, keys):
+    keys = [k.lower() for k in keys]
+    for key in keys:
+        if key in extra_dict and extra_dict[key]:
+            return extra_dict[key]
+    for key in keys:
+        for ek in extra_dict.keys():
+            ek = ek.lower()
+            if ek.endswith(key) and extra_dict[ek]:
+                return extra_dict[ek]
+    return None
 
 
 class MovieTag(Enum):
@@ -214,10 +229,6 @@ class DoubanMovie(BaseMovie):
         return self._douban_id
 
     @property
-    def douban_rank(self):
-        return self._douban_rank
-
-    @property
     def douban_url(self):
         return self._douban_url
 
@@ -262,6 +273,22 @@ class DoubanMovie(BaseMovie):
         params.update(json_data.get(cls.keys_extra))
         movie = cls(**params)
         return movie
+
+    def to_entry(self):
+        out = {
+            "douban_title": self._title,
+            "douban_id": self._douban_id,
+            "douban_url": self._douban_url,
+            "douban_cover": self._douban_cover,
+            "douban_score": self._score,
+            "douban_year": self._year,
+            "douban_region": self._region,
+            "douban_genre": self._genre,
+            "douban_director": self._director,
+            "douban_actor": self._actors,
+            "douban_staff": " / ".join([v for v in [self._director, self._writers, self._actors] if v]),
+        }
+        return out
 
 
 class ImdbMovie(BaseMovie):
@@ -405,6 +432,23 @@ class ImdbMovie(BaseMovie):
         movie = cls(**params)
         return movie
 
+    def to_entry(self):
+        out = {
+            "imdb_title": self._title,
+            "imdb_id": self._imdb_id,
+            "imdb_url": self._imdb_url,
+            "imdb_cover": self._imdb_cover,
+            "imdb_score": self._score,
+            "metascore": self._metascore,
+            "imdb_year": self._year,
+            "imdb_region": self._region,
+            "imdb_genre": self._genre,
+            "imdb_director": self._director,
+            "imdb_actor": self._actors,
+            "imdb_staff": " / ".join([v for v in [self._director, self._writers, self._actors] if v]),
+        }
+        return out
+
 
 class Movie(BaseMovie):
     keys_more = ["tag", "rank", "douban_id", "imdb_id", "douban", "imdb"]
@@ -435,7 +479,10 @@ class Movie(BaseMovie):
         self._imdb = imdb
 
     def to_entry(self):
-        # todo
+        staff = _query(self._extra, ["actor", "actors", "staff"])
+        score = _query(self._extra, ["score"])
+        if score and isinstance(score, str):
+            score = re.findall(r"(\d+(\.\d*)?)", score)[0][0]
         out = {
             "title": self._title,
             "category": self._category,
@@ -443,17 +490,25 @@ class Movie(BaseMovie):
             "region": self._region,
             "director": self.director,
             "genre": self._genre,
+            "rank": self._rank,
+            "tag": self._tag.value,
+
+            "url": _query(self._extra, ["url", "link"]),
+            "cover": _query(self._extra, ["cover", "img", "image"]),
+            "staff": staff if staff else self.director,
+            "score": score,
         }
+
         if self._douban_id and not self._douban:
             out["douban_id"] = self._douban_id
         elif self._douban:
-            pass
+            out.update(self._douban.to_entry())
         if self._imdb_id and not self._imdb:
             out["imdb_id"] = self._imdb_id
         elif self._imdb:
-            pass
-        # "douban_info": self._douban.to_dict() if self._douban else None,
-        # "imdb": self._imdb.to_dict() if self._imdb else None,
+            out.update(self._imdb.to_entry())
+
+        return out
 
     def to_dict(self) -> dict:
         out = super().to_dict()
@@ -473,13 +528,14 @@ class Movie(BaseMovie):
         all_keys = cls.keys_base + [cls.keys_extra] + cls.keys_more + cls.keys_deprecate
         tmp_extra = {}
         for tmp_key in ["extra", "more", "movieInfo"]:
-            if tmp_key not in json_data: continue
+            if tmp_key not in json_data:
+                continue
             for k, v in json_data[tmp_key].items():
                 k = k.replace("-", "_").lower()
                 tmp_extra[k] = v
 
         title = json_data.get("title", json_data.get("nm"))
-        assert title is not None
+        # assert title is not None
         category = json_data.get("category", json_data.get("type"))
         year = json_data.get("year", tmp_extra.get("year", 0))
         region = json_data.get("region", tmp_extra.get("region"))
@@ -616,39 +672,157 @@ class MovieCluster:
                                      cluster=cluster, draft=draft, **more)
         return movie_cluster
 
-    def to_df(self, link=False, img=False, export=None):  # TODO
-        cluster = self.get_cluster()
-        if not cluster:
+    @classmethod
+    def merge_from_json(cls, *json_data_list):
+        release_time = now()
+        update_time = release_time
+        description = "merge"
+        source = None
+        cluster = [MovieCluster.from_json(json_data) for json_data in json_data_list]
+        movie_cluster = MovieCluster(release_time, update_time, description, source, cluster=cluster)
+        return movie_cluster
+
+    def _to_movies(self) -> List:
+        raw_cluster = self.get_cluster()
+        raw_movies = self.get_movies()
+        raw_movie = self.get_movie()
+        movies_list = []
+        if raw_cluster:
+            for element in raw_cluster:
+                description = element.description
+                release_time = element.release_time
+                raw_cluster2 = element.get_cluster()
+                raw_movies2 = element.get_movies()
+                raw_movie2 = element.get_movie()
+                if raw_movies2:
+                    movies_list.append((description, release_time, raw_movies2))
+                elif raw_cluster2:
+                    raw_movie3 = raw_cluster2[0].get_movies()
+                    movies_list.append((description, release_time, raw_movie3))
+                elif raw_movie2:
+                    movies_list.append((description, release_time, [raw_movie2]))
+        elif raw_movies:
+            movies_list = [(self.description, self.release_time, raw_movies)]
+        elif raw_movie:
+            movies_list = [(self.description, self.release_time, [raw_movie])]
+
+        if not movies_list:
+            logging.warning("Movie list is empty, return nothing")
+            return []
+        return movies_list
+
+    def to_df(self) -> pd.DataFrame:
+        movies_list = self._to_movies()
+        if not movies_list:
+            return None
+        table = []
+        for movies_info in movies_list:
+            (description, release_time, movies) = movies_info
+            description_dict = {
+                "description": description,
+                "release_time": release_time
+            }
+            entries = [dict(**m.to_entry(), **description_dict) for m in movies]
+            table.extend(entries)
+        df = pd.DataFrame(table)
+        return df
+
+    def to_df_csv(self, keep_url=False) -> pd.DataFrame:
+        """
+        # Group 分榜	Rank 排名	Title 电影	Score 打分	Staff 人员	Region 地区	Genre 类型
+        """
+        movies_list = self._to_movies()
+        if not movies_list:
+            return None
+        table = []
+        for movies_info in movies_list:
+            (description, release_time, movies) = movies_info
+            desc = description.split(" | ")[0]
+            movie_entries = [m.to_entry() for m in movies]
+            for me in movie_entries:
+                title = me["title"]
+                if me["url"] and keep_url:
+                    title = "[{}]({})".format(title, me["url"])
+                me2 = {
+                    "group": desc,
+                    "rank": me["rank"],
+                    "title": title,
+                    "score": me["score"],
+                    "staff": me["staff"],
+                    "region": me["region"],
+                    "genre": me["genre"],
+                }
+                table.append(me2)
+            table.append({})
+        if not table[-1]:
+            table = table[:-1]
+
+        df = pd.DataFrame(table)
+        df = df.fillna(" ").astype(str)
+        df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
+        df["score"] = df["score"].apply(lambda x: "{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
+
+        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型",
+                 "Staff 人员"]
+        cols = ["group", "rank", "title", "score", "region", "genre", "staff"]
+        df2 = df[cols].reset_index()
+        df2.columns = names
+        return df2
+
+    def to_df_table(self, keep_url=False, keep_cover=False) -> pd.DataFrame:
+        movies_list = self._to_movies()
+        if not movies_list:
             return None
 
-        n = len(cluster)
-        #     if isinstance(link, list):
-        #         links = [True if i in link else False for i in range(n)]
-        #     else:
-        #         links = [link] * n
-        #     if isinstance(img, list):
-        #         imgs = [True if i in img else False for i in range(n)]
-        #     else:
-        #         imgs = [img] * n
-        logging.info(f"movies to df, cluster = {n}")
-        table = {}
-        for i, element in enumerate(cluster):
-            desc = element.description
-            movies = element.get_movies()
-            logging.info(f"{desc}, movies = {len(movies)}")
-            if movies is None or len(movies) == 0:
-                logging.debug("try to get_cluster")
-                clus = element.get_cluster()
-                if clus:
-                    # desc = clus[0].description
-                    movies = clus[0].get_movies()
-                elif element.get_movie():
-                    logging.debug("try to get_movie")
-                    movies = [element.get_movie()]
-            # cols = [m.flatten2mdstr(link=links[i], img=imgs[i], rank=True) for m in movies]
-            # todo
-            cols = [m.to_entry() for m in movies]
+        metals = "🥇🥈🥉🏅"
+        sep = "<br/>"
+        n = len(movies_list)
+        if isinstance(keep_url, list):
+            keep_urls = keep_url[:n] + [False] * (n - len(keep_url))
+        else:
+            keep_urls = [keep_url] * n
+        if isinstance(keep_cover, list):
+            keep_covers = keep_cover[:n] + [False] * (n - len(keep_cover))
+        else:
+            keep_covers = [keep_cover] * n
 
+        table = {}
+        for i, movies_info in enumerate(movies_list):
+            keep_url, keep_cover = keep_urls[i], keep_covers[i]
+            (description, release_time, movies) = movies_info
+            release_date = release_time.split(" ")[0].replace("-", "/")
+            desc = sep.join([description, f"【📅{release_date}】"])
+
+            movie_entries = [m.to_entry() for m in movies]
+            ranks = [int(strip_field(e["rank"], 0)) for e in movie_entries]
+            keep_rank = True if min(ranks) != max(ranks) and max(ranks) >= 1 else False
+            num_len = max(_fill_num(max(ranks)), 1)
+
+            cols = []
+            for me in movie_entries:
+                title = strip_field(me["title"], "")
+                url = strip_field(me["url"], "")
+                cover = strip_field(me["cover"], "")
+                year = int(strip_field(me["year"], 0))
+                score = float(strip_field(me["score"], 0))
+                rank = int(strip_field(me["rank"], 0))
+                rank_tag = metals[min(rank - 1, 3)]
+                movie_id = strip_field(me.get("douban_id"), "")
+
+                headline = "[{}]({})".format(title, url) if keep_url else title
+                image = "![{}]({})".format(movie_id, cover) if keep_cover else ""
+                info_parts = [f"🎬{year}" if year else "", f"🌟{score:.2f}" if score else ""]
+                if keep_rank:
+                    info_parts += [f"{rank_tag}{rank:0{num_len}d}" if rank else ""]
+                info = " / ".join([v for v in info_parts if v])  # (🎬 2023 / 🌟 9.20 / 🥇001)
+                col = sep.join([v for v in [image, headline, f"({info})" if info else ""] if v])
+                cols.append(col)
             table[desc] = cols
         df = pd.DataFrame.from_dict(table, orient="index").T
+        df = df.fillna(" ").astype(str)
         return df
+
+
+def _fill_num(max_num):
+    num = str(math.ceil(abs(max_num)))
+    return len(num) if num[0] < "9" else len(num) + 1
