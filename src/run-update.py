@@ -72,7 +72,7 @@ def _get_extra_stats(datadir, moredir, names):
         with open(file) as f:
             data = json.load(f)
         mc = MovieCluster.from_json(data)
-        df = mc.to_df_table(keep_url=True, keep_cover=True)
+        df = mc.to_df_table(keep_url=True, keep_cover=True, split_cover=True)
         desc = mc.description
         part.append((desc, df))
     return part
