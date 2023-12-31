@@ -14,7 +14,7 @@ from cinephile.utils.datetimes import time2str, now
 from cinephile.utils.texts import strip_field
 
 
-def _query(extra_dict, keys):
+def _query(extra_dict, keys, default=None):
     keys = [k.lower() for k in keys]
     for key in keys:
         if key in extra_dict and extra_dict[key]:
@@ -24,7 +24,7 @@ def _query(extra_dict, keys):
             ek = ek.lower()
             if ek.endswith(key) and extra_dict[ek]:
                 return extra_dict[ek]
-    return None
+    return default
 
 
 class MovieTag(Enum):
@@ -544,8 +544,8 @@ class Movie(BaseMovie):
         rank = json_data.get("rank")
 
         douban, imdb = None, None
-        douban_id = json_data.get("douban_id")
-        imdb_id = json_data.get("imdb_id")
+        douban_id = json_data.get("douban_id", tmp_extra.get("douban_id"))
+        imdb_id = json_data.get("imdb_id", tmp_extra.get("imdb_id"))
         if "douban" in json_data and json_data["douban"]:
             douban = DoubanMovie.from_json(json_data["douban"])
             douban_id = douban.douban_id
@@ -558,24 +558,31 @@ class Movie(BaseMovie):
             tag = MovieTag(tag_val)
         else:
             tag = MovieTag.UNK
-        url = json_data.get("url", json_data.get("link", ""))
-        cover = json_data.get("cover", json_data.get("img", ""))
-        k_url = "douban_url" if "douban" in url else ("imdb_url" if "imdb" in url else "url")
-        k_cover = "douban_cover" if "douban" in cover else ("imdb_url" if "amazon.com" in cover else "cover")
+        url = _query(json_data, ["url", "link"], default="")
+        cover = _query(json_data, ["cover", "img", "image"], default="")
+        url_key, cover_key = "url", "cover"
+        if "douban" in url:
+            url_key = f"douban_{url_key}"
+        elif "imdb" in url:
+            url_key = f"imdb_{url_key}"
+        if "douban" in cover:
+            cover_key = f"douban_{cover_key}"
+        elif "amazon.com" in cover:
+            cover_key = f"imdb_{cover_key}"
         extra = {}
         for k, v in tmp_extra.items():
             if k not in all_keys:
                 extra[k] = v
-        for k, v in {k_url: url, k_cover: cover}.items():
+        for k, v in {url_key: url, cover_key: cover}.items():
             if v and k not in all_keys and k not in extra:
                 extra[k] = v
         for k, v in json_data.items():
             k = k.replace("-", "_")
             if k not in all_keys and k not in extra:
                 extra[k] = v
-        if k_url == "douban_url" and not douban_id:
+        if url_key == "douban_url" and not douban_id:
             douban_id = url.strip("/").split("/")[-1]
-        if k_url == "imdb_url" and not imdb_id:
+        if url_key == "imdb_url" and not imdb_id:
             imdb_id = url.strip("/").split("/")[-1]
 
         movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank,

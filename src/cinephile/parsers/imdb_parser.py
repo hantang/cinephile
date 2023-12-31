@@ -68,7 +68,7 @@ def parse_imdb_page_top_v4(page, **kwargs):
         count = str(node["ratingsSummary"]["voteCount"])
         outline = node["plot"]["plotText"]["plainText"]
         extra = {
-            "imdb_link": link,
+            "imdb_url": link,
             "imdb_cover": img,
             "imdb_score": score,
             "imdb_vote": count,
