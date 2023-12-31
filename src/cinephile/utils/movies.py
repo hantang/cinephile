@@ -27,6 +27,11 @@ def _query(extra_dict, keys, default=None):
     return default
 
 
+def _fill_num(max_num):
+    num = str(math.ceil(abs(max_num)))
+    return len(num) if num[0] < "9" else len(num) + 1
+
+
 class MovieTag(Enum):
     UNK = "unk"
 
@@ -832,8 +837,3 @@ class MovieCluster:
         df = pd.DataFrame.from_dict(table, orient="index").T
         df = df.fillna(" ").astype(str)
         return df
-
-
-def _fill_num(max_num):
-    num = str(math.ceil(abs(max_num)))
-    return len(num) if num[0] < "9" else len(num) + 1
