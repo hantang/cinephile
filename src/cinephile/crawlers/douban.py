@@ -223,55 +223,8 @@ class DoubanCrawler(BaseCrawler):
         elif key == self.urls.key_hot:
             self.process_hot(savedir)
 
-    def process_top250_v1(self, savedir=None):
-        key = self.urls.key_top250
-        dt = datetimes.utcnow()
-
-        url_config = self.urls.query(key)
-        total = url_config["total"]
-        savename = self.getname(dt, name=f"{self.save_prefix_top}{total}")
-        savefile = Path(savedir if savedir else self.savedir, savename)
-        if self.check(savefile) and not self.overwrite:
-            return self.error_file_exist, savefile
-
-        headers = self.get_headers()
-        page_start = url_config["page_start"]
-        page_end = url_config["page_end"]
-        page_step = url_config["page_step"]
-        log = "process {}".format(url_config["desc"])
-        logging.info(f"{log}, page= {page_start} ~ {page_end}")
-
-        url = self.get_url(key, start=None)
-        page = self.get_page(url, headers, round_i=page_start, round_n=page_end)
-        if not page:
-            logging.warning("page error, exit\n\n")
-            return self.error_http, None
-
-        more_hrefs, dou_desc = extract_page_info(page, desc="Top250")
-        movies = self.parse_page(key, page, total=page_step)
-        if not (movies and more_hrefs):
-            return self.error_parse, savefile
-        rn = len(more_hrefs)
-        log = "more_hrefs (total={}): {} ...".format(rn, more_hrefs[:2])
-        logging.info(log)
-
-        for num, href in enumerate(more_hrefs):
-            url = href if href.startswith("http") else self.urls.url(key, params=href)
-            ri = 1 + num + page_start
-            page = self.get_page(url, headers, round_i=ri, round_n=page_end)
-            if not page:
-                continue
-            logging.info(f"round={1 + num}/{rn} parse page, page bytes={len(page)}")
-            out = self.parse_page(key, page, total=page_step)
-            if out:
-                movies.extend(out)
-
-        logging.info(f"save to data, top movies = {len(movies)}")
-        desc = dou_desc["name"]
-        source = self.get_url(key, is_source=True)
-        movie_cluster = MovieCluster(dt, dt, desc, source, movies=movies)
-        self.save(savefile, movie_cluster)
-        return movie_cluster.total, savefile
+    def process_top(self, savedir=None):
+        return self.process_top250(savedir)
 
     def process_top250(self, savedir=None):
         key = self.urls.key_top250

@@ -136,6 +136,9 @@ class ImdbCrawler(BaseCrawler):
         elif key == self.urls.key_detail:
             self.process_detail(kwargs["movie_id"], savedir)
 
+    def process_top(self, savedir=None):
+        return self.process_top250(savedir)
+
     def process_top250(self, savedir=None):
         key = self.urls.key_top250
         dt = datetimes.utcnow()

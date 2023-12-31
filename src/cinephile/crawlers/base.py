@@ -14,6 +14,7 @@ from cinephile.utils.movies import MovieCluster
 class CrawlerUrl:
     def __init__(self, sitename, description=None):
         self.sitename = sitename
+        self._key_top = f"{self.sitename}-top"
         self._key_top250 = f"{self.sitename}-top250"
         self._key_top100 = f"{self.sitename}-top100"
         self._key_detail = f"{self.sitename}-detail"

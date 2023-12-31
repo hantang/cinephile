@@ -573,6 +573,10 @@ class Movie(BaseMovie):
             k = k.replace("-", "_")
             if k not in all_keys and k not in extra:
                 extra[k] = v
+        if k_url == "douban_url" and not douban_id:
+            douban_id = url.strip("/").split("/")[-1]
+        if k_url == "imdb_url" and not imdb_id:
+            imdb_id = url.strip("/").split("/")[-1]
 
         movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank,
                     douban_id=douban_id, imdb_id=imdb_id, douban=douban, imdb=imdb, **extra)

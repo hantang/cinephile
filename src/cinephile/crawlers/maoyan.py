@@ -89,6 +89,9 @@ class MaoyanCrawler(BaseCrawler):
         elif key == self.urls.key_detail:
             self.process_detail(kwargs["movie_id"], savedir)
 
+    def process_top(self, savedir=None):
+        return self.process_top100(savedir)
+
     def process_top100(self, savedir=None):
         key = self.urls.key_top100
         dt = datetimes.utcnow()
