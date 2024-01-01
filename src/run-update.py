@@ -127,7 +127,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         id2titles_dict = {}
         for dt in dates:
             dfx = df_list[dt]
-            dfx2  = dfx[[id_col, rank_col]].copy()
+            dfx2 = dfx[[id_col, rank_col]].copy().astype(str)
             dfx2 = dfx2.rename(columns={rank_col: dt})
             if df_id_rank is None:
                 df_id_rank = dfx2
