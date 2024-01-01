@@ -88,14 +88,14 @@ def parse_page_top250(page, **kwargs):
         info = [v.text.strip() for v in bd.p.contents if not v.name]
         star = bd.find(class_="star")
         star_score = star.select_one(".rating_num").text
-        star_count = star.find_all("span")[-1].text
+        star_vote = star.find_all("span")[-1].text
         quote = bd.find(class_="quote")
         quote = quote.text.strip() if quote else ""
         extra = {
             "douban_url": link,
             "douban_cover": img,
             "douban_score": star_score,
-            "douban_vote": star_count,
+            "douban_vote": star_vote,
             "douban_titles": titles,
             "douban_info": [strip(v) for v in info],
             "douban_quote": quote,
@@ -458,7 +458,7 @@ def parse_page_detail(page, **kwargs):
     douban_cover = cover
     douban_rank = rank
     douban_id = movie_id
-    score_count = count
+    score_vote = count
     score_weights = weight
     watching = watch
     douban = DoubanMovie(title,
@@ -480,7 +480,7 @@ def parse_page_detail(page, **kwargs):
                          title_alias,
                          imdb_id,
                          score,
-                         score_count,
+                         score_vote,
                          score_weights,
                          summary,
                          resources,

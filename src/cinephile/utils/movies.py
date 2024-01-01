@@ -155,9 +155,9 @@ class DoubanMovie(BaseMovie):
         "length",
         "title_alias",
         "imdb_id",
-        "score",
-        "score_count",
-        "score_weights",
+        "douban_score",
+        "douban_vote",
+        "douban_weights",
         "summary",
         "resources",
         "rewards",
@@ -187,9 +187,9 @@ class DoubanMovie(BaseMovie):
                  length,
                  title_alias,
                  imdb_id,
-                 score,
-                 score_count,
-                 score_weights,
+                 douban_score,
+                 douban_vote,
+                 douban_weights,
                  summary,
                  resources,
                  rewards,
@@ -213,9 +213,9 @@ class DoubanMovie(BaseMovie):
         self._length = length
         self._title_alias = title_alias
         self._imdb_id = imdb_id
-        self._score = score
-        self._score_count = score_count
-        self._score_weights = score_weights
+        self._douban_score = douban_score
+        self._douban_vote = douban_vote
+        self._douban_weights = douban_weights
         self._summary = summary
         self._resources = resources
         self._rewards = rewards
@@ -227,18 +227,22 @@ class DoubanMovie(BaseMovie):
 
     @property
     def score(self):
-        return self._score
+        return self._douban_score
 
     @property
-    def douban_id(self):
+    def vote(self):
+        return self._douban_vote
+
+    @property
+    def id(self):
         return self._douban_id
 
     @property
-    def douban_url(self):
+    def url(self):
         return self._douban_url
 
     @property
-    def douban_cover(self):
+    def cover(self):
         return self._douban_cover
 
     def to_dict(self):
@@ -256,9 +260,9 @@ class DoubanMovie(BaseMovie):
             "length": self._length,
             "title_alias": self._title_alias,
             "imdb_id": self._imdb_id,
-            "score": self._score,
-            "score_count": self._score_count,
-            "score_weights": self._score_weights,
+            "douban_score": self._douban_score,
+            "douban_vote": self._douban_vote,
+            "douban_weights": self._douban_weights,
             "summary": self._summary,
             "resources": self._resources,
             "rewards": self._rewards,
@@ -280,18 +284,21 @@ class DoubanMovie(BaseMovie):
         return movie
 
     def to_entry(self):
+        staff = " / ".join([v for v in [self._director, self._writers, self._actors] if v])
         out = {
             "douban_title": self._title,
             "douban_id": self._douban_id,
             "douban_url": self._douban_url,
             "douban_cover": self._douban_cover,
-            "douban_score": self._score,
+            "douban_score": self._douban_score,
+            "douban_vote": self._douban_vote,
+            "douban_weights": self._douban_weights,
             "douban_year": self._year,
             "douban_region": self._region,
             "douban_genre": self._genre,
             "douban_director": self._director,
             "douban_actor": self._actors,
-            "douban_staff": " / ".join([v for v in [self._director, self._writers, self._actors] if v]),
+            "douban_staff": staff,
         }
         return out
 
@@ -310,8 +317,8 @@ class ImdbMovie(BaseMovie):
         "length",
         "title_alias",
         "title_orig",
-        "score",
-        "score_count",
+        "imdb_score",
+        "imdb_vote",
         "metascore",
         "rating",
         "summary",
@@ -340,8 +347,8 @@ class ImdbMovie(BaseMovie):
                  length,
                  title_alias,
                  title_orig,
-                 score,
-                 score_count,
+                 imdb_score,
+                 imdb_vote,
                  metascore,
                  rating,
                  summary,
@@ -364,9 +371,9 @@ class ImdbMovie(BaseMovie):
         self._length = length
         self._title_alias = title_alias
         self._imdb_id = imdb_id
-        self._score = score
+        self._imdb_score = imdb_score
         self._metascore = metascore
-        self._score_count = score_count
+        self._imdb_vote = imdb_vote
         self._rating = rating
         self._summary = summary
         self._resources = resources
@@ -377,30 +384,30 @@ class ImdbMovie(BaseMovie):
 
     @property
     def score(self):
-        return self._score
+        return self._imdb_score
+
+    @property
+    def vote(self):
+        return self._imdb_vote
 
     @property
     def metascore(self):
         return self._metascore
 
     @property
-    def rating(self):
-        return self._rating
-
-    @property
-    def imdb_id(self):
+    def id(self):
         return self._imdb_id
 
     @property
-    def imdb_rank(self):
+    def rank(self):
         return self._imdb_rank
 
     @property
-    def imdb_url(self):
+    def url(self):
         return self._imdb_url
 
     @property
-    def imdb_cover(self):
+    def cover(self):
         return self._imdb_cover
 
     def to_dict(self):
@@ -417,8 +424,8 @@ class ImdbMovie(BaseMovie):
                     "length": self._length,
                     "title_alias": self._title_alias,
                     "title_orig": self._title_orig,
-                    "score": self._score,
-                    "score_count": self._score_count,
+                    "imdb_score": self._imdb_score,
+                    "imdb_vote": self._imdb_vote,
                     "metascore": self._metascore,
                     "rating": self._rating,
                     "summary": self._summary,
@@ -438,19 +445,21 @@ class ImdbMovie(BaseMovie):
         return movie
 
     def to_entry(self):
+        staff = " / ".join([v for v in [self._director, self._writers, self._actors] if v])
         out = {
             "imdb_title": self._title,
             "imdb_id": self._imdb_id,
             "imdb_url": self._imdb_url,
             "imdb_cover": self._imdb_cover,
-            "imdb_score": self._score,
+            "imdb_score": self._imdb_score,
+            "imdb_vote": self._imdb_vote,
             "metascore": self._metascore,
             "imdb_year": self._year,
             "imdb_region": self._region,
             "imdb_genre": self._genre,
             "imdb_director": self._director,
             "imdb_actor": self._actors,
-            "imdb_staff": " / ".join([v for v in [self._director, self._writers, self._actors] if v]),
+            "imdb_staff": staff,
         }
         return out
 
@@ -484,10 +493,12 @@ class Movie(BaseMovie):
         self._imdb = imdb
 
     def to_entry(self):
-        staff = _query(self._extra, ["actor", "actors", "staff"])
+        actors = _query(self._extra, ["actor", "actors", "staff"])
+        staff = " / ".join([v for v in [self.director, actors] if v])
         score = _query(self._extra, ["score"])
         if score and isinstance(score, str):
             score = re.findall(r"(\d+(\.\d*)?)", score)[0][0]
+        score = float(score) if score else 0.
         out = {
             "title": self._title,
             "category": self._category,
@@ -497,21 +508,31 @@ class Movie(BaseMovie):
             "genre": self._genre,
             "rank": self._rank,
             "tag": self._tag.value,
-
             "url": _query(self._extra, ["url", "link"]),
             "cover": _query(self._extra, ["cover", "img", "image"]),
-            "staff": staff if staff else self.director,
+            "staff": staff,
             "score": score,
+
+            "douban_id": self._douban_id,
+            "douban_score": _query(self._extra, ["douban_score"]),
+            "douban_vote": _query(self._extra, ["douban_vote", "douban_count"]),
+            "imdb_id": self._imdb_id,
+            "imdb_score": _query(self._extra, ["imdb_score"]),
+            "imdb_vote": _query(self._extra, ["imdb_vote", "imdb_count"]),
         }
 
-        if self._douban_id and not self._douban:
-            out["douban_id"] = self._douban_id
-        elif self._douban:
-            out.update(self._douban.to_entry())
-        if self._imdb_id and not self._imdb:
-            out["imdb_id"] = self._imdb_id
-        elif self._imdb:
-            out.update(self._imdb.to_entry())
+        if self._douban:
+            out.update({
+                "douban_id": self._douban.id,
+                "douban_score": self._douban.score,
+                "douban_vote": self._douban.vote,
+            })
+        if self._imdb:
+            out.update({
+                "imdb_id": self._imdb.id,
+                "imdb_score": self._imdb.score,
+                "imdb_vote": self._imdb.vote,
+            })
 
         return out
 
@@ -778,7 +799,8 @@ class MovieCluster:
         df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
         df["score"] = df["score"].apply(lambda x: "{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
 
-        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型", "Staff 人员"]
+        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型",
+                 "Staff 人员"]
         cols = ["group", "rank", "title", "score", "region", "genre", "staff"]
         df2 = df[cols].reset_index()
         df2.columns = names
