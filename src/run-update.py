@@ -78,7 +78,7 @@ def _get_extra_stats(datadir, moredir, names):
     return part
 
 
-def _get_diff_stats(datadir, names, desc_list, count_list):
+def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
     # 统计top250名单变化
     parts = []
     min_count = 2
@@ -86,10 +86,11 @@ def _get_diff_stats(datadir, names, desc_list, count_list):
         desc = desc_list[i]
         count = max(count_list[i], min_count)
         logging.info(f"Process {site}, {desc} trending")
-
-        tmpdir = Path(datadir, site)
-        if not tmpdir.exists(): continue
-        datafiles = tmpdir.glob(f"{site}*.json")
+        datafiles = []
+        for basedir in [datadir, moredir]:
+            tmpdir = Path(basedir, site)
+            if not tmpdir.exists(): continue
+            datafiles.extend(tmpdir.glob(f"{site}*.json"))
         datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
         files = datafiles[:count]
         logging.info(f"files = {len(datafiles)} / {len(files)}, max count = {count}")
@@ -183,7 +184,7 @@ def update_readme(basedir, moredir, limit=3):
     ]
 
     extra_parts = _get_extra_stats(basedir, moredir, EXTRA_SITES)
-    diff_parts = _get_diff_stats(basedir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 3])
+    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 3])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
     toc = ["- Table of Contents"]
     texts2 = []
