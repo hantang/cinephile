@@ -32,6 +32,34 @@ def _fill_num(max_num):
     return len(num) if num[0] < "9" else len(num) + 1
 
 
+def _flatten_data(data, default_key="", exclude_keys=None, fix_key=True):
+    # 拉平嵌套的dict
+    if fix_key:
+        default_key = default_key.lower().replace("-", "_")
+    if isinstance(data, dict):
+        out = {}
+        for k, v in data.items():
+            data2 = _flatten_data(v, k, exclude_keys, fix_key)
+            for k2, v2 in data2.items():
+                if exclude_keys and k2 in exclude_keys: continue
+                out[k2] = v2
+        return out
+    else:
+        return {default_key: data}
+
+
+def _extra_num(num_str):
+    if isinstance(num_str, int) or isinstance(num_str, float):
+        return num_str
+    elif isinstance(num_str, str):
+        nums = re.findall(r"(\d+(\.\d*)?)", num_str)
+        if nums:
+            return nums[0][0]
+        return 0.
+    else:
+        return 0.
+
+
 class MovieTag(Enum):
     UNK = "unk"
 
@@ -482,8 +510,7 @@ class Movie(BaseMovie):
             imdb_id: Optional[str] = None,
             douban: Optional[DoubanMovie] = None,
             imdb: Optional[ImdbMovie] = None,
-            **kwargs,
-    ):
+            **kwargs):
         super().__init__(title, category, year, region, director, genre, **kwargs)
         self._tag = tag if tag else MovieTag.UNK
         self._rank = rank if rank else 0
@@ -496,9 +523,11 @@ class Movie(BaseMovie):
         actors = _query(self._extra, ["actor", "actors", "staff"])
         staff = " / ".join([v for v in [self.director, actors] if v])
         score = _query(self._extra, ["score"])
-        if score and isinstance(score, str):
-            score = re.findall(r"(\d+(\.\d*)?)", score)[0][0]
-        score = float(score) if score else 0.
+        if score:
+            if isinstance(score, dict):
+                score = _query(score, ["score"])
+        url = _query(self._extra, ["url", "link"])
+        title_markdown = f"[{self._title}]({url})" if url and url.startswith("http") else self._title
         out = {
             "title": self._title,
             "category": self._category,
@@ -508,10 +537,11 @@ class Movie(BaseMovie):
             "genre": self._genre,
             "rank": self._rank,
             "tag": self._tag.value,
-            "url": _query(self._extra, ["url", "link"]),
+            "url": url,
+            "title_markdown": title_markdown,
             "cover": _query(self._extra, ["cover", "img", "image"]),
             "staff": staff,
-            "score": score,
+            "score": float(_extra_num(score)),
 
             "douban_id": self._douban_id,
             "douban_score": _query(self._extra, ["douban_score"]),
@@ -533,7 +563,14 @@ class Movie(BaseMovie):
                 "imdb_score": self._imdb.score,
                 "imdb_vote": self._imdb.vote,
             })
-
+        if out["douban_score"] and isinstance(out["douban_score"], str):
+            out["douban_score"] = float(_extra_num(out["douban_score"]))
+        if out["douban_vote"] and isinstance(out["douban_vote"], str):
+            out["douban_vote"] = int(_extra_num(out["douban_vote"]))
+        if out["imdb_score"] and isinstance(out["imdb_score"], str):
+            out["imdb_score"] = float(_extra_num(out["imdb_score"]))
+        if out["imdb_vote"] and isinstance(out["imdb_vote"], str):
+            out["imdb_vote"] = int(_extra_num(out["imdb_vote"]))
         return out
 
     def to_dict(self) -> dict:
@@ -595,21 +632,17 @@ class Movie(BaseMovie):
             cover_key = f"douban_{cover_key}"
         elif "amazon.com" in cover:
             cover_key = f"imdb_{cover_key}"
-        extra = {}
-        for k, v in tmp_extra.items():
-            if k not in all_keys:
-                extra[k] = v
-        for k, v in {url_key: url, cover_key: cover}.items():
-            if v and k not in all_keys and k not in extra:
-                extra[k] = v
-        for k, v in json_data.items():
-            k = k.replace("-", "_")
-            if k not in all_keys and k not in extra:
-                extra[k] = v
+
         if url_key == "douban_url" and not douban_id:
             douban_id = url.strip("/").split("/")[-1]
         if url_key == "imdb_url" and not imdb_id:
             imdb_id = url.strip("/").split("/")[-1]
+
+        extra = {url_key: url, cover_key: cover}
+        extra1 = _flatten_data(tmp_extra, exclude_keys=all_keys)
+        extra2 = _flatten_data(json_data, exclude_keys=all_keys)
+        extra.update(extra1)
+        extra.update(extra2)
 
         movie = cls(title, category, year, region, director, genre, tag=tag, rank=rank,
                     douban_id=douban_id, imdb_id=imdb_id, douban=douban, imdb=imdb, **extra)
