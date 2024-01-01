@@ -265,7 +265,7 @@ def parse_imdb_page_detail(page, **kwargs):
     imdb_cover = cover
     imdb_rank = top_rank
     imdb_id = movie_id
-    score_count = count
+    vote = count
     genre = " / ".join([v.strip() for v in genres])
     reviews = {k: info_dict.get(k) for k in ["User reviews", "Critic reviews"]}
     resources = {"video": video_cnt, "photo": photo_cnt}
@@ -289,7 +289,7 @@ def parse_imdb_page_detail(page, **kwargs):
                      title_alias,
                      title_orig,
                      score,
-                     score_count,
+                     vote,
                      metascore,
                      rating,
                      summary,

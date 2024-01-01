@@ -89,16 +89,16 @@ def parse_maoyan_detail(page, **kwargs):
     info1 = [strip(v.text) for v in banner.find("ul").find_all("li")]  # genre, region/length, release_date
     stats = banner_right.find(class_="movie-stats-container")
     # todo # 空白字体还原
-    score, score_count, box = None, None, None
+    score, vote, box = None, None, None
     # score = stats.find(class_="score").find("span", class_="index-left")
-    # score_count = stats.find(class_="score").find("div", class_="index-right")
+    # vote = stats.find(class_="score").find("div", class_="index-right")
     # box = stats.find(class_="box")
     # if score:
     #     score = strip(score.text)
     #     score = "".join([font_map.get(c, c) for c in score])
-    # if score_count:
-    #     score_count = strip(score_count.text)
-    #     score_count = "".join([font_map.get(c, c) for c in score_count])
+    # if vote:
+    #     vote = strip(vote.text)
+    #     vote = "".join([font_map.get(c, c) for c in vote])
     # if box:
     #     box = strip(box.text)
     #     box = "".join([font_map.get(c, c) for c in box])
@@ -135,7 +135,7 @@ def parse_maoyan_detail(page, **kwargs):
         "maoyan_cover": img,
         "maoyan_titles": [title2],
         "maoyan_score": score,
-        "maoyan_vote": score_count,
+        "maoyan_vote": vote,
         "maoyan_staff": staff,
         "maoyan_info": info1 + attrs,
         "maoyan_summary": summary,

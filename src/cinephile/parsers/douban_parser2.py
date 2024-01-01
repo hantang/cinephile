@@ -151,12 +151,15 @@ def parse_annual_data1(page, **kwargs):
             link = item["url"]
             img = item["cover"]
             title = item["title"]
-            score, count = item["rating"], item["rating_count"]
+            score = item["rating"]
+            vote = item["rating_count"]
+            weights = item["rating_stats"]
             extra = {
                 "douban_url": link,
                 "douban_cover": img,
                 "douban_score": score,
-                "douban_vote": count,
+                "douban_vote": vote,
+                "douban_weights": weights,
                 "douban_staff": item["info"],
                 "douban_title_orig": item["orig_title"],
             }
@@ -205,7 +208,7 @@ def parse_annual_data2(page, **kwargs):
             img = item["cover_url"]
             title = item["title"]
             score = item["rating"]["value"]
-            count = item["rating"]["rating_count"]
+            vote = item["rating"]["rating_count"]
             parts = [p.strip() for p in item["card_subtitle"].split("/")]
             year, region, genre, staff = (
                 parts[0],
@@ -218,7 +221,7 @@ def parse_annual_data2(page, **kwargs):
                 "douban_url": link,
                 "douban_cover": img,
                 "douban_score": score,
-                "douban_vote": count,
+                "douban_vote": vote,
                 "douban_region": region,
                 "douban_staff": staff,
             }
