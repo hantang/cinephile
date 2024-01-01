@@ -38,6 +38,5 @@ MANIFEST
 # local
 .trash/
 back/
-tmp/
 temp/
 todo/
