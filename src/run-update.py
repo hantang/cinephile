@@ -168,15 +168,19 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
     return parts
 
 
-def update_readme(basedir, moredir, limit=3):
+def update_readme(basedir, moredir, limit=50):
     readfile = Path(f"{BASEDIR}/README.md")
     hr_line = "-" * 3
+    more_line = "<!-- more -->"
     raw_readmes = []
     if readfile.exists():
         with open(readfile) as f:
-            raw_readmes = f.readlines()[:limit]
-    raw_readmes += ["\n" * max(0, limit - len(raw_readmes))]
-    logging.info(f"readme = {raw_readmes}")
+            line_num = 0
+            for line in f:
+                raw_readmes.append(line)
+                if line.strip() == more_line or line_num > limit:
+                    break
+    logging.info(f"readme = \n{''.join(raw_readmes)}")
 
     texts = [
         "".join(raw_readmes).strip(),
