@@ -177,6 +177,7 @@ def update_readme(basedir, moredir, limit=50):
         with open(readfile) as f:
             line_num = 0
             for line in f:
+                line_num += 1
                 raw_readmes.append(line)
                 if line.strip() == more_line or line_num > limit:
                     break

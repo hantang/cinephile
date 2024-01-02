@@ -1,8 +1,8 @@
 # Cinéphile: Top Movies List
 
-豆瓣（douban.com）、IMDb（imdb.com）、时光网（mtime.com）、猫眼（maoyan.com）、TMDb（themoviedb.org）Top电影定时抓取。
-
 最近更新：二〇二四年一月一日（星期一）20:41:04 +0800
+
+豆瓣（douban.com）、IMDb（imdb.com）、时光网（mtime.com）、猫眼（maoyan.com）、TMDb（themoviedb.org）Top电影定时抓取。
 
 - site: [Cinéphile](https://hantang.github.io/cinephile/)
 
@@ -16,6 +16,8 @@ pip install mkdocs-minify-plugin mkdocs-table-reader-plugin  mkdocs-glightbox  m
 # 启动服务
 mkdocs serve
 ```
+
+<!-- more -->
 
 - Table of Contents
   - [豆瓣电影实时和近期热门榜单](#豆瓣电影实时和近期热门榜单)
