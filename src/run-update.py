@@ -173,19 +173,28 @@ def update_readme(basedir, moredir, limit=50):
     hr_line = "-" * 3
     more_line = "<!-- more -->"
     raw_readmes = []
+    update_line = "最近更新："
+    update_line_num = -1
     if readfile.exists():
         with open(readfile) as f:
             line_num = 0
             for line in f:
                 line_num += 1
+                line = line.rstrip()
                 raw_readmes.append(line)
-                if line.strip() == more_line or line_num > limit:
+                if line == more_line or line_num > limit:
                     break
-    logging.info(f"readme = \n{''.join(raw_readmes)}")
+                if line.startswith(update_line) and update_line_num < 0:
+                    update_line_num = line_num - 1
 
+    logging.info(f"readme = \n" + '\n'.join(raw_readmes))
+    update_line2 = update_line + str(datetimes.time2zh())
+    if update_line_num >= 0:
+        raw_readmes[update_line_num] = update_line2
+    else:
+        raw_readmes.append(update_line2)
     texts = [
-        "".join(raw_readmes).strip(),
-        "最近更新：{}".format(datetimes.time2zh())
+        "\n".join(raw_readmes).strip(),
     ]
 
     extra_parts = _get_extra_stats(basedir, moredir, EXTRA_SITES)
