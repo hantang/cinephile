@@ -24,7 +24,7 @@ AFI 百年百大电影
 - (https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movies)
 - (https://www.douban.com/doulist/1736890/)
 
-{{ read_csv("../../data/afi-top100-v1998.csv") }}
+{{ read_csv("../../data/csv/afi-top100-v1998.csv") }}
 
 ## Top 100 (2007)
 
@@ -33,7 +33,7 @@ AFI 百年百大电影
 - https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movies_(10th_Anniversary_Edition)
 - (https://www.douban.com/doulist/1736888/)
 
-{{ read_csv("../../data/afi-top100-v2007.csv") }}
+{{ read_csv("../../data/csv/afi-top100-v2007.csv") }}
 
 ## 更多榜单
 

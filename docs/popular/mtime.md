@@ -12,4 +12,4 @@ hide:
 
 [Mtime时光网 —— 榜单/片单](http://list.mtime.com/listIndex)
 
-{{ read_csv("../../data/mtime-top100-v20231019.csv") }}
+{{ read_csv("../../data/csv/mtime-top100-v20231019.csv") }}

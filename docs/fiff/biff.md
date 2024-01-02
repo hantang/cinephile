@@ -19,7 +19,7 @@ hide:
 - ~~`https://www.biff.kr/eng/html/project/best_100movie.asp?biff_code=2021&section=asia_best`~~
 - [釜山电影节评选有史以来百佳亚洲电影(2021) - douban.com](https://www.douban.com/doulist/146617212/)
 
-{{ read_csv("../../data/biff-asia-top100-v2021.csv") }}
+{{ read_csv("../../data/csv/biff-asia-top100-v2021.csv") }}
 
 ### BIFF 2021 年最近 25 年（1996-2021）百佳亚洲电影
 

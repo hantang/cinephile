@@ -11,13 +11,13 @@ hide:
 
 [The Greatest Films of All Time](https://www.bfi.org.uk/sight-and-sound/directors-100-greatest-films-all-time)
 
-{{ read_csv("../../data/bfi-top100-directors-v2022.csv") }}
+{{ read_csv("../../data/csv/bfi-top100-directors-v2022.csv") }}
 
 ## 2022 年影评人评选电影 Top 250
 
 [Directors’ 100 Greatest Films of All Time](https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time)
 
-{{ read_csv("../../data/bfi-top250-critics-v2022.csv") }}
+{{ read_csv("../../data/csv/bfi-top250-critics-v2022.csv") }}
 
 ## 导演版Top100/影评人版Top250历史版本
 

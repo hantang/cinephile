@@ -10,4 +10,4 @@ hide:
 
 更新时间：`2023-10-19T00:12:15Z`
 
-{{ read_csv("../../data/douban-top250-v20231019.csv") }}
+{{ read_csv("../../data/csv/douban-top250-v20231019.csv") }}

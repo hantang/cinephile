@@ -38,40 +38,40 @@ hide:
 
 > 2023/12/26 发布
 
-{{ read_csv("../../data/douban-annual2023.csv") }}
+{{ read_csv("../../data/csv/douban-annual2023.csv") }}
 
 ## 2022 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2022.csv") }}
+{{ read_csv("../../data/csv/douban-annual2022.csv") }}
 
 ## 2021 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2021.csv") }}
+{{ read_csv("../../data/csv/douban-annual2021.csv") }}
 
 ## 2020 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2020.csv") }}
+{{ read_csv("../../data/csv/douban-annual2020.csv") }}
 
 ## 2019 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2019.csv") }}
+{{ read_csv("../../data/csv/douban-annual2019.csv") }}
 
 ## 2018 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2018.csv") }}
+{{ read_csv("../../data/csv/douban-annual2018.csv") }}
 
 ## 2017 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2017.csv") }}
+{{ read_csv("../../data/csv/douban-annual2017.csv") }}
 
 ## 2016 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2016.csv") }}
+{{ read_csv("../../data/csv/douban-annual2016.csv") }}
 
 ## 2015 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2015.csv") }}
+{{ read_csv("../../data/csv/douban-annual2015.csv") }}
 
 ## 2014 年度电影榜单
 
-{{ read_csv("../../data/douban-annual2014.csv") }}
+{{ read_csv("../../data/csv/douban-annual2014.csv") }}

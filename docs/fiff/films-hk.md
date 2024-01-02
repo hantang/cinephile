@@ -58,4 +58,4 @@ hide:
 
 ## 汇总榜单
 
-{{ read_csv("../../data/zlist-movies-hk.csv") }}
+{{ read_csv("../../data/csv/zlist-movies-hk.csv") }}

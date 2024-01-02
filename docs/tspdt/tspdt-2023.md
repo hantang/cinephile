@@ -12,4 +12,4 @@ Published on April 5, 2023
 
 ## Top 1000
 
-{{ read_csv("../../data/tspdt-top1000-v20231016.csv") }}
+{{ read_csv("../../data/csv/tspdt-top1000-v20231016.csv") }}

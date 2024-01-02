@@ -15,4 +15,4 @@ hide:
 
 [250 лучших фильмов — Кинопоиск 俄罗斯电影网站 Kinopoisk 250 部最佳影片](https://www.kinopoisk.ru/lists/movies/top250/)
 
-{{ read_csv("../../data/kinopoisk-top250-v20231016.csv") }}
+{{ read_csv("../../data/csv/kinopoisk-top250-v20231016.csv") }}

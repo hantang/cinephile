@@ -33,4 +33,4 @@ hide:
 
 目前大约1200多部电影（含有电视剧，短片）。
 
-{{ read_csv("../../data/1001-movies-full.csv") }}
+{{ read_csv("../../data/csv/1001-movies-full.csv") }}
