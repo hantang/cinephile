@@ -1,11 +1,12 @@
 # site information
-site_name: "cinéphile: top movies / films"
+site_name: "Cinéphile: top movies / films"
 site_url: https://hantang.github.io/cinephile
 site_description: top movie collections
 copyright: Copyright &copy; 2023 Hantang
 # docs_dir: docs/
 
 # Repository
+repo_name: hantang/cinephile
 repo_url: https://github.com/hantang/cinephile
 # edit_uri: tree/main
 
@@ -14,6 +15,9 @@ theme:
   # language: "zh"
   icon:
     logo: material/movie
+  font:
+    text: Helvetica Neue, Roboto
+    code: Fira Mono, Fira Code, Roboto Mono
   palette:
     - scheme: default
       primary: deep purple
@@ -27,77 +31,54 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to light mode
-  font:
-    text: Helvetica Neue, Roboto
-    code: Fira Code, Roboto Mono
   features:
-    - announce.dismiss
+    - navigation.path
     - navigation.tabs
     - navigation.top
-    - navigation.instant
-    - navigation.indexes
-    - navigation.footer
-    - navigation.sections
-    - navigation.path
-    - navigation.tracking
-    - toc.follow
-    - content.tabs.link
-    - search.share
     - search.highlight
     - search.suggest
-    - content.code.copy
-    - content.code.annotations
+    - toc.follow
+    # - toc.integrate
 
 markdown_extensions:
-  - footnotes
   - abbr
-  - tables
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
-  - mdx_truly_sane_lists
-  - toc:
-      permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 4
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+          percent_encode: true
+  - tables
+  - mdx_truly_sane_lists
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/tablesort.js
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hantang
 
-extra_css:
-  - assets/stylesheets/extra.css
-extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - assets/javascripts/tablesort.js
-
 plugins:
   - search
   - table-reader
-  # - minify:
-  #     minify_html: true
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
 
 nav:
   - Home:
     - 电影万岁: index.md
-    - 大众榜单:
-      - 榜单资料: popular/index.md
-      - 豆瓣电影: douban/index.md
-      - IMDb电影: imdb/index.md
-      - TSPDT电影: tspdt/index.md
-    - 专业榜单: 
-      - 榜单资料: fiff/index.md
-      - 榜单资料1: fiff/index-media.md
-      - 榜单资料2: fiff/index-region.md
-      - 法国《电影手册》(Cahiers du cinéma): fiff/cahiers-100.md
-      - 英国《视与听》(BFI, Sight & Sound): fiff/sight.md
-      - 中国电影: fiff/films-zh.md
-      - 香港电影: fiff/films-hk.md
-      - 日本电影: fiff/films-jp.md
-    - 个人片单: 
-      - 榜单资料: users/index.md
-      - 1001电影系列: users/1001movies.md
   - FI&FF:
     - 专业榜单: fiff/index.md
     - 榜单资料1: fiff/index-media.md
@@ -128,11 +109,14 @@ nav:
     - TSPDT电影历年统计1: tspdt/tspdt-hist1.md
     - TSPDT电影历年统计2: tspdt/tspdt-hist2.md
   - More:
-    - 大众榜单: popular/index.md
-    - 个人片单: users/index.md
+    - 大众榜单: 
+      - popular/index.md
+    - 个人片单: 
+      - users/index.md
+      - 1001电影系列: users/1001movies.md
+      - 杂项: users/misc.md
     - 猫眼电影Top100: popular/maoyan.md
     - 时光电影Top100: popular/mtime.md
     - TMDB电影Top250: popular/tmdb.md
     - 俄罗斯Kinopoisk Top250: popular/kinopoisk.md
     - 不散评选: popular/busan.md
-    - 杂项: users/misc.md
