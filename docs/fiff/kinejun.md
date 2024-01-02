@@ -46,7 +46,7 @@ hide:
 
 ### 片单-日本电影
 
-{{ read_csv("../../data/kinejun-movies-jp-best100-1995.csv") }}
+{{ read_csv("../../data/csv/kinejun-movies-jp-best100-1995.csv") }}
 
 ## 1999 年(创刊 80 周年)《电影旬报》All Time Best 100
 
@@ -74,7 +74,7 @@ hide:
 
 ### 片单-日本和外国电影
 
-{{ read_csv("../../data/kinejun-movies-all-best100-1999.csv") }}
+{{ read_csv("../../data/csv/kinejun-movies-all-best100-1999.csv") }}
 
 ## 2009 年(创刊 90 周年)《电影旬报》映画遺産 200
 
@@ -84,4 +84,4 @@ hide:
 
 ### 片单-日本和外国电影
 
-{{ read_csv("../../data/kinejun-movies-all-best200-2009.csv") }}
+{{ read_csv("../../data/csv/kinejun-movies-all-best200-2009.csv") }}

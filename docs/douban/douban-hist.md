@@ -25,4 +25,4 @@ hide:
 
 ## 详细列表
 
-{{ read_csv("../../data/douban-top250-hist-total.csv") }}
+{{ read_csv("../../data/csv/douban-top250-hist-total.csv") }}

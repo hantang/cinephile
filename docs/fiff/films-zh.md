@@ -406,4 +406,4 @@ hide:
 
 ## 汇总榜单
 
-{{ read_csv("../../data/zlist-movies-zh.csv") }}
+{{ read_csv("../../data/csv/zlist-movies-zh.csv") }}

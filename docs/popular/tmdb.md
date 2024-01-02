@@ -11,4 +11,4 @@ hide:
 
 [Top Rated Movies - The Movie Database (TMDB)](https://www.themoviedb.org/movie/top-rated)
 
-{{ read_csv("../../data/tmdb-top-v20231019.csv") }}
+{{ read_csv("../../data/csv/tmdb-top-v20231019.csv") }}

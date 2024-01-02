@@ -33,7 +33,7 @@ hide:
 
 ## 榜单
 
-{{ read_csv("../../data/cinephilia-top10x10-2012.csv") }}
+{{ read_csv("../../data/csv/cinephilia-top10x10-2012.csv") }}
 
 
 ## 评选人士
