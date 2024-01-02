@@ -1,5 +1,7 @@
-mkdocs
-mkdocs-material
-mkdocs-minify-plugin
-mkdocs-table-reader-plugin
-mdx_truly_sane_lists
+beautifulsoup4
+fake_useragent
+requests
+pendulum
+tabulate
+html5lib
+pandas

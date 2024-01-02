@@ -1,0 +1,5229 @@
+{
+  "datetime": "2023-10-14 22:12:00",
+  "movies": [
+    {
+      "rank": "1",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp",
+      "link": "https://movie.douban.com/subject/1292052/",
+      "title": [
+        "肖申克的救赎",
+        "The Shawshank Redemption"
+      ],
+      "info": {
+        "director": "导演: 弗兰克·德拉邦特 Frank Darabont",
+        "actor": "主演: 蒂姆·罗宾斯 Tim Robbins /...",
+        "year": "1994",
+        "region": "美国",
+        "genre": "犯罪 剧情"
+      },
+      "star": {
+        "score": "9.7",
+        "count": "2932753"
+      },
+      "quote": "希望让人自由。"
+    },
+    {
+      "rank": "2",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.webp",
+      "link": "https://movie.douban.com/subject/1291546/",
+      "title": [
+        "霸王别姬"
+      ],
+      "info": {
+        "director": "导演: 陈凯歌 Kaige Chen",
+        "actor": "主演: 张国荣 Leslie Cheung / 张丰毅 Fengyi Zha...",
+        "year": "1993",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情 爱情 同性"
+      },
+      "star": {
+        "score": "9.6",
+        "count": "2165781"
+      },
+      "quote": "风华绝代。"
+    },
+    {
+      "rank": "3",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2372307693.webp",
+      "link": "https://movie.douban.com/subject/1292720/",
+      "title": [
+        "阿甘正传",
+        "Forrest Gump"
+      ],
+      "info": {
+        "director": "导演: 罗伯特·泽米吉斯 Robert Zemeckis",
+        "actor": "主演: 汤姆·汉克斯 Tom Hanks / ...",
+        "year": "1994",
+        "region": "美国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "9.5",
+        "count": "2186356"
+      },
+      "quote": "一部美国近现代史。"
+    },
+    {
+      "rank": "4",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2896604953.webp",
+      "link": "https://movie.douban.com/subject/1292722/",
+      "title": [
+        "泰坦尼克号",
+        "Titanic"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·卡梅隆 James Cameron",
+        "actor": "主演: 莱昂纳多·迪卡普里奥 Leonardo...",
+        "year": "1997",
+        "region": "美国 墨西哥",
+        "genre": "剧情 爱情 灾难"
+      },
+      "star": {
+        "score": "9.5",
+        "count": "2219335"
+      },
+      "quote": "失去的才是永恒的。"
+    },
+    {
+      "rank": "5",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p511118051.webp",
+      "link": "https://movie.douban.com/subject/1295644/",
+      "title": [
+        "这个杀手不太冷",
+        "Léon"
+      ],
+      "info": {
+        "director": "导演: 吕克·贝松 Luc Besson",
+        "actor": "主演: 让·雷诺 Jean Reno / 娜塔莉·波特曼 ...",
+        "year": "1994",
+        "region": "法国 美国",
+        "genre": "剧情 动作 犯罪"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "2318774"
+      },
+      "quote": "怪蜀黍和小萝莉不得不说的故事。"
+    },
+    {
+      "rank": "6",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp",
+      "link": "https://movie.douban.com/subject/1291561/",
+      "title": [
+        "千与千寻",
+        "千と千尋の神隠し"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 柊瑠美 Rumi Hîragi / 入野自由 Miy...",
+        "year": "2001",
+        "region": "日本",
+        "genre": "剧情 动画 奇幻"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "2269928"
+      },
+      "quote": "最好的宫崎骏，最好的久石让。"
+    },
+    {
+      "rank": "7",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp",
+      "link": "https://movie.douban.com/subject/1292063/",
+      "title": [
+        "美丽人生",
+        "La vita è bella"
+      ],
+      "info": {
+        "director": "导演: 罗伯托·贝尼尼 Roberto Benigni",
+        "actor": "主演: 罗伯托·贝尼尼 Roberto Beni...",
+        "year": "1997",
+        "region": "意大利",
+        "genre": "剧情 喜剧 爱情 战争"
+      },
+      "star": {
+        "score": "9.6",
+        "count": "1340992"
+      },
+      "quote": "最美的谎言。"
+    },
+    {
+      "rank": "8",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.webp",
+      "link": "https://movie.douban.com/subject/1889243/",
+      "title": [
+        "星际穿越",
+        "Interstellar"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 马修·麦康纳 Matthew Mc...",
+        "year": "2014",
+        "region": "美国 英国 加拿大",
+        "genre": "剧情 科幻 冒险"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "1873524"
+      },
+      "quote": "爱是一种力量，让我们超越时空感知它的存在。"
+    },
+    {
+      "rank": "9",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp",
+      "link": "https://movie.douban.com/subject/1295124/",
+      "title": [
+        "辛德勒的名单",
+        "Schindler's List"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 连姆·尼森 Liam Neeson...",
+        "year": "1993",
+        "region": "美国",
+        "genre": "剧情 历史 战争"
+      },
+      "star": {
+        "score": "9.6",
+        "count": "1118934"
+      },
+      "quote": "拯救一个人，就是拯救整个世界。"
+    },
+    {
+      "rank": "10",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.webp",
+      "link": "https://movie.douban.com/subject/3541415/",
+      "title": [
+        "盗梦空间",
+        "Inception"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 莱昂纳多·迪卡普里奥 Le...",
+        "year": "2010",
+        "region": "美国 英国",
+        "genre": "剧情 科幻 悬疑 冒险"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "2090427"
+      },
+      "quote": "诺兰给了我们一场无法盗取的梦。"
+    },
+    {
+      "rank": "11",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p479682972.webp",
+      "link": "https://movie.douban.com/subject/1292064/",
+      "title": [
+        "楚门的世界",
+        "The Truman Show"
+      ],
+      "info": {
+        "director": "导演: 彼得·威尔 Peter Weir",
+        "actor": "主演: 金·凯瑞 Jim Carrey / 劳拉·琳妮 Lau...",
+        "year": "1998",
+        "region": "美国",
+        "genre": "剧情 科幻"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "1737417"
+      },
+      "quote": "如果再也不能见到你，祝你早安，午安，晚安。"
+    },
+    {
+      "rank": "12",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.webp",
+      "link": "https://movie.douban.com/subject/3011091/",
+      "title": [
+        "忠犬八公的故事",
+        "Hachi: A Dog's Tale"
+      ],
+      "info": {
+        "director": "导演: 莱塞·霍尔斯道姆 Lasse Hallström",
+        "actor": "主演: 理查·基尔 Richard Ger...",
+        "year": "2009",
+        "region": "美国 英国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "1412116"
+      },
+      "quote": "永远都不能忘记你所爱的人。"
+    },
+    {
+      "rank": "13",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574551676.webp",
+      "link": "https://movie.douban.com/subject/1292001/",
+      "title": [
+        "海上钢琴师",
+        "La leggenda del pianista sull'oceano"
+      ],
+      "info": {
+        "director": "导演: 朱塞佩·托纳多雷 Giuseppe Tornatore",
+        "actor": "主演: 蒂姆·罗斯 Tim Roth / ...",
+        "year": "1998",
+        "region": "意大利",
+        "genre": "剧情 音乐"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "1695589"
+      },
+      "quote": "每个人都要走一条自己坚定了的路，就算是粉身碎骨。"
+    },
+    {
+      "rank": "14",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.webp",
+      "link": "https://movie.douban.com/subject/3793023/",
+      "title": [
+        "三傻大闹宝莱坞",
+        "3 Idiots"
+      ],
+      "info": {
+        "director": "导演: 拉库马·希拉尼 Rajkumar Hirani",
+        "actor": "主演: 阿米尔·汗 Aamir Khan / 卡...",
+        "year": "2009",
+        "region": "印度",
+        "genre": "剧情 喜剧 爱情 歌舞"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1878285"
+      },
+      "quote": "英俊版憨豆，高情商版谢耳朵。"
+    },
+    {
+      "rank": "15",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.webp",
+      "link": "https://movie.douban.com/subject/1291549/",
+      "title": [
+        "放牛班的春天",
+        "Les choristes"
+      ],
+      "info": {
+        "director": "导演: 克里斯托夫·巴拉蒂 Christophe Barratier",
+        "actor": "主演: 让-巴蒂斯特·莫尼...",
+        "year": "2004",
+        "region": "法国 瑞士 德国",
+        "genre": "剧情 音乐"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "1326962"
+      },
+      "quote": "天籁一般的童声，是最接近上帝的存在。"
+    },
+    {
+      "rank": "16",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp",
+      "link": "https://movie.douban.com/subject/2131459/",
+      "title": [
+        "机器人总动员",
+        "WALL·E"
+      ],
+      "info": {
+        "director": "导演: 安德鲁·斯坦顿 Andrew Stanton",
+        "actor": "主演: 本·贝尔特 Ben Burtt / 艾丽...",
+        "year": "2008",
+        "region": "美国",
+        "genre": "科幻 动画 冒险"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "1331319"
+      },
+      "quote": "小瓦力，大人生。"
+    },
+    {
+      "rank": "17",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2896589742.webp",
+      "link": "https://movie.douban.com/subject/25662329/",
+      "title": [
+        "疯狂动物城",
+        "Zootopia"
+      ],
+      "info": {
+        "director": "导演: 拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore",
+        "actor": "主演: 金妮弗·...",
+        "year": "2016",
+        "region": "美国",
+        "genre": "喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1966092"
+      },
+      "quote": "迪士尼给我们营造的乌托邦就是这样，永远善良勇敢，永远出乎意料。"
+    },
+    {
+      "rank": "18",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2564556863.webp",
+      "link": "https://movie.douban.com/subject/1307914/",
+      "title": [
+        "无间道",
+        "無間道"
+      ],
+      "info": {
+        "director": "导演: 刘伟强 / 麦兆辉",
+        "actor": "主演: 刘德华 Andy Lau / 梁朝伟 Tony Leung Chiu W...",
+        "year": "2002",
+        "region": "中国香港",
+        "genre": "剧情 犯罪 惊悚"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "1382278"
+      },
+      "quote": "香港电影史上永不过时的杰作。"
+    },
+    {
+      "rank": "19",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1505392928.webp",
+      "link": "https://movie.douban.com/subject/1296141/",
+      "title": [
+        "控方证人",
+        "Witness for the Prosecution"
+      ],
+      "info": {
+        "director": "导演: 比利·怀尔德 Billy Wilder",
+        "actor": "主演: 泰隆·鲍华 Tyrone Power / 玛琳·...",
+        "year": "1957",
+        "region": "美国",
+        "genre": "剧情 犯罪 悬疑"
+      },
+      "star": {
+        "score": "9.6",
+        "count": "573717"
+      },
+      "quote": "比利·怀德满分作品。"
+    },
+    {
+      "rank": "20",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp",
+      "link": "https://movie.douban.com/subject/1292213/",
+      "title": [
+        "大话西游之大圣娶亲",
+        "西遊記大結局之仙履奇緣"
+      ],
+      "info": {
+        "director": "导演: 刘镇伟 Jeffrey Lau",
+        "actor": "主演: 周星驰 Stephen Chow / 吴孟达 Man Tat Ng...",
+        "year": "1995",
+        "region": "中国香港 中国大陆",
+        "genre": "喜剧 爱情 奇幻 古装"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1550215"
+      },
+      "quote": "一生所爱。"
+    },
+    {
+      "rank": "21",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.webp",
+      "link": "https://movie.douban.com/subject/5912992/",
+      "title": [
+        "熔炉",
+        "도가니"
+      ],
+      "info": {
+        "director": "导演: 黄东赫 Dong-hyuk Hwang",
+        "actor": "主演: 孔侑 Yoo Gong / 郑有美 Yu-mi Jung /...",
+        "year": "2011",
+        "region": "韩国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "941183"
+      },
+      "quote": "我们一路奋战不是为了改变世界，而是为了不让世界改变我们。"
+    },
+    {
+      "rank": "22",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp",
+      "link": "https://movie.douban.com/subject/1291841/",
+      "title": [
+        "教父",
+        "The Godfather"
+      ],
+      "info": {
+        "director": "导演: 弗朗西斯·福特·科波拉 Francis Ford Coppola",
+        "actor": "主演: 马龙·白兰度 M...",
+        "year": "1972",
+        "region": "美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "980151"
+      },
+      "quote": "千万不要记恨你的对手，这样会让你失去理智。"
+    },
+    {
+      "rank": "23",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp",
+      "link": "https://movie.douban.com/subject/6786002/",
+      "title": [
+        "触不可及",
+        "Intouchables"
+      ],
+      "info": {
+        "director": "导演: 奥利维·那卡什 Olivier Nakache / 艾力克·托兰达 Eric Toledano",
+        "actor": "主...",
+        "year": "2011",
+        "region": "法国",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "1131423"
+      },
+      "quote": "满满温情的高雅喜剧。"
+    },
+    {
+      "rank": "24",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2614359276.webp",
+      "link": "https://movie.douban.com/subject/1849031/",
+      "title": [
+        "当幸福来敲门",
+        "The Pursuit of Happyness"
+      ],
+      "info": {
+        "director": "导演: 加布里尔·穆奇诺 Gabriele Muccino",
+        "actor": "主演: 威尔·史密斯 Will Smith ...",
+        "year": "2006",
+        "region": "美国",
+        "genre": "剧情 传记 家庭"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1536533"
+      },
+      "quote": "平民励志片。"
+    },
+    {
+      "rank": "25",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p452089833.webp",
+      "link": "https://movie.douban.com/subject/1293172/",
+      "title": [
+        "末代皇帝",
+        "The Last Emperor"
+      ],
+      "info": {
+        "director": "导演: 贝纳尔多·贝托鲁奇 Bernardo Bertolucci",
+        "actor": "主演: 尊龙 John Lone / 陈...",
+        "year": "1987",
+        "region": "英国 意大利 中国大陆 法国",
+        "genre": "剧情 传记 历史"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "898716"
+      },
+      "quote": "“不要跟我比惨，我比你更惨”再适合这部电影不过了。"
+    },
+    {
+      "rank": "26",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589968.webp",
+      "link": "https://movie.douban.com/subject/20495023/",
+      "title": [
+        "寻梦环游记",
+        "Coco"
+      ],
+      "info": {
+        "director": "导演: 李·昂克里奇 Lee Unkrich / 阿德里安·莫利纳 Adrian Molina",
+        "actor": "主演: ...",
+        "year": "2017",
+        "region": "美国",
+        "genre": "喜剧 动画 奇幻 音乐"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1706814"
+      },
+      "quote": "死亡不是真的逝去，遗忘才是永恒的消亡。"
+    },
+    {
+      "rank": "27",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp",
+      "link": "https://movie.douban.com/subject/1291560/",
+      "title": [
+        "龙猫",
+        "となりのトトロ"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 日高法子 Noriko Hidaka / 坂本千夏 Ch...",
+        "year": "1988",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1280528"
+      },
+      "quote": "人人心中都有个龙猫，童年就永远不会消失。"
+    },
+    {
+      "rank": "28",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.webp",
+      "link": "https://movie.douban.com/subject/3319755/",
+      "title": [
+        "怦然心动",
+        "Flipped"
+      ],
+      "info": {
+        "director": "导演: 罗伯·莱纳 Rob Reiner",
+        "actor": "主演: 玛德琳·卡罗尔 Madeline Carroll / 卡...",
+        "year": "2010",
+        "region": "美国",
+        "genre": "剧情 喜剧 爱情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1853938"
+      },
+      "quote": "真正的幸福是来自内心深处。"
+    },
+    {
+      "rank": "29",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.webp",
+      "link": "https://movie.douban.com/subject/1292365/",
+      "title": [
+        "活着"
+      ],
+      "info": {
+        "director": "导演: 张艺谋 Yimou Zhang",
+        "actor": "主演: 葛优 You Ge / 巩俐 Li Gong / 姜武 Wu Jiang",
+        "year": "1994",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情 历史 家庭"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "857046"
+      },
+      "quote": "张艺谋最好的电影。"
+    },
+    {
+      "rank": "30",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p462657443.webp",
+      "link": "https://movie.douban.com/subject/1851857/",
+      "title": [
+        "蝙蝠侠：黑暗骑士",
+        "The Dark Knight"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 克里斯蒂安·贝尔 Christ...",
+        "year": "2008",
+        "region": "美国 英国",
+        "genre": "剧情 动作 科幻 犯罪 惊悚"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1074741"
+      },
+      "quote": "无尽的黑暗。"
+    },
+    {
+      "rank": "31",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2614949805.webp",
+      "link": "https://movie.douban.com/subject/1295038/",
+      "title": [
+        "哈利·波特与魔法石",
+        "Harry Potter and the Sorcerer's Stone"
+      ],
+      "info": {
+        "director": "导演: Chris Columbus",
+        "actor": "主演: Daniel Radcliffe / Emma Watson / Rupert Grint",
+        "year": "2001",
+        "region": "美国 英国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "1210204"
+      },
+      "quote": "童话世界的开端。"
+    },
+    {
+      "rank": "32",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.webp",
+      "link": "https://movie.douban.com/subject/1291552/",
+      "title": [
+        "指环王3：王者无敌",
+        "The Lord of the Rings: The Return of the King"
+      ],
+      "info": {
+        "director": "导演: 彼得·杰克逊 Peter Jackson",
+        "actor": "主演: 伊利亚·伍德 Elijah Wood / 西恩...",
+        "year": "2003",
+        "region": "美国 新西兰",
+        "genre": "剧情 动作 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "813404"
+      },
+      "quote": "史诗的终章。"
+    },
+    {
+      "rank": "33",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561305376.webp",
+      "link": "https://movie.douban.com/subject/26752088/",
+      "title": [
+        "我不是药神"
+      ],
+      "info": {
+        "director": "导演: 文牧野 Muye Wen",
+        "actor": "主演: 徐峥 Zheng Xu / 王传君 Chuanjun Wang / 周...",
+        "year": "2018",
+        "region": "中国大陆",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "2129392"
+      },
+      "quote": "对我们国家而言，这样的电影多一部是一部。"
+    },
+    {
+      "rank": "34",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.webp",
+      "link": "https://movie.douban.com/subject/1300267/",
+      "title": [
+        "乱世佳人",
+        "Gone with the Wind"
+      ],
+      "info": {
+        "director": "导演: 维克多·弗莱明 Victor Fleming / 乔治·库克 George Cukor",
+        "actor": "主演: 费...",
+        "year": "1939",
+        "region": "美国",
+        "genre": "剧情 历史 爱情 战争"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "699950"
+      },
+      "quote": "Tomorrow is another day."
+    },
+    {
+      "rank": "35",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589700.webp",
+      "link": "https://movie.douban.com/subject/2129039/",
+      "title": [
+        "飞屋环游记",
+        "Up"
+      ],
+      "info": {
+        "director": "导演: 彼特·道格特 Pete Docter / 鲍勃·彼德森 Bob Peterson",
+        "actor": "主演: 爱德...",
+        "year": "2009",
+        "region": "美国",
+        "genre": "剧情 喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1341904"
+      },
+      "quote": "最后那些最无聊的事情，才是最值得怀念的。"
+    },
+    {
+      "rank": "36",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2118532944.webp",
+      "link": "https://movie.douban.com/subject/21937452/",
+      "title": [
+        "素媛",
+        "소원"
+      ],
+      "info": {
+        "director": "导演: 李濬益 Jun-ik Lee",
+        "actor": "主演: 薛景求 Kyung-gu Sol / 严志媛 Ji-won Uhm ...",
+        "year": "2013",
+        "region": "韩国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "695326"
+      },
+      "quote": "受过伤害的人总是笑得最开心，因为他们不愿意让身边的人承受一样的痛苦。"
+    },
+    {
+      "rank": "37",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2174346180.webp",
+      "link": "https://movie.douban.com/subject/1308807/",
+      "title": [
+        "哈尔的移动城堡",
+        "ハウルの動く城"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 倍赏千惠子 Chieko Baishô / 木村拓...",
+        "year": "2004",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1039732"
+      },
+      "quote": "带着心爱的人在天空飞翔。"
+    },
+    {
+      "rank": "38",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2173577632.webp",
+      "link": "https://movie.douban.com/subject/1293182/",
+      "title": [
+        "十二怒汉",
+        "12 Angry Men"
+      ],
+      "info": {
+        "director": "导演: Sidney Lumet",
+        "actor": "主演: 亨利·方达 Henry Fonda / 马丁·鲍尔萨姆 Marti...",
+        "year": "1957",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "498123"
+      },
+      "quote": "1957年的理想主义。"
+    },
+    {
+      "rank": "39",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2555295759.webp",
+      "link": "https://movie.douban.com/subject/30170448/",
+      "title": [
+        "何以为家",
+        "كفرناحوم"
+      ],
+      "info": {
+        "director": "导演: 娜丁·拉巴基 Nadine Labaki",
+        "actor": "主演: 扎因·拉费阿 Zain al-Rafeea / ...",
+        "year": "2018",
+        "region": "黎巴嫩 美国 法国 塞浦路斯 卡塔尔 英国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1056777"
+      },
+      "quote": "凝视卑弱生命，用电影改变命运。"
+    },
+    {
+      "rank": "40",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.webp",
+      "link": "https://movie.douban.com/subject/26387939/",
+      "title": [
+        "摔跤吧！爸爸",
+        "Dangal"
+      ],
+      "info": {
+        "director": "导演: 涅提·蒂瓦里 Nitesh Tiwari",
+        "actor": "主演: 阿米尔·汗 Aamir Khan / 法缇玛...",
+        "year": "2016",
+        "region": "印度",
+        "genre": "剧情 传记 运动 家庭"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "1586106"
+      },
+      "quote": "你不是在为你一个人战斗，你要让千千万万的女性看到女生并不是只能相夫教子。"
+    },
+    {
+      "rank": "41",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1512562287.webp",
+      "link": "https://movie.douban.com/subject/3742360/",
+      "title": [
+        "让子弹飞"
+      ],
+      "info": {
+        "director": "导演: 姜文 Wen Jiang",
+        "actor": "主演: 姜文 Wen Jiang / 葛优 You Ge / 周润发 Yun-F...",
+        "year": "2010",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情 喜剧 动作 西部"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "1719371"
+      },
+      "quote": "你给我翻译翻译，神马叫做TMD的惊喜。"
+    },
+    {
+      "rank": "42",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p453924541.webp",
+      "link": "https://movie.douban.com/subject/1305487/",
+      "title": [
+        "猫鼠游戏",
+        "Catch Me If You Can"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 莱昂纳多·迪卡普里奥 L...",
+        "year": "2002",
+        "region": "美国 加拿大",
+        "genre": "传记 犯罪 剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1041985"
+      },
+      "quote": "骗子大师和执著警探的你追我跑故事。"
+    },
+    {
+      "rank": "43",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2892380420.webp",
+      "link": "https://movie.douban.com/subject/1291583/",
+      "title": [
+        "天空之城",
+        "天空の城ラピュタ"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 田中真弓 Mayumi Tanaka / 横泽启子 Ke...",
+        "year": "1986",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "885844"
+      },
+      "quote": "对天空的追逐，永不停止。"
+    },
+    {
+      "rank": "44",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553104888.webp",
+      "link": "https://movie.douban.com/subject/1291858/",
+      "title": [
+        "鬼子来了"
+      ],
+      "info": {
+        "director": "导演: 姜文 Wen Jiang",
+        "actor": "主演: 姜文 Wen Jiang / 香川照之 Teruyuki Kagawa /...",
+        "year": "2000",
+        "region": "中国大陆",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "634347"
+      },
+      "quote": "对敌人的仁慈，就是对自己残忍。"
+    },
+    {
+      "rank": "45",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896590696.webp",
+      "link": "https://movie.douban.com/subject/1929463/",
+      "title": [
+        "少年派的奇幻漂流",
+        "Life of Pi"
+      ],
+      "info": {
+        "director": "导演: 李安 Ang Lee",
+        "actor": "主演: 苏拉·沙玛 Suraj Sharma / 伊尔凡·可汗 Irrfan...",
+        "year": "2012",
+        "region": "美国 中国台湾 英国 加拿大",
+        "genre": "剧情 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "1362610"
+      },
+      "quote": "瑰丽壮观、无人能及的冒险之旅。"
+    },
+    {
+      "rank": "46",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2554525534.webp",
+      "link": "https://movie.douban.com/subject/25958717/",
+      "title": [
+        "海蒂和爷爷",
+        "Heidi"
+      ],
+      "info": {
+        "director": "导演: 阿兰·葛斯彭纳 Alain Gsponer",
+        "actor": "主演: 阿努克·斯特芬 Anuk Steffen /...",
+        "year": "2015",
+        "region": "德国 瑞士",
+        "genre": "剧情 冒险 家庭"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "628248"
+      },
+      "quote": "如果生活中有什么使你感到快乐，那就去做吧！不要管别人说什么。"
+    },
+    {
+      "rank": "47",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1381339291.webp",
+      "link": "https://movie.douban.com/subject/1296736/",
+      "title": [
+        "钢琴家",
+        "The Pianist"
+      ],
+      "info": {
+        "director": "导演: 罗曼·波兰斯基 Roman Polanski",
+        "actor": "主演: 艾德里安·布洛迪 Adrien Brod...",
+        "year": "2002",
+        "region": "英国 法国 波兰 德国",
+        "genre": "剧情 传记 战争 音乐"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "650392"
+      },
+      "quote": "音乐能化解仇恨。"
+    },
+    {
+      "rank": "48",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.webp",
+      "link": "https://movie.douban.com/subject/1299398/",
+      "title": [
+        "大话西游之月光宝盒",
+        "西遊記第壹佰零壹回之月光寶盒"
+      ],
+      "info": {
+        "director": "导演: 刘镇伟 Jeffrey Lau",
+        "actor": "主演: 周星驰 Stephen Chow / 吴孟达 Man Tat Ng...",
+        "year": "1995",
+        "region": "中国香港 中国大陆",
+        "genre": "喜剧 爱情 奇幻 古装"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "1234348"
+      },
+      "quote": "旷古烁今。"
+    },
+    {
+      "rank": "49",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.webp",
+      "link": "https://movie.douban.com/subject/1291572/",
+      "title": [
+        "指环王2：双塔奇兵",
+        "The Lord of the Rings: The Two Towers"
+      ],
+      "info": {
+        "director": "导演: 彼得·杰克逊 Peter Jackson",
+        "actor": "主演: 伊利亚·伍德 Elijah Wood / 西恩...",
+        "year": "2002",
+        "region": "美国 新西兰",
+        "genre": "剧情 动作 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "763118"
+      },
+      "quote": "承前启后的史诗篇章。"
+    },
+    {
+      "rank": "50",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.webp",
+      "link": "https://movie.douban.com/subject/1298624/",
+      "title": [
+        "闻香识女人",
+        "Scent of a Woman"
+      ],
+      "info": {
+        "director": "导演: 马丁·布莱斯 Martin Brest",
+        "actor": "主演: 阿尔·帕西诺 Al Pacino / 克里斯...",
+        "year": "1992",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "897992"
+      },
+      "quote": "史上最美的探戈。"
+    },
+    {
+      "rank": "51",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp",
+      "link": "https://movie.douban.com/subject/1293839/",
+      "title": [
+        "罗马假日",
+        "Roman Holiday"
+      ],
+      "info": {
+        "director": "导演: 威廉·惠勒 William Wyler",
+        "actor": "主演: 奥黛丽·赫本 Audrey Hepburn / 格...",
+        "year": "1953",
+        "region": "美国",
+        "genre": "喜剧 剧情 爱情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "959689"
+      },
+      "quote": "爱情哪怕只有一天。"
+    },
+    {
+      "rank": "52",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.webp",
+      "link": "https://movie.douban.com/subject/1291548/",
+      "title": [
+        "死亡诗社",
+        "Dead Poets Society"
+      ],
+      "info": {
+        "director": "导演: 彼得·威尔 Peter Weir",
+        "actor": "主演: 罗宾·威廉姆斯 Robin Williams / 罗伯...",
+        "year": "1989",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "738019"
+      },
+      "quote": "当一个死水般的体制内出现一个活跃的变数时，所有的腐臭都站在了光明的对面。"
+    },
+    {
+      "rank": "53",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.webp",
+      "link": "https://movie.douban.com/subject/27060077/",
+      "title": [
+        "绿皮书",
+        "Green Book"
+      ],
+      "info": {
+        "director": "导演: 彼得·法雷里 Peter Farrelly",
+        "actor": "主演: 维果·莫腾森 Viggo Mortensen /...",
+        "year": "2018",
+        "region": "美国 中国大陆",
+        "genre": "剧情 喜剧 传记 音乐"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "1670275"
+      },
+      "quote": "去除成见，需要勇气。"
+    },
+    {
+      "rank": "54",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.webp",
+      "link": "https://movie.douban.com/subject/1291828/",
+      "title": [
+        "天堂电影院",
+        "Nuovo Cinema Paradiso"
+      ],
+      "info": {
+        "director": "导演: 朱塞佩·托纳多雷 Giuseppe Tornatore",
+        "actor": "主演: 菲利普·努瓦雷 Philipp...",
+        "year": "1988",
+        "region": "意大利 法国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "684773"
+      },
+      "quote": "那些吻戏，那些青春，都在影院的黑暗里被泪水冲刷得无比清晰。"
+    },
+    {
+      "rank": "55",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.webp",
+      "link": "https://movie.douban.com/subject/1418019/",
+      "title": [
+        "大闹天宫"
+      ],
+      "info": {
+        "director": "导演: 万籁鸣 Laiming Wan",
+        "actor": "主演: 邱岳峰 Yuefeng Qiu / 富润生 Runsheng Fu...",
+        "year": "1961(中国大陆) / 1964(中国大陆) / 1978(中国大陆)",
+        "region": "中国大陆",
+        "genre": "剧情 动画 奇幻 古装"
+      },
+      "star": {
+        "score": "9.4",
+        "count": "444520"
+      },
+      "quote": "经典之作，历久弥新。"
+    },
+    {
+      "rank": "56",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.webp",
+      "link": "https://movie.douban.com/subject/1291571/",
+      "title": [
+        "指环王1：护戒使者",
+        "The Lord of the Rings: The Fellowship of the Ring"
+      ],
+      "info": {
+        "director": "导演: 彼得·杰克逊 Peter Jackson",
+        "actor": "主演: 伊利亚·伍德 Elijah Wood / 西恩...",
+        "year": "2001",
+        "region": "新西兰 美国",
+        "genre": "剧情 动作 奇幻 冒险"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "857641"
+      },
+      "quote": "传说的开始。"
+    },
+    {
+      "rank": "57",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp",
+      "link": "https://movie.douban.com/subject/1291843/",
+      "title": [
+        "黑客帝国",
+        "The Matrix"
+      ],
+      "info": {
+        "director": "导演: 安迪·沃卓斯基 Andy Wachowski / 拉娜·沃卓斯基 Lana Wachowski",
+        "actor": "主...",
+        "year": "1999",
+        "region": "美国",
+        "genre": "动作 科幻"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "847152"
+      },
+      "quote": "视觉革命。"
+    },
+    {
+      "rank": "58",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp",
+      "link": "https://movie.douban.com/subject/1299131/",
+      "title": [
+        "教父2",
+        "The Godfather: Part II"
+      ],
+      "info": {
+        "director": "导演: 弗朗西斯·福特·科波拉 Francis Ford Coppola",
+        "actor": "主演: 阿尔·帕西诺 A...",
+        "year": "1974",
+        "region": "美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "560257"
+      },
+      "quote": "优雅的孤独。"
+    },
+    {
+      "rank": "59",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896590826.webp",
+      "link": "https://movie.douban.com/subject/1301753/",
+      "title": [
+        "狮子王",
+        "The Lion King"
+      ],
+      "info": {
+        "director": "导演: Roger Allers / 罗伯·明可夫 Rob Minkoff",
+        "actor": "主演: 乔纳森·泰勒·托马...",
+        "year": "1994",
+        "region": "美国",
+        "genre": "动画 冒险 歌舞"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "853580"
+      },
+      "quote": "动物版《哈姆雷特》。"
+    },
+    {
+      "rank": "60",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2158166535.webp",
+      "link": "https://movie.douban.com/subject/21937445/",
+      "title": [
+        "辩护人",
+        "변호인"
+      ],
+      "info": {
+        "director": "导演: 杨宇硕 Woo-seok Yang",
+        "actor": "主演: 宋康昊 Kang-ho Song / 金英爱 Yeong-ae...",
+        "year": "2013",
+        "region": "韩国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "594295"
+      },
+      "quote": "电影的现实意义大过电影本身。"
+    },
+    {
+      "rank": "61",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910899751.webp",
+      "link": "https://movie.douban.com/subject/1291818/",
+      "title": [
+        "饮食男女",
+        "飲食男女"
+      ],
+      "info": {
+        "director": "导演: 李安 Ang Lee",
+        "actor": "主演: 郎雄 Sihung Lung / 杨贵媚 Kuei-Mei Yang / 吴...",
+        "year": "1994",
+        "region": "中国台湾 美国",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "628921"
+      },
+      "quote": "人生不能像做菜，把所有的料都准备好了才下锅。"
+    },
+    {
+      "rank": "62",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.webp",
+      "link": "https://movie.douban.com/subject/1292000/",
+      "title": [
+        "搏击俱乐部",
+        "Fight Club"
+      ],
+      "info": {
+        "director": "导演: 大卫·芬奇 David Fincher",
+        "actor": "主演: 爱德华·诺顿 Edward Norton / 布拉...",
+        "year": "1999",
+        "region": "美国",
+        "genre": "剧情 动作 悬疑 惊悚"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "855626"
+      },
+      "quote": "邪恶与平庸蛰伏于同一个母体，在特定的时间互相对峙。"
+    },
+    {
+      "rank": "63",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.webp",
+      "link": "https://movie.douban.com/subject/1306029/",
+      "title": [
+        "美丽心灵",
+        "A Beautiful Mind"
+      ],
+      "info": {
+        "director": "导演: 朗·霍华德 Ron Howard",
+        "actor": "主演: 罗素·克劳 Russell Crowe / 艾德·哈...",
+        "year": "2001",
+        "region": "美国",
+        "genre": "传记 剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "777171"
+      },
+      "quote": "爱是一切逻辑和原由。"
+    },
+    {
+      "rank": "64",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp",
+      "link": "https://movie.douban.com/subject/1485260/",
+      "title": [
+        "本杰明·巴顿奇事",
+        "The Curious Case of Benjamin Button"
+      ],
+      "info": {
+        "director": "导演: 大卫·芬奇 David Fincher",
+        "actor": "主演: 凯特·布兰切特 Cate Blanchett / ...",
+        "year": "2008",
+        "region": "美国",
+        "genre": "剧情 爱情 奇幻"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "994451"
+      },
+      "quote": "在时间之河里感受溺水之苦。"
+    },
+    {
+      "rank": "65",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp",
+      "link": "https://movie.douban.com/subject/3008247/",
+      "title": [
+        "穿条纹睡衣的男孩",
+        "The Boy in the Striped Pajamas"
+      ],
+      "info": {
+        "director": "导演: 马克·赫尔曼 Mark Herman",
+        "actor": "主演: 阿萨·巴特菲尔德 Asa Butterfield ...",
+        "year": "2008",
+        "region": "英国 美国",
+        "genre": "剧情 战争"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "573169"
+      },
+      "quote": "尽管有些不切实际的幻想，这部电影依旧是一部感人肺腑的佳作。"
+    },
+    {
+      "rank": "66",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.webp",
+      "link": "https://movie.douban.com/subject/1900841/",
+      "title": [
+        "窃听风暴",
+        "Das Leben der Anderen"
+      ],
+      "info": {
+        "director": "导演: 弗洛里安·亨克尔·冯·多纳斯马尔克 Florian Henckel von Donnersmarck",
+        "actor": "&n...",
+        "year": "2006",
+        "region": "德国",
+        "genre": "剧情 悬疑"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "570681"
+      },
+      "quote": "别样人生。"
+    },
+    {
+      "rank": "67",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.webp",
+      "link": "https://movie.douban.com/subject/1292220/",
+      "title": [
+        "情书",
+        "Love Letter"
+      ],
+      "info": {
+        "director": "导演: 岩井俊二 Shunji Iwai",
+        "actor": "主演: 中山美穗 Miho Nakayama / 丰川悦司 Ets...",
+        "year": "1995",
+        "region": "日本",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "1128264"
+      },
+      "quote": "暗恋的极致。"
+    },
+    {
+      "rank": "68",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.webp",
+      "link": "https://movie.douban.com/subject/1293350/",
+      "title": [
+        "两杆大烟枪",
+        "Lock, Stock and Two Smoking Barrels"
+      ],
+      "info": {
+        "director": "导演: 盖·里奇 Guy Ritchie",
+        "actor": "主演: 杰森·弗莱明 Jason Flemyng / 德克斯特...",
+        "year": "1998",
+        "region": "英国",
+        "genre": "剧情 喜剧 犯罪"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "600930"
+      },
+      "quote": "4个臭皮匠顶个诸葛亮，盖·里奇果然不是盖的。"
+    },
+    {
+      "rank": "69",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2441988159.webp",
+      "link": "https://movie.douban.com/subject/1292402/",
+      "title": [
+        "西西里的美丽传说",
+        "Malèna"
+      ],
+      "info": {
+        "director": "导演: 朱塞佩·托纳多雷 Giuseppe Tornatore",
+        "actor": "主演: 莫妮卡·贝鲁奇 Monica ...",
+        "year": "2000",
+        "region": "意大利 美国",
+        "genre": "剧情 战争 情色"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "985828"
+      },
+      "quote": "美丽无罪。"
+    },
+    {
+      "rank": "70",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2498971355.webp",
+      "link": "https://movie.douban.com/subject/26580232/",
+      "title": [
+        "看不见的客人",
+        "Contratiempo"
+      ],
+      "info": {
+        "director": "导演: 奥里奥尔·保罗 Oriol Paulo",
+        "actor": "主演: 马里奥·卡萨斯 Mario Casas / 阿...",
+        "year": "2016",
+        "region": "西班牙",
+        "genre": "剧情 犯罪 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "1285688"
+      },
+      "quote": "你以为你以为的就是你以为的。"
+    },
+    {
+      "rank": "71",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p453788577.webp",
+      "link": "https://movie.douban.com/subject/1294408/",
+      "title": [
+        "音乐之声",
+        "The Sound of Music"
+      ],
+      "info": {
+        "director": "导演: 罗伯特·怀斯 Robert Wise",
+        "actor": "主演: 朱莉·安德鲁斯 Julie Andrews / 克...",
+        "year": "1965",
+        "region": "美国",
+        "genre": "剧情 传记 爱情 歌舞"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "609781"
+      },
+      "quote": "用音乐化解仇恨，让歌声串起美好。"
+    },
+    {
+      "rank": "72",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589067.webp",
+      "link": "https://movie.douban.com/subject/1652587/",
+      "title": [
+        "阿凡达",
+        "Avatar"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·卡梅隆 James Cameron",
+        "actor": "主演: 萨姆·沃辛顿 Sam Worthington ...",
+        "year": "2009",
+        "region": "美国",
+        "genre": "动作 科幻 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "1435953"
+      },
+      "quote": "绝对意义上的美轮美奂。"
+    },
+    {
+      "rank": "73",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1014542496.webp",
+      "link": "https://movie.douban.com/subject/1292849/",
+      "title": [
+        "拯救大兵瑞恩",
+        "Saving Private Ryan"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 汤姆·汉克斯 Tom Hanks...",
+        "year": "1998",
+        "region": "美国",
+        "genre": "剧情 战争"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "654311"
+      },
+      "quote": "美利坚精神输出大片No1."
+    },
+    {
+      "rank": "74",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p917846733.webp",
+      "link": "https://movie.douban.com/subject/3011235/",
+      "title": [
+        "哈利·波特与死亡圣器(下)",
+        "Harry Potter and the Deathly Hallows: Part 2"
+      ],
+      "info": {
+        "director": "导演: 大卫·叶茨 David Yates",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radcliffe...",
+        "year": "2011",
+        "region": "美国 英国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "843323"
+      },
+      "quote": "10年的完美句点。"
+    },
+    {
+      "rank": "75",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792238287.webp",
+      "link": "https://movie.douban.com/subject/1292224/",
+      "title": [
+        "飞越疯人院",
+        "One Flew Over the Cuckoo's Nest"
+      ],
+      "info": {
+        "director": "导演: 米洛斯·福尔曼 Miloš Forman",
+        "actor": "主演: 杰克·尼科尔森 Jack Nichols...",
+        "year": "1975",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "552395"
+      },
+      "quote": "自由万岁。"
+    },
+    {
+      "rank": "76",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2165511465.webp",
+      "link": "https://movie.douban.com/subject/1303021/",
+      "title": [
+        "小鞋子",
+        "بچه های آسمان"
+      ],
+      "info": {
+        "director": "导演: 马基德·马基迪 Majid Majidi",
+        "actor": "主演: 默罕默德·阿米尔·纳吉 Mohamma...",
+        "year": "1997",
+        "region": "伊朗",
+        "genre": "剧情 儿童 家庭"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "415849"
+      },
+      "quote": "奔跑的孩子是天使。"
+    },
+    {
+      "rank": "77",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1593414327.webp",
+      "link": "https://movie.douban.com/subject/1293544/",
+      "title": [
+        "沉默的羔羊",
+        "The Silence of the Lambs"
+      ],
+      "info": {
+        "director": "导演: 乔纳森·戴米 Jonathan Demme",
+        "actor": "主演: 朱迪·福斯特 Jodie Foster / 安...",
+        "year": "1991",
+        "region": "美国",
+        "genre": "剧情 犯罪 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "900624"
+      },
+      "quote": "安东尼·霍普金斯的顶级表演。"
+    },
+    {
+      "rank": "78",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896589466.webp",
+      "link": "https://movie.douban.com/subject/11525673/",
+      "title": [
+        "布达佩斯大饭店",
+        "The Grand Budapest Hotel"
+      ],
+      "info": {
+        "director": "导演: 韦斯·安德森 Wes Anderson",
+        "actor": "主演: 拉尔夫·费因斯 Ralph Fiennes / ...",
+        "year": "2014",
+        "region": "美国 德国 英国",
+        "genre": "剧情 喜剧 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "949626"
+      },
+      "quote": "小清新的故事里注入了大历史的情怀。"
+    },
+    {
+      "rank": "79",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p450262388.webp",
+      "link": "https://movie.douban.com/subject/2334904/",
+      "title": [
+        "禁闭岛",
+        "Shutter Island"
+      ],
+      "info": {
+        "director": "导演: Martin Scorsese",
+        "actor": "主演: 莱昂纳多·迪卡普里奥 Leonardo DiCaprio / ...",
+        "year": "2010",
+        "region": "美国",
+        "genre": "剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "990183"
+      },
+      "quote": "昔日翩翩少年，今日大腹便便。"
+    },
+    {
+      "rank": "80",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2219011938.webp",
+      "link": "https://movie.douban.com/subject/1291543/",
+      "title": [
+        "功夫"
+      ],
+      "info": {
+        "director": "导演: 周星驰 Stephen Chow",
+        "actor": "主演: 周星驰 Stephen Chow / 元秋 Qiu Yuen / ...",
+        "year": "2004",
+        "region": "中国大陆 中国香港",
+        "genre": "动作 喜剧 犯罪 奇幻"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "1150649"
+      },
+      "quote": "警恶惩奸，维护世界和平这个任务就交给你了，好吗？"
+    },
+    {
+      "rank": "81",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2209066019.webp",
+      "link": "https://movie.douban.com/subject/1292343/",
+      "title": [
+        "蝴蝶效应",
+        "The Butterfly Effect"
+      ],
+      "info": {
+        "director": "导演: 埃里克·布雷斯 Eric Bress / J·麦基·格鲁伯 J. Mackye Gruber",
+        "actor": "主...",
+        "year": "2004",
+        "region": "美国 加拿大",
+        "genre": "剧情 悬疑 科幻 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "949546"
+      },
+      "quote": "人的命运被自己瞬间的抉择改变。"
+    },
+    {
+      "rank": "82",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480383375.webp",
+      "link": "https://movie.douban.com/subject/1780330/",
+      "title": [
+        "致命魔术",
+        "The Prestige"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 休·杰克曼 Hugh Jackman...",
+        "year": "2006",
+        "region": "英国 美国",
+        "genre": "剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "871266"
+      },
+      "quote": "孪生蝙蝠侠大战克隆金刚狼。"
+    },
+    {
+      "rank": "83",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910812549.webp",
+      "link": "https://movie.douban.com/subject/1291544/",
+      "title": [
+        "哈利·波特与阿兹卡班的囚徒",
+        "Harry Potter and the Prisoner of Azkaban"
+      ],
+      "info": {
+        "director": "导演: Alfonso Cuarón",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radcliffe / Emma...",
+        "year": "2004",
+        "region": "英国 美国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "743165"
+      },
+      "quote": "不一样的导演，不一样的哈利·波特。"
+    },
+    {
+      "rank": "84",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480965695.webp",
+      "link": "https://movie.douban.com/subject/1292656/",
+      "title": [
+        "心灵捕手",
+        "Good Will Hunting"
+      ],
+      "info": {
+        "director": "导演: 格斯·范·桑特 Gus Van Sant",
+        "actor": "主演: 马特·达蒙 Matt Damon / 罗宾·...",
+        "year": "1997",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "722891"
+      },
+      "quote": "人生中应该拥有这样的一段豁然开朗。"
+    },
+    {
+      "rank": "85",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1305562621.webp",
+      "link": "https://movie.douban.com/subject/5322596/",
+      "title": [
+        "超脱",
+        "Detachment"
+      ],
+      "info": {
+        "director": "导演: 托尼·凯耶 Tony Kaye",
+        "actor": "主演: 艾德里安·布洛迪 Adrien Brody / 马西...",
+        "year": "2011",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "612005"
+      },
+      "quote": "穷尽一生，我们要学会的，不过是彼此拥抱。"
+    },
+    {
+      "rank": "86",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559579779.webp",
+      "link": "https://movie.douban.com/subject/3442220/",
+      "title": [
+        "海豚湾",
+        "The Cove"
+      ],
+      "info": {
+        "director": "导演: 路易·西霍尤斯 Louie Psihoyos",
+        "actor": "主演: 路易·西霍尤斯 Louie Psihoyo...",
+        "year": "2009",
+        "region": "美国",
+        "genre": "纪录片"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "359763"
+      },
+      "quote": "海豚的微笑，是世界上最高明的伪装。"
+    },
+    {
+      "rank": "87",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910902213.webp",
+      "link": "https://movie.douban.com/subject/1291832/",
+      "title": [
+        "低俗小说",
+        "Pulp Fiction"
+      ],
+      "info": {
+        "director": "导演: 昆汀·塔伦蒂诺 Quentin Tarantino",
+        "actor": "主演: 约翰·特拉沃尔塔 John Tra...",
+        "year": "1994",
+        "region": "美国",
+        "genre": "剧情 喜剧 犯罪"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "843076"
+      },
+      "quote": "故事的高级讲法。"
+    },
+    {
+      "rank": "88",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p465939041.webp",
+      "link": "https://movie.douban.com/subject/1292679/",
+      "title": [
+        "春光乍泄",
+        "春光乍洩"
+      ],
+      "info": {
+        "director": "导演: 王家卫 Kar Wai Wong",
+        "actor": "主演: 张国荣 Leslie Cheung / 梁朝伟 Tony Leu...",
+        "year": "1997",
+        "region": "中国香港 日本 韩国",
+        "genre": "剧情 爱情 同性"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "639351"
+      },
+      "quote": "爱情纠缠，男女一致。"
+    },
+    {
+      "rank": "89",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2263408369.webp",
+      "link": "https://movie.douban.com/subject/1294371/",
+      "title": [
+        "摩登时代",
+        "Modern Times"
+      ],
+      "info": {
+        "director": "导演: 查理·卓别林 Charles Chaplin",
+        "actor": "主演: 查理·卓别林 Charles Chaplin ...",
+        "year": "1936",
+        "region": "美国",
+        "genre": "剧情 喜剧 爱情"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "305278"
+      },
+      "quote": "大时代中的人生，小人物的悲喜。"
+    },
+    {
+      "rank": "90",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p477229647.webp",
+      "link": "https://movie.douban.com/subject/1292262/",
+      "title": [
+        "美国往事",
+        "Once Upon a Time in America"
+      ],
+      "info": {
+        "director": "导演: 赛尔乔·莱翁内 Sergio Leone",
+        "actor": "主演: 罗伯特·德尼罗 Robert De Niro ...",
+        "year": "1984",
+        "region": "美国 意大利",
+        "genre": "犯罪 剧情"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "416732"
+      },
+      "quote": "往事如烟，无处祭奠。"
+    },
+    {
+      "rank": "91",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2579932167.webp",
+      "link": "https://movie.douban.com/subject/1302425/",
+      "title": [
+        "喜剧之王",
+        "喜劇之王"
+      ],
+      "info": {
+        "director": "导演: 周星驰 Stephen Chow / 李力持 Lik-Chi Lee",
+        "actor": "主演: 周星驰 Stephen Ch...",
+        "year": "1999",
+        "region": "中国香港",
+        "genre": "喜剧 剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "981360"
+      },
+      "quote": "我是一个演员。"
+    },
+    {
+      "rank": "92",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2558364386.webp",
+      "link": "https://movie.douban.com/subject/1297192/",
+      "title": [
+        "致命ID",
+        "Identity"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·曼高德 James Mangold",
+        "actor": "主演: 约翰·库萨克 John Cusack / 雷...",
+        "year": "2003",
+        "region": "美国",
+        "genre": "剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "836036"
+      },
+      "quote": "最不可能的那个人永远是最可能的。"
+    },
+    {
+      "rank": "93",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1633113220.webp",
+      "link": "https://movie.douban.com/subject/1300299/",
+      "title": [
+        "杀人回忆",
+        "살인의 추억"
+      ],
+      "info": {
+        "director": "导演: 奉俊昊 Joon-ho Bong",
+        "actor": "主演: 宋康昊 Kang-ho Song / 金相庆 Sang-kyun...",
+        "year": "2003",
+        "region": "韩国",
+        "genre": "剧情 动作 犯罪 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "724481"
+      },
+      "quote": "关于连环杀人悬案的集体回忆。"
+    },
+    {
+      "rank": "94",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219586434.webp",
+      "link": "https://movie.douban.com/subject/1292223/",
+      "title": [
+        "七宗罪",
+        "Se7en"
+      ],
+      "info": {
+        "director": "导演: 大卫·芬奇 David Fincher",
+        "actor": "主演: 摩根·弗里曼 Morgan Freeman / 布...",
+        "year": "1995",
+        "region": "美国",
+        "genre": "剧情 犯罪 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "951733"
+      },
+      "quote": "警察抓小偷，老鼠玩死猫。"
+    },
+    {
+      "rank": "95",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p456825720.webp",
+      "link": "https://movie.douban.com/subject/1865703/",
+      "title": [
+        "红辣椒",
+        "パプリカ"
+      ],
+      "info": {
+        "director": "导演: 今敏 Satoshi Kon",
+        "actor": "主演: 林原惠美 Megumi Hayashibara / 江守彻 Toru...",
+        "year": "2006",
+        "region": "日本",
+        "genre": "动画 悬疑 科幻 惊悚"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "472590"
+      },
+      "quote": "梦的勾结。"
+    },
+    {
+      "rank": "96",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896589545.webp",
+      "link": "https://movie.douban.com/subject/1298070/",
+      "title": [
+        "加勒比海盗",
+        "Pirates of the Caribbean: The Curse of the Black Pearl"
+      ],
+      "info": {
+        "director": "导演: 戈尔·维宾斯基 Gore Verbinski",
+        "actor": "主演: 约翰尼·德普 Johnny Depp / ...",
+        "year": "2003",
+        "region": "美国",
+        "genre": "动作 冒险 奇幻"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "869106"
+      },
+      "quote": "约翰尼·德普的独角戏。"
+    },
+    {
+      "rank": "97",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1082651990.webp",
+      "link": "https://movie.douban.com/subject/1296996/",
+      "title": [
+        "哈利·波特与密室",
+        "Harry Potter and the Chamber of Secrets"
+      ],
+      "info": {
+        "director": "导演: Chris Columbus",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radcliffe / 艾玛...",
+        "year": "2002",
+        "region": "英国 美国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "770404"
+      },
+      "quote": "魔法的密室之门已打开..."
+    },
+    {
+      "rank": "98",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2567845803.webp",
+      "link": "https://movie.douban.com/subject/1292434/",
+      "title": [
+        "一一"
+      ],
+      "info": {
+        "director": "导演: 杨德昌 Edward Yang",
+        "actor": "主演: 吴念真 / 李凯莉 Kelly Lee / 金燕玲 Elai...",
+        "year": "2000",
+        "region": "中国台湾 日本",
+        "genre": "剧情 爱情 家庭"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "401030"
+      },
+      "quote": "我们都曾经是一一。"
+    },
+    {
+      "rank": "99",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1546987967.webp",
+      "link": "https://movie.douban.com/subject/6985810/",
+      "title": [
+        "狩猎",
+        "Jagten"
+      ],
+      "info": {
+        "director": "导演: 托马斯·温特伯格 Thomas Vinterberg",
+        "actor": "主演: 麦斯·米科尔森 Mads Mik...",
+        "year": "2012",
+        "region": "丹麦 瑞典",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "397430"
+      },
+      "quote": "人言可畏。"
+    },
+    {
+      "rank": "100",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2357915564.webp",
+      "link": "https://movie.douban.com/subject/1306249/",
+      "title": [
+        "唐伯虎点秋香",
+        "唐伯虎點秋香"
+      ],
+      "info": {
+        "director": "导演: 李力持 Lik-Chi Lee",
+        "actor": "主演: 周星驰 Stephen Chow / 巩俐 Li Gong / 陈...",
+        "year": "1993",
+        "region": "中国香港",
+        "genre": "喜剧 爱情 古装"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "1092966"
+      },
+      "quote": "华太师是黄霑，吴镇宇四大才子之一。"
+    },
+    {
+      "rank": "101",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1816276065.webp",
+      "link": "https://movie.douban.com/subject/10777687/",
+      "title": [
+        "7号房的礼物",
+        "7번방의 선물"
+      ],
+      "info": {
+        "director": "导演: 李焕庆 Hwan-kyeong Lee",
+        "actor": "主演: 柳承龙 Seung-yong Ryoo / 朴信惠 Shi...",
+        "year": "2013",
+        "region": "韩国",
+        "genre": "剧情 喜剧 家庭"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "563483"
+      },
+      "quote": "《我是山姆》的《美丽人生》。"
+    },
+    {
+      "rank": "102",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p884763596.webp",
+      "link": "https://movie.douban.com/subject/1787291/",
+      "title": [
+        "被嫌弃的松子的一生",
+        "嫌われ松子の一生"
+      ],
+      "info": {
+        "director": "导演: 中岛哲也 Tetsuya Nakashima",
+        "actor": "主演: 中谷美纪 Miki Nakatani / 瑛太 E...",
+        "year": "2006",
+        "region": "日本",
+        "genre": "剧情 歌舞"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "709905"
+      },
+      "quote": "以戏谑来戏谑戏谑。"
+    },
+    {
+      "rank": "103",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2505525050.webp",
+      "link": "https://movie.douban.com/subject/26799731/",
+      "title": [
+        "请以你的名字呼唤我",
+        "Call Me by Your Name"
+      ],
+      "info": {
+        "director": "导演: 卢卡·瓜达尼诺 Luca Guadagnino",
+        "actor": "主演: 艾米·汉莫 Armie Hammer / ...",
+        "year": "2017",
+        "region": "意大利 法国 巴西 美国",
+        "genre": "剧情 爱情 同性"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "731169"
+      },
+      "quote": "沉醉在电影的情感和视听氛围中无法自拔。"
+    },
+    {
+      "rank": "104",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1706428744.webp",
+      "link": "https://movie.douban.com/subject/3395373/",
+      "title": [
+        "蝙蝠侠：黑暗骑士崛起",
+        "The Dark Knight Rises"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 克里斯蒂安·贝尔 Christ...",
+        "year": "2012",
+        "region": "美国 英国",
+        "genre": "剧情 动作 科幻 犯罪 惊悚"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "731607"
+      },
+      "quote": "诺兰就是保证。"
+    },
+    {
+      "rank": "105",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2604889017.webp",
+      "link": "https://movie.douban.com/subject/1418834/",
+      "title": [
+        "断背山",
+        "Brokeback Mountain"
+      ],
+      "info": {
+        "director": "导演: 李安 Ang Lee",
+        "actor": "主演: 希斯·莱杰 Heath Ledger / 杰克·吉伦哈尔 Jake...",
+        "year": "2005",
+        "region": "美国 加拿大",
+        "genre": "剧情 爱情 同性 家庭"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "713145"
+      },
+      "quote": "每个人心中都有一座断背山。"
+    },
+    {
+      "rank": "106",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589720.webp",
+      "link": "https://movie.douban.com/subject/1292370/",
+      "title": [
+        "剪刀手爱德华",
+        "Edward Scissorhands"
+      ],
+      "info": {
+        "director": "导演: 蒂姆·波顿 Tim Burton",
+        "actor": "主演: 约翰尼·德普 Johnny Depp / 薇诺娜·...",
+        "year": "1990",
+        "region": "美国",
+        "genre": "剧情 奇幻 爱情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "1043190"
+      },
+      "quote": "浪漫忧郁的成人童话。"
+    },
+    {
+      "rank": "107",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2555762374.webp",
+      "link": "https://movie.douban.com/subject/1296339/",
+      "title": [
+        "爱在黎明破晓前",
+        "Before Sunrise"
+      ],
+      "info": {
+        "director": "导演: 理查德·林克莱特 Richard Linklater",
+        "actor": "主演: 伊桑·霍克 Ethan Hawke ...",
+        "year": "1995",
+        "region": "美国 奥地利 瑞士",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "693076"
+      },
+      "quote": "缘分是个连绵词，最美不过一瞬。"
+    },
+    {
+      "rank": "108",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2707581855.webp",
+      "link": "https://movie.douban.com/subject/2149806/",
+      "title": [
+        "入殓师",
+        "おくりびと"
+      ],
+      "info": {
+        "director": "导演: 泷田洋二郎 Yôjirô Takita",
+        "actor": "主演: 本木雅弘 Masahiro Motoki / ...",
+        "year": "2008",
+        "region": "日本",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "674566"
+      },
+      "quote": "死可能是一道门，逝去并不是终结，而是超越，走向下一程。"
+    },
+    {
+      "rank": "109",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2220184425.webp",
+      "link": "https://movie.douban.com/subject/1297630/",
+      "title": [
+        "第六感",
+        "The Sixth Sense"
+      ],
+      "info": {
+        "director": "导演: M·奈特·沙马兰 M. Night Shyamalan",
+        "actor": "主演: 布鲁斯·威利斯 Bruce Wi...",
+        "year": "1999",
+        "region": "美国",
+        "genre": "剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "562505"
+      },
+      "quote": "深入内心的恐怖，出人意料的结局。"
+    },
+    {
+      "rank": "110",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2004174709.webp",
+      "link": "https://movie.douban.com/subject/1294639/",
+      "title": [
+        "勇敢的心",
+        "Braveheart"
+      ],
+      "info": {
+        "director": "导演: 梅尔·吉布森 Mel Gibson",
+        "actor": "主演: 梅尔·吉布森 Mel Gibson / 苏菲·玛...",
+        "year": "1995",
+        "region": "美国",
+        "genre": "动作 传记 剧情 历史 战争"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "562704"
+      },
+      "quote": "史诗大片的典范。"
+    },
+    {
+      "rank": "111",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792381411.webp",
+      "link": "https://movie.douban.com/subject/1291999/",
+      "title": [
+        "重庆森林",
+        "重慶森林"
+      ],
+      "info": {
+        "director": "导演: 王家卫 Kar Wai Wong",
+        "actor": "主演: 林青霞 Brigitte Lin / 金城武 Takeshi K...",
+        "year": "1994",
+        "region": "中国香港",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "820564"
+      },
+      "quote": "寂寞没有期限。"
+    },
+    {
+      "rank": "112",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2896589512.webp",
+      "link": "https://movie.douban.com/subject/11026735/",
+      "title": [
+        "超能陆战队",
+        "Big Hero 6"
+      ],
+      "info": {
+        "director": "导演: 唐·霍尔 Don Hall / 克里斯·威廉姆斯 Chris Williams",
+        "actor": "主演: 斯科特...",
+        "year": "2014",
+        "region": "美国",
+        "genre": "喜剧 动作 科幻 动画 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "1026451"
+      },
+      "quote": "Balalala~~~"
+    },
+    {
+      "rank": "113",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1613191025.webp",
+      "link": "https://movie.douban.com/subject/1297359/",
+      "title": [
+        "幽灵公主",
+        "もののけ姫"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 松田洋治 Yôji Matsuda / 石田百合...",
+        "year": "1997",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "529908"
+      },
+      "quote": "人与自然的战争史诗。"
+    },
+    {
+      "rank": "114",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2223011274.webp",
+      "link": "https://movie.douban.com/subject/1305164/",
+      "title": [
+        "甜蜜蜜"
+      ],
+      "info": {
+        "director": "导演: 陈可辛 Peter Chan",
+        "actor": "主演: 黎明 Leon Lai / 张曼玉 Maggie Cheung / ...",
+        "year": "1996",
+        "region": "中国香港",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "563097"
+      },
+      "quote": "相逢只要一瞬间，等待却像是一辈子。"
+    },
+    {
+      "rank": "115",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561542458.webp",
+      "link": "https://movie.douban.com/subject/1291990/",
+      "title": [
+        "爱在日落黄昏时",
+        "Before Sunset"
+      ],
+      "info": {
+        "director": "导演: 理查德·林克莱特 Richard Linklater",
+        "actor": "主演: 伊桑·霍克 Ethan Hawke ...",
+        "year": "2004",
+        "region": "美国 法国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "569319"
+      },
+      "quote": "九年后的重逢是世俗和责任的交叠，没了悸动和青涩，沧桑而温暖。"
+    },
+    {
+      "rank": "116",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2620392435.webp",
+      "link": "https://movie.douban.com/subject/1293359/",
+      "title": [
+        "菊次郎的夏天",
+        "菊次郎の夏"
+      ],
+      "info": {
+        "director": "导演: 北野武 Takeshi Kitano",
+        "actor": "主演: 北野武 Takeshi Kitano / 关口雄介 Yus...",
+        "year": "1999",
+        "region": "日本",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "602947"
+      },
+      "quote": "从没见过那么流氓的温柔，从没见过那么温柔的流氓。"
+    },
+    {
+      "rank": "117",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p617533616.webp",
+      "link": "https://movie.douban.com/subject/4202302/",
+      "title": [
+        "借东西的小人阿莉埃蒂",
+        "借りぐらしのアリエッティ"
+      ],
+      "info": {
+        "director": "导演: 米林宏昌 Hiromasa Yonebayashi",
+        "actor": "主演: 志田未来 Mirai Shida / 神木...",
+        "year": "2010",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "560324"
+      },
+      "quote": "曾经的那段美好会沉淀为一辈子的记忆。"
+    },
+    {
+      "rank": "118",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2221768894.webp",
+      "link": "https://movie.douban.com/subject/21318488/",
+      "title": [
+        "消失的爱人",
+        "Gone Girl"
+      ],
+      "info": {
+        "director": "导演: 大卫·芬奇 David Fincher",
+        "actor": "主演: 本·阿弗莱克 Ben Affleck / 罗莎蒙...",
+        "year": "2014",
+        "region": "美国",
+        "genre": "剧情 犯罪 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "965752"
+      },
+      "quote": "年度最佳date movie。"
+    },
+    {
+      "rank": "119",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2447590313.webp",
+      "link": "https://movie.douban.com/subject/1292215/",
+      "title": [
+        "天使爱美丽",
+        "Le fabuleux destin d'Amélie Poulain"
+      ],
+      "info": {
+        "director": "导演: 让-皮埃尔·热内 Jean-Pierre Jeunet",
+        "actor": "主演: 奥黛丽·塔图 Audrey Tau...",
+        "year": "2001",
+        "region": "法国 德国",
+        "genre": "剧情 喜剧 爱情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "960438"
+      },
+      "quote": "法式小清新。"
+    },
+    {
+      "rank": "120",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2564685215.webp",
+      "link": "https://movie.douban.com/subject/1291875/",
+      "title": [
+        "阳光灿烂的日子"
+      ],
+      "info": {
+        "director": "导演: 姜文 Wen Jiang",
+        "actor": "主演: 夏雨 Yu Xia / 宁静 Jing Ning / 陶虹 Hong Tao",
+        "year": "1994",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "620671"
+      },
+      "quote": "一场华丽的意淫。"
+    },
+    {
+      "rank": "121",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2190556408.webp",
+      "link": "https://movie.douban.com/subject/1300992/",
+      "title": [
+        "完美的世界",
+        "A Perfect World"
+      ],
+      "info": {
+        "director": "导演: 克林特·伊斯特伍德 Clint Eastwood",
+        "actor": "主演: 凯文·科斯特纳 Kevin Cos...",
+        "year": "1993",
+        "region": "美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "318951"
+      },
+      "quote": "坏人的好总是比好人的好来得更感人。"
+    },
+    {
+      "rank": "122",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2564498893.webp",
+      "link": "https://movie.douban.com/subject/25814705/",
+      "title": [
+        "小森林 夏秋篇",
+        "リトル・フォレスト 夏・秋"
+      ],
+      "info": {
+        "director": "导演: 森淳一 Junichi Mori",
+        "actor": "主演: 桥本爱 Ai Hashimoto / 三浦贵大 Takahir...",
+        "year": "2014",
+        "region": "日本",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "430182"
+      },
+      "quote": "那些静得只能听见呼吸的日子里，你明白孤独即生活。"
+    },
+    {
+      "rank": "123",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561439800.webp",
+      "link": "https://movie.douban.com/subject/27010768/",
+      "title": [
+        "寄生虫",
+        "기생충"
+      ],
+      "info": {
+        "director": "导演: 奉俊昊 Joon-ho Bong",
+        "actor": "主演: 宋康昊 Kang-ho Song / 李善均 Seon-gyun...",
+        "year": "2019",
+        "region": "韩国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "1384975"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "124",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p661160053.webp",
+      "link": "https://movie.douban.com/subject/1292337/",
+      "title": [
+        "无人知晓",
+        "誰も知らない"
+      ],
+      "info": {
+        "director": "导演: 是枝裕和 Hirokazu Koreeda",
+        "actor": "主演: 柳乐优弥 Yûya Yagira / 北浦爱...",
+        "year": "2004",
+        "region": "日本",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "323055"
+      },
+      "quote": "我的平常生活就是他人的幸福。"
+    },
+    {
+      "rank": "125",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2414157745.webp",
+      "link": "https://movie.douban.com/subject/1297447/",
+      "title": [
+        "倩女幽魂"
+      ],
+      "info": {
+        "director": "导演: 程小东 Siu-Tung Ching",
+        "actor": "主演: 张国荣 Leslie Cheung / 王祖贤 Joey W...",
+        "year": "1987",
+        "region": "中国香港",
+        "genre": "爱情 奇幻 武侠 古装"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "745616"
+      },
+      "quote": "两张绝世的脸。"
+    },
+    {
+      "rank": "126",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2070153774.webp",
+      "link": "https://movie.douban.com/subject/10577869/",
+      "title": [
+        "时空恋旅人",
+        "About Time"
+      ],
+      "info": {
+        "director": "导演: 理查德·柯蒂斯 Richard Curtis",
+        "actor": "主演: 多姆纳尔·格里森 Domhnall Gl...",
+        "year": "2013",
+        "region": "英国",
+        "genre": "喜剧 爱情 奇幻"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "683393"
+      },
+      "quote": "把每天当作最后一天般珍惜度过，积极拥抱生活，就是幸福。"
+    },
+    {
+      "rank": "127",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p456692072.webp",
+      "link": "https://movie.douban.com/subject/1297052/",
+      "title": [
+        "侧耳倾听",
+        "耳をすませば"
+      ],
+      "info": {
+        "director": "导演: 近藤喜文 Yoshifumi Kondo",
+        "actor": "主演: 本名阳子 Youko Honna / 小林桂树 K...",
+        "year": "1995",
+        "region": "日本",
+        "genre": "剧情 爱情 动画"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "468193"
+      },
+      "quote": "少女情怀总是诗。"
+    },
+    {
+      "rank": "128",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.webp",
+      "link": "https://movie.douban.com/subject/1292274/",
+      "title": [
+        "幸福终点站",
+        "The Terminal"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 汤姆·汉克斯 Tom Hanks...",
+        "year": "2004",
+        "region": "美国",
+        "genre": "喜剧 剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "577873"
+      },
+      "quote": "有时候幸福需要等一等。"
+    },
+    {
+      "rank": "129",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2215147728.webp",
+      "link": "https://movie.douban.com/subject/25814707/",
+      "title": [
+        "小森林 冬春篇",
+        "リトル・フォレスト 冬・春"
+      ],
+      "info": {
+        "director": "导演: 森淳一 Junichi Mori",
+        "actor": "主演: 桥本爱 Ai Hashimoto / 三浦贵大 Takahir...",
+        "year": "2015",
+        "region": "日本",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "382973"
+      },
+      "quote": "尊敬他人，尊敬你生活的这片土地，明白孤独是人生的常态。"
+    },
+    {
+      "rank": "130",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p490385643.webp",
+      "link": "https://movie.douban.com/subject/2353023/",
+      "title": [
+        "驯龙高手",
+        "How to Train Your Dragon"
+      ],
+      "info": {
+        "director": "导演: 迪恩·德布洛斯 Dean DeBlois / 克里斯·桑德斯 Chris Sanders",
+        "actor": "主演:...",
+        "year": "2010",
+        "region": "美国",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "763843"
+      },
+      "quote": "和谐的生活离不开摸头与被摸头。"
+    },
+    {
+      "rank": "131",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1351050722.webp",
+      "link": "https://movie.douban.com/subject/1395091/",
+      "title": [
+        "未麻的部屋",
+        "Perfect Blue"
+      ],
+      "info": {
+        "director": "导演: 今敏 Satoshi Kon",
+        "actor": "主演: 岩男润子 Junko Iwao / 松本梨香 Rica Matsu...",
+        "year": "1997",
+        "region": "日本",
+        "genre": "动画 奇幻 惊悚"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "341484"
+      },
+      "quote": "好的剧本是，就算你猜到了结局也猜不到全部。"
+    },
+    {
+      "rank": "132",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p735391084.webp",
+      "link": "https://movie.douban.com/subject/1309055/",
+      "title": [
+        "哈利·波特与火焰杯",
+        "Harry Potter and the Goblet of Fire"
+      ],
+      "info": {
+        "director": "导演: 迈克·内威尔 Mike Newell",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radclif...",
+        "year": "2005",
+        "region": "英国 美国",
+        "genre": "悬疑 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "672110"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "133",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2406624993.webp",
+      "link": "https://movie.douban.com/subject/26628357/",
+      "title": [
+        "一个叫欧维的男人决定去死",
+        "En man som heter Ove"
+      ],
+      "info": {
+        "director": "导演: 汉内斯·赫尔姆 Hannes Holm",
+        "actor": "主演: 罗夫·拉斯加德 Rolf Lassgård...",
+        "year": "2015",
+        "region": "瑞典",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "490394"
+      },
+      "quote": "惠及一生的美丽。"
+    },
+    {
+      "rank": "134",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2169664351.webp",
+      "link": "https://movie.douban.com/subject/1294240/",
+      "title": [
+        "教父3",
+        "The Godfather: Part III"
+      ],
+      "info": {
+        "director": "导演: 弗朗西斯·福特·科波拉 Francis Ford Coppola",
+        "actor": "主演: 阿尔·帕西诺 A...",
+        "year": "1990",
+        "region": "美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "379398"
+      },
+      "quote": "任何信念的力量，都无法改变命运。"
+    },
+    {
+      "rank": "135",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896590108.webp",
+      "link": "https://movie.douban.com/subject/1291579/",
+      "title": [
+        "怪兽电力公司",
+        "Monsters, Inc."
+      ],
+      "info": {
+        "director": "导演: 彼特·道格特 Pete Docter / 大卫·斯沃曼 David Silverman",
+        "actor": "主演: 约...",
+        "year": "2001",
+        "region": "美国",
+        "genre": "儿童 喜剧 动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "681205"
+      },
+      "quote": "不要给它起名字，起了名字就有感情了。"
+    },
+    {
+      "rank": "136",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1675053073.webp",
+      "link": "https://movie.douban.com/subject/5989818/",
+      "title": [
+        "萤火之森",
+        "蛍火の杜へ"
+      ],
+      "info": {
+        "director": "导演: 大森贵弘 Takahiro Omori",
+        "actor": "主演: 佐仓绫音 Ayane Sakura / 内山昂辉 K...",
+        "year": "2011",
+        "region": "日本",
+        "genre": "剧情 爱情 动画 奇幻"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "546177"
+      },
+      "quote": "触不到的恋人。"
+    },
+    {
+      "rank": "137",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2016401659.webp",
+      "link": "https://movie.douban.com/subject/1418200/",
+      "title": [
+        "傲慢与偏见",
+        "Pride & Prejudice"
+      ],
+      "info": {
+        "director": "导演: 乔·怀特 Joe Wright",
+        "actor": "主演: 凯拉·奈特莉 Keira Knightley / 马修·...",
+        "year": "2005",
+        "region": "法国 英国 美国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "811057"
+      },
+      "quote": "爱是摈弃傲慢与偏见之后的曙光。"
+    },
+    {
+      "rank": "138",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2896589481.webp",
+      "link": "https://movie.douban.com/subject/1858711/",
+      "title": [
+        "玩具总动员3",
+        "Toy Story 3"
+      ],
+      "info": {
+        "director": "导演: 李·昂克里奇 Lee Unkrich",
+        "actor": "主演: 汤姆·汉克斯 Tom Hanks / 蒂姆·艾...",
+        "year": "2010",
+        "region": "美国",
+        "genre": "喜剧 动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "524446"
+      },
+      "quote": "跨度十五年的欢乐与泪水。"
+    },
+    {
+      "rank": "139",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1903379979.webp",
+      "link": "https://movie.douban.com/subject/10437779/",
+      "title": [
+        "新世界",
+        "신세계"
+      ],
+      "info": {
+        "director": "导演: 朴勋政 Hoon-jung Park",
+        "actor": "主演: 李政宰 Jung-Jae Lee / 崔岷植 Min-sik...",
+        "year": "2013",
+        "region": "韩国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "443518"
+      },
+      "quote": "要做就做得狠一点，这样才能活下去。"
+    },
+    {
+      "rank": "140",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.webp",
+      "link": "https://movie.douban.com/subject/25986180/",
+      "title": [
+        "釜山行",
+        "부산행"
+      ],
+      "info": {
+        "director": "导演: 延尚昊 Sang-ho Yeon",
+        "actor": "主演: 孔侑 Yoo Gong / 郑有美 Yu-mi Jung / 马...",
+        "year": "2016",
+        "region": "韩国",
+        "genre": "动作 惊悚 灾难"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "1212475"
+      },
+      "quote": "揭露人性的丧尸题材力作。"
+    },
+    {
+      "rank": "141",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1800813767.webp",
+      "link": "https://movie.douban.com/subject/6307447/",
+      "title": [
+        "被解救的姜戈",
+        "Django Unchained"
+      ],
+      "info": {
+        "director": "导演: 昆汀·塔伦蒂诺 Quentin Tarantino",
+        "actor": "主演: 杰米·福克斯 Jamie Foxx /...",
+        "year": "2012",
+        "region": "美国",
+        "genre": "剧情 动作 西部 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "615982"
+      },
+      "quote": "热血沸腾，那个低俗、性感的无耻混蛋又来了。"
+    },
+    {
+      "rank": "142",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.webp",
+      "link": "https://movie.douban.com/subject/3287562/",
+      "title": [
+        "神偷奶爸",
+        "Despicable Me"
+      ],
+      "info": {
+        "director": "导演: 皮艾尔·柯芬 Pierre Coffin / 克里斯·雷纳德 Chris Renaud",
+        "actor": "主演: ...",
+        "year": "2010",
+        "region": "美国 法国",
+        "genre": "喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "956827"
+      },
+      "quote": "Mr. I Don't Care其实也有Care的时候。"
+    },
+    {
+      "rank": "143",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p488255145.webp",
+      "link": "https://movie.douban.com/subject/3072124/",
+      "title": [
+        "玛丽和马克思",
+        "Mary and Max"
+      ],
+      "info": {
+        "director": "导演: 亚当·艾略特 Adam Elliot",
+        "actor": "主演: 托妮·科莱特 Toni Collette / 菲利...",
+        "year": "2009",
+        "region": "澳大利亚 美国",
+        "genre": "剧情 喜剧 动画"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "424497"
+      },
+      "quote": "你是我最好的朋友，你是我唯一的朋友 。"
+    },
+    {
+      "rank": "144",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p689520756.webp",
+      "link": "https://movie.douban.com/subject/4268598/",
+      "title": [
+        "告白"
+      ],
+      "info": {
+        "director": "导演: 中岛哲也 Tetsuya Nakashima",
+        "actor": "主演: 松隆子 Takako Matsu / 冈田将生 ...",
+        "year": "2010",
+        "region": "日本",
+        "genre": "剧情 悬疑"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "677433"
+      },
+      "quote": "没有一人完全善，也没有一人完全恶。"
+    },
+    {
+      "rank": "145",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2528965424.webp",
+      "link": "https://movie.douban.com/subject/1461403/",
+      "title": [
+        "茶馆"
+      ],
+      "info": {
+        "director": "导演: 谢添 Tian Xie",
+        "actor": "主演: 于是之 Shizhi Yu / 郑榕 Rong Zhen / 蓝天野 T...",
+        "year": "1982(中国大陆)",
+        "region": "中国大陆",
+        "genre": "剧情 历史"
+      },
+      "star": {
+        "score": "9.6",
+        "count": "151189"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "146",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532803206.webp",
+      "link": "https://movie.douban.com/subject/1307315/",
+      "title": [
+        "哪吒闹海"
+      ],
+      "info": {
+        "director": "导演: 王树忱 Shuchen Wang / 严定宪 Dingxian Yan",
+        "actor": "主演: 梁正晖 Zhenghui ...",
+        "year": "1979",
+        "region": "中国大陆",
+        "genre": "冒险 动画 奇幻"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "263228"
+      },
+      "quote": "想你时你在闹海。"
+    },
+    {
+      "rank": "147",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p692813374.webp",
+      "link": "https://movie.douban.com/subject/1291545/",
+      "title": [
+        "大鱼",
+        "Big Fish"
+      ],
+      "info": {
+        "director": "导演: 蒂姆·波顿 Tim Burton",
+        "actor": "主演: 伊万·麦克格雷格 Ewan McGregor / 阿...",
+        "year": "2003",
+        "region": "美国",
+        "genre": "剧情 家庭 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "573444"
+      },
+      "quote": "抱着梦想而活着的人是幸福的，怀抱梦想而死去的人是不朽的。"
+    },
+    {
+      "rank": "148",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p648370300.webp",
+      "link": "https://movie.douban.com/subject/1297518/",
+      "title": [
+        "九品芝麻官"
+      ],
+      "info": {
+        "director": "导演: 王晶 Jing Wong",
+        "actor": "主演: 周星驰 Stephen Chow / 吴孟达 Man Tat Ng / ...",
+        "year": "1994",
+        "region": "中国香港 中国大陆",
+        "genre": "剧情 喜剧 古装"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "690109"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "149",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2249048907.webp",
+      "link": "https://movie.douban.com/subject/1303037/",
+      "title": [
+        "喜宴",
+        "囍宴"
+      ],
+      "info": {
+        "director": "导演: 李安 Ang Lee",
+        "actor": "主演: 赵文瑄 Winston Chao / 归亚蕾 Ya-lei Kuei / 郎...",
+        "year": "1993",
+        "region": "中国台湾 美国",
+        "genre": "剧情 喜剧 爱情 同性 家庭"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "368250"
+      },
+      "quote": "中国家庭的喜怒哀乐忍。"
+    },
+    {
+      "rank": "150",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2255040492.webp",
+      "link": "https://movie.douban.com/subject/10463953/",
+      "title": [
+        "模仿游戏",
+        "The Imitation Game"
+      ],
+      "info": {
+        "director": "导演: 莫滕·泰杜姆 Morten Tyldum",
+        "actor": "主演: 本尼迪克特·康伯巴奇 Benedict C...",
+        "year": "2014",
+        "region": "英国 美国",
+        "genre": "剧情 传记 战争 同性"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "654671"
+      },
+      "quote": "他给机器起名“克里斯托弗”，因为这是他初恋的名字。"
+    },
+    {
+      "rank": "151",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.webp",
+      "link": "https://movie.douban.com/subject/4920389/",
+      "title": [
+        "头号玩家",
+        "Ready Player One"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 泰伊·谢里丹 Tye Sheri...",
+        "year": "2018",
+        "region": "美国",
+        "genre": "动作 科幻 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "1381910"
+      },
+      "quote": "写给影迷，动漫迷和游戏迷的一封情书。"
+    },
+    {
+      "rank": "152",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p453716305.webp",
+      "link": "https://movie.douban.com/subject/1828115/",
+      "title": [
+        "色，戒"
+      ],
+      "info": {
+        "director": "导演: 李安 Ang Lee",
+        "actor": "主演: 梁朝伟 Tony Leung Chiu Wai / 汤唯 Wei Tang / ...",
+        "year": "2007",
+        "region": "中国台湾 中国大陆 美国 中国香港",
+        "genre": "剧情 爱情 情色"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "821458"
+      },
+      "quote": "假戏真情，爱欲深海"
+    },
+    {
+      "rank": "153",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2609063922.webp",
+      "link": "https://movie.douban.com/subject/1316510/",
+      "title": [
+        "射雕英雄传之东成西就",
+        "射鵰英雄傳之東成西就"
+      ],
+      "info": {
+        "director": "导演: 刘镇伟 Jeffrey Lau",
+        "actor": "主演: 梁朝伟 Tony Leung Chiu Wai / 林青霞 Bri...",
+        "year": "1993",
+        "region": "中国香港",
+        "genre": "喜剧 奇幻 武侠 古装"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "644322"
+      },
+      "quote": "百看不厌。"
+    },
+    {
+      "rank": "154",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910828286.webp",
+      "link": "https://movie.douban.com/subject/1291557/",
+      "title": [
+        "花样年华",
+        "花樣年華"
+      ],
+      "info": {
+        "director": "导演: 王家卫 Kar Wai Wong",
+        "actor": "主演: 梁朝伟 Tony Leung Chiu Wai / 张曼玉 Ma...",
+        "year": "2000",
+        "region": "中国香港",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "616270"
+      },
+      "quote": "偷情本没有这样美。"
+    },
+    {
+      "rank": "155",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p652417775.webp",
+      "link": "https://movie.douban.com/subject/1306861/",
+      "title": [
+        "我是山姆",
+        "I Am Sam"
+      ],
+      "info": {
+        "director": "导演: 杰茜·尼尔森 Jessie Nelson",
+        "actor": "主演: Sean Penn / Dakota Fanning / Mi...",
+        "year": "2001",
+        "region": "美国",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "341584"
+      },
+      "quote": "爱并不需要智商 。"
+    },
+    {
+      "rank": "156",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1374786017.webp",
+      "link": "https://movie.douban.com/subject/4917726/",
+      "title": [
+        "阳光姐妹淘",
+        "써니"
+      ],
+      "info": {
+        "director": "导演: 姜炯哲 Hyeong-Cheol Kang",
+        "actor": "主演: 沈恩京 Eun-kyung Shim / 闵孝琳 Hy...",
+        "year": "2011",
+        "region": "韩国",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "594376"
+      },
+      "quote": "再多各自牛逼的时光，也比不上一起傻逼的岁月。"
+    },
+    {
+      "rank": "157",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896589345.webp",
+      "link": "https://movie.douban.com/subject/10533913/",
+      "title": [
+        "头脑特工队",
+        "Inside Out"
+      ],
+      "info": {
+        "director": "导演: 彼特·道格特 Pete Docter / 罗纳尔多·德尔·卡门 Ronaldo Del Carmen",
+        "actor": "&nb...",
+        "year": "2015",
+        "region": "美国",
+        "genre": "喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "623147"
+      },
+      "quote": "愿我们都不用长大，每一座城堡都能永远存在。"
+    },
+    {
+      "rank": "158",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2398141939.webp",
+      "link": "https://movie.douban.com/subject/26325320/",
+      "title": [
+        "血战钢锯岭",
+        "Hacksaw Ridge"
+      ],
+      "info": {
+        "director": "导演: 梅尔·吉布森 Mel Gibson",
+        "actor": "主演: 安德鲁·加菲尔德 Andrew Garfield /...",
+        "year": "2016",
+        "region": "澳大利亚 美国",
+        "genre": "剧情 传记 历史 战争"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "789802"
+      },
+      "quote": "优秀的战争片不会美化战场，不会粉饰死亡，不会矮化敌人，不会无视常识，最重要的，不会宣扬战争。"
+    },
+    {
+      "rank": "159",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2215886505.webp",
+      "link": "https://movie.douban.com/subject/1295399/",
+      "title": [
+        "七武士",
+        "七人の侍"
+      ],
+      "info": {
+        "director": "导演: 黑泽明 Akira Kurosawa",
+        "actor": "主演: 三船敏郎 Toshirô Mifune / 志村乔 ...",
+        "year": "1954",
+        "region": "日本",
+        "genre": "动作 冒险 剧情"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "200842"
+      },
+      "quote": "时代悲歌。"
+    },
+    {
+      "rank": "160",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2016930906.webp",
+      "link": "https://movie.douban.com/subject/21360417/",
+      "title": [
+        "恐怖直播",
+        "더 테러 라이브"
+      ],
+      "info": {
+        "director": "导演: 金秉祐 Byeong-woo Kim",
+        "actor": "主演: 河正宇 Jung-woo Ha / 李璟荣 Kyeong-y...",
+        "year": "2013",
+        "region": "韩国",
+        "genre": "剧情 犯罪 悬疑"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "658749"
+      },
+      "quote": "恐怖分子的“秋菊打官司”。"
+    },
+    {
+      "rank": "161",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1021883305.webp",
+      "link": "https://movie.douban.com/subject/1293181/",
+      "title": [
+        "惊魂记",
+        "Psycho"
+      ],
+      "info": {
+        "director": "导演: 阿尔弗雷德·希区柯克 Alfred Hitchcock",
+        "actor": "主演: 安东尼·博金斯 Antho...",
+        "year": "1960",
+        "region": "美国",
+        "genre": "悬疑 惊悚 恐怖"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "300097"
+      },
+      "quote": "故事的反转与反转，分裂电影的始祖。"
+    },
+    {
+      "rank": "162",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461818.webp",
+      "link": "https://movie.douban.com/subject/1302467/",
+      "title": [
+        "黑客帝国3：矩阵革命",
+        "The Matrix Revolutions"
+      ],
+      "info": {
+        "director": "导演: 拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski",
+        "actor": "...",
+        "year": "2003",
+        "region": "美国",
+        "genre": "动作 科幻"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "451501"
+      },
+      "quote": "不得不说，《黑客帝国》系列是商业片与科幻、哲学完美结合的典范。"
+    },
+    {
+      "rank": "163",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2395733377.webp",
+      "link": "https://movie.douban.com/subject/26683290/",
+      "title": [
+        "你的名字。",
+        "君の名は。"
+      ],
+      "info": {
+        "director": "导演: 新海诚 Makoto Shinkai",
+        "actor": "主演: 神木隆之介 Ryûnosuke Kamiki / 上...",
+        "year": "2016",
+        "region": "日本",
+        "genre": "剧情 爱情 动画"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "1423627"
+      },
+      "quote": "穿越错位的时空，仰望陨落的星辰，你没留下你的名字，我却无法忘记那句“我爱你”。"
+    },
+    {
+      "rank": "164",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p726839485.webp",
+      "link": "https://movie.douban.com/subject/1417598/",
+      "title": [
+        "电锯惊魂",
+        "Saw"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·温 James Wan",
+        "actor": "主演: 雷·沃纳尔 Leigh Whannell / 加利·艾...",
+        "year": "2004",
+        "region": "美国",
+        "genre": "悬疑 惊悚 恐怖"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "539845"
+      },
+      "quote": "真相就在眼前。"
+    },
+    {
+      "rank": "165",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2896590555.webp",
+      "link": "https://movie.douban.com/subject/26611804/",
+      "title": [
+        "三块广告牌",
+        "Three Billboards Outside Ebbing, Missouri"
+      ],
+      "info": {
+        "director": "导演: 马丁·麦克唐纳 Martin McDonagh",
+        "actor": "主演: 弗兰西斯·麦克多蒙德 France...",
+        "year": "2017",
+        "region": "英国 美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "828172"
+      },
+      "quote": "怼天怼地，你走后，她与世界为敌。"
+    },
+    {
+      "rank": "166",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2166160837.webp",
+      "link": "https://movie.douban.com/subject/1793929/",
+      "title": [
+        "达拉斯买家俱乐部",
+        "Dallas Buyers Club"
+      ],
+      "info": {
+        "director": "导演: 让-马克·瓦雷 Jean-Marc Vallée",
+        "actor": "主演: 马修·麦康纳 Matthew McCon...",
+        "year": "2013",
+        "region": "美国",
+        "genre": "剧情 传记 同性"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "457106"
+      },
+      "quote": "Jared Leto的腿比女人还美！"
+    },
+    {
+      "rank": "167",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1867084027.webp",
+      "link": "https://movie.douban.com/subject/1907966/",
+      "title": [
+        "疯狂原始人",
+        "The Croods"
+      ],
+      "info": {
+        "director": "导演: 科克·德·米科 Kirk De Micco / 克里斯·桑德斯 Chris Sanders",
+        "actor": "主演...",
+        "year": "2013",
+        "region": "美国",
+        "genre": "喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "846872"
+      },
+      "quote": "老少皆宜，这就是好莱坞动画的魅力。"
+    },
+    {
+      "rank": "168",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2276780256.webp",
+      "link": "https://movie.douban.com/subject/25917973/",
+      "title": [
+        "心迷宫"
+      ],
+      "info": {
+        "director": "导演: 忻钰坤 Yukun Xin",
+        "actor": "主演: 霍卫民 Weimin Huo / 王笑天 Xiaotian Wang ...",
+        "year": "2014",
+        "region": "中国大陆",
+        "genre": "剧情 犯罪 悬疑"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "528304"
+      },
+      "quote": "荒诞讽刺，千奇百巧，抽丝剥茧，百转千回。"
+    },
+    {
+      "rank": "169",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792223507.webp",
+      "link": "https://movie.douban.com/subject/1578507/",
+      "title": [
+        "谍影重重3",
+        "The Bourne Ultimatum"
+      ],
+      "info": {
+        "director": "导演: 保罗·格林格拉斯 Paul Greengrass",
+        "actor": "主演: 马特·达蒙 Matt Damon / ...",
+        "year": "2007",
+        "region": "美国 德国 法国 英国",
+        "genre": "动作 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "423051"
+      },
+      "quote": "像吃了苏打饼一样干脆的电影。"
+    },
+    {
+      "rank": "170",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p455677490.webp",
+      "link": "https://movie.douban.com/subject/1292208/",
+      "title": [
+        "上帝之城",
+        "Cidade de Deus"
+      ],
+      "info": {
+        "director": "导演: 费尔南多·梅里尔斯 Fernando Meirelles / 卡迪亚·兰德 Kátia Lund",
+        "actor": "&nbsp...",
+        "year": "2002",
+        "region": "巴西 法国",
+        "genre": "犯罪 剧情"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "303943"
+      },
+      "quote": "被上帝抛弃了的上帝之城。"
+    },
+    {
+      "rank": "171",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2504997087.webp",
+      "link": "https://movie.douban.com/subject/1297574/",
+      "title": [
+        "英雄本色"
+      ],
+      "info": {
+        "director": "导演: 吴宇森 John Woo",
+        "actor": "主演: 周润发 Yun-Fat Chow / 狄龙 Lung Ti / 张国...",
+        "year": "1986",
+        "region": "中国香港",
+        "genre": "剧情 动作 犯罪"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "547406"
+      },
+      "quote": "英雄泪短，兄弟情长。"
+    },
+    {
+      "rank": "172",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1917567652.webp",
+      "link": "https://movie.douban.com/subject/1291585/",
+      "title": [
+        "风之谷",
+        "風の谷のナウシカ"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 岛本须美 Sumi Shimamoto / 松田洋治 Y...",
+        "year": "1984",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "357682"
+      },
+      "quote": "动画片的圣经。"
+    },
+    {
+      "rank": "173",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2597918718.webp",
+      "link": "https://movie.douban.com/subject/1295409/",
+      "title": [
+        "纵横四海",
+        "緃横四海"
+      ],
+      "info": {
+        "director": "导演: 吴宇森 John Woo",
+        "actor": "主演: 周润发 Yun-Fat Chow / 张国荣 Leslie Cheung...",
+        "year": "1991",
+        "region": "中国香港",
+        "genre": "剧情 喜剧 动作 犯罪"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "430290"
+      },
+      "quote": "香港浪漫主义警匪动作片的巅峰之作。"
+    },
+    {
+      "rank": "174",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p470419493.webp",
+      "link": "https://movie.douban.com/subject/1291822/",
+      "title": [
+        "卢旺达饭店",
+        "Hotel Rwanda"
+      ],
+      "info": {
+        "director": "导演: 特瑞·乔治 Terry George",
+        "actor": "主演: 唐·钱德尔 Don Cheadle / 苏菲·奥...",
+        "year": "2004",
+        "region": "英国 南非 意大利 美国",
+        "genre": "剧情 传记 历史 战争"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "333473"
+      },
+      "quote": "当这个世界闭上双眼，他却敞开了怀抱。"
+    },
+    {
+      "rank": "175",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2074715729.webp",
+      "link": "https://movie.douban.com/subject/10808442/",
+      "title": [
+        "爱在午夜降临前",
+        "Before Midnight"
+      ],
+      "info": {
+        "director": "导演: 理查德·林克莱特 Richard Linklater",
+        "actor": "主演: 伊桑·霍克 Ethan Hawke ...",
+        "year": "2013",
+        "region": "美国 希腊",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "408572"
+      },
+      "quote": "所谓爱情，就是话唠一路，都不会心生腻烦，彼此嫌弃。"
+    },
+    {
+      "rank": "176",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2603364117.webp",
+      "link": "https://movie.douban.com/subject/25895901/",
+      "title": [
+        "海街日记",
+        "海街diary"
+      ],
+      "info": {
+        "director": "导演: 是枝裕和 Hirokazu Koreeda",
+        "actor": "主演: 绫濑遥 Haruka Ayase / 长泽雅美 M...",
+        "year": "2015",
+        "region": "日本",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "454219"
+      },
+      "quote": "是枝裕和的家庭习作。"
+    },
+    {
+      "rank": "177",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p767586451.webp",
+      "link": "https://movie.douban.com/subject/1300374/",
+      "title": [
+        "绿里奇迹",
+        "The Green Mile"
+      ],
+      "info": {
+        "director": "导演: 弗兰克·德拉邦特 Frank Darabont",
+        "actor": "主演: 汤姆·汉克斯 Tom Hanks / ...",
+        "year": "1999",
+        "region": "美国",
+        "genre": "犯罪 剧情 奇幻 悬疑"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "334196"
+      },
+      "quote": "天使暂时离开。"
+    },
+    {
+      "rank": "178",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p641688453.webp",
+      "link": "https://movie.douban.com/subject/1304447/",
+      "title": [
+        "记忆碎片",
+        "Memento"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·诺兰 Christopher Nolan",
+        "actor": "主演: 盖·皮尔斯 Guy Pearce /...",
+        "year": "2000",
+        "region": "美国",
+        "genre": "犯罪 剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "610333"
+      },
+      "quote": "一个针管引发的血案。"
+    },
+    {
+      "rank": "179",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2567198874.webp",
+      "link": "https://movie.douban.com/subject/27119724/",
+      "title": [
+        "小丑",
+        "Joker"
+      ],
+      "info": {
+        "director": "导演: 托德·菲利普斯 Todd Phillips",
+        "actor": "主演: 杰昆·菲尼克斯 Joaquin Phoeni...",
+        "year": "2019",
+        "region": "美国 加拿大",
+        "genre": "剧情 犯罪 惊悚"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "1017307"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "180",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p712241453.webp",
+      "link": "https://movie.douban.com/subject/1862151/",
+      "title": [
+        "疯狂的石头"
+      ],
+      "info": {
+        "director": "导演: 宁浩 Hao Ning",
+        "actor": "主演: 郭涛 Tao Guo / 刘桦 Hua Liu / 连晋 Teddy Lin",
+        "year": "2006",
+        "region": "中国大陆 中国香港",
+        "genre": "喜剧 犯罪"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "831503"
+      },
+      "quote": "中国版《两杆大烟枪》。"
+    },
+    {
+      "rank": "181",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2505048077.webp",
+      "link": "https://movie.douban.com/subject/1307856/",
+      "title": [
+        "背靠背，脸对脸"
+      ],
+      "info": {
+        "director": "导演: 黄建新 Jianxin Huang / 杨亚洲 Yazhou Yang",
+        "actor": "主演: 牛振华 Zhenhua N...",
+        "year": "1994",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.5",
+        "count": "137173"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "182",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p456666151.webp",
+      "link": "https://movie.douban.com/subject/3792799/",
+      "title": [
+        "岁月神偷",
+        "歲月神偷"
+      ],
+      "info": {
+        "director": "导演: 罗启锐 Alex Law",
+        "actor": "主演: 吴君如 Sandra Ng / 任达华 Simon Yam / 钟绍...",
+        "year": "2010",
+        "region": "中国香港 中国大陆",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "577917"
+      },
+      "quote": "岁月流逝，来日可追。"
+    },
+    {
+      "rank": "183",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1612355875.webp",
+      "link": "https://movie.douban.com/subject/1293460/",
+      "title": [
+        "雨中曲",
+        "Singin' in the Rain"
+      ],
+      "info": {
+        "director": "导演: 斯坦利·多南 Stanley Donen / 吉恩·凯利 Gene Kelly",
+        "actor": "主演: 吉恩·...",
+        "year": "1952",
+        "region": "美国",
+        "genre": "喜剧 歌舞 爱情"
+      },
+      "star": {
+        "score": "9.1",
+        "count": "229303"
+      },
+      "quote": "骨灰级歌舞片。"
+    },
+    {
+      "rank": "184",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2603716224.webp",
+      "link": "https://movie.douban.com/subject/1959195/",
+      "title": [
+        "忠犬八公物语",
+        "ハチ公物語"
+      ],
+      "info": {
+        "director": "导演: 神山征二郎 Seijirô Kôyama",
+        "actor": "主演: 仲代达矢 Tatsuya Nakadai /...",
+        "year": "1987",
+        "region": "日本",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "9.2",
+        "count": "198017"
+      },
+      "quote": "养狗三日，便会对你终其一生。"
+    },
+    {
+      "rank": "185",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2560717825.webp",
+      "link": "https://movie.douban.com/subject/1292226/",
+      "title": [
+        "2001太空漫游",
+        "2001: A Space Odyssey"
+      ],
+      "info": {
+        "director": "导演: 斯坦利·库布里克 Stanley Kubrick",
+        "actor": "主演: 凯尔·杜拉 Keir Dullea / ...",
+        "year": "1968",
+        "region": "英国 美国",
+        "genre": "科幻 惊悚 冒险"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "335213"
+      },
+      "quote": "现代科幻电影的开山之作，最伟大导演的最伟大影片。"
+    },
+    {
+      "rank": "186",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589788.webp",
+      "link": "https://movie.douban.com/subject/24733428/",
+      "title": [
+        "心灵奇旅",
+        "Soul"
+      ],
+      "info": {
+        "director": "导演: 彼特·道格特 Pete Docter / 凯普·鲍尔斯 Kemp Powers",
+        "actor": "主演: 杰米·...",
+        "year": "2020",
+        "region": "美国",
+        "genre": "动画 奇幻 音乐"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "994528"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "187",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2584519452.webp",
+      "link": "https://movie.douban.com/subject/24750126/",
+      "title": [
+        "荒蛮故事",
+        "Relatos salvajes"
+      ],
+      "info": {
+        "director": "导演: 达米安·斯兹弗隆 Damián Szifron",
+        "actor": "主演: 达里奥·葛兰帝内提 Darío...",
+        "year": "2014",
+        "region": "阿根廷 西班牙",
+        "genre": "剧情 喜剧 犯罪"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "448302"
+      },
+      "quote": "始于荒诞，止于更荒诞。"
+    },
+    {
+      "rank": "188",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p958008320.webp",
+      "link": "https://movie.douban.com/subject/1307106/",
+      "title": [
+        "无间道2",
+        "無間道II"
+      ],
+      "info": {
+        "director": "导演: 刘伟强 / 麦兆辉",
+        "actor": "主演: 陈冠希 Edison Chen / 余文乐 Shawn Yue / 曾...",
+        "year": "2003",
+        "region": "中国香港",
+        "genre": "剧情 犯罪 惊悚"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "485925"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "189",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2530599636.webp",
+      "link": "https://movie.douban.com/subject/27622447/",
+      "title": [
+        "小偷家族",
+        "万引き家族"
+      ],
+      "info": {
+        "director": "导演: 是枝裕和 Hirokazu Koreeda",
+        "actor": "主演: 中川雅也 Lily Franky / 安藤樱 Sa...",
+        "year": "2018",
+        "region": "日本",
+        "genre": "剧情 犯罪 家庭"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "818887"
+      },
+      "quote": "我们组成了家。"
+    },
+    {
+      "rank": "190",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589589.webp",
+      "link": "https://movie.douban.com/subject/6534248/",
+      "title": [
+        "无敌破坏王",
+        "Wreck-It Ralph"
+      ],
+      "info": {
+        "director": "导演: 瑞奇·莫尔 Rich Moore",
+        "actor": "主演: 约翰·C·赖利 John C. Reilly / 萨拉...",
+        "year": "2012",
+        "region": "美国",
+        "genre": "喜剧 动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "546221"
+      },
+      "quote": "迪士尼和皮克斯拿错剧本的产物。"
+    },
+    {
+      "rank": "191",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2220776342.webp",
+      "link": "https://movie.douban.com/subject/25773932/",
+      "title": [
+        "爆裂鼓手",
+        "Whiplash"
+      ],
+      "info": {
+        "director": "导演: 达米恩·查泽雷 Damien Chazelle",
+        "actor": "主演: 迈尔斯·特勒 Miles Teller /...",
+        "year": "2014",
+        "region": "美国",
+        "genre": "剧情 音乐"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "594742"
+      },
+      "quote": "这个世界从不善待努力的人，努力了也不一定会成功，但是知道自己在努力，就是活下去的动力。"
+    },
+    {
+      "rank": "192",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589259.webp",
+      "link": "https://movie.douban.com/subject/1291578/",
+      "title": [
+        "冰川时代",
+        "Ice Age"
+      ],
+      "info": {
+        "director": "导演: 卡洛斯·沙尔丹哈 Carlos Saldanha / 克里斯·韦奇 Chris Wedge",
+        "actor": "主演...",
+        "year": "2002",
+        "region": "美国",
+        "genre": "喜剧 动画 冒险"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "621795"
+      },
+      "quote": "松鼠才是角儿。"
+    },
+    {
+      "rank": "193",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p462470694.webp",
+      "link": "https://movie.douban.com/subject/3011051/",
+      "title": [
+        "恐怖游轮",
+        "Triangle"
+      ],
+      "info": {
+        "director": "导演: 克里斯托弗·史密斯 Christopher Smith",
+        "actor": "主演: 梅利莎·乔治 Melissa ...",
+        "year": "2009",
+        "region": "英国 澳大利亚",
+        "genre": "剧情 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "874665"
+      },
+      "quote": "不要企图在重复中寻找已经失去的爱。"
+    },
+    {
+      "rank": "194",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2434249040.webp",
+      "link": "https://movie.douban.com/subject/2209573/",
+      "title": [
+        "贫民窟的百万富翁",
+        "Slumdog Millionaire"
+      ],
+      "info": {
+        "director": "导演: 丹尼·鲍尔 Danny Boyle / 洛芙琳·坦丹 Loveleen Tandan",
+        "actor": "主演: 戴夫...",
+        "year": "2008",
+        "region": "英国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "751134"
+      },
+      "quote": "上帝之城+猜火车+阿甘正传+开心辞典=山寨富翁"
+    },
+    {
+      "rank": "195",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1982176012.webp",
+      "link": "https://movie.douban.com/subject/1292328/",
+      "title": [
+        "东邪西毒",
+        "東邪西毒"
+      ],
+      "info": {
+        "director": "导演: 王家卫 Kar Wai Wong",
+        "actor": "主演: 张国荣 Leslie Cheung / 林青霞 Brigitte...",
+        "year": "1994",
+        "region": "中国香港 中国台湾",
+        "genre": "剧情 动作 爱情 武侠 古装"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "581720"
+      },
+      "quote": "电影诗。"
+    },
+    {
+      "rank": "196",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p848381236.webp",
+      "link": "https://movie.douban.com/subject/1292329/",
+      "title": [
+        "牯岭街少年杀人事件",
+        "牯嶺街少年殺人事件"
+      ],
+      "info": {
+        "director": "导演: 杨德昌 Edward Yang",
+        "actor": "主演: 张震 Chen Chang / 杨静怡 Lisa Yang / 张...",
+        "year": "1991",
+        "region": "中国台湾",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "305388"
+      },
+      "quote": "弱者送给弱者的一刀。"
+    },
+    {
+      "rank": "197",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p456676352.webp",
+      "link": "https://movie.douban.com/subject/1307811/",
+      "title": [
+        "魔女宅急便",
+        "魔女の宅急便"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 高山南 Minami Takayama / 佐久间玲 Re...",
+        "year": "1989",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "464892"
+      },
+      "quote": "宫崎骏的电影总让人感觉世界是美好的，阳光明媚的。"
+    },
+    {
+      "rank": "198",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2676812053.webp",
+      "link": "https://movie.douban.com/subject/1867345/",
+      "title": [
+        "遗愿清单",
+        "The Bucket List"
+      ],
+      "info": {
+        "director": "导演: 罗伯·莱纳 Rob Reiner",
+        "actor": "主演: 杰克·尼科尔森 Jack Nicholson / 摩根...",
+        "year": "2007",
+        "region": "美国",
+        "genre": "冒险 喜剧 剧情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "467946"
+      },
+      "quote": "用剩余不多的时间，去燃烧整个生命。"
+    },
+    {
+      "rank": "199",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p456703618.webp",
+      "link": "https://movie.douban.com/subject/1310177/",
+      "title": [
+        "东京教父",
+        "東京ゴッドファーザーズ"
+      ],
+      "info": {
+        "director": "导演: 今敏 Satoshi Kon",
+        "actor": "主演: 江守彻 Toru Emori / 梅垣义明 Yoshiaki Ume...",
+        "year": "2003",
+        "region": "日本",
+        "genre": "剧情 喜剧 动画"
+      },
+      "star": {
+        "score": "9.0",
+        "count": "234692"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "200",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505928032.webp",
+      "link": "https://movie.douban.com/subject/27059130/",
+      "title": [
+        "大佛普拉斯"
+      ],
+      "info": {
+        "director": "导演: 黄信尧 Hsin-yao Huang",
+        "actor": "主演: 庄益增 Yizeng Zhuang / 陈竹昇 Chu-sh...",
+        "year": "2017",
+        "region": "中国台湾",
+        "genre": "剧情 喜剧"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "465826"
+      },
+      "quote": "人们可以登上月球，却永远无法探索人们内心的宇宙。"
+    },
+    {
+      "rank": "201",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p709670262.webp",
+      "link": "https://movie.douban.com/subject/4848115/",
+      "title": [
+        "你看起来好像很好吃",
+        "おまえうまそうだな"
+      ],
+      "info": {
+        "director": "导演: 藤森雅也 Masaya Fujimori",
+        "actor": "主演: 山口胜平 Kappei Yamaguchi / 爱河...",
+        "year": "2010",
+        "region": "日本",
+        "genre": "剧情 动画 儿童"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "336412"
+      },
+      "quote": "感情不分食草或者食肉。"
+    },
+    {
+      "rank": "202",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p475600770.webp",
+      "link": "https://movie.douban.com/subject/1292401/",
+      "title": [
+        "真爱至上",
+        "Love Actually"
+      ],
+      "info": {
+        "director": "导演: 理查德·柯蒂斯 Richard Curtis",
+        "actor": "主演: 休·格兰特 Hugh Grant / 柯林...",
+        "year": "2003",
+        "region": "英国 美国 法国",
+        "genre": "喜剧 剧情 爱情"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "736532"
+      },
+      "quote": "爱，是个动词。"
+    },
+    {
+      "rank": "203",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896603000.webp",
+      "link": "https://movie.douban.com/subject/1978709/",
+      "title": [
+        "黑天鹅",
+        "Black Swan"
+      ],
+      "info": {
+        "director": "导演: 达伦·阿罗诺夫斯基 Darren Aronofsky",
+        "actor": "主演: 娜塔莉·波特曼 Natalie...",
+        "year": "2010",
+        "region": "美国",
+        "genre": "剧情 惊悚"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "785739"
+      },
+      "quote": "黑暗之美。"
+    },
+    {
+      "rank": "204",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2363208684.webp",
+      "link": "https://movie.douban.com/subject/1308857/",
+      "title": [
+        "可可西里"
+      ],
+      "info": {
+        "director": "导演: 陆川 Chuan Lu",
+        "actor": "主演: 多布杰 Duobujie / 张磊 Lei Zhang / 亓亮 Qi L...",
+        "year": "2004",
+        "region": "中国大陆 中国香港",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "306744"
+      },
+      "quote": "坚硬的信仰。"
+    },
+    {
+      "rank": "205",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2170238828.webp",
+      "link": "https://movie.douban.com/subject/1293908/",
+      "title": [
+        "城市之光",
+        "City Lights"
+      ],
+      "info": {
+        "director": "导演: Charles Chaplin",
+        "actor": "主演: 查理·卓别林 Charles Chaplin / 弗吉尼亚·...",
+        "year": "1931",
+        "region": "美国",
+        "genre": "喜剧 剧情 爱情"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "148873"
+      },
+      "quote": "永远的小人物，伟大的卓别林。"
+    },
+    {
+      "rank": "206",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p988260245.webp",
+      "link": "https://movie.douban.com/subject/3075287/",
+      "title": [
+        "源代码",
+        "Source Code"
+      ],
+      "info": {
+        "director": "导演: 邓肯·琼斯 Duncan Jones",
+        "actor": "主演: 杰克·吉伦哈尔 Jake Gyllenhaal / ...",
+        "year": "2011",
+        "region": "美国 加拿大",
+        "genre": "科幻 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "842715"
+      },
+      "quote": "邓肯·琼斯继《月球》之后再度奉献出一部精彩绝伦的科幻佳作。"
+    },
+    {
+      "rank": "207",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2421855655.webp",
+      "link": "https://movie.douban.com/subject/25980443/",
+      "title": [
+        "海边的曼彻斯特",
+        "Manchester by the Sea"
+      ],
+      "info": {
+        "director": "导演: 肯尼斯·罗纳根 Kenneth Lonergan",
+        "actor": "主演: 卡西·阿弗莱克 Casey Affle...",
+        "year": "2016",
+        "region": "美国",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "550239"
+      },
+      "quote": "我们都有权利不与自己的过去和解。"
+    },
+    {
+      "rank": "208",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2353324612.webp",
+      "link": "https://movie.douban.com/subject/1291870/",
+      "title": [
+        "雨人",
+        "Rain Man"
+      ],
+      "info": {
+        "director": "导演: 巴瑞·莱文森 Barry Levinson",
+        "actor": "主演: 达斯汀·霍夫曼 Dustin Hoffman ...",
+        "year": "1988",
+        "region": "美国",
+        "genre": "剧情"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "407633"
+      },
+      "quote": "生活在自己的世界里，也可以让周围的人显得可笑和渺小。"
+    },
+    {
+      "rank": "209",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2549558913.webp",
+      "link": "https://movie.douban.com/subject/5300054/",
+      "title": [
+        "波西米亚狂想曲",
+        "Bohemian Rhapsody"
+      ],
+      "info": {
+        "director": "导演: 布莱恩·辛格 Bryan Singer",
+        "actor": "主演: 拉米·马雷克 Rami Malek / 本·哈...",
+        "year": "2018",
+        "region": "英国 美国",
+        "genre": "剧情 传记 同性 音乐"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "612435"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "210",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1505312273.webp",
+      "link": "https://movie.douban.com/subject/4739952/",
+      "title": [
+        "初恋这件小事",
+        "สิ่งเล็กเล็กที่เรียกว่า...รัก"
+      ],
+      "info": {
+        "director": "导演: 普特鹏·普罗萨卡·那·萨克那卡林 Puttipong Promsaka Na Sakolnakorn / 华森·波克彭...",
+        "actor": "2010",
+        "year": "泰国",
+        "region": "剧情 喜剧 爱情"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "986358"
+      },
+      "quote": "黑小鸭速效美白记。"
+    },
+    {
+      "rank": "211",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p483604864.webp",
+      "link": "https://movie.douban.com/subject/1309163/",
+      "title": [
+        "恋恋笔记本",
+        "The Notebook"
+      ],
+      "info": {
+        "director": "导演: 尼克·卡索维茨 Nick Cassavetes",
+        "actor": "主演: 瑞恩·高斯林 Ryan Gosling /...",
+        "year": "2004",
+        "region": "美国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "678082"
+      },
+      "quote": "爱情没有那么多借口，如果不能圆满，只能说明爱的不够。"
+    },
+    {
+      "rank": "212",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792257137.webp",
+      "link": "https://movie.douban.com/subject/1302827/",
+      "title": [
+        "人工智能",
+        "A.I. Artificial Intelligence"
+      ],
+      "info": {
+        "director": "导演: 史蒂文·斯皮尔伯格 Steven Spielberg",
+        "actor": "主演: 海利·乔·奥斯蒙 Haley...",
+        "year": "2001",
+        "region": "美国 英国",
+        "genre": "剧情 科幻"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "451634"
+      },
+      "quote": "对爱的执着，可以超越一切。"
+    },
+    {
+      "rank": "213",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2570901292.webp",
+      "link": "https://movie.douban.com/subject/1303394/",
+      "title": [
+        "青蛇"
+      ],
+      "info": {
+        "director": "导演: 徐克 Hark Tsui",
+        "actor": "主演: 张曼玉 Maggie Cheung / 王祖贤 Joey Wang / ...",
+        "year": "1993",
+        "region": "中国香港 中国大陆",
+        "genre": "剧情 爱情 奇幻 古装"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "532405"
+      },
+      "quote": "人生如此，浮生如斯。谁人言，花彼岸，此生情长意短。谁都是不懂爱的罢了。"
+    },
+    {
+      "rank": "214",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2399597512.webp",
+      "link": "https://movie.douban.com/subject/1296909/",
+      "title": [
+        "虎口脱险",
+        "La grande vadrouille"
+      ],
+      "info": {
+        "director": "导演: 杰拉尔·乌里 Gérard Oury",
+        "actor": "主演: 路易·德·菲耐斯 Louis de Funès...",
+        "year": "1966",
+        "region": "法国 英国",
+        "genre": "喜剧 战争"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "260404"
+      },
+      "quote": "永远看不腻的喜剧。"
+    },
+    {
+      "rank": "215",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.webp",
+      "link": "https://movie.douban.com/subject/1291844/",
+      "title": [
+        "终结者2：审判日",
+        "Terminator 2: Judgment Day"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·卡梅隆 James Cameron",
+        "actor": "主演: 阿诺·施瓦辛格 Arnold Schwarz...",
+        "year": "1991",
+        "region": "美国 法国",
+        "genre": "动作 科幻"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "345252"
+      },
+      "quote": "少见的超越首部的续集，动作片中的经典。"
+    },
+    {
+      "rank": "216",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2236181653.webp",
+      "link": "https://movie.douban.com/subject/3592854/",
+      "title": [
+        "疯狂的麦克斯4：狂暴之路",
+        "Mad Max: Fury Road"
+      ],
+      "info": {
+        "director": "导演: 乔治·米勒 George Miller",
+        "actor": "主演: 汤姆·哈迪 Tom Hardy / 查理兹·塞...",
+        "year": "2015",
+        "region": "澳大利亚 美国",
+        "genre": "动作 科幻 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "536329"
+      },
+      "quote": "“多么美好的一天！”轰轰轰砰咚，啪哒哒哒轰隆隆，磅~"
+    },
+    {
+      "rank": "217",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910924635.webp",
+      "link": "https://movie.douban.com/subject/1291992/",
+      "title": [
+        "末路狂花",
+        "Thelma & Louise"
+      ],
+      "info": {
+        "director": "导演: 雷德利·斯科特 Ridley Scott",
+        "actor": "主演: 吉娜·戴维斯 Geena Davis / 苏...",
+        "year": "1991",
+        "region": "美国 英国 法国",
+        "genre": "犯罪 剧情 惊悚"
+      },
+      "star": {
+        "score": "8.9",
+        "count": "262707"
+      },
+      "quote": "没有了退路，只好飞向自由。"
+    },
+    {
+      "rank": "218",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1598883511.webp",
+      "link": "https://movie.douban.com/subject/1291879/",
+      "title": [
+        "罗生门",
+        "羅生門"
+      ],
+      "info": {
+        "director": "导演: 黑泽明 Akira Kurosawa",
+        "actor": "主演: 三船敏郎 Toshirô Mifune / 京町子 ...",
+        "year": "1950",
+        "region": "日本",
+        "genre": "剧情 犯罪 悬疑"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "318298"
+      },
+      "quote": "人生的N种可能性。"
+    },
+    {
+      "rank": "219",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1421018669.webp",
+      "link": "https://movie.douban.com/subject/1292287/",
+      "title": [
+        "新龙门客栈",
+        "新龍門客棧"
+      ],
+      "info": {
+        "director": "导演: 李惠民 Raymond Lee",
+        "actor": "主演: 张曼玉 Maggie Cheung / 林青霞 Brigitte ...",
+        "year": "1992",
+        "region": "中国香港 中国大陆",
+        "genre": "动作 爱情 武侠 古装"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "449447"
+      },
+      "quote": "嬉笑怒骂，调风动月。"
+    },
+    {
+      "rank": "220",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2237136718.webp",
+      "link": "https://movie.douban.com/subject/1293318/",
+      "title": [
+        "萤火虫之墓",
+        "火垂るの墓"
+      ],
+      "info": {
+        "director": "导演: 高畑勋 Isao Takahata",
+        "actor": "主演: 辰己努 / 白石绫乃 / 志乃原良子",
+        "year": "1988",
+        "region": "日本",
+        "genre": "动画 剧情 战争"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "407564"
+      },
+      "quote": "幸福是生生不息，却难以触及的远。"
+    },
+    {
+      "rank": "221",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2195672555.webp",
+      "link": "https://movie.douban.com/subject/1300117/",
+      "title": [
+        "千钧一发",
+        "Gattaca"
+      ],
+      "info": {
+        "director": "导演: 安德鲁·尼科尔 Andrew Niccol",
+        "actor": "主演: 伊桑·霍克 Ethan Hawke / 乌玛...",
+        "year": "1997",
+        "region": "美国",
+        "genre": "剧情 科幻 惊悚"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "303171"
+      },
+      "quote": "一部能引人思考的科幻励志片。"
+    },
+    {
+      "rank": "222",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1086394013.webp",
+      "link": "https://movie.douban.com/subject/1438652/",
+      "title": [
+        "无耻混蛋",
+        "Inglourious Basterds"
+      ],
+      "info": {
+        "director": "导演: 昆汀·塔伦蒂诺 Quentin Tarantino",
+        "actor": "主演: 布拉德·皮特 Brad Pitt / ...",
+        "year": "2009",
+        "region": "德国 美国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "483882"
+      },
+      "quote": "昆汀同学越来越变态了，比北野武还杜琪峰。"
+    },
+    {
+      "rank": "223",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2627847859.webp",
+      "link": "https://movie.douban.com/subject/1959877/",
+      "title": [
+        "崖上的波妞",
+        "崖の上のポニョ"
+      ],
+      "info": {
+        "director": "导演: 宫崎骏 Hayao Miyazaki",
+        "actor": "主演: 奈良柚莉爱 Yuria Nara / 土井洋辉 Hir...",
+        "year": "2008",
+        "region": "日本",
+        "genre": "动画 奇幻 冒险"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "504277"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "224",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2868462052.webp",
+      "link": "https://movie.douban.com/subject/34874432/",
+      "title": [
+        "花束般的恋爱",
+        "花束みたいな恋をした"
+      ],
+      "info": {
+        "director": "导演: 土井裕泰 Nobuhiro Doi",
+        "actor": "主演: 菅田将晖 Masaki Suda / 有村架纯 Kasu...",
+        "year": "2021",
+        "region": "日本",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "636793"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "225",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2187896734.webp",
+      "link": "https://movie.douban.com/subject/25807345/",
+      "title": [
+        "彗星来的那一夜",
+        "Coherence"
+      ],
+      "info": {
+        "director": "导演: 詹姆斯·沃德·布柯特 James Ward Byrkit",
+        "actor": "主演: 艾米丽·芭尔多尼 Em...",
+        "year": "2013",
+        "region": "美国 英国",
+        "genre": "科幻 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "588565"
+      },
+      "quote": "小成本大魅力。"
+    },
+    {
+      "rank": "226",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575337180.webp",
+      "link": "https://movie.douban.com/subject/1297880/",
+      "title": [
+        "芙蓉镇"
+      ],
+      "info": {
+        "director": "导演: 谢晋 Jin Xie",
+        "actor": "主演: 刘晓庆 Xiaoqing Liu / 姜文 Wen Jiang / 郑在石...",
+        "year": "1987",
+        "region": "中国大陆",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "9.3",
+        "count": "142842"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "227",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2507709428.webp",
+      "link": "https://movie.douban.com/subject/26787574/",
+      "title": [
+        "奇迹男孩",
+        "Wonder"
+      ],
+      "info": {
+        "director": "导演: 斯蒂芬·卓博斯基 Stephen Chbosky",
+        "actor": "主演: 雅各布·特伦布莱 Jacob Tr...",
+        "year": "2017",
+        "region": "美国 中国香港",
+        "genre": "剧情 儿童 家庭"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "555378"
+      },
+      "quote": "世界不完美，爱会有奇迹。"
+    },
+    {
+      "rank": "228",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2395517414.webp",
+      "link": "https://movie.douban.com/subject/25934014/",
+      "title": [
+        "爱乐之城",
+        "La La Land"
+      ],
+      "info": {
+        "director": "导演: 达米恩·查泽雷 Damien Chazelle",
+        "actor": "主演: 瑞恩·高斯林 Ryan Gosling /...",
+        "year": "2016",
+        "region": "美国",
+        "genre": "剧情 爱情 歌舞"
+      },
+      "star": {
+        "score": "8.4",
+        "count": "910060"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "229",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2457609817.webp",
+      "link": "https://movie.douban.com/subject/26430107/",
+      "title": [
+        "二十二"
+      ],
+      "info": {
+        "director": "导演: 郭柯 Ke Guo",
+        "actor": "主演:",
+        "year": "2015",
+        "region": "中国大陆",
+        "genre": "纪录片"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "293679"
+      },
+      "quote": "有一些东西不应该被遗忘。"
+    },
+    {
+      "rank": "230",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461390.webp",
+      "link": "https://movie.douban.com/subject/1304141/",
+      "title": [
+        "黑客帝国2：重装上阵",
+        "The Matrix Reloaded"
+      ],
+      "info": {
+        "director": "导演: 拉娜·沃卓斯基 Lana Wachowski / 莉莉·沃卓斯基 Lilly Wachowski",
+        "actor": "...",
+        "year": "2003",
+        "region": "美国",
+        "genre": "动作 科幻"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "410456"
+      },
+      "quote": "一个精彩的世界观正在缓缓建立。"
+    },
+    {
+      "rank": "231",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p721429854.webp",
+      "link": "https://movie.douban.com/subject/2051007/",
+      "title": [
+        "哈利·波特与死亡圣器(上)",
+        "Harry Potter and the Deathly Hallows: Part 1"
+      ],
+      "info": {
+        "director": "导演: 大卫·叶茨 David Yates",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radcliffe...",
+        "year": "2010",
+        "region": "英国 美国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "585080"
+      },
+      "quote": "最忠于原著的一部。"
+    },
+    {
+      "rank": "232",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1244017073.webp",
+      "link": "https://movie.douban.com/subject/1428175/",
+      "title": [
+        "血钻",
+        "Blood Diamond"
+      ],
+      "info": {
+        "director": "导演: 爱德华·兹威克 Edward Zwick",
+        "actor": "主演: 莱昂纳多·迪卡普里奥 Leonardo ...",
+        "year": "2006",
+        "region": "美国 德国 英国",
+        "genre": "剧情 惊悚 冒险"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "383978"
+      },
+      "quote": "每个美丽事物背后都是滴血的现实。"
+    },
+    {
+      "rank": "233",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792282381.webp",
+      "link": "https://movie.douban.com/subject/1419936/",
+      "title": [
+        "战争之王",
+        "Lord of War"
+      ],
+      "info": {
+        "director": "导演: 安德鲁·尼科尔 Andrew Niccol",
+        "actor": "主演: 尼古拉斯·凯奇 Nicolas Cage /...",
+        "year": "2005",
+        "region": "美国 德国",
+        "genre": "剧情 犯罪"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "372806"
+      },
+      "quote": "做一颗让别人需要你的棋子。"
+    },
+    {
+      "rank": "234",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2375245718.webp",
+      "link": "https://movie.douban.com/subject/2222996/",
+      "title": [
+        "步履不停",
+        "歩いても 歩いても"
+      ],
+      "info": {
+        "director": "导演: 是枝裕和 Hirokazu Koreeda",
+        "actor": "主演: 阿部宽 Hiroshi Abe / 夏川结衣 Yu...",
+        "year": "2008",
+        "region": "日本",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "282538"
+      },
+      "quote": "日本的家庭电影已经是世界巅峰了，步履不停是巅峰中的佳作。"
+    },
+    {
+      "rank": "235",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2259715855.webp",
+      "link": "https://movie.douban.com/subject/25724855/",
+      "title": [
+        "房间",
+        "Room"
+      ],
+      "info": {
+        "director": "导演: 伦尼·阿伯拉罕森 Lenny Abrahamson",
+        "actor": "主演: 布丽·拉尔森 Brie Larson...",
+        "year": "2015",
+        "region": "爱尔兰 加拿大 英国 美国",
+        "genre": "剧情 家庭"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "370664"
+      },
+      "quote": "被偷走的岁月，被伤害的生命，被禁锢的灵魂，终将被希望和善意救赎。"
+    },
+    {
+      "rank": "236",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896589468.webp",
+      "link": "https://movie.douban.com/subject/25864085/",
+      "title": [
+        "火星救援",
+        "The Martian"
+      ],
+      "info": {
+        "director": "导演: 雷德利·斯科特 Ridley Scott",
+        "actor": "主演: 马特·达蒙 Matt Damon / 杰西卡...",
+        "year": "2015",
+        "region": "英国 美国 匈牙利 约旦",
+        "genre": "剧情 科幻 冒险"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "737863"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "237",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2351134499.webp",
+      "link": "https://movie.douban.com/subject/1293964/",
+      "title": [
+        "魂断蓝桥",
+        "Waterloo Bridge"
+      ],
+      "info": {
+        "director": "导演: 茂文·勒鲁瓦 Mervyn LeRoy",
+        "actor": "主演: 费雯·丽 Vivien Leigh / 罗伯特·...",
+        "year": "1940",
+        "region": "美国",
+        "genre": "剧情 爱情 战争"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "281563"
+      },
+      "quote": "中国式内在的美国电影。"
+    },
+    {
+      "rank": "238",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2215102596.webp",
+      "link": "https://movie.douban.com/subject/1307394/",
+      "title": [
+        "千年女优",
+        "千年女優"
+      ],
+      "info": {
+        "director": "导演: 今敏 Satoshi Kon",
+        "actor": "主演: 庄司美代子 Miyoko Shôji / 小山茉美 Mam...",
+        "year": "2001",
+        "region": "日本",
+        "genre": "动画 剧情 爱情"
+      },
+      "star": {
+        "score": "8.8",
+        "count": "271883"
+      },
+      "quote": "爱情是一场没有尽头的虚幻追逐。"
+    },
+    {
+      "rank": "239",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p667644866.webp",
+      "link": "https://movie.douban.com/subject/1308767/",
+      "title": [
+        "谍影重重2",
+        "The Bourne Supremacy"
+      ],
+      "info": {
+        "director": "导演: 保罗·格林格拉斯 Paul Greengrass",
+        "actor": "主演: 马特·达蒙 Matt Damon / ...",
+        "year": "2004",
+        "region": "美国 德国",
+        "genre": "动作 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "356808"
+      },
+      "quote": "谁说王家卫镜头很晃？"
+    },
+    {
+      "rank": "240",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2160195181.webp",
+      "link": "https://movie.douban.com/subject/2133323/",
+      "title": [
+        "白日梦想家",
+        "The Secret Life of Walter Mitty"
+      ],
+      "info": {
+        "director": "导演: 本·斯蒂勒 Ben Stiller",
+        "actor": "主演: 本·斯蒂勒 Ben Stiller / 克里斯汀·...",
+        "year": "2013",
+        "region": "美国 英国",
+        "genre": "剧情 喜剧 冒险"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "491304"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "241",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443403700.webp",
+      "link": "https://movie.douban.com/subject/1457217/",
+      "title": [
+        "哈利·波特与凤凰社",
+        "Harry Potter and the Order of the Phoenix"
+      ],
+      "info": {
+        "director": "导演: 大卫·叶茨 David Yates",
+        "actor": "主演: 丹尼尔·雷德克里夫 Daniel Radcliffe...",
+        "year": "2007",
+        "region": "英国 美国",
+        "genre": "奇幻 冒险"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "579174"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "242",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2577248102.webp",
+      "link": "https://movie.douban.com/subject/3552028/",
+      "title": [
+        "弱点",
+        "The Blind Side"
+      ],
+      "info": {
+        "director": "导演: 约翰·李·汉考克 John Lee Hancock",
+        "actor": "主演: 桑德拉·布洛克 Sandra Bu...",
+        "year": "2009",
+        "region": "美国",
+        "genre": "剧情 家庭 传记 运动"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "313340"
+      },
+      "quote": "拍掉身上的悲伤，从今天开始重新踏上追梦之旅。"
+    },
+    {
+      "rank": "243",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2525770523.webp",
+      "link": "https://movie.douban.com/subject/1305690/",
+      "title": [
+        "阿飞正传",
+        "阿飛正傳"
+      ],
+      "info": {
+        "director": "导演: 王家卫 Kar Wai Wong",
+        "actor": "主演: 张国荣 Leslie Cheung / 张曼玉 Maggie C...",
+        "year": "1990",
+        "region": "中国香港",
+        "genre": "犯罪 剧情 爱情"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "516049"
+      },
+      "quote": "王家卫是一种风格，张国荣是一个代表。"
+    },
+    {
+      "rank": "244",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2543465022.webp",
+      "link": "https://movie.douban.com/subject/26374197/",
+      "title": [
+        "蜘蛛侠：平行宇宙",
+        "Spider-Man: Into the Spider-Verse"
+      ],
+      "info": {
+        "director": "导演: 鲍勃·佩尔西凯蒂 Bob Persichetti / 彼得·拉姆齐 Peter Ramsey",
+        "actor": "主...",
+        "year": "2018",
+        "region": "美国",
+        "genre": "动作 科幻 动画 冒险"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "674031"
+      },
+      "quote": ""
+    },
+    {
+      "rank": "245",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1597183981.webp",
+      "link": "https://movie.douban.com/subject/1304102/",
+      "title": [
+        "谍影重重",
+        "The Bourne Identity"
+      ],
+      "info": {
+        "director": "导演: 道格·里曼 Doug Liman",
+        "actor": "主演: 马特·达蒙 Matt Damon / 弗兰卡·波坦...",
+        "year": "2002",
+        "region": "美国 德国 捷克",
+        "genre": "动作 悬疑 惊悚"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "432232"
+      },
+      "quote": "哗啦啦啦啦，天在下雨，哗啦啦啦啦，云在哭泣……找自己。"
+    },
+    {
+      "rank": "246",
+      "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1140984198.webp",
+      "link": "https://movie.douban.com/subject/2213597/",
+      "title": [
+        "朗读者",
+        "The Reader"
+      ],
+      "info": {
+        "director": "导演: 史蒂芬·戴德利 Stephen Daldry",
+        "actor": "主演: 凯特·温丝莱特 Kate Winslet ...",
+        "year": "2008",
+        "region": "美国 德国",
+        "genre": "剧情 爱情"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "456794"
+      },
+      "quote": "当爱情跨越年龄的界限，它似乎能变得更久远一点，成为一种责任，一种水到渠成的相濡以沫。"
+    },
+    {
+      "rank": "247",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2797313535.webp",
+      "link": "https://movie.douban.com/subject/1295865/",
+      "title": [
+        "燃情岁月",
+        "Legends of the Fall"
+      ],
+      "info": {
+        "director": "导演: 爱德华·兹威克 Edward Zwick",
+        "actor": "主演: 布拉德·皮特 Brad Pitt / 安东...",
+        "year": "1994",
+        "region": "美国",
+        "genre": "剧情 爱情 战争 西部"
+      },
+      "star": {
+        "score": "8.7",
+        "count": "289636"
+      },
+      "quote": "传奇，不是每个人都可以拥有。"
+    },
+    {
+      "rank": "248",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2250287733.webp",
+      "link": "https://movie.douban.com/subject/6874403/",
+      "title": [
+        "再次出发之纽约遇见你",
+        "Begin Again"
+      ],
+      "info": {
+        "director": "导演: 约翰·卡尼 John Carney",
+        "actor": "主演: 凯拉·奈特莉 Keira Knightley / 马克...",
+        "year": "2013",
+        "region": "美国",
+        "genre": "喜剧 爱情 音乐"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "431192"
+      },
+      "quote": "爱我就给我看你的播放列表。"
+    },
+    {
+      "rank": "249",
+      "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2571500223.webp",
+      "link": "https://movie.douban.com/subject/1760622/",
+      "title": [
+        "香水",
+        "Perfume: The Story of a Murderer"
+      ],
+      "info": {
+        "director": "导演: 汤姆·提克威 Tom Tykwer",
+        "actor": "主演: 本·卫肖 Ben Whishaw / 艾伦·瑞克...",
+        "year": "2006",
+        "region": "德国 法国 西班牙 美国 比利时",
+        "genre": "剧情 犯罪 奇幻"
+      },
+      "star": {
+        "score": "8.5",
+        "count": "548433"
+      },
+      "quote": "一个单凭体香达到高潮的男人。"
+    },
+    {
+      "rank": "250",
+      "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p529908155.webp",
+      "link": "https://movie.douban.com/subject/1292233/",
+      "title": [
+        "发条橙",
+        "A Clockwork Orange"
+      ],
+      "info": {
+        "director": "导演: 斯坦利·库布里克 Stanley Kubrick",
+        "actor": "主演: 马尔科姆·麦克道威尔 Malc...",
+        "year": "1971",
+        "region": "英国 美国",
+        "genre": "犯罪 剧情 科幻"
+      },
+      "star": {
+        "score": "8.6",
+        "count": "369388"
+      },
+      "quote": "我完全康复了。"
+    }
+  ]
+}
