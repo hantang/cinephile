@@ -160,6 +160,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         df_title = pd.Series(id2titles_dict).reset_index()
         df_title.columns = [id_col, title_col2]
         df_out = df_out.merge(df_title, on=id_col)[[title_col2] + dates]
+        df_out = df_out.sort_values(dates[::-1])
         logging.info(f"rank stats = {df_out.shape}")
 
         parts.append([desc, df_stats, df_out])
