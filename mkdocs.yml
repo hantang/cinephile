@@ -106,8 +106,9 @@ nav:
   - TSPDT:
     - TSPDT电影: tspdt/index.md
     - TSPDT电影2023年榜单: tspdt/tspdt-2023.md
-    - TSPDT电影历年统计1: tspdt/tspdt-hist1.md
-    - TSPDT电影历年统计2: tspdt/tspdt-hist2.md
+    - TSPDT电影历年统计(2006-2024): tspdt/tspdt-top1000-archive.md
+    - TSPDT电影历年统计(2003-2005): tspdt/tspdt-top1000-archive-v1.md
+    - TSPDT21世纪电影统计(2008-2024): tspdt/tspdt-top1000-21stcentury
   - More:
     - 大众榜单: 
       - popular/index.md

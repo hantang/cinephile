@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# TSPDT Top 1000 (from 2003 to 2005) Part 1
+# TSPDT Top 1000 (from 2003 to 2005) 
 
 ## 2003 top100
 
