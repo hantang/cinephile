@@ -153,14 +153,18 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         logging.info(f"score/vote stats = {df_stats.shape}")
 
         # 统计排名出现变化的电影
-        df_id_rank[dates] = df_id_rank[dates].fillna("-").astype(str)
+        df_id_rank[dates] = df_id_rank[dates]
         df_id_rank["update"] = df_id_rank.apply(
-            lambda x: any([x[v] != x[dates[0]] for v in dates[1:]]), axis=1)
+            lambda x: any([str(x[v]) != str(x[dates[0]]) for v in dates[1:]]), axis=1)
         df_out = df_id_rank[df_id_rank["update"]]
         df_title = pd.Series(id2titles_dict).reset_index()
         df_title.columns = [id_col, title_col2]
         df_out = df_out.merge(df_title, on=id_col)[[title_col2] + dates]
+        df_out[dates] = df_out[dates].fillna(999).astype(int)
         df_out = df_out.sort_values(dates[::-1])
+        df_out[dates] = df_out[dates].astype("str")
+        for dt in dates:
+            df_out[dt] = df_out[dt].replace("999", "-").astype("str")
         logging.info(f"rank stats = {df_out.shape}")
 
         parts.append([desc, df_stats, df_out])
