@@ -62,6 +62,7 @@ class BaseCrawler:
         self.error_file_exist = -2
         self.error_parse = -3
         self.error_param = -4
+        self.error_count = -5
         self.error_other = -10
         self.user_agent = "User-Agent"
         logging.info(f"now = {self.dt}")

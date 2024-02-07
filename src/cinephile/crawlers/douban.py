@@ -273,6 +273,10 @@ class DoubanCrawler(BaseCrawler):
         desc = dou_desc["name"]
         source = self.get_url(key, is_source=True)
         movie_cluster = MovieCluster(dt, dt, desc, source, movies=movies)
+        if movie_cluster.total != total:
+            logging.error("Douban top 250 data is error")
+            return self.error_count, None
+
         self.save(savefile, movie_cluster)
         return movie_cluster.total, savefile
 
