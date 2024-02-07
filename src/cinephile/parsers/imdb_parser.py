@@ -57,7 +57,7 @@ def parse_imdb_page_top_v4(page, **kwargs):
         img_id = node["primaryImage"]["id"]
         video_id = node["latestTrailer"]["id"] if node["latestTrailer"] else ""
 
-        link = f"{base_url}/{movie_id}/"
+        link = f"{base_url}/title/{movie_id}/"
         title = node["titleText"]["text"]
         img = node["primaryImage"]["url"]
         year = int(str(node["releaseYear"]["year"])[:4])
