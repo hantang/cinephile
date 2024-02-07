@@ -9,7 +9,7 @@
     {
       "title": "The Shawshank Redemption",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0111161/",
+      "link": "https://www.imdb.com/title/tt0111161/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
       "year": 1994,
       "rank": "1",
@@ -30,7 +30,7 @@
     {
       "title": "The Godfather",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0068646/",
+      "link": "https://www.imdb.com/title/tt0068646/",
       "img": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1972,
       "rank": "2",
@@ -51,7 +51,7 @@
     {
       "title": "The Dark Knight",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0468569/",
+      "link": "https://www.imdb.com/title/tt0468569/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
       "year": 2008,
       "rank": "3",
@@ -72,7 +72,7 @@
     {
       "title": "The Godfather Part II",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0071562/",
+      "link": "https://www.imdb.com/title/tt0071562/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1974,
       "rank": "4",
@@ -93,7 +93,7 @@
     {
       "title": "12 Angry Men",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0050083/",
+      "link": "https://www.imdb.com/title/tt0050083/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1957,
       "rank": "5",
@@ -114,7 +114,7 @@
     {
       "title": "Schindler's List",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0108052/",
+      "link": "https://www.imdb.com/title/tt0108052/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1993,
       "rank": "6",
@@ -135,7 +135,7 @@
     {
       "title": "The Lord of the Rings: The Return of the King",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0167260/",
+      "link": "https://www.imdb.com/title/tt0167260/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 2003,
       "rank": "7",
@@ -156,7 +156,7 @@
     {
       "title": "Pulp Fiction",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0110912/",
+      "link": "https://www.imdb.com/title/tt0110912/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1994,
       "rank": "8",
@@ -177,7 +177,7 @@
     {
       "title": "The Lord of the Rings: The Fellowship of the Ring",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120737/",
+      "link": "https://www.imdb.com/title/tt0120737/",
       "img": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
       "year": 2001,
       "rank": "9",
@@ -198,7 +198,7 @@
     {
       "title": "The Good, the Bad and the Ugly",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0060196/",
+      "link": "https://www.imdb.com/title/tt0060196/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1966,
       "rank": "10",
@@ -219,7 +219,7 @@
     {
       "title": "Forrest Gump",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0109830/",
+      "link": "https://www.imdb.com/title/tt0109830/",
       "img": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1994,
       "rank": "11",
@@ -240,7 +240,7 @@
     {
       "title": "Fight Club",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0137523/",
+      "link": "https://www.imdb.com/title/tt0137523/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1999,
       "rank": "12",
@@ -261,7 +261,7 @@
     {
       "title": "The Lord of the Rings: The Two Towers",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0167261/",
+      "link": "https://www.imdb.com/title/tt0167261/",
       "img": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2002,
       "rank": "13",
@@ -282,7 +282,7 @@
     {
       "title": "Inception",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1375666/",
+      "link": "https://www.imdb.com/title/tt1375666/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
       "year": 2010,
       "rank": "14",
@@ -303,7 +303,7 @@
     {
       "title": "Star Wars: Episode V - The Empire Strikes Back",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0080684/",
+      "link": "https://www.imdb.com/title/tt0080684/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1980,
       "rank": "15",
@@ -324,7 +324,7 @@
     {
       "title": "The Matrix",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0133093/",
+      "link": "https://www.imdb.com/title/tt0133093/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1999,
       "rank": "16",
@@ -345,7 +345,7 @@
     {
       "title": "Goodfellas",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0099685/",
+      "link": "https://www.imdb.com/title/tt0099685/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1990,
       "rank": "17",
@@ -366,7 +366,7 @@
     {
       "title": "One Flew Over the Cuckoo's Nest",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0073486/",
+      "link": "https://www.imdb.com/title/tt0073486/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1975,
       "rank": "18",
@@ -387,7 +387,7 @@
     {
       "title": "Se7en",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0114369/",
+      "link": "https://www.imdb.com/title/tt0114369/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1995,
       "rank": "19",
@@ -408,7 +408,7 @@
     {
       "title": "It's a Wonderful Life",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0038650/",
+      "link": "https://www.imdb.com/title/tt0038650/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_.jpg",
       "year": 1946,
       "rank": "20",
@@ -429,7 +429,7 @@
     {
       "title": "Seven Samurai",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0047478/",
+      "link": "https://www.imdb.com/title/tt0047478/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTkwY2I5NWMtMjNlNi00ZThjLWI4NzQtNDI4M2I4OGM1YjAzXkEyXkFqcGdeQXVyNzYxODE3NTQ@._V1_.jpg",
       "year": 1954,
       "rank": "21",
@@ -450,7 +450,7 @@
     {
       "title": "Interstellar",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0816692/",
+      "link": "https://www.imdb.com/title/tt0816692/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2014,
       "rank": "22",
@@ -471,7 +471,7 @@
     {
       "title": "The Silence of the Lambs",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0102926/",
+      "link": "https://www.imdb.com/title/tt0102926/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1991,
       "rank": "23",
@@ -492,7 +492,7 @@
     {
       "title": "Saving Private Ryan",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120815/",
+      "link": "https://www.imdb.com/title/tt0120815/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
       "year": 1998,
       "rank": "24",
@@ -513,7 +513,7 @@
     {
       "title": "City of God",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0317248/",
+      "link": "https://www.imdb.com/title/tt0317248/",
       "img": "https://m.media-amazon.com/images/M/MV5BMGU5OWEwZDItNmNkMC00NzZmLTk1YTctNzVhZTJjM2NlZTVmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2002,
       "rank": "25",
@@ -534,7 +534,7 @@
     {
       "title": "Life Is Beautiful",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0118799/",
+      "link": "https://www.imdb.com/title/tt0118799/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1997,
       "rank": "26",
@@ -555,7 +555,7 @@
     {
       "title": "The Green Mile",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120689/",
+      "link": "https://www.imdb.com/title/tt0120689/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_.jpg",
       "year": 1999,
       "rank": "27",
@@ -576,7 +576,7 @@
     {
       "title": "Spider-Man: Across the Spider-Verse",
       "type": "movie",
-      "link": "https://www.imdb.com/tt9362722/",
+      "link": "https://www.imdb.com/title/tt9362722/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
       "year": 2023,
       "rank": "28",
@@ -597,7 +597,7 @@
     {
       "title": "Star Wars: Episode IV - A New Hope",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0076759/",
+      "link": "https://www.imdb.com/title/tt0076759/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_.jpg",
       "year": 1977,
       "rank": "29",
@@ -618,7 +618,7 @@
     {
       "title": "Terminator 2: Judgment Day",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0103064/",
+      "link": "https://www.imdb.com/title/tt0103064/",
       "img": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1991,
       "rank": "30",
@@ -639,7 +639,7 @@
     {
       "title": "Back to the Future",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0088763/",
+      "link": "https://www.imdb.com/title/tt0088763/",
       "img": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1985,
       "rank": "31",
@@ -660,7 +660,7 @@
     {
       "title": "Spirited Away",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0245429/",
+      "link": "https://www.imdb.com/title/tt0245429/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2001,
       "rank": "32",
@@ -681,7 +681,7 @@
     {
       "title": "The Pianist",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0253474/",
+      "link": "https://www.imdb.com/title/tt0253474/",
       "img": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2002,
       "rank": "33",
@@ -702,7 +702,7 @@
     {
       "title": "Psycho",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0054215/",
+      "link": "https://www.imdb.com/title/tt0054215/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1960,
       "rank": "34",
@@ -723,7 +723,7 @@
     {
       "title": "Parasite",
       "type": "movie",
-      "link": "https://www.imdb.com/tt6751668/",
+      "link": "https://www.imdb.com/title/tt6751668/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
       "year": 2019,
       "rank": "35",
@@ -744,7 +744,7 @@
     {
       "title": "Gladiator",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0172495/",
+      "link": "https://www.imdb.com/title/tt0172495/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2000,
       "rank": "36",
@@ -765,7 +765,7 @@
     {
       "title": "The Lion King",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0110357/",
+      "link": "https://www.imdb.com/title/tt0110357/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg",
       "year": 1994,
       "rank": "37",
@@ -786,7 +786,7 @@
     {
       "title": "Léon: The Professional",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0110413/",
+      "link": "https://www.imdb.com/title/tt0110413/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTgyMWQ0ZWUtN2Q2MS00NmY0LWI3OWMtNjFkMzZlNDZjNTk0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1994,
       "rank": "38",
@@ -807,7 +807,7 @@
     {
       "title": "American History X",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120586/",
+      "link": "https://www.imdb.com/title/tt0120586/",
       "img": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
       "year": 1998,
       "rank": "39",
@@ -828,7 +828,7 @@
     {
       "title": "The Departed",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0407887/",
+      "link": "https://www.imdb.com/title/tt0407887/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
       "year": 2006,
       "rank": "40",
@@ -849,7 +849,7 @@
     {
       "title": "Whiplash",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2582802/",
+      "link": "https://www.imdb.com/title/tt2582802/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2014,
       "rank": "41",
@@ -870,7 +870,7 @@
     {
       "title": "The Prestige",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0482571/",
+      "link": "https://www.imdb.com/title/tt0482571/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",
       "year": 2006,
       "rank": "42",
@@ -891,7 +891,7 @@
     {
       "title": "Grave of the Fireflies",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0095327/",
+      "link": "https://www.imdb.com/title/tt0095327/",
       "img": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "year": 1988,
       "rank": "43",
@@ -912,7 +912,7 @@
     {
       "title": "The Usual Suspects",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0114814/",
+      "link": "https://www.imdb.com/title/tt0114814/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1995,
       "rank": "44",
@@ -933,7 +933,7 @@
     {
       "title": "Harakiri",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0056058/",
+      "link": "https://www.imdb.com/title/tt0056058/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_.jpg",
       "year": 1962,
       "rank": "45",
@@ -954,7 +954,7 @@
     {
       "title": "Casablanca",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0034583/",
+      "link": "https://www.imdb.com/title/tt0034583/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
       "year": 1942,
       "rank": "46",
@@ -975,7 +975,7 @@
     {
       "title": "The Intouchables",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1675434/",
+      "link": "https://www.imdb.com/title/tt1675434/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_.jpg",
       "year": 2011,
       "rank": "47",
@@ -996,7 +996,7 @@
     {
       "title": "Modern Times",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0027977/",
+      "link": "https://www.imdb.com/title/tt0027977/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1936,
       "rank": "48",
@@ -1017,7 +1017,7 @@
     {
       "title": "Cinema Paradiso",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0095765/",
+      "link": "https://www.imdb.com/title/tt0095765/",
       "img": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_.jpg",
       "year": 1988,
       "rank": "49",
@@ -1038,7 +1038,7 @@
     {
       "title": "Once Upon a Time in the West",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0064116/",
+      "link": "https://www.imdb.com/title/tt0064116/",
       "img": "https://m.media-amazon.com/images/M/MV5BODQ3NDExOGYtMzI3Mi00NWRlLTkwNjAtNjc4MDgzZGJiZTA1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1968,
       "rank": "50",
@@ -1059,7 +1059,7 @@
     {
       "title": "Rear Window",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0047396/",
+      "link": "https://www.imdb.com/title/tt0047396/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1954,
       "rank": "51",
@@ -1080,7 +1080,7 @@
     {
       "title": "Alien",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0078748/",
+      "link": "https://www.imdb.com/title/tt0078748/",
       "img": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1979,
       "rank": "52",
@@ -1101,7 +1101,7 @@
     {
       "title": "City Lights",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0021749/",
+      "link": "https://www.imdb.com/title/tt0021749/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1931,
       "rank": "53",
@@ -1122,7 +1122,7 @@
     {
       "title": "Apocalypse Now",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0078788/",
+      "link": "https://www.imdb.com/title/tt0078788/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1979,
       "rank": "54",
@@ -1143,7 +1143,7 @@
     {
       "title": "Django Unchained",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1853728/",
+      "link": "https://www.imdb.com/title/tt1853728/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
       "year": 2012,
       "rank": "55",
@@ -1164,7 +1164,7 @@
     {
       "title": "Memento",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0209144/",
+      "link": "https://www.imdb.com/title/tt0209144/",
       "img": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2000,
       "rank": "56",
@@ -1185,7 +1185,7 @@
     {
       "title": "Raiders of the Lost Ark",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0082971/",
+      "link": "https://www.imdb.com/title/tt0082971/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg",
       "year": 1981,
       "rank": "57",
@@ -1206,7 +1206,7 @@
     {
       "title": "WALL·E",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0910970/",
+      "link": "https://www.imdb.com/title/tt0910970/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_.jpg",
       "year": 2008,
       "rank": "58",
@@ -1227,7 +1227,7 @@
     {
       "title": "The Lives of Others",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0405094/",
+      "link": "https://www.imdb.com/title/tt0405094/",
       "img": "https://m.media-amazon.com/images/M/MV5BNmQyNmJjM2ItNTQzYi00ZjMxLWFjMDYtZjUyN2YwZDk5YWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 2006,
       "rank": "59",
@@ -1248,7 +1248,7 @@
     {
       "title": "Sunset Blvd.",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0043014/",
+      "link": "https://www.imdb.com/title/tt0043014/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_.jpg",
       "year": 1950,
       "rank": "60",
@@ -1269,7 +1269,7 @@
     {
       "title": "Paths of Glory",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0050825/",
+      "link": "https://www.imdb.com/title/tt0050825/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTI5Nzc0OTMtYzBkMS00NjkxLThmM2UtNjM2ODgxN2M5NjNkXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg",
       "year": 1957,
       "rank": "61",
@@ -1290,7 +1290,7 @@
     {
       "title": "Avengers: Infinity War",
       "type": "movie",
-      "link": "https://www.imdb.com/tt4154756/",
+      "link": "https://www.imdb.com/title/tt4154756/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
       "year": 2018,
       "rank": "62",
@@ -1311,7 +1311,7 @@
     {
       "title": "The Shining",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0081505/",
+      "link": "https://www.imdb.com/title/tt0081505/",
       "img": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1980,
       "rank": "63",
@@ -1332,7 +1332,7 @@
     {
       "title": "Spider-Man: Into the Spider-Verse",
       "type": "movie",
-      "link": "https://www.imdb.com/tt4633694/",
+      "link": "https://www.imdb.com/title/tt4633694/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
       "year": 2018,
       "rank": "64",
@@ -1353,7 +1353,7 @@
     {
       "title": "Witness for the Prosecution",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0051201/",
+      "link": "https://www.imdb.com/title/tt0051201/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
       "year": 1957,
       "rank": "65",
@@ -1374,7 +1374,7 @@
     {
       "title": "The Great Dictator",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0032553/",
+      "link": "https://www.imdb.com/title/tt0032553/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1940,
       "rank": "66",
@@ -1395,7 +1395,7 @@
     {
       "title": "Oppenheimer",
       "type": "movie",
-      "link": "https://www.imdb.com/tt15398776/",
+      "link": "https://www.imdb.com/title/tt15398776/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg",
       "year": 2023,
       "rank": "67",
@@ -1416,7 +1416,7 @@
     {
       "title": "Aliens",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0090605/",
+      "link": "https://www.imdb.com/title/tt0090605/",
       "img": "https://m.media-amazon.com/images/M/MV5BOGJkY2EyOWYtYWRmNy00ZTEzLTllMDAtYzYzYjA0ZjFhZWJjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
       "year": 1986,
       "rank": "68",
@@ -1437,7 +1437,7 @@
     {
       "title": "Inglourious Basterds",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0361748/",
+      "link": "https://www.imdb.com/title/tt0361748/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
       "year": 2009,
       "rank": "69",
@@ -1458,7 +1458,7 @@
     {
       "title": "The Dark Knight Rises",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1345836/",
+      "link": "https://www.imdb.com/title/tt1345836/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg",
       "year": 2012,
       "rank": "70",
@@ -1479,7 +1479,7 @@
     {
       "title": "American Beauty",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0169547/",
+      "link": "https://www.imdb.com/title/tt0169547/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 1999,
       "rank": "71",
@@ -1500,7 +1500,7 @@
     {
       "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0057012/",
+      "link": "https://www.imdb.com/title/tt0057012/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWMxYjZkOWUtM2FjMi00MmI1LThkNzQtNTM5Y2E2ZGQ2NGFhXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
       "year": 1964,
       "rank": "72",
@@ -1521,7 +1521,7 @@
     {
       "title": "Oldboy",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0364569/",
+      "link": "https://www.imdb.com/title/tt0364569/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",
       "year": 2003,
       "rank": "73",
@@ -1542,7 +1542,7 @@
     {
       "title": "Coco",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2380307/",
+      "link": "https://www.imdb.com/title/tt2380307/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
       "year": 2017,
       "rank": "74",
@@ -1563,7 +1563,7 @@
     {
       "title": "Amadeus",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0086879/",
+      "link": "https://www.imdb.com/title/tt0086879/",
       "img": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
       "year": 1984,
       "rank": "75",
@@ -1584,7 +1584,7 @@
     {
       "title": "Toy Story",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0114709/",
+      "link": "https://www.imdb.com/title/tt0114709/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_.jpg",
       "year": 1995,
       "rank": "76",
@@ -1605,7 +1605,7 @@
     {
       "title": "Das Boot",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0082096/",
+      "link": "https://www.imdb.com/title/tt0082096/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDBjMWUxNTUtNjZiNi00YzJhLTgzNzUtMTRiY2FkZmMzYTNjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
       "year": 1981,
       "rank": "77",
@@ -1626,7 +1626,7 @@
     {
       "title": "Braveheart",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0112573/",
+      "link": "https://www.imdb.com/title/tt0112573/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1995,
       "rank": "78",
@@ -1647,7 +1647,7 @@
     {
       "title": "Avengers: Endgame",
       "type": "movie",
-      "link": "https://www.imdb.com/tt4154796/",
+      "link": "https://www.imdb.com/title/tt4154796/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
       "year": 2019,
       "rank": "79",
@@ -1668,7 +1668,7 @@
     {
       "title": "Joker",
       "type": "movie",
-      "link": "https://www.imdb.com/tt7286456/",
+      "link": "https://www.imdb.com/title/tt7286456/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
       "year": 2019,
       "rank": "80",
@@ -1689,7 +1689,7 @@
     {
       "title": "Princess Mononoke",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0119698/",
+      "link": "https://www.imdb.com/title/tt0119698/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTZkYmI0MmEtNGFlZC00OWZjLWFjMmItMjk1OWZkOWJiZGVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 1997,
       "rank": "81",
@@ -1710,7 +1710,7 @@
     {
       "title": "Good Will Hunting",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0119217/",
+      "link": "https://www.imdb.com/title/tt0119217/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1997,
       "rank": "82",
@@ -1731,7 +1731,7 @@
     {
       "title": "Your Name.",
       "type": "movie",
-      "link": "https://www.imdb.com/tt5311514/",
+      "link": "https://www.imdb.com/title/tt5311514/",
       "img": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_.jpg",
       "year": 2016,
       "rank": "83",
@@ -1752,7 +1752,7 @@
     {
       "title": "Once Upon a Time in America",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0087843/",
+      "link": "https://www.imdb.com/title/tt0087843/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmQzZjdmZDAtOGE2Yy00MmUwLTljYzgtZTMwMjk3ZDdiOWUyXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg",
       "year": 1984,
       "rank": "84",
@@ -1773,7 +1773,7 @@
     {
       "title": "3 Idiots",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1187043/",
+      "link": "https://www.imdb.com/title/tt1187043/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2009,
       "rank": "85",
@@ -1794,7 +1794,7 @@
     {
       "title": "High and Low",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0057565/",
+      "link": "https://www.imdb.com/title/tt0057565/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTI4NTNhZDMtMWNkZi00MTRmLWJmZDQtMmJkMGVmZTEzODlhXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1963,
       "rank": "86",
@@ -1815,7 +1815,7 @@
     {
       "title": "Singin' in the Rain",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0045152/",
+      "link": "https://www.imdb.com/title/tt0045152/",
       "img": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
       "year": 1952,
       "rank": "87",
@@ -1836,7 +1836,7 @@
     {
       "title": "Capernaum",
       "type": "movie",
-      "link": "https://www.imdb.com/tt8267604/",
+      "link": "https://www.imdb.com/title/tt8267604/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2018,
       "rank": "88",
@@ -1857,7 +1857,7 @@
     {
       "title": "Requiem for a Dream",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0180093/",
+      "link": "https://www.imdb.com/title/tt0180093/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2000,
       "rank": "89",
@@ -1878,7 +1878,7 @@
     {
       "title": "Come and See",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0091251/",
+      "link": "https://www.imdb.com/title/tt0091251/",
       "img": "https://m.media-amazon.com/images/M/MV5BODM4Njg0NTAtYjI5Ny00ZjAxLTkwNmItZTMxMWU5M2U3M2RjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1985,
       "rank": "90",
@@ -1899,7 +1899,7 @@
     {
       "title": "Toy Story 3",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0435761/",
+      "link": "https://www.imdb.com/title/tt0435761/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg",
       "year": 2010,
       "rank": "91",
@@ -1920,7 +1920,7 @@
     {
       "title": "Star Wars: Episode VI - Return of the Jedi",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0086190/",
+      "link": "https://www.imdb.com/title/tt0086190/",
       "img": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "year": 1983,
       "rank": "92",
@@ -1941,7 +1941,7 @@
     {
       "title": "Eternal Sunshine of the Spotless Mind",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0338013/",
+      "link": "https://www.imdb.com/title/tt0338013/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",
       "year": 2004,
       "rank": "93",
@@ -1962,7 +1962,7 @@
     {
       "title": "2001: A Space Odyssey",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0062622/",
+      "link": "https://www.imdb.com/title/tt0062622/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1968,
       "rank": "94",
@@ -1983,7 +1983,7 @@
     {
       "title": "The Hunt",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2106476/",
+      "link": "https://www.imdb.com/title/tt2106476/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_.jpg",
       "year": 2012,
       "rank": "95",
@@ -2004,7 +2004,7 @@
     {
       "title": "Reservoir Dogs",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0105236/",
+      "link": "https://www.imdb.com/title/tt0105236/",
       "img": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1992,
       "rank": "96",
@@ -2025,7 +2025,7 @@
     {
       "title": "Ikiru",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0044741/",
+      "link": "https://www.imdb.com/title/tt0044741/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWM1YmZkNTctZDAwNy00ZTY4LWFjMTktYzU4ZjViMmU1OTJmXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
       "year": 1952,
       "rank": "97",
@@ -2046,7 +2046,7 @@
     {
       "title": "Lawrence of Arabia",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0056172/",
+      "link": "https://www.imdb.com/title/tt0056172/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
       "year": 1962,
       "rank": "98",
@@ -2067,7 +2067,7 @@
     {
       "title": "The Apartment",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0053604/",
+      "link": "https://www.imdb.com/title/tt0053604/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzkwODFjNzItMmMwNi00MTU5LWE2MzktM2M4ZDczZGM1MmViXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_.jpg",
       "year": 1960,
       "rank": "99",
@@ -2088,7 +2088,7 @@
     {
       "title": "Citizen Kane",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0033467/",
+      "link": "https://www.imdb.com/title/tt0033467/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1941,
       "rank": "100",
@@ -2109,7 +2109,7 @@
     {
       "title": "M",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0022100/",
+      "link": "https://www.imdb.com/title/tt0022100/",
       "img": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@._V1_.jpg",
       "year": 1931,
       "rank": "101",
@@ -2130,7 +2130,7 @@
     {
       "title": "North by Northwest",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0053125/",
+      "link": "https://www.imdb.com/title/tt0053125/",
       "img": "https://m.media-amazon.com/images/M/MV5BZDA3NDExMTUtMDlhOC00MmQ5LWExZGUtYmI1NGVlZWI4OWNiXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1959,
       "rank": "102",
@@ -2151,7 +2151,7 @@
     {
       "title": "Vertigo",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0052357/",
+      "link": "https://www.imdb.com/title/tt0052357/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1958,
       "rank": "103",
@@ -2172,7 +2172,7 @@
     {
       "title": "Double Indemnity",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0036775/",
+      "link": "https://www.imdb.com/title/tt0036775/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTdlNjgyZGUtOTczYi00MDdhLTljZmMtYTEwZmRiOWFkYjRhXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_.jpg",
       "year": 1944,
       "rank": "104",
@@ -2193,7 +2193,7 @@
     {
       "title": "Scarface",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0086250/",
+      "link": "https://www.imdb.com/title/tt0086250/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1983,
       "rank": "105",
@@ -2214,7 +2214,7 @@
     {
       "title": "Amélie",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0211915/",
+      "link": "https://www.imdb.com/title/tt0211915/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
       "year": 2001,
       "rank": "106",
@@ -2235,7 +2235,7 @@
     {
       "title": "Full Metal Jacket",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0093058/",
+      "link": "https://www.imdb.com/title/tt0093058/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1987,
       "rank": "107",
@@ -2256,7 +2256,7 @@
     {
       "title": "Incendies",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1255953/",
+      "link": "https://www.imdb.com/title/tt1255953/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2010,
       "rank": "108",
@@ -2277,7 +2277,7 @@
     {
       "title": "A Clockwork Orange",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0066921/",
+      "link": "https://www.imdb.com/title/tt0066921/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_.jpg",
       "year": 1971,
       "rank": "109",
@@ -2298,7 +2298,7 @@
     {
       "title": "Heat",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0113277/",
+      "link": "https://www.imdb.com/title/tt0113277/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjZjNTJlZGUtZTE1Ny00ZDc4LTgwYjUtMzk0NDgwYzZjYTk1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1995,
       "rank": "110",
@@ -2319,7 +2319,7 @@
     {
       "title": "Up",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1049413/",
+      "link": "https://www.imdb.com/title/tt1049413/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjBkM2RjMzItM2M3Ni00N2NjLWE3NzMtMGY4MzE4MDAzMTRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
       "year": 2009,
       "rank": "111",
@@ -2340,7 +2340,7 @@
     {
       "title": "To Kill a Mockingbird",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0056592/",
+      "link": "https://www.imdb.com/title/tt0056592/",
       "img": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1962,
       "rank": "112",
@@ -2361,7 +2361,7 @@
     {
       "title": "The Sting",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0070735/",
+      "link": "https://www.imdb.com/title/tt0070735/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGU3NjQ4YTMtZGJjOS00YTQ3LThmNmItMTI5MDE2ODI3NzY3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1973,
       "rank": "113",
@@ -2382,7 +2382,7 @@
     {
       "title": "A Separation",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1832382/",
+      "link": "https://www.imdb.com/title/tt1832382/",
       "img": "https://m.media-amazon.com/images/M/MV5BN2JmMjViMjMtZTM5Mi00ZGZkLTk5YzctZDg5MjFjZDE4NjNkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2011,
       "rank": "114",
@@ -2403,7 +2403,7 @@
     {
       "title": "Hamilton",
       "type": "movie",
-      "link": "https://www.imdb.com/tt8503618/",
+      "link": "https://www.imdb.com/title/tt8503618/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg",
       "year": 2020,
       "rank": "115",
@@ -2424,7 +2424,7 @@
     {
       "title": "Indiana Jones and the Last Crusade",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0097576/",
+      "link": "https://www.imdb.com/title/tt0097576/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2Q0ODg4ZmItNDZiYi00ZWY5LTg2NzctNmYwZjA5OThmNzE1XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg",
       "year": 1989,
       "rank": "116",
@@ -2445,7 +2445,7 @@
     {
       "title": "Die Hard",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0095016/",
+      "link": "https://www.imdb.com/title/tt0095016/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1988,
       "rank": "117",
@@ -2466,7 +2466,7 @@
     {
       "title": "Metropolis",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0017136/",
+      "link": "https://www.imdb.com/title/tt0017136/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTg5YWIyMWUtZDY5My00Zjc1LTljOTctYmI0MWRmY2M2NmRkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 1927,
       "rank": "118",
@@ -2487,7 +2487,7 @@
     {
       "title": "Like Stars on Earth",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0986264/",
+      "link": "https://www.imdb.com/title/tt0986264/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjY0MGU3MmQtMGVhOS00M2IyLWI1MTktZGUxMzBjMTE5ZDA3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2007,
       "rank": "119",
@@ -2508,7 +2508,7 @@
     {
       "title": "Snatch",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0208092/",
+      "link": "https://www.imdb.com/title/tt0208092/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
       "year": 2000,
       "rank": "120",
@@ -2529,7 +2529,7 @@
     {
       "title": "L.A. Confidential",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0119488/",
+      "link": "https://www.imdb.com/title/tt0119488/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDQ2YzEyZGItYWRhOS00MjBmLTkzMDUtMTdjYzkyMmQxZTJlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1997,
       "rank": "121",
@@ -2550,7 +2550,7 @@
     {
       "title": "Bicycle Thieves",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0040522/",
+      "link": "https://www.imdb.com/title/tt0040522/",
       "img": "https://m.media-amazon.com/images/M/MV5BNmI1ODdjODctMDlmMC00ZWViLWI5MzYtYzRhNDdjYmM3MzFjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 1948,
       "rank": "122",
@@ -2571,7 +2571,7 @@
     {
       "title": "1917",
       "type": "movie",
-      "link": "https://www.imdb.com/tt8579674/",
+      "link": "https://www.imdb.com/title/tt8579674/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg",
       "year": 2019,
       "rank": "123",
@@ -2592,7 +2592,7 @@
     {
       "title": "Taxi Driver",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0075314/",
+      "link": "https://www.imdb.com/title/tt0075314/",
       "img": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1976,
       "rank": "124",
@@ -2613,7 +2613,7 @@
     {
       "title": "Downfall",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0363163/",
+      "link": "https://www.imdb.com/title/tt0363163/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_.jpg",
       "year": 2004,
       "rank": "125",
@@ -2634,7 +2634,7 @@
     {
       "title": "Dangal",
       "type": "movie",
-      "link": "https://www.imdb.com/tt5074352/",
+      "link": "https://www.imdb.com/title/tt5074352/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_.jpg",
       "year": 2016,
       "rank": "126",
@@ -2655,7 +2655,7 @@
     {
       "title": "For a Few Dollars More",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0059578/",
+      "link": "https://www.imdb.com/title/tt0059578/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzJlZTNkYjQtMTE1OS00YTJlLTgxNjItYzg4NTllODdkMzBiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1965,
       "rank": "127",
@@ -2676,7 +2676,7 @@
     {
       "title": "Batman Begins",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0372784/",
+      "link": "https://www.imdb.com/title/tt0372784/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 2005,
       "rank": "128",
@@ -2697,7 +2697,7 @@
     {
       "title": "Top Gun: Maverick",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1745960/",
+      "link": "https://www.imdb.com/title/tt1745960/",
       "img": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
       "year": 2022,
       "rank": "129",
@@ -2718,7 +2718,7 @@
     {
       "title": "Some Like It Hot",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0053291/",
+      "link": "https://www.imdb.com/title/tt0053291/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1959,
       "rank": "130",
@@ -2739,7 +2739,7 @@
     {
       "title": "The Kid",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0012349/",
+      "link": "https://www.imdb.com/title/tt0012349/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1921,
       "rank": "131",
@@ -2760,7 +2760,7 @@
     {
       "title": "The Wolf of Wall Street",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0993846/",
+      "link": "https://www.imdb.com/title/tt0993846/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
       "year": 2013,
       "rank": "132",
@@ -2781,7 +2781,7 @@
     {
       "title": "The Father",
       "type": "movie",
-      "link": "https://www.imdb.com/tt10272386/",
+      "link": "https://www.imdb.com/title/tt10272386/",
       "img": "https://m.media-amazon.com/images/M/MV5BZGJhNWRiOWQtMjI4OS00ZjcxLTgwMTAtMzQ2ODkxY2JkOTVlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
       "year": 2020,
       "rank": "133",
@@ -2802,7 +2802,7 @@
     {
       "title": "Green Book",
       "type": "movie",
-      "link": "https://www.imdb.com/tt6966692/",
+      "link": "https://www.imdb.com/title/tt6966692/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_.jpg",
       "year": 2018,
       "rank": "134",
@@ -2823,7 +2823,7 @@
     {
       "title": "All About Eve",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0042192/",
+      "link": "https://www.imdb.com/title/tt0042192/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmE1M2Y3NTYtYTI0Mi00N2JlLTkzMzItOTY1MTlhNWNkMDgzXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
       "year": 1950,
       "rank": "135",
@@ -2844,7 +2844,7 @@
     {
       "title": "Judgment at Nuremberg",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0055031/",
+      "link": "https://www.imdb.com/title/tt0055031/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDc2ODQ5NTE2MV5BMl5BanBnXkFtZTcwODExMjUyNA@@._V1_.jpg",
       "year": 1961,
       "rank": "136",
@@ -2865,7 +2865,7 @@
     {
       "title": "The Truman Show",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120382/",
+      "link": "https://www.imdb.com/title/tt0120382/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
       "year": 1998,
       "rank": "137",
@@ -2886,7 +2886,7 @@
     {
       "title": "There Will Be Blood",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0469494/",
+      "link": "https://www.imdb.com/title/tt0469494/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_.jpg",
       "year": 2007,
       "rank": "138",
@@ -2907,7 +2907,7 @@
     {
       "title": "Casino",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0112641/",
+      "link": "https://www.imdb.com/title/tt0112641/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "year": 1995,
       "rank": "139",
@@ -2928,7 +2928,7 @@
     {
       "title": "Shutter Island",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1130884/",
+      "link": "https://www.imdb.com/title/tt1130884/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2010,
       "rank": "140",
@@ -2949,7 +2949,7 @@
     {
       "title": "Ran",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0089881/",
+      "link": "https://www.imdb.com/title/tt0089881/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmU1NGYwZWYtOWExNi00ZTEyLTgwMmUtM2ZlMDVjNWM4YjVlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1985,
       "rank": "141",
@@ -2970,7 +2970,7 @@
     {
       "title": "Jurassic Park",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0107290/",
+      "link": "https://www.imdb.com/title/tt0107290/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
       "year": 1993,
       "rank": "142",
@@ -2991,7 +2991,7 @@
     {
       "title": "Pan's Labyrinth",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0457430/",
+      "link": "https://www.imdb.com/title/tt0457430/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzFjMThiMGItOWRlMC00MDI4LThmOGUtYTNlZGZiYWI1YjMyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 2006,
       "rank": "143",
@@ -3012,7 +3012,7 @@
     {
       "title": "The Sixth Sense",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0167404/",
+      "link": "https://www.imdb.com/title/tt0167404/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_.jpg",
       "year": 1999,
       "rank": "144",
@@ -3033,7 +3033,7 @@
     {
       "title": "Unforgiven",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0105695/",
+      "link": "https://www.imdb.com/title/tt0105695/",
       "img": "https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1992,
       "rank": "145",
@@ -3054,7 +3054,7 @@
     {
       "title": "A Beautiful Mind",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0268978/",
+      "link": "https://www.imdb.com/title/tt0268978/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzcwYWFkYzktZjAzNC00OGY1LWI4YTgtNzc5MzVjMDVmNjY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 2001,
       "rank": "146",
@@ -3075,7 +3075,7 @@
     {
       "title": "No Country for Old Men",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0477348/",
+      "link": "https://www.imdb.com/title/tt0477348/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg",
       "year": 2007,
       "rank": "147",
@@ -3096,7 +3096,7 @@
     {
       "title": "The Treasure of the Sierra Madre",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0040897/",
+      "link": "https://www.imdb.com/title/tt0040897/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTJlZWMxYzEtMjlkMS00ODE0LThlM2ItMDI3NGQ2YjhmMzkxXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
       "year": 1948,
       "rank": "148",
@@ -3117,7 +3117,7 @@
     {
       "title": "Yojimbo",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0055630/",
+      "link": "https://www.imdb.com/title/tt0055630/",
       "img": "https://m.media-amazon.com/images/M/MV5BZThiZjAzZjgtNDU3MC00YThhLThjYWUtZGRkYjc2ZWZlOTVjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "year": 1961,
       "rank": "149",
@@ -3138,7 +3138,7 @@
     {
       "title": "Kill Bill: Vol. 1",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0266697/",
+      "link": "https://www.imdb.com/title/tt0266697/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 2003,
       "rank": "150",
@@ -3159,7 +3159,7 @@
     {
       "title": "The Thing",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0084787/",
+      "link": "https://www.imdb.com/title/tt0084787/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "year": 1982,
       "rank": "151",
@@ -3180,7 +3180,7 @@
     {
       "title": "Monty Python and the Holy Grail",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0071853/",
+      "link": "https://www.imdb.com/title/tt0071853/",
       "img": "https://m.media-amazon.com/images/M/MV5BN2IyNTE4YzUtZWU0Mi00MGIwLTgyMmQtMzQ4YzQxYWNlYWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1975,
       "rank": "152",
@@ -3201,7 +3201,7 @@
     {
       "title": "The Great Escape",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0057115/",
+      "link": "https://www.imdb.com/title/tt0057115/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzA2NmYxMWUtNzBlMC00MWM2LTkwNmQtYTFlZjQwODNhOWE0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
       "year": 1963,
       "rank": "153",
@@ -3222,7 +3222,7 @@
     {
       "title": "Finding Nemo",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0266543/",
+      "link": "https://www.imdb.com/title/tt0266543/",
       "img": "https://m.media-amazon.com/images/M/MV5BZmYxZjg3OWEtNzg5Yi00M2YzLWI1YzYtYTQ0NTgwNzhjN2E1XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg",
       "year": 2003,
       "rank": "154",
@@ -3243,7 +3243,7 @@
     {
       "title": "Rashomon",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0042876/",
+      "link": "https://www.imdb.com/title/tt0042876/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjEzMzA4NDE2OF5BMl5BanBnXkFtZTcwNTc5MDI2NQ@@._V1_.jpg",
       "year": 1950,
       "rank": "155",
@@ -3264,7 +3264,7 @@
     {
       "title": "The Elephant Man",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0080678/",
+      "link": "https://www.imdb.com/title/tt0080678/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDVjNjIwOGItNDE3Ny00OThjLWE0NzQtZTU3YjMzZTZjMzhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1980,
       "rank": "156",
@@ -3285,7 +3285,7 @@
     {
       "title": "Chinatown",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0071315/",
+      "link": "https://www.imdb.com/title/tt0071315/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjJkMDZhYzItZTFhMi00ZGI4LThlNTAtZDNlYmEwNjFkNDYzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1974,
       "rank": "157",
@@ -3306,7 +3306,7 @@
     {
       "title": "Howl's Moving Castle",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0347149/",
+      "link": "https://www.imdb.com/title/tt0347149/",
       "img": "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2004,
       "rank": "158",
@@ -3327,7 +3327,7 @@
     {
       "title": "Dial M for Murder",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0046912/",
+      "link": "https://www.imdb.com/title/tt0046912/",
       "img": "https://m.media-amazon.com/images/M/MV5BOWIwODIxYWItZDI4MS00YzhhLWE3MmYtMzlhZDIwOTMzZmE5L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1954,
       "rank": "159",
@@ -3348,7 +3348,7 @@
     {
       "title": "Gone with the Wind",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0031381/",
+      "link": "https://www.imdb.com/title/tt0031381/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1939,
       "rank": "160",
@@ -3369,7 +3369,7 @@
     {
       "title": "Prisoners",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1392214/",
+      "link": "https://www.imdb.com/title/tt1392214/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",
       "year": 2013,
       "rank": "161",
@@ -3390,7 +3390,7 @@
     {
       "title": "V for Vendetta",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0434409/",
+      "link": "https://www.imdb.com/title/tt0434409/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_.jpg",
       "year": 2005,
       "rank": "162",
@@ -3411,7 +3411,7 @@
     {
       "title": "Raging Bull",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0081398/",
+      "link": "https://www.imdb.com/title/tt0081398/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
       "year": 1980,
       "rank": "163",
@@ -3432,7 +3432,7 @@
     {
       "title": "Lock, Stock and Two Smoking Barrels",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0120735/",
+      "link": "https://www.imdb.com/title/tt0120735/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
       "year": 1998,
       "rank": "164",
@@ -3453,7 +3453,7 @@
     {
       "title": "The Secret in Their Eyes",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1305806/",
+      "link": "https://www.imdb.com/title/tt1305806/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTgwNTI3OTczOV5BMl5BanBnXkFtZTcwMTM3MTUyMw@@._V1_.jpg",
       "year": 2009,
       "rank": "165",
@@ -3474,7 +3474,7 @@
     {
       "title": "Inside Out",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2096673/",
+      "link": "https://www.imdb.com/title/tt2096673/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_.jpg",
       "year": 2015,
       "rank": "166",
@@ -3495,7 +3495,7 @@
     {
       "title": "Spider-Man: No Way Home",
       "type": "movie",
-      "link": "https://www.imdb.com/tt10872600/",
+      "link": "https://www.imdb.com/title/tt10872600/",
       "img": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
       "year": 2021,
       "rank": "167",
@@ -3516,7 +3516,7 @@
     {
       "title": "Three Billboards Outside Ebbing, Missouri",
       "type": "movie",
-      "link": "https://www.imdb.com/tt5027774/",
+      "link": "https://www.imdb.com/title/tt5027774/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_.jpg",
       "year": 2017,
       "rank": "168",
@@ -3537,7 +3537,7 @@
     {
       "title": "Trainspotting",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0117951/",
+      "link": "https://www.imdb.com/title/tt0117951/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1996,
       "rank": "169",
@@ -3558,7 +3558,7 @@
     {
       "title": "The Bridge on the River Kwai",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0050212/",
+      "link": "https://www.imdb.com/title/tt0050212/",
       "img": "https://m.media-amazon.com/images/M/MV5BOGY5NmNlMmQtYzRlYy00NGQ5LWFkYjYtNzExZmQyMTg0ZDA0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg",
       "year": 1957,
       "rank": "170",
@@ -3579,7 +3579,7 @@
     {
       "title": "Fargo",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0116282/",
+      "link": "https://www.imdb.com/title/tt0116282/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDJiZDgyZjctYmRjMS00ZjdkLTkwMTEtNGU1NDg3NDQ0Yzk1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1996,
       "rank": "171",
@@ -3600,7 +3600,7 @@
     {
       "title": "Warrior",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1291584/",
+      "link": "https://www.imdb.com/title/tt1291584/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_.jpg",
       "year": 2011,
       "rank": "172",
@@ -3621,7 +3621,7 @@
     {
       "title": "Catch Me If You Can",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0264464/",
+      "link": "https://www.imdb.com/title/tt0264464/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_.jpg",
       "year": 2002,
       "rank": "173",
@@ -3642,7 +3642,7 @@
     {
       "title": "Gran Torino",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1205489/",
+      "link": "https://www.imdb.com/title/tt1205489/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTc5NTk2OTU1Nl5BMl5BanBnXkFtZTcwMDc3NjAwMg@@._V1_.jpg",
       "year": 2008,
       "rank": "174",
@@ -3663,7 +3663,7 @@
     {
       "title": "Klaus",
       "type": "movie",
-      "link": "https://www.imdb.com/tt4729430/",
+      "link": "https://www.imdb.com/title/tt4729430/",
       "img": "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
       "year": 2019,
       "rank": "175",
@@ -3684,7 +3684,7 @@
     {
       "title": "My Neighbor Totoro",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0096283/",
+      "link": "https://www.imdb.com/title/tt0096283/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 1988,
       "rank": "176",
@@ -3705,7 +3705,7 @@
     {
       "title": "Million Dollar Baby",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0405159/",
+      "link": "https://www.imdb.com/title/tt0405159/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_.jpg",
       "year": 2004,
       "rank": "177",
@@ -3726,7 +3726,7 @@
     {
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1201607/",
+      "link": "https://www.imdb.com/title/tt1201607/",
       "img": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
       "year": 2011,
       "rank": "178",
@@ -3747,7 +3747,7 @@
     {
       "title": "Children of Heaven",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0118849/",
+      "link": "https://www.imdb.com/title/tt0118849/",
       "img": "https://m.media-amazon.com/images/M/MV5BZTYwZWQ4ZTQtZWU0MS00N2YwLWEzMDItZWFkZWY0MWVjODVhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1997,
       "rank": "179",
@@ -3768,7 +3768,7 @@
     {
       "title": "Blade Runner",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0083658/",
+      "link": "https://www.imdb.com/title/tt0083658/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1982,
       "rank": "180",
@@ -3789,7 +3789,7 @@
     {
       "title": "12 Years a Slave",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2024544/",
+      "link": "https://www.imdb.com/title/tt2024544/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_.jpg",
       "year": 2013,
       "rank": "181",
@@ -3810,7 +3810,7 @@
     {
       "title": "Before Sunrise",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0112471/",
+      "link": "https://www.imdb.com/title/tt0112471/",
       "img": "https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1995,
       "rank": "182",
@@ -3831,7 +3831,7 @@
     {
       "title": "The Grand Budapest Hotel",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2278388/",
+      "link": "https://www.imdb.com/title/tt2278388/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",
       "year": 2014,
       "rank": "183",
@@ -3852,7 +3852,7 @@
     {
       "title": "Ben-Hur",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0052618/",
+      "link": "https://www.imdb.com/title/tt0052618/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjgxY2JiZDYtZmMwOC00ZmJjLWJmODUtMTNmNWNmYWI5ODkwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1959,
       "rank": "184",
@@ -3873,7 +3873,7 @@
     {
       "title": "Barry Lyndon",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0072684/",
+      "link": "https://www.imdb.com/title/tt0072684/",
       "img": "https://m.media-amazon.com/images/M/MV5BNmY0MWY2NDctZDdmMi00MjA1LTk0ZTQtZDMyZTQ1NTNlYzVjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1975,
       "rank": "185",
@@ -3894,7 +3894,7 @@
     {
       "title": "The Gold Rush",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0015864/",
+      "link": "https://www.imdb.com/title/tt0015864/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjEyOTE4MzMtNmMzMy00Mzc3LWJlOTQtOGJiNDE0ZmJiOTU4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "year": 1925,
       "rank": "186",
@@ -3915,7 +3915,7 @@
     {
       "title": "Gone Girl",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2267998/",
+      "link": "https://www.imdb.com/title/tt2267998/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",
       "year": 2014,
       "rank": "187",
@@ -3936,7 +3936,7 @@
     {
       "title": "Hacksaw Ridge",
       "type": "movie",
-      "link": "https://www.imdb.com/tt2119532/",
+      "link": "https://www.imdb.com/title/tt2119532/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg",
       "year": 2016,
       "rank": "188",
@@ -3957,7 +3957,7 @@
     {
       "title": "In the Name of the Father",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0107207/",
+      "link": "https://www.imdb.com/title/tt0107207/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmYyOTgwYWItYmU3Ny00M2E2LTk0NWMtMDVlNmQ0MWZiMTMxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1993,
       "rank": "189",
@@ -3978,7 +3978,7 @@
     {
       "title": "Memories of Murder",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0353969/",
+      "link": "https://www.imdb.com/title/tt0353969/",
       "img": "https://m.media-amazon.com/images/M/MV5BOGViNTg4YTktYTQ2Ni00MTU0LTk2NWUtMTI4OTc1YTM0NzQ2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
       "year": 2003,
       "rank": "190",
@@ -3999,7 +3999,7 @@
     {
       "title": "On the Waterfront",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0047296/",
+      "link": "https://www.imdb.com/title/tt0047296/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2I0MWFiZDMtNWQyYy00Njk5LTk3MDktZjZjNTNmZmVkYjkxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1954,
       "rank": "191",
@@ -4020,7 +4020,7 @@
     {
       "title": "The General",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0017925/",
+      "link": "https://www.imdb.com/title/tt0017925/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmRiMDFlYjYtOTMwYy00OGY2LWE0Y2QtYzQxOGNhZmUwNTIxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1926,
       "rank": "192",
@@ -4041,7 +4041,7 @@
     {
       "title": "The Deer Hunter",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0077416/",
+      "link": "https://www.imdb.com/title/tt0077416/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDhmNTA0ZDMtYjhkNS00NzEzLWIzYTItOGNkMTVmYjE2YmI3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1978,
       "rank": "193",
@@ -4062,7 +4062,7 @@
     {
       "title": "Wild Tales",
       "type": "movie",
-      "link": "https://www.imdb.com/tt3011894/",
+      "link": "https://www.imdb.com/title/tt3011894/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzAzMjA1ODAxOV5BMl5BanBnXkFtZTgwODg4NTQzNDE@._V1_.jpg",
       "year": 2014,
       "rank": "194",
@@ -4083,7 +4083,7 @@
     {
       "title": "Wild Strawberries",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0050986/",
+      "link": "https://www.imdb.com/title/tt0050986/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWQxYzdhMDMtNjAyZC00NzE0LWFjYmQtYjk0YzMyYjA5NzZkXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1957,
       "rank": "195",
@@ -4104,7 +4104,7 @@
     {
       "title": "Dead Poets Society",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0097165/",
+      "link": "https://www.imdb.com/title/tt0097165/",
       "img": "https://m.media-amazon.com/images/M/MV5BOGYwYWNjMzgtNGU4ZC00NWQ2LWEwZjUtMzE1Zjc3NjY3YTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1989,
       "rank": "196",
@@ -4125,7 +4125,7 @@
     {
       "title": "The Third Man",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0041959/",
+      "link": "https://www.imdb.com/title/tt0041959/",
       "img": "https://m.media-amazon.com/images/M/MV5BYjE2OTdhMWUtOGJlMy00ZDViLWIzZjgtYjZkZGZmMDZjYmEyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1949,
       "rank": "197",
@@ -4146,7 +4146,7 @@
     {
       "title": "Mad Max: Fury Road",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1392190/",
+      "link": "https://www.imdb.com/title/tt1392190/",
       "img": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2015,
       "rank": "198",
@@ -4167,7 +4167,7 @@
     {
       "title": "The Wages of Fear",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0046268/",
+      "link": "https://www.imdb.com/title/tt0046268/",
       "img": "https://m.media-amazon.com/images/M/MV5BZDdkNzMwZmUtY2Q5MS00ZmM2LWJhYjItYTBjMWY0MGM4MDRjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "year": 1953,
       "rank": "199",
@@ -4188,7 +4188,7 @@
     {
       "title": "Sherlock Jr.",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0015324/",
+      "link": "https://www.imdb.com/title/tt0015324/",
       "img": "https://m.media-amazon.com/images/M/MV5BZWFhOGU5NDctY2Q3YS00Y2VlLWI1NzEtZmIwY2ZiZjY4OTA2XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
       "year": 1924,
       "rank": "200",
@@ -4209,7 +4209,7 @@
     {
       "title": "Monsters, Inc.",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0198781/",
+      "link": "https://www.imdb.com/title/tt0198781/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg",
       "year": 2001,
       "rank": "201",
@@ -4230,7 +4230,7 @@
     {
       "title": "Mr. Smith Goes to Washington",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0031679/",
+      "link": "https://www.imdb.com/title/tt0031679/",
       "img": "https://m.media-amazon.com/images/M/MV5BZTYwYjYxYzgtMDE1Ni00NzU4LWJlMTEtODQ5YmJmMGJhZjI5L2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
       "year": 1939,
       "rank": "202",
@@ -4251,7 +4251,7 @@
     {
       "title": "Jaws",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0073195/",
+      "link": "https://www.imdb.com/title/tt0073195/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "year": 1975,
       "rank": "203",
@@ -4272,7 +4272,7 @@
     {
       "title": "How to Train Your Dragon",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0892769/",
+      "link": "https://www.imdb.com/title/tt0892769/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_.jpg",
       "year": 2010,
       "rank": "204",
@@ -4293,7 +4293,7 @@
     {
       "title": "Mary and Max",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0978762/",
+      "link": "https://www.imdb.com/title/tt0978762/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDgzYjQwMDMtNGUzYi00MTRmLWIyMGMtNjE1OGZkNzY2YWIzL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2009,
       "rank": "205",
@@ -4314,7 +4314,7 @@
     {
       "title": "Ford v Ferrari",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1950186/",
+      "link": "https://www.imdb.com/title/tt1950186/",
       "img": "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_.jpg",
       "year": 2019,
       "rank": "206",
@@ -4335,7 +4335,7 @@
     {
       "title": "The Seventh Seal",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0050976/",
+      "link": "https://www.imdb.com/title/tt0050976/",
       "img": "https://m.media-amazon.com/images/M/MV5BOWM3MmE0OGYtOGVlNC00OWE1LTk5ZTAtYmUwMDIwM2ZlNWJiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1957,
       "rank": "207",
@@ -4356,7 +4356,7 @@
     {
       "title": "Room",
       "type": "movie",
-      "link": "https://www.imdb.com/tt3170832/",
+      "link": "https://www.imdb.com/title/tt3170832/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_.jpg",
       "year": 2015,
       "rank": "208",
@@ -4377,7 +4377,7 @@
     {
       "title": "Ratatouille",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0382932/",
+      "link": "https://www.imdb.com/title/tt0382932/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_.jpg",
       "year": 2007,
       "rank": "209",
@@ -4398,7 +4398,7 @@
     {
       "title": "The Big Lebowski",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0118715/",
+      "link": "https://www.imdb.com/title/tt0118715/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "year": 1998,
       "rank": "210",
@@ -4419,7 +4419,7 @@
     {
       "title": "Tokyo Story",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0046438/",
+      "link": "https://www.imdb.com/title/tt0046438/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWQ4ZTRiODktNjAzZC00Nzg1LTk1YWQtNDFmNDI0NmZiNGIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1953,
       "rank": "211",
@@ -4440,7 +4440,7 @@
     {
       "title": "Rocky",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0075148/",
+      "link": "https://www.imdb.com/title/tt0075148/",
       "img": "https://m.media-amazon.com/images/M/MV5BNTBkMjg2MjYtYTZjOS00ODQ0LTg0MDEtM2FiNmJmOGU1NGEwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1976,
       "rank": "212",
@@ -4461,7 +4461,7 @@
     {
       "title": "Hotel Rwanda",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0395169/",
+      "link": "https://www.imdb.com/title/tt0395169/",
       "img": "https://m.media-amazon.com/images/M/MV5BZGJjYmIzZmQtNWE4Yy00ZGVmLWJkZGEtMzUzNmQ4ZWFlMjRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2004,
       "rank": "213",
@@ -4482,7 +4482,7 @@
     {
       "title": "Logan",
       "type": "movie",
-      "link": "https://www.imdb.com/tt3315342/",
+      "link": "https://www.imdb.com/title/tt3315342/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 2017,
       "rank": "214",
@@ -4503,7 +4503,7 @@
     {
       "title": "Spotlight",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1895587/",
+      "link": "https://www.imdb.com/title/tt1895587/",
       "img": "https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_.jpg",
       "year": 2015,
       "rank": "215",
@@ -4524,7 +4524,7 @@
     {
       "title": "Platoon",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0091763/",
+      "link": "https://www.imdb.com/title/tt0091763/",
       "img": "https://m.media-amazon.com/images/M/MV5BMzRjZjdlMjQtODVkYS00N2YzLWJlYWYtMGVlN2E5MWEwMWQzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1986,
       "rank": "216",
@@ -4545,7 +4545,7 @@
     {
       "title": "The Passion of Joan of Arc",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0019254/",
+      "link": "https://www.imdb.com/title/tt0019254/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjBjNDJiYTUtOWY0OS00OGVmLTg2YzctMTE0NzVhODM1ZWJmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1928,
       "rank": "217",
@@ -4566,7 +4566,7 @@
     {
       "title": "The Terminator",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0088247/",
+      "link": "https://www.imdb.com/title/tt0088247/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
       "year": 1984,
       "rank": "218",
@@ -4587,7 +4587,7 @@
     {
       "title": "Before Sunset",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0381681/",
+      "link": "https://www.imdb.com/title/tt0381681/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_.jpg",
       "year": 2004,
       "rank": "219",
@@ -4608,7 +4608,7 @@
     {
       "title": "Jai Bhim",
       "type": "movie",
-      "link": "https://www.imdb.com/tt15097216/",
+      "link": "https://www.imdb.com/title/tt15097216/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzFkM2FhMzQtYjUwZi00N2Y3LWFkZWItMmZmMjQxNGQwZmNhXkEyXkFqcGdeQXVyODEyNjEwMDk@._V1_.jpg",
       "year": 2021,
       "rank": "220",
@@ -4629,7 +4629,7 @@
     {
       "title": "Rush",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1979320/",
+      "link": "https://www.imdb.com/title/tt1979320/",
       "img": "https://m.media-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 2013,
       "rank": "221",
@@ -4650,7 +4650,7 @@
     {
       "title": "Network",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0074958/",
+      "link": "https://www.imdb.com/title/tt0074958/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzY0NjU5ODUtOTAzMC00NTU5LWJkZjctYWMyOWY2MTZmOWM1XkEyXkFqcGdeQXVyMTI3ODAyMzE2._V1_.jpg",
       "year": 1976,
       "rank": "222",
@@ -4671,7 +4671,7 @@
     {
       "title": "The Best Years of Our Lives",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0036868/",
+      "link": "https://www.imdb.com/title/tt0036868/",
       "img": "https://m.media-amazon.com/images/M/MV5BY2RmNTRjYzctODI4Ni00MzQyLWEyNTAtNjU0N2JkMTNhNjJkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1946,
       "rank": "223",
@@ -4692,7 +4692,7 @@
     {
       "title": "The Exorcist",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0070047/",
+      "link": "https://www.imdb.com/title/tt0070047/",
       "img": "https://m.media-amazon.com/images/M/MV5BYWFlZGY2NDktY2ZjOS00ZWNkLTg0ZDAtZDY4MTM1ODU4ZjljXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1973,
       "rank": "224",
@@ -4713,7 +4713,7 @@
     {
       "title": "Stand by Me",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0092005/",
+      "link": "https://www.imdb.com/title/tt0092005/",
       "img": "https://m.media-amazon.com/images/M/MV5BODJmY2Y2OGQtMDg2My00N2Q3LWJmZTUtYTc2ODBjZDVlNDlhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1986,
       "rank": "225",
@@ -4734,7 +4734,7 @@
     {
       "title": "La haine",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0113247/",
+      "link": "https://www.imdb.com/title/tt0113247/",
       "img": "https://m.media-amazon.com/images/M/MV5BOTQxOGU0OWUtMzExYy00ZjIxLWJmMzAtNTI1Y2YxYTMxN2RkXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1995,
       "rank": "226",
@@ -4755,7 +4755,7 @@
     {
       "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0325980/",
+      "link": "https://www.imdb.com/title/tt0325980/",
       "img": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2003,
       "rank": "227",
@@ -4776,7 +4776,7 @@
     {
       "title": "The Wizard of Oz",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0032138/",
+      "link": "https://www.imdb.com/title/tt0032138/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_.jpg",
       "year": 1939,
       "rank": "228",
@@ -4797,7 +4797,7 @@
     {
       "title": "The Incredibles",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0317705/",
+      "link": "https://www.imdb.com/title/tt0317705/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",
       "year": 2004,
       "rank": "229",
@@ -4818,7 +4818,7 @@
     {
       "title": "Into the Wild",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0758758/",
+      "link": "https://www.imdb.com/title/tt0758758/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjQ0ODlhMWUtNmUwMS00YjExLWI4MjQtNjVmMmE2Y2E0MGRmXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
       "year": 2007,
       "rank": "230",
@@ -4839,7 +4839,7 @@
     {
       "title": "Hachi: A Dog's Tale",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1028532/",
+      "link": "https://www.imdb.com/title/tt1028532/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmQzYjgyYzEtOTVhZC00MDRkLWJjNjItYzU3N2RiMTExZjA1XkEyXkFqcGdeQXVyMTcwOTQzOTYy._V1_.jpg",
       "year": 2009,
       "rank": "231",
@@ -4860,7 +4860,7 @@
     {
       "title": "The Handmaiden",
       "type": "movie",
-      "link": "https://www.imdb.com/tt4016934/",
+      "link": "https://www.imdb.com/title/tt4016934/",
       "img": "https://m.media-amazon.com/images/M/MV5BNDJhYTk2MTctZmVmOS00OTViLTgxNjQtMzQxOTRiMDdmNGRjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "year": 2016,
       "rank": "232",
@@ -4881,7 +4881,7 @@
     {
       "title": "To Be or Not to Be",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0035446/",
+      "link": "https://www.imdb.com/title/tt0035446/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTIwNDcyMjktMTczMy00NDM5LTlhNDEtMmE3NGVjOTM2YjQ3XkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_.jpg",
       "year": 1942,
       "rank": "233",
@@ -4902,7 +4902,7 @@
     {
       "title": "My Father and My Son",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0476735/",
+      "link": "https://www.imdb.com/title/tt0476735/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzEzMWYyYjEtNmVjZS00YTAyLWIyOTgtMzEzNzQxMTQzZTgwXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
       "year": 2005,
       "rank": "234",
@@ -4923,7 +4923,7 @@
     {
       "title": "Groundhog Day",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0107048/",
+      "link": "https://www.imdb.com/title/tt0107048/",
       "img": "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       "year": 1993,
       "rank": "235",
@@ -4944,7 +4944,7 @@
     {
       "title": "The Grapes of Wrath",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0032551/",
+      "link": "https://www.imdb.com/title/tt0032551/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzJiOGI2MjctYjUyMS00ZjkzLWE2ZmUtOTg4NTZkOTNhZDc1L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1940,
       "rank": "236",
@@ -4965,7 +4965,7 @@
     {
       "title": "The Battle of Algiers",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0058946/",
+      "link": "https://www.imdb.com/title/tt0058946/",
       "img": "https://m.media-amazon.com/images/M/MV5BN2M4YTA4ZTEtN2EyNy00YTlmLWE4YzYtYjYyYjRkMWM4ZDM0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1966,
       "rank": "237",
@@ -4986,7 +4986,7 @@
     {
       "title": "The Sound of Music",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0059742/",
+      "link": "https://www.imdb.com/title/tt0059742/",
       "img": "https://m.media-amazon.com/images/M/MV5BYThiZTY5MTAtODgwNS00OGNjLThjYzItOTcxYmYxMGY5MzBjXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg",
       "year": 1965,
       "rank": "238",
@@ -5007,7 +5007,7 @@
     {
       "title": "Amores Perros",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0245712/",
+      "link": "https://www.imdb.com/title/tt0245712/",
       "img": "https://m.media-amazon.com/images/M/MV5BZjUxNmEwOGItMTBmYi00MWQ1LWExY2MtNDUxMjI0OWM4M2NiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 2000,
       "rank": "239",
@@ -5028,7 +5028,7 @@
     {
       "title": "Rebecca",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0032976/",
+      "link": "https://www.imdb.com/title/tt0032976/",
       "img": "https://m.media-amazon.com/images/M/MV5BYTcxYWExOTMtMWFmYy00ZjgzLWI0YjktNWEzYzJkZTg0NDdmL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1940,
       "rank": "240",
@@ -5049,7 +5049,7 @@
     {
       "title": "Cool Hand Luke",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0061512/",
+      "link": "https://www.imdb.com/title/tt0061512/",
       "img": "https://m.media-amazon.com/images/M/MV5BNjcwNTQ3Y2EtMjdmZi00ODBhLWFhNzQtOTc3MWU5NTZlMDViXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1967,
       "rank": "241",
@@ -5070,7 +5070,7 @@
     {
       "title": "The Iron Giant",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0129167/",
+      "link": "https://www.imdb.com/title/tt0129167/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzBjZTNkMzQtZmNkOC00Yzk0LTljMjktZjk3YWVlZjY3NTk2XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
       "year": 1999,
       "rank": "242",
@@ -5091,7 +5091,7 @@
     {
       "title": "The Help",
       "type": "movie",
-      "link": "https://www.imdb.com/tt1454029/",
+      "link": "https://www.imdb.com/title/tt1454029/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_.jpg",
       "year": 2011,
       "rank": "243",
@@ -5112,7 +5112,7 @@
     {
       "title": "It Happened One Night",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0025316/",
+      "link": "https://www.imdb.com/title/tt0025316/",
       "img": "https://m.media-amazon.com/images/M/MV5BYzJmMWE5NjAtNWMyZS00NmFiLWIwMDgtZDE2NzczYWFhNzIzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
       "year": 1934,
       "rank": "244",
@@ -5133,7 +5133,7 @@
     {
       "title": "Pather Panchali",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0048473/",
+      "link": "https://www.imdb.com/title/tt0048473/",
       "img": "https://m.media-amazon.com/images/M/MV5BMmFkNDY5OTktNzY3Yy00OTFlLThhNjktOTRhMmZjZmIxYjAxXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
       "year": 1955,
       "rank": "245",
@@ -5154,7 +5154,7 @@
     {
       "title": "The 400 Blows",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0053198/",
+      "link": "https://www.imdb.com/title/tt0053198/",
       "img": "https://m.media-amazon.com/images/M/MV5BNzUwYzU2YjctOGM3YS00YjdiLTk1YjctZjdmMDY4ZTE1YWZkXkEyXkFqcGdeQXVyNzYxODE3NTQ@._V1_.jpg",
       "year": 1959,
       "rank": "246",
@@ -5175,7 +5175,7 @@
     {
       "title": "Aladdin",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0103639/",
+      "link": "https://www.imdb.com/title/tt0103639/",
       "img": "https://m.media-amazon.com/images/M/MV5BZTg5ZTVmM2EtZjdhZC00MzBjLWEwZTYtNWIwZDczYzZkMzA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
       "year": 1992,
       "rank": "247",
@@ -5196,7 +5196,7 @@
     {
       "title": "Dances with Wolves",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0099348/",
+      "link": "https://www.imdb.com/title/tt0099348/",
       "img": "https://m.media-amazon.com/images/M/MV5BMTY3OTI5NDczN15BMl5BanBnXkFtZTcwNDA0NDY3Mw@@._V1_.jpg",
       "year": 1990,
       "rank": "248",
@@ -5217,7 +5217,7 @@
     {
       "title": "Life of Brian",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0079470/",
+      "link": "https://www.imdb.com/title/tt0079470/",
       "img": "https://m.media-amazon.com/images/M/MV5BMDA1ZWI4ZDItOTRlYi00OTUxLWFlNWQtMzM5NDI0YjA4ZGI2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1979,
       "rank": "249",
@@ -5238,7 +5238,7 @@
     {
       "title": "Persona",
       "type": "movie",
-      "link": "https://www.imdb.com/tt0060827/",
+      "link": "https://www.imdb.com/title/tt0060827/",
       "img": "https://m.media-amazon.com/images/M/MV5BYmFlOTcxMWUtZTMzMi00NWIyLTkwOTEtNjIxNmViNzc2Yzc1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
       "year": 1966,
       "rank": "250",
