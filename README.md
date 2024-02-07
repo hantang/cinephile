@@ -4,7 +4,16 @@
 
 豆瓣（douban.com）、IMDb（imdb.com）、时光网（mtime.com）、猫眼（maoyan.com）、TMDb（themoviedb.org）Top电影定时抓取。
 
-- site: [Cinéphile](https://hantang.github.io/cinephile/)
+site: [Cinéphile](https://hantang.github.io/cinephile/)
+
+## 最新更新
+
+- 2024/2/7
+  - [TSPDT Top 1000 (2024), 2024/1](https://hantang.github.io/cinephile/tspdt/tspdt-2024/)
+  - [豆瓣 2023 年度电影榜单, 2023/12](https://hantang.github.io/cinephile/douban/douban-annual/#2023-年度电影榜单)
+
+
+## mkdocs说明
 
 ```bash
 # Powered by `mkdocs`.
