@@ -193,7 +193,8 @@ class DoubanMovie(BaseMovie):
         "reviews",
         "discussion",
         "question",
-        "watching"
+        "watching",
+        "douban_playable"
     ]
 
     def __init__(self,
@@ -226,6 +227,7 @@ class DoubanMovie(BaseMovie):
                  discussion,
                  question,
                  watching,
+                 douban_playable,
                  **kwargs):
         super().__init__(title, category, year, region, director, genre, **kwargs)
         self._douban_url = douban_url
@@ -252,6 +254,7 @@ class DoubanMovie(BaseMovie):
         self._discussion = discussion
         self._question = question
         self._watching = watching
+        self._douban_playable = douban_playable
 
     @property
     def score(self):
@@ -272,6 +275,10 @@ class DoubanMovie(BaseMovie):
     @property
     def cover(self):
         return self._douban_cover
+    
+    @property
+    def playable(self):
+        return self._douban_playable
 
     def to_dict(self):
         out = super().to_dict()
@@ -299,6 +306,7 @@ class DoubanMovie(BaseMovie):
             "discussion": self._discussion,
             "question": self._question,
             "watching": self._watching,
+            "douban_playable": self._douban_playable
         })
         out["extra"] = self._extra
         return out
@@ -327,6 +335,7 @@ class DoubanMovie(BaseMovie):
             "douban_director": self._director,
             "douban_actor": self._actors,
             "douban_staff": staff,
+            "douban_playable": self._douban_playable
         }
         return out
 
@@ -878,8 +887,11 @@ class MovieCluster:
                 rank = int(strip_field(me["rank"], 0))
                 rank_tag = metals[min(rank - 1, 3)]
                 movie_id = strip_field(me.get("douban_id"), "")
+                playable = strip_field(me.get("douban_playable"), "")
 
                 headline = "[{}]({})".format(title, url) if keep_url else title
+                if playable:
+                    headline += f" `{playable}`"
                 image = "![{}]({})".format(movie_id, cover) if keep_cover else ""
                 info_parts = [f"🎬{year}" if year else "", f"🌟{score:.2f}" if score else ""]
                 if keep_rank:

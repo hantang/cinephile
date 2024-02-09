@@ -17,6 +17,7 @@ EXTRA_SITES = ["douban-weekly"]
 
 
 def _get_top_stats(datadir, moredir, name, desc=""):
+    # douban, imdb ... top250/top100 movies show as table
     files = []
     for site in name:
         file = None

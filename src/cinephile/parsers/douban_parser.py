@@ -83,6 +83,9 @@ def parse_page_top250(page, **kwargs):
 
         hd = item.find(class_="hd")
         titles = [strip(v.text, slash=True) for v in hd.a.find_all("span")]
+        playable = hd.find("span", class_='playable')
+        if playable:
+            playable = strip(playable.text)
 
         bd = item.find(class_="bd")
         info = [v.text.strip() for v in bd.p.contents if not v.name]
@@ -99,6 +102,7 @@ def parse_page_top250(page, **kwargs):
             "douban_titles": titles,
             "douban_info": [strip(v) for v in info],
             "douban_quote": quote,
+            "douban_playable": playable
         }
         info_part1 = dict([v.split(":") for v in info[0].split("\xa0") if v and ":" in v])
         director = info_part1.get("导演")
