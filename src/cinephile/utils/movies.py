@@ -555,6 +555,7 @@ class Movie(BaseMovie):
             "douban_id": self._douban_id,
             "douban_score": _query(self._extra, ["douban_score"]),
             "douban_vote": _query(self._extra, ["douban_vote", "douban_count"]),
+            "douban_playable": _query(self._extra, ["douban_playable"]),
             "imdb_id": self._imdb_id,
             "imdb_score": _query(self._extra, ["imdb_score"]),
             "imdb_vote": _query(self._extra, ["imdb_vote", "imdb_count"]),
