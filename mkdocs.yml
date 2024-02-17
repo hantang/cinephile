@@ -1,7 +1,8 @@
 # site information
 site_name: "Cinéphile: top movies / films"
 site_url: https://hantang.github.io/cinephile
-site_description: top movie collections
+site_author: hantang
+site_description: "Top movie collections"
 copyright: Copyright &copy; 2023-2024 Hantang
 # docs_dir: docs/
 
@@ -50,6 +51,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
       toc_depth: 4
@@ -57,12 +63,14 @@ markdown_extensions:
         kwds:
           case: lower
           percent_encode: true
-  - tables
   - mdx_truly_sane_lists
+  - tables
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - assets/javascripts/tablesort.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.number.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.date.js
+  - assets/js/tablesort.js
 
 extra:
   social:
