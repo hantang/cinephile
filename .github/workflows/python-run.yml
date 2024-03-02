@@ -3,10 +3,10 @@ name: Python Run Movies
 on:
   push:
     branches:
-      - "main"
+      - main
   pull_request:
     branches:
-      - "main"
+      - main
   schedule:
     - cron: "0 22 * * 3,6"
 
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  process:
     runs-on: ubuntu-latest
 
     steps:
