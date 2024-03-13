@@ -89,7 +89,7 @@ nav:
     - 豆瓣电影 Top250: top250/douban.md
     - IMDb电影 Top250: top250/imdb.md
     - 更多高分电影榜单: top250/more.md
-    - 豆瓣电影实时和近期热门榜单: top250/douban-hot.md
+    - 豆瓣电影实时和近期热门榜单: top250/douban-weekly.md
   - FI&FF:
       - 专业榜单: fiff/index.md
       - 榜单资料1: fiff/index-media.md
