@@ -1,8 +1,10 @@
 import argparse
+from curses.ascii import SI
 import json
 import logging
 from pathlib import Path
 
+from numpy import deprecate
 import pandas as pd
 
 from cinephile.utils import datetimes
@@ -14,12 +16,18 @@ MISCDIR = "misc"
 SITES = ["douban", "imdb", "mtime", "maoyan", "tmdb"]
 MAIN_SITES = ["douban", "imdb"]
 EXTRA_SITES = ["douban-weekly"]
+SITE_DESC = [
+    "豆瓣电影 Top250",
+    "IMDb电影 Top250",
+    "时光电影 Top100",
+    "猫眼电影 Top100",
+    "TMDB 高分电影"
+]
 
-
-def _get_top_stats(datadir, moredir, name, desc=""):
+def _get_top_stats(datadir, moredir, names, desc="", merge=True):
     # douban, imdb ... top250/top100 movies show as table
-    files = []
-    for site in name:
+    file_dict = {}
+    for site in names:
         file = None
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site if site in MAIN_SITES else MISCDIR)
@@ -30,27 +38,36 @@ def _get_top_stats(datadir, moredir, name, desc=""):
                 file = datafiles[0]  # use latest
                 break
         if file:
-            files.append(file)
+            file_dict[site] = file
         else:
             logging.warning(f"Empty file in {site}: datadir={datadir}")
-    if len(files) == 0:
+    if len(file_dict) == 0:
         logging.warning("files are empty")
         return []
 
-    data_list = []
+    data_dict = {}
     urls = []
-    for file in files:
+    for site in names:
+        if site not in file_dict: continue
+        file = file_dict[site]
         logging.info(f"read file = {file}")
         with open(file) as f:
             data = json.load(f)
-        data_list.append(data)
+        data_dict[site] = data
         url_hits = [v in file.name for v in MAIN_SITES]
         urls.append(True if any(url_hits) else False)
-
-    mc = MovieCluster.merge_from_json(*data_list)
-    df = mc.to_df_table(keep_url=urls, keep_cover=False)
-    part = [[desc, df]]
-    return part
+    if merge:
+        data_list = [data_dict[site] for site in names if site in data_dict]
+        mc = MovieCluster.merge_from_json(*data_list)
+        df = mc.to_df_table(keep_url=urls, keep_cover=False)
+        part = [[desc, df]]
+        return part
+    else:
+        df_csv_dict = {}
+        for site, data in data_dict.items():
+            mc = MovieCluster.from_json(data)
+            df_csv_dict[site] = mc.to_df_csv(keep_url=True, keep_cover=True)
+        return df_csv_dict
 
 
 def _get_extra_stats(datadir, names):
@@ -173,6 +190,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
     return parts
 
 
+@deprecate
 def update_readme(basedir, moredir, limit=50):
     readfile = Path(f"{BASEDIR}/README.md")
     hr_line = "-" * 3
@@ -229,11 +247,87 @@ def update_readme(basedir, moredir, limit=50):
     logging.info("done")
 
 
+def update_docs(basedir, moredir):
+    dt = str(datetimes.time2zh())
+    extra_parts = _get_extra_stats(basedir, EXTRA_SITES)
+    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 3])
+    top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
+    top_csv_dict = _get_top_stats(basedir, moredir, SITES, merge=False)
+
+    docdir = Path(f"{BASEDIR}/docs/top250")
+    if not docdir.exists():
+        docdir.mkdir(parents=True)
+
+    for name, parts in zip(["douban-hot.md", "index.md"], [extra_parts, top_parts]):
+        part_texts = []
+        for part in parts:
+            desc, *df_list = part
+            if df_list and desc:
+                part_texts.append(f"# {desc}")
+                part_texts.append(f"> 更新于：{dt}")
+
+            for df in df_list:
+                logging.info(f"  data shape={df.shape}")
+                part_texts.append(df.to_markdown())
+        
+        savefile = Path(docdir, name)
+        with open(savefile, "w") as f:
+            f.write("\n\n".join(part_texts).strip() + "\n")
+
+    # top_parts
+    more_texts = []
+    for site, df in top_csv_dict.items():
+        csvfile = Path(basedir, "csv2", f"{site}.csv")
+        if not csvfile.parent.exists():
+            csvfile.parent.mkdir(parents=True)
+        df.to_csv(csvfile, index=False)
+        csvfile_path = f"../../data/{csvfile.parent.name}/{csvfile.name}"
+
+        if site not in MAIN_SITES:
+            more_texts.extend([
+                "---",
+                "## {}".format(SITE_DESC[SITES.index(site)]),
+                f'{{{{ read_csv("{csvfile_path}") }}}}',
+            ])
+        else:
+            main_texts = []
+            part = diff_parts[MAIN_SITES.index(site)]
+            desc, *df_list = part
+            if df_list and desc:
+                main_texts.append(f"## {desc}")
+            for df in df_list:
+                logging.info(f"  data shape={df.shape}")
+                main_texts.append(df.to_markdown())
+            
+            main_texts.extend([
+                "---",
+                "## 完整榜单",
+                f'{{{{ read_csv("{csvfile_path}") }}}}'
+            ])
+            main_texts = [
+                "# {}".format(SITE_DESC[SITES.index(site)]),
+                "> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1))
+            ] + main_texts
+            savefile = Path(docdir, f"{site}.md")
+            with open(savefile, "w") as f:
+                f.write("\n\n".join(main_texts).strip() + "\n")
+
+    if more_texts:
+        more_texts =  [
+            "# 其他电影高分榜单",
+            f"> 更新于：{dt} / " + datetimes.time2str(None, 1)
+        ] + more_texts
+        savefile = Path(docdir, "more.md")
+        with open(savefile, "w") as f:
+            f.write("\n\n".join(more_texts).strip() + "\n")
+
+
 if __name__ == "__main__":
     set_logging()
     parser = argparse.ArgumentParser()
     parser.add_argument("--datadir", type=str, help="data dir", default=f"{BASEDIR}/data")
     args = parser.parse_args()
     logging.info(f"args = {args}\n")
-    update_readme(args.datadir, moredir=f"{BASEDIR}/archive")
+    # update_readme(args.datadir, moredir=f"{BASEDIR}/archive")
+    update_docs(args.datadir, moredir=f"{BASEDIR}/archive")
     logging.info(f"done\n")

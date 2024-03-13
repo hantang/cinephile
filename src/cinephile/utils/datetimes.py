@@ -31,7 +31,7 @@ def time2str(ti, fmt=0) -> str:
     return ti.format(formats[fmt])
 
 
-def time2zh(ti=None) -> str:
+def time2zh(ti=None, extra=False) -> str:
     # 中文格式日期时间： 二〇二三年十月二十二日（星期日）17:09:04 +0800
     num = "〇一二三四五六七八九十"
 
@@ -47,7 +47,7 @@ def time2zh(ti=None) -> str:
     month = _num2str(dt.month)
     day = _num2str(dt.day)
     week = num[dt.isoweekday()] if dt.isoweekday() < 7 else "日"
-    extra = dt.strftime("%H:%M:%S %z")
+    extra = dt.strftime("%H:%M:%S %z") if extra else ""
 
     return f"{year}年{month}月{day}日（星期{week}）{extra}"
 

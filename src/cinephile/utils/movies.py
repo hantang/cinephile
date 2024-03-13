@@ -530,7 +530,8 @@ class Movie(BaseMovie):
 
     def to_entry(self):
         actors = _query(self._extra, ["actor", "actors", "staff"])
-        staff = " / ".join([v for v in [self.director, actors] if v])
+        actors_more = self._update_douban_staff()
+        staff = " / ".join([v for v in [self.director, actors, actors_more] if v])
         score = _query(self._extra, ["score"])
         if score:
             if isinstance(score, dict):
@@ -658,6 +659,14 @@ class Movie(BaseMovie):
                     douban_id=douban_id, imdb_id=imdb_id, douban=douban, imdb=imdb, **extra)
         return movie
 
+    def _update_douban_staff(self):
+        if self._extra.get("douban_info"):
+            for info in self._extra["douban_info"]:
+                info_result = re.findall(r"导演[：:]\s*(\S.+)主演[：:]\s*(\S.+)", info)
+                if info_result:
+                    director, actors = info_result[0]
+                    return actors
+        return None
 
 class MovieCluster:
     def __init__(
@@ -807,9 +816,10 @@ class MovieCluster:
         df = pd.DataFrame(table)
         return df
 
-    def to_df_csv(self, keep_url=False) -> pd.DataFrame:
+    def to_df_csv(self, keep_group=False, keep_url=False, keep_cover=False) -> pd.DataFrame:
         """
         # Group 分榜	Rank 排名	Title 电影	Score 打分	Staff 人员	Region 地区	Genre 类型
+        
         """
         movies_list = self._to_movies()
         if not movies_list:
@@ -823,15 +833,22 @@ class MovieCluster:
                 title = me["title"]
                 if me["url"] and keep_url:
                     title = "[{}]({})".format(title, me["url"])
-                me2 = {
-                    "group": desc,
-                    "rank": me["rank"],
-                    "title": title,
-                    "score": me["score"],
-                    "staff": me["staff"],
-                    "region": me["region"],
-                    "genre": me["genre"],
-                }
+                me2 = {}
+                if keep_group:
+                    me2["group"] = desc
+                me2["rank"] = me["rank"]
+                me2["title"] = title
+                me2["score"] = me["score"]
+                me2["director"] = me["director"]
+                me2["staff"] = me["staff"]
+                me2["region"] = me["region"]
+                me2["genre"] = me["genre"]
+                me2['year'] = me["year"]
+                if keep_cover:
+                    cover = me["cover"]
+                    movie_id = me["url"].strip("/").split("/")[-1] if me["url"] else ""
+                    me2["cover"] = "![{}]({})".format(movie_id, cover) if keep_cover and cover else ""
+
                 table.append(me2)
             table.append({})
         if not table[-1]:
@@ -840,13 +857,19 @@ class MovieCluster:
         df = pd.DataFrame(table)
         df = df.fillna(" ").astype(str)
         df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
-        df["score"] = df["score"].apply(lambda x: "{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
-
-        names = ["Index", "Group 分榜", "Rank 排名", "Title 电影", "Score 打分", "Region 地区", "Genre 类型",
-                 "Staff 人员"]
-        cols = ["group", "rank", "title", "score", "region", "genre", "staff"]
+        df["score"] = df["score"].apply(lambda x: "🌟{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
+        names = ["Rank 排名", "Title 电影", "Director 导演", "Score 打分", "Year 年份", "Region 地区", "Genre 类型", "Staff 人员"]
+        cols = ["rank", "title", "director", "score", "year", "region", "genre", "staff"]
+        if keep_group:
+            cols = ["group"] + cols
+            names = ["Group 分榜"] + names
+        if keep_cover:
+            cols = ["cover"] + cols
+            names = ["Cover 海报"] + names
+        names = ["Index"] + cols
         df2 = df[cols].reset_index()
         df2.columns = names
+        # remove empty cols
         return df2
 
     def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False) -> pd.DataFrame:
