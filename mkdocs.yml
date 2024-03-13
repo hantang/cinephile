@@ -15,18 +15,22 @@ theme:
     text: Helvetica Neue, Roboto
     code: Fira Mono, Fira Code, Roboto Mono
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
       primary: deep purple
       accent: deep purple
       toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - scheme: slate
-      primary: black
-      accent: deep purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/toggle-switch-off
-        name: Switch to light mode
+        name: Switch to system preference
   features:
     - navigation.footer
     - navigation.path
@@ -80,6 +84,12 @@ plugins:
 nav:
   - Home:
       - 电影万岁: index.md
+  - Top250:
+    - top250/index.md
+    - 豆瓣电影 Top250: top250/douban.md
+    - IMDb电影 Top250: top250/imdb.md
+    - 更多高分电影榜单: top250/more.md
+    - 豆瓣电影实时和近期热门榜单: top250/douban-hot.md
   - FI&FF:
       - 专业榜单: fiff/index.md
       - 榜单资料1: fiff/index-media.md
