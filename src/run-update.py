@@ -23,6 +23,12 @@ SITE_DESC = [
     "猫眼电影 Top100",
     "TMDB 高分电影"
 ]
+FRONT_MATTER = """
+---
+hide:
+  - toc
+---
+"""
 
 def _get_top_stats(datadir, moredir, names, desc="", merge=True):
     # douban, imdb ... top250/top100 movies show as table
@@ -66,7 +72,8 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         df_csv_dict = {}
         for site, data in data_dict.items():
             mc = MovieCluster.from_json(data)
-            df_csv_dict[site] = mc.to_df_csv(keep_url=True, keep_cover=True)
+            csv = mc.to_df_csv(keep_url=True, keep_cover=True)
+            df_csv_dict[site] = [csv, mc.release_time]
         return df_csv_dict
 
 
@@ -258,35 +265,41 @@ def update_docs(basedir, moredir):
     if not docdir.exists():
         docdir.mkdir(parents=True)
 
-    for name, parts in zip(["douban-hot.md", "index.md"], [extra_parts, top_parts]):
+    for name, parts in zip(["douban-weekly.md", "index.md"], [extra_parts, top_parts]):
         part_texts = []
         for part in parts:
             desc, *df_list = part
             if df_list and desc:
-                part_texts.append(f"# {desc}")
-                part_texts.append(f"> 更新于：{dt}")
+                if len(part_texts) <= 1:
+                    part_texts.append(f"# {desc}")
+                    part_texts.append("> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1)))
+                else:
+                    part_texts.append(f"## {desc}")
 
             for df in df_list:
                 logging.info(f"  data shape={df.shape}")
                 part_texts.append(df.to_markdown())
         
         savefile = Path(docdir, name)
+        if savefile.name == "index.md":
+            part_texts = [FRONT_MATTER.strip()] + part_texts
         with open(savefile, "w") as f:
             f.write("\n\n".join(part_texts).strip() + "\n")
 
     # top_parts
     more_texts = []
-    for site, df in top_csv_dict.items():
+    for site, (df_csv, release_time) in top_csv_dict.items():
         csvfile = Path(basedir, "csv2", f"{site}.csv")
         if not csvfile.parent.exists():
             csvfile.parent.mkdir(parents=True)
-        df.to_csv(csvfile, index=False)
+        df_csv.to_csv(csvfile, index=False)
         csvfile_path = f"../../data/{csvfile.parent.name}/{csvfile.name}"
 
         if site not in MAIN_SITES:
             more_texts.extend([
                 "---",
                 "## {}".format(SITE_DESC[SITES.index(site)]),
+                f"> 数据更新于：{release_time}",
                 f'{{{{ read_csv("{csvfile_path}") }}}}',
             ])
         else:
@@ -306,7 +319,7 @@ def update_docs(basedir, moredir):
             ])
             main_texts = [
                 "# {}".format(SITE_DESC[SITES.index(site)]),
-                "> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1))
+                f"> 数据更新于：{release_time}",
             ] + main_texts
             savefile = Path(docdir, f"{site}.md")
             with open(savefile, "w") as f:
@@ -314,8 +327,8 @@ def update_docs(basedir, moredir):
 
     if more_texts:
         more_texts =  [
-            "# 其他电影高分榜单",
-            f"> 更新于：{dt} / " + datetimes.time2str(None, 1)
+            "# 更多高分电影榜单",
+            "> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1))
         ] + more_texts
         savefile = Path(docdir, "more.md")
         with open(savefile, "w") as f:
