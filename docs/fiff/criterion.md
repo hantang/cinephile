@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # The Criterion Collection （CC 标准收藏）
 
 ## 说明
@@ -11,13 +6,12 @@ hide:
 
 参考资料：
 
-- [The Criterion Collection: All films 官网 ](https://www.criterion.com/shop/browse/list)
+- [The Criterion Collection: All films 官网](https://www.criterion.com/shop/browse/list)
 - [CC 标准电影片单（23 年 10 月更新） - douban.com](https://www.douban.com/doulist/130761466/)
 - [Criterion Collection 目前已发行电影名单 - douban.com](https://www.douban.com/doulist/38521365/)
 - [The Criterion Collection (complete) - imdb.com](https://www.imdb.com/list/ls087831830/)
-- (https://www.douban.com/doulist/36946244/)
-- (https://www.douban.com/doulist/38521365/)
-
+- (<https://www.douban.com/doulist/36946244/>)
+- (<https://www.douban.com/doulist/38521365/>)
 
 ![Criterion Collection](../assets/images/criterion-collection-films.png)
 

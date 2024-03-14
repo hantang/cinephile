@@ -2,9 +2,9 @@
 
 ## The 100 Best Movies That Were Not Nominated for Best Picture
 
-来源：[美国《反学院派》, 奥斯卡提名未获奖百佳影片 The 100 Best Movies That Were Not Nominated for Best Picture] (https://filmschoolrejects.com/movies-not-nominated-best-picture/)
+来源：[美国《反学院派》, 奥斯卡提名未获奖百佳影片](https://filmschoolrejects.com/movies-not-nominated-best-picture/)（The 100 Best Movies That Were Not Nominated for Best Picture）
 
-```
+```markdown
 1. Do The Right Thing (1989)
 2. 2001: A Space Odyssey (1968)
 3. Singin’ In The Rain (1952)
@@ -199,4 +199,3 @@
 - 《蝙蝠》（2009）导演：朴赞郁
 - 《追击者》(2008)导演：罗泓轸
 ```
-

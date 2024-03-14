@@ -3,6 +3,7 @@
 They Shoot Pictures, Don't They? (TSPDT) - [The 1,000 Greatest Films](https://www.theyshootpictures.com/gf1000.htm)
 
 excel版本下载：
+
 - [top 1000 films](https://www.theyshootpictures.com/resources/1000GreatestFilms.xls)
 - [all 23,907 films](https://www.theyshootpictures.com/resources/StartingList.xls)
 
@@ -24,6 +25,7 @@ excel版本下载：
 | 2013       | `8th edition`  | As voted by 3,194 critics, filmmakers, scholars and other likely film types.<br/>Current Version: February 2013                |                                                             |                                                              |
 
 更早的版本：略。
+
 - version 7: 2012
 - version 6: 2011
 - version 5: 2010
@@ -38,7 +40,7 @@ excel版本下载：
 
 ### TSPDT TOP 1000 【影史电影】
 
-[TSPDT TOP 1000 (每年更新) ](http://www.theyshootpictures.com/gf1000_all1000films_table.php)
+[TSPDT TOP 1000 (每年更新)](http://www.theyshootpictures.com/gf1000_all1000films_table.php)
 
 - 2024: (`www.douban.com/doulist/154569434`)
 - 2023: (`www.douban.com/doulist/154569434`)
@@ -63,22 +65,22 @@ TSPDT TOP 1001-2000 (每年更新)
 
 [TSPDT TOP 1000 in 21st Century (每年更新)](http://www.theyshootpictures.com/21stcentury_allfilms_table.php)
 
-- 2023: (www.douban.com/doulist/154797678/)
-- 2022: (www.douban.com/doulist/151790464/)
-- 2021: (www.douban.com/doulist/136380928/)
-- 2020: (www.douban.com/doulist/123661779/)
-- 2019: (www.douban.com/doulist/111921091/)
-- 2018: (www.douban.com/doulist/46494773/)
-- 2017: (www.douban.com/doulist/45841393/)
-- 2016: (www.douban.com/doulist/43970494/)
+- 2023: (`www.douban.com/doulist/154797678/`)
+- 2022: (`www.douban.com/doulist/151790464/`)
+- 2021: (`www.douban.com/doulist/136380928/`)
+- 2020: (`www.douban.com/doulist/123661779/`)
+- 2019: (`www.douban.com/doulist/111921091/`)
+- 2018: (`www.douban.com/doulist/46494773/`)
+- 2017: (`www.douban.com/doulist/45841393/`)
+- 2016: (`www.douban.com/doulist/43970494/`)
 
 ### TSPDT TOP Directors 【导演】
 
 [TSPDT TOP 250 Directors (每年更新)](https://www.theyshootpictures.com/gf1000_top250directors.htm)
 
-- 2023: (https://www.douban.com/doulist/154756018/)
-- 2021: (https://www.douban.com/doulist/135417272/)
-- 2016: (https://www.douban.com/doulist/45064306/)
+- 2023: (`https://www.douban.com/doulist/154756018/`)
+- 2021: (`https://www.douban.com/doulist/135417272/`)
+- 2016: (`https://www.douban.com/doulist/45064306/`)
 
 [TSPDT TOP 250 Directors, 21st Century](https://www.theyshootpictures.com/21stcentury_top100directors.htm)
 
@@ -88,13 +90,13 @@ TSPDT TOP 1001-2000 (每年更新)
 
 影迷大调查 [TSPDT TOP 1005 Reader's Poll (2021)](https://theyshootpictures.com/2021poll.htm)
 
-- (https://www.douban.com/doulist/141472144/)
+- (`https://www.douban.com/doulist/141472144/`)
 
 黑色电影 [TSPDT TOP 1000 Noir Films (每年更新)](https://www.theyshootpictures.com/noir1000title.htm)
 
-- (https://www.douban.com/doulist/43378012/)
-- (https://www.douban.com/doulist/196075/)
+- (`https://www.douban.com/doulist/43378012/`)
+- (`https://www.douban.com/doulist/196075/`)
 
 TSPDT TOP 华语电影 (来自top1000榜单)
 
-- 2023: (https://www.douban.com/doulist/154729362/)
+- 2023: (`https://www.douban.com/doulist/154729362/`)

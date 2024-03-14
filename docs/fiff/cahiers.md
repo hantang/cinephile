@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Cahiers du cinéma 电影手册
 
 电影手册年度十佳手册。
@@ -18,21 +13,21 @@ hide:
 补充：
 
 电影手册 Cahiers du Cinéma TOP 100 (2007)
-- (https://mubi.com/lists/cahiers-du-cinema-top-100)
-- (https://www.douban.com/doulist/124492326/)
-电影手册 Cahiers du Cinéma TOP 250 (2007)
-- (https://www.douban.com/doulist/110764246/)
-电影手册 Cahiers du Cinéma TOP 10 Each Year
-- (https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists)
-- (https://www.douban.com/doulist/148135293/)
-- (https://www.douban.com/doulist/111045453/)
-- (https://www.douban.com/doulist/137680612/)
-- (https://www.douban.com/doulist/25748/)
-电影手册 Cahiers du Cinéma 最具情感瞬间 (2014)
-- (https://www.douban.com/doulist/11061632/)
-电影手册 Cahiers du Cinéma 五星满分 (随时更新)
-- (https://www.douban.com/doulist/146299782/）
 
+- (<https://mubi.com/lists/cahiers-du-cinema-top-100>)
+- (<https://www.douban.com/doulist/124492326/>)
+电影手册 Cahiers du Cinéma TOP 250 (2007)
+- (<https://www.douban.com/doulist/110764246/>)
+电影手册 Cahiers du Cinéma TOP 10 Each Year
+- (<https://en.wikipedia.org/wiki/Cahiers_du_Cin%C3%A9ma%27s_Annual_Top_10_Lists>)
+- (<https://www.douban.com/doulist/148135293/>)
+- (<https://www.douban.com/doulist/111045453/>)
+- (<https://www.douban.com/doulist/137680612/>)
+- (<https://www.douban.com/doulist/25748/>)
+电影手册 Cahiers du Cinéma 最具情感瞬间 (2014)
+- (<https://www.douban.com/doulist/11061632/>)
+电影手册 Cahiers du Cinéma 五星满分 (随时更新)
+- (<https://www.douban.com/doulist/146299782/）>
 
 ## 年度榜单
 

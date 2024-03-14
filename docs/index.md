@@ -1,4 +1,9 @@
-# cinéphile: top movies / films (电影榜单、片单)
+---
+hide:
+  - toc
+---
+
+# Cinéphile: Top Films For All
 
 ## 电影榜单数据主要来源
 

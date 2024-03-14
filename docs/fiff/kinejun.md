@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # キネマ旬報 （日本《电影旬报〉）
 
 几次评选：
@@ -16,21 +11,21 @@ hide:
 【综合】
 
 日本《电影旬报》TOP 10 (1995)
-- (https://www.douban.com/doulist/125162520/)
-日本《电影旬报》TOP 10 (1999)
-- (https://www.douban.com/doulist/125162696/)
-日本《电影旬报》TOP 100 Foreign Films (1999)
-- (https://www.douban.com/doulist/210728/)
-日本《电影旬报》TOP 100 Japanese Films (1999)
-- (https://www.douban.com/doulist/26172/)
-日本《电影旬报》TOP 200 Japanese Films (2009)
-- (https://www.douban.com/doulist/429701/)
-日本《电影旬报》TOP 10 Japanese Films Each Year
-- (https://www.douban.com/doulist/26095/)
-- (https://www.douban.com/doulist/39508603/)
-日本《电影旬报》TOP 1 Japanese Films Each Year
-- (https://www.douban.com/doulist/4345773/)
 
+- (<https://www.douban.com/doulist/125162520/>)
+日本《电影旬报》TOP 10 (1999)
+- (<https://www.douban.com/doulist/125162696/>)
+日本《电影旬报》TOP 100 Foreign Films (1999)
+- (<https://www.douban.com/doulist/210728/>)
+日本《电影旬报》TOP 100 Japanese Films (1999)
+- (<https://www.douban.com/doulist/26172/>)
+日本《电影旬报》TOP 200 Japanese Films (2009)
+- (<https://www.douban.com/doulist/429701/>)
+日本《电影旬报》TOP 10 Japanese Films Each Year
+- (<https://www.douban.com/doulist/26095/>)
+- (<https://www.douban.com/doulist/39508603/>)
+日本《电影旬报》TOP 1 Japanese Films Each Year
+- (<https://www.douban.com/doulist/4345773/>)
 
 ## 1995 年(电影 100 年) 日本电影 All Time Best 100
 

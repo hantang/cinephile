@@ -2,7 +2,10 @@
 
 ## 说明
 
-豆瓣电影 Top250 [链接](https://movie.douban.com/top250/)；
+- 豆瓣电影 Top250 官方[链接](https://movie.douban.com/top250/)；
+- 本站更新的[豆瓣电影 Top250](../top250/douban.md)；
+- 本站更新的[豆瓣电影实时和近期热门榜单](../top250/douban-weekly.md)。
+- 本站根据网络数据统计的自2007年到2023年[豆瓣电影 Top250 历史上榜](./douban-hist.md)
 
 排名可能相关的因素：豆瓣打分值、打分人数、看过（想看）人数、上映时间，以及可能对部分类型和题材的调权。
 
@@ -19,23 +22,25 @@
 
 仅分析电影目前或曾经在榜电影，去除电视剧和动画剧集（41）、短片（13 部）、其他（《2008 年第 29 届北京奥运会开幕式》），共 484 部电影，其中已经下榜 234 部。
 
+数据可参考[豆瓣电影 Top250 历史上榜](./douban-hist.md)。
+
 ### 相关结果
 
 - 年代和国家（地区）分布：美国遥遥领先，华语片、日语片紧随其后。
-  ![](../assets/images/douban-hist.png)
+  ![douban-hist](../assets/images/douban-hist.png)
 
 - 导演：斯皮尔伯格、宫崎骏、诺兰问鼎前三。
-  ![](../assets/images/douban-hist-director.png)
+  ![douban-hist-director](../assets/images/douban-hist-director.png)
 
 - 类型分布：剧情片为主，爱情、喜剧类型最多。
-  ![](../assets/images/douban-hist-genre.png)
+  ![douban-hist-genre](../assets/images/douban-hist-genre.png)
 
 ### 热门影片
 
 - 在榜影片：《肖申克的救赎》、《我不是药神》、《小偷家族》。
-  ![](../assets/images/douban-hist-count.png)
-  ![](../assets/images/douban-hist-plot.png)
+  ![douban-hist-count](../assets/images/douban-hist-count.png)
+  ![douban-hist-plot](../assets/images/douban-hist-plot.png)
 
 - 下榜影片：《驴得水》、《那些年，我们一起追的女孩》、《网络迷踪》。下榜影片整体相比在榜的热门度都低很多。
-  ![](../assets/images/douban-hist-old-count.png)
-  ![](../assets/images/douban-hist-old-plot.png)
+  ![douban-hist-old-count](../assets/images/douban-hist-old-count.png)
+  ![douban-hist-old-plot](../assets/images/douban-hist-old-plot.png)

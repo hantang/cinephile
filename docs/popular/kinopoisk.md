@@ -1,11 +1,7 @@
----
-hide:
-  - navigation
----
-
 # Kinopoisk Top 250
 
 > Кинопоиск. Все фильмы планеты.
+> > “Kinopoisk：全球所有电影。”
 
 俄罗斯电影网站。
 

@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # 华语（中文）电影
 
 ## 说明
@@ -400,9 +395,9 @@ hide:
 
 - [中文电影 250 强总榜（1905——2012）](https://www.douban.com/doulist/380312/)
 - TimeOut TOP 100 Chinese Mainland Films (2014)
-  - (https://www.timeoutshanghai.com/features/Film-Film_features/18155/100-best-Chinese-Mainland-Films-the-countdown.html)
-  - (https://www.douban.com/doulist/3870928/)
-  - (https://www.douban.com/doulist/3870397/)
+  - (<https://www.timeoutshanghai.com/features/Film-Film_features/18155/100-best-Chinese-Mainland-Films-the-countdown.html>)
+  - (<https://www.douban.com/doulist/3870928/>)
+  - (<https://www.douban.com/doulist/3870397/>)
 
 ## 汇总榜单
 

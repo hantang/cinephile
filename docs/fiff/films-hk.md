@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # 香港电影
 
 - 2000, 香港《电影双周刊》：20 世纪百部最佳港片，共 156 部。
@@ -23,7 +18,7 @@ hide:
 
 - [Ivan, 港片指引： 世纪最佳 by 电影双周刊 - douban.com](https://www.douban.com/note/45584069/)
 - [ZY79, 2000《电影双周刊》20 世纪 100 部最佳香港片-zhihu.com](https://zhuanlan.zhihu.com/p/640690350)
-- [ shaolinzhishan, 20 世纪百部最佳港片（《电影双周刊》评选）-douban.com](https://www.douban.com/doulist/144370112/)
+- [shaolinzhishan, 20 世纪百部最佳港片（《电影双周刊》评选）-douban.com](https://www.douban.com/doulist/144370112/)
 
 ### 《看电影》杂志: “百年百大香港电影”
 

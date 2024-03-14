@@ -1,6 +1,7 @@
 # 大众榜单
 
 ## 电影评分
+
 - [豆瓣](../douban/index.md)
 - [IMDb](../imdb/index.md)
 - [TSPDT](../tspdt/index.md) 【榜单加权】
@@ -17,7 +18,7 @@
 - **【综合】** [不散, 把心掏给你啊！华语电影人的 21 世纪 100 佳片 - douban.com](https://www.douban.com/note/579544306/)
 - **【综合】** [评价人数超过十万的电影](https://www.douban.com/doulist/13712178/)
 - **【综合】** [豆瓣十万人以上评分电影（按人数排名）](https://www.douban.com/doulist/45793279/)
-- **【综合】** [2011, 银幕赌坊百名豆瓣站友评选电影总榜单top106](https://www.douban.com/doulist/1122963/), https://www.douban.com/note/143213455/,
+- **【综合】** [2011, 银幕赌坊百名豆瓣站友评选电影总榜单top106](https://www.douban.com/doulist/1122963/), <https://www.douban.com/note/143213455/>,
 - **【综合】** [牛棚百佳](https://www.douban.com/doulist/44262434/)
 - **【综合】** [【Film心悬影动】Top350](https://www.douban.com/doulist/42532008/)
 - 百度贴吧奥斯卡吧评选活动

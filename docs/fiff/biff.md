@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # 韩国釜山国际电影节
 
 说明：
@@ -25,19 +20,19 @@ hide:
 
 Busan International Film Festival TOP 100 Asian Films in the last 25 years (2021)
 
-- (https://www.biff.kr/eng/html/project/best_100movie.asp?biff_code=2021&section=since_1996_best)
-- (https://www.douban.com/doulist/146620405/)
+- (<https://www.biff.kr/eng/html/project/best_100movie.asp?biff_code=2021&section=since_1996_best>)
+- (<https://www.douban.com/doulist/146620405/>)
 
 ### BIFF 2021 年百佳女性导演亚洲电影
 
 Busan International Film Festival TOP 100 Asian Films Directed By Women (2021)
 
-- (https://www.biff.kr/eng/html/project/best_100movie.asp?biff_code=2021§ion=female_director_best)
-- (https://www.douban.com/doulist/146621717/)
+- (<https://www.biff.kr/eng/html/project/best_100movie.asp?biff_code=2021§ion=female_director_best>)
+- (<https://www.douban.com/doulist/146621717/>)
 
 ## BIFF 2015 年评选百佳亚洲电影
 
 Busan International Film Festival TOP 100 Asian Films (2015)
 
-- (https://en.wikipedia.org/wiki/20th_Busan_International_Film_Festival#Asian_Cinema_100_Ranking)
-- (https://www.douban.com/doulist/41567639/)
+- (<https://en.wikipedia.org/wiki/20th_Busan_International_Film_Festival#Asian_Cinema_100_Ranking>)
+- (<https://www.douban.com/doulist/41567639/>)

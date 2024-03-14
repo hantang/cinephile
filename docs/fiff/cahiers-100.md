@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # Cahiers du cinéma 电影手册 Top100
 
 ## 2007 top 100 films

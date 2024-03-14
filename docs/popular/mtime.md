@@ -1,14 +1,8 @@
----
-hide:
-  - navigation
----
-
 # 时光网电影 Top 100
 
 ## 2023/10 更新
 
 更新时间：`2023-10-19T00:12:43Z`
-
 
 [Mtime时光网 —— 榜单/片单](http://list.mtime.com/listIndex)
 

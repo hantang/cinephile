@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # TSPDT Top 1000
 
 ## TSPDT Top 1000 (2023)

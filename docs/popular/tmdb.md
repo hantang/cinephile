@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # TMDb Top 电影
 
 ## 2023/10 更新

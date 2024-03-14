@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
----
-
 # 豆瓣年度电影榜单
 
 <details>
