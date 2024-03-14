@@ -1,5 +1,4 @@
 import argparse
-from curses.ascii import SI
 import json
 import logging
 from pathlib import Path
@@ -10,6 +9,7 @@ import pandas as pd
 from cinephile.utils import datetimes
 from cinephile.utils.misc import set_logging
 from cinephile.utils.movies import MovieCluster
+
 
 BASEDIR = ".."
 MISCDIR = "misc"
@@ -29,6 +29,7 @@ hide:
   - toc
 ---
 """
+
 
 def _get_top_stats(datadir, moredir, names, desc="", merge=True):
     # douban, imdb ... top250/top100 movies show as table
@@ -72,8 +73,11 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         df_csv_dict = {}
         for site, data in data_dict.items():
             mc = MovieCluster.from_json(data)
-            csv = mc.to_df_csv(keep_url=True, keep_cover=True)
-            df_csv_dict[site] = [csv, mc.release_time]
+            csv = mc.to_df_csv(keep_url=True, keep_cover=True if site != "douban" else False)
+            source_link = mc.source
+            if isinstance(source_link, list):
+                source_link = source_link[0]
+            df_csv_dict[site] = [csv, mc.release_time, source_link]
         return df_csv_dict
 
 
@@ -96,7 +100,7 @@ def _get_extra_stats(datadir, names):
         with open(file) as f:
             data = json.load(f)
         mc = MovieCluster.from_json(data)
-        df = mc.to_df_table(keep_url=True, keep_cover=True, split_cover=True)
+        df = mc.to_df_table(keep_url=True, keep_cover=False, split_cover=False)
         desc = mc.description
         part.append([desc, df])
     return part
@@ -289,21 +293,21 @@ def update_docs(basedir, moredir):
     # top_parts
     more_texts = []
     more_toc = ["- **目录**"]
-    for site, (df_csv, release_time) in top_csv_dict.items():
+    for site, (df_csv, release_time, source_link) in top_csv_dict.items():
         csvfile = Path(basedir, "csv2", f"{site}.csv")
         if not csvfile.parent.exists():
             csvfile.parent.mkdir(parents=True)
-        df_csv.to_csv(csvfile, index=False)
+        df_csv.to_csv(csvfile, index=True)
         csvfile_path = f"../../data/{csvfile.parent.name}/{csvfile.name}"
 
         if site not in MAIN_SITES:
             desc = SITE_DESC[SITES.index(site)].strip()
             desc2 = desc.lower().replace(" ", "-")
-            more_toc.append(f"  - [(desc)](#{desc2})")
+            more_toc.append(f"  - [{desc}](#{desc2})")
             more_texts.extend([
                 "---",
                 "## {}".format(desc),
-                f"> 数据更新于：{release_time}",
+                f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
                 f'{{{{ read_csv("{csvfile_path}") }}}}',
             ])
         else:
@@ -314,14 +318,14 @@ def update_docs(basedir, moredir):
             if df_list and desc:
                 desc2 = desc.lower().replace(" ", "-")
                 main_texts.append(f"## {desc}")
-                main_toc.append(f"  - [(desc)](#{desc2})")
+                main_toc.append(f"  - [{desc}](#{desc2})")
             for df in df_list:
                 logging.info(f"  data shape={df.shape}")
                 main_texts.append(df.to_markdown())
             
             desc = "完整榜单"
             desc2 = desc.lower().replace(" ", "-")
-            main_toc.append(f"  - [(desc)](#{desc2})")
+            main_toc.append(f"  - [{desc}](#{desc2})")
             main_texts.extend([
                 "---",
                 f"## {desc}",
@@ -329,7 +333,7 @@ def update_docs(basedir, moredir):
             ])
             main_texts = [
                 "# {}".format(SITE_DESC[SITES.index(site)]),
-                f"> 数据更新于：{release_time}",
+                f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
             ] + main_toc + [ "---"]  + main_texts
             savefile = Path(docdir, f"{site}.md")
             with open(savefile, "w") as f:

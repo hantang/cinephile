@@ -771,12 +771,14 @@ class MovieCluster:
         movie_cluster = MovieCluster(release_time, update_time, description, source, cluster=cluster)
         return movie_cluster
 
-    def _to_movies(self) -> List:
+    def _to_movies(self, merge_clusters=False) -> List:
         raw_cluster = self.get_cluster()
         raw_movies = self.get_movies()
         raw_movie = self.get_movie()
         movies_list = []
         if raw_cluster:
+            if not merge_clusters:
+                raw_cluster = raw_cluster[:1]
             for element in raw_cluster:
                 description = element.description
                 release_time = element.release_time
@@ -866,8 +868,7 @@ class MovieCluster:
         if keep_cover:
             cols = ["cover"] + cols
             names = ["Cover 海报"] + names
-        names = ["Index"] + names
-        df2 = df[cols].reset_index()
+        df2 = df[cols].copy()
         df2.columns = names
         df2 = df2.fillna(" ").replace("", " ").astype(str)
         # TODO remove empty cols

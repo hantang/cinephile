@@ -1,3 +1,4 @@
+from email.mime import base
 import logging
 
 from bs4 import BeautifulSoup
@@ -45,7 +46,9 @@ def parse_tmdb_page_top(page, **kwargs):
         div_image = item.find("div", class_="image")
         tmdb_id = div_image.a["href"].strip().split("?")[0]
         link = base_url + tmdb_id
-        img = base_url + div_image.img["src"].strip()
+        img = div_image.img["src"].strip()
+        if not img.startswith("http"):
+            img = base_url + img
         tmdb_id = tmdb_id.strip("/").split("/")[-1]
 
         div_content = item.find("div", class_="content")
