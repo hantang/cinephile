@@ -12,6 +12,12 @@
 > Retrouvez les 100 films lors de la programmation "Les 100 plus beaux films de l’histoire du cinéma" au Reflet Médicis du 19 novembre 2008 au 6 juillet 2009.
 >
 > In 2007 French film magazine "Cahiers du Cinema" asked 78 film critics and film historians to list the greatest films of all time in their opinion. Most lists of this type are from English-speaking countries so it's interesting to get a perspective outside of that, also interesting to see how influential American films are on French cinema.
+>
+> > 中文大意：
+> > 在克洛德-让·菲利普的倡议下，得到巴黎市政府的支持，78位电影评论家和电影史学家聚集在一起，旨在选出100部构成理想电影库的佳片。
+> > 邀请您在2008年11月19日至2009年7月6日期间，参加在Reflet Médicis举行的“电影史上最美的100部电影”放映活动。
+> >
+> > 2007年，法国电影杂志《电影手册》邀请了78位电影评论家和电影史学家，列出了他们心目中有史以来最伟大的电影。这类榜单大多来自英语国家，因此从一个不同的角度来看这个问题是很有趣的，同样有趣的是看到美国电影对法国电影的影响力。
 
 ### 参考资料
 
