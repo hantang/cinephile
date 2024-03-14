@@ -1,19 +1,19 @@
 # Site information
-site_name: "Cinéphile: top movies / films"
+site_name: "Cinéphile: Top Films For All"
 site_url: https://hantang.github.io/cinephile/
 site_description: "Top movie collections"
 copyright: Copyright &copy; 2023-2024 Hantang
-repo_url: https://github.com/hantang/cinephile
+repo_url: https://github.com/hantang/cinephile/
 
 # Theme
 theme:
   name: material
-  # language: "zh"
+  language: "zh"
   icon:
     logo: material/movie
   font:
     text: Helvetica Neue, Roboto
-    code: Fira Mono, Fira Code, Roboto Mono
+    code: Fira Mono, Fira Code, Roboto Mono, monospace
   palette:
     - media: "(prefers-color-scheme)"
       primary: deep purple
@@ -59,7 +59,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
-  # more
   - mdx_truly_sane_lists
   - tables
 
@@ -82,15 +81,15 @@ plugins:
       minify_html: true
 
 nav:
-  - Home:
-      - 电影万岁: index.md
+  - 首页:
+      - index.md
   - Top250:
-    - top250/index.md
-    - 豆瓣电影 Top250: top250/douban.md
-    - IMDb电影 Top250: top250/imdb.md
-    - 更多高分电影榜单: top250/more.md
-    - 豆瓣电影实时和近期热门榜单: top250/douban-weekly.md
-  - FI&FF:
+      - top250/index.md
+      - 豆瓣电影 Top250: top250/douban.md
+      - IMDb电影 Top250: top250/imdb.md
+      - 更多高分电影榜单: top250/more.md
+      - 豆瓣电影实时和近期热门榜单: top250/douban-weekly.md
+  - 电影节:
       - 专业榜单: fiff/index.md
       - 榜单资料1: fiff/index-media.md
       - 榜单资料2: fiff/index-region.md
@@ -106,7 +105,7 @@ nav:
           - 中国电影: fiff/films-zh.md
           - 香港电影: fiff/films-hk.md
           - 日本电影: fiff/films-jp.md
-  - DouBan:
+  - 豆瓣:
       - 豆瓣电影: douban/index.md
       - 豆瓣电影年度榜单汇总: douban/douban-annual.md
       - 豆瓣电影2023年 Top250: douban/douban-2023.md
@@ -121,9 +120,8 @@ nav:
       - TSPDT电影历年统计（2006-2024）: tspdt/tspdt-top1000-archive.md
       - TSPDT电影历年统计（2003-2005）: tspdt/tspdt-top1000-archive-v1.md
       - TSPDT21世纪电影统计（2008-2024）: tspdt/tspdt-top1000-21stcentury.md
-  - More:
-      - 大众榜单:
-          - popular/index.md
+  - 更多:
+      - 大众榜单: popular/index.md
       - 个人片单:
           - users/index.md
           - 1001电影系列: users/1001movies.md
