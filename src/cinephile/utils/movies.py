@@ -818,12 +818,12 @@ class MovieCluster:
         df = pd.DataFrame(table)
         return df
 
-    def to_df_csv(self, keep_group=False, keep_url=False, keep_cover=False) -> pd.DataFrame:
+    def to_df_csv(self, keep_group=False, keep_url=False, keep_cover=False, merge_clusters=False) -> pd.DataFrame:
         """
         # Group 分榜	Rank 排名	Title 电影	Score 打分	Staff 人员	Region 地区	Genre 类型
         
         """
-        movies_list = self._to_movies()
+        movies_list = self._to_movies(merge_clusters)
         if not movies_list:
             return None
         table = []
@@ -874,8 +874,8 @@ class MovieCluster:
         # TODO remove empty cols
         return df2
 
-    def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False) -> pd.DataFrame:
-        movies_list = self._to_movies()
+    def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False, merge_clusters=False) -> pd.DataFrame:
+        movies_list = self._to_movies(merge_clusters)
         if not movies_list:
             return None
 

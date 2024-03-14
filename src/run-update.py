@@ -65,7 +65,7 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         urls.append(True if any(url_hits) else False)
     if merge:
         data_list = [data_dict[site] for site in names if site in data_dict]
-        mc = MovieCluster.merge_from_json(*data_list)
+        mc = MovieCluster.merge_from_json(*data_list, merge_clusters=True)
         df = mc.to_df_table(keep_url=urls, keep_cover=False)
         part = [[desc, df]]
         return part
@@ -276,7 +276,7 @@ def update_docs(basedir, moredir):
             if df_list and desc:
                 if len(part_texts) <= 1:
                     part_texts.append(f"# {desc}")
-                    part_texts.append("> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1)))
+                    part_texts.append(f"> 更新于：{dt}")
                 else:
                     part_texts.append(f"## {desc}")
 
@@ -342,7 +342,7 @@ def update_docs(basedir, moredir):
     if more_texts:
         more_texts =  [
             "# 更多高分电影榜单",
-            "> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1))
+            f"> 更新于：{dt}"
         ] + more_toc + ["---"] + more_texts
         savefile = Path(docdir, "more.md")
         with open(savefile, "w") as f:
