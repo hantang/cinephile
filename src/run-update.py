@@ -65,8 +65,8 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         urls.append(True if any(url_hits) else False)
     if merge:
         data_list = [data_dict[site] for site in names if site in data_dict]
-        mc = MovieCluster.merge_from_json(*data_list, merge_clusters=True)
-        df = mc.to_df_table(keep_url=urls, keep_cover=False)
+        mc = MovieCluster.merge_from_json(*data_list)
+        df = mc.to_df_table(keep_url=urls, keep_cover=False, merge_clusters=True)
         part = [[desc, df]]
         return part
     else:
