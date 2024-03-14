@@ -76,7 +76,6 @@ extra:
 plugins:
   - search
   - table-reader
-  - git-revision-date-localized
   - minify:
       minify_html: true
 
