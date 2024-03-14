@@ -9,10 +9,10 @@
 
 最新高分榜单见：
 - [Top250合集](https://hantang.github.io/cinephile/top250/)
-- [豆瓣电影 Top250](https://hantang.github.io/cinephile/top250/douban)
-- [IMDb电影 Top250](https://hantang.github.io/cinephile/top250/imdb)
-- [更多高分电影榜单](https://hantang.github.io/cinephile/top250/imdb)
-- [豆瓣电影实时和近期热门榜单](https://hantang.github.io/cinephile/top250/douban-weekly)
+- [豆瓣电影 Top250](https://hantang.github.io/cinephile/top250/douban/)
+- [IMDb电影 Top250](https://hantang.github.io/cinephile/top250/imdb/)
+- [更多高分电影榜单](https://hantang.github.io/cinephile/top250/more/)
+- [豆瓣电影实时和近期热门榜单](https://hantang.github.io/cinephile/top250/douban-weekly/)
 
 其他电影榜单（TSPDT、电影手册、CC 标准收藏……）：
 - [Cinéphile](https://hantang.github.io/cinephile/)
