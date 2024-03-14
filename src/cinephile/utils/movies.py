@@ -866,10 +866,11 @@ class MovieCluster:
         if keep_cover:
             cols = ["cover"] + cols
             names = ["Cover 海报"] + names
-        names = ["Index"] + cols
+        names = ["Index"] + names
         df2 = df[cols].reset_index()
         df2.columns = names
-        # remove empty cols
+        df2 = df2.fillna(" ").replace("", " ").astype(str)
+        # TODO remove empty cols
         return df2
 
     def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False) -> pd.DataFrame:

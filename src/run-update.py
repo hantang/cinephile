@@ -281,13 +281,14 @@ def update_docs(basedir, moredir):
                 part_texts.append(df.to_markdown())
         
         savefile = Path(docdir, name)
-        if savefile.name == "index.md":
-            part_texts = [FRONT_MATTER.strip()] + part_texts
+        # if savefile.name == "index.md":
+        part_texts = [FRONT_MATTER.strip()] + part_texts
         with open(savefile, "w") as f:
             f.write("\n\n".join(part_texts).strip() + "\n")
 
     # top_parts
     more_texts = []
+    more_toc = ["- **目录**"]
     for site, (df_csv, release_time) in top_csv_dict.items():
         csvfile = Path(basedir, "csv2", f"{site}.csv")
         if not csvfile.parent.exists():
@@ -296,31 +297,40 @@ def update_docs(basedir, moredir):
         csvfile_path = f"../../data/{csvfile.parent.name}/{csvfile.name}"
 
         if site not in MAIN_SITES:
+            desc = SITE_DESC[SITES.index(site)].strip()
+            desc2 = desc.lower().replace(" ", "-")
+            more_toc.append(f"  - [(desc)](#{desc2})")
             more_texts.extend([
                 "---",
-                "## {}".format(SITE_DESC[SITES.index(site)]),
+                "## {}".format(desc),
                 f"> 数据更新于：{release_time}",
                 f'{{{{ read_csv("{csvfile_path}") }}}}',
             ])
         else:
             main_texts = []
+            main_toc = ["- **目录**"]
             part = diff_parts[MAIN_SITES.index(site)]
             desc, *df_list = part
             if df_list and desc:
+                desc2 = desc.lower().replace(" ", "-")
                 main_texts.append(f"## {desc}")
+                main_toc.append(f"  - [(desc)](#{desc2})")
             for df in df_list:
                 logging.info(f"  data shape={df.shape}")
                 main_texts.append(df.to_markdown())
             
+            desc = "完整榜单"
+            desc2 = desc.lower().replace(" ", "-")
+            main_toc.append(f"  - [(desc)](#{desc2})")
             main_texts.extend([
                 "---",
-                "## 完整榜单",
+                f"## {desc}",
                 f'{{{{ read_csv("{csvfile_path}") }}}}'
             ])
             main_texts = [
                 "# {}".format(SITE_DESC[SITES.index(site)]),
                 f"> 数据更新于：{release_time}",
-            ] + main_texts
+            ] + main_toc + [ "---"]  + main_texts
             savefile = Path(docdir, f"{site}.md")
             with open(savefile, "w") as f:
                 f.write("\n\n".join(main_texts).strip() + "\n")
@@ -329,7 +339,7 @@ def update_docs(basedir, moredir):
         more_texts =  [
             "# 更多高分电影榜单",
             "> 更新于：{} / {}".format(dt, datetimes.time2str(None, 1))
-        ] + more_texts
+        ] + more_toc + ["---"] + more_texts
         savefile = Path(docdir, "more.md")
         with open(savefile, "w") as f:
             f.write("\n\n".join(more_texts).strip() + "\n")
