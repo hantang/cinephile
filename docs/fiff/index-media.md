@@ -46,7 +46,7 @@
     - [韩国釜山电影节](#韩国釜山电影节)
     - [加拿大多伦多电影节(Toronto Film Festival)](#加拿大多伦多电影节toronto-film-festival)
 
-</summary>
+</details>
 
 ## 杂志媒体
 
