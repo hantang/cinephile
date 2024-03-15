@@ -73,7 +73,7 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         df_csv_dict = {}
         for site, data in data_dict.items():
             mc = MovieCluster.from_json(data)
-            csv = mc.to_df_csv(keep_url=True, keep_cover=True if site != "douban" else False)
+            csv = mc.to_df_csv(keep_url=True, keep_cover=True)
             source_link = mc.source
             if isinstance(source_link, list):
                 source_link = source_link[0]
@@ -100,7 +100,7 @@ def _get_extra_stats(datadir, names):
         with open(file) as f:
             data = json.load(f)
         mc = MovieCluster.from_json(data)
-        df = mc.to_df_table(keep_url=True, keep_cover=False, split_cover=False)
+        df = mc.to_df_table(keep_url=True, keep_cover=True, split_cover=True)
         desc = mc.description
         part.append([desc, df])
     return part
