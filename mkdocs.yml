@@ -9,6 +9,7 @@ repo_url: https://github.com/hantang/cinephile/
 theme:
   name: material
   language: "zh"
+  custom_dir: overrides
   icon:
     logo: material/movie
   font:
