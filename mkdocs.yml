@@ -1,8 +1,10 @@
 # Site information
 site_name: "Cinéphile: Top Films For All"
 site_url: https://hantang.github.io/cinephile/
+site_author: hantang
 site_description: "Top movie collections"
 copyright: Copyright &copy; 2023-2024 Hantang
+repo_name: cinephile
 repo_url: https://github.com/hantang/cinephile/
 
 # Theme
