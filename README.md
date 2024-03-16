@@ -1,5 +1,7 @@
 # Cinéphile: Top Movies List
 
+[![Process & Deploy](https://github.com/hantang/cinephile/actions/workflows/process-deploy.yml/badge.svg)](https://github.com/hantang/cinephile/actions/workflows/process-deploy.yml)
+
 最近更新：二〇二四年三月十三日（星期三）
 
 豆瓣（douban.com）、IMDb（imdb.com）、时光网（mtime.com）、猫眼（maoyan.com）、TMDb（themoviedb.org）Top电影定时抓取。
