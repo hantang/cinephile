@@ -8,27 +8,31 @@ repo_url: https://github.com/hantang/cinephile/
 # Theme
 theme:
   name: material
-  language: "zh"
   custom_dir: overrides
+  language: "zh"
+  # favicon: assets/favicon.ico
   icon:
-    logo: material/movie
+    logo: material/movie-open
+    repo: fontawesome/brands/square-github
   font:
-    text: Helvetica Neue, Roboto
+    text: Open Sans, Helvetica Neue, Roboto, sans-serif, serif
     code: Fira Mono, Fira Code, Roboto Mono, monospace
   palette:
     - media: "(prefers-color-scheme)"
-      primary: deep purple
-      accent: deep purple
       toggle:
-        icon: material/brightness-auto
+        icon: material/link
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: teal
+      accent: teal
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -91,7 +95,11 @@ extra:
       link: https://github.com/hantang
 
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s\-,:!=\[\]()"/\u200b]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - table-reader
   - minify:
       minify_html: true
