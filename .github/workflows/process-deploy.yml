@@ -1,4 +1,4 @@
-name: Crawl movie data and deploy MkDocs Pages
+name: Process & Deploy
 
 on:
   push:
