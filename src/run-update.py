@@ -3,8 +3,8 @@ import json
 import logging
 from pathlib import Path
 
-from numpy import deprecate
 import pandas as pd
+from deprecated import deprecated
 
 from cinephile.utils import datetimes
 from cinephile.utils.misc import set_logging
@@ -201,7 +201,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
     return parts
 
 
-@deprecate
+@deprecated(reason="no more update readme.md")
 def update_readme(basedir, moredir, limit=50):
     readfile = Path(f"{BASEDIR}/README.md")
     hr_line = "-" * 3

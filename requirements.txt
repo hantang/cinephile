@@ -6,3 +6,4 @@ tabulate
 html5lib
 pandas
 pyarrow
+deprecated
