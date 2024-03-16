@@ -1,6 +1,6 @@
 # 豆瓣电影 Top250
 
-> 数据更新于：2024-03-15 08:27:20
+> 数据更新于：2024-03-16 05:15:58
 > 
 > 来源: [链接](https://movie.douban.com/top250/)
 
@@ -16,37 +16,37 @@
 
 |            |   Top250电影评价（平均） |   Top250电影评价人数（平均） |
 |:-----------|-----------------:|-------------------:|
-| 2024-03-06 |            8.936 |             781429 |
 | 2024-03-09 |            8.936 |             781844 |
 | 2024-03-13 |            8.936 |             782359 |
 | 2024-03-14 |            8.936 |             782417 |
 | 2024-03-15 |            8.936 |             782581 |
+| 2024-03-16 |            8.936 |             782694 |
 
-|    | 电影                                                         |   2024-03-06 |   2024-03-09 |   2024-03-13 |   2024-03-14 |   2024-03-15 |
+|    | 电影                                                         |   2024-03-09 |   2024-03-13 |   2024-03-14 |   2024-03-15 |   2024-03-16 |
 |---:|:-----------------------------------------------------------|-------------:|-------------:|-------------:|-------------:|-------------:|
-| 21 | [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235/) |           73 |           73 |           72 |           72 |           72 |
-| 18 | [阿凡达](https://movie.douban.com/subject/1652587/)           |           72 |           72 |           73 |           73 |           73 |
-|  8 | [加勒比海盗](https://movie.douban.com/subject/1298070/)         |           97 |           97 |           96 |           96 |           96 |
-|  4 | [七宗罪](https://movie.douban.com/subject/1292223/)           |           96 |           96 |           97 |           97 |           97 |
-|  6 | [倩女幽魂](https://movie.douban.com/subject/1297447/)          |          124 |          124 |          123 |          123 |          123 |
-|  3 | [天使爱美丽](https://movie.douban.com/subject/1292215/)         |          123 |          123 |          124 |          124 |          124 |
-|  0 | [新世界](https://movie.douban.com/subject/10437779/)          |          138 |          138 |          137 |          137 |          137 |
-| 14 | [傲慢与偏见](https://movie.douban.com/subject/1418200/)         |          137 |          137 |          138 |          138 |          138 |
-|  7 | [九品芝麻官](https://movie.douban.com/subject/1297518/)         |          148 |          148 |          147 |          147 |          147 |
-| 22 | [玛丽和马克思](https://movie.douban.com/subject/3072124/)        |          147 |          147 |          148 |          148 |          148 |
-| 10 | [喜宴](https://movie.douban.com/subject/1303037/)            |          150 |          150 |          149 |          149 |          149 |
-|  1 | [大鱼](https://movie.douban.com/subject/1291545/)            |          149 |          149 |          150 |          150 |          150 |
-|  9 | [绿里奇迹](https://movie.douban.com/subject/1300374/)          |          174 |          174 |          173 |          173 |          173 |
-|  2 | [风之谷](https://movie.douban.com/subject/1291585/)           |          173 |          173 |          174 |          174 |          174 |
-| 19 | [疯狂的石头](https://movie.douban.com/subject/1862151/)         |          182 |          182 |          181 |          181 |          181 |
-| 11 | [记忆碎片](https://movie.douban.com/subject/1304447/)          |          181 |          181 |          182 |          182 |          182 |
-| 20 | [大佛普拉斯](https://movie.douban.com/subject/27059130/)        |          198 |          198 |          197 |          197 |          197 |
-| 13 | [魔女宅急便](https://movie.douban.com/subject/1307811/)         |          197 |          197 |          198 |          198 |          198 |
-| 16 | [高山下的花环](https://movie.douban.com/subject/1422283/)        |          236 |          236 |          234 |          234 |          234 |
-| 15 | [战争之王](https://movie.douban.com/subject/1419936/)          |          234 |          234 |          235 |          235 |          235 |
-| 17 | [血钻](https://movie.douban.com/subject/1428175/)            |          235 |          235 |          236 |          236 |          236 |
-| 12 | [千年女优](https://movie.douban.com/subject/1307394/)          |          240 |          240 |          239 |          239 |          239 |
-|  5 | [魂断蓝桥](https://movie.douban.com/subject/1293964/)          |          239 |          239 |          240 |          240 |          240 |
+| 21 | [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235/) |           73 |           72 |           72 |           72 |           72 |
+| 18 | [阿凡达](https://movie.douban.com/subject/1652587/)           |           72 |           73 |           73 |           73 |           73 |
+|  8 | [加勒比海盗](https://movie.douban.com/subject/1298070/)         |           97 |           96 |           96 |           96 |           96 |
+|  4 | [七宗罪](https://movie.douban.com/subject/1292223/)           |           96 |           97 |           97 |           97 |           97 |
+|  6 | [倩女幽魂](https://movie.douban.com/subject/1297447/)          |          124 |          123 |          123 |          123 |          123 |
+|  3 | [天使爱美丽](https://movie.douban.com/subject/1292215/)         |          123 |          124 |          124 |          124 |          124 |
+|  0 | [新世界](https://movie.douban.com/subject/10437779/)          |          138 |          137 |          137 |          137 |          137 |
+| 14 | [傲慢与偏见](https://movie.douban.com/subject/1418200/)         |          137 |          138 |          138 |          138 |          138 |
+|  7 | [九品芝麻官](https://movie.douban.com/subject/1297518/)         |          148 |          147 |          147 |          147 |          147 |
+| 22 | [玛丽和马克思](https://movie.douban.com/subject/3072124/)        |          147 |          148 |          148 |          148 |          148 |
+| 10 | [喜宴](https://movie.douban.com/subject/1303037/)            |          150 |          149 |          149 |          149 |          149 |
+|  1 | [大鱼](https://movie.douban.com/subject/1291545/)            |          149 |          150 |          150 |          150 |          150 |
+|  9 | [绿里奇迹](https://movie.douban.com/subject/1300374/)          |          174 |          173 |          173 |          173 |          173 |
+|  2 | [风之谷](https://movie.douban.com/subject/1291585/)           |          173 |          174 |          174 |          174 |          174 |
+| 19 | [疯狂的石头](https://movie.douban.com/subject/1862151/)         |          182 |          181 |          181 |          181 |          181 |
+| 11 | [记忆碎片](https://movie.douban.com/subject/1304447/)          |          181 |          182 |          182 |          182 |          182 |
+| 20 | [大佛普拉斯](https://movie.douban.com/subject/27059130/)        |          198 |          197 |          197 |          197 |          197 |
+| 13 | [魔女宅急便](https://movie.douban.com/subject/1307811/)         |          197 |          198 |          198 |          198 |          198 |
+| 16 | [高山下的花环](https://movie.douban.com/subject/1422283/)        |          236 |          234 |          234 |          234 |          234 |
+| 15 | [战争之王](https://movie.douban.com/subject/1419936/)          |          234 |          235 |          235 |          235 |          235 |
+| 17 | [血钻](https://movie.douban.com/subject/1428175/)            |          235 |          236 |          236 |          236 |          236 |
+| 12 | [千年女优](https://movie.douban.com/subject/1307394/)          |          240 |          239 |          239 |          239 |          239 |
+|  5 | [魂断蓝桥](https://movie.douban.com/subject/1293964/)          |          239 |          240 |          240 |          240 |          240 |
 
 ---
 
