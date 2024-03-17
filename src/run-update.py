@@ -301,7 +301,7 @@ def update_docs(basedir, moredir):
         csvfile = Path(basedir, "csv2", f"{site}.csv")
         if not csvfile.parent.exists():
             csvfile.parent.mkdir(parents=True)
-        df_csv.to_csv(csvfile, index=True)
+        df_csv.reset_index().to_csv(csvfile, index=False)
         csvfile_path = f"../../data/{csvfile.parent.name}/{csvfile.name}"
 
         if site not in MAIN_SITES:
