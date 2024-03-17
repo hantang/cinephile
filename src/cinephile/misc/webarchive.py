@@ -102,7 +102,7 @@ class WebArchiveCrawler(BaseCrawler):
     def process(self, key=None, savedir=None, **kwargs):
         pass
 
-    def getname(self, dt=None, name=None, post=None, suffix="json"):
+    def getname(self, dt=None, name=None, post=None, suffix="json", datetime=True):
         # webarchive-query-xxx-v20230101.json
         dt2 = datetimes.time2str(dt if dt else self.dt, 3)
         category = name if name else ""

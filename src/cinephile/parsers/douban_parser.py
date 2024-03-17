@@ -233,7 +233,7 @@ def parse_page_list(page, **kwargs):
         abstract = bd.find("div", class_="abstract")
         if abstract:
             abstract = strip(abstract.text, keep=True)
-            abstract = [v.strip() for v in abstract.split("\n")]
+            abstract = [str(v).strip() for v in abstract.split("\n")]
 
         comment, actions = None, None
         if ft:
@@ -259,7 +259,7 @@ def parse_page_list(page, **kwargs):
         genre = info_dict.get("类型")
         region = info_dict.get("制片国家/地区")
         year = extract_year(info_dict.get("年份"))
-        douban_id = link.strip("/").split("subject/")[-1] if link else None
+        douban_id = str(link).strip("/").split("subject/")[-1] if link else None
         movie = Movie(title, category, year, region, director, genre, tag=tag, rank=idx, douban_id=douban_id, **extra)
         entries.append(movie)
     logging.info(f"entries = {len(entries)}/ {total}")
@@ -341,9 +341,9 @@ def parse_page_detail(page, **kwargs):
             count = strip(t2[1].text)
             weight_cnt = 5  # 五星评级
             weight = [[t2[i]["title"], strip(t2[i + 1].text)] for i in range(2, weight_cnt * 2, 2)]
-        betterthan = right.find(class_="rating_betterthan")
-        if betterthan:
-            betterthan = strip(betterthan.text)
+        # betterthan = right.find(class_="rating_betterthan")
+        # if betterthan:
+        #     betterthan = strip(betterthan.text)
     else:
         # 部分词条没有评分、影评
         # https://movie.douban.com/subject/1293408/  小活佛 Little Buddha (1993)
@@ -353,7 +353,7 @@ def parse_page_detail(page, **kwargs):
     cover = pic.img["alt"]
     url = pic.a["href"].split("/photos?")[0]
     if not movie_id:
-        movie_id = url.strip("/").split("/")[-1]
+        movie_id = str(url).strip("/").split("/")[-1]
     # 分享按钮
     # rec = content.find(class_="gtleft").find(class_="rec")
     info = left.find(id="info")

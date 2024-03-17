@@ -247,8 +247,9 @@ def parse_imdb_page_detail(page, **kwargs):
     tech_result = _get_metadata_list(tech)
 
     info_dict = dict(stats + info_result + details_result + box_result + tech_result)
-    used_keys = ["Director",  "Creator", "Writers",  "Stars",  "Release date", "Country of origin", "Countries of origin",  "Language",
-                 "Also known as",  "Runtime",  "Metascore",  "Official sites", "User reviews", "Critic reviews"]
+    used_keys = ["Director", "Creator", "Writers", "Stars", "Release date", "Country of origin", "Countries of origin",
+                 "Language",
+                 "Also known as", "Runtime", "Metascore", "Official sites", "User reviews", "Critic reviews"]
     director = info_dict.get("Director", info_dict.get("Creator"))
     writers = info_dict.get("Writers")
     actors = info_dict.get("Stars")

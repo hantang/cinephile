@@ -56,7 +56,7 @@ def timestamp2str(ts, fmt=2, tz="Asia/Shanghai") -> str:
     if ts is None:
         ti = pendulum.now(tz)
     else:
-        if ts > 10**12:
+        if ts > 10 ** 12:
             ts = ts / 1000
         ti = pendulum.from_timestamp(ts, tz)
     return time2str(ti, fmt)

@@ -41,7 +41,8 @@ def _flatten_data(data, default_key="", exclude_keys=None, fix_key=True):
         for k, v in data.items():
             data2 = _flatten_data(v, k, exclude_keys, fix_key)
             for k2, v2 in data2.items():
-                if exclude_keys and k2 in exclude_keys: continue
+                if exclude_keys and k2 in exclude_keys:
+                    continue
                 out[k2] = v2
         return out
     else:
@@ -275,7 +276,7 @@ class DoubanMovie(BaseMovie):
     @property
     def cover(self):
         return self._douban_cover
-    
+
     @property
     def playable(self):
         return self._douban_playable
@@ -523,8 +524,8 @@ class Movie(BaseMovie):
         super().__init__(title, category, year, region, director, genre, **kwargs)
         self._tag = tag if tag else MovieTag.UNK
         self._rank = rank if rank else 0
-        self._douban_id = douban.douban_id if douban else douban_id
-        self._imdb_id = imdb.imdb_id if imdb else imdb_id
+        self._douban_id = douban.id if douban else douban_id
+        self._imdb_id = imdb.id if imdb else imdb_id
         self._douban = douban
         self._imdb = imdb
 
@@ -622,10 +623,10 @@ class Movie(BaseMovie):
         imdb_id = json_data.get("imdb_id", tmp_extra.get("imdb_id"))
         if "douban" in json_data and json_data["douban"]:
             douban = DoubanMovie.from_json(json_data["douban"])
-            douban_id = douban.douban_id
+            douban_id = douban.id
         if "imdb" in json_data and json_data["imdb"]:
             imdb = ImdbMovie.from_json(json_data["imdb"])
-            imdb_id = imdb.imdb_id
+            imdb_id = imdb.id
 
         tag_val = str(json_data.get("tag"))
         if tag_val and tag_val in cls.valid_tags:
@@ -667,6 +668,7 @@ class Movie(BaseMovie):
                     director, actors = info_result[0]
                     return actors
         return None
+
 
 class MovieCluster:
     def __init__(
@@ -802,7 +804,7 @@ class MovieCluster:
             return []
         return movies_list
 
-    def to_df(self) -> pd.DataFrame:
+    def to_df(self) -> Optional[pd.DataFrame | None]:
         movies_list = self._to_movies()
         if not movies_list:
             return None
@@ -818,7 +820,8 @@ class MovieCluster:
         df = pd.DataFrame(table)
         return df
 
-    def to_df_csv(self, keep_group=False, keep_url=False, keep_cover=False, merge_clusters=False) -> pd.DataFrame:
+    def to_df_csv(self, keep_group=False, keep_url=False, keep_cover=False, merge_clusters=False
+                  ) -> Optional[pd.DataFrame | None]:
         """
         # Group 分榜	Rank 排名	Title 电影	Score 打分	Staff 人员	Region 地区	Genre 类型
         
@@ -860,7 +863,8 @@ class MovieCluster:
         df = df.fillna(" ").astype(str)
         df["rank"] = df["rank"].apply(lambda x: x.split(".")[0])
         df["score"] = df["score"].apply(lambda x: "🌟{:.2f}".format(float(x)) if x.replace(".", "").isdigit() else " ")
-        names = ["Rank 排名", "Title 电影", "Director 导演", "Score 打分", "Year 年份", "Region 地区", "Genre 类型", "Staff 人员"]
+        names = ["Rank 排名", "Title 电影", "Director 导演", "Score 打分", "Year 年份", "Region 地区", "Genre 类型",
+                 "Staff 人员"]
         cols = ["rank", "title", "director", "score", "year", "region", "genre", "staff"]
         if keep_group:
             cols = ["group"] + cols
@@ -874,7 +878,8 @@ class MovieCluster:
         # TODO remove empty cols
         return df2
 
-    def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False, merge_clusters=False) -> pd.DataFrame:
+    def to_df_table(self, keep_url=False, keep_cover=False, split_cover=False, merge_clusters=False
+                    ) -> Optional[pd.DataFrame | None]:
         movies_list = self._to_movies(merge_clusters)
         if not movies_list:
             return None

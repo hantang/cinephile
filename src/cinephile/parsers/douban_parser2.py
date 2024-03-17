@@ -102,7 +102,8 @@ def parse_annual_data0(page, **kwargs):
             director = info_dict.get("导演")
             genre = info_dict.get("类型")
             douban_id = link.strip("/").split("subject/")[-1] if link else None
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
+            movie = Movie(title, category, year, region, director, genre,
+                          tag=tag, rank=rank, douban_id=douban_id, **extra)
             entries.append(movie)
         items_new = {
             "douban_tips": tips,
@@ -139,7 +140,7 @@ def parse_annual_data1(page, **kwargs):
     entries_list = []
     tag = MovieTag.DOUBAN_ANNUAL
     for widget in items_list[:]:
-        payload = entry["payload"]
+        payload = widget["payload"]
         items = widget.get("subjects", payload.get("items"))
         assert items is not None
         if isinstance(items, str):
@@ -229,7 +230,8 @@ def parse_annual_data2(page, **kwargs):
             category = "movie"
             director = staff.split("/")[0].strip()
             rank = idx
-            movie = Movie(title, category, year, region, director, genre, tag=tag, rank=rank, douban_id=douban_id, **extra)
+            movie = Movie(title, category, year, region, director, genre,
+                          tag=tag, rank=rank, douban_id=douban_id, **extra)
             entries.append(movie)
         entries_list.append(entries)
     return items_list, entries_list

@@ -34,7 +34,8 @@ def strip_field(text, default=None):
 
 def extract_year(text):
     # movie year from 1895 to present (20xx)
-    if not text: return 0
+    if not text:
+        return 0
     years = re.findall(r"((1[89]|2[01])\d{2})", text.strip())
     if years:
         return int(years[-1][0])

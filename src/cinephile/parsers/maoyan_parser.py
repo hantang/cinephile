@@ -1,7 +1,7 @@
+import datetime
 import hashlib
 import logging
 import random
-import datetime
 import re
 
 from bs4 import BeautifulSoup
@@ -46,12 +46,13 @@ def parse_maoyan_json_top(page, **kwargs):
 
 
 def get_maoyan_params(user_agent):
-    timestamp = int(datetime.datetime.now().timestamp()*1000)
-    index = random.randint(0,9)
+    timestamp = int(datetime.datetime.now().timestamp() * 1000)
+    index = random.randint(0, 9)
     channel = 40011
     version = 1
     f = "&key=A013F70DB97834C0A5492378BD76C53A"
-    s = f"method=GET&timeStamp={timestamp}&User-Agent={user_agent}&index={index}&channelId={channel}&sVersion={version}" + f
+    s = f"method=GET&timeStamp={timestamp}&User-Agent={user_agent}&index={index}&channelId={channel}&sVersion={version}"
+    s += f
     signkey = hashlib.md5(s.encode("utf8")).hexdigest()
     params = {
         "channelId": channel,
@@ -63,9 +64,10 @@ def get_maoyan_params(user_agent):
     }
     return params
 
+
 def parse_maoyan_detail(page, **kwargs):
     # woff 字体还原 TODO
-    font_map = {}
+    # font_map = {}
     woff = re.findall(r'url\("//([\w\-./]+\.woff)"\)', page)
     if woff:
         woff = woff[-1]
@@ -87,7 +89,7 @@ def parse_maoyan_detail(page, **kwargs):
     title = strip(banner_right.h1.text)
     title2 = strip(banner_right.find(class_="ename").text)
     info1 = [strip(v.text) for v in banner.find("ul").find_all("li")]  # genre, region/length, release_date
-    stats = banner_right.find(class_="movie-stats-container")
+    # stats = banner_right.find(class_="movie-stats-container")
     # todo # 空白字体还原
     score, vote, box = None, None, None
     # score = stats.find(class_="score").find("span", class_="index-left")

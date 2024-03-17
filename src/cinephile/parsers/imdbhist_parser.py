@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 
 from cinephile.utils.movies import Movie, MovieTag
-from cinephile.utils.texts import strip, extract_year
+from cinephile.utils.texts import extract_year
 
 
 def parse_imdb_hist_page_month(page, **kwargs):

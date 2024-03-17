@@ -10,7 +10,6 @@ from cinephile.utils import datetimes
 from cinephile.utils.misc import set_logging
 from cinephile.utils.movies import MovieCluster
 
-
 BASEDIR = ".."
 MISCDIR = "misc"
 SITES = ["douban", "imdb", "mtime", "maoyan", "tmdb"]
@@ -38,7 +37,8 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
         file = None
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site if site in MAIN_SITES else MISCDIR)
-            if not tmpdir.exists(): continue
+            if not tmpdir.exists():
+                continue
             datafiles = list(tmpdir.glob(f"{site}*.json"))
             if datafiles:
                 datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
@@ -55,7 +55,8 @@ def _get_top_stats(datadir, moredir, names, desc="", merge=True):
     data_dict = {}
     urls = []
     for site in names:
-        if site not in file_dict: continue
+        if site not in file_dict:
+            continue
         file = file_dict[site]
         logging.info(f"read file = {file}")
         with open(file) as f:
@@ -85,7 +86,8 @@ def _get_extra_stats(datadir, names):
     files = []
     for site in names:
         tmpdir = Path(datadir, site)
-        if not tmpdir.exists(): continue
+        if not tmpdir.exists():
+            continue
         datafiles = list(tmpdir.glob(f"*.json"))
         if datafiles:
             datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
@@ -117,12 +119,14 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         datafiles = []
         for basedir in [datadir, moredir]:
             tmpdir = Path(basedir, site)
-            if not tmpdir.exists(): continue
+            if not tmpdir.exists():
+                continue
             datafiles.extend(tmpdir.glob(f"{site}*.json"))
         datafiles = sorted(datafiles, reverse=True, key=lambda x: x.stem.split("-v")[-1])
         files = datafiles[:count]
         logging.info(f"files = {len(datafiles)} / {len(files)}, max count = {count}")
-        if len(files) < min_count: continue
+        if len(files) < min_count:
+            continue
 
         rank_col = "rank"
         title_col = "title_markdown"
@@ -188,7 +192,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
             lambda x: any([str(x[v]) != str(x[dates[0]]) for v in dates[1:]]), axis=1)
         logging.info("df_id_rank total = {}, update stats = {}".format(
             df_id_rank.shape, df_id_rank["update"].value_counts()))
-        
+
         df_out = df_id_rank[df_id_rank["update"]]
         df_title = pd.Series(id2titles_dict).reset_index()
         df_title.columns = [id_col, title_col2]
@@ -236,7 +240,8 @@ def update_readme(basedir, moredir, limit=50):
     ]
 
     extra_parts = _get_extra_stats(basedir, EXTRA_SITES)
-    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 3])
+    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"],
+                                 count_list=[5, 3])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
     toc = ["- Table of Contents"]
     texts2 = []
@@ -265,7 +270,8 @@ def update_readme(basedir, moredir, limit=50):
 def update_docs(basedir, moredir):
     dt = str(datetimes.time2zh())
     extra_parts = _get_extra_stats(basedir, EXTRA_SITES)
-    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"], count_list=[5, 3])
+    diff_parts = _get_diff_stats(basedir, moredir, MAIN_SITES, desc_list=["豆瓣Top250调整", "IMDb Top250调整"],
+                                 count_list=[5, 3])
     top_parts = _get_top_stats(basedir, moredir, SITES, desc="电影Top榜单")
     top_csv_dict = _get_top_stats(basedir, moredir, SITES, merge=False)
 
@@ -287,7 +293,7 @@ def update_docs(basedir, moredir):
             for df in df_list:
                 logging.info(f"  data shape={df.shape}")
                 part_texts.append(df.to_markdown())
-        
+
         savefile = Path(docdir, name)
         # if savefile.name == "index.md":
         part_texts = [FRONT_MATTER.strip()] + part_texts
@@ -320,18 +326,18 @@ def update_docs(basedir, moredir):
             main_toc = ["- **目录**"]
             part = diff_parts[MAIN_SITES.index(site)]
             diff_desc, *df_list = part
-            desc_list = [diff_desc, "评分统计","排名调整"]
+            desc_list = [diff_desc, "评分统计", "排名调整"]
             for i in range(len(desc_list)):
                 desc = desc_list[i]
                 indent = 2 if i == 0 else 3
                 hashtag = "#" * indent
-                spaces = " " * 2 * (indent-1)
+                spaces = " " * 2 * (indent - 1)
                 if desc:
                     desc2 = desc.lower().replace(" ", "-")
                     main_texts.append(f"{hashtag} {desc}")
                     main_toc.append(f"{spaces}- [{desc}](#{desc2})")
                 if i > 0:
-                    df = df_list[i-1]
+                    df = df_list[i - 1]
                     logging.info(f"  data shape={df.shape}")
                     main_texts.append(df.to_markdown())
 
@@ -344,22 +350,22 @@ def update_docs(basedir, moredir):
                 f'{{{{ read_csv("{csvfile_path}") }}}}'
             ])
             main_texts = [
-                "# {}".format(SITE_DESC[SITES.index(site)]),
-                f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
-                "\n".join(main_toc),
-                 "---"
-            ] + main_texts
+                             "# {}".format(SITE_DESC[SITES.index(site)]),
+                             f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
+                             "\n".join(main_toc),
+                             "---"
+                         ] + main_texts
             savefile = Path(docdir, f"{site}.md")
             with open(savefile, "w") as f:
                 f.write("\n\n".join(main_texts).strip() + "\n")
 
     if more_texts:
-        more_texts =  [
-            "# 更多高分电影榜单",
-            f"> 更新于：{dt}",
-            "\n".join(more_toc),
-            "---"
-        ] + more_texts
+        more_texts = [
+                         "# 更多高分电影榜单",
+                         f"> 更新于：{dt}",
+                         "\n".join(more_toc),
+                         "---"
+                     ] + more_texts
         savefile = Path(docdir, "more.md")
         with open(savefile, "w") as f:
             f.write("\n\n".join(more_texts).strip() + "\n")

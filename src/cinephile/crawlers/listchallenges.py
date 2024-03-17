@@ -57,7 +57,7 @@ class ListChallengesCrawler(BaseCrawler):
     def process(self, key=None, savedir=None, **kwargs):
         if key == self.key_list:
             self.process_list(kwargs["movie_list_id"], savedir,
-                              page_limit=kwargs.get("page_limit", -1), 
+                              page_limit=kwargs.get("page_limit", -1),
                               page_start=kwargs.get("page_start", 1))
 
     def process_list(self, movie_list_id, savedir=None, page_limit=-1, page_start=1):

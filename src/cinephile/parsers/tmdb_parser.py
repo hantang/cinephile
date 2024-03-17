@@ -1,4 +1,3 @@
-from email.mime import base
 import logging
 
 from bs4 import BeautifulSoup
@@ -144,7 +143,8 @@ def parse_tmdb_page_detail(page, **kwargs):
     reviews = []
     for li in review_part:
         lia = li.a
-        if not lia.span: continue
+        if not lia.span:
+            continue
         val = lia.span.text
         lia.span.decompose()
         key = lia.text

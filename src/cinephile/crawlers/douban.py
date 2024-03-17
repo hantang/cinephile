@@ -459,7 +459,7 @@ class DoubanCrawler(BaseCrawler):
         savename = self.getname(dt, name=f"annual{year}", datetime=False)
         savename_csv = self.getname(dt, name=f"annual{year}", suffix="csv", datetime=False)
         savefile = Path(savedir if savedir else self.savedir, savename)
-        savefile_csv = Path(savedir if savedir else self.savedir, savename_csv)
+        # savefile_csv = Path(savedir if savedir else self.savedir, savename_csv)
         if self.check(savefile) and not self.overwrite:
             return self.error_file_exist, savefile
 
