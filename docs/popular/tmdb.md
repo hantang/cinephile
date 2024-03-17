@@ -1,4 +1,8 @@
-# TMDb Top 电影
+# TMDB 高分电影
+
+## 最新
+
+[TMDB 高分电影](../top250/more.md#tmdb-高分电影)
 
 ## 2023/10 更新
 

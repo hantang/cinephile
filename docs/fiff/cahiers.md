@@ -27,7 +27,7 @@
 电影手册 Cahiers du Cinéma 最具情感瞬间 (2014)
 - (<https://www.douban.com/doulist/11061632/>)
 电影手册 Cahiers du Cinéma 五星满分 (随时更新)
-- (<https://www.douban.com/doulist/146299782/）>
+- (<https://www.douban.com/doulist/146299782/）>)
 
 ## 年度榜单
 

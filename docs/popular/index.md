@@ -3,14 +3,20 @@
 ## 电影评分
 
 - [豆瓣](../douban/index.md)
+  - 最新：[豆瓣电影 Top250](../top250/douban.md)
+  - 最新：[豆瓣电影实时和近期热门榜单](../top250/douban-weekly.md)
 - [IMDb](../imdb/index.md)
+  - 最新：[IMDb电影 Top250](../top250/imdb.md)
 - [TSPDT](../tspdt/index.md) 【榜单加权】
 
 ## 其他
 
 - [时光网 Mtime](mtime.md)
+  - 最新：[时光电影 Top100](../top250/more.md#时光电影-top100)
 - [猫眼 MaoYan](maoyan.md)
-- [TMDb](tmdb.md)
+  - 最新：[猫眼电影 Top 100](../top250/more.md#猫眼电影-top100)
+- [TMDB](tmdb.md)
+  - 最新：[TMDB 高分电影](../top250/more.md#tmdb-高分电影)
 - [俄罗斯 Kinopoisk](kinopoisk.md)
 
 ## 更多
