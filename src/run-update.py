@@ -175,6 +175,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         df_vote.columns = dates
         df_vote = df_vote.fillna(0).astype(int)
         df_vote_mean = df_vote.mean(axis=0)
+
         df_stats = pd.concat([df_score_mean, df_vote_mean], axis=1)
         df_stats.columns = [score_col2, vote_col2]
         df_stats[score_col2] = df_stats[score_col2].apply(lambda x: f"{float(x):.4f}")
@@ -185,6 +186,9 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         df_id_rank[dates] = df_id_rank[dates]
         df_id_rank["update"] = df_id_rank.apply(
             lambda x: any([str(x[v]) != str(x[dates[0]]) for v in dates[1:]]), axis=1)
+        logging.info("df_id_rank total = {}, update stats = {}".format(
+            df_id_rank.shape, df_id_rank["update"].value_counts()))
+        
         df_out = df_id_rank[df_id_rank["update"]]
         df_title = pd.Series(id2titles_dict).reset_index()
         df_title.columns = [id_col, title_col2]
