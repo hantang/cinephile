@@ -190,7 +190,7 @@ def _get_diff_stats(datadir, moredir, names, desc_list, count_list):
         df_title.columns = [id_col, title_col2]
         df_out = df_out.merge(df_title, on=id_col)[[title_col2] + dates]
         df_out[dates] = df_out[dates].fillna(999).astype(int)
-        df_out = df_out.sort_values(dates[::-1])
+        df_out = df_out.sort_values(dates[::-1]).reset_index(drop=True)
         df_out[dates] = df_out[dates].astype("str")
         for dt in dates:
             df_out[dt] = df_out[dt].replace("999", "-").astype("str")
@@ -304,8 +304,9 @@ def update_docs(basedir, moredir):
             desc = SITE_DESC[SITES.index(site)].strip()
             desc2 = desc.lower().replace(" ", "-")
             more_toc.append(f"  - [{desc}](#{desc2})")
+            if len(more_texts) > 0:
+                more_texts.append("---")
             more_texts.extend([
-                "---",
                 "## {}".format(desc),
                 f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
                 f'{{{{ read_csv("{csvfile_path}") }}}}',
@@ -314,15 +315,22 @@ def update_docs(basedir, moredir):
             main_texts = []
             main_toc = ["- **目录**"]
             part = diff_parts[MAIN_SITES.index(site)]
-            desc, *df_list = part
-            if df_list and desc:
-                desc2 = desc.lower().replace(" ", "-")
-                main_texts.append(f"## {desc}")
-                main_toc.append(f"  - [{desc}](#{desc2})")
-            for df in df_list:
-                logging.info(f"  data shape={df.shape}")
-                main_texts.append(df.to_markdown())
-            
+            diff_desc, *df_list = part
+            desc_list = [diff_desc, "评分统计","排名调整"]
+            for i in range(len(desc_list)):
+                desc = desc_list[i]
+                indent = 2 if i == 0 else 3
+                hashtag = "#" * indent
+                spaces = " " * 2 * (indent-1)
+                if desc:
+                    desc2 = desc.lower().replace(" ", "-")
+                    main_texts.append(f"{hashtag} {desc}")
+                    main_toc.append(f"{spaces}- [{desc}](#{desc2})")
+                if i > 0:
+                    df = df_list[i-1]
+                    logging.info(f"  data shape={df.shape}")
+                    main_texts.append(df.to_markdown())
+
             desc = "完整榜单"
             desc2 = desc.lower().replace(" ", "-")
             main_toc.append(f"  - [{desc}](#{desc2})")
@@ -334,7 +342,9 @@ def update_docs(basedir, moredir):
             main_texts = [
                 "# {}".format(SITE_DESC[SITES.index(site)]),
                 f"> 数据更新于：{release_time}\n> \n> 来源: [链接]({source_link})",
-            ] + main_toc + [ "---"]  + main_texts
+                "\n".join(main_toc),
+                 "---"
+            ] + main_texts
             savefile = Path(docdir, f"{site}.md")
             with open(savefile, "w") as f:
                 f.write("\n\n".join(main_texts).strip() + "\n")
@@ -342,8 +352,10 @@ def update_docs(basedir, moredir):
     if more_texts:
         more_texts =  [
             "# 更多高分电影榜单",
-            f"> 更新于：{dt}"
-        ] + more_toc + ["---"] + more_texts
+            f"> 更新于：{dt}",
+            "\n".join(more_toc),
+            "---"
+        ] + more_texts
         savefile = Path(docdir, "more.md")
         with open(savefile, "w") as f:
             f.write("\n\n".join(more_texts).strip() + "\n")
