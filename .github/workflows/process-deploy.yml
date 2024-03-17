@@ -34,7 +34,7 @@ jobs:
         with:
           commit_message: Automated Change
           commit_options: '--no-verify --signoff'
-          file_pattern: '*data/**/.csv data/**/*.json docs/**/*.md'
+          file_pattern: 'data/**/*.csv data/**/*.json docs/**/*.md'
 
   deploy:
     permissions:
