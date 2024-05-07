@@ -1,59 +1,114 @@
-site_name: cinéphile
-site_url: https://hantang.github.io/cinephile
-repo_url: https://github.com/hantang/cinephile
-# edit_uri: tree/main
-site_description: 电影榜单集合
-# docs_dir: docs/
-copyright: Copyright &copy; 2023 Hantang
+# Site information
+site_name: "Cinéphile: Top Films For All"
+site_url: https://hantang.github.io/cinephile/
+site_author: hantang
+site_description: "Top movie collections"
+copyright: Copyright &copy; 2023-2024 Hantang
+repo_name: cinephile
+repo_url: https://github.com/hantang/cinephile/
 
+# Theme
 theme:
   name: material
-  # custom_dir: theme
-  # icon:
-  #   logo: material/book-open-page-variant
+  custom_dir: overrides
   language: "zh"
-  palette:
-    # scheme: dracula
-    primary: deep purple
-    accent: deep purple
+  favicon: assets/favicon.ico
+  icon:
+    logo: material/movie-open
+    repo: fontawesome/brands/square-github
   font:
-    text: Helvetica Neue # Roboto
-    code: Roboto Mono
+    text: Open Sans, Helvetica Neue, Roboto, sans-serif, serif
+    code: Fira Mono, Fira Code, Roboto Mono, monospace
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
   features:
-    - announce.dismiss
+    - navigation.footer
+    - navigation.path
     - navigation.tabs
     - navigation.top
-    - navigation.instant
-    - navigation.indexes
-    - navigation.path
-    - toc.follow
-    - content.tabs.link
-    - search.share
+    - navigation.sections
     - search.highlight
     - search.suggest
-    - content.code.copy
-    - content.code.annotations
-
-nav:
-  - Home:
-      - Films: index.md
-  # - FAQ:
-  # - About:
-  #   - Changelog: about/changelog.md
-  #   - License: about/license.md
+    - toc.follow
+    # - toc.integrate
 
 markdown_extensions:
-  - footnotes
   - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - mdx_truly_sane_lists
   - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://code.jquery.com/jquery-3.7.1.min.js
+  - https://cdn.datatables.net/2.0.2/js/dataTables.min.js
+  - https://cdn.datatables.net/plug-ins/2.0.2/i18n/zh.json
+  - assets/js/datatables.js
+
+extra_css:
+  - https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hantang
 
-# extra_css:
-# extra_javascript:
-
 plugins:
   - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s\-,:!=\[\]()"/\u200b]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - table-reader
+  - minify:
+      minify_html: true
+
+nav:
+  - 首页:
+      - index.md
