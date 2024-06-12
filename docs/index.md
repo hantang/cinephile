@@ -24,12 +24,3 @@ hide:
 ## 电影榜单数据主要来源
 
 分类榜单：
-
-- 电影高分榜单，[参见](top250/index.md)
-- 电影网站榜单，[参见](site/index.md)
-  - [豆瓣电影](site/douban.md)
-  - [IMDb 电影](site/imdb.md)
-  - [TSPDT 电影加权榜单](site/tspdt.md)
-- 专业（电影节、电影机构、电影杂志）榜单，[参见](org/index.md)
-- 国别（地区）榜单，[参见](region/index.md)
-- 影评人和大众片单，[参见](critic/index.md)

@@ -1,0 +1,60 @@
+name: Deploy Site
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  # schedule:
+  #   - cron: "30 23 * * 3,6"
+  repository_dispatch:
+    types: [deploy-event]
+
+jobs:
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    env:
+      DOC_DIR: movie-doc
+      DATA_DIR: movie-data
+
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+      - name: Checkout doc
+        uses: actions/checkout@v4
+        with:
+          repository: hantang/cinephile-doc
+          token: ${{ secrets.GH_TOKEN }}
+          path: ${{ env.DOC_DIR }}
+          fetch-depth: 1
+          ref: ${{ github.ref }}
+      - name: Checkout data
+        uses: actions/checkout@v4
+        with:
+          repository: hantang/cinephile-data
+          token: ${{ secrets.GH_TOKEN }}
+          path: ${{ env.DATA_DIR }}
+          fetch-depth: 1
+          ref: ${{ github.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+      - name: Build Site
+        run: bash ${{ env.DOC_DIR }}/deploy.sh ${{ env.DOC_DIR }} ${{ env.DATA_DIR }}
+      - name: Setup pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      - name: Deploy to GitHub pages
+        id: deployment
+        uses: actions/deploy-pages@v4

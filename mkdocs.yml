@@ -10,9 +10,7 @@ repo_url: https://github.com/hantang/cinephile/
 # Theme
 theme:
   name: material
-  custom_dir: overrides
   language: "zh"
-  favicon: assets/favicon.ico
   icon:
     logo: material/movie-open
     repo: fontawesome/brands/square-github
@@ -56,7 +54,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - mdx_truly_sane_lists
   - tables
   - toc:
       permalink: true
@@ -85,15 +82,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-extra_javascript:
-  - https://code.jquery.com/jquery-3.7.1.min.js
-  - https://cdn.datatables.net/2.0.2/js/dataTables.min.js
-  - https://cdn.datatables.net/plug-ins/2.0.2/i18n/zh.json
-  - assets/js/datatables.js
-
-extra_css:
-  - https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -105,10 +93,8 @@ plugins:
         - en
         - zh
       separator: '[\s\-,:!=\[\]()"/\u200b]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - table-reader
-  - minify:
-      minify_html: true
 
+# MORE-NAV
 nav:
   - 首页:
       - index.md
