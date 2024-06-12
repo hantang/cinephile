@@ -13,5 +13,5 @@
 
 # local
 temp/
-movie-doc/
-movie-data/
+/movie-doc
+/movie-data
