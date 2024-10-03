@@ -1,9 +1,9 @@
 name: Deploy Site
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   # schedule:
   #   - cron: "30 23 * * 3,6"
   repository_dispatch:
@@ -20,35 +20,26 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      DOC_DIR: movie-doc
-      DATA_DIR: movie-data
+      SRC_NAME: cinephile-site
 
     steps:
       - name: Checkout site
         uses: actions/checkout@v4
-      - name: Checkout doc
-        uses: actions/checkout@v4
-        with:
-          repository: hantang/cinephile-doc
-          token: ${{ secrets.GH_TOKEN }}
-          path: ${{ env.DOC_DIR }}
-          fetch-depth: 1
-          ref: ${{ github.ref }}
       - name: Checkout data
         uses: actions/checkout@v4
         with:
-          repository: hantang/cinephile-data
+          repository: hantang/${{ env.SRC_NAME }}
           token: ${{ secrets.GH_TOKEN }}
-          path: ${{ env.DATA_DIR }}
+          path: ${{ env.SRC_NAME }}
           fetch-depth: 1
           ref: ${{ github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
+      # - name: Install Python dependencies
+      #   run: pip install -r requirements.txt
       - name: Build Site
-        run: bash ${{ env.DOC_DIR }}/deploy.sh ${{ env.DOC_DIR }} ${{ env.DATA_DIR }}
+        run: bash ${{ env.SRC_NAME }}/deploy.sh ${{ env.SRC_NAME }}
       - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

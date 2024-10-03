@@ -7,12 +7,15 @@
    - [Top250 合集](https://hantang.github.io/cinephile/top250/)
    - [豆瓣电影 Top250](https://hantang.github.io/cinephile/top250/douban/)
    - [IMDb 电影 Top250](https://hantang.github.io/cinephile/top250/imdb/)
-   - [更多高分电影榜单](https://hantang.github.io/cinephile/top250/more/)
+   - [更多高分电影榜单](https://hantang.github.io/cinephile/top250/more/): 猫眼、时光网、TMDB
    - [豆瓣电影实时和近期热门榜单](https://hantang.github.io/cinephile/top250/douban-weekly/)
-2. 各类电影榜单汇总，主要包括《电影手册》、《视与听》、电影节和协会的电影评选，CC 标准收藏、TSPDT、影迷推荐等。[:link:](https://hantang.github.io/cinephile/org/)
+2. 各类电影榜单汇总，主要包括《电影手册》、《视与听》、电影节和协会的电影评选，CC 标准收藏、TSPDT、影迷推荐等。[:link:](https://hantang.github.io/cinephile/institute/)
 
 ## 榜单更新
 
+- 2024/9
+  - [x] [豆瓣电影鑫像奖（2011-2016 年，已停办）](https://hantang.github.io/cinephile/douban/awards/)
+  - [x] [百度奥斯卡吧百大系列评选](https://hantang.github.io/cinephile/tieba/)
 - 2024/4/13
   - [x] [迷影精神赏](https://hantang.github.io/cinephile/critic/miyingshang/)
   - [x] [影向标（部分）](https://hantang.github.io/cinephile/critic/yingxiangbiao/)
