@@ -1,6 +1,6 @@
 # Cinéphile: Top Movies List
 
-[![Deploy Site](https://github.com/hantang/cinephile/actions/workflows/deploy.yml/badge.svg)](https://github.com/hantang/cinephile/actions/workflows/deploy.yml)
+[![Github Actions](https://github.com/hantang/cinephile/actions/workflows/deploy.yml/badge.svg)](https://github.com/hantang/cinephile/actions/workflows/deploy.yml)
 ![GitHub Commit Badge](https://img.shields.io/github/last-commit/hantang/cinephile.svg)
 
 1. 豆瓣（douban.com）、IMDb（imdb.com）等电影网站 Top 电影定时抓取更新。
@@ -16,6 +16,8 @@
 
 2. [:link: 专业榜单](https://hantang.github.io/cinephile/institute/)，主要包括《电影手册》、《视与听》、电影节和协会的电影评选，CC 标准收藏、TSPDT等。
 3. [:link: 大众榜单](https://hantang.github.io/cinephile/critics/)，影评人的电影榜单、民间大众评选榜单等。
+
+![](./snapshot.jpg)
 
 ## 榜单更新
 
